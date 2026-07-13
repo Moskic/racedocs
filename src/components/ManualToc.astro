@@ -1,0 +1,26 @@
+---
+import type { Manual } from '../lib/manual-schema';
+
+interface Props {
+  sections: Manual['sections'];
+  label: string;
+}
+
+const { sections, label } = Astro.props;
+const titledSections = sections.filter((section) => section.titleZh || section.titleEn);
+---
+
+<nav class="manual-toc" aria-label={label} data-manual-toc>
+  <ol>
+    {
+      titledSections.map((section) => (
+        <li class:list={{ 'toc-subsection': section.level === 3 }}>
+          <a class="language-pair" href={`#${section.id}`} data-section-link={section.id}>
+            <span data-lang="zh">{section.titleZh ?? section.titleEn}</span>
+            <span data-lang="en">{section.titleEn ?? section.titleZh}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+</nav>

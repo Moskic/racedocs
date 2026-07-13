@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+---
+
+<BaseLayout title="页面未找到 · RaceDocs" description="请求的 RaceDocs 页面不存在。" noindex={true}>
+  <SiteHeader hasEnglish={false} />
+  <main class="not-found">
+    <p>404</p>
+    <h1>页面未找到</h1>
+    <p>这个地址不存在，或对应手册尚未发布。</p>
+    <a href="/">返回 RaceDocs 首页</a>
+  </main>
+</BaseLayout>

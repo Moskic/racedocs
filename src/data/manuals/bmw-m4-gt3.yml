@@ -1,0 +1,969 @@
+slug: bmw-m4-gt3
+published: true
+titleZh: BMW M4 GT3 用户手册
+titleEn: BMW M4 GT3 User Manual
+contentType: vehicle-manual
+brand: BMW
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/bmw-m4-gt3/cover.png
+source:
+  type: official
+  title: iRacing BMW M4 GT3 User Manual
+  revision: V3
+  publishedAt: 2024-07-12
+  notice: Complete English transcription imported from the user-provided V3 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/bmw-m4-gt3/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 BMW M4 GT3！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！随着 BMW M4 GT3 提前发布，iRacing 再次强化了对 GT3 内容的投入；这款赛车将于 2021 年首次参加现实世界的比赛。新车于 12 月初的 BMW Sim Live 活动正式亮相，未来几年将在全球各地的 GT3 系列赛中征战，同时也会加入 iRacing 对应的官方系列赛和特别赛事。
+
+      当前 BMW M4 GT3 是预发布版本，将在 2021 第 1 赛季版本更新后的数周内向 iRacing 会员开放。它接替 BMW Z4 GT3，成为 iRacing GT3 车型阵容中的第二款 BMW 赛车。在接下来的几个月里，这款仍在开发中的赛车将通过一系列全面更新，与现实中的最终版本保持一致，之后面向所有会员移除 Beta 标识。本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![BMW M4 GT3 赛车](./assets/bmw-m4-gt3/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the BMW M4 GT3! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car! iRacing’s renewed focus on GT3 content continues with an early release of the BMW M4 GT3 that will make its real-world racing debut in 2021. Revealed at BMW Sim Live in early December, the new car will compete in GT3 series around the world in the coming years, and will also run in iRacing’s corresponding official series and special events.
+      
+      The BMW M4 GT3 is a pre-release version of the BMW M4 GT3 that will be made available to iRacing members in the weeks after the 2021 Season 1 build. The car succeeds the BMW Z4 GT3 as the second BMW to join iRacing’s GT3 offerings. In the coming months, the in-development car will shed the Beta label for all members, receiving a comprehensive set of updates to match its final real-world form. The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/bmw-m4-gt3/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/bmw-m4-gt3/chassis-specifications.png)
+
+      前后悬架均采用独立双叉臂结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 5014 mm / 197.4 in |
+      | 车宽 | 2022 mm / 79.6 in |
+      | 轴距 | 2916 mm / 114.8 in |
+      | 干重 | 1285 kg / 2833 lbs |
+      | 含车手湿重 | 1411 kg / 3111 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/chassis-specifications.png)
+      
+      INDEPENDENT DOUBLE WISHBONE SUSPENSION FRONT AND REAR
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 5014 mm / 197.4 in |
+      | Width | 2022 mm / 79.6 in |
+      | Wheelbase | 2916 mm / 114.8 in |
+      | Dry Weight | 1285 kg / 2833 lbs |
+      | Wet Weight with Driver | 1411 kg / 3111 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/bmw-m4-gt3/power-unit.png)
+
+      涡轮增压直列六缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.0 升 / 182.6 CID |
+      | 扭矩 | 475 lb-ft / 644 Nm |
+      | 功率 | 500 bhp / 373 kW |
+      | 转速上限 | 7000 RPM |
+
+      ![车辆侧视图](./assets/bmw-m4-gt3/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/power-unit.png)
+      
+      TURBO CHARGED INLINE 6
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 3.0 Liters / 182.6 cid |
+      | Torque | 475 lb-ft / 644 Nm |
+      | Power | 500 bhp / 373 kW |
+      | RPM Limit | 7000 |
+      
+      ![Image](./assets/bmw-m4-gt3/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信自己使用随附的基准设置已接近个人驾驶极限后，请继续阅读，开始根据自己的操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/bmw-m4-gt3/getting-started.png)
+
+      启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调整映射控制按键。虽然这些按键并非驾驶车辆所必需，但可以让您在赛道上根据个人驾驶风格快速调整车手辅助系统。
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无须操作离合器。不过，降挡保护会在系统判断当前车速相对于目标挡位过高、可能造成发动机损坏时阻止降挡；此时，降挡指令会被直接忽略。
+
+      建议在仪表板上的换挡提示灯全部亮起红色时升挡。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track. 
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+      
+      Upshifting is recommended when the shift lights on the dashboard are fully illuminated in red.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/bmw-m4-gt3/loading-iracing-setup.png)
+
+      首次进入比赛会话时，车辆会自动载入 iRacing 基准设置。如需尝试 iRacing 预制的其他设置，可以依次进入“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的选项。由于本车会针对不同类型的赛道采用略有不同的底盘和车身配置，因此必须载入同类赛道的设置才能通过技术检查。例如，塔拉迪加的设置在代托纳可以通过检查，但在布里斯托尔很可能无法通过。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/loading-iracing-setup.png)
+      
+      When you first load into a session, the iRacing Baseline setup will be automatically loaded onto the car. If you would like to try any of the other iRacing pre-built options, you may select it by going to Garage &gt; iRacing Setups &gt; and then selecting another option that fits your needs. Because this car uses slightly different chassis and body configurations on different types of tracks, it will be necessary to load a setup from the same track type to pass tech inspection. For example, a setup for Talladega will pass at Daytona, but likely will not pass at Bristol.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+    bodyZh: |+
+      本车的仪表显示屏不可调整，只有一个页面，用于显示关键车辆信息。
+
+    bodyEn: |+
+      The dash display in this car is non-adjustable and features a single page to display critical vehicle information.
+
+  - id: dash-configuration
+    level: 3
+    titleZh: "仪表配置"
+    titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      ![仪表配置](./assets/bmw-m4-gt3/dash-configuration.png)
+
+      | 位置 | 说明 |
+      | --- | --- |
+      | 显示屏左侧 | 左后轮牵引力控制干预指示灯。亮起一盏绿灯表示轻微干预，逐步增加至五盏红灯时表示强烈干预。 |
+      | 显示屏右侧 | 右后轮牵引力控制干预指示灯。亮起一盏绿灯表示轻微干预，逐步增加至五盏红灯时表示强烈干预。 |
+      | 第 1 行左侧 | 左前轮胎压（kPa 或 psi） |
+      | 第 1 行左起第 2 项 | 右前轮胎压（kPa 或 psi） |
+      | 第 1 行中央 | 当前选择的挡位 |
+      | 第 1 行右起第 4 项 | 当前选择的发动机映射 |
+      | 第 1 行右起第 3 项 | 变速箱油温（摄氏度或华氏度） |
+      | 第 1 行右起第 2 项 | 当前选择的牵引力控制映射 |
+      | 第 1 行右侧 | 当前选择的 ABS 映射 |
+      | 第 2 行左侧 | 左后轮胎压（kPa 或 psi） |
+      | 第 2 行左起第 2 项 | 右后轮胎压（kPa 或 psi） |
+      | 第 2 行右侧 | 相对于最佳圈的圈速增益／损失，单位为秒 |
+      | 第 3 行左侧 | 上一圈消耗的燃油量，单位为 kg |
+      | 第 3 行中央 | 车速，单位为 km/h 或 mph |
+      | 第 3 行右侧 | 上一圈圈速 |
+      | 第 4 行左侧 | 剩余燃油量，单位为 kg |
+      | 第 4 行中央 | 当前发动机转速 |
+      | 第 4 行右起第 2 项 | 当前圈数 |
+      | 第 4 行右侧 | 当前制动力分配（%） |
+      | 第 5 行左侧 | 当前发动机冷却液温度（摄氏度或华氏度） |
+      | 第 5 行左起第 2 项 | 当前发动机油温（摄氏度或华氏度） |
+      | 第 5 行左起第 3 项 | 当前变速箱油温（摄氏度或华氏度） |
+      | 第 5 行中央 | 当前安装的轮胎；该轮胎决定 ABS／牵引力控制和维修区限速器的修正参数（不可调整） |
+      | 第 5 行右起第 2 项 | 本次会话最佳圈速 |
+      | 第 5 行右侧 | 当前施加的制动压力（bar 或 psi） |
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/dash-configuration.png)
+      
+      | Location | Description |
+      | --- | --- |
+      | Left of Display | Traction control intervention indicators for the left rear tire. One light (green) indicates minor intervention, increasing to five lights (red) for severe intervention. |
+      | Right of Display | Traction control intervention indicators for the right rear tire. One light (green) indicates minor intervention, increasing to five lights (red) for severe intervention. |
+      | Row 1 Left | Left front tire pressure (kPa or psi) |
+      | Row 1 Second from Left | Right front tire pressure (kPa or psi) |
+      | Row 1 Center | Currently selected gear |
+      | Row 1 Fourth from Right | Currently selected engine map |
+      | Row 1 Third from Right | Gearbox oil temperature (Celsius or Fahrenheit) |
+      | Row 1 Second from Right | Currently selected traction control map |
+      | Row 1 Right | Currently selected ABS map |
+      | Row 2 Left | Left rear tire pressure (kPa or psi) |
+      | Row 2 Second from Left | Right rear tire pressure (kPa or psi) |
+      | Row 2 Right | Gain/loss in seconds to best lap |
+      | Row 3 Left | Fuel used last lap in kg |
+      | Row 3 Center | Speed in km/h or mph |
+      | Row 3 Right | Last lap time |
+      | Row 4 Left | Remaining fuel in kg |
+      | Row 4 Center | Current engine rpm |
+      | Row 4 Second from Right | Current lap |
+      | Row 4 Right | Current brake pressure bias (%) |
+      | Row 5 Left | Current engine water temperature (Celsius or Fahrenheit) |
+      | Row 5 Second from Left | Current engine oil temperature (Celsius or Fahrenheit) |
+      | Row 5 Third from Left | Current gearbox oil temperature (Celsius or Fahrenheit) |
+      | Row 5 Center | Currently fitted tire, which dictates ABS/TC and pit limiter corrections (non-adjustable) |
+      | Row 5 Second from Right | Session best lap time |
+      | Row 5 Right | Current applied brake pressure (bar or psi) |
+
+  - id: pit-limiter
+    level: 3
+    titleZh: "维修区限速器"
+    titleEn: "PIT LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/bmw-m4-gt3/pit-limiter.png)
+
+      启用维修区限速器后，换挡提示灯组的所有 LED 会以品红色闪烁，主仪表屏幕上同时会出现 PSL 提示框。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/pit-limiter.png)
+      
+      When the pit limiter is active the shift light cluster will flash all LEDs in magenta and the PSL box will appear on the main dashboard screen.
+
+  - id: shift-lights
+    level: 3
+    titleZh: "换挡提示灯"
+    titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/bmw-m4-gt3/shift-lights.png)
+
+      | 提示灯 | 发动机转速 |
+      | --- | --- |
+      | 1 盏绿色 | 4800 rpm |
+      | 2 盏绿色 | 5000 rpm |
+      | 1 盏黄色 | 5200 rpm |
+      | 2 盏黄色 | 5400 rpm |
+      | 3 盏黄色 | 5600 rpm |
+      | 4 盏黄色 | 5800 rpm |
+      | 5 盏黄色 | 6000 rpm |
+      | 6 盏黄色 | 6200 rpm |
+      | 1 盏橙色 | 6400 rpm |
+      | 2 盏橙色 | 6600 rpm |
+      | 全部红色 | 6800 rpm |
+
+      ---
+
+      <!-- section-divider page=9 -->
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/shift-lights.png)
+      
+      | Lights | Engine Speed |
+      | --- | --- |
+      | 1 Green | 4800 rpm |
+      | 2 Green | 5000 rpm |
+      | 1 Yellow | 5200 rpm |
+      | 2 Yellow | 5400 rpm |
+      | 3 Yellow | 5600 rpm |
+      | 4 Yellow | 5800 rpm |
+      | 5 Yellow | 6000 rpm |
+      | 6 Yellow | 6200 rpm |
+      | 1 Orange | 6400 rpm |
+      | 2 Orange | 6600 rpm |
+      | All Red | 6800 rpm |
+      
+      ---
+      
+      <!-- section-divider page=9 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的高级用户。调整以下参数并非必要，而且可能显著改变车辆的操控特性。建议所有调整都采用循序渐进的方式，每次只更改一个变量，并在继续调整前先测试效果。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleZh: "轮胎数据"
+    titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/bmw-m4-gt3/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，同时提高抓地力。车速和负荷较高时需要更高胎压，车速和负荷较低时使用较低胎压通常表现更好。为获得最佳性能，应根据赛道特性设置冷态胎压。一般而言，建议先从较低胎压开始，再按需逐步提高。
+
+      #### 热态胎压
+
+      车辆返回维修区后的轮胎气压。冷、热态胎压的差值有助于判断车辆在一个长距离阶段内的平衡变化；负荷较大的轮胎通常会出现更大的胎压升幅。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎使用过程中操控平衡发生变化。因此，应调整冷态胎压，使工作状态相近的轮胎达到工作温度后具有相近胎压。应在连续行驶若干圈、胎压稳定后再分析热态胎压。由于每个长距离阶段的圈数会随赛道长度变化，可先以满油续航圈数的约 50% 作为参考测试长度。
+
+      #### 轮胎温度
+
+      车辆返回维修区后通过高温计测得的轮胎胎体温度。车轮载荷及轮胎在赛道上的工作强度会反映在胎温上，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析赛道行驶中的车轮定位状态，尤其是外倾角。温度在胎面横向的三个区域测量：内侧、中间和外侧。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎剩余的胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；结合胎温数据，还可以分析车辆的操控平衡。剩余胎面厚度与胎温采用相同的区域划分进行测量。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### COLD AIR PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+      
+      #### HOT AIR PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Hot pressures should be analysed once the tires have stabilised after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+      
+      #### TIRE TEMPERATURES
+      
+      Tire carcass temperatures, measured via Pyrometer, once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: "空气动力学计算器"
+    titleEn: "AERO CALCULATOR"
+    bodyZh: |+
+      ![空气动力学计算器](./assets/bmw-m4-gt3/aero-calculator.png)
+
+      空气动力学计算器用于帮助理解调整尾翼设置及前后车高时，空气动力学平衡会如何变化。请务必注意，此处显示的前后车高数值不会对车辆本身产生任何机械调整，但在此更改尾翼角度会实际应用到车辆上。本计算器仅作为参考工具使用。
+
+      #### 动态前车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的前车高，然后将该数值输入“动态前车高”设置。建议使用左前与右前车高的平均值；与只使用单侧车高相比，该数值能更准确地反映当前空气动力学平台姿态。
+
+      #### 动态后车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的后车高，然后将该数值输入“动态后车高”设置。建议使用左后与右后车高的平均值；与只使用单侧车高相比，该数值能更准确地反映当前空气动力学平台姿态。
+
+      #### 尾翼设置
+
+      尾翼设置指尾翼的相对攻角。尾翼是效力强大的空气动力学部件，会显著影响车辆产生的总下压力（以及阻力），同时随着角度增加使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯中的整体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是二者之差，也就是“前后倾角”。要维持相同的整体空气动力学平衡，增大尾翼角度时需要同步增大车辆的前后倾角。
+
+      #### 前轴下压力占比
+
+      该数值显示计算器中指定的尾翼与车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数在当前瞬间的空气动力学平衡。可在弯道或赛段的多个位置分别取值，从而了解制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯越容易出现转向过度。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/aero-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      #### FRONT DOWNFORCE
+      
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/bmw-m4-gt3/front.png)
+
+      #### 防倾杆刀片
+
+      可改变防倾杆（ARB）摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。增加防倾杆摆臂数量会提高前悬架侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手感到转向响应更直接。相反，减少防倾杆摆臂数量会降低悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。此外，还应考虑调软或调硬防倾杆总成对空气动力学的影响：较软的防倾杆会增加车身侧倾，削弱高速弯中对空气动力学平台的控制，并可能导致空气动力学效率下降。共有 11 种防倾杆摆臂组合，范围从 D1-D1（最软）到 D6-D6（最硬）。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束会提高内侧轮胎的滑移，增加正前束则会减少滑移。负前束会降低直线稳定性，但提高入弯响应；前轴正前束会降低入弯响应，但减少前轮热量积聚。
+
+      #### 前制动主缸
+
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸则相反，会提高前制动管路压力，使制动力分配向前移动，并减少所需踏板力。共有 7 种主缸尺寸，范围从 15.9 mm / 0.626” （管路压力最高）到 23.8 mm / 0.937” （管路压力最低）。
+
+      #### 后制动主缸
+
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸则相反，会提高后制动管路压力，使制动力分配向后移动，并减少所需踏板力。共有 7 种主缸尺寸，范围从 15.9 mm / 0.626” （管路压力最高）到 23.8 mm / 0.937” （管路压力最低）。
+
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能；“中”和“高”设置提供更高摩擦力、增强制动效能，但也会增加制动抱死的风险。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整车辆各轮的弹簧座偏移量来改变对角配重。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/front.png)
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Increasing the number of ARB arms will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the number of ARB arms will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. Along with this, the effects of softening or stiffening the ARB assembly in relation to aerodynamics should also be considered, softer ARB assemblies will result in more body roll which will decrease control of the aero platform in high speed corners and potentially lead to a loss in aero efficiency. 11 configurations of ARB arms are available and range from D1-D1 (softest) to D6-D6 (stiffest).
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire while adding toe-in will reduce the slip. Toe-out will decrease straight-line stability but will increase turn-in responsiveness. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, this will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort. 7 Different master cylinder options are available ranging from 15.9 mm / 0.626” (highest line pressure) to 23.8 mm / 0.937” (lowest line pressure).
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, this will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort. 7 Different master cylinder options are available ranging from 15.9 mm / 0.626” (highest line pressure) to 23.8 mm / 0.937” (lowest line pressure).
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+
+  - id: in-car-dials
+    level: 3
+    titleZh: "车内旋钮"
+    titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![车内旋钮](./assets/bmw-m4-gt3/in-car-dials.png)
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力相对于后制动管路更高，制动平衡会向前移动，前轮更容易抱死，但车辆在制动区内可能更稳定。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。请务必注意，不同的前后制动主缸尺寸组合需要配合不同的制动力分配数值；这是因为扩大或缩小前后轴主缸尺寸差异，会使制动管路压力天然偏向前轴或后轴。
+
+      #### ABS 设置
+
+      车辆当前使用的 ABS 映射。ABS 系统共有 12 个挡位，并按不同赛道条件分为三组；数值越低，防止制动抱死的辅助越少，数值越高，辅助越多。设置 1 至 6 适用于干地光头胎，设置 7 至 11 适用于湿地。通常，设置 7 适合小雨；随着条件恶化，需要逐步提高设置，设置 11 适合大雨。设置 12 会完全关闭系统。
+
+      #### 牵引力控制设置（TCC）
+
+      牵引力控制开关的位置决定 ECU 在后轮空转时削减发动机扭矩的积极程度。共有 10 个挡位。设置 1 至 9 从最低干预／灵敏度（挡位 1）逐步增加至最高干预／灵敏度（挡位 9），挡位 10 则完全关闭牵引力控制。建议以挡位 6 作为基准设置。提高干预可减少车轮空转和后胎磨损，但若牵引力控制过度削减发动机扭矩、抑制出弯加速，也可能降低整体性能。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation. It is important to note that differing combinations of master cylinder size will necessitate differing brake pressure bias values, this is because increasing or reducing the split in master cylinder size difference between front and rear axles will produce an inherent forward or rearward bias in brake line pressure.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is running. The ABS system features 12 positions divided into three groups to suit varying track conditions, with lower values providing less assistance and higher values providing more assistance to prevent brake lockup. Settings 1-6 are for slick tires in dry conditions, 7-11 are for wet conditions. Generally, setting 7 will be good for light rain while settings will need to be increased as conditions worsen, with setting 11 being for heavy rain. Setting 12 disables the system completely.
+      
+      #### TRACTION CONTROL SETTING (TCC)
+      
+      The position of the traction control switch determines how aggressively the ecu cuts engine torque in reaction to rear wheel spin. 10 positions are available. Settings 1-9 range from least intervention/sensitivity (position 1) through to highest intervention/ sensitivity (position 9). Position 10 disables the traction control completely. Position 6 is the recommended baseline setting. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前轮设置"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/bmw-m4-gt3/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移量进行调整。
+
+      #### 前车高
+
+      地面到车身底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测得，因此不一定代表车辆实际离地间隙，而是为车辆静止时相对于赛道表面的高度提供可靠基准。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少前轴下压力和总下压力，但过弯时允许前轴发生更多横向载荷转移。相反，降低车高会增加前轴及整车下压力，但减少前轴横向载荷转移。
+
+      #### 弹簧座偏移量
+
+      通过改变弹簧安装位置来调整车辆此轮的车高。增大弹簧座偏移量会降低此轮车高，减小偏移量则会抬高此轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且对角配重不变。也可以成对调整对角位置的弹簧座偏移量（左前与右后、右前与左后），从而改变车辆的静态对角配重。
+
+      #### 弹簧刚度
+
+      此设置决定各轮所安装弹簧的刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能；但也会加大轮胎载荷波动，导致机械抓地力下降。赛道越颠簸，硬弹簧的缺点通常越明显，此时使用较软弹簧反而能改善整体表现。各轮弹簧的变化会同时影响平台的侧倾和俯仰控制；调整各轮弹簧刚度时，还应考虑相应调整防倾杆，以保持原有的前后侧倾刚度分配和整体平衡。降低各轮弹簧刚度时，应提高防倾杆刚度，以维持之前的侧倾刚度。每次更改弹簧刚度后，都必须调整弹簧座偏移量，使车辆恢复到之前的静态车高。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及过弯力引起的车身运动。此处 0 代表最小阻尼（压缩阻力最小），11 代表最大阻尼（压缩阻力最大）。增大低速压缩阻尼，会使制动、变向等瞬态动作中载荷更快地转移至此轮。对于前减振器而言，增大阻尼通常可提高入弯响应，但会降低整体抓地力。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速运动时的表现，通常对应压过路肩或赛道表面颠簸。较高的压缩阻尼会使悬架在这些情况下更硬；较低的数值能让悬架更好地吸收颠簸，但可能削弱车辆在赛道上的空气动力学平台控制。在较平整的赛道上，提高高速压缩阻尼通常能改善表现；在较颠簸或路肩激进的赛道上，降低高速压缩阻尼可牺牲部分平台控制来换取更多机械抓地力。11 为最大阻尼，0 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器以较低速度伸长时的刚度，通常对应车手操作引起的车身运动。较高的回弹数值会抑制减振器伸长，较低的数值则允许减振器更快伸长。提高回弹阻尼能更好地控制空气动力学姿态，但如果悬架无法充分伸长以保持车轮与赛道正确接触，也可能导致车轮卸载。用于调整操控时，提高前减振器低速回弹阻尼会增加加油时的机械性转向不足（但能抑制车头抬升）；降低数值可让前轴更久地保持抓地力，有助于减少转向不足，但会允许分流器抬升更多。前减振器回弹阻尼过高时，车轮可能在赛道表面弹跳而无法持续接触，导致不必要的振荡。11 为最大阻尼（伸长阻力最大），0 为最小阻尼（伸长阻力最小）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过颠簸和路肩后伸长时的表现。较高数值会降低减振器伸长速度，较低数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。11 为最大阻尼，0 为最小阻尼。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
+      #### 主销后倾角
+
+      主销后倾角是从底盘侧面观察时，转向轴线相对于垂直方向的夹角。正主销后倾是指从该视角看转向轴线向后倾斜；后倾角越大，轮胎接地印迹位于转向轴线之后的总拖距也越大。增大主销后倾角，会使机械拖距在车手感受到的转向力中相对于轮胎气动拖距占比更高，从而使整体转向手感更沉，但可能减少来自轮胎的体感反馈。主销后倾角增大还会产生其他影响，例如大幅转动方向盘时动态外倾角变化更明显，这在减速弯或发卡弯中可能有利。此外，主销后倾角越大，过弯时的顶升效应越强，会抬起内侧前轮并压低外侧前轮。该顶升效应也会使内侧后轮卸载，甚至将其抬离地面，从而帮助车辆在急弯中旋转。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### FRONT RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at this corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering this corner of the car while reducing the spring perch offset will raise this corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control; however, they will also result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### LS COMP DAMPING
+      
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. In this case 0 is minimum damping (least resistance to compression) while 11 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers
+      
+      #### HS COMP DAMPING
+      
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. 11 is maximum damping while 0 is minimum damping.
+      
+      #### LS RBD DAMPING
+      
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low speed rebound can increase on-throttle mechanical understeer (but reduce nose lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. 11 is maximum damping (most resistant to extension) while 0 is minimum damping (least resistance to extension).
+      
+      #### HS RBD DAMPING
+      
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. 11 is maximum damping while 0 is minimum damping.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+      
+      #### CASTER
+      
+      Caster is the vertical angle of the steering axis relative to the side view of the chassis. Positive caster angle is where the steering axis is leaned rearwards from this viewpoint, the more caster the larger the total trail of the contact patch behind the steering axis. More caster angle will result in the mechanical trail being a larger proportion of the felt steering weight relative to the tires pneumatic trail. This will result in a heavier overall steering feel but a possible loss in felt feedback from the tire. Increasing caster angle will also have secondary effects such as an increase in dynamic camber when turning the wheel through large steering angles which can be beneficial in chicanes or hairpins. As well as this the more caster angle the greater the jacking effect during cornering which will result in lifting the inside front wheel while lowering the outside front wheel. This jacking effect will also result in the unloading and potentially lifting of the inside rear wheel which can aid in rotation around tight corners.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后轮设置"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/bmw-m4-gt3/rear-corners.png)
+
+      #### 后车高
+
+      地面到车身后部底盘参考点的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。规则允许的最低后车高为 50.0 mm，最高后车高为 95.0 mm。
+
+      #### 弹簧刚度
+
+      与前轴相同，较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能，但代价是机械抓地力下降。这一缺点在低速弯出口激进加油时尤其明显；硬弹簧在此类情况下往往表现较差，在颠簸赛道上更是如此，并会导致明显的牵引力损失。弹簧刚度应根据赛道需求进行匹配，使车辆在高速和低速弯中的操控平衡保持一致。例如，若车辆高速弯转向不足、低速弯转向过度，提高后弹簧刚度可能有益。这样可以使用更低的静态后车高，减少低速过弯时后轴载荷转移，同时在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减少转向不足。每次更改弹簧刚度后，都必须调整弹簧座偏移量，使车辆恢复到之前的静态车高。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及过弯力引起的车身运动。此处 0 代表最小阻尼（压缩阻力最小），11 代表最大阻尼（压缩阻力最大）。增大低速压缩阻尼，会使制动、变向等瞬态动作中载荷更快地转移至此轮，通常也会使车辆在加油时更容易转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速运动时的表现，通常对应压过路肩或赛道表面颠簸。较高的压缩阻尼会使悬架在这些情况下更硬；较低的数值能让悬架更好地吸收颠簸，但可能削弱车辆在赛道上的空气动力学平台控制。在较平整的赛道上，提高高速压缩阻尼通常能改善表现；在较颠簸或路肩激进的赛道上，降低高速压缩阻尼可牺牲部分平台控制来换取更多机械抓地力。11 为最大阻尼，0 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器以较低速度伸长时的刚度，通常对应车手操作引起的车身运动。较高的回弹数值会抑制减振器伸长，较低的数值则允许减振器更快伸长。与前轴相同，较高的回弹刚度能改善空气动力学平台控制和底盘整体响应，但必须避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触。在不发生这种情况的前提下，提高回弹刚度有助于“减缓”施加制动时车辆俯仰姿态的变化，从而提高制动稳定性，并增加收油时的机械性转向不足。11 为最大阻尼（伸长阻力最大），0 为最小阻尼（伸长阻力最小）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过颠簸和路肩后伸长时的表现。较高数值会降低减振器伸长速度，较低数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。11 为最大阻尼，0 为最小阻尼。
+
+      #### 外倾角
+
+      与前轮相同，为提高横向抓地能力，后轮也应采用较大的负外倾角；但后轮负外倾通常会略小于前轮。主要有两个原因：首先，后轮比前轮宽 25 mm（约 1”）；其次，后轮还必须承担驱动车辆前进的任务，因此负外倾带来的横向抓地力收益，需要与纵向牵引性能的损失相权衡。
+
+      #### 前束
+
+      后轮通常采用正前束。增加正前束可提高直线稳定性，但会降低变向时的响应。应尽可能避免过大的正前束，因为这会增加滚动阻力并降低直线速度。
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/rear-corners.png)
+      
+      #### REAR RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance. Minimum legal rear ride height is 50.0 mm while maximum legal rear ride height is 95.0 mm.
+      
+      #### SPRING RATE
+      
+      Similar to at the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### LS COMP DAMPING
+      
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. In this case 0 is minimum damping (least resistance to compression) while 11 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually increasing the car’s tendency to understeer on throttle application.
+      
+      #### HS COMP DAMPING
+      
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. 11 is maximum damping while 0 is minimum damping.
+      
+      #### LS RBD DAMPING
+      
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this can result in the tire losing complete contact with the track surface. Provided this is avoided, an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, increasing braking stability and off-throttle mechanical understeer. 11 is maximum damping (most resistant to extension) while 0 is minimum damping (least resistance to extension).
+      
+      #### HS RBD DAMPING
+      
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. 11 is maximum damping while 0 is minimum damping.
+      
+      #### CAMBER
+      
+      As at the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are 25 mm (~1”) wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      At the rear of the car it is typical to run toe-in. Increasing toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/bmw-m4-gt3/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱内的燃油量。
+
+      #### 防倾杆刀片
+
+      可改变防倾杆（ARB）摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。提高防倾杆总成刚度会增加后悬架侧倾刚度，从而减少车身侧倾，但增加机械性转向过度；这也会使车辆在开始入弯时更快进入稳定受力状态。相反，降低防倾杆总成刚度会减小悬架侧倾刚度，增加车身侧倾但减少机械性转向过度。此时车辆后部的响应感可能减弱，在瞬态动作中尤其明显，但后轴抓地力会提高。共有 7 种防倾杆摆臂组合，范围从 D1-D1（最软）到 D4-D4（最硬）。
+
+      #### 差速器预载
+
+      差速器预载是差速器内部恒定存在的静态锁止力，在加速和减速时均保持不变。提高差速器预载会增强差速器两侧的锁止作用，导致车辆收油时更容易转向不足，激进加油时更容易突然转向过度。提高预载还会使加油与收油之间的操控过渡更平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度，并增强车手信心。通常，当车辆在低速弯出口的驱动力明显不足，和／或在中低速弯中油门与制动转换时旋转过度，应提高差速器预载。
+
+      #### 尾翼角度
+
+      尾翼角度指尾翼的相对攻角。尾翼是一项会显著影响车辆总下压力（以及阻力）的空气动力学装置；角度越大，空气动力学平衡也越向后移动。增大尾翼角度可提升中高速弯中的整体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是二者之差，也就是“前后倾角”。要维持相同的整体空气动力学平衡，增大尾翼角度时需要同步增大车辆的前后倾角。有关尾翼角度变化所需配套车高调整的更多信息，请参阅本指南的“调校提示”章节。
+
+      ---
+
+      <!-- section-divider page=19 -->
+
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-gt3/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Increasing the ARB assembly stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also cause the car “take a set” more quickly at initial turn-in. Conversely, reducing the ARB assembly stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the rear especially in transient movements, but grip across the rear axle will increase. 7 configurations of ARB arms are available and range from D1-D1 (softest) to D4-D4 (stiffest).
+      
+      #### DIFF PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+      
+      #### WING ANGLE
+      
+      The wing angle refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle. More information on height changes for a change in wing angle can be found in the Setup Tips section of this guide.
+      
+      ---
+      
+      <!-- section-divider page=19 -->
+
+  - id: setup-tips
+    level: 2
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+      
+      ---
+
+  - id: setup-recommendations
+    level: 3
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      在 iRacing 设置文件夹中可以找到多种设置：
+
+      “基准”是一套使用 100% 燃油量的设置，仅用于确保车辆能够载入赛道。因此，它应当能在任何燃油量和赛道上通过技术检查（纽博格林北环布局除外，该赛道应使用 `nuburgring_sprint/endurance`），但无法提供极限性能。
+
+      名称带有 ‘_wet’ 的设置已预装湿地胎，并包含适合湿地条件的调整。
+
+      名称带有 ‘_sprint’ 的设置使用 50% 燃油量，操控平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设置面向正式比赛使用。
+
+      名称带有 ‘_endurance’ 的设置使用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。
+
+      名为 ‘fixed’ 的设置用于固定设置系列赛，与 `high_downforce_sprint` 设置相近。
+
+      名称带有 ‘nurburgring_’ 的设置采用 70 mm 最低车高，仅供纽博格林北环各布局使用。
+
+      虽然大多数赛道通常更偏向较高下压力，但在部分场合，减小尾翼角度、降低阻力也可能有利。作为粗略参考，可在以下赛道采用相应的下压力级别：
+
+      | 赛道 | 下压力级别 | 赛道 | 下压力级别 |
+      | --- | --- | --- | --- |
+      | 若泽·卡洛斯·帕切赛道 | 高／中 | 长滩街道赛道 | 高 |
+      | 蒙扎国家赛车场 | 中 | 奥舍斯莱本赛车运动场 | 高 |
+      | 布兰兹哈奇赛道 | 高 | 帕诺拉马山赛道 | 高／中 |
+      | 巴塞罗那-加泰罗尼亚赛道 | 高 | 纽博格林大奖赛赛道 | 高 |
+      | 马尼库尔赛道 | 高／中 | 冈山国际赛道 | 高 |
+      | 斯帕-弗朗科尔尚赛道 | 中 | 美洲公路赛道 | 高／中 |
+      | 勒芒 24 小时赛道 | 中 | 赛百灵国际赛道 | 高 |
+      | 代托纳国际赛道 | 低／中 | 银石赛道 | 高／中 |
+      | 底特律贝尔岛大奖赛赛道 | 高 | 索诺玛赛道 | 高 |
+      | 富士国际赛车场 | 高／中 | 弗吉尼亚国际赛道 | 高／中 |
+      | 匈牙利赛道 | 高 | 沃特金斯格伦国际赛道 | 高／中 |
+      | 印第安纳波利斯赛车场 | 中 | 拉古纳塞卡赛道 | 高 |
+      | 莱姆罗克公园赛道 | 高 | | |
+
+      如果要驾驶表中未列出的赛道，建议先使用高下压力设置，再评估其他下压力级别。判断赛道是否可能受益于降低下压力级别时，车辆达到的最高速度是一个很有用的指标。
+
+      以下界限可作为选择最佳下压力级别的参考，但请注意，赛道设计（高速弯数量等）、海拔和环境条件也会影响判断；海拔越高、环境温度越高，通常越需要较高下压力。
+
+      | 速度 | 下压力级别 |
+      | --- | --- |
+      | 最高速度低于 250 km/h（155 mph） | 高下压力 |
+      | 最高速度为 250 至 270 km/h | 中下压力 |
+      | 最高速度高于 270 km/h（167 mph） | 低至最低下压力 |
+
+    bodyEn: |+
+      In the iRacing Setups folder you will find a variety of setups:
+      
+      Baseline is a 100% fuel load setup which is intended solely for loading the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
+      
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+      
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+      
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+      
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+      
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+      
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+      
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Sebring International Raceway | High |
+      | Daytona International Speedway | Low/Medium | Silverstone Circuit | High/Medium |
+      | Detroit Grand Prix at Belle Isle | High | Sonoma Raceway | High |
+      | Fuji International Speedway | High/Medium | Virginia International Raceway | High/Medium |
+      | Hungaroring | High | Watkins Glen International | High/Medium |
+      | Indianapolis Motor Speedway | Medium | WeatherTech Raceway at Laguna Seca | High |
+      | Lime Rock Park | High | | |
+      
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+      
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+      
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleZh: "空气动力学目标与调整"
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前后轴车高的微小变化都非常敏感，因此调整静态车高、各轮弹簧刚度和尾翼角度等设置时，必须将这一点纳入考虑。
+
+      可获得最大总下压力的最佳配置如下：
+
+      - 尾翼角度：+6
+      - 动态前车高：35.0 mm（±2.5 mm）
+      - 动态后车高：80.0 mm（±2.5 mm）
+
+      车高高于或低于上述目标后，总下压力都会开始下降。以最大下压力为目标时，必须考虑赛道各处的实际状态。例如，如果制动时后车高超过目标值，空气动力学平衡会向前移动，同时总下压力也会降低，形成不稳定状态。在实际驾驶中，正是这些制动阶段的因素决定了车辆能够多接近理论最大下压力目标。
+
+      可获得最低总阻力的最佳配置如下：
+
+      - 尾翼角度：-2
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+
+      在大多数赛道上，车高很难降至足以达到这些低阻力目标，不过在代托纳等赛道上有可能做到。请记住，绝对最低车高受路面状况限制。随着车高接近上述目标，空气阻力会下降；但如果车辆开始触地，总阻力反而可能增加。还需说明的是，这套低阻力设置无论对总下压力还是操控平衡而言都不是最佳方案。
+
+      调整尾翼角度时，应采用以下配套调整来维持空气动力学平衡：
+
+      - 尾翼角度：+1
+      - 前车高：-1.5 mm
+      - 或
+      - 后车高：+4.5 mm
+
+      &nbsp;
+
+      - 尾翼角度：-1
+      - 前车高：+1.5 mm
+      - 或
+      - 后车高：-4.5 mm
+
+      必要时也可以组合调整前后车高（例如后车高难以继续降低时）。这样在减小尾翼角度的同时，可以保留更多总下压力且不破坏平衡，但代价是空气阻力略微增加。
+
+      这些参考值只是建议目标，车辆整体平衡仍应放在首位。在某些情境下，车辆可能无法在这些目标值上获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
+
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+      
+      The optimal configuration for most total downforce is as follows:
+      
+      - Rear Wing Angle: +6
+      - Dynamic Front Ride Height: 35.0 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 80.0 mm (+/-2.5 mm)
+      
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+      
+      The optimal configuration for the least total drag is as follows:
+      
+      - Rear Wing Angle: -2
+      - Dynamic Front Ride Height: 17.5 mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5 mm (+/- 2.5 mm)
+      
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+      
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+      
+      - Rear Wing Angle: +1
+      - Front Ride Height: -1.5 mm
+      - OR
+      - Rear Ride Height: +4.5 mm
+      
+      &nbsp;
+      
+      - Rear Wing Angle: -1
+      - Front Ride Height: +1.5 mm
+      - OR
+      - Rear Ride Height: -4.5 mm
+      
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+      
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+      
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed.
+
+  - id: chassis-adjustments
+    level: 3
+    titleZh: "底盘调整"
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著改变空气动力学平台的俯仰与升沉控制，也不想调整差速器，可以使用前后可调防倾杆。
+
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强。
+
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+      
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: "差速器调整"
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      - 更多摩擦面 -&gt; 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转。
+      - 更少摩擦面 -&gt; 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转。通常更适合斯帕等路面平整且路肩较平的赛道。
+
+      在全油门、持续制动或纯滑行等输入扭矩较高的情况下，摩擦面数量的影响占主导地位。
+
+      预载会叠加到差速器总锁止扭矩上，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不会消失。因此，在差速器输入扭矩接近零的过渡状态下，例如松开油门和／或刚开始拖刹时，预载的影响更为显著。
+
+      - 更高预载 -&gt; 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 更低预载 -&gt; 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度。
+
+    bodyEn: |+
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+      
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+      
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+      
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.

@@ -1,0 +1,177 @@
+media:
+  - name: manual_images
+    label: 手册图片
+    input: src/data/manuals/assets
+    output: ./assets
+    extensions: [svg, webp, jpg, jpeg, png]
+    categories: [image]
+    rename: safe
+
+content:
+  - name: manuals
+    label: 手册
+    type: collection
+    path: src/data/manuals
+    format: yaml
+    filename: "{fields.slug}.yml"
+    view:
+      fields: [titleZh, brand, vehicleClass, published]
+      primary: titleZh
+      sort: [titleZh, brand, vehicleClass, published]
+      search: [titleZh, titleEn, brand, vehicleClass]
+    fields:
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          message: 只允许小写英文、数字和单个连字符
+      - name: published
+        label: 发布
+        type: boolean
+        default: false
+      - name: titleZh
+        label: 中文名称
+        type: string
+        required: true
+      - name: titleEn
+        label: English title
+        type: string
+      - name: contentType
+        label: 内容类型
+        type: select
+        required: true
+        options:
+          values:
+            - name: vehicle-manual
+              label: 车辆手册
+            - name: setup-guide
+              label: 设置指南
+            - name: reference
+              label: 参数参考
+      - name: brand
+        label: 品牌
+        type: string
+        required: true
+      - name: vehicleClass
+        label: 车辆组别
+        type: select
+        required: true
+        options:
+          values: [GT3, GT4, Prototype, Touring]
+      - name: platform
+        label: 模拟平台
+        type: string
+        required: true
+      - name: discipline
+        label: 赛车项目
+        type: select
+        required: true
+        options:
+          values:
+            - name: oval
+              label: 椭圆赛道赛车
+            - name: sports-car
+              label: 跑车类赛车
+            - name: formula-car
+              label: 方程式赛车
+            - name: dirt-oval
+              label: 泥地椭圆赛车
+            - name: legacy-car
+              label: 经典赛车
+            - name: other
+              label: 其他
+      - name: cover
+        label: 封面
+        type: image
+        required: true
+        description: 请在媒体库中进入与 slug 同名的手册目录后选择或上传。
+        options:
+          media: manual_images
+          extensions: [svg, webp, jpg, jpeg, png]
+          rename: safe
+      - name: source
+        label: 来源说明
+        type: object
+        required: true
+        fields:
+          - name: type
+            label: 来源类型
+            type: select
+            required: true
+            options:
+              values:
+                - name: synthetic
+                  label: 自制内容
+                - name: official
+                  label: 官方资料
+          - name: title
+            label: 来源名称
+            type: string
+            required: true
+          - name: revision
+            label: 版本
+            type: string
+          - name: publishedAt
+            label: 发布日期
+            type: date
+            options:
+              format: yyyy-MM-dd
+          - name: notice
+            label: 来源备注
+            type: text
+            required: true
+      - name: sections
+        label: 章节
+        type: object
+        required: true
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{fields.titleZh} · {fields.id}"
+        fields:
+          - name: id
+            label: 章节 ID
+            type: string
+            required: true
+            pattern:
+              regex: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              message: 只允许小写英文、数字和单个连字符
+          - name: level
+            label: 标题层级
+            type: number
+            required: true
+            options:
+              min: 2
+              max: 3
+              step: 1
+          - name: titleZh
+            label: 中文标题
+            type: string
+            required: true
+          - name: titleEn
+            label: English title
+            type: string
+          - name: bodyZh
+            label: 中文正文
+            type: rich-text
+            required: true
+            description: 插入图片前，请在媒体库中进入与手册 slug 同名的目录。
+            options:
+              format: markdown
+              switcher: false
+              media: manual_images
+              extensions: [svg, webp, jpg, jpeg, png]
+              rename: safe
+          - name: bodyEn
+            label: English content
+            type: rich-text
+            description: Before inserting an image, open the media folder matching the manual slug.
+            options:
+              format: markdown
+              switcher: false
+              media: manual_images
+              extensions: [svg, webp, jpg, jpeg, png]
+              rename: safe

@@ -1,0 +1,1044 @@
+slug: acura-nsx-evo22-gt3
+published: true
+titleZh: Acura NSX EVO22 GT3 用户手册
+titleEn: Acura NSX EVO22 GT3 User Manual
+contentType: vehicle-manual
+brand: Acura
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/acura-nsx-evo22-gt3/cover.png
+source:
+  type: official
+  title: iRacing Acura NSX GT3 EVO User Manual
+  revision: V2
+  publishedAt: 2024-12-13
+  notice: Complete English transcription imported from the user-provided adjusted V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/acura-nsx-evo22-gt3/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 ACURA NSX GT3 EVO！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Acura NSX GT3 EVO 赛车](./assets/acura-nsx-evo22-gt3/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the ACURA NSX GT3 EVO! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/acura-nsx-evo22-gt3/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/acura-nsx-evo22-gt3/chassis-specifications.png)
+
+      前悬架采用长短臂双叉臂结构，后悬架采用多连杆结构，配备外置式螺旋弹簧减振器总成
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4800 mm / 189 in |
+      | 车宽 | 2045 mm / 80.5 in |
+      | 轴距 | 2642 mm / 104 in |
+      | 干重 | 1320 kg / 2910 lbs |
+      | 含车手湿重 | 1485 kg / 3274 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/chassis-specifications.png)
+
+      SHORT-LONG ARM DOUBLE WISHBONE FRONT, MULTILINK REAR, WITH OUTBOARD COILOVER SPRINGS
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4800mm / 189in |
+      | Width | 2045mm / 80.5in |
+      | Wheelbase | 2642mm / 104in |
+      | Dry Weight | 1320kg / 2910lbs |
+      | Wet Weight with Driver | 1485kg / 3274lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/acura-nsx-evo22-gt3/power-unit.png)
+
+      双涡轮增压 DOHC V6 发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.5 升 / 213.6 CID |
+      | 转速上限 | 7500 RPM |
+      | 扭矩 | 457 lb-ft / 620 Nm |
+      | 功率 | 520 bhp / 388 kW |
+
+      ![车辆侧视图](./assets/acura-nsx-evo22-gt3/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/power-unit.png)
+
+      TWIN-TURBOCHARGED DOHC V6
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 3.5 Liters / 213.6CID |
+      | RPM Limit | 7500RPM |
+      | Torque | 457lb-ft / 620Nm |
+      | Power | 520bhp / 388kW |
+
+      ![Image](./assets/acura-nsx-evo22-gt3/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/acura-nsx-evo22-gt3/getting-started.png)
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无须操作离合器。不过，降挡保护会在系统判断当前车速相对于目标挡位过高、可能造成发动机损坏时阻止降挡；此时，降挡指令会被直接忽略。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/getting-started.png)
+
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/acura-nsx-evo22-gt3/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+    bodyZh: |+
+      ACURA NSX GT3 EVO 配备数字显示屏，提供两个显示页面。
+
+    bodyEn: |+
+      The ACURA NSX GT3 EVO features a digital display with two display pages.
+
+  - id: race
+    level: 3
+    titleZh: "比赛"
+    titleEn: "RACE"
+    bodyZh: |+
+      ![比赛仪表页面](./assets/acura-nsx-evo22-gt3/dash-race.png)
+
+      | Layout | 说明 |
+      | --- | --- |
+      | Tachometer | 显示屏顶部的条形图显示当前发动机转速 |
+      | Tire Pressures | 显示屏左上角显示四条轮胎各自的实时胎压 |
+      | Remain | 油箱内的剩余燃油量，单位为升或加仑 |
+      | Lap | 上一圈的燃油消耗量，单位为升或加仑 |
+      | Gear Indicator | 当前选择的变速箱挡位 |
+      | Brake Temp Indicators | 挡位指示周围的四个方块分别显示四个制动盘的温度。制动器温度过低时显示为蓝色，处于最佳温度范围时显示为黑色，过热时显示为红色。 |
+      | TCS | 牵引力控制系统设置；系统关闭时变为红色 |
+      | ABS | 防抱死制动系统设置；系统关闭时变为红色 |
+      | Speed | 车辆速度，单位为 km/h 或 mph |
+      | Predicted Lap Time | 当前圈的预计圈速 |
+      | Lap Gain / Loss | 当前圈相对于本次会话最佳圈的实时圈速差 |
+      | TC Cut | 以图形显示牵引力控制系统为抑制车轮空转而进行断火干预的程度 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/dash-race.png)
+
+      | Layout | Description |
+      | --- | --- |
+      | Tachometer | The bar across the top of the display shows the current engine RPM |
+      | Tire Pressures | Live Tire Pressures are shown in the upper left of the display, one for each tire |
+      | Remain | Volume of fuel in the fuel tank, in Liters or Gallons |
+      | Lap | Volume of fuel used on the previous lap, in Liters or Gallons |
+      | Gear Indicator | Currently selected transmission gear |
+      | Brake Temp Indicators | Four squares around the Gear Indicator will display the temperature for the four brake rotors. If the brakes are too cold they will appear in blue, the squares will be black if the brakes are in the optimum temperature range, and if the brakes are overheated they will be red. |
+      | TCS | Traction Control System setting, changes to red when the system is OFF |
+      | ABS | Anti-Lock Brake System setting, changes to red when the system is OFF |
+      | Speed | Vehicle speed in kph or mph |
+      | Predicted Lap Time | Estimated time for the current lap |
+      | Lap Gain / Loss | Current lap time delta relative to the session-best lap |
+      | TC Cut | Graphical display of how much the traction control system is cutting the ignition to control wheelspin. |
+
+  - id: race-2
+    level: 3
+    titleZh: "比赛 2"
+    titleEn: "RACE 2"
+    bodyZh: |+
+      ![比赛 2 仪表页面](./assets/acura-nsx-evo22-gt3/dash-race-2.png)
+
+      “比赛 2”页面在右下角增加了弯中速度指示；当横向加速度超过 1g 时，该区域会显示车辆速度。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/dash-race-2.png)
+
+      The RACE2 page adds a Corner Speed indicator to the bottom right, which displays vehicle speed whenever lateral forces exceed 1g.
+
+  - id: pit-speed-limiter
+    level: 3
+    titleZh: "维修区限速器"
+    titleEn: "PIT SPEED LIMITER"
+    bodyZh: |+
+      ![维修区限速器页面](./assets/acura-nsx-evo22-gt3/pit-speed-limiter.png)
+
+      启用维修区限速器后，显示屏会切换为仅显示维修区道路和进站所需信息的布局。
+
+      | Layout | 说明 |
+      | --- | --- |
+      | Pit Speed Lights | 启用维修区限速器后，所有换挡提示灯会以相同颜色亮起。车速低于维修区限速时，全部 LED 显示绿色；车速超过限速时，全部显示品红色。 |
+      | Pit Time Bar | 进站作业开始后，由左向右推进的图形进度条 |
+      | Gear | 当前选择的变速箱挡位 |
+      | Pit Time | 显示进站期间已经过的时间。进站完成后，该时间会继续保留在屏幕上，直至关闭限速器 |
+      | Speed | 车辆速度，单位为 km/h 或 mph |
+      | Brake Bias | 当前制动力分配设置 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/pit-speed-limiter.png)
+
+      When the Pit Limiter is active, the display will change to a layout that displays only information relevant to pit road and the pit stop.
+
+      | Layout | Description |
+      | --- | --- |
+      | Pit Speed Lights | When the Pit Limiter is active the shift lights will all illuminate in the same color. If the vehicle is traveling below the pit road speed limit, all LEDs will be green. If the speed is over the pit road speed limit, all lights will be magenta. |
+      | Pit Time Bar | Graphical bar that progresses from left to right when the pit stop begins |
+      | Gear | Currently selected transmission gear |
+      | Pit Time | Displays how much time passed during the pit stop. Once the stop is completed this time will stay on the display until the limiter is deactivated |
+      | Speed | Vehicle speed in kph or mph |
+      | Brake Bias | Current Brake Bias setting |
+
+  - id: shift-lights
+    level: 3
+    titleZh: "换挡提示灯"
+    titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/acura-nsx-evo22-gt3/shift-lights.png)
+
+      数字显示屏上方设有一排 10 颗换挡 LED。随着发动机转速升高，LED 会从左向右依次亮起。建议在全部 10 颗 LED 变为红色时升挡。
+
+      需要特别注意的是，转速条大约会在 LED 变红的同时变为红色；但转速条并非换挡指示器，它只会在发动机接近转速限制器时变红。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/shift-lights.png)
+
+      A row of 10 shift LEDs sit above the digital display, illuminating from left to right as engine RPM increases. Shifting is recommended when all 10 LEDs have changed to red.
+
+      It’s important to note that the RPM bar will change to red around the same time the LEDs switch to red, however the RPM bar is not a shift indicator and only turns red when approaching the rev limiter.
+
+  - id: wheel-lock-indicators
+    level: 3
+    titleZh: "车轮抱死指示灯"
+    titleEn: "WHEEL LOCK INDICATORS"
+    bodyZh: |+
+      ![车轮抱死指示灯](./assets/acura-nsx-evo22-gt3/wheel-lock-indicators.png)
+
+      显示屏两侧各有一组 LED，用于指示制动或车辆打转时发生抱死的车轮。品红色 LED 代表前轮，蓝色 LED 代表后轮。轻微抱死时，前轮仅点亮上方 LED，后轮仅点亮下方 LED；严重抱死时，两颗 LED 会同时亮起。
+
+      ---
+
+      <!-- section-divider page=10 -->
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/wheel-lock-indicators.png)
+
+      A set of LEDs on either side of the display illuminate to identify wheel lockups under braking or during a spin. Magenta LEDs represent the front wheels, blue LEDs represent the rear wheels. For minor lockups only the upper LED for the fronts and lower LED for the rear will illuminate, while major lockups will be indicated with both LEDs.
+
+      ---
+
+      <!-- section-divider page=10 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-settings
+    level: 3
+    titleZh: "轮胎设置"
+    titleEn: "TIRE SETTINGS"
+    bodyZh: |+
+      ![轮胎设置](./assets/acura-nsx-evo22-gt3/tire-settings.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压／起始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但滚动阻力更大，升温也更快。较高胎压会让车辆响应略微更灵敏、滚动阻力更小，但抓地力也会降低。通常，高速赛道更适合较高胎压；在更重视机械抓地力的低速赛道，较低胎压往往表现更好。
+
+      #### 上次热态胎压
+
+      车辆完成一个赛道驾驶阶段返回车库后，轮胎压力会显示为热态胎压。冷态与热态胎压之差能很好地反映轮胎在赛道上的负荷和工作强度。承受更多负荷的轮胎会产生更大的压力增幅；留意各条轮胎的压力增幅，并通过调整冷态胎压进行补偿，对优化轮胎性能至关重要。
+
+      #### 上次胎温
+
+      车辆返回车库后会显示轮胎胎体温度（在胎面内部测量）。这些温度能有效判断各条轮胎在赛道上承受的工作量或负荷。内侧与外侧温度之差可用于调整单个车轮的定位参数；中央温度与两侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎面厚度
+
+      胎温下方显示轮胎剩余胎面厚度，以新胎的百分比表示。这些数值有助于判断一套轮胎在更换前还能使用多久，但不像温度那样能直接反映轮胎负荷不足或过度工作的状态。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/tire-settings.png)
+
+      #### TIRE TYPE
+
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for rain and wet track conditions.
+
+      #### COLD PRESSURE / STARTING PRESSURE
+
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+
+      #### LAST HOT PRESSURE
+
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+
+      #### LAST TEMPS
+
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+
+      #### TREAD REMAINING
+
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: aero-balance-calc
+    level: 3
+    titleZh: "空气动力学平衡计算器"
+    titleEn: "AERO BALANCE CALC."
+    bodyZh: |+
+      空气动力学平衡计算器用于帮助理解调整尾翼设置以及前后动态车高时，空气动力学平衡会如何变化。需要注意：此处显示的前后车高数值不会对车辆本身产生任何机械设定变化，但在此修改尾翼位置会实际应用到车辆。该计算器仅供参考。
+
+      ![空气动力学平衡计算器](./assets/acura-nsx-evo22-gt3/aero-balance-calculator.png)
+
+      #### 动态前车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算所需的参考车高。使用计算器时，请通过遥测确定车辆在赛道任意位置的前部车高，再将该数值输入“动态前车高”。建议采用左前与右前车高的平均值；相比单独使用某一侧的车高，这能更准确地反映当前空气动力学平台姿态。
+
+      #### 动态后车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算所需的参考车高。使用计算器时，请通过遥测确定车辆在赛道任意位置的后部车高，再将该数值输入“动态后车高”。建议采用左后与右后车高的平均值；相比单独使用某一侧的车高，这能更准确地反映当前空气动力学平台姿态。
+
+      #### 尾翼设置
+
+      尾翼设置是指尾翼的相对攻角。尾翼是作用显著的空气动力学装置，会大幅影响车辆产生的总下压力（以及阻力）；设置越高，还会使空气动力学平衡越向后移动。提高尾翼设置可增强中高速弯的总体过弯抓地能力，但也会降低直线速度。调整尾翼时，应同时考虑前后车高，尤其是两者之差，即“前后车高差”。提高尾翼角度时，若要维持相同的整体空气动力学平衡，就需要增大车辆的前后车高差。
+
+      空气动力学计算器中的“尾翼设置”与“底盘”页面“后部”区域内的“尾翼设置”直接联动；修改其中一项会自动同步另一项。
+
+      #### 前轴下压力占比
+
+      该数值显示计算器中指定的尾翼与车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数在当前瞬间的空气动力学平衡。可在弯道或赛段的多个位置分别取值，从而了解制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯越容易出现转向过度。
+
+    bodyEn: |+
+      The Aero Balance Calc is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing position here WILL be applied to the car. This calculator is a reference tool ONLY.
+
+      ![Image](./assets/acura-nsx-evo22-gt3/aero-balance-calculator.png)
+
+      #### FRONT RH AT SPEED
+
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+
+      #### REAR RH AT SPEED
+
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+
+      #### WING SETTING
+
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag) produced by the car as well as shifting the aerodynamic balance of the car rearwards with higher settings. Increasing the rear wing setting results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing setting should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+      The Wing Setting value in the Aero Calculator section is tied directly to the Wing Setting in the Chassis page’s Rear section. Changing one will automatically change the other.
+
+      #### FRONT DOWNFORCE
+
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-2
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front-and-brakes
+    level: 3
+    titleZh: "前部与制动系统"
+    titleEn: "FRONT & BRAKES"
+    bodyZh: |+
+      ![前部与制动设置](./assets/acura-nsx-evo22-gt3/front-and-brakes.png)
+
+      #### 防倾杆刀片
+
+      可调整防倾杆（ARB）刀片（或摆臂）来调节悬架的侧倾刚度。此选项改变防倾杆刀片的朝向，并以数字表示以便操作：1 为最软，数值逐步增加时刀片刚度也随之提高，8 为最硬。较硬的刀片设置会提高前轴侧倾刚度并导致更多转向不足；较软的设置会降低前轴侧倾刚度并减轻转向不足。
+
+      #### 总前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束会提高内侧轮胎的滑移并降低直线稳定性；增加正前束则会减少滑移并提高直线稳定性。
+
+      #### 前制动主缸
+
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。
+
+      #### 后制动主缸
+
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。
+
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能，但制动力最容易细腻调制；“中”和“高”设置提供更高摩擦力、增强制动效能，但制动力的可调制空间最小。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/front-and-brakes.png)
+
+      #### ARB BLADES
+
+      The Anti-Roll Bar (ARB) Blades (or arms) can be adjusted to tune the suspension roll stiffness. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with 1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of 8. Stiffer blade settings will increase front roll stiffness and induce understeer while softer blade settings will reduce front roll stiffness and reduce understeer.
+
+      #### TOTAL TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+
+      #### FRONT MASTER CYLINDER
+
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+
+      #### REAR MASTER CYLINDER
+
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+
+      #### BRAKE PADS
+
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing the most modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes but allow the least modulation.
+
+  - id: in-car-adjustments
+    level: 3
+    titleZh: "车内调整"
+    titleEn: "IN-CAR ADJUSTMENTS"
+    bodyZh: |+
+      ![车内调整](./assets/acura-nsx-evo22-gt3/in-car-adjustments.png)
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力相对于后制动管路更高，制动平衡会向前移动，前轮更容易抱死，但车辆在制动区内可能更稳定。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。
+
+      #### 牵引力控制设置
+
+      牵引力控制决定 ECU 在后轮打滑时削减发动机扭矩的积极程度。共有 12 个挡位：设置 2 至 12 从最低干预／灵敏度（挡位 2）逐步增加至最高干预／灵敏度（挡位 12），挡位 1 则完全关闭牵引力控制。与 ABS 设置相同，建议干地使用 2 至 7，湿地使用 8 至 12。提高干预可减少车轮空转和后胎磨损，但若牵引力控制过度削减发动机扭矩、抑制出弯加速，也可能降低整体性能。
+
+      #### 防抱死制动设置
+
+      防抱死制动设置决定制动系统在重刹或低抓地力条件下防止车轮抱死的干预程度。共有 12 个挡位：挡位 1 为关闭，挡位 2 的干预／辅助最低，挡位 12 的辅助最高。建议干地使用 2 至 7，湿地使用 8 至 12。提高干预可降低制动时发生抱死的概率并缩短抱死持续时间；但若相对于可用抓地力设置过高，也可能延长制动距离。
+
+      #### 显示页面
+
+      更改车辆启动时启用的仪表页面。本手册前述仪表配置章节介绍了两个可选页面。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各轮车高来改变对角配重。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/in-car-adjustments.png)
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+
+      #### TRACTION CONTROL SETTING
+
+      The Traction Control determines how aggressively the ECU cuts engine torque in reaction to rear wheel slip. Twelve positions are available: Settings 2-12 range from least intervention/sensitivity (Position 2) to the highest intervention/sensitivity (position 12) while position 1 disables the traction control completely. Like the ABS settings, options 2-7 are recommended for dry conditions and 8-12 are for wet conditions. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
+
+      #### ANTI-LOCK BRAKE SETTING
+
+      The Anti-Lock Brake Setting will alter how much the braking system tries to prevent lockups in heavy braking or low-grip conditions. Twelve positions are available: Position 1 is Off. Position 2 has the least intervention/support, Position 12 has the most support. Positions 2-7 are recommended for use in dry conditions while 8-12 are best for wet conditions. More intervention reduces the possibility of and the duration of lockups during braking but can result in longer braking distances if the system is set too high for the amount of available grip.
+
+      #### DISPLAY PAGE
+
+      Changes the active dash page when the car is started. Two options are available as previously described in the dash configuration section of this manual.
+
+      #### CROSS WEIGHT
+
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners. Cross weight can be adjusted by making changes to the ride heights at each corner of the car.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前轮设置"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/acura-nsx-evo22-gt3/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮车高设置进行调整。
+
+      #### 车高
+
+      地面到前轴中心线处车辆底板的距离。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少前轴下压力和总下压力，但过弯时允许前轴发生更多横向载荷转移。相反，降低前车高会增加前轴及整车下压力，但减少前轴横向载荷转移。
+
+      #### 限位缓冲块间隙
+
+      减振器在限位缓冲块介入前可压缩的行程。限位缓冲块介入会使悬架刚度大幅提高，从而更好地控制空气动力学平台、增强高速弯稳定性，但会降低低速弯和颠簸路面上的抓地力。数值越低，限位缓冲块越早介入；数值越高，介入越晚，悬架也能保持更好的顺应性。
+
+      #### 弹簧刚度
+
+      此设置决定各轮所安装弹簧的刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能；但弹簧过硬会加大轮胎载荷波动，导致机械抓地力下降。赛道越颠簸，硬弹簧的缺点通常越明显，此时使用较软弹簧反而能改善整体表现。各轮弹簧的变化会同时影响平台的侧倾和俯仰控制；调整各轮弹簧刚度时，还应考虑相应调整防倾杆，以保持原有的前后侧倾刚度分配和整体平衡。降低各轮弹簧刚度时，应提高防倾杆刚度，以维持之前的整体侧倾刚度。更换本车弹簧时，弹簧座会自动调整，以维持限位缓冲块间隙，并将车辆恢复到更换前的车高。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the ride height adjustments at each corner
+
+      #### RIDE HEIGHT
+
+      Distance from the ground to the floor of the car at the front axle centerline. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing front ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+
+      #### BUMP RUBBER GAP
+
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in highspeed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension.
+
+      #### SPRING RATE
+
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control. However overly stiff springs will result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously. When changing springs on this car, the spring perch is automatically adjusted to maintain the bump rubber gap and return the car to the ride height it had before the change.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后轮设置"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/acura-nsx-evo22-gt3/rear-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮车高设置进行调整。
+
+      #### 车高
+
+      地面到后轴中心线处车辆底板的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低后车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。Acura NSX 通常采用较小前后车高差的设置时表现最佳。有关最佳车高设置的更多信息，请参阅“空气动力学目标”章节。
+
+      #### 限位缓冲块间隙
+
+      减振器在限位缓冲块介入前可压缩的行程。限位缓冲块介入会使悬架刚度大幅提高，从而更好地控制空气动力学平台、增强高速弯稳定性，但会降低低速弯和颠簸路面上的抓地力。数值越低，限位缓冲块越早介入；数值越高，介入越晚，悬架也能保持更好的顺应性。在代托纳椭圆赛道倾斜弯等高负荷场景中，让后部限位缓冲块介入可防止底盘触地；但刚度增加也会使车辆在过弯或加油时更难控制。
+
+      #### 弹簧刚度
+
+      与前轴相似，较硬的弹簧可缩小高、低负荷状态间的车高变化，通过改善平台控制提高空气动力学性能，但代价是机械抓地力降低。在低速弯大幅加油出弯时，这一影响可能尤其明显；硬弹簧在这类情境下反应较差，在颠簸赛道上尤甚，可能导致显著的牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样既可使用较低的静态后车高，减少低速过弯时的后轴载荷转移，又能在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。更换本车弹簧时，弹簧座会自动调整，以维持限位缓冲块间隙，并将车辆恢复到更换前的车高。
+
+      #### 外倾角
+
+      与前轮一样，为提高横向抓地能力，后轮也适合采用较大的负外倾角；不过，后轮负外倾通常会略小于前轮。主要有两个原因：其一，后轮比前轮更宽；其二，后轮还负责驱动车辆前进，因此外倾角对横向抓地力的增益需要与纵向牵引力的损失进行权衡。
+
+      #### 前束角
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轴通常采用正前束。增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。调整后轮前束时要注意，后轴设置值针对单个车轮，而前轴设置值是左右轮的合计值。因此，把左右后轮的设置值相加后，后轴总前束变化量是前轴同一显示数值所代表变化量的两倍。通常建议保持左右前束值相等，避免车辆出现斜行或不对称操控；但在莱姆罗克公园这类左右弯严重不对称的赛道，采用不对称的后轮前束及其他设置参数可能有性能收益。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/rear-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the ride height adjustments at each corner.
+
+      #### RIDE HEIGHT
+
+      Distance from the ground to the floor of the car at the rear axle centerline. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance. Generally the Acura NSX will perform best with a relatively low-rake setup. See the section on Aerodynamic Targets for more information on setting optimum ride heights.
+
+      #### BUMP RUBBER GAP
+
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in highspeed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension. Engaging the bump rubbers on the rear can keep the chassis off the track in high-load situations to keep the car from bottoming out on the track, like Daytona’s oval banking, but due to the increased stiffness it can make the car more difficult to control when cornering or during throttle application.
+
+      #### SPRING RATE
+
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. When changing springs on this car, the spring perch is automatically adjusted to maintain the bump rubber gap and return the car to the ride height it had before the change.
+
+      #### CAMBER
+
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/acura-nsx-evo22-gt3/rear-settings.png)
+
+      #### 燃油量
+
+      车辆载入赛道时所携带的燃油量。
+
+      #### 防倾杆刀片
+
+      可调整防倾杆（ARB）刀片（或摆臂），对悬架侧倾刚度进行微调。此选项改变防倾杆刀片的朝向，并以数字表示以便操作：1 为最软，数值逐步增加时刀片刚度也随之提高，5 为最硬。较硬的刀片设置会提高后轴侧倾刚度并导致更多转向过度；较软的设置会降低后轴侧倾刚度并减轻转向过度。
+
+      #### 尾翼角度
+
+      尾翼设置是指尾翼的相对攻角。尾翼是重要的空气动力学装置，会显著影响车辆产生的总下压力（以及阻力），并随着角度增加使空气动力学平衡向后移动。增大尾翼角度可提高中高速弯的总体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是两者之差，即“前后车高差”。增大尾翼角度时，若要维持相同的整体空气动力学平衡，就需要增大车辆的前后车高差。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/rear-settings.png)
+
+      #### FUEL LEVEL
+
+      The amount of fuel in the car when loaded into the world.
+
+      #### ARB BLADES
+
+      The Anti-Roll Bar (ARB) Blades (or arms) can be adjusted to fine tune the suspension roll stiffness. This option changes the orientation of the ARB blades and is given a numerical value for simplicity, with 1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of 5. Stiffer blade settings will increase rear roll stiffness and induce oversteer while softer blade settings will reduce rear roll stiffness and reduce oversteer.
+
+      #### REAR WING ANGLE
+
+      The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: gears-differential
+    level: 3
+    titleZh: "齿比／差速器"
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![齿比与差速器设置](./assets/acura-nsx-evo22-gt3/gears-and-differential.png)
+
+      #### 齿比组
+
+      齿比组用于更改变速箱各前进挡的传动比，共有代托纳、FIA 和 IMSA 短齿比三种选项。代托纳齿比组可实现最高的极速，通常仅在代托纳使用。FIA 齿比组适合大多数中、低下压力赛道。IMSA 短齿比组加速性能最佳，但理论极速最低，适合大多数高下压力赛道。
+
+      #### 摩擦面数量
+
+      差速器中的摩擦面数量会影响保持后轴锁止所施加的总作用力。可将其视为一个倍增系数：摩擦面越多，锁止力越大。例如，8 个摩擦面产生的锁止力是 4 个的两倍，而 4 个又是 2 个的两倍。
+
+      #### 差速器预载
+
+      差速器预载是差速器内部恒定存在的静态锁止力，在加速与减速时均保持不变。提高预载会在加速和减速两种工况下增强差速器锁止，导致收油时出现更多转向不足，并在大幅加油时产生更突然的转向过度。提高预载也会使加油与收油之间的车辆响应过渡更平顺，因为差速器锁止力不会降至零；这有助于减轻收油转向过度、增强车手信心。当车辆在低速弯出弯时牵引力明显不足，和／或在中低速弯油门与制动切换期间旋转过度时，通常应提高差速器预载。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/gears-and-differential.png)
+
+      #### GEAR STACK
+
+      Gear Stack changes the forward gear ratios in the transmission. Three choices are available: Daytona, FIA and IMSA Short. Daytona has the highest possible top speed, it should only be needed at Daytona. The FIA gear stack is suitable for most medium and low downforce tracks. The IMSA Short gear stack offers the best acceleration but the lowest potential top speed. It is suited to most high-downforce tracks.
+
+      #### FRICTION FACES
+
+      The number of friction faces in the differential affect how much overall force is applied to keep the rear axle locked. Treat it as a multiplier, adding more faces produces increasingly more locking force. For example, 8 friction faces will have twice the locking force of 4 faces, which will have twice the force of 2 faces.
+
+      #### DIFFERENTIAL PRELOAD
+
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers
+    level: 2
+    titleZh: "减振器"
+    titleEn: "DAMPERS"
+
+  - id: front-dampers
+    level: 3
+    titleZh: "前减振器"
+    titleEn: "FRONT DAMPERS"
+    bodyZh: |+
+      ![前减振器设置](./assets/acura-nsx-evo22-gt3/front-dampers.png)
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时受到的阻力，通常对应转向、制动和油门等车手操作及过弯力引起的车身运动。此处 1 为最小阻尼（压缩阻力最小），16 为最大阻尼（压缩阻力最大）。提高低速压缩阻尼会使瞬态运动（例如制动和变向）期间的载荷更快转移到该车轮位置。对于前减振器，提高阻尼通常能增强入弯响应，但会降低整体抓地力。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速行程时的表现，通常对应压过路肩和赛道表面颠簸。数值越高，悬架在这些情况下越硬；数值越低，悬架越能吸收冲击，但可能削弱车辆在赛道上的空气动力学平台控制。在平整赛道上，增加高速压缩阻尼通常能提高性能；在颠簸赛道或路肩激进的赛道上，减少高速压缩阻尼可牺牲一定平台控制来换取更多机械抓地力。16 为最大阻尼，1 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器低速伸长时的阻力，通常对应车手操作引起的车身运动。较高数值会抑制减振器伸长，较低数值则允许其更快伸长。较高的回弹阻尼能更好地控制空气动力学姿态，但如果悬架无法充分伸长以维持轮胎与赛道的正常接触，也可能使车轮卸载。就操控调校而言，提高前部低速回弹会增加加油时的机械转向不足（但能抑制车头抬升）；较低数值可让前轴抓地力维持更久，帮助减轻转向不足，但会允许前分流器抬升更多。前回弹阻尼过大时，车轮可能在赛道表面弹跳而不是持续贴地，从而产生不必要的振荡。16 为最大阻尼（最抗伸长），1 为最小阻尼（最不抗伸长）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在越过颠簸和路肩后伸长时的表现。较高数值会降低减振器伸长速度，较低数值则允许其更容易伸长。虽然高速回弹对车手操作引起的操控变化影响较小，但设置不当时，同样会影响空气动力学控制并导致失控振荡。16 为最大阻尼，1 为最小阻尼。
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/front-dampers.png)
+
+      #### LOW SPEED COMPRESSION
+
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. In this case 1 is minimum damping (least resistance to compression) while 16 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers.
+
+      #### HIGH SPEED COMPRESSION
+
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. Setting 16 is maximum damping while 1 is minimum damping.
+
+      #### LOW SPEED REBOUND
+
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low speed rebound can increase on-throttle mechanical understeer (but reduce nose lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. Setting 16 is maximum damping (most resistant to extension) while 1 is minimum damping (least resistance to extension).
+
+      #### HIGH SPEED REBOUND
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. Setting 16 is maximum damping while 1 is minimum damping.
+
+  - id: rear-dampers
+    level: 3
+    titleZh: "后减振器"
+    titleEn: "REAR DAMPERS"
+    bodyZh: |+
+      ![后减振器设置](./assets/acura-nsx-evo22-gt3/rear-dampers.png)
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时受到的阻力，通常对应转向、制动和油门等车手操作及过弯力引起的车身运动。此处 1 为最小阻尼（压缩阻力最小），16 为最大阻尼（压缩阻力最大）。提高低速压缩阻尼会使瞬态运动（例如制动和变向）期间的载荷更快转移到该车轮位置；提高后部阻尼通常会增强车辆在加油时的转向不足倾向。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速行程时的表现，通常对应压过路肩和赛道表面颠簸。数值越高，悬架在这些情况下越硬；数值越低，悬架越能吸收冲击，但可能削弱车辆在赛道上的空气动力学平台控制。在平整赛道上，增加高速压缩阻尼通常能提高性能；在颠簸赛道或路肩激进的赛道上，减少高速压缩阻尼可牺牲一定平台控制来换取更多机械抓地力。16 为最大阻尼，1 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器低速伸长时的阻力，通常对应车手操作引起的车身运动。较高数值会抑制减振器伸长，较低数值则允许其更快伸长。与前轴相同，较高的回弹刚度能改善空气动力学平台控制和底盘整体响应，但必须避免减振器回弹过慢、导致轮胎完全脱离赛道表面的情况。在未发生这种问题的前提下，提高回弹刚度有助于“放慢”制动时车辆俯仰姿态的变化，增强制动稳定性并增加收油时的机械转向不足。16 为最大阻尼（最抗伸长），1 为最小阻尼（最不抗伸长）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在越过颠簸和路肩后伸长时的表现。较高数值会降低减振器伸长速度，较低数值则允许其更容易伸长。虽然高速回弹对车手操作引起的操控变化影响较小，但设置不当时，同样会影响空气动力学控制并导致失控振荡。16 为最大阻尼，1 为最小阻尼。
+
+      ---
+
+      <!-- section-divider page=21 -->
+
+    bodyEn: |+
+      ![Image](./assets/acura-nsx-evo22-gt3/rear-dampers.png)
+
+      #### LOW SPEED COMPRESSION
+
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. In this case 1 is minimum damping (least resistance to compression) while 16 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually increasing the cars tendency to understeer on throttle application.
+
+      #### HIGH SPEED COMPRESSION
+
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. Setting 16 is maximum damping while 1 is minimum damping.
+
+      #### LOW SPEED REBOUND
+
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this can result in the tire losing complete contact with the track surface. Provided this is avoided,, an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, increasing braking stability and off-throttle mechanical understeer. Setting 16 is maximum damping (most resistant to extension) while 1 is minimum damping (least resistance to extension).
+
+      #### HIGH SPEED REBOUND
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. Setting 16 is maximum damping while 1 is minimum damping.
+
+      ---
+
+      <!-- section-divider page=21 -->
+
+  - id: setup-tips
+    level: 2
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+      ---
+
+  - id: setup-tips-2
+    level: 3
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      如果设置无法通过技术检查，通常是车高需要调整。可使用车辆前端或后端的车高选项进行调整：向右点击（正值）会提高车高，向左点击（负值）会降低车高。
+
+      在 iRacing 设置文件夹中可以找到多种设置。
+
+      “基准”是一套稳定的最大下压力设置，旨在帮助车手熟悉车辆。因此，它应当能在任何燃油量和赛道上通过技术检查（纽博格林北环布局除外，该赛道应使用 `nuburgring_sprint/endurance`），但无法提供极限性能。
+
+      名称带有 ‘_wet’ 的设置已预装湿地胎，并包含适合湿地条件的调整。
+
+      名称带有 ‘_sprint’ 的设置使用 50% 燃油量，操控平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设置面向正式比赛使用。
+
+      名称带有 ‘_endurance’ 的设置使用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。
+
+      名为 ‘fixed’ 的设置用于固定设置系列赛，与 `high_downforce_sprint` 设置相近。
+
+      名称带有 ‘nurburgring_’ 的设置采用 70 mm 最低车高，仅供纽博格林北环各布局使用。
+
+      虽然大多数赛道通常更偏向较高下压力，但在部分场合，减小尾翼角度、降低阻力也可能有利。作为粗略参考，可在以下赛道采用相应的下压力级别：
+
+      | 赛道 | 下压力级别 | 赛道 | 下压力级别 |
+      | --- | --- | --- | --- |
+      | 若泽·卡洛斯·帕切赛道 | 高／中 | 长滩街道赛道 | 高 |
+      | 蒙扎国家赛车场 | 中 | 奥舍斯莱本赛车运动场 | 高 |
+      | 布兰兹哈奇赛道 | 高 | 帕诺拉马山赛道 | 高／中 |
+      | 巴塞罗那-加泰罗尼亚赛道 | 高 | 纽博格林大奖赛赛道 | 高 |
+      | 马尼库尔赛道 | 高／中 | 冈山国际赛道 | 高 |
+      | 斯帕-弗朗科尔尚赛道 | 中 | 美洲公路赛道 | 高／中 |
+      | 勒芒 24 小时赛道 | 中 | 亚特兰大公路赛道 | 高／中 |
+      | 代托纳国际赛道 | 低 | 赛百灵国际赛道 | 高 |
+      | 底特律贝尔岛大奖赛赛道 | 高 | 银石赛道 | 高／中 |
+      | 富士国际赛车场 | 高／中 | 索诺玛赛道 | 高 |
+      | 匈牙利赛道 | 高 | 弗吉尼亚国际赛道 | 高／中 |
+      | 印第安纳波利斯赛车场 | 中 | 沃特金斯格伦国际赛道 | 高／中 |
+      | 莱姆罗克公园赛道 | 高 | 拉古纳塞卡赛道 | 高 |
+
+      如果要驾驶表中未列出的赛道，建议先使用高下压力设置，再评估其他下压力级别。判断赛道是否可能受益于降低下压力级别时，车辆达到的最高速度是一个很有用的指标。
+
+      以下界限可作为选择最佳下压力级别的参考，但请注意，赛道设计（高速弯数量等）、海拔和环境条件也会影响判断；海拔越高、环境温度越高，通常越需要较高下压力。
+
+      | 速度 | 下压力级别 |
+      | --- | --- |
+      | 最高速度低于 250 km/h（155 mph） | 高下压力 |
+      | 最高速度为 250 至 270 km/h | 中下压力 |
+      | 最高速度高于 270 km/h（167 mph） | 低至最低下压力 |
+
+    bodyEn: |+
+      If the setup fails tech inspection, it is likely the ride heights require adjustment. This is performed by using the ride height adjustments at either end of the car. Right clicks (positive) will increase the ride height while left clicks (negative) will reduce the ride height.
+
+      In the iRacing Setups folder you will find a variety of setups.
+
+      Baseline is a stable, maximum downforce setup that is intended as an introduction to the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
+
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Road Atlanta | High/Medium |
+      | Daytona International Speedway | Low | Sebring International Raceway | High |
+      | Detroit Grand Prix at Belle Isle | High | Silverstone Circuit | High/Medium |
+      | Fuji International Speedway | High/Medium | Sonoma Raceway | High |
+      | Hungaroring | High | Virginia International Raceway | High/Medium |
+      | Indianapolis Motor Speedway | Medium | Watkins Glen International | High/Medium |
+      | Lime Rock Park | High | WeatherTech Raceway at Laguna Seca | High |
+
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleZh: "空气动力学目标与调整"
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前后轴车高的微小变化都非常敏感，因此调整静态车高、各轮弹簧刚度和尾翼角度等设置时，必须将这一点纳入考虑。
+
+      可获得最大总下压力的最佳配置如下：
+
+      - 尾翼角度：+11
+      - 动态前车高：40.0 mm（±2.5 mm）
+      - 动态后车高：55.0 mm（±2.5 mm）
+
+      车高高于或低于上述目标后，总下压力都会开始下降。以最大下压力为目标时，必须考虑赛道各处的实际状态。例如，如果制动时动态后车高超过目标值，空气动力学平衡会向前移动，同时总下压力也会降低，形成不稳定状态。在实际驾驶中，正是这些制动阶段的因素决定了车辆能够多接近理论最大下压力目标。
+
+      可获得最低总阻力的最佳配置如下：
+
+      - 尾翼角度：+1
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+
+      在大多数赛道上，车高很难降至足以达到这些低阻力目标，不过在代托纳等赛道上有可能做到。请记住，绝对最低车高受路面状况限制。随着车高接近上述目标，空气阻力会下降；但如果车辆开始触地，总阻力反而可能增加。还需说明的是，这套低阻力设置无论对总下压力还是操控平衡而言都不是最佳方案。
+
+      调整尾翼角度时，应采用以下配套调整来维持空气动力学平衡：
+
+      - 尾翼角度：+1
+      - 前车高：-1 mm
+      - 或
+      - 后车高：+2 mm
+
+      &nbsp;
+
+      - 尾翼角度：-1
+      - 前车高：+1 mm
+      - 或
+      - 后车高：-2 mm
+
+      必要时也可以组合调整前后车高（例如后车高难以继续降低时）。这样在减小尾翼角度的同时，可以保留更多总下压力且不破坏平衡，但代价是空气阻力略微增加。
+
+      这些参考值只是建议目标，车辆整体平衡仍应放在首位。在某些情境下，车辆可能无法在这些目标值上获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
+
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+
+      The optimal configuration for most total downforce is as follows:
+
+      - Rear Wing Angle: +11
+      - Dynamic Front Ride Height: 40.0 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 55.0 mm (+/-2.5 mm)
+
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+
+      The optimal configuration for the least total drag is as follows:
+
+      - Rear Wing Angle: +1
+      - Dynamic Front Ride Height: 17.5mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5mm (+/- 2.5 mm)
+
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+
+      - Rear Wing Angle: +1
+      - Front Ride Height: -1 mm
+      - OR
+      - Rear Ride Height: +2 mm
+
+      &nbsp;
+
+      - Rear Wing Angle: -1
+      - Front Ride Height: +1 mm
+      - OR
+      - Rear Ride Height: -2 mm
+
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed.
+
+  - id: chassis-adjustments
+    level: 3
+    titleZh: "底盘调整"
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著改变空气动力学平台的俯仰与升沉控制，也不想调整差速器，可以使用前后可调防倾杆。
+
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强。
+
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: "差速器调整"
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      - 更多摩擦面 -&gt; 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转。
+      - 更少摩擦面 -&gt; 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转。通常更适合斯帕等路面平整且路肩较平的赛道。
+
+      在全油门、持续制动或纯滑行等输入扭矩较高的情况下，摩擦面数量的影响占主导地位。
+
+      预载会叠加到差速器总锁止扭矩上，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不会消失。因此，在差速器输入扭矩接近零的过渡状态下，例如松开油门和／或刚开始拖刹时，预载的影响更为显著。
+
+      - 更高预载 -&gt; 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 更低预载 -&gt; 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度。
+
+    bodyEn: |+
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.

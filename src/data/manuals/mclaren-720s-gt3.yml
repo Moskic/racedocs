@@ -1,0 +1,1182 @@
+slug: mclaren-720s-gt3
+published: true
+titleZh: McLaren 720S GT3 EVO 用户手册
+titleEn: McLaren 720S GT3 EVO User Manual
+contentType: vehicle-manual
+brand: McLaren
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/mclaren-720s-gt3/cover.png
+source:
+  type: official
+  title: iRacing McLaren 720S GT3 EVO User Manual
+  revision: V2
+  publishedAt: 2024-09-24
+  notice: Complete English transcription imported from the user-provided V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/mclaren-720s-gt3/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 McLaren 720S GT3！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![McLaren 720S GT3 赛车](./assets/mclaren-720s-gt3/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the McLaren 720S GT3! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/mclaren-720s-gt3/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/mclaren-720s-gt3/chassis-specifications.png)
+
+      #### 前后悬架均采用双叉臂结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4664 mm / 183.6 in |
+      | 车宽 | 2040 mm / 80.3 in |
+      | 轴距 | 2696 mm / 106.1 in |
+      | 干重 | 1300 kg / 2932 lbs |
+      | 含车手湿重 | 1494 kg / 3293 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/chassis-specifications.png)
+      
+      #### DOUBLE-WISHBONE FRONT AND REAR SUSPENSION
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4664 mm / 183.6 in |
+      | Width | 2040 mm / 80.3 in |
+      | Wheelbase | 2696 mm / 106.1 in |
+      | Dry Weight | 1300 kg / 2932 lbs |
+      | Wet Weight with Driver | 1494 kg / 3293 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/mclaren-720s-gt3/power-unit.png)
+
+      双涡轮增压平面曲轴 V8 发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 4.0 升 / 244 CID |
+      | 转速上限 | 8000 RPM |
+      | 扭矩 | 492 lb-ft / 667 Nm |
+      | 功率 | 520 bhp / 387 kW |
+
+      ![车辆侧视图](./assets/mclaren-720s-gt3/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/power-unit.png)
+      
+      TWIN-TURBOCHARGED, FLAT-PLANE V8
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 4.0 Liters / 244 CID |
+      | RPM Limit | 8000 RPM |
+      | Torque | 492 lb-ft / 667 Nm |
+      | Power | 520 bhp / 387 kW |
+      
+      ![Image](./assets/mclaren-720s-gt3/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。
+
+      要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars.
+      
+      To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/mclaren-720s-gt3/getting-started.png)
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无须操作离合器。
+
+      不过，降挡保护会在系统判断当前车速相对于目标挡位过高、可能造成发动机损坏时阻止降挡；此时，降挡指令会被直接忽略。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/getting-started.png)
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction.
+      
+      However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/mclaren-720s-gt3/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。
+
+      若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: "仪表配置"
+    titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      McLaren 720S GT3 EVO 的仪表板内嵌一块三页面数字显示屏，以尽可能清晰地向车手提供信息。可在车库中设置默认显示页面，也可在车内通过“车内调整”黑框切换页面。
+
+    bodyEn: |+
+      The McLaren 720S GT3 EVO features a three-page digital display mounted in the dash to provide information to the driver as clearly as possible. The default display page can be set in the garage and the page can be changed from within the car via the In-Car Adjustments black box.
+
+  - id: race-1-dash-configuration
+    level: 3
+    titleZh: "比赛 1 仪表配置"
+    titleEn: "RACE 1 DASH CONFIGURATION"
+    bodyZh: |+
+      ![比赛 1 仪表页面](./assets/mclaren-720s-gt3/dash-race-1.png)
+
+      | 顶行 | 说明 |
+      | --- | --- |
+      | Map | 当前油门曲线设置。 |
+      | TC1 & TC2 | 当前牵引力控制系统设置。二者联动并显示相同数值。 |
+      | ABS | 当前防抱死制动系统设置。 |
+      | FUNC | 不可用。 |
+
+      | 中央 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速显示在中央列顶部。 |
+      | Gear | 当前选择的挡位显示在屏幕中央。 |
+      | Speed | 车速显示在挡位指示器下方，单位为 km/h 或 mph。 |
+
+      | 左侧信息区 | 说明 |
+      | --- | --- |
+      | Predicted Laptime | 根据此前圈次和当前圈速差实时估算的本圈预计圈速。 |
+      | Lap Delta | 当前圈与此前最佳圈之间的实时圈速差。 |
+      | Last Lap | 上一完成圈的圈速。 |
+      | Laps | 自驶离车库以来完成的圈数。 |
+      | Water Temp | 发动机冷却液温度（°C 或 °F）。颜色编码：蓝色表示温度过低，白色表示处于最佳工作温度，红色表示过热。 |
+      | Battery Volts | 当前电气系统电压。 |
+
+      | 右侧信息区 | 说明 |
+      | --- | --- |
+      | Tire Pressure Text | “Tyre Data”区域中，各轮实时胎压显示为每个车轮位置的上方数值。颜色编码：蓝色表示新装冷胎、胎压偏低，白色表示最佳胎压，红色表示胎压过高。胎压信息区中央的四个方块用于直观表示胎压：蓝色表示低温低压，绿色表示最佳胎压，橙色表示热胎高压。 |
+      | Tire Carcass Temperatures | 实时轮胎胎体温度显示在胎压下方，颜色编码与胎压相同：蓝色表示过冷，白色表示最佳，红色表示过热。 |
+      | Fuel Used | 自驶离维修区以来消耗的燃油量。 |
+      | Fuel Level | 油箱内当前剩余燃油量。 |
+      | Fuel Last Lap | 上一圈消耗的燃油量。 |
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/dash-race-1.png)
+      
+      | Top Row | Description |
+      | --- | --- |
+      | Map | Current Throttle Shape Setting |
+      | TC1 & TC2 | Current Traction Control system setting. These values are linked and will show the same value |
+      | ABS | Current Anti-Lock Brake System setting |
+      | FUNC | Inoperative |
+      
+      | Center | Description |
+      | --- | --- |
+      | RPM | Engine RPM is shown at the top of the center column |
+      | Gear | The currently selected gear is shown in the center of the display |
+      | Speed | Vehicle speed, in kph or mph, is shown beneath the gear indicator |
+      
+      | Left Cluster | Description |
+      | --- | --- |
+      | Predicted Laptime | The estimated lap time for the current lap, shown live, based on previous laps and current time delta. |
+      | Lap Delta | Current time difference between the current lap and the previous best lap time |
+      | Last Lap | The previously completed lap time |
+      | Laps | Number of laps completed since leaving the garage |
+      | Water Temp | Engine cooling water temperature (°C or °F). This value is color-coded: Blue is cold, white is optimum operating temperature, and red is overheated. |
+      | Battery Volts | Current electrical system voltage |
+      
+      | Right Cluster | Description |
+      | --- | --- |
+      | Tire Pressure Text | Within the “Tyre Data” section, the live Tire Pressures are shown as the upper number for each corner of the car. These values are color-coded: Blue is low pressure indicating a new, cold tire, White is optimum pressure, Red is over-inflated. In the center of the Tire Data cluster are four blocks serving as visual representations of the Tire Pressures, Blue is a cold, low-pressure tire, Green is optimum pressure, Orange indicates the high pressure of a hot tire. |
+      | Tire Carcass Temperatures | Live tire carcass temperatures are shown beneath the pressures, color-coded in the same way as the pressures: Blue is too cold, White is optimum, and Red is over-heated. |
+      | Fuel Used | Amount of fuel used since leaving the pits |
+      | Fuel Level | Amount of fuel currently in the fuel tank |
+      | Fuel Last Lap | Amount of fuel used on the previous lap |
+
+  - id: race-2-dash-configuration
+    level: 3
+    titleZh: "比赛 2 仪表配置"
+    titleEn: "RACE 2 DASH CONFIGURATION"
+    bodyZh: |+
+      ![比赛 2 仪表页面](./assets/mclaren-720s-gt3/dash-race-2.png)
+
+      “比赛 2”页面与“比赛 1”页面相似，但右侧信息区改为显示制动系统信息。
+
+      | 右侧信息区 | 说明 |
+      | --- | --- |
+      | Brake Temperature | 右侧显示制动盘温度，单位为 °C 或 °F。颜色编码：蓝色表示温度过低，白色表示处于最佳温度，红色表示过热。 |
+      | Tire Pressure Icons | 与“比赛 1”页面相同，胎压通过彩色方块显示，用于判断轮胎处于最佳胎压、胎压不足或胎压过高状态。 |
+      | Brake Balance F | 当前制动力分配设置，以前轴百分比表示，显示在制动器温度和胎压下方。 |
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/dash-race-2.png)
+      
+      The Race2 page is similar to the Race1 page, however the cluster of information on the right displays information about the braking system.
+      
+      | Right Cluster | Description |
+      | --- | --- |
+      | Brake Temperature | The brake rotor temperatures are shown on the right side, in °C or °F, in color-coded values: Blue is cold, white is optimum, and red is overheated. |
+      | Tire Pressure Icons | As with Race1, the tire pressures are shown as color-coded blocks to convey when the tires are at optimum pressures or are under- or over-inflated. |
+      | Brake Balance F | The current brake bias setting, in % to the front, is shown below the Brake Temperatures and Tire Pressures. |
+
+  - id: quali-dash-configuration
+    level: 3
+    titleZh: "排位仪表配置"
+    titleEn: "QUALI DASH CONFIGURATION"
+    bodyZh: |+
+      ![排位仪表页面](./assets/mclaren-720s-gt3/dash-quali.png)
+
+      “QUALI”页面移除了比赛页面中的大部分信息，只向车手提供排位赛所需的关键内容。顶部和中央区域与比赛页面相同，左右信息区则有所变化。
+
+      | 左侧信息区 | 说明 |
+      | --- | --- |
+      | Time Delta Bar | 当前圈相对于本次会话最快圈的圈速差，同时以图形进度条和条形图下方的数值显示。 |
+      | Last Laptime | 上一完成圈的圈速。 |
+
+      | 右侧信息区 | 说明 |
+      | --- | --- |
+      | Predicted Laptime | 根据此前圈次和当前圈速差实时估算的本圈预计圈速。 |
+      | Tire Pressures | 各轮实时胎压显示在预计圈速下方。颜色编码：蓝色表示胎压不足，白色表示最佳胎压，红色表示胎压过高。 |
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/dash-quali.png)
+      
+      The QUALI page strips away most of the information from the race page and gives the driver only the essentials needed for Qualifying sessions. The upper and center sections are the same as the Race pages, however the left and right clusters change.
+      
+      | Left Cluster | Description |
+      | --- | --- |
+      | Time Delta Bar | The current time delta is shown as both a graphical bar and a value beneath the bar, comparing the current lap against the fastest lap of the session. |
+      | Last Laptime | The lap time for the previously completed lap |
+      
+      | Right Cluster | Description |
+      | --- | --- |
+      | Predicted Laptime | The estimated lap time for the current lap, shown live, based on previous laps and current time delta. |
+      | Tire Pressures | The live Tire Pressures are shown for each corner of the car below the Predicted Lap time. These values are color-coded: Blue is under-inflated, white is optimum pressure, red is over-inflated. |
+
+  - id: pit-speed-limiter
+    level: 3
+    titleZh: "维修区限速器"
+    titleEn: "PIT SPEED LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/mclaren-720s-gt3/pit-speed-limiter.png)
+
+      启用维修区限速器后，显示屏会自动切换到专用页面，帮助车手驶入维修区道路并保持规定车速。
+
+      | 仪表信息 | 说明 |
+      | --- | --- |
+      | Speed | 车速显示在屏幕顶部中央。 |
+      | Tire Pressures | 胎压显示在车速下方、屏幕中央。 |
+      | Gear | 当前选择的挡位显示在底部中央。 |
+      | Brake Balance F | 当前制动力分配设置。 |
+      | Fuel Used | 自车辆上次驶离维修区以来消耗的燃油量。 |
+      | Pitlane Timer | 自启用限速器以来在维修区道路上经过的时间。 |
+      | Coolant Temp | 发动机冷却液温度（°C 或 °F）。颜色编码：蓝色表示温度过低，白色表示处于最佳工作温度，红色表示过热。 |
+      | Screen Color | 限速器页面会根据车速相对于当前赛道维修区限速的差值改变颜色。车速远超限速时屏幕为黑色；超速 10–20 km/h 时变为红色；超速 3–10 km/h 时为黄色；车速符合维修区限速时为绿色。 |
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/pit-speed-limiter.png)
+      
+      Whenever the Pit Speed Limiter is activated the display will automatically switch to a dedicated screen to assist with pit road entry and maintaining pit road speed.
+      
+      | Dash Information | Description |
+      | --- | --- |
+      | Speed | The car’s speed is shown at the top of the screen in the center |
+      | Tire Pressures | Tire pressures are shown below the speed in the center of the display |
+      | Gear | The currently-selected gear is shown at the bottom-center |
+      | Brake Balance F | This shows the current brake bias setting |
+      | Fuel Used | The amount of fuel used since the last time the car left the pits |
+      | Pitlane Timer | Time spent on pit road since the limiter was activated |
+      | Coolant Temp | Engine cooling water temperature (°C or °F). This value is color-coded: Blue is cold, white is optimum operating temperature, and red is overheated. |
+      | Screen Color | The Pit Limiter Screen will change color based on how fast the vehicle is traveling in relation to the pit road speed limit for the current track. If the speed is much faster than the pit road speed limit the screen will be black, changing to red when the speed is 10-20kph above the limit, yellow when the speed is 3-10kph above the limit, and green when the speed matches the pit road speed limit. |
+
+  - id: shift-and-status-lights
+    level: 3
+    titleZh: "换挡与状态指示灯"
+    titleEn: "SHIFT & STATUS LIGHTS"
+    bodyZh: |+
+      数字显示屏周围设有一系列 LED 指示灯，可快速传达车辆状态并辅助车手换挡。
+
+      ![接近换挡转速](./assets/mclaren-720s-gt3/shift-lights-approach.png)
+
+      接近最佳升挡转速时，整组 LED 会亮起蓝色。看到持续亮起的蓝灯后，车手应开始执行升挡。
+
+      ![最佳换挡时机](./assets/mclaren-720s-gt3/shift-lights-optimal.png)
+
+      理想目标是在蓝／红 LED 出现时完成换挡，其中已计入车手反应时间。
+
+      ![状态指示灯](./assets/mclaren-720s-gt3/status-lights.png)
+
+      发生车轮抱死时，显示屏侧面的 LED 会亮起，表示正在抱死的车轮。前轮由黄色 LED 表示，后轮由绿色 LED 表示。牵引力控制系统启用并正在抑制车轮空转时，显示屏左侧会亮起一盏蓝色 LED。
+
+      ---
+
+      <!-- section-divider page=11 -->
+
+    bodyEn: |+
+      Surrounding the digital display is a series of LED lights to quickly convey information about car performance and assist with shifting.
+      
+      ![Image](./assets/mclaren-720s-gt3/shift-lights-approach.png)
+      
+      When the optimum RPM for an upshift is approaching, the entire set of LEDs will illuminate in blue. Drivers should initiate the upshift when these solid blue lights appear.
+      
+      ![Image](./assets/mclaren-720s-gt3/shift-lights-optimal.png)
+      
+      The goal is for the shift to occur when the blue/red LEDs appear (driver reaction time considered).
+      
+      ![Image](./assets/mclaren-720s-gt3/status-lights.png)
+      
+      In the event of wheel lockup, LEDs on the side of the display will illuminate to represent which wheel is locking. Front wheels are indicated by yellow LEDs and rear wheels are indicated by green LEDs. Whenever the Traction Control system is on and attempting to reduce wheelspin, a blue LED will illuminate on the left side of the display.
+      
+      ---
+      
+      <!-- section-divider page=11 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的高级用户。调整以下参数并非必要，而且可能显著改变车辆的操控特性。建议所有调整都采用循序渐进的方式，每次只更改一个变量，并在继续调整前先测试效果。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleZh: "轮胎数据"
+    titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/mclaren-720s-gt3/tire-data.png)
+
+      #### 轮胎类型
+
+      McLaren 720S GT3 可根据天气条件更换轮胎。“干地”选项安装适用于干燥赛道的光头胎，“湿地”选项则安装适用于湿滑赛道表面的有纹湿地胎。
+
+      #### 冷态胎压／起始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力，升温也更快。较高胎压的响应感略强、滚动阻力更小，但抓地力会降低。通常，高速赛道更适合较高胎压；在更强调机械抓地力的低速赛道上，较低胎压表现更好。
+
+      #### 上次热态胎压
+
+      车辆完成一个赛道行驶阶段并返回车库后，轮胎气压会显示为热态胎压。冷、热态胎压的差值有助于判断各条轮胎在赛道上的负荷与工作强度。工作量更大的轮胎会产生更大的胎压升幅；留意哪些轮胎升压更多，并通过调整冷态胎压进行补偿，对于优化轮胎性能至关重要。
+
+      #### 上次胎温
+
+      车辆返回车库后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断各条轮胎在赛道上承受的工作量或负荷。内、外侧温差可用于调整单轮定位；中央温度与外侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎面厚度
+
+      胎温下方以新胎百分比显示剩余胎面厚度。这些数值适合判断一套轮胎还能行驶多远才需要更换，但不像胎温那样能够直接反映轮胎工作不足或过度工作的状态。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Tires fitted to the McLaren 720S GT3 car can be changed based on weather conditions. The Dry option fits a slick tire intended for dry track conditions while the Wet option fits a treaded tire for wet track surfaces.
+      
+      #### COLD PRESSURE / STARTING PRESSURE
+      
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+      
+      #### LAST HOT PRESSURE
+      
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+      
+      #### LAST TEMPS
+      
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: aero-balance-calculator
+    level: 3
+    titleZh: "空气动力学平衡计算器"
+    titleEn: "AERO BALANCE CALCULATOR"
+    bodyZh: |+
+      ![空气动力学平衡计算器](./assets/mclaren-720s-gt3/aero-balance-calculator.png)
+
+      空气动力学计算器用于帮助理解调整尾翼设置及前后车高时，空气动力学平衡会如何变化。请务必注意，此处显示的前后车高数值不会对车辆本身产生任何机械调整，但在此更改尾翼角度会实际应用到车辆上。本计算器仅作为参考工具使用。
+
+      #### 动态前车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的前车高，然后将该数值输入“动态前车高”设置。建议使用左前与右前车高的平均值；与只使用单侧车高相比，该数值能更准确地反映当前空气动力学平台姿态。
+
+      #### 动态后车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的后车高，然后将该数值输入“动态后车高”设置。建议使用左后与右后车高的平均值；与只使用单侧车高相比，该数值能更准确地反映当前空气动力学平台姿态。
+
+      #### 尾翼角度
+
+      尾翼角度指尾翼的相对攻角。尾翼是效力强大的空气动力学部件，会显著影响车辆产生的总下压力（以及阻力），同时随着设置增大使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯中的整体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是二者之差，也就是“前后倾角”。要维持相同的整体空气动力学平衡，增大尾翼角度时需要同步增大车辆的前后倾角。
+
+      空气动力学计算器中的尾翼角度与底盘页面“后部”章节中的尾翼角度直接联动，更改其中一项会自动更改另一项。有关尾翼角度变化所需配套车高调整的信息，请参阅本指南的“调校提示”章节。
+
+      #### 前轴下压力占比
+
+      该数值显示计算器中指定的尾翼与车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数在当前瞬间的空气动力学平衡。可在弯道或赛段的多个位置分别取值，从而了解制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯越容易出现转向过度。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/aero-balance-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR WING ANGLE
+      
+      The Rear Wing Angle refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag) produced by the car as well as shifting the aerodynamic balance of the car rearwards with higher settings. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as “rake”. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      The Wing Angle value in the Aero Calculator section is tied directly to the Wing Angle in the Chassis page’s Rear section. Changing one will automatically change the other. Information on how much to adjust ride heights for a given wing angle change can be found in the Setup Tips section of this guide.
+      
+      #### FRONT DOWNFORCE
+      
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/mclaren-720s-gt3/front.png)
+
+      #### 防倾杆刀片
+
+      除了改变防倾杆尺寸外，还可调整防倾杆刀片（或摆臂）来进一步调节悬架的侧倾刚度。此选项改变防倾杆刀片的朝向，并以数字表示以便操作：#1 为最软，数值逐步增加时刀片刚度也随之提高，#8 为最硬。较硬的刀片设置会提高前轴侧倾刚度并导致更多转向不足；较软的设置会降低前轴侧倾刚度并减轻转向不足。
+
+      #### 总前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束（车库中显示为负值）。在前轴增加负前束会提高内侧轮胎的滑移并降低直线稳定性；增加正前束则会减少滑移并提高直线稳定性。
+
+      #### 前制动主缸
+
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。
+
+      #### 后制动主缸
+
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。
+
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能，但制动力最容易细腻调制；“中”和“高”设置提供更高摩擦力、增强制动效能，但制动力的可调制空间最小。
+
+      #### 耐力赛灯组
+
+      夜间比赛时可安装一组额外前灯，以改善车手视野。安装此灯组不会影响车辆性能。
+
+      #### 夜间 LED 灯带颜色
+
+      设置车门上方 LED 灯带的颜色，用于在夜间比赛中快速识别车辆。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/front.png)
+      
+      #### ARB BLADES
+      
+      The ARB Blades (or arms) can be adjusted to further tune the suspension roll stiffness beyond only the ARB size setting. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with #1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of #8. Stiffer blade settings will increase front roll stiffness and induce understeer while softer blade settings will reduce front roll stiffness and reduce understeer.
+      
+      #### TOTAL TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out (Negative value in the garage) is the opposite. On the front end, adding toe-out will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing the most modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes but allow the least modulation.
+      
+      #### ENDURANCE LIGHTS
+      
+      An extra set of headlights can be installed for night racing to increase driver visibility. Installing these will not affect vehicle performance.
+      
+      #### NIGHT LED STRIP COLOR
+      
+      The color of LED strips over the doors. These are used to quickly identify the car during a night session.
+
+  - id: in-car-dials
+    level: 3
+    titleZh: "车内旋钮"
+    titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![车内旋钮](./assets/mclaren-720s-gt3/in-car-dials.png)
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力相对于后制动管路更高，制动平衡会向前移动，前轮更容易抱死，但车辆在制动区内可能更稳定。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。
+
+      #### ABS 设置
+
+      车辆当前使用的 ABS 映射。共有 12 个挡位：挡位 2 的干预／辅助最低，挡位 12 的辅助最高，挡位 1 则完全关闭 ABS。提高干预可降低制动时发生抱死的概率并缩短抱死持续时间；但若相对于可用抓地力设置过于激进，也可能延长制动距离。干地应使用设置 2 至 7，湿地使用 8 至 12。可通过车内 ABS 设置进行调整。
+
+      #### 牵引力控制设置
+
+      牵引力控制设置决定 ECU 在后轮空转时削减发动机扭矩的积极程度。共有 12 个挡位：设置 2 至 12 从最低干预／灵敏度（挡位 2）逐步增加至最高干预／灵敏度（挡位 12），挡位 1 则完全关闭牵引力控制。提高干预可减少车轮空转和后胎磨损，但若牵引力控制过度削减发动机扭矩、抑制出弯加速，也可能降低整体性能。设置 2 至 7 用于干地，设置 8 至 12 用于湿地。可通过车内 TC1 与 TC2 设置进行调整；目前 TC1 和 TC2 相互联动。
+
+      #### 油门曲线设置
+
+      油门曲线设置决定发动机扭矩输出相对于油门踏板位置的线性程度。共有三个设置。设置 1 为完全线性，即给定百分比的油门输入会产生相近百分比的最大扭矩（例如 25% 油门 = 25% 扭矩）。设置 2 更激进，在较小油门开度下提供更多扭矩。设置 3 的扭矩请求更渐进，适合湿地条件。
+
+      #### 显示页面
+
+      更改当前选择的数字仪表页面。本手册前述仪表配置章节介绍了三个可选页面。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各轮车高来改变对角配重。
+
+      #### 车头配重
+
+      前轴两条轮胎所承受的载荷占车辆总重的百分比。该数值始终包含车手重量，并会随燃油量变化。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tires but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is using. Twelve positions are available: Position 2 has the least intervention/support, position 12 has the most support, and position 1 disables the ABS completely. More intervention reduces the possibility of and the duration of lockups during braking but can result in longer braking distances if the system is set overly aggressive for the amount of available grip. Positions 2-7 should be used in dry conditions with settings 8-12 for wet conditions. This can be changed in-car via the ABS setting.
+      
+      #### TRACTION CONTROL SETTING
+      
+      The Traction Control setting determines how aggressively the ECU cuts engine torque in reaction to rear wheel spin. Twelve positions are available: Settings 2-12 range from least intervention/sensitivity (position 2) to the highest intervention/sensitivity (position 12) while position 1 disables the traction control completely. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration. Settings 2-7 are for dry conditions and settings 8-12 are for wet conditions. This can be changed in-car via the TC1 & TC2 settings. TC1 and TC2 are linked together at this time.
+      
+      #### THROTTLE SHAPE SETTING
+      
+      The Throttle Shape setting will adjust how linear the torque delivery is based on the throttle pedal position. There are 3 Settings. Setting 1 is purely linear, with a given percent of throttle delivering a similar percentage of max torque (25% throttle = 25% torque). Setting 2 is more aggressive; it provides more torque at low throttle angles. Setting 3 is a gradual torque request for use in wet conditions.
+      
+      #### DISPLAY PAGE
+      
+      Changes the currently selected digital dash page. Three options are available as previously described in the dash configuration section of this manual.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners. Cross weight can be adjusted by making changes to the ride heights at each corner of the car.
+      
+      #### NOSE WEIGHT
+      
+      The percentage of total vehicle weight on the front two tires. This always includes the driver. It varies with fuel load.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前轮设置"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/mclaren-720s-gt3/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮车高设置进行调整。
+
+      #### 车高
+
+      地面到前轴中心线处车辆底板的距离。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少前轴下压力和总下压力，但过弯时允许前轴发生更多横向载荷转移。相反，降低前车高会增加前轴及整车下压力，但减少前轴横向载荷转移。
+
+      #### 限位缓冲块间隙
+
+      减振器在限位缓冲块介入前可压缩的行程。限位缓冲块介入会使悬架刚度大幅提高，从而更好地控制空气动力学平台、增强高速弯稳定性，但会降低低速弯和颠簸路面上的抓地力。数值越低，限位缓冲块越早介入；数值越高，介入越晚，悬架也能保持更好的顺应性。
+
+      #### 弹簧刚度
+
+      此设置决定各轮所安装弹簧的刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能；但弹簧过硬会加大轮胎载荷波动，导致机械抓地力下降。赛道越颠簸，硬弹簧的缺点通常越明显，此时使用较软弹簧反而能改善整体表现。各轮弹簧的变化会同时影响平台的侧倾和俯仰控制；调整各轮弹簧刚度时，还应考虑相应调整防倾杆，以保持原有的前后侧倾刚度分配和整体平衡。降低各轮弹簧刚度时，应提高防倾杆刚度，以维持之前的整体侧倾刚度。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the ride height adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to the floor of the car at the front axle centerline. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing front ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### BUMP RUBBER GAP
+      
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in high-speed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control. However overly stiff springs will result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后轮设置"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/mclaren-720s-gt3/rear-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重通过改变各轮车高进行调整。
+
+      #### 车高
+
+      地面到后轴中心线处车辆底板下表面的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。
+
+      #### 限位缓冲块间隙
+
+      减振器在限位缓冲块介入前可压缩的行程。限位缓冲块介入会使悬架刚度大幅提高，从而更好地控制空气动力学平台、增强高速弯稳定性，但会降低低速弯和颠簸路面上的抓地力。数值越低，限位缓冲块越早介入；数值越高，介入越晚，悬架也能保持更好的顺应性。让后限位缓冲块在高负荷状态下介入，可以避免底盘触地，例如在代托纳行驶时；但刚度提高也会使车辆在过弯或踩下油门时更难控制。
+
+      #### 弹簧刚度
+
+      与前轴相同，较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能，但代价是机械抓地力下降。这一缺点在低速弯出口激进加油时尤其明显；硬弹簧在此类情况下往往表现较差，在颠簸赛道上更是如此，并会导致明显的牵引力损失。弹簧刚度应根据赛道需求进行匹配，使车辆在高速和低速弯中的操控平衡保持一致。例如，若车辆高速弯转向不足、低速弯转向过度，提高后弹簧刚度可能有益。这样可以使用更低的静态后车高，减少低速过弯时后轴载荷转移，同时在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减少转向不足。
+
+      #### 外倾角
+
+      与前轮相同，为提高横向抓地能力，后轮也应采用较大的负外倾角；但后轮负外倾通常会略小于前轮。主要有两个原因：首先，后轮比前轮更宽；其次，后轮还必须承担驱动车辆前进的任务，因此负外倾带来的横向抓地力收益，需要与纵向牵引性能的损失相权衡。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轮通常采用正前束。增加正前束可提高直线稳定性，但会降低变向时的响应。应尽可能避免过大的正前束，因为这会增加滚动阻力并降低直线速度。调整后轮前束时请注意，此处数值分别对应每个车轮，而前轴显示的是左右合计值。因此，将后轮左右前束相加后，每个后轮单独数值的影响强度是前轴合计调整的两倍。通常建议左右前束保持一致，以避免车辆斜行或出现不对称操控；不过在莱姆罗克公园等高度不对称的赛道上，后轮前束及其他设置参数采用不对称配置可能带来性能收益。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made by changing individual corner ride heights.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to the bottom surface of the car’s floor at the rear axle centerline. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### BUMP RUBBER GAP
+      
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in high-speed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension. Engaging the bump rubbers on the rear can keep the chassis off the track in high-load situations to keep the car from bottoming out on the track, like Daytona, but due to the increased stiffness it can make the car more difficult to control when cornering or during throttle application.
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer.
+      
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/mclaren-720s-gt3/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱内的燃油量。
+
+      #### 防倾杆刀片
+
+      除了改变防倾杆尺寸外，还可调整防倾杆刀片（或摆臂）来进一步调节悬架的侧倾刚度。此选项改变防倾杆刀片的朝向，并以数字表示以便操作：#1 为最软，数值逐步增加时刀片刚度也随之提高，#7 为最硬。较硬的刀片设置会提高后轴侧倾刚度并导致更多转向过度；较软的设置会降低后轴侧倾刚度并减轻转向过度。
+
+      #### 尾翼角度
+
+      尾翼角度指尾翼的相对攻角。尾翼是一项会显著影响车辆总下压力（以及阻力）的空气动力学装置；角度越大，空气动力学平衡也越向后移动。增大尾翼角度可提升中高速弯中的整体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是二者之差，也就是“前后倾角”。要维持相同的整体空气动力学平衡，增大尾翼角度时需要同步增大车辆的前后倾角。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### ARB BLADES
+      
+      The ARB Blades (or arms) can be adjusted to further tune the suspension roll stiffness beyond only the ARB size setting. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with #1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of #7. Stiffer blade settings will increase rear roll stiffness and induce oversteer while softer blade settings will reduce rear roll stiffness and reduce oversteer.
+      
+      #### REAR WING ANGLE
+      
+      The Wing Angle refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: gears-differential
+    level: 3
+    titleZh: "齿比／差速器"
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![齿比与差速器](./assets/mclaren-720s-gt3/gears-and-differential.png)
+
+      #### 齿比组
+
+      齿比组设置会改变变速箱各前进挡齿比。共有两种选择：FIA 和 IMSA Short。FIA 齿比组适用于大多数赛道，包括代托纳和勒芒等高速低阻力赛道。IMSA Short 齿比组适用于部分最高速度低于 240 km/h 的极高下压力赛道。
+
+      #### 摩擦面数量
+
+      差速器内的摩擦面数量会影响保持后轴锁止所施加的总作用力。摩擦面数量相当于锁止力的倍增系数，增加摩擦面会逐步提高锁止力。例如，8 个摩擦面的锁止力是 4 个的两倍，而 4 个的锁止力又是 2 个的两倍。
+
+      #### 差速器预载
+
+      差速器预载是差速器内部恒定存在的静态锁止力，在加速和减速时均保持不变。提高差速器预载会增强差速器两侧的锁止作用，导致车辆收油时更容易转向不足，激进加油时更容易突然转向过度。提高预载还会使加油与收油之间的操控过渡更平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度，并增强车手信心。通常，当车辆在低速弯出口的驱动力明显不足，和／或在中低速弯中油门与制动转换时旋转过度，应提高差速器预载。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/gears-and-differential.png)
+      
+      #### GEAR STACK
+      
+      Gear Stack changes the forward gear ratios in the transmission. Two choices are available: FIA and IMSA Short. The FIA gear stack is suited to the majority of tracks, including high-speed/low-drag tracks like Daytona and Le Mans. The IMSA Short gear stack is suited to some very high-downforce tracks with top speeds under 240kph.
+      
+      #### FRICTION FACES
+      
+      The number of friction faces in the differential affect how much overall force is applied to keep the rear axle locked. Treated as a multiplier, adding more faces produces increasingly more locking force. For example, 8 friction faces will have twice the locking force of 4 faces, which will have twice the force of 2 faces.
+      
+      #### DIFFERENTIAL PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers
+    level: 2
+    titleZh: "减振器"
+    titleEn: "DAMPERS"
+
+  - id: front-dampers
+    level: 3
+    titleZh: "前减振器"
+    titleEn: "FRONT DAMPERS"
+    bodyZh: |+
+      ![前减振器](./assets/mclaren-720s-gt3/front-dampers.png)
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及过弯力引起的车身运动。在 McLaren 720S GT3 EVO 上，设置 40 为最小阻尼（压缩阻力最小），设置 0 为最大阻尼（压缩阻力最大）。增大低速压缩阻尼，会使制动、变向等瞬态动作中载荷更快地转移至此轮。对于前减振器而言，增大阻尼通常可提高入弯响应，但会降低整体抓地力。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速运动时的表现，通常对应压过路肩或赛道表面颠簸。更大的实际压缩阻尼会使悬架在这些情况下更硬；较小的阻尼能让悬架更好地吸收颠簸，但可能削弱车辆在赛道上的空气动力学平台控制。在较平整的赛道上，提高高速压缩阻尼通常能改善表现；在较颠簸或路肩激进的赛道上，降低高速压缩阻尼可牺牲部分平台控制来换取更多机械抓地力。本车调节数值方向相反：设置 0 为最大阻尼，设置 50 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器以较低速度伸长时的刚度，通常对应车手操作引起的车身运动。较大的实际回弹阻尼会抑制减振器伸长，较小的阻尼则允许减振器更快伸长。提高回弹阻尼能更好地控制空气动力学姿态，但如果悬架无法充分伸长以保持车轮与赛道正确接触，也可能导致车轮卸载。用于调整操控时，提高前减振器低速回弹阻尼会增加加油时的机械性转向不足（但能抑制车头抬升）；降低阻尼可让前轴更久地保持抓地力，有助于减少转向不足，但会允许分流器抬升更多。前减振器回弹阻尼过高时，车轮可能在赛道表面弹跳而无法持续接触，导致不必要的振荡。本车设置 0 为最大阻尼（伸长阻力最大），设置 40 为最小阻尼（伸长阻力最小）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过颠簸和路肩后伸长时的表现。较大的实际阻尼会降低减振器伸长速度，较小的阻尼则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。本车设置 0 为最大阻尼，设置 50 为最小阻尼。
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/front-dampers.png)
+      
+      #### LS COMP DAMPING
+      
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. On the McLaren 720S GT3 EVO, setting 40 is minimum damping (least resistance to compression) while setting 0 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers.
+      
+      #### HS COMP DAMPING
+      
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. Setting 0 is maximum damping while Setting 50 is minimum damping.
+      
+      #### LS RBD DAMPING
+      
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low speed rebound can increase on-throttle mechanical understeer (but reduce nose lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. Setting 0 is maximum damping (most resistant to extension) while Setting 40 is minimum damping (least resistance to extension).
+      
+      #### HS RBD DAMPING
+      
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. Setting 0 is maximum damping while Setting 50 is minimum damping.
+
+  - id: rear-dampers
+    level: 3
+    titleZh: "后减振器"
+    titleEn: "REAR DAMPERS"
+    bodyZh: |+
+      ![后减振器](./assets/mclaren-720s-gt3/rear-dampers.png)
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器以较低速度压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及过弯力引起的车身运动。在 McLaren 720S GT3 EVO 上，设置 40 为最小阻尼（压缩阻力最小），设置 0 为最大阻尼（压缩阻力最大）。增大低速压缩阻尼，会使制动、变向等瞬态动作中载荷更快地转移至此轮，通常也会使车辆在加油时更容易转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速运动时的表现，通常对应压过路肩或赛道表面颠簸。更大的实际压缩阻尼会使悬架在这些情况下更硬；较小的阻尼能让悬架更好地吸收颠簸，但可能削弱车辆在赛道上的空气动力学平台控制。在较平整的赛道上，提高高速压缩阻尼通常能改善表现；在较颠簸或路肩激进的赛道上，降低高速压缩阻尼可牺牲部分平台控制来换取更多机械抓地力。本车设置 0 为最大阻尼，设置 50 为最小阻尼。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器以较低速度伸长时的刚度，通常对应车手操作引起的车身运动。较大的实际回弹阻尼会抑制减振器伸长，较小的阻尼则允许减振器更快伸长。与前轴相同，较高的回弹刚度能改善空气动力学平台控制和底盘整体响应，但必须避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触。在不发生这种情况的前提下，提高回弹刚度有助于“减缓”施加制动时车辆俯仰姿态的变化，从而提高制动稳定性，并增加收油时的机械性转向不足。本车设置 0 为最大阻尼（伸长阻力最大），设置 40 为最小阻尼（伸长阻力最小）。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过颠簸和路肩后伸长时的表现。较大的实际阻尼会降低减振器伸长速度，较小的阻尼则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。本车设置 0 为最大阻尼，设置 50 为最小阻尼。
+
+      ---
+
+      <!-- section-divider page=22 -->
+
+    bodyEn: |+
+      ![Image](./assets/mclaren-720s-gt3/rear-dampers.png)
+      
+      #### LS COMP DAMPING
+      
+      Low speed compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. On the McLaren 720S GT3 EVO, Setting 40 is minimum damping (least resistance to compression) while Setting 0 is maximum damping (most resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually increasing the car’s tendency to understeer on throttle application.
+      
+      #### HS COMP DAMPING
+      
+      High speed compression affects the shock’s behavior in high speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. Setting 0 is maximum damping while Setting 50 is minimum damping.
+      
+      #### LS RBD DAMPING
+      
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this can result in the tire losing complete contact with the track surface. Provided this is avoided, an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, increasing braking stability and off-throttle mechanical understeer. Setting 0 is maximum damping (most resistant to extension) while Setting 40 is minimum damping (least resistance to extension).
+      
+      #### HS RBD DAMPING
+      
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. Setting 0 is maximum damping while Setting 50 is minimum damping.
+      
+      ---
+      
+      <!-- section-divider page=22 -->
+
+  - id: setup-tips
+    level: 2
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+      
+      ---
+
+  - id: setup-recommendations
+    level: 3
+    titleZh: "调校提示"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      “基准”是一套使用 50% 燃油量的设置，仅用于确保车辆能够载入赛道。因此，它应当能在任何燃油量和赛道上通过技术检查（纽博格林北环布局除外，该赛道应使用 `nuburgring_sprint/endurance`），但无法提供极限性能。
+
+      名称带有 ‘_wet’ 的设置已预装湿地胎，并包含适合湿地条件的调整。
+
+      名称带有 ‘_sprint’ 的设置使用 50% 燃油量，操控平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设置面向正式比赛使用。
+
+      名称带有 ‘_endurance’ 的设置使用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。
+
+      名为 ‘fixed’ 的设置用于固定设置系列赛，与 `high_downforce_sprint` 设置相近。
+
+      名称带有 ‘nurburgring_’ 的设置采用 70 mm 最低车高，仅供纽博格林北环各布局使用。
+
+      虽然大多数赛道通常更偏向较高下压力，但在部分场合，减小尾翼角度、降低阻力也可能有利。作为粗略参考，可在以下赛道采用相应的下压力级别：
+
+      | 赛道 | 下压力级别 | 赛道 | 下压力级别 |
+      | --- | --- | --- | --- |
+      | 若泽·卡洛斯·帕切赛道 | 高／中 | 长滩街道赛道 | 高 |
+      | 蒙扎国家赛车场 | 中 | 奥舍斯莱本赛车运动场 | 高 |
+      | 布兰兹哈奇赛道 | 高 | 帕诺拉马山赛道 | 高／中 |
+      | 巴塞罗那-加泰罗尼亚赛道 | 高 | 纽博格林大奖赛赛道 | 高 |
+      | 马尼库尔赛道 | 高／中 | 冈山国际赛道 | 高 |
+      | 斯帕-弗朗科尔尚赛道 | 中 | 美洲公路赛道 | 高／中 |
+      | 勒芒 24 小时赛道 | 中 | 赛百灵国际赛道 | 高 |
+      | 代托纳国际赛道 | 低／中 | 银石赛道 | 高／中 |
+      | 底特律贝尔岛大奖赛赛道 | 高 | 索诺玛赛道 | 高 |
+      | 富士国际赛车场 | 高／中 | 弗吉尼亚国际赛道 | 高／中 |
+      | 匈牙利赛道 | 高 | 沃特金斯格伦国际赛道 | 高／中 |
+      | 印第安纳波利斯赛车场 | 中 | 拉古纳塞卡赛道 | 高 |
+      | 莱姆罗克公园赛道 | 高 | | |
+
+      如果要驾驶表中未列出的赛道，建议先使用高下压力设置，再评估其他下压力级别。判断赛道是否可能受益于降低下压力级别时，车辆达到的最高速度是一个很有用的指标。
+
+      以下界限可作为选择最佳下压力级别的参考，但请注意，赛道设计（高速弯数量等）、海拔和环境条件也会影响判断；海拔越高、环境温度越高，通常越需要较高下压力。
+
+      | 速度 | 下压力级别 |
+      | --- | --- |
+      | 最高速度低于 250 km/h（155 mph） | 高下压力 |
+      | 最高速度为 250 至 270 km/h | 中下压力 |
+      | 最高速度高于 270 km/h（167 mph） | 低至最低下压力 |
+
+    bodyEn: |+
+      Baseline is a 50% fuel load setup which is intended solely for loading the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
+      
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+      
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+      
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+      
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+      
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+      
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+      
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Sebring International Raceway | High |
+      | Daytona International Speedway | Low/Medium | Silverstone Circuit | High/Medium |
+      | Detroit Grand Prix at Belle Isle | High | Sonoma Raceway | High |
+      | Fuji International Speedway | High/Medium | Virginia International Raceway | High/Medium |
+      | Hungaroring | High | Watkins Glen International | High/Medium |
+      | Indianapolis Motor Speedway | Medium | WeatherTech Raceway at Laguna Seca | High |
+      | Lime Rock Park | High | | |
+      
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+      
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+      
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleZh: "空气动力学目标与调整"
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前后轴车高的微小变化都非常敏感，因此调整静态车高、各轮弹簧刚度和尾翼角度等设置时，必须将这一点纳入考虑。
+
+      可获得最大总下压力的最佳配置如下：
+
+      - 尾翼角度：+10.5
+      - 动态前车高：35.0 mm（±2.5 mm）
+      - 动态后车高：70.0 mm（±2.5 mm）
+
+      车高高于或低于上述目标后，总下压力都会开始下降。以最大下压力为目标时，必须考虑赛道各处的实际状态。例如，如果制动时后车高超过目标值，空气动力学平衡会向前移动，同时总下压力也会降低，形成不稳定状态。在实际驾驶中，正是这些制动阶段的因素决定了车辆能够多接近理论最大下压力目标。
+
+      可获得最低总阻力的最佳配置如下：
+
+      - 尾翼角度：+0.5
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+
+      在大多数赛道上，车高很难降至足以达到这些低阻力目标，不过在代托纳等赛道上有可能做到。请记住，绝对最低车高受路面状况限制。随着车高接近上述目标，空气阻力会下降；但如果车辆开始触地，总阻力反而可能增加。还需说明的是，这套低阻力设置无论对总下压力还是操控平衡而言都不是最佳方案。
+
+      调整尾翼角度时，应采用以下配套调整来维持空气动力学平衡：
+
+      - 尾翼角度：+1
+      - 前车高：-1.5 mm
+      - 或
+      - 后车高：+4.5 mm
+
+      &nbsp;
+
+      - 尾翼角度：-1
+      - 前车高：+1.5 mm
+      - 或
+      - 后车高：-4.5 mm
+
+      上述调整敏感度并非在整个空气动力学图谱中都相同，也不适用于所有尾翼角度。因此，强烈建议使用“轮胎／空气动力学”选项卡中的空气动力学平衡计算器：
+
+      - 从一套已知高速空气动力学平衡良好的设置开始。
+      - 记录前轴下压力占比和动态车高。
+      - 根据所需的总下压力变化增大或减小尾翼角度。
+      - 调整动态后车高，直至达到目标前轴下压力占比。
+      - 将维持平衡所需的动态后车高差值，应用到“底盘”选项卡中的静态后车高。
+
+      必要时也可以组合调整前后车高（例如后车高难以继续降低时）。这样在减小尾翼角度的同时，可以保留更多总下压力且不破坏平衡，但代价是空气阻力略微增加。
+
+      这些参考值只是建议目标，车辆整体平衡仍应放在首位。在某些情境下，车辆可能无法在这些目标值上获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
+
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+      
+      The optimal configuration for most total downforce is as follows:
+      
+      - Rear Wing Angle: +10.5
+      - Dynamic Front Ride Height: 35.0 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 70.0 mm (+/-2.5 mm)
+      
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+      
+      The optimal configuration for the least total drag is as follows:
+      
+      - Rear Wing Angle: +0.5
+      - Dynamic Front Ride Height: 17.5 mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5 mm (+/- 2.5 mm)
+      
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+      
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+      
+      - Rear Wing Angle: +1
+      - Front Ride Height: -1.5 mm
+      - OR
+      - Rear Ride Height: +4.5 mm
+      
+      &nbsp;
+      
+      - Rear Wing Angle: -1
+      - Front Ride Height: +1.5 mm
+      - OR
+      - Rear Ride Height: -4.5 mm
+      
+      These adjustment sensitivities are not the same in all parts of the aeromap nor are they valid for all rear wing angles. For this reason, it is strongly suggested that one use the Aero Balance Calc tool on the Tires/Aero tab:
+      
+      - Start with a setup that is known to have good high speed aero balance.
+      - Note the % Front Downforce and dynamic RHs at speed.
+      - Add or subtract Rear Wing Angle for the desired overall downforce change
+      - Adjust the Rear RH at speed until the target % Front Downforce value is reached
+      - Apply the difference in dynamic Rear RH needed to retain balance to the static Rear RHs on the Chassis tab.
+      
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+      
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+      
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed.
+
+  - id: chassis-adjustments
+    level: 3
+    titleZh: "底盘调整"
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著改变空气动力学平台的俯仰与升沉控制，也不想调整差速器，可以使用前后可调防倾杆。
+
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强。
+
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+      
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: "差速器调整"
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      差速器提供两种调整选项。
+
+      - 更多摩擦面 -&gt; 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转。
+      - 更少摩擦面 -&gt; 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转。通常更适合斯帕等路面平整且路肩较平的赛道。
+
+      在全油门、持续制动或纯滑行等输入扭矩较高的情况下，摩擦面数量的影响占主导地位。
+
+      预载会叠加到差速器总锁止扭矩上，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不会消失。因此，在差速器输入扭矩接近零的过渡状态下，例如松开油门和／或刚开始拖刹时，预载的影响更为显著。
+
+      - 更高预载 -&gt; 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 更低预载 -&gt; 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度。
+
+    bodyEn: |+
+      Two adjustment options are available for the differential.
+      
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+      
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+      
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+      
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.

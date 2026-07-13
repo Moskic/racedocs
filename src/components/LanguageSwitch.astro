@@ -1,0 +1,16 @@
+---
+interface Props {
+  hasEnglish: boolean;
+}
+
+const { hasEnglish } = Astro.props;
+---
+
+{
+  hasEnglish && (
+    <div class="language-switch" role="group" aria-label="阅读语言 / Reading language">
+      <button type="button" data-language-option="zh" aria-pressed="true">中文</button>
+      <button type="button" data-language-option="en" aria-pressed="false">English</button>
+    </div>
+  )
+}

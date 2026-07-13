@@ -1,0 +1,149 @@
+---
+import { Image } from 'astro:assets';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { resolveManualAsset } from '../lib/manual-assets';
+import { getPublishedManuals } from '../lib/manuals';
+
+const manuals = (await getPublishedManuals()).sort((a, b) =>
+  a.data.titleZh.localeCompare(b.data.titleZh, 'zh-CN'),
+);
+
+const typeLabels = {
+  'vehicle-manual': '车辆手册',
+  'setup-guide': '设置指南',
+  reference: '参数参考',
+} as const;
+
+const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b, 'zh-CN'));
+const contentTypes = unique(manuals.map((manual) => manual.data.contentType));
+const brands = unique(manuals.map((manual) => manual.data.brand));
+const vehicleClasses = unique(manuals.map((manual) => manual.data.vehicleClass));
+const manualCards = manuals.map((manual) => ({
+  manual,
+  cover: resolveManualAsset(manual.data.cover!, manual.data.slug),
+}));
+---
+
+<BaseLayout title="RaceDocs · 模拟赛车手册资料库" description="查找中文模拟赛车车辆手册、设置指南与参数参考。" hasEnglish={true}>
+  <SiteHeader hasEnglish={true} subtitleZh="模拟赛车数字手册资料库" subtitleEn="Sim Racing Manual Library" />
+
+  <main class="catalog-main">
+    <section class="catalog-intro" aria-labelledby="catalog-title">
+      <p class="catalog-kicker language-pair"><span data-lang="zh">赛车手册 · 双语阅读</span><span data-lang="en">RACING MANUALS · BILINGUAL READING</span></p>
+      <h1 id="catalog-title" class="language-pair">
+        <span data-lang="zh">找到需要的赛车手册</span>
+        <span data-lang="en">Find your racing manual</span>
+      </h1>
+      <p class="language-pair"><span data-lang="zh">以中文阅读模拟赛车手册，并随时切换英文内容对照查看。</span><span data-lang="en">Read sim-racing manuals in Chinese and switch to the English content whenever you need a reference.</span></p>
+    </section>
+
+    <section class="catalog-controls" aria-label="搜索与筛选 / Search and filters">
+      <label class="catalog-search">
+        <span class="language-pair"><span data-lang="zh">搜索手册</span><span data-lang="en">Search manuals</span></span>
+        <input type="search" placeholder="标题、品牌、组别或平台" data-placeholder-zh="标题、品牌、组别或平台" data-placeholder-en="Title, brand, class, or platform" data-catalog-search />
+      </label>
+
+      <div class="catalog-filters">
+        {contentTypes.length > 1 && (
+          <label>
+            <span class="language-pair"><span data-lang="zh">内容类型</span><span data-lang="en">Content type</span></span>
+            <select data-catalog-filter="type">
+              <option value="" data-label-zh="全部类型" data-label-en="All types">全部类型</option>
+              {contentTypes.map((type) => <option value={type} data-label-zh={typeLabels[type]} data-label-en={type === 'vehicle-manual' ? 'Vehicle manual' : type === 'setup-guide' ? 'Setup guide' : 'Reference'}>{typeLabels[type]}</option>)}
+            </select>
+          </label>
+        )}
+        {brands.length > 1 && (
+          <label>
+            <span class="language-pair"><span data-lang="zh">品牌</span><span data-lang="en">Brand</span></span>
+            <select data-catalog-filter="brand">
+              <option value="" data-label-zh="全部品牌" data-label-en="All brands">全部品牌</option>
+              {brands.map((brand) => <option value={brand}>{brand}</option>)}
+            </select>
+          </label>
+        )}
+        {vehicleClasses.length > 1 && (
+          <label>
+            <span class="language-pair"><span data-lang="zh">车辆组别</span><span data-lang="en">Vehicle class</span></span>
+            <select data-catalog-filter="class">
+              <option value="" data-label-zh="全部组别" data-label-en="All classes">全部组别</option>
+              {vehicleClasses.map((vehicleClass) => <option value={vehicleClass}>{vehicleClass}</option>)}
+            </select>
+          </label>
+        )}
+      </div>
+    </section>
+
+    <p
+      class="catalog-count"
+      aria-live="polite"
+      data-catalog-count
+      data-count={manuals.length}
+      data-text-zh={`${manuals.length} 本手册`}
+      data-text-en={`${manuals.length} manuals`}
+    >{manuals.length} 本手册</p>
+
+    <section class="manual-grid" aria-label="手册列表 / Manual list" data-catalog-grid>
+      {manualCards.map(({ manual: { data }, cover }, index) => (
+        <article
+          class="manual-card"
+          data-catalog-card
+          data-search={`${data.titleZh} ${data.titleEn ?? ''} ${data.brand} ${data.vehicleClass} ${data.platform}`}
+          data-type={data.contentType}
+          data-brand={data.brand}
+          data-class={data.vehicleClass}
+        >
+          <a href={`/manuals/${data.slug}/`} aria-label={`阅读${data.titleZh} / Read ${data.titleEn ?? data.titleZh}`}>
+            {cover.format === 'svg' ? (
+              <img
+                src={cover.src}
+                alt=""
+                width="300"
+                height="424"
+                loading={index === 0 ? 'eager' : 'lazy'}
+                decoding={index === 0 ? 'sync' : 'async'}
+                fetchpriority={index === 0 ? 'high' : undefined}
+              />
+            ) : (
+              <Image
+                src={cover}
+                alt=""
+                priority={index === 0}
+                width={360}
+                height={509}
+                densities={[1, 2]}
+                quality="high"
+              />
+            )}
+            <div class="manual-card-body">
+              <h2 class="language-pair"><span data-lang="zh">{data.titleZh}</span><span data-lang="en">{data.titleEn ?? data.titleZh}</span></h2>
+              <div class="manual-card-meta">
+                <div class="manual-card-tags">
+                  <span class="card-type-badge">
+                    <span data-lang="zh">{typeLabels[data.contentType]}</span>
+                    <span data-lang="en">{data.contentType === 'vehicle-manual' ? 'Manual' : data.contentType === 'setup-guide' ? 'Setup' : 'Ref'}</span>
+                  </span>
+                  <span class="card-detail-badge">{data.brand}</span>
+                  <span class="card-detail-badge">{data.vehicleClass}</span>
+                  <span class="card-detail-badge">{data.platform}</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      ))}
+    </section>
+
+    <section class="catalog-empty" data-catalog-empty hidden>
+      <h2 class="language-pair"><span data-lang="zh">没有匹配的手册</span><span data-lang="en">No matching manuals</span></h2>
+      <p class="language-pair"><span data-lang="zh">请减少关键词或清除筛选条件。</span><span data-lang="en">Try fewer keywords or clear the filters.</span></p>
+      <button type="button" class="language-pair" data-catalog-clear><span data-lang="zh">清除筛选</span><span data-lang="en">Clear filters</span></button>
+    </section>
+  </main>
+
+  <script>
+    import '../scripts/catalog';
+  </script>
+</BaseLayout>

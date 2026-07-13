@@ -1,0 +1,22 @@
+---
+import LanguageSwitch from './LanguageSwitch.astro';
+
+interface Props {
+  hasEnglish: boolean;
+  subtitleZh?: string;
+  subtitleEn?: string;
+}
+
+const { hasEnglish, subtitleZh, subtitleEn } = Astro.props;
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="返回 RaceDocs 首页">RaceDocs</a>
+  {subtitleZh && (
+    <span class="site-subtitle language-pair">
+      <span data-lang="zh">{subtitleZh}</span>
+      <span data-lang="en">{subtitleEn ?? subtitleZh}</span>
+    </span>
+  )}
+  <LanguageSwitch hasEnglish={hasEnglish} />
+</header>

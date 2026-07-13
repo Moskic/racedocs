@@ -1,0 +1,1178 @@
+slug: lamborghini-huracan-gt3-evo
+published: true
+titleZh: Lamborghini Huracán GT3 EVO 用户手册
+titleEn: Lamborghini Huracán GT3 EVO User Manual
+contentType: vehicle-manual
+brand: Lamborghini
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/lamborghini-huracan-gt3-evo/cover.png
+source:
+  type: official
+  title: iRacing Lamborghini Huracán GT3 EVO User Manual
+  revision: V3
+  publishedAt: 2024-07-03
+  notice: Complete English transcription imported from the user-provided V3 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/welcome-hero.png)
+      
+      #### 亲爱的 iRACING 用户：
+      
+      恭喜您购入 Lamborghini Huracán GT3 EVO！iRacing 全体团队感谢您的支持与对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶这辆新赛车时，能在赛道上收获无限激情！Lamborghini 多年的赛车传承汇聚于 Huracán GT3 EVO 之中。作为 Lamborghini 面向全球跑车赛事推出的新一代 GT3 赛车，它由位于圣亚加塔·波隆尼的 Lamborghini Squadra Corse 赛车运动部门自主开发。在前代 Huracán GT3 成功基础上，新车采用与 Dallara 联合研发的升级空气动力学套件，并搭载强劲的 5.2 升 V10 发动机。
+      
+      2020 年是该车硕果累累的一年：Paul Miller Racing 包揽了 IMSA WeatherTech 跑车锦标赛全赛季积分榜和耐力杯积分榜的车手与车队冠军。大西洋彼岸，Barwell Motorsport 驾驶该车为 Lamborghini 赢得品牌首个英国 GT 锦标赛冠军；斯帕 24 小时耐力赛组别冠军以及 GT 世界挑战赛的多场胜利，则为这一辉煌赛季画上圆满句号。
+      
+      本指南将介绍如何充分发挥这辆新赛车的性能，包括如何在离开赛道后调整车辆设定，以及驾驶时会在座舱内看到哪些信息。希望本指南能帮助您尽快熟悉赛车、提升圈速。
+      
+      再次感谢您的购买，赛道上见！
+      
+      ![图片](./assets/lamborghini-huracan-gt3-evo/welcome-car.png)
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Lamborghini Huracán GT3 EVO! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car! Years of racing heritage come together in the Lamborghini Huracán GT3 EVO, Lamborghini’s latest GT3 challenger in sports car racing series from around the world. Developed in house in Sant’Agata Bolognese by Lamborghini Squadra Corse, the Huracán GT3 EVO builds on the winning formula of its predecessor, the Huracán GT3, with improved aerodynamics developed in conjunction with Dallara and a powerful 5.2-liter V10 engine.
+      
+      2020 was a banner year for the car, with a clean sweep of the IMSA WeatherTech SportsCar Championship’s driver and team titles in both its full-season and endurance race standings for Paul Miller Racing. Across the Atlantic, Barwell Motorsport ran the car to Lamborghini’s first British GT title, while a class victory in the 24 Hours of Spa and multiple GT World Challenge victories rounded out a stellar season.
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/lamborghini-huracan-gt3-evo/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/chassis-specifications.png)
+      
+      #### 铝合金单体式车身结构，搭配碳纤维车身覆盖件
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4550 mm / 179 in |
+      | 车宽 | 2050 mm / 81 in |
+      | 轴距 | 2645 mm / 104 in |
+      | 干重 | 1285 kg / 2833 lbs |
+      | 含车手湿重 | 1480 kg / 3262 lbs |
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/chassis-specifications.png)
+      
+      #### ALUMINUM UNIBODY CONSTRUCTION WITH CARBON FIBRE BODYWORK
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4550 mm / 179 in |
+      | Width | 2050 mm / 81 in |
+      | Wheelbase | 2645 mm / 104 in |
+      | Dry Weight | 1285 kg / 2833 lbs |
+      | Wet Weight with Driver | 1480 kg / 3262 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/power-unit.png)
+      
+      5.2 升 V10 发动机
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 5.2 升 / 317 立方英寸 |
+      | 转速上限 | 8500 RPM |
+      | 扭矩 | 400 lb-ft / 545 Nm |
+      | 功率 | 500 bhp / 374 kW |
+      
+      ![图片](./assets/lamborghini-huracan-gt3-evo/vehicle-profile.png)
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/power-unit.png)
+      
+      5.2-LITER V10 ENGINE
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 5.2 Liters / 317 CID |
+      | RPM Limit | 8500 RPM |
+      | Torque | 400 lb-ft / 545 Nm |
+      | Power | 500 bhp / 374 kW |
+      
+      ![Image](./assets/lamborghini-huracan-gt3-evo/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南中的信息旨在帮助您更深入地理解车库内可用的底盘设定调整项目，以便根据个人偏好调校车辆。
+      
+      不过，在深入调整底盘之前，最好先熟悉赛车和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设定。要加载基准设定，只需打开“Garage（车库）”，点击“iRacing Setups”，再选择适合目标赛道的设定。如果当前赛道没有专用基准设定，可以选择特性相近赛道的设定作为起点。
+      
+      选好适当设定后，请驶上赛道，专注于做出平顺且稳定的圈速，找准正确的行车线，并在连续多圈中了解轮胎磨损和操控特性的变化趋势。
+      
+      当您确信自己使用内置基准设定时已接近个人驾驶极限，便可继续阅读本指南，开始按照自己的操控偏好调校赛车。
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/getting-started.png)
+      
+      启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调整映射控制按键。虽然这些按键并非驾驶车辆所必需，但能让您在赛道上根据个人驾驶风格快速调整驾驶辅助系统。
+      
+      进入座舱后，只需按下“升挡”按键挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无需踩下离合器。不过，如果系统判断当前车速对于目标挡位过高、降挡可能损坏发动机，降挡保护会阻止此次操作，换挡指令将被直接忽略。建议在仪表盘换挡提示灯全部亮起蓝色时升挡，此时发动机转速约为 8000 RPM。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored. Upshifting is recommended when the shift lights on the dashboard are fully illuminated in blue. This is at approximately 8000 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "加载 iRACING 车辆设定"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/loading-iracing-setup.png)
+      
+      进入比赛时，车辆会自动加载 iRacing 基准设定 `<baseline.sto>`。如果希望使用 iRacing 针对不同条件预先制作的其他设定，可依次点击“Garage（车库）”&gt;“iRacing Setups”，然后选择符合需求的设定。
+      
+      若要自定义车辆设定，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+      
+      若要保存设定供日后使用，请点击右侧的“Save As（另存为）”，为设定命名并保存更改。点击车库右侧的“My Setups（我的设定）”即可查看全部个人设定。
+      
+      若要与另一位车手或当前比赛中的所有人共享设定，可点击车库右侧的“Share（共享）”。
+      
+      如果其他车手正与您共享设定，也可在车库右侧的“Shared Setups（共享设定）”中找到。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: "仪表显示配置"
+    titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      Lamborghini Huracán GT3 EVO 配备的 Bosch DDU S2 数字仪表提供多种页面布局和显示选项，可随时根据车手的需求或偏好调整所显示的信息。
+    bodyEn: |+
+      The Bosch DDU S2 digital display in the Lamborghini Huracán GT3 EVO offers various formats and options to tailor the information on the display to whatever the driver may need or want at any time.
+
+  - id: day-and-night-pages
+    level: 3
+    titleZh: "日间与夜间页面"
+    titleEn: "DAY & NIGHT PAGES"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/day-and-night-pages.png)
+      
+      | 顶行 | 说明 |
+      | --- | --- |
+      | TC | 当前牵引力控制设定（TC 介入时亮蓝色） |
+      | MAP | 当前发动机映射设定（不可操作） |
+      | EPS | 不可操作 |
+      | Gear | 当前挡位 |
+      | APS | 不可操作 |
+      | S12 | 不可操作 |
+      | ABS | 当前 ABS 设定（ABS 介入时亮蓝色） |
+      
+      | 中央区域 | 说明 |
+      | --- | --- |
+      | Speed | 车速（km/h 或 mph） |
+      | RPM | 发动机转速 |
+      | Laptime | 当前圈速 |
+      | Diff | 与最佳圈速的差值 |
+      
+      | 底行 | 说明 |
+      | --- | --- |
+      | TGear | 变速箱油温（摄氏度或华氏度） |
+      | TOil | 发动机油温（摄氏度或华氏度） |
+      | TMot | 发动机冷却液温度（摄氏度或华氏度） |
+      | Fuel Lap | 本圈燃油消耗量（升或美制加仑） |
+      | Fuel Used | 当前长距离阶段的燃油消耗量（升或美制加仑） |
+      
+      夜间显示页面的功能与日间页面完全相同，但会反转配色，以改善车手对车外环境的视觉辨识能力。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/day-and-night-pages.png)
+      
+      | Top Row | Description |
+      | --- | --- |
+      | TC | Current traction control setting (illuminates blue when TC is active) |
+      | MAP | Current engine map setting (Inoperable) |
+      | EPS | Inoperable |
+      | Gear | Currently selected gear |
+      | APS | Inoperable |
+      | S12 | Inoperable |
+      | ABS | Current ABS setting (illuminates blue when ABS is active) |
+      
+      | Center | Description |
+      | --- | --- |
+      | Speed | Vehicle speed (km/h or mph) |
+      | RPM | Engine RPM |
+      | Laptime | Current lap time |
+      | Diff | Difference to best lap time |
+      
+      | Bottom Row | Description |
+      | --- | --- |
+      | TGear | Gearbox oil temperature (Celsius or Fahrenheit) |
+      | TOil | Engine oil temperature (Celsius or Fahrenheit) |
+      | TMot | Engine water temperature (Celsius or Fahrenheit) |
+      | Fuel Lap | Fuel used this lap (Liters or US Gallons) |
+      | Fuel Used | Fuel used this stint (Liters or US Gallons) |
+      
+      The Night display page is functionally identical to the Day page, however the colors are inverted to help with vision outside of the car.
+
+  - id: magnus-quali-page
+    level: 3
+    titleZh: "MAGNUS 排位赛页面"
+    titleEn: "MAGNUS QUALI PAGE"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/magnus-quali-page.png)
+      
+      | 顶行 | 说明 |
+      | --- | --- |
+      | TC | 当前牵引力控制设定（TC 介入时亮蓝色） |
+      | ENG | 当前发动机映射设定（不可操作） |
+      | HEPS | 不可操作 |
+      | RPM | 发动机转速 |
+      | THR | 当前油门映射设定 |
+      | FUNC | 不可操作 |
+      | ABS | 当前 ABS 设定（ABS 介入时亮蓝色） |
+      
+      | 中央区域 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速 |
+      | Speed | 车速（km/h 或 mph） |
+      | Gear | 当前挡位 |
+      | Laptime | 当前圈速 |
+      | Gain/Loss | 与最佳圈速的差值 |
+      | 左侧轮胎胎压 | 左侧轮胎胎压显示在屏幕左边缘较大的无标签方框内（bar 或 psi） |
+      | 左侧轮胎表面温度 | 左侧轮胎表面温度显示在胎压数值旁较小的方框内（摄氏度或华氏度） |
+      | 右侧轮胎胎压 | 右侧轮胎胎压显示在屏幕右边缘较大的无标签方框内（bar 或 psi） |
+      | 右侧轮胎表面温度 | 右侧轮胎表面温度显示在胎压数值旁较小的方框内（摄氏度或华氏度） |
+      
+      | 底行 | 说明 |
+      | --- | --- |
+      | TGear | 变速箱油温（摄氏度或华氏度） |
+      | TOil | 发动机油温（摄氏度或华氏度） |
+      | TMot | 发动机冷却液温度（摄氏度或华氏度） |
+      | Fuel Used | 当前长距离阶段的燃油消耗量（升或美制加仑） |
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/magnus-quali-page.png)
+      
+      | Top Row | Description |
+      | --- | --- |
+      | TC | Current traction control setting (illuminates blue when TC is active) |
+      | ENG | Current engine map setting (Inoperable) |
+      | HEPS | Inoperable |
+      | RPM | Engine RPM |
+      | THR | Current throttle map setting |
+      | FUNC | Inoperable |
+      | ABS | Current ABS setting (illuminates blue when ABS is active) |
+      
+      | Center | Description |
+      | --- | --- |
+      | RPM | Engine RPM |
+      | Speed | Vehicle speed (km/h or mph) |
+      | Gear | Currently selected gear |
+      | Laptime | Current lap time |
+      | Gain/Loss | Difference to best lap time |
+      | Left Side Tire Pressures | The Left-side tire pressures are shown on the left edge of the screen in the larger, unlabeled boxes (bar or psi) |
+      | Left Side Tire Surface Temperatures | The Left-side tire surface temperatures are shown next to the tire pressure values in smaller boxes (Celsius or Fahrenheit) |
+      | Right Side Tire Pressures | The Right-side tire pressures are shown on the right edge of the screen in the larger, unlabeled boxes (bar or psi) |
+      | Right Side Tire Surface Temperatures | The Right-side tire surface temperatures are shown next to the tire pressure values in smaller boxes (Celsius or Fahrenheit) |
+      
+      | Bottom Row | Description |
+      | --- | --- |
+      | TGear | Gearbox oil temperature (Celsius or Fahrenheit) |
+      | TOil | Engine oil temperature (Celsius or Fahrenheit) |
+      | TMot | Engine water temperature (Celsius or Fahrenheit) |
+      | Fuel Used | Fuel used this stint (Liters or US Gallons) |
+
+  - id: quali-page
+    level: 3
+    titleZh: "排位赛页面"
+    titleEn: "QUALI PAGE"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/quali-page.png)
+      
+      | 顶行 | 说明 |
+      | --- | --- |
+      | TC | 当前牵引力控制设定（TC 介入时亮蓝色） |
+      | MAP | 当前发动机映射设定（不可操作） |
+      | EPS | 不可操作 |
+      | RPM | 发动机转速 |
+      | APS | 不可操作 |
+      | S12 | 不可操作 |
+      | ABS | 当前 ABS 设定（ABS 介入时亮蓝色） |
+      
+      | 中央区域 | 说明 |
+      | --- | --- |
+      | Laptime | 当前圈速 |
+      | Speed | 车速（km/h 或 mph） |
+      | Gain/Loss | 与最佳圈速的差值 |
+      | Gear | 当前挡位 |
+      | Tire Pressures | 左侧轮胎胎压显示在屏幕左边缘较大的无标签方框内（bar 或 psi） |
+      
+      | 底行 | 说明 |
+      | --- | --- |
+      | Delta Bar | 相对于最佳圈速的时间差指示条 |
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/quali-page.png)
+      
+      | Top Row | Description |
+      | --- | --- |
+      | TC | Current traction control setting (illuminates blue when TC is active) |
+      | MAP | Current engine map setting, inoperable |
+      | EPS | Inoperable |
+      | RPM | Engine RPM |
+      | APS | Inoperable |
+      | S12 | Inoperable |
+      | ABS | Current ABS setting (illuminates blue when ABS is active) |
+      
+      | Center | Description |
+      | --- | --- |
+      | Laptime | Current lap time |
+      | Speed | Vehicle speed (km/h or mph) |
+      | Gain/Loss | Difference to best lap time |
+      | Gear | Currently selected gear |
+      | Tire Pressures | The Left-side tire pressures are shown on the left edge of the screen in the larger, unlabeled boxes (bar or psi) |
+      
+      | Bottom Row | Description |
+      | --- | --- |
+      | Delta Bar | Delta bar to best lap time |
+
+  - id: pit-limiter
+    level: 3
+    titleZh: "维修区限速器"
+    titleEn: "PIT LIMITER"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/pit-limiter.png)
+      
+      维修区限速器启用时，仪表盘上会显示一个醒目的蓝色方框，同时中央 6 颗换挡提示 LED 会闪烁蓝光。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/pit-limiter.png)
+      
+      When the pit limiter is active a large blue box will display across the dashboard along with the center 6 shift light LED’s flashing blue.
+
+  - id: shift-lights
+    level: 3
+    titleZh: "换挡提示灯"
+    titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/shift-lights-progress.png)
+      
+      ![图片](./assets/lamborghini-huracan-gt3-evo/shift-lights-ready.png)
+      
+      | 换挡提示灯 | 发动机转速 |
+      | --- | --- |
+      | 第 1 颗绿色灯 | 6650 rpm |
+      | 第 2 颗绿色灯 | 6800 rpm |
+      | 第 3 颗绿色灯 | 6950 rpm |
+      | 第 4 颗绿色灯 | 7100 rpm |
+      | 第 1 颗黄色灯 | 7250 rpm |
+      | 第 2 颗黄色灯 | 7400 rpm |
+      | 第 1 颗红色灯 | 7550 rpm |
+      | 第 2 颗红色灯 | 7700 rpm |
+      | 第 3 颗红色灯 | 7850 rpm |
+      | 全部蓝色灯 | 8000 rpm |
+      
+      ---
+      
+      <!-- section-divider page=11 -->
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/shift-lights-progress.png)
+      
+      ![Image](./assets/lamborghini-huracan-gt3-evo/shift-lights-ready.png)
+      
+      | Shift Light | RPM |
+      | --- | --- |
+      | 1 GREEN | 6650 rpm |
+      | 2 GREEN | 6800 rpm |
+      | 3 GREEN | 6950 rpm |
+      | 4 GREEN | 7100 rpm |
+      | 1 YELLOW | 7250 rpm |
+      | 2 YELLOW | 7400 rpm |
+      | 1 RED | 7550 rpm |
+      | 2 RED | 7700 rpm |
+      | 3 RED | 7850 rpm |
+      | ALL BLUE | 8000 rpm |
+      
+      ---
+      
+      <!-- section-divider page=11 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级车辆设定选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设定的高级用户。驾驶本车并不要求调整以下参数，但这些调整可能显著改变车辆的操控特性。建议每次仅对单一变量进行小幅调整，并在测试效果后再继续修改。
+      
+      ---
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleZh: "轮胎数据"
+    titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/tire-data.png)
+      
+      #### 轮胎类型
+      
+      选择车辆进入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥赛道，湿地胎则适用于降雨和湿滑赛道条件。
+      
+      #### 初始胎压
+      
+      车辆进入赛道时轮胎内的气压。提高胎压会降低滚动阻力和热量积聚，但也会降低抓地力；降低胎压会增加滚动阻力和热量积聚，但能提高抓地力。车速和负载越高，所需胎压通常越高；车速和负载较低时，较低胎压往往表现更好。为获得最佳性能，应根据赛道特性设定冷胎压。一般建议从较低胎压开始，再视需要逐步提高。
+      
+      #### 上次热胎压
+      
+      车辆返回维修区后测得的轮胎气压。冷热胎压的差值可用于判断一段连续驾驶过程中车辆平衡的变化：负载较大的轮胎通常会出现更大的冷热胎压差。理想情况下，工作状态相近的轮胎应以相同速率升压，以免随着轮胎使用时间增加而改变操控平衡。因此应调整冷胎压，使同类轮胎达到工作温度后保持相近胎压。应在连续行驶若干圈、轮胎状态稳定后分析热胎压。由于每段连续驾驶的圈数会随赛道长度变化，可将满油续航里程的大约 50% 作为合适的初始评估点。
+      
+      #### 轮胎温度
+      
+      车辆返回维修区后测得的轮胎胎体温度。车轮负载以及轮胎在赛道上的工作强度都会反映在温度中，可据此分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位，尤其是外倾角。数值分别在胎面内侧、中部和外侧三个区域测量。
+      
+      #### 剩余胎面
+      
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损非常有助于识别车轮定位问题，例如胎面某一侧过度磨损；结合轮胎温度，还可用于分析车辆操控平衡。这些数值与温度数据在相同的三个胎面区域测量。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### STARTING PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Hot pressures should be analysed once the tires have stabilised after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+      
+      #### TIRE TEMPERATURES
+      
+      Tire carcass temperatures once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-balance-calculator
+    level: 3
+    titleZh: "空气动力学平衡计算器"
+    titleEn: "AERO BALANCE CALCULATOR"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/aero-balance-calculator.png)
+      
+      空气动力学计算器用于帮助理解调整尾翼设定以及前、后车高时，空气动力学平衡会如何变化。请务必注意：此处显示的前、后车高数值不会对车辆本身产生任何机械设定变化；但在此处更改尾翼角度会实际应用到车辆上。本计算器仅为参考工具。
+      
+      #### 高速前车高
+      
+      高速车高（RH at Speed）为计算器提供空气动力学计算所需的参考高度。使用计算器时，请通过遥测读取赛车在赛道任意位置的前车高，并将其输入“Front RH at Speed（高速前车高）”。建议采用左前与右前车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 高速后车高
+      
+      高速车高（RH at Speed）为计算器提供空气动力学计算所需的参考高度。使用计算器时，请通过遥测读取赛车在赛道任意位置的后车高，并将其输入“Rear RH at Speed（高速后车高）”。建议采用左后与右后车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 尾翼设定
+      
+      尾翼设定是指尾翼的相对迎角。尾翼是效能很强的空气动力学部件，会显著影响车辆产生的总下压力（以及阻力），增大角度还会使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯的总体过弯抓地力，但会降低直线速度。调整尾翼角度时，应同时考虑前、后车高，尤其是两者之差，即“前后倾角（rake）”。增大尾翼角度时，要保持相同的整体空气动力学平衡，就必须增大车辆的前后倾角。
+      
+      空气动力学计算器中的“Wing Setting（尾翼设定）”与“Chassis（底盘）”页面“Rear（后部）”区域内的同名项目直接联动；更改其中一项会自动同步另一项。
+      
+      #### 前轴下压力占比
+      
+      该数值显示在计算器所设定的尾翼和车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数下某一瞬间的空气动力学平衡。可选取弯道或某段赛道中的多个位置，对比制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯中越容易表现出转向过度。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/aero-balance-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      The Wing Setting value in the Aero Calculator section is tied directly to the Wing Setting in the Chassis page’s Rear section. Changing one will automatically change the other.
+      
+      #### % FRONT DOWNFORCE
+      
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/front.png)
+      
+      #### 防倾杆刀片
+      
+      可通过改变防倾杆连接臂（即“刀片”）的配置，调整整个防倾杆总成的刚度。较高数值会通过连接臂向防倾杆本体传递更多作用力，从而提高前悬架侧倾刚度；其效果与增大防倾杆直径相同，但调整幅度较小。反之，较低数值会降低前悬架侧倾刚度，其效果与减小防倾杆直径相同。可将刀片调整理解为不同防倾杆直径设定之间的精细微调。共有 6 种刀片组合，从 1-1（最软）到 3-3（最硬）。
+      
+      #### 前束
+      
+      从上方观察时，前束是车轮相对于底盘中心线的夹角。车轮前端比后端更靠近中心线称为前束（Toe-in），反之则为负前束（Toe-out）。在前轴增加负前束会增大内侧轮胎的滑移，而增加前束会减小滑移。前轴负前束可提升入弯响应，但会降低直线稳定性；前轴前束则会降低入弯响应，同时减少前轮温度积聚。
+      
+      #### 前制动主缸
+      
+      可通过改变前制动主缸尺寸来调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配后移，并增加前轮抱死所需的踏板力。较小的主缸则相反，会提高前制动管路压力，使制动力分配前移，并减少所需踏板力。
+      
+      #### 后制动主缸
+      
+      可通过改变后制动主缸尺寸来调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配前移，并增加后轮抱死所需的踏板力。较小的主缸则相反，会提高后制动管路压力，使制动力分配后移，并减少所需踏板力。
+      
+      #### 刹车片
+      
+      可通过刹车片配方改变车辆的制动表现。“Low（低）”设定的摩擦力最小，制动效能最低；“Medium（中）”和“High（高）”提供更大摩擦力、提升制动效能，但也会增加车轮抱死的风险。
+      
+      #### 对角配重
+      
+      对角配重是车库静态状态下，作用于右前和左后车角的重量占车辆总重的百分比。若其他底盘设定均保持左右对称，50.0% 通常最适合非椭圆赛道，可使车辆在左弯和右弯中表现对称。高于 50% 会增加左弯的转向不足和右弯的转向过度。可通过调整各车角的弹簧座偏移量改变对角配重。
+      
+      #### 前轴重量分布（%F WTDIST）
+      
+      前轴重量分布是前轮承载重量占车辆总重的百分比，可粗略反映车辆纵向重心位置，并直接影响高速稳定性和低速操控平衡。较高的前轴重量分布可提高车辆的方向稳定性，适用于低抓地力赛道以及采用较高前轴下压力的设定。反之，较低数值更适合高抓地力赛道和高后轴下压力配置。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/front.png)
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the front suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings. 6 ARB blade options are available ranging from 1-1 (softest) to 3-3 (stiffest).
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire while adding toe-in will reduce the slip. This can be used to increase straight-line stability and turn-in responsiveness with toe-out. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, this will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort.
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, this will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+      
+      #### FRONT WEIGHT DISTRIBUTION (%F WTDIST)
+      
+      The vehicle’s Front Weight Distribution is the percentage of total vehicle weight on the front tires. This represents a rough approximation of the longitudinal Center of Gravity location in the vehicle and has a direct influence on the high-speed stability of the vehicle and low-speed handling balance. Higher Nose Weight values result in a more directionally-stable vehicle, good for low-grip tracks and situations where the vehicle is set up with extra front downforce. Conversely, lower distribution values are good for high-grip tracks and configurations with high rear downforce levels.
+
+  - id: in-car-dials
+    level: 3
+    titleZh: "车内旋钮"
+    titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/in-car-dials.png)
+      
+      #### 制动力分配
+      
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力高于后制动管路压力，制动平衡因此前移，前轮更容易抱死，但制动区内的整体稳定性也可能提高。应根据车手偏好和赛道条件进行调校，以获得当前情境下的最佳制动表现。需要注意的是，不同的前、后制动主缸尺寸组合需要匹配不同的制动力分配数值；这是因为改变前后轴主缸尺寸的差值，本身就会使制动管路压力产生前偏或后偏。
+      
+      #### 牵引力控制设定
+      
+      牵引力控制开关的位置决定 ECU 在后轮空转时削减发动机扭矩的积极程度。系统提供 12 个挡位，但只有 10 套映射：1 至 10 挡从最低介入程度／灵敏度（1 挡）逐步增加至最高（10 挡）；11 挡与 10 挡相同，12 挡则完全关闭牵引力控制。制造商建议以 3 或 4 挡作为基准设定。提高介入程度可减少车轮空转和后轮磨损，但如果系统过于积极地削减发动机扭矩、抑制出弯加速，整体性能也可能下降。
+      
+      #### 油门曲线设定
+      
+      油门曲线设定决定车手踏板位置变化如何转换为发动机输出扭矩。共有 3 个挡位：1 挡采用与油门位置成正比的线性扭矩映射（例如 10% 油门对应 10% 发动机扭矩，50% 油门对应 50% 发动机扭矩，以此类推）；3 挡模拟类似机械拉线油门的非线性 S 形映射，因此油门行程中段的控制精细度会降低；2 挡则混合了 1 挡和 3 挡的映射特性。
+      
+      #### ABS 设定
+      
+      车辆当前使用的 ABS 映射。ABS 系统共有 12 个挡位，按不同赛道条件分为三组；数值越低，防止制动抱死的辅助越少，数值越高，辅助越强。1 至 6 挡用于干地光头胎，7 至 11 挡用于湿地。通常 7 挡适合小雨，随着条件恶化应逐步提高设定，11 挡适合大雨。12 挡会完全关闭 ABS。
+      
+      #### 显示页面
+      
+      选择车内仪表当前显示的页面。共有 4 个选项，其中两个分别用于日间和夜间比赛，另外两个用于排位赛。两个比赛页面显示的信息完全相同，仅背景颜色不同；两个排位赛页面风格相近，但显示的信息有所区别。
+      
+      #### 耐力赛照明套件
+      
+      此设定决定车辆是否在车头安装额外灯条，以便在夜间比赛中提供更高的照明亮度。
+      
+      #### 夜间 LED 灯带
+      
+      改变车身两侧灯带的颜色。共有蓝、紫、红、黄、橙、绿和关闭七种选项，所有选项均不会影响车辆性能。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lockup the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation. It is important to note that differing combinations of master cylinder size will necessitate differing brake pressure bias values, this is because increasing or reducing the split in master cylinder size difference between front and rear axles will produce an inherent forward or rearward bias in brake line pressure.
+      
+      #### TRACTION CONTROL SETTING
+      
+      The position of the traction control switch determines how aggressively the ecu cuts engine torque in reaction to rear wheel spin. 12 positions are available but only 10 maps exist. Settings 1-10 range from least intervention/sensitivity (position 1) through to highest intervention/sensitivity (position 10). Position 11 is the same as position 10 and position 12 disables the traction control completely. Positions 3 and 4 are the manufacturer recommended baseline settings. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
+      
+      #### THROTTLE SHAPE SETTING
+      
+      Throttle shape setting refers to how changes in the drivers pedal position result in changes in provided engine torque. 3 positions exist, position 1 results in a linear torque map relative to throttle position (e.g. 10% throttle position results in 10% engine torque, 50% throttle position results in 50% engine torque and so on.). Position 3 emulates a non-linear S shaped map similar to a cable throttle which results in reduced fidelity in the middle portion of the throttle range. Position 2 is a hybrid of position 1 and 3 throttle mapping styles.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is running. The ABS system features 12 positions divided into three groups to suit varying track conditions, with lower values providing less assistance and higher values providing more assistance to prevent brake lockup. Settings 1-6 are for slick tires in dry conditions, 7-11 are for wet conditions. Generally, setting 7 will be good for light rain while settings will need to be increased as conditions worsen, with setting 11 being for heavy rain. Setting 12 disables the system completely.
+      
+      #### DISPLAY PAGE
+      
+      Currently displayed in-car dashboard page. 4 display options are present with 2 options intended for race situations of day and night and 2 for qualifying. The race options are identical in terms of displayed information but with differing background colour while the qualifying options are similar in style but display different information.
+      
+      #### ENDURANCE LIGHT PACKAGE
+      
+      This setting determines if the car is fitted with an additional light bar on the nose for increased light output during night races.
+      
+      #### NIGHT LED STRIPS
+      
+      Changes the color of the two light strips on the sides of the car. Seven options are available: Blue, Purple, Red, Yellow, Orange, Green and Off, with no setting influencing the car’s performance.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前车角"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/front-corners.png)
+      
+      #### 车角重量
+      
+      车库静态状态下，每条轮胎所承载的重量。合理分配车辆各处重量，对于针对特定赛道和条件优化赛车至关重要。可通过各车角的弹簧座偏移量，分别调整单轮重量和对角配重。
+      
+      #### 车高
+      
+      地面到车身底盘参考点的距离。由于测量基于车辆上的特定参考点，这些数值不一定等同于车辆的实际离地间隙，但能可靠反映赛车静止时相对于赛道表面的高度。车高直接影响空气动力学性能和机械抓地力，因此是性能优化的关键。提高前车高会减少前轴下压力和总下压力，但会允许车辆过弯时在前轴产生更多横向重量转移；降低前车高则会增加前轴及总下压力，同时减少前轴横向重量转移。
+      
+      #### 弹簧座偏移量
+      
+      通过改变弹簧的安装位置调整该车角的车高。增大弹簧座偏移量会降低该车角，减小偏移量则会抬高该车角。左右两侧应保持对称调整，以确保同轴两侧车高一致且对角配重不变。也可以按对角线成对调整弹簧座偏移量（左前配右后、右前配左后），改变车辆的静态对角配重。
+      
+      #### 弹簧刚度
+      
+      此设定决定各车角安装的弹簧刚度。较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的空气动力学平台控制提升空力表现；但轮胎负载波动也会增大，从而损失机械抓地力。在颠簸赛道上，硬弹簧的缺点通常更为明显，使用较软弹簧往往能提升整体表现。改变车角弹簧会同时影响平台的侧倾和俯仰控制，因此调整弹簧刚度时还应考虑调整防倾杆，以维持原有的前后侧倾刚度分配和整体平衡。降低车角弹簧刚度时，应适当提高防倾杆刚度（根据改动幅度选择调整刀片或直径），以维持此前的侧倾刚度。更改弹簧刚度后，必须调整弹簧座偏移量，使车辆恢复到原来的静态车高。
+      
+      #### 外倾角
+      
+      外倾角是车轮相对于底盘中心的垂直倾斜角度。车轮顶部比底部更靠近底盘中心线时为负外倾角；顶部比底部更远离中心线时为正外倾角。受悬架几何和过弯负载影响，四个车轮都需要使用负外倾角。增大负外倾角可提高轮胎产生的过弯侧向力，但会降低制动时的纵向抓地力。过大的外倾角虽然能产生很高的过弯力，却也会显著缩短轮胎寿命，因此必须在耐久性与性能之间取得平衡。增大前轮负外倾角通常可提升中高速弯的前轴抓地力，但会损失制动性能，并需要将制动力分配后移以作补偿。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at this corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering this corner of the car while reducing the spring perch offset will raise this corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control however, they will also result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness (either via blade or diameter depending on the size of the corner spring change) should be increased to retain the same roll stiffness as previously. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后车角"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/rear-corners.png)
+      
+      #### 车角重量
+      
+      车库静态状态下，每条轮胎所承载的重量。合理分配车辆各处重量，对于针对特定赛道和条件优化赛车至关重要。可通过各车角的弹簧座偏移量，分别调整单轮重量和对角配重。
+      
+      #### 车高
+      
+      地面到车身后部底盘参考点的距离。提高后车高会降低后轴下压力占比、增加总下压力，并允许车辆过弯时在后轴产生更多横向重量转移。反之，降低后车高会提高后轴下压力占比、减少总下压力，同时减少后轴横向重量转移。后车高是调校机械平衡和空气动力学平衡的关键项目；为获得最佳性能，应结合所选后车角弹簧匹配静态后车高。
+      
+      #### 弹簧座偏移量
+      
+      通过改变弹簧的安装位置调整该车角的车高。增大弹簧座偏移量会降低该车角，减小偏移量则会抬高该车角。左右两侧应保持对称调整，以确保同轴两侧车高一致且对角配重不变。也可以按对角线成对调整弹簧座偏移量（左前配右后、右前配左后），改变车辆的静态对角配重。
+      
+      #### 外倾角
+      
+      与前轴相同，后轮也适合使用较大的负外倾角来提高横向抓地能力；不过后轮负外倾角通常会略小于前轮。主要有两个原因：第一，后轮比前轮宽 25 mm（约 1 英寸）；第二，后轮还需要负责驱动车辆前进，外倾角带来的横向抓地收益必须与纵向牵引力的损失进行权衡。
+      
+      #### 弹簧刚度
+      
+      与前轴相似，较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的平台控制提升空气动力学性能，但会牺牲机械抓地力。慢速弯出口激进加油时，这一现象尤其明显；硬弹簧在这类情况下表现较差，在颠簸赛道上更可能造成显著牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样可以使用更低的静态后车高，减少低速弯中的后轴重量转移，同时在高速弯保持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。更改弹簧刚度后，必须调整弹簧座偏移量，使车辆恢复到原来的静态车高。
+      
+      #### 前束
+      
+      后轴通常采用前束。增加前束可提高直线稳定性，但会降低车辆变向时的响应。应尽量避免过大的前束，因为这会增加滚动阻力并降低直线速度。调整后轮前束时请注意，此处数值对应单个车轮，而前轴数值对应一对车轮；因此将左右后轮前束相加后，每个后轮数值的作用强度是前轴组合调整的两倍。一般建议保持左右前束相同，避免车辆斜行或出现不对称操控；但在 Lime Rock Park 这类高度不对称的赛道上，后轮前束及其他设定采用不对称配置可能带来性能收益。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING PERCH OFFSET
+      
+      UUsed to adjust the ride height at this corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering this corner of the car while reducing the spring perch offset will raise this corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### CAMBER
+      
+      As at the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are 25 mm (~1”) wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### TOE-IN
+      
+      At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behaviour however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/rear.png)
+      
+      #### 燃油量
+      
+      车辆进入赛道时油箱内的燃油量。
+      
+      #### 防倾杆刀片
+      
+      可通过改变防倾杆连接臂（即“刀片”）的配置，调整整个防倾杆总成的刚度。较高数值会通过连接臂向防倾杆本体传递更多作用力，从而提高后悬架侧倾刚度；其效果与增大防倾杆直径相同，但调整幅度较小。反之，较低数值会降低后悬架侧倾刚度，其效果与减小防倾杆直径相同。可将刀片调整理解为不同防倾杆直径设定之间的精细微调。共有 6 种刀片组合，从 1-1（最软）到 3-3（最硬）。
+      
+      #### 尾翼角度
+      
+      尾翼设定是指尾翼的相对迎角。尾翼是效能很强的空气动力学部件，会显著影响车辆产生的总下压力（以及阻力），增大角度还会使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯的总体过弯抓地力，但会降低直线速度。调整尾翼角度时，应同时考虑前、后车高，尤其是两者之差，即“前后倾角（rake）”。增大尾翼角度时，要保持相同的整体空气动力学平衡，就必须增大车辆的前后倾角。
+      
+      “Chassis（底盘）”&gt;“Rear（后部）”区域内的“Wing Setting（尾翼设定）”与空气动力学计算器中的同名项目直接联动；更改其中一项会自动同步另一项。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings. 6 ARB blade options are available ranging from 1-1 (softest) to 3-3 (stiffest).
+      
+      #### REAR WING ANGLE
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      The Wing Setting value in the Chassis &gt; Rear section is tied directly to the Wing Setting in the Aero Calculator section. Changing one will automatically change the other.
+
+  - id: gears-differential
+    level: 3
+    titleZh: "挡位／差速器"
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/gears-and-differential.png)
+      
+      #### 六挡齿比
+      
+      根据赛道类型，可选择两种六挡齿比。FIA 齿比较短，适用于大多数赛道；IMSA Daytona 齿比则应在 Daytona 和 Le Mans 使用，以防赛车在直道结束前提前触及转速限制器。
+      
+      #### 摩擦片工作面数量
+      
+      差速器内摩擦片工作面的数量会影响保持后轴锁止所施加的总作用力。该数值相当于一个倍数系数，增加工作面数量会逐级提高锁止力。例如，8 个摩擦片工作面的锁止力是 4 个的两倍，而 4 个又是 2 个的两倍。
+      
+      #### 差速器预载
+      
+      差速器预载是始终存在于差速器内的静态锁止力，在加速和减速时均保持恒定。提高预载会增加差速器两侧的锁止程度，使车辆在松开油门时更容易转向不足，并在激进加油时产生更突然的转向过度。提高预载也会让收油与加油之间的过渡更加平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度并增强车手信心。若慢速弯出弯驱动力明显不足，或车辆在中低速弯由油门切换至制动的过程中旋转过度，通常应提高差速器预载。
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/gears-and-differential.png)
+      
+      #### SIXTH GEAR
+      
+      Two options for 6th gear are available for selection depending upon track type. The FIA gear is shorter and should be used at the majority of tracks while the IMSA Daytona gear should be used at Daytona and Le Mans to prevent reaching the rev limiter before the end of the straightaways.
+      
+      #### FRICTION FACES
+      
+      The number of friction faces in the differential affect how much overall force is applied to keep the rear axle locked. Treated as a multiplier, adding more faces produces increasingly more locking force. For example, 8 friction faces will have twice the locking force of 4 faces, which will have twice the force of 2 faces.
+      
+      #### DIFF PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behaviour as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers
+    level: 2
+    titleZh: "减振器"
+    titleEn: "DAMPERS"
+    bodyZh: |+
+      ![图片](./assets/lamborghini-huracan-gt3-evo/dampers.png)
+    bodyEn: |+
+      ![Image](./assets/lamborghini-huracan-gt3-evo/dampers.png)
+
+  - id: front-dampers
+    level: 3
+    titleZh: "前减振器"
+    titleEn: "FRONT DAMPERS"
+    bodyZh: |+
+      #### 压缩阻尼
+      
+      前减振器压缩设定控制悬架压缩时减振器的阻力，一个设定同时控制高速和低速压缩阻尼。较高数值（更接近零）会增加阻尼力并抑制压缩；较低数值（更负）则让减振器更容易压缩。
+      
+      在车头，提高压缩阻尼可能使车辆在制动和入弯时更容易转向不足，但也会减慢负载变化时的底盘运动，从而改善空气动力学表现。降低压缩阻尼会让车头更快下沉，使车辆在入弯时更容易转向过度，并降低重制动时的直线稳定性。
+      
+      #### 回弹阻尼
+      
+      前减振器回弹设定控制悬架伸展时减振器的阻力，一个设定同时控制高速和低速回弹阻尼。较高数值（更接近零）会增加阻尼力，并在负载减小时尽量让悬架保持压缩；较低数值（更负）则让悬架更容易伸展。
+      
+      在车头，提高回弹阻尼可在负载减小时让车头保持较低，从而改善高速空气动力学表现；但这也可能使前轮卸载，尤其是在颠簸路面上，并导致加油时和高速状态下的转向不足。降低前回弹阻尼有助于提升前轴机械抓地力，使车辆在加油时更容易转向过度，但过多的底盘运动也会降低空气动力学性能。
+    bodyEn: |+
+      #### COMPRESSION DAMPING
+      
+      The Front Damper Compression setting controls the shock’s stiffness when the suspension is compressing, with a single setting controlling both the high- and low-speed damping values. Higher values (closer to zero) will increase damping forces and resist compression, lower values (more negative) will allow the shock to compress more easily.
+      
+      At the front of the car, increasing compression can induce understeer while braking and at turn-in, but can also help to produce better aerodynamic performance with the chassis’s movement being slowed through changing loads. Reducing compression will allow the front end to compress faster, inducing oversteer at turn in and reducing straight-line stability under heavy braking.
+      
+      #### REBOUND DAMPING
+      
+      The Front Damper Rebound setting controls the shock’s stiffness when the suspension is expanding, with a single setting controlling both high- and low-speed damping values. Higher values (closer to zero) will increase damping forces and will try to keep the suspension compressed when loads are removed, while lower values (more negative) will allow the suspension to expand more easily.
+      
+      For the front of the car, increasing rebound can increase aerodynamic performance at high speed by keeping the front of the car lower as loads reduce. This can also cause the front tires to unload, especially over a bumpy track surface, and induce understeer on throttle and at high speeds. Reducing front rebound will help with front-end mechanical grip, inducing oversteer on throttle, but can reduce aerodynamic performance by allowing too much chassis movement.
+
+  - id: rear-dampers
+    level: 3
+    titleZh: "后减振器"
+    titleEn: "REAR DAMPERS"
+    bodyZh: |+
+      #### 压缩阻尼
+      
+      后减振器压缩设定控制悬架压缩时减振器的阻力，一个设定同时控制高速和低速压缩阻尼。较高数值（更接近零）会增加阻尼力并抑制压缩；较低数值（更负）则让减振器更容易压缩。
+      
+      在车尾，提高压缩阻尼可能使车辆在加油和出弯时更容易转向不足，但也会减慢负载变化时的底盘运动，从而改善空气动力学表现。降低压缩阻尼会让车尾更快下沉，使车辆在施加油门时更容易转向过度。
+      
+      #### 回弹阻尼
+      
+      后减振器回弹设定控制悬架伸展时减振器的阻力，一个设定同时控制高速和低速回弹阻尼。较高数值（更接近零）会增加阻尼力，并在负载减小时尽量让悬架保持压缩；较低数值（更负）则让悬架更容易伸展。
+      
+      在车尾，提高回弹阻尼可在负载减小时让车尾保持较低，从而略微降低高速空气阻力；但这也可能使后轮卸载，尤其是在颠簸路面上，并导致高速转向过度。降低后回弹阻尼有助于提升后轴机械抓地力，使车辆在制动时更容易转向不足，但过多的底盘运动也会降低空气动力学性能。
+      
+      ---
+      
+      <!-- section-divider page=20 -->
+    bodyEn: |+
+      #### COMPRESSION DAMPING
+      
+      The Rear Damper Compression setting controls the shock’s stiffness when the suspension is compressing, with a single setting controlling both the high- and low-speed damping values. Higher values (closer to zero) will increase damping forces and resist compression, lower values (more negative) will allow the shock to compress more easily.
+      
+      At the rear of the car, increasing compression can induce understeer on throttle and corner exit, but can also help to produce better aerodynamic performance with the chassis’s movement being slowed through changing loads. Reducing compression will allow the rear end to compress faster, inducing oversteer on throttle application.
+      
+      #### REBOUND DAMPING
+      
+      The Rear Damper Rebound setting controls the shock’s stiffness when the suspension is expanding, with a single setting controlling both high- and low-speed damping values. Higher values (closer to zero) will increase damping forces and will try to keep the suspension compressed when loads are removed, while lower values (more negative) will allow the suspension to expand more easily.
+      
+      For the rear of the car, increasing rebound can decrease aerodynamic drag slightly at high speed by keeping the rear of the car lower as loads reduce. This can also cause the rear tires to unload, especially over a bumpy track surface, and induce oversteer at high speeds. Reducing rear rebound will help with rear-end mechanical grip, inducing understeer when braking, but can reduce aerodynamic performance by allowing too much chassis movement.
+      
+      ---
+      
+      <!-- section-divider page=20 -->
+
+  - id: setup-tips
+    level: 2
+    titleZh: "车辆设定技巧"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设定的用户。
+      
+      ---
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+      
+      ---
+
+  - id: setup-recommendations
+    level: 3
+    titleZh: "车辆设定建议"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      如果车辆设定未通过技术检查，通常是车高需要调整。可使用车辆前后两端的弹簧座偏移量进行调整：右键点击（正值）会降低车高，左键点击（负值）会提高车高。
+      
+      在“iRacing Setups”文件夹中可以找到多种车辆设定。
+      
+      `Baseline` 是采用 100% 燃油量的设定，仅用于确保车辆可在所有赛道加载。因此它应能在任意燃油量和赛道条件下通过技术检查，但不会提供极致性能。
+      
+      名称带有 `_wet` 的设定预装湿地胎，并包含适合湿地条件的调整。
+      
+      名称带有 `_sprint` 的设定采用 50% 燃油量，车辆平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设定用于正式竞赛。
+      
+      名称带有 `_endurance` 的设定采用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。
+      
+      名为 `fixed` 的设定用于固定车辆设定系列赛，与 `high_downforce_sprint` 设定相近。
+      
+      名称带有 `nurburgring_` 的设定采用 70 mm 最低车高，仅用于 Nürburgring Nordschleife 的各类赛道布局。
+      
+      名为 `challenge` 的设定用于 Ferrari Challenge 固定车辆设定系列赛。
+      
+      虽然大多数赛道通常偏向较高下压力，但在某些情况下，减小尾翼角度以降低阻力可能更有利。以下为各赛道建议使用的下压力等级，可作为粗略参考：
+      
+      | 赛道 | 下压力等级 | 赛道 | 下压力等级 |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | 高／中 | Long Beach Street Circuit | 高 |
+      | Autodromo Nazionale Monza | 中 | Motorsports Arena Oschersleben | 高 |
+      | Brands Hatch Circuit | 高 | Mount Panorama Circuit | 高／中 |
+      | Circuit de Barcelona Catalunya | 高 | Nürburgring Grand-Prix-Strecke | 高 |
+      | Circuit de Nevers Magny-Cours | 高／中 | Okayama International Circuit | 高 |
+      | Circuit de Spa-Francorchamps | 中 | Road America | 高／中 |
+      | Circuit des 24 Heures Du Mans | 中 | Sebring International Raceway | 高 |
+      | Daytona International Speedway | 低／中 | Silverstone Circuit | 高／中 |
+      | Detroit Grand Prix at Belle Isle | 高 | Sonoma Raceway | 高 |
+      | Fuji International Speedway | 高／中 | Virginia International Raceway | 高／中 |
+      | Hungaroring | 高 | Watkins Glen International | 高／中 |
+      | Indianapolis Motor Speedway | 中 | WeatherTech Raceway at Laguna Seca | 高 |
+      | Lime Rock Park | 高 | | |
+      
+      如果要驾驶未列出的赛道，建议先从高下压力设定开始，再评估其他下压力等级。判断赛道是否可能受益于降低下压力配置时，最高车速是一项很好的指标。
+      
+      以下范围可用于判断可能最合适的配置等级，但请注意，赛道设计（高速弯数量等）、海拔和环境条件等因素也会影响选择；海拔较高或环境温度较高时，通常更偏向使用较高下压力。
+      
+      | 最高车速 | 下压力等级 |
+      | --- | --- |
+      | 低于 250 km/h（155 mph） | 高下压力 |
+      | 250 至 270 km/h | 中下压力 |
+      | 高于 270 km/h（167 mph） | 低至最小下压力 |
+    bodyEn: |+
+      If the setup fails tech inspection, it is likely the ride heights require adjustment. This is performed by using the spring perch offsets at either end of the car. Right clicks (positive) will reduce the ride height while left clicks (negative) will increase the ride height.
+      
+      In the iRacing Setups folder you will find a variety of setups.
+      
+      Baseline is a 100% fuel load setup which is intended solely for loading the car at every possible track. As such, this setup should always pass tech inspection at every fuel load and track but will not provide ultimate performance.
+      
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+      
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+      
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+      
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+      
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+      
+      The setup titled ‘challenge’ is the setup used in the Ferrari Challenge fixed setup series.
+      
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+      
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Sebring International Raceway | High |
+      | Daytona International Speedway | Low/Medium | Silverstone Circuit | High/Medium |
+      | Detroit Grand Prix at Belle Isle | High | Sonoma Raceway | High |
+      | Fuji International Speedway | High/Medium | Virginia International Raceway | High/Medium |
+      | Hungaroring | High | Watkins Glen International | High/Medium |
+      | Indianapolis Motor Speedway | Medium | WeatherTech Raceway at Laguna Seca | High |
+      | Lime Rock Park | High | | |
+      
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+      
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+      
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleZh: "空气动力学目标与调整"
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前、后轴车高的细微变化非常敏感，因此在调整静态车高、各车角弹簧刚度和尾翼角度等项目时，必须始终考虑这一点。
+      
+      获得最大总下压力的最佳配置如下：
+      
+      - 尾翼角度：+12
+      - 动态前车高：40.0 mm（±2.5 mm）
+      - 动态后车高：62.0 mm（±2.5 mm）
+      
+      一旦车高高于或低于上述目标，总下压力便会开始下降。以最大下压力为目标时，必须考虑赛道的所有工况。例如，如果制动时后车高超过目标值，空气动力学平衡会前移，同时总下压力也会降低，车辆因此变得不稳定。在真实驾驶中，正是这些制动工况决定了您能多接近最大下压力目标。
+      
+      获得最小总阻力的最佳配置如下：
+      
+      - 尾翼角度：+2
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+      
+      在大多数赛道上，很难将车高降到足以达到这些低阻力目标，但 Daytona 等赛道可以做到。请记住，绝对最低车高受路面条件限制；接近目标时空气阻力会降低，但如果车底开始接触地面，整体阻力反而可能增加。还需说明的是，这套低阻力配置既无法提供最佳总下压力，也无法提供最佳操控平衡。
+      
+      调整尾翼角度时，应进行以下配套调整以维持空气动力学平衡：
+      
+      - 尾翼角度：+1
+      - 前车高：-1.2 mm
+      - 或
+      - 后车高：+3.6 mm
+      
+      &nbsp;
+      
+      - 尾翼角度：-1
+      - 前车高：+1.2 mm
+      - 或
+      - 后车高：-3.6 mm
+      
+      必要时也可同时组合调整前、后车高（例如较低后车高不易实现时）。减小尾翼角度后，这样做可保留更多总下压力而不破坏平衡，但代价是空气阻力略有增加。
+      
+      这些参考值只是建议追求的目标，车辆整体平衡仍应放在首位。在某些情况下，可能无法在这些目标值下获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+      
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+      
+      The optimal configuration for most total downforce is as follows:
+      
+      - Rear Wing Angle: +12
+      - Dynamic Front Ride Height: 40.0 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 62.0 mm (+/-2.5 mm)
+      
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+      
+      The optimal configuration for the least total drag is as follows:
+      
+      - Rear Wing Angle: +2
+      - Dynamic Front Ride Height: 17.5 mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5 mm (+/- 2.5 mm)
+      
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+      
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+      
+      - Rear Wing Angle: +1
+      - Front Ride Height: -1.2 mm
+      - OR
+      - Rear Ride Height: +3.6 mm
+      
+      &nbsp;
+      
+      - Rear Wing Angle: -1
+      - Front Ride Height: +1.2 mm
+      - OR
+      - Rear Ride Height: -3.6 mm
+      
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+      
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+      
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed
+
+  - id: chassis-adjustments
+    level: 3
+    titleZh: "底盘调整"
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著影响空气动力学平台的俯仰和升沉，也不想调整差速器，可以使用可调式前、后防倾杆。
+      
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面），对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少，对操作输入的响应加快。
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+      
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: "差速器调整"
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      差速器提供两类调整选项。
+      
+      - 增加摩擦片工作面 -&gt; 收油时更多转向不足、加油时更多转向过度；在颠簸路面和碾过路肩时，内侧车轮较不易空转。
+      - 减少摩擦片工作面 -&gt; 收油时较少转向不足、加油时较少转向过度；在颠簸路面和碾过路肩时，内侧车轮更易空转。通常更适合 Spa 一类路面平顺、路肩平坦的赛道。
+      
+      在全油门、持续制动或完全滑行等高输入扭矩状态下，摩擦片工作面数量起主导作用。
+      
+      预载会叠加到差速器的总锁止扭矩中，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不例外。因此，在差速器输入扭矩接近零的过渡阶段，例如松开油门和／或开始拖刹时，预载的作用更为明显。
+      
+      - 增加预载 -&gt; 较少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 减少预载 -&gt; 更多收油转向过度、较低入弯稳定性、收油时较少转向不足、加油时较少转向过度。
+    bodyEn: |+
+      Two adjustment options are available for the differential.
+      
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+      
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+      
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+      
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.

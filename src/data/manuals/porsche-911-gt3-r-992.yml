@@ -1,0 +1,880 @@
+slug: porsche-911-gt3-r-992
+published: true
+titleZh: Porsche 911 GT3 R (992) 用户手册
+titleEn: Porsche 911 GT3 R (992) User Manual
+contentType: vehicle-manual
+brand: Porsche
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/porsche-911-gt3-r-992/cover.png
+source:
+  type: official
+  title: iRacing Porsche 911 GT3 R (992) User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided adjusted V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/porsche-911-gt3-r-992/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      Porsche 911 GT3 R 992 规格版本是 Porsche 悠久 911 跑车赛事谱系中的最新车型，接替了于 2019 赛季首次参赛、基于 991 打造的 GT3 R。它与 2021 年首次亮相的现款 Porsche 911 GT3 Cup 一样，都是基于 992 代车型开发的 Porsche 赛车。在其首次参加 IMSA WeatherTech 跑车锦标赛的赛季中，Pfaff Motorsports、MDK Motorsports、Wright Motorsports、AO Racing Team 以及 Kelly-Moss with Riley 五支车队，均至少派出一辆 992 参加 GTD 或 GTD Pro 组别。
+
+      911 GT3 R (992) 搭载 4.2 升 Porsche 水平对置六缸发动机，相比前代车型的 4.0 升动力单元排量有所提升。2023 年赛百灵 12 小时耐力赛中，Klaus Bachler、Patrick Pilet 与 Laurens Vanthoor 组成的 Pfaff GTD Pro 车组为它赢得 IMSA 首胜；一个月后，Bachler 与 Pilet 又在长滩街道赛取得季军。Kelly-Moss with Riley 车队的 Alec Udell、Julien Andlauer 与 David Brule 也在赛百灵为该车拿下首个 GTD 组别领奖台。本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Porsche 911 GT3 R (992) 赛车](./assets/porsche-911-gt3-r-992/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Dear iRacing User, The latest in a long line of Porsche 911s built for sports car racing, the 992-spec edition of the Porsche 911 GT3 R follows in the footsteps of the 991-based GT3 R that debuted for the 2019 racing season. It also joins the current model of the Porsche 911 GT3 Cup car, which debuted in 2021, as a racing Porsche based on the 992 generation. In its inaugural IMSA WeatherTech SportsCar Championship season, five teams—Pfaff Motorsports, MDK Motorsports, Wright Motorsports, AO Racing Team, and Kelly-Moss with Riley—have all brought at least one 992 to the grid across the GTD and GTD Pro divisions.
+      
+      The 911 GT3 R (992) is powered by a 4.2-liter Porsche flat-six engine, a step up in displacement from the 4.0-liter units in the previous car. Its first IMSA win came at the hands of Pfaff’s GTD Pro squad of Klaus Bachler, Patrick Pilet, and Laurens Vanthoor in the 2023 12 Hours of Sebring, and the duo of Bachler and Pilet backed it up the next month with a third place finish on the streets of Long Beach. Kelly-Moss with Riley took the car’s first GTD podium at Sebring as well with Alec Udell, Julien Andlauer, and David Brule. The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/porsche-911-gt3-r-992/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/porsche-911-gt3-r-992/chassis-specifications.png)
+
+      #### 前悬架采用双叉臂结构，
+
+      后悬架采用多连杆结构。
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4619 mm / 181.8 in |
+      | 车宽 | 2050 mm / 80.7 in |
+      | 轴距 | 2507 mm / 98.7 in |
+      | 干重 | 1250 kg / 2755 lbs |
+      | 含车手湿重 | 1496 kg / 3300 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/chassis-specifications.png)
+      
+      #### DOUBLE-WISHBONE FRONT,
+      
+      MULTILINK REAR SUSPENSION.
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4619 mm / 181.8 in |
+      | Width | 2050 mm / 80.7 in |
+      | Wheelbase | 2507 mm / 98.7 in |
+      | Dry Weight | 1250 kg / 2755 lbs |
+      | Wet Weight with Driver | 1496 kg / 3300 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/porsche-911-gt3-r-992/power-unit.png)
+
+      水冷水平对置六缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 4.2 升 / 256.3 CID |
+      | 扭矩 | 375 lb-ft / 505 Nm |
+      | 功率 | 565 bhp / 416 kW |
+      | 转速上限 | 9500 RPM |
+
+      ![车辆侧视图](./assets/porsche-911-gt3-r-992/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/power-unit.png)
+      
+      WATER-COOLED FLAT 6 ENGINE
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 4.2 Liters / 256.3 cid |
+      | Torque | 375 lb-ft / 505 Nm |
+      | Power | 565 bhp / 416 kW |
+      | RPM Limit | 9500 |
+      
+      ![Image](./assets/porsche-911-gt3-r-992/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信自己使用随附的基准设置已接近个人驾驶极限后，请继续阅读，开始根据自己的操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/porsche-911-gt3-r-992/getting-started.png)
+
+      启动车辆前，建议先为制动力分配和牵引力控制设置映射控制按键。虽然并非必需，但这样可以在赛道上根据个人驾驶风格和赛道条件，快速调整制动力分配与牵引力控制系统。
+
+      进入车辆后，踩下离合器并拉动“升挡”拨片挂入挡位，然后在松开离合器的同时踩下油门踏板即可起步。Porsche 911 GT3 R (992) 升挡和降挡均无须手动操作离合器。
+
+      建议在数字显示屏上方的换挡提示灯组全部亮起蓝色时升挡。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias and Traction Control settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and traction control systems to suit your driving style and track conditions while out on track.
+      
+      Once you load into the car, getting started is as easy as pressing the clutch and pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal while releasing the clutch. The Porsche 911 GT3 R (992) does not require manual clutch operation to shift in either direction.
+      
+      Upshifting is recommended when the shift light cluster over the digital display is fully illuminated and all LEDs are blue.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/porsche-911-gt3-r-992/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+      
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+
+  - id: race-1
+    level: 3
+    titleZh: "比赛 1"
+    titleEn: "RACE 1"
+    bodyZh: |+
+      ![比赛 1 仪表页面](./assets/porsche-911-gt3-r-992/dash-race-1.png)
+
+      #### 左列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | MAP | 当前发动机映射设置，不可调整。 |
+      | AC | 当前空调设置，不可用。 |
+      | THR | 当前油门踏板映射设置。 |
+      | FC1 | 不可用，锁定为单一数值。 |
+      | Oil Temp | 发动机油温，单位为 °F 或 °C。 |
+      | Oil Press | 发动机机油系统压力，单位为 psi 或 bar。 |
+      | Water Temp | 发动机冷却液温度，单位为 °F 或 °C。 |
+      | Water Press | 发动机冷却系统压力，单位为 psi 或 bar。 |
+      | TC-LA | 当前牵引力控制级别设置。 |
+      | TC-LO | 牵引力控制“纵向”设置。该项与 TC-LA 联动，二者会根据所选牵引力控制设置显示相同数值。 |
+      | ABS | 当前选择的防抱死制动系统级别。 |
+
+      #### 中央
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Speed | 当前车速，单位为 mph 或 km/h。 |
+      | Gear Indicator | 当前选择的挡位。 |
+      | Tire Information | 轮胎信息框显示实时胎压和胎温。胎压显示在中央，单位为 psi 或 kPa；温度显示在外侧四角，单位为 °F 或 °C。 |
+
+      #### 右列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Lap | 当前圈数。 |
+      | Laptime | 上一完成圈的圈速。 |
+      | Time Diff | 当前圈与本次会话最佳圈之间的圈速差。 |
+      | Pred. Time | 当前圈的预计圈速。 |
+      | Brake Bias | 当前制动力分配设置，以相对于 50% 的偏移量显示。例如，制动力分配设为 54% 时显示 4.00，设为 48% 时显示 -2.00。调整制动力分配时，显示屏右侧会出现图形条，表示当前分配向前或向后偏移的程度。 |
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/dash-race-1.png)
+      
+      #### LEFT COLUMNS
+      
+      | Display | Description |
+      | --- | --- |
+      | MAP | Current Engine Map setting, non-adjustable. |
+      | AC | Current Air Conditioner setting, inoperable. |
+      | THR | Current throttle pedal map setting. |
+      | FC1 | Inoperable, locked to a single value. |
+      | Oil Temp | Engine Oil Temperature in °F or °C. |
+      | Oil Press | Engine Oil system pressure in Pounds-per-square-Inch or Bar. |
+      | Water Temp | Engine cooling water temperature in °F or °C. |
+      | Water Press | Engine cooling system pressure in Pounds-per-square-Inch or Bar. |
+      | TC-LA | Current Traction Control level setting. |
+      | TC-LO | Traction Control “Longitudinal” setting. This is linked with TC-LA and both will show the same value based on the selected Traction Control setting. |
+      | ABS | Currently selected Anti-lock Braking System level. |
+      
+      #### CENTER
+      
+      | Display | Description |
+      | --- | --- |
+      | Speed | Current speed in Miles-per-hour or Kilometers-per-hour. |
+      | Gear Indicator | Currently selected gear. |
+      | Tire Information | The tire information box displays live tire pressure and temperature information. Pressures are shown in the center in Pounds-per-square-inch or Kilopascals, and temperatures are shown in the outer corners in °F or °C. |
+      
+      #### RIGHT COLUMNS
+      
+      | Display | Description |
+      | --- | --- |
+      | Lap | Current lap number. |
+      | Laptime | Previously completed lap time. |
+      | Time Diff | Time difference between the current lap and the session best lap. |
+      | Pred. Time | Predicted lap time for the current lap. |
+      | Brake Bias | Current Brake Bias setting, displayed as an offset from 50%. For example, if the brake bias is set to 54% this will display 4.00, while a 48% brake bias will display -2.00. When changing the Brake Bias, a graphical bar will appear on the right side of the display, indicating how far forward or rearward the Bias is currently set. |
+
+  - id: race-2
+    level: 3
+    titleZh: "比赛 2"
+    titleEn: "RACE 2"
+    bodyZh: |+
+      ![比赛 2 仪表页面](./assets/porsche-911-gt3-r-992/dash-race-2.png)
+
+      “比赛 2”页面与“比赛 1”页面相同，但左侧数据组会改为显示燃油系统信息。
+
+      #### 顶行
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Fuel Used | 自驶离维修区道路以来消耗的燃油量，单位为美制加仑或升。 |
+      | Fuel p. Lap | 上一圈消耗的燃油量，单位为美制加仑或升。 |
+      | Fuel Press | 当前燃油系统压力，单位为 psi 或 bar。 |
+      | Fuel Level | 油箱内当前剩余燃油量，单位为美制加仑或升。 |
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/dash-race-2.png)
+      
+      The Race 2 page is the same as the Race 1 page, however the data group on the left side has changed to display fuel system information.
+      
+      #### TOP ROW
+      
+      | Display | Description |
+      | --- | --- |
+      | Fuel Used | Amount of fuel used since leaving pit road, in US gallons or liters. |
+      | Fuel p. Lap | Amount of fuel used during the previous lap, in US gallons or liters. |
+      | Fuel Press | Current fuel system pressure in psi or bar. |
+      | Fuel Level | Current amount of fuel in the fuel tank, in US gallons or liters. |
+
+  - id: qual
+    level: 3
+    titleZh: "排位"
+    titleEn: "QUAL"
+    bodyZh: |+
+      ![排位仪表页面](./assets/porsche-911-gt3-r-992/dash-qual.png)
+
+      排位页面会移除屏幕上的大部分数据，改为显示圈速和分段时间信息。
+
+      #### 顶行
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Lap Time | 发动机和燃油信息替换为圈速显示，显示上一完成圈的圈速。 |
+      | Time Diff | 圈速信息区替换为分段时间显示和图形差值条，用于表示当前圈相对于本次会话最快圈的表现。 |
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/dash-qual.png)
+      
+      The Qualifying page removes most of the data from the screen, replacing it with laptime and split information.
+      
+      #### TOP ROW
+      
+      | Display | Description |
+      | --- | --- |
+      | Lap Time | The engine and fuel information is replaced with a laptime display showing the previously completed lap time. |
+      | Time Diff | The laptime information cluster is replaced with a split time display and a graphical split bar to show how the current lap relates to the fastest lap of the session. |
+
+  - id: pit-limiter
+    level: 3
+    titleZh: "维修区限速器"
+    titleEn: "PIT LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/porsche-911-gt3-r-992/pit-limiter.png)
+
+      启用维修区道路限速器后，仪表会显示大面积绿色叠加层，其中包含当前挡位、车速和维修区道路限速。此外，车轮空转／抱死 LED 灯组会亮起绿色，仪表顶部的车速指示也会切换为发动机转速。如果车速超过维修区道路限速，叠加层会由绿色变为红色。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/pit-limiter.png)
+      
+      When the pit road limiter is enabled the dash will feature a large green overlay with the currently selected gear, vehicle speed, and the pit road speed limit. In addition, the wheel spin/lock LED clusters will illuminate in green and the speed indicator at the top of the dash will change to engine RPM. Should the speed exceed the pit road speed limit, this overlay will change from green to red.
+
+  - id: value-change
+    level: 3
+    titleZh: "数值变更"
+    titleEn: "VALUE CHANGE"
+    bodyZh: |+
+      ![数值变更](./assets/porsche-911-gt3-r-992/value-change.png)
+
+      每当车手可控数值发生变化（ABS、牵引力控制等），显示屏右侧都会出现蓝色叠加框，显示正在调整的项目及其数值。完成最后一次调整后，该提示会在短时间内自动消失。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/value-change.png)
+      
+      Whenever a driver-controlled value is changed (ABS, TC, etc.) the right side of the display will show a blue overlay box with the value being changed and the value itself. This will clear shortly after the final change has been made.
+
+  - id: low-fuel-warning
+    level: 3
+    titleZh: "低油量警告"
+    titleEn: "LOW FUEL WARNING"
+    bodyZh: |+
+      ![低油量警告](./assets/porsche-911-gt3-r-992/low-fuel-warning.png)
+
+      油箱内燃油量低于 10 升时，仪表右侧会出现红色警告叠加层；同时，显示屏两侧灯组最下方的 LED 会亮起红色。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/low-fuel-warning.png)
+      
+      Should the amount of fuel in the tank drop below 10 Liters a red warning overlay will appear on the right side of the dash. Along with this warning, the lower-most LED lights on the display’s side clusters will illuminate in red.
+
+  - id: led-clusters
+    level: 2
+    titleZh: "LED 灯组"
+    titleEn: "LED CLUSTERS"
+
+  - id: shift-lights
+    level: 3
+    titleZh: "换挡提示灯"
+    titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      显示屏顶部设有一组 LED 换挡提示灯，用于指示发动机何时达到最佳换挡转速。
+
+      随着发动机转速升高，LED 会从外侧向内侧依次亮起（由绿色过渡至红色），并在即将达到理想换挡点前汇聚。
+
+      ![换挡提示灯逐步亮起](./assets/porsche-911-gt3-r-992/shift-lights-progress.png)
+
+      达到理想换挡点时，所有换挡 LED 都会变为蓝色并开始闪烁。
+
+      ![换挡提示灯就绪](./assets/porsche-911-gt3-r-992/shift-lights-ready.png)
+
+    bodyEn: |+
+      Across the top of the display is a set of LED shift lights that indicate when the engine RPM has reached the optimum shift point.
+      
+      As RPM increases the LEDs will light up from the outside to the inside (green to red), converging just prior to the ideal shift point.
+      
+      ![Image](./assets/porsche-911-gt3-r-992/shift-lights-progress.png)
+      
+      When the ideal shift point has been reached, all shift light LEDs will change to blue and begin flashing.
+      
+      ![Image](./assets/porsche-911-gt3-r-992/shift-lights-ready.png)
+
+  - id: tc-abs-indicators
+    level: 3
+    titleZh: "牵引力控制／ABS 指示灯"
+    titleEn: "TC/ABS INDICATORS"
+    bodyZh: |+
+      仪表两侧各有一条 LED 灯带，用于直观显示牵引力控制系统正在抑制加油时的后轮空转，以及制动时前轴或后轴发生的抱死。
+
+      牵引力控制系统启用并正在抑制车轮空转时，两侧灯组会亮起蓝色。
+
+      ![牵引力控制指示灯](./assets/porsche-911-gt3-r-992/traction-control-indicator.png)
+
+      制动时前轮或后轮发生抱死后，两侧灯组会分区显示：粉色表示前轴抱死，黄色表示后轴抱死。亮起的 LED 数量还会表示严重程度：一盏表示轻微或刚开始抱死，四盏全部亮起则表示严重或完全抱死。
+
+      ![制动抱死指示灯](./assets/porsche-911-gt3-r-992/brake-lockup-indicators.png)
+
+      ---
+
+      <!-- section-divider page=13 -->
+
+    bodyEn: |+
+      A pair of LED strips on either side of the dash provide a visual display of the Traction Control system attempting to control rear wheelspin on throttle and front or rear lockups under braking.
+      
+      Whenever the Traction Control system is active and attempting to control wheelspin the side clusters will be illuminated in blue.
+      
+      ![Image](./assets/porsche-911-gt3-r-992/traction-control-indicator.png)
+      
+      Whenever either the front or rear wheels lock under braking the side clusters will split and show pink for a front axle lockup and yellow for a rear axle lockup. These LEDs also show the severity by how many LEDs are illuminated: One LED shows relatively small or initial locking while all four LEDs indicate severe or complete axle lockup.
+      
+      ![Image](./assets/porsche-911-gt3-r-992/brake-lockup-indicators.png)
+      
+      ---
+      
+      <!-- section-divider page=13 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的高级用户。调整以下参数并非必要，而且可能显著改变车辆的操控特性。建议所有调整都采用循序渐进的方式，每次只更改一个变量，并在继续调整前先测试效果。
+
+      ---
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tires
+    level: 3
+    titleZh: "轮胎"
+    titleEn: "TIRES"
+    bodyZh: |+
+      ![轮胎设置](./assets/porsche-911-gt3-r-992/tires.png)
+
+      #### 起始胎压
+
+      设置车辆载入赛道时的轮胎气压。较低胎压可提供更多机械抓地力，但滚动阻力和热量积聚也更大；较高胎压可降低热量积聚和滚动阻力，但也会减少可用抓地力。通常，在车速和负荷较高的赛道上，较高胎压表现更好；在速度较慢、弯角较急的赛道上，较低胎压表现更佳。
+
+      #### 上次热态胎压
+
+      上次热态胎压显示车辆返回车库时的轮胎气压。冷、热态胎压的差值有助于判断车辆在一个长距离阶段内的平衡变化；负荷较大的轮胎通常会出现更大的胎压升幅。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎使用过程中操控平衡发生变化。因此，应调整冷态胎压，使工作状态相近的轮胎达到工作温度后具有相近胎压。
+
+      #### 上次胎温
+
+      车辆返回维修区或车手离开车辆后显示的轮胎胎体温度。车轮载荷及轮胎在赛道上的工作强度会反映在胎温上，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析赛道行驶中的车轮定位状态，尤其是外倾角。温度在胎面横向的三个区域测量：相对于底盘中心线的内侧、中间和外侧。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区或车手离开车辆后，轮胎剩余的胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；结合胎温数据，还可以分析车辆的操控平衡。剩余胎面厚度与胎温采用相同的区域划分进行测量。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/tires.png)
+      
+      #### STARTING PRESSURE
+      
+      This sets the air pressure in the tires when the car is loaded into the world. Lower pressures will produce more mechanical grip with more rolling drag and heat buildup, while higher pressures will reduce heat buildup and rolling drag, but will also reduce the available grip. Generally, higher pressures will perform better at tracks with high speeds and high loads while slower tracks with tighter corners will see better performance out of lower tire pressures.
+      
+      #### LAST HOT PRESSURE
+      
+      The Last Hot Pressure displays the air pressure in the tire when the car is returned to the garage. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+      
+      #### LAST TEMPS
+      
+      Tire carcass temperatures once the car has returned to the pits or the driver has gotten out of the car. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer relative to the chassis centerline.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits or the driver has gotten out of the car. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: "空气动力学计算器"
+    titleEn: "AERO CALCULATOR"
+    bodyZh: |+
+      ![空气动力学计算器](./assets/porsche-911-gt3-r-992/aero-calculator.png)
+
+      空气动力学计算器用于显示车辆在指定配置下的近似空气动力学数值。更改尾翼角度并输入赛道行驶中的动态车高后，计算器会显示车辆高速行驶时的空气动力学平衡，帮助判断车辆在特定配置下可能呈现的操控表现。还可以利用计算器确定应对空气动力学引发的操控问题需要进行哪些调整，例如在改变尾翼角度后，通过调整车高恢复原有下压力平衡。
+
+      #### 动态前车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的前车高，然后将该数值输入“动态前车高”设置。
+
+      #### 动态后车高
+
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的后车高，然后将该数值输入“动态后车高”设置。
+
+      #### 尾翼设置
+
+      更改尾翼设置会改变尾翼总成的攻角。较大角度会增加下压力、使空气动力学平衡后移，但也会增加阻力；较小角度会减少阻力和下压力，同时使空气动力学平衡前移。为获得最佳性能，必须根据赛道特性调整尾翼角度：高速赛道通常受益于较小尾翼角度带来的低阻力；速度较慢、弯角较多的赛道则通常使用较大尾翼角度和更多下压力时表现更好。空气动力学计算器中的此项设置与底盘页面“后部”章节中的尾翼设置联动，更改其中一项会同步更改另一项。
+
+      #### 前轴下压力占比
+
+      前轴下压力表示车辆总下压力中作用于前轴的比例，以百分比显示。百分比越高，代表前轴下压力占比增加，车辆在中高速弯中更容易转向过度；百分比越低，代表后轴下压力占比增加，车辆在中高速弯中更容易转向不足。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/aero-calculator.png)
+      
+      The Aero Calculator is a tool used to display the car’s approximate aerodynamic values in a given configuration. Changing the rear wing angle and applying the on-track ride height will display the car’s aerodynamic balance when it is at speed and give an idea for how the car may behave in certain configurations. This calculator can also be used to determine what changes need to be made to the car to alleviate aerodynamically-induced handling issues, such as ride height changes to restore a given downforce balance for a wing angle change.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting.
+      
+      #### WING SETTING
+      
+      Changing the Rear Wing Setting will alter the angle of attack of the rear wing assembly. Higher angles will increase downforce and shift aero balance rearward but will also increase drag. Lower angles will reduce drag and downforce while shifting aero balance forward. It’s very important to tune the Rear Wing angle to suit the track characteristics for optimum performance: Higher-speed tracks will usually benefit from the reduced drag of a lower wing angle while slower, twisty tracks will see better performance with a high wing angle and increased downforce. This setting in the Aero Calculator is linked to the Wing Setting angle in the Rear section of the chassis page and changing either setting will also change the other.
+      
+      #### FRONT DOWNFORCE
+      
+      Front Downforce is how much of the car’s total downforce is over the front axle, displayed as a percentage. A higher percentage value indicates an increase in front downforce, increasing oversteer in mid- to high-speed corners. A lower percentage value indicates an increase in rear downforce, increasing understeer in mid- to high-speed corners.
+
+  - id: chassis-2
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/porsche-911-gt3-r-992/front.png)
+
+      #### 前防倾杆设置
+
+      前防倾杆（FARB）设置会改变前悬架的侧倾刚度。提高防倾杆设置数值会增加前悬架侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手在初次转向输入时感到响应更直接。相反，降低防倾杆设置会减小悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。负前束会使轮胎前缘比后缘更远离中心线；正前束则使轮胎前缘比后缘更靠近中心线。负前束会降低车辆直线稳定性，但可提高入弯响应，代价是胎温和磨损增加。减小负前束（甚至采用正前束）可提高直线稳定性、降低胎温和磨损，但车辆对转向输入的响应可能变得迟缓。
+
+      #### 燃油量
+
+      燃油量是车辆驶离车库时油箱内的燃油量。
+
+      #### 对角配重
+
+      对角配重表示左后轮与右前轮载荷之和占车辆总重的百分比。可通过各轮弹簧预载设置（前、后弹簧座偏移量）进行调整。大多数赛道应将该数值保持在 50% 左右。
+
+      #### 前制动主缸
+
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。
+
+      #### 后制动主缸
+
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。
+
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能；“中”和“高”设置提供更高摩擦力、增强制动效能，但也会增加制动抱死的风险。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/front.png)
+      
+      #### FARB SETTING
+      
+      The FARB (Anti-Roll Bar) Setting alters the stiffness of the front suspension in roll. Increasing the ARB setting value will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver at initial steering input. Conversely, reducing the ARB setting will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheels relative to the chassis centerline when viewed from above. Negative toe-in sets the front of the tires farther from the centerline than the rear of the tires while positive toe-in sets the front of the tires closer to the centerline than the rear of the tires. Toe-out will destabilize the car in a straight line but this will increase turn-in response at the cost of increased tire temperature and wear. Reducing toe-out (and even running toe-in) will stabilize the car in a straight line and reduce temperature and wear, but could make the car sluggish in response to steering inputs.
+      
+      #### FUEL LEVEL
+      
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+      
+      #### CROSS WEIGHT
+      
+      Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the total weight of the car, displayed in percent. This is adjusted via the corner spring preload adjustments (Front and Rear Spring Perch Offset). This value should be around 50% for most tracks.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup.
+
+  - id: in-car-dials
+    level: 3
+    titleZh: "车内旋钮"
+    titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![车内旋钮](./assets/porsche-911-gt3-r-992/in-car-dials.png)
+
+      #### 显示页面
+
+      显示页面设置决定车辆载入赛道时数字仪表默认显示的页面。
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，更多制动力传递至前轴；数值低于 50% 时，更多制动力传递至后轴。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。
+
+      #### 牵引力控制设置
+
+      此设置决定牵引力控制系统在大油门输入或低抓地力条件下，为防止车轮空转而削减发动机扭矩的程度。数值越高，系统削减扭矩越积极；数值越低，系统会允许略多的车轮空转后再介入。将数值设为“0”会关闭牵引力控制。可通过车内 F8 黑框调整该数值。
+
+      #### 油门映射设置
+
+      本车共有三个设置，可根据驾驶风格和赛道条件进行调整。挡位 1 采用蝶形曲线，较小的踏板位移对应比例更低的发动机扭矩，有助于在低速或低抓地力条件下细腻控制踏板并防止车轮空转。挡位 3 为线性映射，即 50% 踏板位置对应最大可用扭矩的 50%。挡位 2 介于线性与蝶形曲线之间。
+
+      #### 夜间 LED 灯带
+
+      此设置可改变后侧窗外缘 LED 灯带的颜色。当多辆赛车使用相同涂装时，可用于在赛道上识别特定车辆。该设置不会影响车辆性能。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/in-car-dials.png)
+      
+      #### DISPLAY PAGE
+      
+      The Display Page setting sets which page the digital dash display will show when the car is loaded into the world.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### TRACTION CONTROL SETTING
+      
+      This setting alters how much the Traction Control system will cut engine torque to prevent wheelspin in heavy throttle application or low-grip conditions. Higher values will be more aggressive with torque cut to reduce wheelspin while lower values will allow slightly more wheelspin before intervening. Setting this value to “0” will disable the Traction Control. This value is adjustable from the in-car F8 black box.
+      
+      #### THROTTLE MAP SETTING
+      
+      There are 3 settings on this car. They can be adjusted to suit driving style and track conditions. Position 1 has a butterfly shape where small pedal movements result in proportionately less engine torque. This can help prevent wheelspin when modulating the pedal in low speed or low grip situations. Position 3 is linear - 50% pedal position results in 50% of maximum possible torque. Position 2 is halfway between linear and butterfly.
+      
+      #### NIGHT LED STRIPS
+      
+      This changes the color of the LED light strip around the outside of the rear side windows, useful for identifying a specific car on-track when multiple cars share the same livery. This has no effect on vehicle performance.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前轮设置"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/porsche-911-gt3-r-992/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过弹簧座偏移量设置进行调整。
+
+      #### 车高
+
+      地面到车身底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测得，因此不一定代表车辆实际离地间隙，而是为车辆静止时相对于赛道表面的高度提供可靠基准。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少整车总下压力、使空气动力学平衡后移，但会略微降低阻力。相反，降低前车高会增加下压力、使空气动力学平衡前移，同时略微增加整车阻力。
+
+      #### 弹簧座偏移量
+
+      通过改变弹簧上座的安装位置来调整车辆此轮的车高。增大弹簧座偏移量会降低弹簧预载，从而降低此轮车高；减小偏移量会提高弹簧预载，并抬高此轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且对角配重不变。
+
+      #### 弹簧刚度
+
+      弹簧刚度表示控制各车轮的悬架弹簧有多硬，其数值代表将弹簧压缩特定距离所需的作用力（磅或牛顿）。弹簧用于防止底盘在赛道负荷下触地，并控制底盘的空气动力学姿态；其刚度也会显著影响车辆操控。前轴使用较硬弹簧可限制前分流器在空气动力学负荷增加时的位移，但会降低机械抓地力，并可能导致低速弯转向不足。较软弹簧会增加车头运动，可能损害空气动力学性能，但会提高前轴机械抓地力，并在过弯时减少转向不足（极端情况下也可能导致转向过度）。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset settings.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at a corner of the car by changing the installed position of the spring’s upper perch. Increasing the spring perch offset will reduce spring preload, lowering the corner of the car. Reducing the spring perch offset will increase spring preload and raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight.
+      
+      #### SPRING RATE
+      
+      Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front splitter from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can lead to understeer in slower corners. Softer springs will result in more front end movement, which can hurt aerodynamic performance, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases) when cornering.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后轮设置"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/porsche-911-gt3-r-992/rear-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过弹簧座偏移量设置进行调整。
+
+      #### 车高
+
+      地面到车身底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测得，因此不一定代表车辆实际离地间隙，而是为车辆静止时相对于赛道表面的高度提供可靠基准。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高后车高会增加整车总下压力、使空气动力学平衡前移，但也会增加阻力。降低后车高则相反，会使空气动力学平衡后移，同时降低总下压力和阻力。
+
+      #### 弹簧座偏移量
+
+      用于调整车高和单轮载荷；改变此设置会对弹簧施加静态预载。减小数值会增加弹簧预载，提高此轮载荷和车高；增大数值则相反，会降低此轮车高和载荷。调整车高时，应成对调整（例如同时调整左右两侧），或同时调整车辆全部四个弹簧预载设置，以避免对角配重发生变化。
+
+      #### 弹簧刚度
+
+      弹簧刚度决定弹簧的软硬程度，以单位位移所需作用力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态。较硬弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力；较软弹簧能更好地处理颠簸并增加机械抓地力，但会削弱空气动力学平台控制。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大后轮负外倾角可提高过弯稳定性，但会降低制动时的直线稳定性；减小后轮负外倾角通常可以提高低抓地力弯角出口的牵引力。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+      
+      #### SPRING RATE
+      
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce straight-line stability under braking, while lower rear camber values can often increase traction out of low-grip corners.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/porsche-911-gt3-r-992/rear.png)
+
+      #### 后防倾杆设置
+
+      后防倾杆（RARB）设置会改变后悬架的侧倾刚度。提高防倾杆设置数值会增加后悬架侧倾刚度，从而减少车身侧倾，但增加机械性转向过度。相反，降低防倾杆设置会减小悬架侧倾刚度，增加车身侧倾但减少机械性转向过度。
+
+      #### 总前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在后轴增加正前束可提高直线稳定性，但可能削弱车辆的变向能力。
+
+      #### 尾翼设置
+
+      更改尾翼设置会改变尾翼总成的攻角。较大角度会增加下压力、使空气动力学平衡后移，但也会增加阻力；较小角度会减少阻力和下压力，同时使空气动力学平衡前移。为获得最佳性能，必须根据赛道特性调整尾翼角度：高速赛道通常受益于较小尾翼角度带来的低阻力；速度较慢、弯角较多的赛道则通常使用较大尾翼角度和更多下压力时表现更好。底盘页面中的此项设置与空气动力学计算器中的尾翼设置联动，更改其中一项会同步更改另一项。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/rear.png)
+      
+      #### RARB SETTINGS
+      
+      The RARB (Anti-Roll Bar) Setting alters the stiffness of the rear suspension in roll. Increasing the ARB setting value will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB setting will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer.
+      
+      #### TOTAL TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
+      
+      #### WING SETTING
+      
+      Changing the Rear Wing Setting will alter the angle of attack of the rear wing assembly. Higher angles will increase downforce and shift aero balance rearward but will also increase drag. Lower angles will reduce drag and downforce while shifting aero balance forward. It’s very important to tune the Rear Wing angle to suit the track characteristics for optimum performance: Higher-speed tracks will usually benefit from the reduced drag of a lower wing angle while slower, twisty tracks will see better performance with a high wing angle and increased downforce. This setting on the Chassis page is linked to the Wing Setting angle in the Aero Calculator and changing either setting will also change the other.
+
+  - id: gears-differential
+    level: 3
+    titleZh: "齿比／差速器"
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![齿比与差速器](./assets/porsche-911-gt3-r-992/gears-and-differential.png)
+
+      #### 齿比组
+
+      六个前进挡共有三套齿比可选，用于针对不同赛道类型调整车辆加速能力和最高速度。“Short Stack”安装一套加速能力最强但最高速度最低的齿比，最适合车速保持在 255 km/h（160 mph）以下的高下压力赛道。“FIA”齿比组适合最高速度低于 270 km/h（170 mph）的中下压力赛道。“Daytona”齿比组用于最高速度至关重要、可以牺牲加速能力的低下压力赛道。
+
+      #### 摩擦面数量
+
+      改变差速器内离合器片（即摩擦面）的数量，会按比例放大差速器保持后轴锁止的作用力。较多摩擦面会以最低设置的 4 个摩擦面为基准放大锁止力。例如，8 个摩擦面的作用力是 4 个的两倍，6 个摩擦面的作用力则是 4 个的 1.5 倍。
+
+      #### 差速器预载
+
+      差速器预载是差速器内部恒定存在的静态锁止力，在加速和减速时均保持不变。提高差速器预载会增强差速器两侧的锁止作用，导致车辆收油时更容易转向不足，激进加油时更容易突然转向过度。提高预载还会使加油与收油之间的操控过渡更平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度，并增强车手信心。通常，当车辆在低速弯出口的驱动力明显不足，和／或在中低速弯中油门与制动转换时旋转过度，应提高差速器预载。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/gears-and-differential.png)
+      
+      #### GEAR STACK
+      
+      There are three options for the six forward transmission gear stacks to help tailor the car’s acceleration and top speed for various circuit types. The “Short Stack” installs a gear set to provide the best acceleration but lowest top speed, best for high-downforce tracks where speeds stay under 255kph (160mph). The “FIA” stack is good for medium downforce tracks with speeds under 270kph (170mph). The “Daytona” stack is for lower-downforce tracks where top speed is crucial and acceleration can be sacrificed.
+      
+      #### FRICTION FACES
+      
+      Changing the number of clutch plates, or friction faces, in the differential will multiply the force produced by the differential to keep the rear axle locked. Higher numbers of faces will multiply the forces relative to the lowest setting of 4 friction faces. For example, 8 faces will have twice as much force as 4 plates, while 6 plates will have 1.5 times the forces of 4 plates.
+      
+      #### DIFF PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers
+    level: 2
+    titleZh: "减振器"
+    titleEn: "DAMPERS"
+    bodyZh: |+
+      ![减振器](./assets/porsche-911-gt3-r-992/dampers.png)
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器活塞杆以较低速度运动并压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及常规过弯力引起的车身运动。本车调节数值越低，压缩阻力越大，低速状态下载荷也会更快地转移到相应轮胎上。
+
+      在前轴，提高低速压缩阻尼（即采用较低设置数值）会使车辆在制动和入弯阶段更容易转向不足，此效果会在弯心阶段逐渐消退。在后轴，提高低速压缩阻尼（较低设置数值）有助于车辆出弯加油时获得牵引力和向前驱动力。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器高速运动时的表现，通常对应压过路肩或赛道表面颠簸。本车较低设置数值会使悬架在这些情况下更硬；较高数值会降低阻尼作用力，使悬架更好地吸收颠簸，但可能削弱空气动力学平台控制，并增加底盘底部接触赛道表面的风险。面对非常大的颠簸时，降低高速压缩阻尼的调节数值可以抑制悬架压缩、抬高底盘，从而越过颠簸并避免底盘触地。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器以较低速度伸长时的刚度，通常对应车手操作引起的车身运动。本车回弹设置数值越低，阻尼作用力越大、越能抑制减振器伸长；数值越高，减振器伸长越快。较大的回弹阻尼（较低设置数值）能更好地控制空气动力学姿态，但如果悬架无法足够快地伸长以保持车轮与赛道正确接触，也可能导致车轮卸载。回弹阻尼过大时，车轮可能在赛道表面弹跳而无法持续接触，导致不必要的振荡。
+
+      在前轴，提高低速回弹阻尼（较低设置数值）会使车辆在加油时更容易转向不足。在后轴，提高低速回弹阻尼（较低设置数值）可以稳定制动状态，但也可能在刚开始入弯时导致转向不足。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过大型颠簸和路肩后伸长时的表现。较低调节数值会降低减振器伸长速度，较高数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。
+
+    bodyEn: |+
+      ![Image](./assets/porsche-911-gt3-r-992/dampers.png)
+      
+      #### LOW SPEED COMPRESSION
+      
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock shaft is moving at relatively low speeds, usually during movement caused by driver input (steering, braking, & throttle) and typical cornering forces. Lower values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly.
+      
+      On the front axle, increasing Low Speed Compression (lower value settings) can induce understeer while braking and during the turn-in phase, with the effect ending through the center of the corner. Increasing Low Speed Compression (lower value settings) on the rear axle will aid in traction and forward drive when throttle is applied out of a corner.
+      
+      #### HIGH SPEED COMPRESSION
+      
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Lower compression values will cause the suspension to be stiffer in these situations, while higher values will reduce the damping forces and allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track and risk the bottom of the chassis coming into contact with the track surface. For very large bumps a lower click setting on High Speed Compression can resist suspension compression and raise the chassis to clear the bump and prevent grounding the chassis.
+      
+      #### LOW SPEED REBOUND
+      
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Lower rebound values will increase damping forces and resist expansion of the shock, higher click values will allow the shock to extend faster. Higher rebound forces (lower click values) can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand fast enough to maintain proper contact with the track. Excessive rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+      
+      On the front axle, increasing Low Speed Rebound forces (lower click values) can induce understeer on throttle application. Increasing Low Speed Rebound forces (lower click values) on the rear axle can stabilize the car under braking and also induce understeer at initial turn-in.
+      
+      #### HIGH SPEED REBOUND
+      
+      High-speed rebound adjusts the shock in extension following large bumps and curb strikes. Lower clicker values will reduce how quickly the shock will expand, while higher values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.

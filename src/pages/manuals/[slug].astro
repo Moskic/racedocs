@@ -1,0 +1,156 @@
+---
+import ManualToc from '../../components/ManualToc.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { createManualImageResolver, getManualShareImage } from '../../lib/manual-assets';
+import type { Manual } from '../../lib/manual-schema';
+import { getManuals, getPublishedManuals } from '../../lib/manuals';
+import { renderManualMarkdown } from '../../lib/markdown';
+
+type RenderedSection = Manual['sections'][number] & {
+  bodyZhHtml?: string;
+  bodyEnHtml?: string;
+};
+
+interface Props {
+  manual: Manual;
+  sections: RenderedSection[];
+  shareImage?: string;
+}
+
+export async function getStaticPaths() {
+  const manuals = import.meta.env.DEV ? await getManuals() : await getPublishedManuals();
+
+  return Promise.all(
+    manuals.map(async ({ data: manual }) => {
+      const resolveImage = createManualImageResolver(manual.slug);
+      const markdownOptions = { manualSlug: manual.slug, resolveImage };
+
+      return {
+        params: { slug: manual.slug },
+        props: {
+          manual,
+          shareImage: manual.cover
+            ? await getManualShareImage(manual.cover, manual.slug)
+            : undefined,
+          sections: await Promise.all(
+            manual.sections.map(async (section) => ({
+              ...section,
+              bodyZhHtml: section.bodyZh
+                ? await renderManualMarkdown(section.bodyZh, markdownOptions)
+                : undefined,
+              bodyEnHtml: section.bodyEn
+                ? await renderManualMarkdown(section.bodyEn, markdownOptions)
+                : undefined,
+            })),
+          ),
+        },
+      };
+    }),
+  );
+}
+
+const { manual, sections, shareImage } = Astro.props;
+const hasEnglish = sections.some((section) => Boolean(section.titleEn || section.bodyEnHtml));
+
+const splitTitleSuffix = (title: string, suffix: string) => {
+  const expectedSuffix = ` ${suffix}`;
+
+  return title.endsWith(expectedSuffix)
+    ? { main: title.slice(0, -expectedSuffix.length), suffix }
+    : { main: title };
+};
+
+const titleZh = splitTitleSuffix(manual.titleZh, '用户手册');
+const titleEn = splitTitleSuffix(manual.titleEn ?? manual.titleZh, 'User Manual');
+---
+
+<BaseLayout
+  title={`${manual.titleZh} · RaceDocs`}
+  description={`${manual.brand} ${manual.vehicleClass} ${manual.platform} 双语模拟赛车手册。`}
+  hasEnglish={hasEnglish}
+  image={shareImage}
+>
+  <div class="reader-chrome">
+    <SiteHeader hasEnglish={hasEnglish} />
+
+    <div class="mobile-reader-bar">
+      <button type="button" class="toc-open" data-open-toc aria-expanded="false">
+        <span data-lang="zh">目录</span>
+        <span data-lang="en">Contents</span>
+      </button>
+      <span data-lang="zh">{manual.titleZh}</span>
+      <span data-lang="en">{manual.titleEn ?? manual.titleZh}</span>
+    </div>
+  </div>
+
+  <div class="reader-layout">
+    <aside class="reader-sidebar">
+      <p class="toc-heading" data-lang="zh">手册目录</p>
+      <p class="toc-heading" data-lang="en">Contents</p>
+      <ManualToc sections={manual.sections} label="手册目录" />
+    </aside>
+
+    <main class="manual-content" id="manual-content">
+      <header class="manual-heading">
+        <p class="manual-meta">{manual.brand} · {manual.vehicleClass} · {manual.platform}</p>
+        <h1>
+          <span data-lang="zh">
+            {titleZh.main}
+            {titleZh.suffix && <><br /><span class="manual-title-suffix">{titleZh.suffix}</span></>}
+          </span>
+          <span data-lang="en">
+            {titleEn.main}
+            {titleEn.suffix && <><br /><span class="manual-title-suffix">{titleEn.suffix}</span></>}
+          </span>
+        </h1>
+      </header>
+
+      {
+        sections.map((section) => {
+          const Heading = section.level === 2 ? 'h2' : 'h3';
+          return (
+            <section id={section.id} class="manual-section" data-manual-section>
+              {(section.titleZh || section.titleEn) && (
+                <Heading>
+                  <span data-lang="zh">{section.titleZh ?? section.titleEn}</span>
+                  <span data-lang="en">{section.titleEn ?? section.titleZh}</span>
+                </Heading>
+              )}
+              <div class="manual-prose" data-lang="zh">
+                {section.bodyZhHtml ? (
+                  <Fragment set:html={section.bodyZhHtml} />
+                ) : section.bodyEnHtml ? (
+                  <p class="translation-missing">本节尚未翻译。</p>
+                ) : null}
+              </div>
+              <div class="manual-prose" data-lang="en">
+                {section.bodyEnHtml ? (
+                  <Fragment set:html={section.bodyEnHtml} />
+                ) : section.bodyZhHtml ? (
+                  <p class="translation-missing">This section has not been translated yet.</p>
+                ) : null}
+              </div>
+            </section>
+          );
+        })
+      }
+    </main>
+  </div>
+
+  <dialog class="toc-dialog" data-toc-dialog aria-label="手册目录 / Contents">
+    <div class="toc-dialog-header">
+      <h2 id="mobile-toc-title" data-lang="zh">目录</h2>
+      <h2 data-lang="en">Contents</h2>
+      <button type="button" data-close-toc aria-label="关闭目录 / Close contents">
+        <span data-lang="zh">关闭</span>
+        <span data-lang="en">Close</span>
+      </button>
+    </div>
+    <ManualToc sections={manual.sections} label="移动端手册目录" />
+  </dialog>
+
+  <script>
+    import '../../scripts/manual-reader';
+  </script>
+</BaseLayout>

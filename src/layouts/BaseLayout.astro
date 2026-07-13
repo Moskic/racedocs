@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  hasEnglish?: boolean;
+  image?: string;
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = 'RaceDocs 中文模拟赛车数字手册资料库',
+  hasEnglish = false,
+  image = '/favicon.svg',
+  noindex = false,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const shareImage = new URL(image, Astro.site);
+---
+
+<!doctype html>
+<html lang="zh-CN" data-language="zh" data-has-english={String(hasEnglish)}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RaceDocs" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={shareImage} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
+    <title>{title}</title>
+    <script is:inline define:vars={{ hasEnglish }}>
+      try {
+        if (hasEnglish && localStorage.getItem('racedocs-language') === 'en') {
+          document.documentElement.dataset.language = 'en';
+          document.documentElement.lang = 'en';
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <slot />
+    <script is:inline>
+      (() => {
+        const language = document.documentElement.dataset.language === 'en' ? 'en' : 'zh';
+        const suffix = language === 'en' ? 'En' : 'Zh';
+
+        for (const element of document.querySelectorAll('[data-placeholder-zh][data-placeholder-en]')) {
+          const placeholder = element.dataset[`placeholder${suffix}`];
+          if (placeholder !== undefined) element.setAttribute('placeholder', placeholder);
+        }
+
+        for (const element of document.querySelectorAll('[data-label-zh][data-label-en]')) {
+          const label = element.dataset[`label${suffix}`];
+          if (label !== undefined) element.textContent = label;
+        }
+
+        for (const element of document.querySelectorAll('[data-text-zh][data-text-en]')) {
+          const text = element.dataset[`text${suffix}`];
+          if (text !== undefined) element.textContent = text;
+        }
+      })();
+    </script>
+  </body>
+</html>
