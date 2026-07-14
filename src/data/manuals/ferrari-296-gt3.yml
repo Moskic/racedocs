@@ -54,7 +54,7 @@ sections:
     bodyZh: |+
       ![底盘规格](./assets/ferrari-296-gt3/chassis-specifications.png)
 
-      #### 双叉臂悬架，配备外置弹簧与减振器
+      双叉臂悬架，配备外置弹簧与减振器
 
       | 规格 | 数值 |
       | --- | --- |
@@ -67,7 +67,7 @@ sections:
     bodyEn: |+
       ![Image](./assets/ferrari-296-gt3/chassis-specifications.png)
       
-      #### DOUBLE WISHBONE WITH OUTBOARD SPRINGS AND DAMPERS
+      DOUBLE WISHBONE WITH OUTBOARD SPRINGS AND DAMPERS
       
       | Specification | Value |
       | --- | --- |

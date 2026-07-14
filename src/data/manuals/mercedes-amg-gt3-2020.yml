@@ -55,7 +55,7 @@ sections:
       
       ![图片](./assets/mercedes-amg-gt3-2020/chassis-specifications.png)
       
-      #### 前后双叉臂悬架
+      前后双叉臂悬架
       
       | 规格 | 数值 |
       | --- | --- |
@@ -68,7 +68,7 @@ sections:
       
       ![Image](./assets/mercedes-amg-gt3-2020/chassis-specifications.png)
       
-      #### DOUBLE WISHBONE FRONT AND REAR SUSPENSION
+      DOUBLE WISHBONE FRONT AND REAR SUSPENSION
       
       | Specification | Value |
       | --- | --- |
@@ -823,9 +823,7 @@ sections:
       
       #### 低速回弹阻尼
       
-      低速回弹阻尼控制减振器在较低速度下伸展时的刚度，通常对应车手操作引起的车身运动。较高回弹阻尼会抑制减振器伸展，较低数值则让减振器更快伸展。提高回弹阻尼可更好地控制空气动力学姿态；但如果悬架无法充分伸展以维持轮胎与赛道的正确接触，也可能使车轮卸载。针对操控调校时，提高前低速回弹阻尼会增加加油时的机械转向不足（同时抑制车头抬升）；降低数值则可让前轴抓地力维持更久，帮助减少转向不足，但会允许前分流器抬升更多。前回弹阻尼过高可能使车轮在赛道表面弹跳而非持续贴地，从而产生不必要的振荡。11 为最大阻尼（最难伸展），0 为最小阻尼
-      
-      （伸展阻力最小）。
+      低速回弹阻尼控制减振器在较低速度下伸展时的刚度，通常对应车手操作引起的车身运动。较高回弹阻尼会抑制减振器伸展，较低数值则让减振器更快伸展。提高回弹阻尼可更好地控制空气动力学姿态；但如果悬架无法充分伸展以维持轮胎与赛道的正确接触，也可能使车轮卸载。针对操控调校时，提高前低速回弹阻尼会增加加油时的机械转向不足（同时抑制车头抬升）；降低数值则可让前轴抓地力维持更久，帮助减少转向不足，但会允许前分流器抬升更多。前回弹阻尼过高可能使车轮在赛道表面弹跳而非持续贴地，从而产生不必要的振荡。11 为最大阻尼（伸展阻力最大），0 为最小阻尼（伸展阻力最小）。
       
       #### 高速回弹阻尼
       
@@ -844,9 +842,7 @@ sections:
       
       #### LS RBD DAMPING
       
-      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low speed rebound can increase on-throttle mechanical understeer (but reduce nose lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. 11 is maximum damping (most resistant to extension) while 0 is minimum damping
-      
-      (least resistance to extension).
+      Low speed rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low speed rebound can increase on-throttle mechanical understeer (but reduce nose lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. 11 is maximum damping (most resistant to extension) while 0 is minimum damping (least resistance to extension).
       
       #### HS RBD DAMPING
       

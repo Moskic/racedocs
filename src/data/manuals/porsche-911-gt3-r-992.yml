@@ -34,7 +34,7 @@ sections:
       
       #### DEAR iRACING USER,
       
-      Dear iRacing User, The latest in a long line of Porsche 911s built for sports car racing, the 992-spec edition of the Porsche 911 GT3 R follows in the footsteps of the 991-based GT3 R that debuted for the 2019 racing season. It also joins the current model of the Porsche 911 GT3 Cup car, which debuted in 2021, as a racing Porsche based on the 992 generation. In its inaugural IMSA WeatherTech SportsCar Championship season, five teams—Pfaff Motorsports, MDK Motorsports, Wright Motorsports, AO Racing Team, and Kelly-Moss with Riley—have all brought at least one 992 to the grid across the GTD and GTD Pro divisions.
+      The latest in a long line of Porsche 911s built for sports car racing, the 992-spec edition of the Porsche 911 GT3 R follows in the footsteps of the 991-based GT3 R that debuted for the 2019 racing season. It also joins the current model of the Porsche 911 GT3 Cup car, which debuted in 2021, as a racing Porsche based on the 992 generation. In its inaugural IMSA WeatherTech SportsCar Championship season, five teams—Pfaff Motorsports, MDK Motorsports, Wright Motorsports, AO Racing Team, and Kelly-Moss with Riley—have all brought at least one 992 to the grid across the GTD and GTD Pro divisions.
       
       The 911 GT3 R (992) is powered by a 4.2-liter Porsche flat-six engine, a step up in displacement from the 4.0-liter units in the previous car. Its first IMSA win came at the hands of Pfaff’s GTD Pro squad of Klaus Bachler, Patrick Pilet, and Laurens Vanthoor in the 2023 12 Hours of Sebring, and the duo of Bachler and Pilet backed it up the next month with a third place finish on the streets of Long Beach. Kelly-Moss with Riley took the car’s first GTD podium at Sebring as well with Alec Udell, Julien Andlauer, and David Brule. The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
       
@@ -54,9 +54,7 @@ sections:
     bodyZh: |+
       ![底盘规格](./assets/porsche-911-gt3-r-992/chassis-specifications.png)
 
-      #### 前悬架采用双叉臂结构，
-
-      后悬架采用多连杆结构。
+      前悬架采用双叉臂结构，后悬架采用多连杆结构。
 
       | 规格 | 数值 |
       | --- | --- |
@@ -69,9 +67,7 @@ sections:
     bodyEn: |+
       ![Image](./assets/porsche-911-gt3-r-992/chassis-specifications.png)
       
-      #### DOUBLE-WISHBONE FRONT,
-      
-      MULTILINK REAR SUSPENSION.
+      DOUBLE-WISHBONE FRONT, MULTILINK REAR SUSPENSION.
       
       | Specification | Value |
       | --- | --- |

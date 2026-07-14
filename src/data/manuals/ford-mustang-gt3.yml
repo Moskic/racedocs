@@ -53,7 +53,7 @@ sections:
     bodyZh: |+
       ![底盘规格](./assets/ford-mustang-gt3/chassis-specifications.png)
 
-      #### 前后悬架均采用长短臂双叉臂结构
+      前后悬架均采用长短臂双叉臂结构
 
       | 规格 | 数值 |
       | --- | --- |
@@ -66,7 +66,7 @@ sections:
     bodyEn: |+
       ![Image](./assets/ford-mustang-gt3/chassis-specifications.png)
       
-      #### SHORT-LONG ARM DOUBLE WISHBONE FRONT AND REAR SUSPENSION
+      SHORT-LONG ARM DOUBLE WISHBONE FRONT AND REAR SUSPENSION
       
       | Specification | Value |
       | --- | --- |
@@ -319,9 +319,7 @@ sections:
     bodyZh: |+
       ![车轮抱死指示灯](./assets/ford-mustang-gt3/wheel-lock-indicators.png)
 
-      系统检测到抱死时，显示屏上方及两侧的 LED 指示灯会亮起，用于识别抱死车轮及抱死严重程度。前轮抱死由显示屏顶部的紫色 LED 表示，后轮抱死由显示屏侧面的黄色 LED 表示；每个车轮对应显示屏的相同侧（例如左侧黄色 LED 亮起表示左后轮抱死）。
-
-      抱死越严重，亮起的指示灯越多：一盏 LED 表示轻微抱死，三盏 LED 表示车轮已经完全抱死。
+      系统检测到抱死时，显示屏上方及两侧的 LED 指示灯会亮起，用于识别抱死车轮及抱死严重程度。前轮抱死由显示屏顶部的紫色 LED 表示，后轮抱死由显示屏侧面的黄色 LED 表示；每个车轮对应显示屏的相同侧（例如左侧黄色 LED 亮起表示左后轮抱死）。抱死越严重，亮起的指示灯越多：一盏 LED 表示轻微抱死，三盏 LED 表示车轮已经完全抱死。
 
       ---
 
@@ -330,9 +328,7 @@ sections:
     bodyEn: |+
       ![Image](./assets/ford-mustang-gt3/wheel-lock-indicators.png)
       
-      Whenever a lockup is detected, LED indicator lights above and on either side of the display will illuminate to identify which wheel is locked up and how severe the lockup is. Front wheel lockups are indicated by purple LEDs on the top of the display, rear wheel lockups are indicated by yellow LEDs on the side of the display, with each wheel corresponding to the side of the display (ex. The
-      
-      Left-Rear is locked when the yellow LEDs on the left are illuminated). More lights are illuminated as lockup severity increases, with one LED being a mild lockup and three LEDs indicating a wheel is completely locked.
+      Whenever a lockup is detected, LED indicator lights above and on either side of the display will illuminate to identify which wheel is locked up and how severe the lockup is. Front wheel lockups are indicated by purple LEDs on the top of the display, rear wheel lockups are indicated by yellow LEDs on the side of the display, with each wheel corresponding to the side of the display (ex. The Left-Rear is locked when the yellow LEDs on the left are illuminated). More lights are illuminated as lockup severity increases, with one LED being a mild lockup and three LEDs indicating a wheel is completely locked.
       
       ---
       

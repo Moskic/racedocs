@@ -52,7 +52,7 @@ sections:
     bodyZh: |+
       ![图片](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
       
-      #### 前后独立双叉臂悬架
+      前后独立双叉臂悬架
       
       | 规格 | 数值 |
       | --- | --- |
@@ -64,7 +64,7 @@ sections:
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
       
-      #### INDEPENDENT DOUBLE WISHBONE SUSPENSION FRONT AND REAR
+      INDEPENDENT DOUBLE WISHBONE SUSPENSION FRONT AND REAR
       
       | Specification | Value |
       | --- | --- |
