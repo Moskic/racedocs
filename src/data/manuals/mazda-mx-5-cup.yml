@@ -61,7 +61,7 @@ sections:
       
       | Specification | Value |
       | --- | --- |
-      | Displacement | 2.0 Liters / 122.0 CID |
+      | Displacement | 2.0 Liters / 244.1 cid |
       | Torque | 151 lb-ft / 204 Nm |
       | Power | 181 bhp / 135 kW |
       | RPM Limit | 7500 |
@@ -266,9 +266,7 @@ sections:
       
       #### REBOUND DAMPING
       
-      The rebound damping setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control and better overall chassis response but it is important to avoid situations where the shock is too slow in rebound (set too high) as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase, though an increase in rebound stiffness can help to
-      
-      ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
+      The rebound damping setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control and better overall chassis response but it is important to avoid situations where the shock is too slow in rebound (set too high) as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase, though an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
       
       #### CAMBER
       
@@ -292,4 +290,3 @@ sections:
       #### ANTI-ROLL BAR
       
       The rear Anti-Roll Bar can be run one of two ways: “OEM” and “Unhooked”. When “OEM” is selected, the stock rear Anti-Roll Bar is attached, increasing rear suspension stiffness and inducing oversteer while cornering. When “Unhooked” is selected, the rear Anti-Roll Bar is detached, dramatically reducing rear roll stiffness, which will induce understeer.
-
