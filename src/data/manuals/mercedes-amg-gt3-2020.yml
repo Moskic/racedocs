@@ -639,7 +639,7 @@ sections:
       
       #### ABS SETTING
       
-      The current ABS map the car is running. The ABS system features 12 positions divided into three groups to suit varying track conditions, with lower values providing less assistance and higher values providing more assistance to prevent brake lockup. Settings 1-5 are for wet-weather conditions with setting 1 suitable for heavy rain and setting 5 good for lighter rain. Settings 7-11 are for dry conditions on slick tires with reduced support as the setting value increases. Setting 12 disables the system completely.
+      The current ABS map the car is running. The ABS system features 12 positions divided into three groups to suit varying track conditions, with lower values providing more assistance and higher values providing less assistance to prevent brake lockup. Settings 1-5 are for wet-weather conditions with setting 1 suitable for heavy rain and setting 5 good for lighter rain. Settings 7-11 are for dry conditions on slick tires with reduced support as the setting value increases. Setting 12 disables the system completely.
       
       #### TRACTION CONTROL SETTING
       
