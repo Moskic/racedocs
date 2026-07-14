@@ -1,0 +1,415 @@
+slug: ferrari-296-challenge
+published: true
+titleZh: Ferrari 296 Challenge 用户手册
+titleEn: Ferrari 296 Challenge User Manual
+contentType: vehicle-manual
+brand: Ferrari
+vehicleClass: Cup
+platform: iRacing
+discipline: sports-car
+cover: ./assets/ferrari-296-challenge/cover.png
+source:
+  type: official
+  title: iRacing Ferrari 296 Challenge User Manual
+  revision: Not stated
+  notice: Complete English transcription imported from the user-provided extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/ferrari-296-challenge/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Ferrari 296 Challenge! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/ferrari-296-challenge/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/chassis-specifications.png)
+      
+      DOUBLE WISHBONE WITH OUTBOARD SPRINGS AND DAMPERS
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4602 mm / 181.2 in |
+      | Width | 1958 mm / 77 in |
+      | Wheelbase | 2600 mm / 102.3 in |
+      | Dry Weight | 1470 kg / 3240 lbs |
+      | Wet Weight with Driver | 1575 kg / 3472 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/power-unit.png)
+      
+      120° TURBOCHARGED V6
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 3.0 Liters / 183 CID |
+      | RPM Limit | 8500 RPM |
+      | Torque | 546 lb-ft / 740 Nm |
+      | Power | 690 bhp / 514 kW |
+      
+      ![Image](./assets/ferrari-296-challenge/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      
+      The Ferrari 296 Challenge features a large digital display in the dash that provides the driver with a wealth of information while on track. Featuring four pages to choose from, the left half of the display is constant for all four pages while the right half will change based on the page selected.
+      
+      ![Image](./assets/ferrari-296-challenge/dash-configuration.png)
+      
+      | Left Column | Description |
+      | --- | --- |
+      | Tachometer | A graphical tachometer at the top of the display gives a visual representation for the engine RPM. |
+      | P OIL | Engine Oil system pressure in bar or psi |
+      | T OIL | Engine Oil temperature in °C or °F |
+      | T WATER | Engine cooling water temperature in °C or °F |
+      | Fuel Gauge | A graphical fuel gauge, shown in orange, is situated to the left of the box surrounding the gear and speed display. |
+      | TC2 | Current TC2 setting |
+      | TC1 | Current TC1 setting |
+      | ABS | Current ABS setting. Settings 1-2 will show “SLICK” while settings 3-4 will show “RAIN” with a blue background. |
+      
+      | Center | Description |
+      | --- | --- |
+      | Gear | The currently-selected gear is shown in the center at the top of the white boxed area |
+      | TCS/ABS Activation | Below the gear indicator is a Traction Control or Anti-Lock Brake indicator that will flash whenever either system is intervening to prevent wheelspin or lockup. |
+      | Speed | Vehicle speed, in kph or mph |
+
+  - id: race-page
+    level: 3
+    titleEn: "RACE PAGE"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/race-page.png)
+      
+      | Race Page | Description |
+      | --- | --- |
+      | Best Diff Time | Live time delta comparing the current lap against the session best lap. If the current lap is faster, this value will be highlighted with a purple background. |
+      | Lap | Laps completed in the session |
+      | Lap Time | Current lap time |
+      | Fuel Cons | Live fuel consumption, in Liters or Gallons |
+
+  - id: tire-page
+    level: 3
+    titleEn: "TIRE PAGE"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/tire-page.png)
+      
+      | Tire Page | Description |
+      | --- | --- |
+      | Best Diff Time | Live time delta comparing the current lap against the session best lap. If the current lap is faster, this value will be highlighted with a purple background. |
+      | Tire Pressures | Live Tire Pressures are shown on each corner of the car image in kpa or psi. Each tire has a color-coded indicator to show when the tire is in the optimum range: Blue is too low, green is optimum, red is too high. |
+      | Predicted Time | Predicted current lap time |
+
+  - id: quali-page
+    level: 3
+    titleEn: "QUALI PAGE"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/quali-page.png)
+      
+      | Quali Page | Description |
+      | --- | --- |
+      | Best Diff Time | Live time delta comparing the current lap against the session best lap. If the current lap is faster, this value will be highlighted with a purple background. |
+      | Lap | Laps completed in the session |
+      | Best Lap Time | Best lap time for the current session |
+      | Predicted Time | Predicted current lap time |
+
+  - id: coach-page
+    level: 3
+    titleEn: "COACH PAGE"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/coach-page.png)
+      
+      | Coach Page | Description |
+      | --- | --- |
+      | Best Diff Time | Live time delta comparing the current lap against the session best lap. If the current lap is faster, this value will be highlighted with a purple background. |
+      | Coach Lap Time | Comparison lap based on a pre-defined target lap time. For information on loading this value, see the Setup Tips section of this guide. |
+      | Predicted Time | Predicted current lap time |
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/shift-lights.png)
+      
+      A set of ten LEDs above the digital display serve as an indication for when the engine has reached the optimum shift point.
+      
+      As RPM increases the lights will illuminate from left to right, from green to red. Drivers should upshift when all lights are red and flashing.
+
+  - id: pit-speed-limiter
+    level: 3
+    titleEn: "PIT SPEED LIMITER"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/pit-speed-limiter.png)
+      
+      Whenever the pit limiter is active the shift lights will all change to green, a yellow “PIT LIMITER” banner will be displayed, and the pit road speed limit will be shown in the lower right of the display.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleEn: "TIRE DATA"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### COLD PRESSURE / STARTING PRESSURE
+      
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+      
+      #### LAST HOT PRESSURE
+      
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+      
+      #### LAST TEMPERATURES
+      
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: chassis-2
+    level: 2
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/front.png)
+      
+      #### ARB HOLE
+      
+      To fine-tune the front Anti-Roll Bar’s stiffness the position of the ARB linkages can be changed to one of two positions. The Soft setting will reduce front roll stiffness, reducing understeer at turn-in, while the Stiff setting will increase front roll stiffness and induce understeer at turn-in.
+      
+      #### TOTAL TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire while adding toe-in will reduce slip. Front Toe-out (negative garage value) will increase turn-in response but will reduce straight-line stability. Toe-in will reduce turn-in responsiveness but will reduce temperature buildup in the front tires and increase straight-line stability.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+      
+      #### NOSE WEIGHT
+      
+      The percentage of total vehicle weight in the garage across the front axle. Higher Nose Weight values will induce understeer when cornering and promote straight-line stability, while lower Nose Weight values will increase oversteer while cornering. This is not directly adjustable and is altered by other adjustments, such as Fuel Level.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/in-car-dials.png)
+      
+      #### DISPLAY PAGE
+      
+      This sets which of the in-car display pages is shown when the engine is started.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is running. The ABS system features 4 positions to suit varying track conditions, with lower values providing less assistance and higher values providing more assistance to prevent brake lockup. Settings 1-2 are for slick tires in dry conditions, 3-4 are for wet conditions. The ABS system cannot be disabled.
+      
+      #### TC1 SETTING
+      
+      The TC1 setting controls the amount of intervention the Traction Control will exert when wheel spin is detected. Setting 0 will disable the traction control system (both TC1 and TC2), setting 1 has the least support and 4 has the most support.
+      
+      #### TC2 SETTING
+      
+      The TC2 setting controls how sensitive the Traction Control system will be to wheelspin based on yaw. Setting 1 has the least support and 4 has the most support. TC2 can only be disabled by selecting Setting 0 on TC1.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### MP RIDE HEIGHT
+      
+      Distance from ground to a designated reference point, or “Master Point”, at the front of the car. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      Minimum drag setups with very low rear wing angles may require higher front ride heights in order to achieve the proper aerodynamic balance.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### MP RIDE HEIGHT
+      
+      Distance from ground to a reference point, or “Master Point”, at the rear of the car. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### CAMBER
+      
+      At the rear of the car, camber performs a similar job to the front by increasing lateral grip with negative values. However, with the rear tires being driven camber can directly affect the amount of traction available on throttle and under braking. While larger negative camber values can increase lateral grip and cornering stability, it can hurt forward traction when throttle is applied as well as increase the risk of a rear lockup under heavy braking when the load is reduced on the rear tires.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      
+      ![Image](./assets/ferrari-296-challenge/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when loaded into the world.
+      
+      #### ARB HOLE
+      
+      To fine-tune the rear Anti-Roll Bar’s stiffness the position of the ARB linkages can be changed to one of two positions. The Soft setting will reduce rear roll stiffness, reducing oversteer at turn-in, while the Stiff setting will increase rear roll stiffness and induce oversteer at turn-in.
+      
+      #### REAR WING ANGLE
+      
+      The Rear Wing Angle refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-details
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      
+      #### ANTI-LOCK BRAKING AND TRACTION CONTROL SYSTEMS
+      
+      4 ABS settings are available, P1-P2 for dry tires, P3-P4 for wet tires. This setting impacts the target brake bias, the differential coast side locking, the brake distribution targets and the maximum allowable wheelslip during braking. P1 is the aggressive dry setting while P2 is the conservative dry setting. Similarly, P3 is the aggressive wet setting and P4 the conservative wet setting.
+      
+      The aggressive settings target a further rearwards brake bias, more allowable yaw and a greater emphasis on using trail braking to rotate the car. It is not recommended to use the wet ABS settings in dry conditions due to sub-optimal performance. The ABS cannot be disabled.
+      
+      The TC1 adjustment is based on allowable longitudinal wheelslip and can be disabled if desired. 5 TC1 settings are available, P0 = OFF, P1-P2 are recommended for most conditions, with intervention increasing from lowest at P0 (OFF) to highest at P4.
+      
+      The TC2 adjustment does not regulate based on wheelslip but instead on vehicle yaw angle, at lower settings more yaw is permitted before the system will intervene. This setting also adjusts the differential drive side locking for more on throttle rotation at lower positions. 4 TC2 settings are available, P1 allows for the most yaw and the most drive side locking, while P4 restricts yaw the most and has the least drive side locking for driveability. Please note, when TC1 P0 (OFF) is selected the TC2 is also disabled and the differential drive side locking is set to the equivalent of TC2 P1.
+      
+      #### REAR WING ANGLE
+      
+      This car has an adjustable rear wing which is the primary tool for tuning the overall car balance. It can also set the overall downforce trim for different track types when used in tandem with a change in rear ride height to achieve the same aero balance. For each +1 degree step of rear wing angle, +4 mm (+0.157”) of rear ride height is required to achieve the same aero balance.
+      
+      #### CHASSIS ADJUSTMENTS
+      
+      Should you find that a setup fails tech inspection after an adjustment to the fuel level, it is likely that the ride heights require adjustment. This is performed by using the spring perch offsets at either end of the car, right clicks (positive) will reduce the ride height while left clicks (negative) will increase the ride height.
+      
+      The Ferrari 296 Challenge is a car with relatively few setup adjustments available, however, should you wish to build your own setup, we have provided the following notes to help you get started.
+      
+      **Tire Pressure** — For all 4 corners at most tracks minimum air pressures will likely provide the most performance, these minimums have been set such that the hot pressures reach a typical real-world hot pressure target. However, should the track have particularly long straightaways (such as Le Mans) then you may benefit from increasing tire pressures slightly to reduce rolling drag and tire temperature generation.
+      
+      **ARB Setting** — Two positions of ARB are available at each end of the car as a fine tune to the balance. At the front of the car a stiffer ARB will result in more understeer while at the rear of the car a stiffer ARB will result in more oversteer.
+      
+      **Ride Height** — At both the front and rear of the car the most performance mechanically and aerodynamically is achieved at the lowest possible ride heights while still passing tech inspection. This is 105 mm in the front and 107 mm in the rear. Front ride height should only be increased at extreme tracks such as the Nurburgring in the event of excessive ground contact. Rear ride height can be increased slightly to move the aerodynamic balance forwards for more oversteer and this will produce more overall downforce and more aerodynamic drag. To achieve the same aerodynamic balance, the rear wing angle should be increased as stated in the Driver Aids/Setup portion of the notes tab.
+      
+      **Camber** — At the front of the car it is advised to run as much camber as possible. More camber results in more lateral (cornering) capability while reducing longitudinal (traction and straight line braking) capability. Often the gains in lateral capability will outweigh the loss in longitudinal capability.
+      
+      **Toe-in** — At the front of the car more toe-in can result in improved mid corner performance but at the cost of entry stability and straight line braking. More toe-out will improve initial turn-in response but can overslip the inside tire during mid-corner resulting in excessive scrub. At the rear of the car only toe-in is available. More toe-in will result in greater stability during braking and on power movements however it may result in more mid-corner understeer and slower overall response to inputs.
+      
+      #### COACH LAP TIME
+      
+      The Coach Page for the digital display can load a saved lap time for comparison purposes. To use this, open the Options page in the sim and go to Option &gt; Split Time Delta &gt; Lap Data &gt; Comparison Lap &gt; Load. This will display the loaded time in the Coach line on the dash display.

@@ -1,0 +1,330 @@
+slug: toyota-gr86
+published: true
+titleZh: Toyota GR86 用户手册
+titleEn: Toyota GR86 User Manual
+contentType: vehicle-manual
+brand: Toyota
+vehicleClass: Cup
+platform: iRacing
+discipline: sports-car
+cover: ./assets/toyota-gr86/cover.png
+source:
+  type: official
+  title: iRacing Toyota GR86 User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/toyota-gr86/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      The official car of the all-new Toyota GR Cup, Toyota’s all-new single-make road racing series, the Toyota GR86 serves as an approachable, sporty vehicle for drivers to hone their craft. Announced in 2022, each Toyota GT86 starts as a fully production vehicle before heading to North Carolina, where Toyota Gazoo Racing North America engineers transform it into racing machines capable of taking on some of America’s premier road courses.
+      
+      The Toyota GR Cup is designed as an amateur racing series that can welcome up-and-comers, casual drivers, and retired legends alike, and the GR86 is up to the task. Custom modifications like a six-speed sequential transmission and aggressive new bodywork elevate the profile of the road-going car for the needs of the track, without becoming too much to handle too quickly. Get behind the wheel of the GR86 and experience one of racing’s most exciting new spec classes before it makes its real-world debut! The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/toyota-gr86/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/chassis-specifications.png)
+      
+      MCPHERSON STRUT FRONT SUSPENSION, DOUBLE WISHBONE REAR SUSPENSION
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4264 mm / 167.9 in |
+      | Width | 1775 mm / 69.9 in |
+      | Wheelbase | 2575 mm / 106.7 in |
+      | Dry Weight | 1297 kg / 2860 lbs |
+      | Wet Weight with Driver | 1358 kg / 2996 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/power-unit.png)
+      
+      NATURALLY ASPIRATED 2.4 LITER 4-CYLINDER BOXER
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.4 Liters / 146.5 cid |
+      | Torque | 188 lb-ft / 255 Nm |
+      | Power | 220 bhp / 164 kW |
+      | RPM Limit | 7500 |
+      
+      ![Image](./assets/toyota-gr86/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+      
+      Upshifting is recommended when the final shift light on the dashboard is illuminated in red. This is at 7100 rpm. Note: all shift lights will flash red at 7200 rpm as an additional warning; however, this is beyond the optimal shift point.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/loading-iracing-setup.png)
+      
+      When you first load into a session, the iRacing Baseline setup will be automatically loaded onto the car. If you would like to try any of the other iRacing pre-built options, you may select it by going to Garage &gt; iRacing Setups &gt; and then selecting another option that fits your needs. If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      
+      The Toyota GR86 uses a single-page, dash mounted display to show all engine data and race information to the driver in a clear and easy-to-read format.
+      
+      ![Image](./assets/toyota-gr86/dash-configuration.png)
+      
+      | UPPER GROUP | Description |
+      | --- | --- |
+      | Best | The current session’s fastest lap time |
+      | Current Lap Delta | The current lap’s difference in time relative to the session best lap time is shown at the top of the screen in the center. Shown as a live delta to the session best lap, this value will be green if the current lap is faster and red if the current lap is slower. |
+      | Current | A live display of the time elapsed on the current lap is shown in the upper right of the display. |
+      | Fuel Used | The amount of fuel that has been used since leaving the pits (or start of the race). |
+      | Predicted | Based on the current lap delta and prior lap times, the display will show a lap time prediction under the Current lap time display. |
+      
+      | CENTER GAUGES | Description |
+      | --- | --- |
+      | Oil Temperature | The engine oil temperature is shown on the left of the display. The temperature is shown in both a gauge and numerical format, with the gauge changing colors for dangerous operating temperatures. |
+      | Tachometer | The engine RPM is shown in the center of the display on a white digital tachometer. This display will change from white to red when the RPM is nearing the optimum shift point and rev limiter. |
+      | Gear Indicator | The currently selected gear is shown within the tachometer display. |
+      | Water Temperature | The engine’s cooling water temperature is shown on the right side of the display. The temperature is shown in both a gauge and numerical format, with the gauge changing colors for dangerous operating temperatures. |
+      
+      | LOWER GROUP | Description |
+      | --- | --- |
+      | Speedometer | The car’s current speed is shown on the bottom of the display in the center in Miles- or Kilometers-per-hour depending on the units selected in the Garage. |
+      | AC Mode | Inoperable, will display “0” |
+      | TC Mode | Currently selected Traction Control System setting. This value reflects what is selected in the garage and the F8 black box. |
+      | ABS Mode | Currently selected Anti-Lock Braking System setting. This value reflects what is selected in the garage and the F8 black box. |
+      
+      ![Image](./assets/toyota-gr86/warning-banner.png)
+      
+      #### WARNING BANNER
+      
+      If a major issue is present the dash will display a warning banner across the top and illuminate one LED on either side of the display. This banner will display information such as low fuel pressure, low oil pressure, or high oil or water temperatures.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires
+    level: 2
+    titleEn: "TIRES"
+
+  - id: tire-settings
+    level: 3
+    titleEn: "TIRE SETTINGS"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/tire-settings.png)
+      
+      #### STARTING PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads will require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+      
+      #### LAST TEMPERATURES OMI
+      
+      Tire carcass temperatures once the car has returned from the pits. Wheel Loads and the amount of work a tire is doing on-track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment while on track. These values are measured in three zones across the tread of the tire.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in three zones across the tread of the tire.
+
+  - id: chassis-2
+    level: 2
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/front.png)
+      
+      #### ARB SIZE
+      
+      The Front ARB Size will alter the front suspension roll stiffness. Three options are available, two size options and an option to disconnect the bar entirely. The Stiff option will result in a higher roll stiffness and induce understeer while cornering, while the Soft option will reduce the roll stiffness and reduce understeer. Disconnecting the bar will greatly reduce roll stiffness, inducing oversteer while cornering, but can lead to instability due to excessive body roll when cornering.
+      
+      #### ARB SETTING
+      
+      The Front ARB setting can be set to one of three options to fine-tune the front suspension roll stiffness once a Front ARB size has been selected. For both the Stiff and Soft ARB Size options, lower ARB Setting values will stiffen the ARB assembly and induce understeer. Higher values will soften the ARB assembly and reduce understeer. If ARB Size is set to “Disconnected”, this adjustment does not influence handling characteristics.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the front wheels, when viewed from above, relative to the centerline of the chassis. Positive values for this setting are Toe-In, negative values are Toe-out. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out is the opposite. On the front end, adding toe-out will decrease straight-line stability by increasing the slip angle on the inside tire when turning. This can aid in turn-in response but can make it easier to over-slip the tire and lose grip with too much steering angle. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+      
+      #### BUMP RUBBER LENGTH
+      
+      Bump rubbers are an option that may be fitted to the front suspension for additional ride height control and increased effective front suspension stiffness. These act as a non-linear rate springs (increasing with compression) which will produce better ride height control on smooth tracks. However, fitting them will result in a reduction in mechanical grip at this axle and poorer absorption of large impacts such as kerb strikes.
+      
+      The Bump Rubber Length option will alter how tall the front suspension’s bump rubbers are and thus change when they will engage and begin increasing the front suspension rate. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in high-speed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber later and higher values will engage sooner in compression.
+      
+      #### CROSS WEIGHT
+      
+      Cross Weight is the percentage of the car’s total weight situated on the Right-Front and Left-Rear tires. This can be altered with the Spring Perch Offset settings and influences the asymmetric handling behavior of the chassis. Values above 50% will induce understeer in left-hand corners and oversteer in right-hand corners, while values below 50% will induce oversteer in left-hand corners and understeer in right-hand corners. For Road Course and Street Circuits, it is best to keep this value as close to 50% as possible.
+      
+      #### NOSE WEIGHT
+      
+      Nose Weight is the percentage of the car’s total weight situated above the front axle. Higher nose weight values (more weight on the front end) will induce understeer while cornering while lower nose weight values will induce oversteer while cornering. This value is non-adjustable, but changes with varying fuel levels.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      The Brake Pressure Bias represents the percentage of the total braking force that is sent to the front braking system. On the Toyota GR86 this is non-adjustable and is locked at 50%.
+      
+      #### BRAKE PADS
+      
+      Three different brake pad options are available to alter the amount of deceleration force exerted by the brake system. High Friction pads will provide the most braking force but are difficult for the driver to modulate to avoid lockups, while Low Friction pads produce the least braking force with the easiest level of pedal modulation. Medium Friction is a compromise between High and Low Friction pads.
+      
+      #### ABS SETTING
+      
+      The Anti-Lock Brake setting controls how much the ABS system will attempt to intervene and prevent brake lockups. Settings 1-3 control the amount of intervention, with “3” providing the most assistance and “1” providing the least. Setting “0” will disable the ABS system entirely.
+      
+      #### TC SETTING
+      
+      The Traction Control system can be fine-tuned to both track conditions and driver preferences with the TC Setting option. Just like the ABS Setting, values 1-3 will alter how much the Traction Control system tries to intervene and prevent wheelspin on throttle, with “3” providing the most assistance and “1” providing the least amount of assistance. Setting “0” will disable the TC system.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      This displays the weight on each wheel while sitting in the garage under static conditions. Useful for determining weight distribution during chassis adjustments.
+      
+      #### RIDE HEIGHT
+      
+      Chassis Ride Height is the distance from the ground to a reference point on the bottom of the chassis just behind the front tires. Since this value is to a reference point, and not necessarily the lowest point on the car, this may not be representative of the vehicle’s ground clearance.
+      
+      #### SPRING PERCH
+      
+      Spring perch offset is used to adjust ride height and corner weight by changing the preload on the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right together, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+      
+      #### BUMP STIFFNESS
+      
+      Bump Stiffness is how stiff the shocks are under compression, or “bump”, such as what the front shocks experience under braking. Higher Bump settings on the front shocks produce a stiffer shock in compression, which can induce understeer under braking and turn-in. Lower Bump settings will soften the shock and reduce understeer in the braking and turn-in phase.
+      
+      #### REBOUND STIFFNESS
+      
+      Rebound Stiffness controls how resistant the shock is to expansion, or “rebound”, such as what the front shocks experience under acceleration. Lower values will make the front shocks more resistant to expanding, which can induce understeer on acceleration. Higher values will make the shock less resistant to expansion, which can increase front end mechanical grip and reduce understeer when accelerating.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      This displays the weight on each wheel while sitting in the garage under static conditions. Useful for determining weight distribution during chassis adjustments.
+      
+      #### RIDE HEIGHT
+      
+      Chassis Ride Height is the distance from the ground to a reference point on the bottom of the chassis just ahead of the rear tires. Since this value is to a reference point, and not necessarily the lowest point on the car, this may not be representative of the vehicle’s ground clearance.
+      
+      #### SPRING RATE
+      
+      Spring Rate is the stiffness value of the suspension’s spring components. Higher values represent stiffer springs and lower values represent softer springs. At the rear end, stiffer spring values can reduce the car’s aerodynamic pitch sensitivity (less likely to change aerodynamic balance under acceleration), but will reduce mechanical grip at the rear and can induce oversteer while cornering. Softer springs will increase mechanical grip and can shift mechanical balance to understeer, but aerodynamic stability can suffer under heavy acceleration.
+      
+      #### SPRING PERCH
+      
+      Spring perch offset is used to adjust ride height and corner weight by changing the preload on the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right together, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+      
+      #### BUMP STIFFNESS
+      
+      Bump Stiffness is how stiff the shocks are under compression, or “bump”, such as what the rear shocks experience under throttle. Higher Bump settings on the rear shocks produce a stiffer shock in compression, which can increase traction on throttle. Lower Bump settings will soften the shock and reduce understeer in the acceleration phase.
+      
+      #### REBOUND STIFFNESS
+      
+      Rebound Stiffness controls how resistant the shock is to expansion, or “rebound”, such as what the rear shocks experience under braking. Lower values will make the rear shocks more resistant to expanding, which can induce understeer when braking and turning into a corner. Higher values will make the shock less resistant to expansion, which can decrease rear end mechanical grip and induce some oversteer while braking.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under acceleration. Excessive camber values can reduce tire life, so it is important to find a balance between life and performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Positive values for this setting are Toe-In, negative values are Toe-out. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-out will decrease straight-line stability. This can aid in turn-in response but can make the car easier to spin in the middle of a corner. Toe-in at the rear will increase straight-line stability and reduce turn-in responsiveness.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      
+      ![Image](./assets/toyota-gr86/rear.png)
+      
+      #### FUEL LEVEL
+      
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage. Changing fuel levels will alter the Nose Weight value and alter handling balance, it is important to be aware of weight changes with varying fuel levels.
+      
+      #### ARB SIZE
+      
+      The Rear ARB Size will alter the rear suspension roll stiffness and can either be connected (“Soft” setting) or disconnected. The Soft option will connect the rear ARB, increasing rear roll stiffness and inducing oversteer while cornering. Disconnecting the rear ARB will greatly decrease rear roll stiffness and induce understeer.
+      
+      #### ARB SETTING
+      
+      If the Rear ARB is used (“Soft” setting ONLY), it can be fine tuned with two options on the ARB Setting. Setting 1 is softer and will produce a lower rear roll stiffness, inducing understeer when compared to Setting 2, which will stiffen the rear suspension and result in more oversteer when cornering.
+      
+      #### WING SETTING
+      
+      The Wing Setting changes the rear wing’s angle of attack. This can be set to 5, 10, or 15 degrees, with higher values producing more downforce and more drag at the wing. These higher values will also shift aero balance rearward, inducing understeer in mid- to high-speed corners, while lower values will reduce drag and downforce and shift aero forward.
