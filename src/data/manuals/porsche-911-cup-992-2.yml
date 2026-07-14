@@ -1,0 +1,496 @@
+slug: porsche-911-cup-992-2
+published: true
+titleZh: Porsche 911 Cup (992.2) 用户手册
+titleEn: Porsche 911 Cup (992.2) User Manual
+contentType: vehicle-manual
+brand: Porsche
+vehicleClass: Cup
+platform: iRacing
+discipline: sports-car
+cover: ./assets/porsche-911-cup-992-2/cover.png
+source:
+  type: official
+  title: iRacing Porsche 911 Cup (992.2) User Manual
+  revision: V1
+  notice: Complete English transcription imported from the user-provided V1 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/porsche-911-cup-992-2/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Porsche 911 Cup (992.2)! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your continued support, and we’ll see you on the track!
+      
+      ![Image](./assets/porsche-911-cup-992-2/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/chassis-specifications.png)
+      
+      DOUBLE WISHBONE FRONT, MULTI-LINK REAR
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4600 mm / 181.1 in |
+      | Width | 1920 mm / 75.6 in |
+      | Wheelbase | 2469 mm / 97.2 in |
+      | Dry Weight | 1288 kg / 2866 lbs |
+      | Wet Weight with Driver | 1481 kg / 3266 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/power-unit.png)
+      
+      NATURALLY-ASPIRATED FLAT-SIX
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 4.0 Liters / 358 CID |
+      | RPM Limit | 8,750 RPM |
+      | Torque | 347 lb-ft / 470 Nm |
+      | Power | 520 bhp / 388 kW |
+      
+      ![Image](./assets/porsche-911-cup-992-2/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars.
+      
+      To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/getting-started.png)
+      
+      Once you load into the car, select 1st gear. Slowly release the clutch while applying the throttle to drive away. A clutch is necessary when coming to a stop to prevent stalling the engine and shifting into reverse if necessary, but the clutch isn’t required once the vehicle is in motion for upshifts or downshifts. Upshifting can be done without lifting off the throttle, however downshifting will require a small throttle blip to unload the transmission. If you downshift too early, or don’t blip the throttle sufficiently, the wheel speed and engine speed will be mismatched, leading to wheel hop at the rear and a possible spin.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+
+  - id: race-1-dash-configuration
+    level: 3
+    titleEn: "RACE 1 DASH CONFIGURATION"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/race-1-dash-configuration.png)
+      
+      | Left Column | Description |
+      | --- | --- |
+      | ABS | Current ABS Setting |
+      | TC | Current Traction Control System setting |
+      | DIM | Inoperable |
+      | ATH | Current Throttle Pedal Map setting |
+      | MUL | Inoperable |
+      | Oil Temp | Engine Oil Temperature in °F or °C |
+      | Oil Press | Engine Oil system pressure in Pounds-per-square-Inch or Bar |
+      | Water Temp | Engine cooling water temperature in °F or °C |
+      | Water Press | Engine cooling system pressure in Pounds-per-square-Inch or Bar |
+      
+      | Center Column | Description |
+      | --- | --- |
+      | Speed | Current speed in Miles-per-hour or Kilometers-per-hour |
+      | Gear Indicator | Currently selected gear |
+      | Tyre Info | Current tire pressures in pounds per square inch or kilopascals are displayed in the center, tire surface temperatures are shown in the outer corners in °F or °C |
+      
+      | Right Column | Description |
+      | --- | --- |
+      | Lap | Current lap number |
+      | Laptime | Previously completed lap time |
+      | Time Diff | Time difference between the current lap and the session best lap |
+      | Pred. Time | Predicted lap time for the current lap |
+      | Brake Bias | Current Brake Bias setting, displayed as an offset from 50%. For example, if the brake bias is set to 54% this will display 4.00, while a 48% brake bias will display -2.00. When changing the Brake Bias, a graphical bar will appear on the right side of the display giving an indication of how far forward or rearward the Bias is currently set. |
+      | Tire Indicator | The upper-right box displays the current tire fitted to the car |
+      | ABS Indicator | If the ABS system is disabled, a red triangle warning indicator will illuminate on the right side of the display. |
+
+  - id: race-2-dash-configuration
+    level: 3
+    titleEn: "RACE 2 DASH CONFIGURATION"
+    bodyEn: |+
+      
+      The Race 2 page is the same as the Race 1 page, however the data group on the left side has changed to display fuel system information.
+      
+      ![Image](./assets/porsche-911-cup-992-2/race-2-dash-configuration.png)
+      
+      | Left Column | Description |
+      | --- | --- |
+      | Fuel Used | Amount of fuel used since leaving pit road, in US gallons or liters |
+      | Fuel p. Lap | Amount of fuel used during the previous lap, in US gallons or liters |
+      | Fuel Press | Current fuel system pressure in psi or bar |
+      | Fuel Level | Current amount of fuel in the fuel tank, in US gallons or liters |
+      
+      | Center Column | Description |
+      | --- | --- |
+      | Speed | Current speed in Miles-per-hour or Kilometers-per-hour |
+      | Gear Indicator | Currently selected gear |
+      | Tyre Info | Current tire pressures in pounds per square inch or kilopascals are displayed in the center, tire surface temperatures are shown in the outer corners in °F or °C |
+      
+      | Right Column | Description |
+      | --- | --- |
+      | Lap | Current lap number |
+      | Laptime | Previously completed lap time |
+      | Time Diff | Time difference between the current lap and the session best lap |
+      | Pred. Time | Predicted lap time for the current lap |
+      | Brake Bias | Current Brake Bias setting, displayed as an offset from 50%. For example, if the brake bias is set to 54% this will display 4.00, while a 48% brake bias will display -2.00. When changing the Brake Bias, a graphical bar will appear on the right side of the display giving an indication of how far forward or rearward the Bias is currently set. |
+      | Tire Indicator | The upper-right box displays the current tire fitted to the car |
+      | ABS Indicator | If the ABS system is disabled, a red triangle warning indicator will illuminate on the right side of the display. |
+
+  - id: quali-dash-configuration
+    level: 3
+    titleEn: "QUALI DASH CONFIGURATION"
+    bodyEn: |+
+      
+      The Qualifying page removes most of the data from the screen, replacing it with laptime and split information.
+      
+      ![Image](./assets/porsche-911-cup-992-2/quali-dash-configuration.png)
+      
+      | Left Column | Description |
+      | --- | --- |
+      | Lap Time | The engine and fuel information is replaced with a laptime display showing the previously completed lap time |
+      
+      | Center Column | Description |
+      | --- | --- |
+      | Speed | Current speed in Miles-per-hour or Kilometers-per-hour |
+      | Gear Indicator | Currently selected gear |
+      | Tyre Info | Current tire pressures in pounds per square inch or kilopascals are displayed in the center, tire surface temperatures are shown in the outer corners in °F or °C |
+      
+      | Right Column | Description |
+      | --- | --- |
+      | Lap Diff | The laptime information cluster is replaced with a split time display and a graphical split bar to show how the current lap relates to the fastest lap of the session |
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/shift-lights.png)
+      
+      A row of multi-colored LEDs provide a visual representation of the engine’s RPM and indicate when the engine has reached the optimum point for shifting. When all the LEDs at the top of the dash display flash blue, shift up. This is at 7900 rpm for 1st gear, 8200 rpm for 2nd gear, 8400 rpm for 3rd gear, 8500 rpm for 4th gear and 8600 rpm for 5th gear. 6th gear has specific behaviour to indicate the approach to maximum allowable engine speed. Lights in the green region are considered ‘safe’. Engine speeds above 8750 rpm are permitted for tracks with extraordinarily long straights in 6th gear only but will reduce the service life of the engine. Blue flashing lights in 6th gear indicate 9000 rpm and the maximum allowable engine speed.
+
+  - id: pit-limiter
+    level: 3
+    titleEn: "PIT LIMITER"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/pit-limiter.png)
+      
+      When the pit limiter is active the data displays in the center will be replaced by a large box featuring the selected gear in the center and the vehicle speed on the right. If the speed is at or under the pit road speed limit the box will be green and if the speed is above the pit road speed limit the box will be red. Since vehicle speed is shown in the center area, the box at the top of the display that normally shows speed is replaced by Engine RPM.
+
+  - id: wheel-lock-indicators
+    level: 3
+    titleEn: "WHEEL LOCK INDICATORS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/wheel-lock-indicators.png)
+      
+      Should one of the wheels begin locking under heavy braking while the ABS system is disabled, status lights on the sides of the display will illuminate to signal which wheel is locking. The front wheels are represented by magenta LEDs and the rear wheels are represented by yellow LEDs.
+
+  - id: traction-control-activation-lights
+    level: 3
+    titleEn: "TRACTION CONTROL ACTIVATION LIGHTS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/traction-control-activation-lights.png)
+      
+      When the traction control system is active, a cluster of blue LEDs on either side of the instrument binnacle. This overrides any wheel lockup lights that may be active at the time.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires
+    level: 2
+    titleEn: "TIRES"
+
+  - id: tire-data
+    level: 3
+    titleEn: "TIRE DATA"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### COLD PRESSURE / STARTING PRESSURE
+      
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+      
+      #### LAST HOT PRESSURE
+      
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+      
+      #### LAST TEMPERATURES
+      
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: chassis-2
+    level: 2
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/front.png)
+      
+      #### FRONT BRAKE PAD MU
+      
+      The Front Brake Pad Mu setting selects the brake pads installed in the front brake system. Mu is a numerical representation of the amount of friction the pads can produce, thus a higher Mu value will result in more friction and greater braking capability. Higher Mu values will also increase the risk of locking and can be more difficult for the driver to modulate, while lower Mu values will reduce the risk of a lockup due to reduced braking capability. For more information, see the “Setup Tips” section at the end of this guide.
+      
+      #### ARB SETTING
+      
+      The Anti-Roll Bar stiffness can be tuned using the front ARB Setting in the garage. Seven settings are available, with 1 being the softest setting, 6 being the stiffest, and setting 7 being slightly softer than setting 6 due to how the ARB is installed. Stiffer settings will induce understeer and increase stability in high-speed cornering while softer settings will reduce understeer.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### FUEL LOW WARNING
+      
+      Sets the fuel level at which a “Low Fuel” warning will be displayed to the driver.
+      
+      #### FRONT WEIGHT
+      
+      The vehicle’s Front Weight value is the percentage of total vehicle weight on the front tires. This represents a rough approximation of the longitudinal Center of Gravity location in the vehicle and has a direct influence on the high-speed stability of the vehicle and low-speed handling balance. Higher Nose Weight values result in a more directionally-stable vehicle, good for low-grip tracks and situations
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/in-car-dials.png)
+      
+      #### DISPLAY PAGE
+      
+      Changes the currently selected digital dash page. Three options are available as previously described in the dash configuration section of this manual.
+      
+      #### TC MODE
+      
+      The TC Mode setting switches between a set of parameters to tailor the Traction Control system to the track and weather conditions. The Wet setting allows less slip and will intervene more than the Dry setting to prevent wheelspin in wet racing conditions. This is set automatically based on the tires installed on the car and will change during a pitstop if the tire type is changed during a race.
+      
+      #### ABS SETTING
+      
+      The ABS Setting sets how much the Anti-Lock Braking System will intervene to prevent wheel lockups when braking. Setting “1” will provide the least amount of support while setting “11” will provide the most, setting “0” will disable the ABS system.
+      
+      #### TC SETTING
+      
+      The TC Setting controls how much the Traction Control system will intervene to prevent wheelspin under acceleration. Setting “1” is the least amount of assistance, setting “11” is the most, and setting “0” disables the Traction Control system.
+      
+      #### THROTTLE SETTING
+      
+      The Throttle Pedal Map can be changed to suit different driving styles (or weather conditions) by changing the Throttle Setting. Setting 1 is a more moderate throttle shape, setting 2 is more aggressive.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners. Cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to a point on the bottom of the chassis project to the front wheel axis. Since these values are measured to a specific reference point on the car these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track under static conditions. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the front corners of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a point on the bottom of the chassis projected to the rear wheel axis. Increasing rear ride height will decrease rear downforce as well as reduce overall downforce, while increasing drag, but will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage and overall downforce while reducing aerodynamic drag and weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the rear corners of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      
+      ![Image](./assets/porsche-911-cup-992-2/rear.png)
+      
+      #### REAR BRAKE PAD MU
+      
+      The Rear Brake Pad Mu setting selects the brake pads installed in the rear brake system. Mu is a numerical representation of the amount of friction the pads can produce, thus a higher Mu value will result in more friction and greater braking capability. Higher Mu values will also increase the risk of locking and can be more difficult for the driver to modulate, while lower Mu values will reduce the risk of a lockup due to reduced braking capability. For more information, see the “Setup Tips” section at the end of this guide.
+      
+      #### ARB SETTING
+      
+      The Anti-Roll Bar stiffness can be tuned using the rear ARB Setting in the garage. Seven settings are available, with 1 being the softest setting, 6 being the stiffest, and setting 7 being slightly softer than setting 6 due to how the ARB is installed. Stiffer settings will induce oversteer and reduce stability in high-speed cornering while softer settings will reduce oversteer.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-2
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      
+      In the iRacing Setups folder you will find a variety of default setups for various aerodynamic trims and race lengths. You will also find numerous track specific setups which are fuelled for the race length used in the official iRacing series at that named track.
+      
+      Should you find that a setup fails tech inspection after an adjustment to the fuel level, it is likely that the ride heights require adjustment. This is performed by using the spring perch offsets at either end of the car, right clicks (positive) will reduce the ride height while left clicks (negative) will increase the ride height.
+      
+      The Porsche 911 Cup (992.2) is a car with relatively few setup adjustments available and is intended to put the driver front and center in regards to making the difference. However, should you wish to build your own setup, we have provided the following notes to help you get started.
+
+  - id: brake-pressure-bias
+    level: 3
+    titleEn: "BRAKE PRESSURE BIAS"
+    bodyEn: |+
+      
+      This moves the brake balance forwards or rearwards. This is highly subjective to each driver but can be adjusted while driving and easily based upon the reaction to driver inputs. A higher number equates to more braking power at the front wheels, too much and you will struggle to rotate the car on the brakes and encounter understeer, too far rearwards and the car will be unstable during the braking phase. The expected optimal brake bias range is in the 48-52% when using the delivery spec brake pads on both axles.
+
+  - id: brake-pads
+    level: 3
+    titleEn: "BRAKE PADS"
+    bodyEn: |+
+      
+      A range of brake pads are available for the front axle while two options are available at the rear axle. These may be used to fine tune the braking feel, either by allowing more pedal input through use of a lower friction pad (particularly helpful when running with ABS disabled) or to achieve differing shifts in dynamic bias as the pads heat and cool during the braking phase. Please note, you should expect to shift your brake pressure bias by the approximate % difference in pad mu should you make a change. For example, a shift from 0.58 mu to 0.53 at the front axle may require as much as a 2.5% shift forwards in brake pressure to achieve a similar felt balance.
+
+  - id: tire-pressure
+    level: 3
+    titleEn: "TIRE PRESSURE"
+    bodyEn: |+
+      
+      For all 4 corners at most tracks minimum air pressures will likely provide the most performance, these minimums have been set such that the hot pressures reach a typical real-world hot pressure target. However, should the track have particularly long straightaways (such as Le Mans) then you may benefit from increasing tire pressures slightly to reduce rolling drag and tire temperature generation.
+
+  - id: wing-setting
+    level: 3
+    titleEn: "WING SETTING"
+    bodyEn: |+
+      
+      Your primary tool for balance at mid and high speed tracks. More wing angle = more downforce and a shift rearwards (towards understeer) in aero balance as well as an increase in aerodynamic drag. The expected area of operation for the wing is in the 0 to 12 degrees area with 0 degrees being appropriate for a low downforce track such as Daytona and 12 appropriate for a higher downforce track such as Hungaroring. If you wish to keep the same aerodynamic balance but add overall downforce to the car you will have to increase the rear ride height as you increase the wing angle.
+
+  - id: arb-setting
+    level: 3
+    titleEn: "ARB SETTING"
+    bodyEn: |+
+      
+      Your secondary tool for mid/high speed balance adjustment and your primary tool for low speed balance changes. At the front of the car a stiffer ARB will result in more understeer while at the rear of the car a stiffer ARB will result in more oversteer. It is also important to note that the ARB ranges are not linear but are as follows:
+      
+      Front ARB (softest to stiffest) 1-2-3-4-7-5-6
+      
+      Rear ARB (softest to stiffest) 1-2-3-4-5-7-6
+      
+      The baseline ARB configuration is 3F/4R.
+
+  - id: ride-height
+    level: 3
+    titleEn: "RIDE HEIGHT"
+    bodyEn: |+
+      
+      At both the front and rear of the car the most performance mechanically and aerodynamically is achieved at the lowest possible ride heights while still passing tech inspection. This is 72 mm in the front and 106 mm in the rear. Front ride height should only be increased at extreme tracks such as the Nürburgring in the event of excessive ground contact. Rear ride height can be increased slightly to move the aerodynamic balance forwards for more oversteer but this will produce less overall downforce, more aerodynamic drag and reduced rear axle capability unless it is paired with an increase in rear wing angle. This is adjusted by moving the spring perch offsets as stated previously.
+
+  - id: camber
+    level: 3
+    titleEn: "CAMBER"
+    bodyEn: |+
+      
+      For short races it is advised to run as much camber as possible at both ends of the car. More camber results in more lateral (cornering) capability while reducing longitudinal (traction and straight-line braking) capability. Often the gains in lateral capability will outweigh the loss in longitudinal capability however you may find the trade-off of running lower camber at either axle to improve braking or traction performance at specific tracks or in endurance racing scenarios.
+
+  - id: toe-in
+    level: 3
+    titleEn: "TOE-IN"
+    bodyEn: |+
+      At the front of the car more toe-in can result in improved mid-corner performance but at the cost of entry stability and straight-line braking. More toe-out will improve initial turn-in response but can overslip the inside tire during mid-corner resulting in excessive scrub. At the rear of the car only toe-in is available. More toe-in will result in greater stability during braking and on power movements however it may result in more mid-corner understeer and slower overall response to inputs.
