@@ -1,0 +1,557 @@
+slug: chevrolet-corvette-z06-gt3-r
+published: true
+titleZh: Chevrolet Corvette Z06 GT3.R 用户手册
+titleEn: Chevrolet Corvette Z06 GT3.R User Manual
+contentType: vehicle-manual
+brand: Chevrolet
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/chevrolet-corvette-z06-gt3-r/cover.png
+source:
+  type: official
+  title: iRacing Chevrolet Corvette Z06 GT3.R User Manual
+  revision: V2
+  publishedAt: 2024-06-04
+  notice: Complete English transcription imported from the user-provided V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Chevrolet Corvette Z06 GT3.R! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/chassis-specifications.png)
+      
+      #### SHORT-LONG ARM DOUBLE WISHBONE FRONT AND REAR SUSPENSION
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4625 mm / 182 in |
+      | Width | 2050 mm / 81 in |
+      | Wheelbase | 2718 mm / 107 in |
+      | Dry Weight | 1335 kg / 2943 lbs |
+      | Wet Weight with Driver | 1494 kg / 3294 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/power-unit.png)
+      
+      GM SMALL-BLOCK NATURALLY-ASPIRATED V8
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 5.5 Liters / 334 CID |
+      | RPM Limit | 8000 RPM |
+      | Torque | 430 lb-ft / 583 Nm |
+      | Power | 520 bhp / 388 kW |
+      
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars.
+      
+      To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/getting-started.png)
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction.
+      
+      However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      The Corvette Z06 GT3.R features a digital dash display with two page options to show all relevant information to the driver while on-track.
+
+  - id: race-dash-configuration
+    level: 3
+    titleEn: "RACE DASH CONFIGURATION"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/race-dash-configuration-1.png)
+      
+      | Left Column | Description |
+      | --- | --- |
+      | Tire Pressures | Live tire pressures are displayed in four blocks in the upper left of the display in units based on the selected garage measurement system. Each pressure value will have a background color corresponding to the current pressure: Blue if the tire is under the optimum pressure, Red if the tire is overinflated, and Green if the tire is in the optimum tire pressure range. |
+      | Core Temperatures | Live tire carcass temperatures are displayed in the four boxes under the tire pressure displays. Just like the pressures, each temperature is shown with a background color to represent the tire’s performance: Blue if the tire is too cold, Red if the tire is overheated, and Green when the tire is in an optimal operating window. |
+      | Brake Bias | The current Brake Bias setting is shown on the left of the screen as the Front brake line pressure percentage below the temperatures. |
+      | Laps Completed | The box to the right of the Brake Bias displays the number of laps completed in the current session |
+      | Traction Control (TC) | Currently selected Traction Control system setting |
+      | Multi | Not used in the iRacing simulation. |
+      | Anti-lock Brake (ABS) | Currently selected Anti-lock Brake system setting |
+      | Yaw | This value isn’t directly adjustable but is linked to the Traction Control setting |
+      | Map | Throttle Pedal Map - currently the real car and the iRacing model use a linear map |
+      
+      | Center | Description |
+      | --- | --- |
+      | Gear | The currently-selected transmission gear is shown in the upper-center of the display. Forward gears are shown in white, Neutral in green, and Reverse in red. |
+      | Split | The live difference between the current lap and the session best lap is shown beneath the gear indicator, shown in red if the current lap is slower and green if the current lap is faster. |
+      | Predicted Lap-time | Beneath the split is the currently predicted lap time |
+      
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/race-dash-configuration-2.png)
+      
+      | Right Columns | Description |
+      | --- | --- |
+      | RPM | The engine RPM is shown in the upper right in large yellow numbers |
+      | Speed | The vehicle’s speed is shown in the upper right corner next to the RPM in units based on the garage’s selected units |
+      | Fuel per Lap | The amount of fuel used in the previous lap is shown below the vehicle’s speed. This is displayed in either Gallon/Lap or Liter/Lap based on the selected garage measurement system |
+      | Lap Time | The previously-completed lap time is shown in the middle of the display in yellow numbers |
+      | Best Lap Time | The session-best lap time is shown beneath the previous lap time |
+
+  - id: race-basic-dash-configuration
+    level: 3
+    titleEn: "RACE BASIC DASH CONFIGURATION"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/race-basic-dash-configuration.png)
+      
+      Simplified race page to be used at the driver’s preference. Data is presented in the same location and same manner but with certain parameters omitted.
+
+  - id: pit-speed-limiter
+    level: 3
+    titleEn: "PIT SPEED LIMITER"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/pit-speed-limiter.png)
+      
+      Whenever the pit road speed limiter is active the display will change to the special format shown above. A green background indicates that the car is at or below the target speed. If the pit speed limiter is engaged at more than 20 kph (~12 mph) above the target speed, the background will appear red.
+      
+      It will turn orange when the car is less than 20 kph above the target. Progress bars on both sides of the display will illuminate from the bottom to the top as the car slows and approaches pit road speed.
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/shift-lights.png)
+      
+      The top of the digital display has a set of LED shift lights to help the driver know when to upshift while accelerating. As RPM increases the lights will illuminate from left to right, with all lights turning red when the ideal shift point has been reached. If the engine is pushed past this point the lights will change from red to blue, a sign the engine is nearing the rev limiter. For shorter gears the duration of the all-red lights can be very short and may not appear if the engine RPM is rising very quickly.
+
+  - id: traction-control-light-display
+    level: 3
+    titleEn: "TRACTION CONTROL LIGHT DISPLAY"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/traction-control-light-display.png)
+      
+      LEDs on each side of the dash display show how close the rear tires are to the slip ratio target. Green indicates progress toward the target. A full set of 5 green lights indicate the tire is at the target slip ratio. The left & right banks of lights correspond to the left and right rear tires.
+      
+      Whenever the Traction Control system is active and intervening to prevent wheelspin, blue LEDs will illuminate on either side of the display and overlay the green slip lights. The more aggressively the system is reducing torque to prevent wheelspin, the more blue lights will illuminate. The lights progress from the bottom to the top and are symmetric because the cuts to engine torque affect both rear wheels.
+
+  - id: wheel-lockup-indicators
+    level: 3
+    titleEn: "WHEEL LOCKUP INDICATORS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/wheel-lockup-indicators.png)
+      
+      The display is divided into four quadrants that correspond to the four tires. Whenever a lockup is detected, the display’s background will fill the quadrant associated with the locking wheel. For rear lockups the lower half of the screen will be filled with orange and for front lockups the upper half will fill with red. These indicators are tied to wheel slip and are not directly related to ABS system activation. Stronger ABS intervention will result in less lock-up and therefore less illumination of the background lights.
+      
+      ---
+      
+      <!-- section-divider page=11 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleEn: "TIRES & AERO"
+  - id: tire-data
+    level: 3
+    titleEn: "TIRE DATA"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Tires fitted to the Chevrolet Corvette Z06 GT3.R car can be changed based on weather conditions. The Dry option fits a slick tire intended for dry track conditions while the Wet option fits a treaded tire for wet track surfaces.
+      
+      #### STARTING PRESSURE
+      
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+      
+      #### LAST HOT PRESSURE
+      
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+      
+      #### LAST TEMPS
+      
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: aero-balance-calculator
+    level: 3
+    titleEn: "AERO BALANCE CALCULATOR"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/aero-balance-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag) produced by the car as well as shifting the aerodynamic balance of the car rearwards with higher settings. Increasing the rear wing setting results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing setting should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      The Wing Setting value in the Aero Calculator section is tied directly to the Wing Setting in the Chassis page’s Rear section. Changing one will automatically change the other.
+      
+      #### FRONT DOWNFORCE
+      
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleEn: "CHASSIS"
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/front.png)
+      
+      #### ARB BLADES
+      
+      The Anti-Roll Bar (ARB) Blades (or arms) can be adjusted to tune the suspension roll stiffness. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with 6 being the softest option and the blades becoming stiffer as the value is decreased to the minimum setting of 0. Stiffer blade settings will increase front roll stiffness and induce understeer while softer blade settings will reduce front roll stiffness and reduce understeer.
+      
+      #### TOTAL TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out (Negative value in the garage) is the opposite. On the front end, adding toe-out will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+      
+      #### BRAKE PEDAL RATIO
+      
+      The Brake Pedal Ratio can be used to multiply the amount of force applied to the brake master cylinders for a given amount of force applied to the brake pedal. Lower ratios require more brake pedal application force to lock the wheels but are easier to modulate while higher ratios require less pedal force but can be difficult to control.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing the most modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes but allow the least modulation.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is using. Twelve positions are available: Position 1 has the least intervention/support, position 11 has the most support, and position 0 disables the ABS completely. Positions 1-6 are recommended for use in dry conditions while 7-11 are best for wet conditions. More intervention reduces the possibility of and the duration of lockups during braking but can result in longer braking distances if the system is set too high for the amount of available grip.
+      
+      #### TRACTION CONTROL SETTING
+      
+      The position of the traction control switch determines how aggressively the ECU cuts engine torque in reaction to rear wheel spin. Twelve positions are available: Settings 1-11 range from least intervention/sensitivity (position 1) to the highest intervention/sensitivity (position 11) while position 0 disables the traction control completely. Like the ABS settings, options 1-6 are recommended for dry conditions and 7-11 are for wet conditions. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
+      
+      #### DISPLAY PAGE
+      
+      Changes the digital dash page active when the car is loaded into the world. Two options are available: Race and Race Basic. See the Dash Configuration section for more information on the dash pages.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners. Cross weight can be adjusted by making changes to the Ride Height settings at each corner of the car.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the ride height adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to the floor of the car at the front axle centerline. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing front ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### BUMP RUBBER GAP
+      
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in high-speed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control. However overly stiff springs will result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as the softer springs. When changing springs on this car, the spring perch is automatically adjusted to maintain the bump rubber gap and return the car to the ride height it had before the change.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made by changing individual corner ride heights.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to the floor of the car at the rear axle centerline. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance. Generally, the Corvette will perform best with a relatively low-rake setup. See the section on Aerodynamic Targets for more information on setting optimum ride heights.
+      
+      #### BUMP RUBBER GAP
+      
+      The distance the damper will travel before engaging the bump rubber. This will result in a much stiffer suspension and will provide better aerodynamic platform control and better stability in high-speed corners but it will reduce grip in low-speed corners and over rough surfaces. Lower values will engage the bump rubber sooner and higher values will delay engagement to allow for a more compliant suspension. Engaging the bump rubbers on the rear can keep the chassis off the track in high-load situations to keep the car from bottoming out on the track, like Daytona, but due to the increased stiffness it can make the car more difficult to control when cornering or during throttle application.
+      
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. When changing springs on this car, the spring perch is automatically adjusted to maintain the bump rubber gap and return the car to the ride height it had before the change.
+      
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons: firstly, the rear tires are wider compared to the fronts and, secondly, the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the car when loaded into the world.
+      
+      #### ARB BLADES
+      
+      The Anti-Roll Bar (ARB) Blades (or arms) can be adjusted to tune the suspension roll stiffness. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with 6 being the softest option and the blades becoming stiffer as the value is decreased to the minimum setting of 0. Stiffer blade settings will increase rear roll stiffness and induce oversteer while softer blade settings will reduce rear roll stiffness and reduce oversteer.
+      
+      #### REAR WING ANGLE
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      This setting on the Chassis page is linked to the Wing Setting in the Aero Calculator section; changing one setting will also change the other.
+
+  - id: gears-differential
+    level: 3
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/gears-and-differential.png)
+      
+      #### GEAR STACK
+      
+      Gear Stack changes the forward gear ratios in the transmission. Four choices are available: IMSA, FIA, Le Mans, and Daytona. The IMSA gear stack is more suited to high-downforce tracks where top speeds are low while the FIA gear stack is better for faster, medium-downforce tracks. The Le Mans and Daytona gear stacks are for low-downforce tracks where speeds are very high, with the Le Mans gear stack producing the highest top speed.
+      
+      #### FRICTION FACES
+      
+      The number of friction faces in the differential affect how much overall force is applied to keep the rear axle locked. Treated as a multiplier, adding more faces produces increasingly more locking force. For example, 8 friction faces will have twice the locking force of 4 faces, which will have twice the force of 2 faces. Adding friction faces will induce off-throttle understeer and on-throttle oversteer, reducing friction faces will reduce these effects.
+      
+      #### DIFFERENTIAL PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers-penske-4-way
+    level: 2
+    titleEn: "DAMPERS - PENSKE 4-WAY"
+    bodyEn: |+
+      ![Image](./assets/chevrolet-corvette-z06-gt3-r/dampers-penske-4-way.png)
+      
+      #### LOW SPEED COMPRESSION
+      
+      Low speed compression (LSC) affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. This adjustment is a bleed screw where 0 clicks (fully closed) is maximum damping (most resistance to compression) and 30 clicks is minimum damping (least resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to the front or rear of the car during transient movements such as braking and direction change with increased damping usually increasing the car’s tendency to understeer on throttle application.
+      
+      On the front end of the car, increasing LSC will induce understeer under braking and whenever the front suspension is compressing. On the rear, more LSC will increase traction on throttle and when the rear suspension is in compression, which can be perceived as understeer in extreme cases.
+      
+      #### HIGH SPEED COMPRESSION
+      
+      High speed compression (HSC) affects the shock’s behavior at faster damper shaft speeds, usually attributed to curb strikes and bumps in the track’s surface. The 0 setting is maximum damping and 22 is the minimum. More high speed compression will cause the suspension to be stiffer in these situations, while less HSC will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. HSC is important for proper roll, pitch & heave control of the chassis.
+      
+      #### LOW SPEED REBOUND
+      
+      Low speed rebound (LSR) damping controls the stiffness of the shock while extending at lower damper shaft speeds, typically during body movement as a result of driver inputs. This adjustment is a bleed screw where 0 clicks (fully closed) is maximum damping and 30 clicks is minimum damping. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but can result in the tire losing complete contact with the track surface if the suspension can’t extend fast enough with reduced loads.
+      
+      On the front end, higher LSR settings will hold the front of the car down longer during acceleration but can induce understeer on throttle application or over crests. On the rear of the car, more LSR will stabilize the car under braking but can induce understeer if set too aggressively.
+      
+      #### HIGH SPEED REBOUND
+      
+      High-speed rebound (HSR) controls the shock in extension after bumps and curb strikes. The 0 setting is maximum damping and 22 is the minimum. Higher forces will reduce how quickly the shock will expand, while lower values will allow the shock to extend more quickly. Despite not having as much of an effect on handling in response to driver inputs, HSR is important for proper chassis aerodynamic response to circuit inputs.
+      
+      ---
+      
+      <!-- section-divider page=21 -->
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+      
+      ---
+
+  - id: setup-recommendations
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      In the iRacing Setups folder you will find a variety of setups:
+      
+      Baseline is a 100% fuel load setup which is intended solely for loading the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
+      
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+      
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+      
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+      
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+      
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+      
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+      
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Sebring International Raceway | High |
+      | Daytona International Speedway | Low/Medium | Silverstone Circuit | High/Medium |
+      | Detroit Grand Prix at Belle Isle | High | Sonoma Raceway | High |
+      | Fuji International Speedway | High/Medium | Virginia International Raceway | High/Medium |
+      | Hungaroring | High | Watkins Glen International | High/Medium |
+      | Indianapolis Motor Speedway | Medium | WeatherTech Raceway at Laguna Seca | High |
+      | Lime Rock Park | High |  |  |
+      
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+      
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+      
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+      
+      The optimal configuration for most total downforce is as follows:
+      
+      - Rear Wing Angle: +9.5
+      - Dynamic Front Ride Height: 37.5 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 57.5 mm (+/-2.5 mm)
+      
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+      
+      The optimal configuration for the least total drag is as follows:
+      
+      - Rear Wing Angle: +0.5
+      - Dynamic Front Ride Height: 17.5 mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5 mm (+/- 2.5 mm)
+      
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+      
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+      
+      - Rear Wing Angle: +1
+      - Front Ride Height: -1.5 mm
+      - OR
+      - Rear Ride Height: +4.0 mm
+      
+      &nbsp;
+      
+      - Rear Wing Angle: -1
+      - Front Ride Height: +1.5 mm
+      - OR
+      - Rear Ride Height: -4.0 mm
+      
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+      
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+      
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed.
+
+  - id: chassis-adjustments
+    level: 3
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+      
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyEn: |+
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+      
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+      
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+      
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.
+

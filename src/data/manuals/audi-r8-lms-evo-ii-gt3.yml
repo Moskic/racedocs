@@ -1,0 +1,535 @@
+slug: audi-r8-lms-evo-ii-gt3
+published: true
+titleZh: Audi R8 LMS EVO II GT3 用户手册
+titleEn: Audi R8 LMS EVO II GT3 User Manual
+contentType: vehicle-manual
+brand: Audi
+vehicleClass: GT3
+platform: iRacing
+discipline: sports-car
+cover: ./assets/audi-r8-lms-evo-ii-gt3/cover.png
+source:
+  type: official
+  title: iRacing Audi R8 LMS EVO II GT3 User Manual
+  publishedAt: 2024-07-10
+  notice: Complete English transcription imported from the user-provided extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Audi R8 LMS EVO II GT3! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
+      
+      #### INDEPENDENT DOUBLE WISHBONE SUSPENSION FRONT AND REAR
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4599 mm / 181 in |
+      | Width | 1997 mm / 78.62 in |
+      | Wheelbase | 2700 mm / 106.3 in |
+      | Dry Weight | 1320 kg / 2910 lbs |
+      | Wet Weight with Driver | 1479 kg / 3260 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/power-unit.png)
+      
+      NATURALLY ASPIRATED V10 ENGINE
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 5.2 Liters / 317 CID |
+      | RPM Limit | 8500 RPM |
+      | Torque | 410 lb-ft / 556 Nm |
+      | Power | 518 bhp / 386 kW |
+      
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+      
+      Upshift when the final red light in the 10-LED sequence is illuminated.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      The Bosch DDU S2 Plus display in the Audi R8 LMS EVO II GT3 has two display page options. Both pages are identical in the information displayed, however colors are inverted to help with driver vision for varying conditions.
+
+  - id: day-and-night-pages
+    level: 3
+    titleEn: "DAY & NIGHT PAGES"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/day-and-night-pages.png)
+      
+      #### TOP GROUP
+      
+      | Setting | Description |
+      | --- | --- |
+      | Tire Pressures | All four tire pressures (bar or psi) are displayed in the upper-left corner of the display. When the tires are under-inflated, these blocks are shown in red; they change to the default background color when the tires are in an optimum range. |
+      | Gear | The currently-selected gear is shown in the center of the top cluster of data. |
+      | TC Lat | Current TC system setting. |
+      | TC Long | Current TC system setting. |
+      | ABS | Current ABS system setting. ABS front and rear relative intervention is currently locked to 100% for both. |
+      | Tire Temps | The average tire temperature for each of the four tires is shown in a block below the ABS values. |
+      
+      #### CENTER ROW
+      
+      | Setting | Description |
+      | --- | --- |
+      | RPM | Engine RPM is displayed on the left side in the center row. |
+      | Brakebal | Current Brake Bias setting (% front brake line pressure). |
+      | Speed | Current vehicle speed (kph or mph). |
+      
+      #### LOWER GROUP
+      
+      | Setting | Description |
+      | --- | --- |
+      | Lap Time | Current lap time. |
+      | Lap | Number of laps completed since leaving the garage. |
+      | Diff | Current split time, compared against the best lap of the session. |
+      
+      #### BOTTOM ROW
+      
+      | Setting | Description |
+      | --- | --- |
+      | TGear | Gearbox oil temperature. |
+      | TOil | Engine oil temperature. |
+      | TMot | Engine coolant or water temperature. |
+      | Fuel Lap | Fuel used this lap (liters or US gallons). |
+      | Fuel Used | Fuel used this stint (liters or US gallons). |
+
+  - id: pit-limiter
+    level: 3
+    titleEn: "PIT LIMITER"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/pit-limiter.png)
+      
+      When the pit limiter is active six of the shift lights will illuminate in blue, a green overlay box with the vehicle’s speed will appear if the car is below the pit speed limit, a red background indicates the vehicle’s speed is over the pit speed limit.
+      
+      ---
+      
+      <!-- section-divider page=9 -->
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+      
+      ---
+
+  - id: tires-and-aero
+    level: 2
+    titleEn: "TIRES & AERO"
+  - id: tires
+    level: 3
+    titleEn: "TIRES"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/tires.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### STARTING PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Hot pressures should be analyzed once the tires have stabilized after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+      
+      #### TIRE TEMPERATURES
+      
+      Tire carcass temperatures once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-balance-calculator
+    level: 3
+    titleEn: "AERO BALANCE CALCULATOR"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/aero-balance-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LF and RF ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is a powerful aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+      
+      The Wing Setting value in the Aero Calculator section is tied directly to the Wing Setting in the Chassis page’s Rear section. Changing one will automatically change the other.
+      
+      #### FRONT DOWNFORCE
+      
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleEn: "CHASSIS"
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/front.png)
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Each end of the ARB has three options that can be combined to produce a total of five stiffness options. Increasing either value will stiffen the bar’s effective rate and decreasing will soften the bar’s rate. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and inducing understeer while cornering. Conversely, lower values reduce the roll stiffness of the front suspension and can reduce understeer.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire while adding toe-in will reduce the slip. Toe-out will decrease straight-line stability but will increase turn-in responsiveness. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, this will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort.
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, this will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will do the opposite and increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup.
+      
+      #### LED NIGHT STRIPS
+      
+      Changes the color of the two light strips on the outer edges of the roof. Seven options are available: Blue, Purple, Red, Yellow, Orange, Green and Off, with no setting influencing the car’s performance.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/in-car-dials.png)
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation. It is important to note that differing combinations of master cylinder size will necessitate differing brake pressure bias values, this is because increasing or reducing the split in master cylinder size difference between front and rear axles will produce an inherent forward or rearward bias in brake line pressure.
+      
+      #### TRACTION CONTROL SETTING
+      
+      The position of the traction control switch determines how aggressively the ECU cuts engine torque in reaction to rear wheel spin. Twelve positions are available, with higher values providing more traction control intervention. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration. Maps 1-6 are for slick tires on a dry track, maps 7-11 are for wet conditions, and Setting 12 disables the Traction Control system.
+      
+      #### THROTTLE SHAPE SETTING
+      
+      Throttle shape setting refers to how changes in the driver’s pedal position result in changes in provided engine torque. Position 1 provides a butterfly-style throttle response with more aggressive torque increase at high pedal travel. Position 3 is less aggressive, with a linear torque mapping for throttle position. Position 2 is an intermediate setting between the other two.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is running. The ABS system features 12 positions divided into three groups to suit varying track conditions, with lower values providing less assistance and higher values providing more assistance to prevent brake lockup. Settings 1-6 are for slick tires in dry conditions, 7-11 are for wet conditions. Generally, setting 7 will be good for light rain while settings will need to be increased as conditions worsen, with setting 11 being for heavy rain. Setting 12 disables the system completely.
+      
+      #### DISPLAY PAGE
+      
+      This sets which page is shown by default when the car is loaded. See the Dash Configuration section of this guide for more info.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to the floor of the car at the front axle centerline. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      Minimum drag setups with very low rear wing positions may require higher front ride heights in order to achieve the proper balance.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at this corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering this corner of the car while reducing the spring perch offset will raise this corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control; however they will also result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness (either via blade or diameter depending on the size of the corner spring change) should be increased to retain the same roll stiffness as previously. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: left-right-rear
+    level: 3
+    titleEn: "LEFT / RIGHT REAR"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/left-right-rear.png)
+      
+      #### REAR RIDE HEIGHT
+      
+      Distance from the ground to the floor of the car at the rear axle centerline. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING SELECTED/SPRING RATE
+      
+      Similar to at the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### CAMBER
+      
+      As at the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are 25 mm (~1”) wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### ARB BLADES
+      
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings. Six ARB blade options are available ranging from 1-1 (softest) to 3-3 (stiffest).
+
+  - id: gears-differential
+    level: 3
+    titleEn: "GEARS / DIFFERENTIAL"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/gears-and-differential.png)
+      
+      #### SIXTH GEAR
+      
+      Two options of 6th gear are available for selection depending upon track type. The FIA gear is shorter and should be used at the majority of tracks while the IMSA Daytona gear should be used at Daytona and Le Mans to prevent reaching the rev limiter before the end of the straightaways.
+      
+      #### FRICTION FACES
+      
+      The number of friction faces in the differential affect how much overall force is applied to keep the rear axle locked. Treated as a multiplier, adding more faces produces increasingly more locking force. For example, 8 friction faces will have twice the locking force of 4 faces, which will have twice the force of 2 faces.
+      
+      #### DIFF PRELOAD
+      
+      Diff preload is a static amount of locking force present within the differential and remains constant during both acceleration and deceleration. Increasing diff preload will increase locking on both sides of the differential which will result in more understeer when off throttle and more snap oversteer with aggressive throttle application. Increasing the diff preload will also smooth the transition between on and off throttle behavior as the differential locking force will never reach zero which can be helpful in reducing lift-off oversteer and increasing driver confidence. Typically diff preload should be increased when there is noticeable loss in slow corner exit drive and/or over-rotation during transition between the throttle and brake in low to mid speed corners.
+
+  - id: dampers
+    level: 2
+    titleEn: "DAMPERS"
+    bodyEn: |+
+      ![Image](./assets/audi-r8-lms-evo-ii-gt3/dampers.png)
+      
+      #### LOW SPEED COMPRESSION
+      
+      Low speed compression (LSC) affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. This adjustment is a bleed screw where 2 clicks from closed is maximum damping (most resistance to compression) and 38 clicks is minimum damping (least resistance to compression). Increasing the low speed compression damping will result in a faster transfer of weight to the front or rear of the car during transient movements such as braking and direction change with increased damping usually increasing the car’s tendency to understeer on throttle application.
+      
+      On the front end of the car, increasing LSC will induce understeer under braking and whenever the front suspension is compressing. On the rear, more LSC will increase traction on throttle and when the rear suspension is in compression, which can be perceived as understeer in extreme cases.
+      
+      #### HIGH SPEED COMPRESSION
+      
+      High speed compression (HSC) affects the shock’s behavior at faster damper shaft speeds, usually attributed to curb strikes and bumps in the track’s surface. The 0 setting is maximum damping and 40 is the minimum. More high speed compression will cause the suspension to be stiffer in these situations, while less HSC will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. At smoother tracks more high speed compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less high speed compression damping can result in an increase in mechanical grip at the expense of platform control. HSC is important for proper roll, pitch & heave control of the chassis.
+      
+      #### LOW SPEED REBOUND
+      
+      Low speed rebound (LSR) damping controls the stiffness of the shock while extending at lower damper shaft speeds, typically during body movement as a result of driver inputs. This adjustment is a bleed screw where 2 clicks from closed is maximum damping and 38 clicks is minimum damping. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but can result in the tire losing complete contact with the track surface if the suspension can’t extend fast enough with reduced loads.
+      
+      On the front end, higher LSR settings will hold the front of the car down longer during acceleration but can induce understeer on throttle application or over crests. On the rear of the car, more LSR will stabilize the car under braking but can induce understeer if set too aggressively.
+      
+      #### HIGH SPEED REBOUND
+      
+      High-speed rebound (HSR) controls the shock in extension after bumps and curb strikes. The 0 setting is maximum damping and 40 is the minimum. Higher forces will reduce how quickly the shock will expand, while lower values will allow the shock to extend more quickly. Despite not having as much of an effect on handling in response to driver inputs, HSR is important for proper chassis aerodynamic response to circuit inputs.
+      
+      ---
+      
+      <!-- section-divider page=18 -->
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+      
+      ---
+
+  - id: setup-recommendations
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      If the setup fails tech inspection, it is likely the ride heights require adjustment. This is performed by using the ride height adjustments at either end of the car. Right clicks (positive) will increase the ride height while left clicks (negative) will reduce the ride height.
+      
+      In the iRacing Setups folder you will find a variety of setups.
+      
+      Baseline is a 100% fuel load setup which is intended solely for loading the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
+      
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+      
+      Setups labeled ‘_sprint’ have a 50% fuel load, a more aggressive balance and are intended for use where there is either a fuel limitation OR race lengths are approximately 25 to 30 minutes in length. These setups are intended to be used in competition.
+      
+      Setups labeled ‘_endurance’ have a 100% fuel load and are for use where no fuel restriction is present and/or race lengths are approximately 1 hour or more in length.
+      
+      The setup titled ‘fixed’ is the setup used in the fixed setup series and is similar to the high_downforce_sprint setup.
+      
+      Setups labeled ‘nurburgring_’ are built with 70 mm minimum ride heights and are for use solely on Nürburgring Nordschleife configurations.
+      
+      While most tracks will trend towards favoring more downforce there can be some instances where reducing rear wing angle for less drag may be beneficial. As a rough guide, you can expect the following downforce trims at the following tracks:
+      
+      | Tracks | Downforce Level | Tracks | Downforce Level |
+      | --- | --- | --- | --- |
+      | Autodromo Jose Carlos Pace | High/Medium | Long Beach Street Circuit | High |
+      | Autodromo Nazionale Monza | Medium | Motorsports Arena Oschersleben | High |
+      | Brands Hatch Circuit | High | Mount Panorama Circuit | High/Medium |
+      | Circuit de Barcelona Catalunya | High | Nürburgring Grand-Prix-Strecke | High |
+      | Circuit de Nevers Magny-Cours | High/Medium | Okayama International Circuit | High |
+      | Circuit de Spa-Francorchamps | Medium | Road America | High/Medium |
+      | Circuit des 24 Heures Du Mans | Medium | Sebring International Raceway | High |
+      | Daytona International Speedway | Low/Medium | Silverstone Circuit | High/Medium |
+      | Detroit Grand Prix at Belle Isle | High | Sonoma Raceway | High |
+      | Fuji International Speedway | High/Medium | Virginia International Raceway | High/Medium |
+      | Hungaroring | High | Watkins Glen International | High/Medium |
+      | Indianapolis Motor Speedway | Medium | WeatherTech Raceway at Laguna Seca | High |
+      | Lime Rock Park | High |  |  |
+      
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options. A good indicator of if a track may benefit from a reduction in downforce trim is the maximum speed reached.
+      
+      The following boundaries are suggestions for what trim level may be optimal but please note that other factors such as track design (number of high speed corners, etc), altitude and ambient conditions will also impact your decision here with higher altitude tracks and hotter ambient conditions favoring more downforce.
+      
+      | Speed | Downforce Level |
+      | --- | --- |
+      | Max Speed under 250 km/h (155 mph) | High Downforce |
+      | Max Speed 250 to 270 km/h | Medium |
+      | Max Speed over 270 km/h (167 mph) | Low to Minimum Downforce |
+
+  - id: aerodynamic-targets-and-adjustments
+    level: 3
+    titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyEn: |+
+      GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+      
+      The optimal configuration for most total downforce is as follows:
+      
+      - Rear Wing Angle: 7
+      - Dynamic Front Ride Height: 40.0 mm (+/-2.5 mm)
+      - Dynamic Rear Ride Height: 62.0 mm (+/-2.5 mm)
+      
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+      
+      The optimal configuration for the least total drag is as follows:
+      
+      - Rear Wing Angle: 2
+      - Dynamic Front Ride Height: 17.5 mm (+/- 2.5 mm)
+      - Dynamic Rear Ride Height: 17.5 mm (+/- 2.5 mm)
+      
+      For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
+      
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance:
+      
+      - Rear Wing Angle: +1
+      - Front Ride Height: -2.4 mm
+      - OR
+      - Rear Ride Height: +7.2 mm
+      
+      &nbsp;
+      
+      - Rear Wing Angle: -1
+      - Front Ride Height: +2.4 mm
+      - OR
+      - Rear Ride Height: -7.2 mm
+      
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+      
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+      
+      - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
+      - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed
+
+  - id: chassis-adjustments
+    level: 3
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyEn: |+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+      
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
+      - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+  - id: differential-adjustments
+    level: 3
+    titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyEn: |+
+      Two adjustment options are available for the differential.
+      
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+      
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+      
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+      
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.
+
+
