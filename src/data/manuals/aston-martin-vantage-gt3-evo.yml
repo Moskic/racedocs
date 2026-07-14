@@ -17,6 +17,18 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/welcome-hero.png)
+      
+      #### 亲爱的 iRACING 用户：
+      
+      恭喜您购入 Aston Martin Vantage GT3 EVO！iRacing 全体团队感谢您的支持与对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶这辆新赛车时，能在赛道上收获无限激情！
+      
+      本指南将介绍如何充分发挥这辆新赛车的性能，包括如何在离开赛道后调整车辆设定，以及驾驶时会在座舱内看到哪些信息。希望本指南能帮助您尽快熟悉赛车、提升圈速。
+      
+      再次感谢您的购买，赛道上见！
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/welcome-car.png)
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/welcome-hero.png)
       
@@ -32,10 +44,24 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/chassis-specifications.png)
+      
+      前后短长臂双叉臂悬架，外置式螺旋弹簧与减振器
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4547 mm / 179 in |
+      | 车宽 | 2050 mm / 80.7 in |
+      | 轴距 | 2769 mm / 109 in |
+      | 干重 | 1330 kg / 2932 lbs |
+      | 含车手湿重 | 1491 kg / 3286 lbs |
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/chassis-specifications.png)
       
@@ -51,7 +77,21 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/power-unit.png)
+      
+      4.0 升双涡轮增压 DOHC V8 发动机
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 4.0 升 / 244 立方英寸 |
+      | 转速上限 | 7000 RPM |
+      | 扭矩 | 472 lb-ft / 640 Nm |
+      | 功率 | 535 bhp / 399 kW |
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/vehicle-profile.png)
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/power-unit.png)
       
@@ -68,7 +108,16 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南中的信息旨在帮助您更深入地理解车库内可用的底盘设定调整项目，以便根据个人偏好调校车辆。
+      
+      不过，在深入调整底盘之前，最好先熟悉赛车和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设定。
+      
+      要加载基准设定，只需打开“Garage（车库）”，点击“iRacing Setups”，再选择适合目标赛道的设定。如果当前赛道没有专用基准设定，可以选择特性相近赛道的设定作为起点。
+      
+      选好适当设定后，请驶上赛道，专注于做出平顺且稳定的圈速，找准正确的行车线，并在连续多圈中了解轮胎磨损和操控特性的变化趋势。
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
       
@@ -80,7 +129,12 @@ sections:
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/getting-started.png)
+      
+      进入座舱后，挂入一挡。在踩下油门的同时缓慢松开离合器即可起步。停车时必须踩下离合器以防发动机熄火，挂倒挡时也需要使用离合器；但车辆起步后，升挡和降挡均无需踩下离合器。升挡时只需松开油门并挂入高一挡；降挡时则应在选择低一挡的同时补一脚油门。如果降挡过早或补油不足，车轮转速与发动机转速会不匹配，可能导致后轮跳动，甚至引发车辆打转。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/getting-started.png)
       
@@ -88,7 +142,20 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/loading-iracing-setup.png)
+      
+      进入比赛时，车辆会自动加载 iRacing 基准设定 `<baseline.sto>`。如果希望使用 iRacing 针对不同条件预先制作的其他设定，可依次点击“Garage（车库）”&gt;“iRacing Setups”，然后选择符合需求的设定。
+      
+      若要自定义车辆设定，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+      
+      若要保存设定供日后使用，请点击右侧的“Save As（另存为）”，为设定命名并保存更改。点击车库右侧的“My Setups（我的设定）”即可查看全部个人设定。
+      
+      若要与另一位车手或当前比赛中的所有人共享设定，可点击车库右侧的“Share（共享）”。
+      
+      如果其他车手正与您共享设定，也可在车库右侧的“Shared Setups（共享设定）”中找到。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/loading-iracing-setup.png)
       
@@ -104,7 +171,40 @@ sections:
 
   - id: dash-configuration
     level: 2
+    titleZh: "仪表配置"
     titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      Aston Martin Vantage GT3 EVO 的数字仪表采用单页布局，以清晰易读的方式显示全部信息。在某些情况下，仪表会切换显示样式，例如显示上一圈圈速或启用维修区限速器时。
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/dash-configuration.png)
+      
+      | 左侧 | 说明 |
+      | --- | --- |
+      | Fuel Used | 自驶离维修区以来的燃油消耗量（升或加仑） |
+      | Fuel Lap | 上一圈的燃油消耗量（升或加仑） |
+      | Speed | 当前车速（km/h 或 mph） |
+      | Lap Count | 当前比赛已完成圈数 |
+      | Water Temp | 发动机冷却液温度（°C 或 °F） |
+      | Oil Temp | 发动机油温（°C 或 °F） |
+      
+      | 右侧 | 说明 |
+      | --- | --- |
+      | Last Lap | 上一圈圈速 |
+      | B Bias | 制动力分配设定 |
+      | Delta | 当前圈与本场最佳圈速的时间差 |
+      | Tire Pressures | 胎压以彩色背景表示其相对于最佳胎压的状态。红色表示胎压远低于目标值，橙色表示略低于目标值，绿色表示轮胎已达到最佳胎压。 |
+      
+      | 中央区域 | 说明 |
+      | --- | --- |
+      | Gear | 仪表中央以大号数字显示当前挡位 |
+      | TC Slip | 当前牵引力控制设定 |
+      | Red | 当前油门响应设定 |
+      | Wiper | 指示雨刷是否开启 |
+      | A/C | 不可操作 |
+      | PAS | 当前电子助力转向（EPAS）设定 |
+      | Green | 涡轮废气旁通阀控制；模拟器内不可调整，固定为 6 |
+      | ABS | 当前 ABS 设定 |
+      | TC Pro | 模拟器内当前未使用的牵引力控制项目，其输出与 TC Slip 绑定 |
     bodyEn: |+
       The digital display in the Aston Martin Vantage GT3 EVO is a single-page display with all information displayed in an easy-to-read format. The display can change display styles in various situations, such as previous lap time display and pit speed limiter.
       
@@ -140,7 +240,12 @@ sections:
 
   - id: lap-time-mode
     level: 3
+    titleZh: "圈速显示模式"
     titleEn: "LAP TIME MODE"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/lap-time-mode.png)
+      
+      完成一圈后，仪表会以紫色填充三个区域并短暂“冻结”，在右侧向车手显示刚刚完成的圈速。数秒后该显示会自动清除。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/lap-time-mode.png)
       
@@ -148,7 +253,26 @@ sections:
 
   - id: pit-limiter-mode
     level: 3
+    titleZh: "维修区限速器模式"
     titleEn: "PIT LIMITER MODE"
+    bodyZh: |+
+      启用维修区限速器后，仪表会切换显示，以帮助车手达到并维持维修区限速。与此同时，换挡提示灯会闪烁绿色，侧置 LED 则根据车速亮起与屏幕颜色一致的灯光。在所有维修区限速页面中，仪表左侧中部的信息组都会替换为大号车速显示。
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/pit-limiter-over-speed.jpeg)
+      
+      当车速高于维修区限速时，仪表会变为橙色，侧置 LED 也会闪烁橙光。
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/pit-limiter-target-speed.png)
+      
+      当车辆以维修区限速行驶时，屏幕和侧置 LED 均为绿色。
+      
+      ![图片](./assets/aston-martin-vantage-gt3-evo/pit-limiter-under-speed.png)
+      
+      当车速过低时，屏幕会变为白色。
+      
+      ---
+      
+      <!-- section-divider page=9 -->
     bodyEn: |+
       When the Pit Limiter is activated the display will change to assist with reaching and maintaining the pit road speed limit. This is accompanied by the shift lights flashing in green and the side-mounted LEDs illuminating in a color based on the vehicle speed to match the screen’s color. With all pit road speed limit screens, the middle-left cluster is replaced with a large speed display.
       
@@ -170,7 +294,12 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设定的高级用户。驾驶本车并不要求调整以下参数，但这些调整可能显著改变车辆的操控特性。建议每次仅对单一变量进行小幅调整，并在测试效果后再继续修改。
+      
+      ---
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
       
@@ -178,10 +307,34 @@ sections:
 
   - id: tires-and-aero
     level: 2
+    titleZh: "轮胎与空气动力学"
     titleEn: "TIRES & AERO"
   - id: tire-data
     level: 3
+    titleZh: "轮胎数据"
     titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/tire-data.png)
+      
+      #### 轮胎类型
+      
+      选择车辆进入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥赛道，湿地胎则适用于降雨和湿滑赛道条件。
+      
+      #### 冷胎压／初始胎压
+      
+      车辆进入赛道时轮胎内的气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力并更快积聚温度。较高胎压会让车辆响应稍快、滚动阻力更小，但抓地力也会降低。一般而言，高速赛道更适合较高胎压；在强调机械抓地力的低速赛道上，较低胎压通常表现更好。
+      
+      #### 上次热胎压
+      
+      完成一段赛道驾驶并返回车库后，胎压会显示为热胎压。冷热胎压之差可以有效反映轮胎在赛道上的负载与工作强度。工作量更大的轮胎会产生更明显的升压；留意哪些轮胎升压更多，并据此调整冷胎压进行补偿，是优化轮胎表现的关键。
+      
+      #### 上次轮胎温度
+      
+      车辆返回车库后会显示轮胎胎体温度，该温度在胎面内部测量。这些数据可有效判断各条轮胎在赛道上承受的工作量或负载。内侧与外侧温差可用于调校单个车轮的定位参数；中央温度与外侧温度的对比则有助于调校胎压。
+      
+      #### 剩余胎面
+      
+      轮胎剩余胎面量显示在轮胎温度下方，以新胎为 100% 计。这些数值有助于判断一套轮胎在更换前还能行驶多远，但不像温度数据那样，能够直接说明轮胎工作不足或过度。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/tire-data.png)
       
@@ -207,7 +360,30 @@ sections:
 
   - id: aero-balance-calculator
     level: 3
+    titleZh: "空气动力学平衡计算器"
     titleEn: "AERO BALANCE CALCULATOR"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/aero-balance-calculator.png)
+      
+      空气动力学计算器用于帮助理解调整尾翼设定以及前、后车高时，空气动力学平衡会如何变化。请务必注意：此处显示的前、后车高数值不会对车辆本身产生任何机械设定变化；但在此处更改尾翼角度会实际应用到车辆上。本计算器仅为参考工具。
+      
+      #### 高速前车高
+      
+      高速车高（RH at Speed）为计算器提供空气动力学计算所需的参考高度。使用计算器时，请通过遥测读取赛车在赛道任意位置的前车高，并将其输入“Front RH at Speed（高速前车高）”。建议采用左前与右前车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 高速后车高
+      
+      与高速前车高相同，高速后车高也是空气动力学计算的参考数值。请通过遥测读取赛车在赛道任意位置的后车高，并将其输入“Rear RH at Speed（高速后车高）”。建议采用左后与右后车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 尾翼角度
+      
+      尾翼设定是指尾翼的相对迎角。尾翼会显著影响车辆产生的总下压力和阻力，较高设定还会使空气动力学平衡向后移动。增大尾翼设定可提升中高速弯的总体过弯抓地力，但会降低直线速度。调整尾翼时，应同时考虑前、后车高，尤其是两者之差，即“前后倾角（rake）”。增大尾翼角度时，要保持相同的整体空气动力学平衡，就必须增大车辆的前后倾角。
+      
+      空气动力学计算器中的“Rear Wing Angle（尾翼角度）”与“Chassis（底盘）”页面“Rear（后部）”区域内的尾翼设定直接联动；更改其中一项会自动同步另一项。
+      
+      #### 前轴下压力占比
+      
+      该数值显示在计算器所设定的尾翼和车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数下某一瞬间的空气动力学平衡。可选取弯道或某段赛道中的多个位置，对比制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯中越容易表现出转向过度。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/aero-balance-calculator.png)
       
@@ -233,10 +409,48 @@ sections:
 
   - id: chassis-setup
     level: 2
+    titleZh: "底盘"
     titleEn: "CHASSIS"
   - id: front-brakes-lights
     level: 3
+    titleZh: "前部、制动与灯光"
     titleEn: "FRONT, BRAKES, LIGHTS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/front-brakes-lights.png)
+      
+      #### 防倾杆刀片
+      
+      可调整防倾杆刀片（或连接臂）来精细调校悬架侧倾刚度。此选项改变刀片方向，并以数字简化表示：8 为最软，数值逐步降低至 1 时刀片越来越硬。点击右箭头（&gt;）会增加刚度。较硬的刀片设定会提高前轴侧倾刚度并增加转向不足；较软设定则会降低前轴侧倾刚度并减少转向不足。
+      
+      请注意，前后防倾杆的位置编号方向相反。前、后防倾杆刀片位置之和，可作为整套防倾杆系统对机械平衡贡献的指标。总和较小（1 FARB + 1 RARB = 2）表示车辆更偏转向不足或后轴抓地力更高；总和较大（8 FARB + 8 RARB = 16）则会产生更多转向过度，并提供更多前轴抓地力。
+      
+      #### 总前束
+      
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束（负值）会增大内侧轮胎的滑移并降低直线稳定性；增加正前束则会减小滑移并提高直线稳定性。
+      
+      #### 前制动主缸
+      
+      可通过改变前制动主缸尺寸来调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配后移，并增加前轮抱死所需的踏板力。较小的主缸会提高前制动管路压力，使制动力分配前移，并减少前轮抱死所需的踏板力。
+      
+      #### 后制动主缸
+      
+      可通过改变后制动主缸尺寸来调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配前移，并增加后轮抱死所需的踏板力。较小的主缸会提高后制动管路压力，使制动力分配后移，并减少后轮抱死所需的踏板力。
+      
+      #### 制动片
+      
+      可通过制动片配方改变车辆的制动表现。“Low（低）”配方的摩擦力最小，制动效能最低，但最易于细腻调制；“Medium（中）”和“High（高）”配方提供更大摩擦力、提升制动效能，但可调制范围最小。
+      
+      #### 耐力赛灯光
+      
+      夜间比赛时可安装辅助灯条，以改善车手视野。安装该灯条不会影响车辆性能。
+      
+      #### 夜间 LED 灯带颜色
+      
+      改变挡风玻璃顶部灯带的颜色，帮助车手在夜间比赛中快速识别车辆。共有关闭、紫、红、黄、橙、绿和蓝七种选项，所有选项均不会影响车辆性能。
+      
+      #### 前分流器中央高度
+      
+      前轴中心线前方，分流器最低点的高度。该数值必须高于 50 mm（1.97 in）才能通过技术检查。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/front-brakes-lights.png)
       
@@ -276,7 +490,40 @@ sections:
 
   - id: in-car-adjustments
     level: 3
+    titleZh: "车内调整"
     titleEn: "IN-CAR ADJUSTMENTS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/in-car-adjustments.png)
+      
+      #### 制动力分配
+      
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力高于后制动管路压力，制动平衡因此前移，前轮更容易抱死，但制动区内的整体稳定性也可能提高。应根据车手偏好和赛道条件进行调校，以获得当前情境下的最佳制动表现。
+      
+      #### ABS 设置
+      
+      车辆当前使用的防抱死制动系统映射。共有 12 个挡位：1 挡介入／辅助最少，11 挡辅助最多，0 挡则完全关闭 ABS。建议以 3 挡作为基准设定。提高介入程度可降低制动抱死的概率并缩短抱死持续时间；但若相对于可用抓地力设定得过于激进，制动距离可能反而增加。1 至 6 挡适用于干地，7 至 11 挡应留给湿地条件。
+      
+      #### 牵引力控制设置
+      
+      牵引力控制开关的位置决定 ECU 在后轮滑移时削减发动机扭矩的积极程度。共有 12 个挡位：1 至 11 挡从最低介入程度／灵敏度（1 挡）逐步增加至最高（11 挡），0 挡则完全关闭牵引力控制。1 至 6 挡用于干地，7 至 11 挡用于湿地。提高介入程度可减少车轮空转和后轮磨损，但如果系统过于积极地削减发动机扭矩、抑制出弯加速，整体性能也可能下降。
+      
+      #### 红色旋钮
+      
+      红色旋钮控制涡轮增压器防迟滞系统的扭矩响应。1 挡的涡轮迟滞最明显，达到峰值扭矩所需时间最长；5 挡的防迟滞最激进，达到峰值扭矩的时间最短。
+      
+      #### EPAS 设置
+      
+      EPAS 是电子助力转向系统，提供多个挡位以适应车手偏好。1 挡的转向助力最少，方向盘手感最重；5 挡助力最多，方向盘手感最轻。
+      
+      #### 前轴重量分布（%F WTDIST）
+      
+      前轴重量分布是前轮承载重量占车辆总重的百分比，代表车辆纵向重心位置，并直接影响高速稳定性和低速操控平衡。较高的前轴重量分布可提高方向稳定性，适用于低抓地力赛道以及采用较高前轴下压力的设定。反之，较低数值更适合高抓地力赛道和高后轴下压力配置。该数值无法直接调整，但会随燃油量变化，因为本车油箱位于车手后方。
+      
+      #### 对角配重（X WT）
+      
+      对角配重是车库静态状态下，作用于右前和左后车角的重量占车辆总重的百分比。若其他底盘设定均保持左右对称，50.0% 通常最适合非椭圆赛道，可使车辆在左弯和右弯中表现对称。
+      
+      高于 50% 的对角配重会增加左弯的转向不足和右弯的转向过度。可通过调整各车角的弹簧座偏移量改变对角配重。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/in-car-adjustments.png)
       
@@ -312,7 +559,30 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/front-corners.png)
+      
+      #### 车角重量
+      
+      车库静态状态下，每条轮胎所承载的重量。合理分配车辆各处重量，对于针对特定赛道和条件优化赛车至关重要。可通过调整各车角车高，分别改变车角重量和对角配重。
+      
+      #### 车高
+      
+      地面到后轴中心线处车辆底板下表面的距离。提高后车高会降低后轴下压力占比、增加总下压力，并允许车辆过弯时在后轴产生更多横向重量转移。反之，降低车高会提高后轴下压力占比、减少总下压力，同时减少后轴横向重量转移。后车高是调校机械平衡和空气动力学平衡的关键项目；为获得最佳性能，应结合所选后车角弹簧匹配静态后车高。最大下压力对应的动态后车高范围为 66 至 70 mm（2.60 至 1.76 in）；赛道上实现最小阻力的后车高范围为 15 至 20 mm（0.59 至 0.79 in）。
+      
+      #### 缓冲胶间隙
+      
+      减振器在接触缓冲胶前可运动的距离。缓冲胶介入后悬架刚度会显著提高，可改善空气动力学平台控制和高速弯稳定性，但会降低低速弯及颠簸路面上的抓地力。较小数值会让缓冲胶更早介入；较大数值则延后介入，使悬架保持更好的顺从性。在 Daytona 椭圆赛道倾斜弯这类高负载场景中，让后缓冲胶介入可以防止底盘触地；但刚度提高也会使车辆在过弯或施加油门时更难控制。
+      
+      #### 弹簧刚度
+      
+      与前轴相似，较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的平台控制提升空气动力学性能，但会牺牲机械抓地力。慢速弯出口激进加油时，这一现象尤其明显；硬弹簧在这类情况下表现较差，在颠簸赛道上更可能造成显著牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样可以使用更低的静态后车高，减少低速弯中的后轴重量转移，同时在高速弯保持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。多数情况下，更改弹簧刚度后，应在车库中让车辆恢复此前的车高。
+      
+      #### 外倾角
+      
+      与前轴相同，后轮也适合使用较大的负外倾角来提高横向抓地能力；不过后轮负外倾角通常会略小于前轮。主要有两个原因：第一，后轮比前轮更宽；第二，后轮还需要负责驱动车辆前进，外倾角带来的横向抓地收益必须与纵向牵引力的损失进行权衡。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/front-corners.png)
       
@@ -338,7 +608,34 @@ sections:
 
   - id: rear-corners
     level: 3
+    titleZh: "后轮设置"
     titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/rear-corners.png)
+      
+      #### 车角重量
+      
+      车库静态状态下，每条轮胎所承载的重量。合理分配车辆各处重量，对于针对特定赛道和条件优化赛车至关重要。可通过调整各车角车高，分别改变车角重量和对角配重。
+      
+      #### 车高
+      
+      地面到后轴中心线处车辆底板下表面的距离。提高后车高会降低后轴下压力占比、增加总下压力，并允许车辆过弯时在后轴产生更多横向重量转移。反之，降低车高会提高后轴下压力占比、减少总下压力，同时减少后轴横向重量转移。后车高是调校机械平衡和空气动力学平衡的关键项目；为获得最佳性能，应结合所选后车角弹簧匹配静态后车高。最大下压力对应的动态后车高范围为 66 至 70 mm（2.60 至 1.76 in）；赛道上实现最小阻力的后车高范围为 15 至 20 mm（0.59 至 0.79 in）。
+      
+      #### 缓冲胶间隙
+      
+      减振器在接触缓冲胶前可运动的距离。缓冲胶介入后悬架刚度会显著提高，可改善空气动力学平台控制和高速弯稳定性，但会降低低速弯及颠簸路面上的抓地力。较小数值会让缓冲胶更早介入；较大数值则延后介入，使悬架保持更好的顺从性。在 Daytona 椭圆赛道倾斜弯这类高负载场景中，让后缓冲胶介入可以防止底盘触地；但刚度提高也会使车辆在过弯或施加油门时更难控制。
+      
+      #### 弹簧刚度
+      
+      与前轴相似，较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的平台控制提升空气动力学性能，但会牺牲机械抓地力。慢速弯出口激进加油时，这一现象尤其明显；硬弹簧在这类情况下表现较差，在颠簸赛道上更可能造成显著牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样可以使用更低的静态后车高，减少低速弯中的后轴重量转移，同时在高速弯保持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。多数情况下，更改弹簧刚度后，应在车库中让车辆恢复此前的车高。
+      
+      #### 外倾角
+      
+      与前轴相同，后轮也适合使用较大的负外倾角来提高横向抓地能力；不过后轮负外倾角通常会略小于前轮。主要有两个原因：第一，后轮比前轮更宽；第二，后轮还需要负责驱动车辆前进，外倾角带来的横向抓地收益必须与纵向牵引力的损失进行权衡。
+      
+      #### 前束角
+      
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轴通常采用正前束。增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。调整后轮前束时要注意，后轴设置值针对单个车轮，而前轴设置值是左右轮的合计值。因此，把左右后轮的设置值相加后，后轴总前束变化量是前轴同一显示数值所代表变化量的两倍。通常建议保持左右前束值相等，避免车辆出现斜行或不对称操控；但在莱姆罗克公园这类左右弯严重不对称的赛道，采用不对称的后轮前束及其他设置参数可能有性能收益。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/rear-corners.png)
       
@@ -369,7 +666,24 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/rear.png)
+      
+      #### 燃油量
+      
+      车辆进入赛道时油箱内的燃油量。
+      
+      #### 防倾杆刀片
+      
+      可改变防倾杆刀片（或连接臂）来精细调校悬架侧倾刚度。此选项改变刀片方向，并以数字简化表示：1 为最软，数值逐步增加至最大设定 8 时刀片越来越硬。点击右箭头（&gt;）会增加刚度。较硬的刀片设定会提高后轴侧倾刚度并增加转向过度；较软设定则会降低后轴侧倾刚度并减少转向过度。
+      
+      请注意，前后防倾杆的位置编号方向相反。前、后防倾杆刀片位置之和，可作为整套防倾杆系统对机械平衡贡献的指标。总和较小（1 FARB + 1 RARB = 2）表示车辆更偏转向不足或后轴抓地力更高；总和较大（8 FARB + 8 RARB = 16）则会产生更多转向过度，并提供更多前轴抓地力。
+      
+      #### 尾翼角度
+      
+      尾翼角度是指尾翼的相对迎角。尾翼会显著影响车辆产生的总下压力和阻力，增大角度还会使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯的总体过弯抓地力，但会降低直线速度。调整尾翼时，应同时考虑前、后车高，尤其是两者之差，即“前后倾角（rake）”。增大尾翼角度时，要保持相同的整体空气动力学平衡，就必须增大车辆的前后倾角。为维持空力平衡，尾翼角度每增加 1 度，应将动态前车高降低 1.5 mm（0.060 in），或将动态后车高提高 4.0 mm（0.157 in）。这些灵敏度并不一定适用于整个尾翼角度或车高调整范围；如需更精确的数值，请使用车库“TIRES/AERO（轮胎／空气动力学）”选项卡中的空气动力学平衡计算器。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/rear.png)
       
@@ -389,7 +703,22 @@ sections:
 
   - id: gears-differential
     level: 3
+    titleZh: "齿比／差速器"
     titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/gears-and-differential.png)
+      
+      #### 齿比组
+      
+      齿比组会改变变速箱各前进挡的传动比。共有两套齿比组：FIA 适用于大多数赛道；在某些高速赛道采用极小尾翼角度时，可选择 LeMans 齿比组。
+      
+      #### 摩擦片工作面数量
+      
+      差速器内摩擦片工作面的数量会影响保持后轴锁止所施加的总作用力。该数值相当于一个倍数系数，增加工作面数量会逐级提高锁止力。例如，8 个摩擦片工作面的锁止力是 4 个的两倍，而 4 个又是 2 个的两倍。
+      
+      #### 差速器预载
+      
+      差速器预载是始终存在于差速器内的静态锁止力，在加速和减速时均保持恒定。提高预载会增加差速器两侧的锁止程度，使车辆在松开油门时更容易转向不足，并在激进加油时产生更突然的转向过度。提高预载也会让收油与加油之间的过渡更加平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度并增强车手信心。若慢速弯出弯驱动力明显不足，或车辆在中低速弯由油门切换至制动的过程中旋转过度，通常应提高差速器预载。
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/gears-and-differential.png)
       
@@ -407,7 +736,36 @@ sections:
 
   - id: dampers
     level: 2
+    titleZh: "减振器"
     titleEn: "DAMPERS"
+    bodyZh: |+
+      ![图片](./assets/aston-martin-vantage-gt3-evo/dampers.png)
+      
+      本模拟模型中的四向可调减振器，基于真实赛车提供给 iRacing 的力／速度曲线构建，调整范围很大。阻尼可能设得过硬，这会带来过强的底盘控制，但也会使轮胎接地印迹的受力波动过大，导致抓地力降低；阻尼也可能设得过软，这样虽能获得最大的机械抓地力，却会削弱底盘控制。请避免将所有调节器都设在各自范围的极端位置。
+      
+      #### 低速压缩阻尼
+      
+      低速压缩阻尼（LSC）决定减振器在较低轴速下压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手操作以及过弯力引起的底盘运动。该调节器采用泄流螺钉：从全闭位置起 0 格为最大阻尼（压缩阻力最大），18 格为最小阻尼（压缩阻力最小）。提高低速压缩阻尼会使车辆在制动、变向等瞬态运动中更快地向前轴或后轴转移重量；增加阻尼通常还会提高车辆在施加油门时的转向不足倾向。
+      
+      在前轴，提高 LSC 会使车辆在制动以及前悬架压缩时更容易转向不足。在后轴，提高 LSC 可在施加油门和后悬架压缩时增加牵引力；设定过高时，车手可能会将这种表现感知为转向不足。
+      
+      #### 高速压缩阻尼
+      
+      高速压缩阻尼（HSC）影响减振器在较高活塞杆速度下的表现，通常对应碾过路肩和赛道路面颠簸。0 为最大阻尼，18 为最小阻尼。提高高速压缩阻尼会让悬架在这些情况下更硬；降低 HSC 则能更好地吸收冲击，但可能损害赛道各处的空气动力学平台。在平顺赛道上，提高高速压缩阻尼通常能改善性能；在颠簸赛道或路肩激进的赛道上，降低高速压缩阻尼可用平台控制作为代价换取更多机械抓地力。HSC 对正确控制底盘侧倾、俯仰和升沉非常重要。
+      
+      #### 低速回弹阻尼
+      
+      低速回弹阻尼（LSR）控制减振器在较低活塞杆速度下伸展时的刚度，通常对应车手操作引起的车身运动。该调节器采用泄流螺钉：从全闭位置起 0 格为最大阻尼，18 格为最小阻尼。较高回弹阻尼会抑制减振器伸展，较低阻尼则让减振器更快伸展。提高回弹刚度可改善空气动力学平台控制和整体底盘响应；但如果悬架在负载减小时来不及充分伸展，也可能使轮胎完全失去与赛道表面的接触。
+      
+      在前轴，提高 LSR 会让加速时的车头保持低位更久，但可能在施加油门或越过坡顶时引发转向不足。在后轴，提高 LSR 可增强制动时的车辆稳定性，但设定过于激进也可能引发转向不足。
+      
+      #### 高速回弹阻尼
+      
+      高速回弹阻尼（HSR）控制减振器在通过颠簸和路肩后伸展时的表现。0 为最大阻尼，18 为最小阻尼。较高阻尼力会减慢减振器伸展，较低数值则让减振器更快伸展。HSR 对车手操作引起的操控变化影响不如其他阻尼明显，但对于底盘针对赛道输入作出正确的空气动力学响应十分重要。
+      
+      ---
+      
+      <!-- section-divider page=20 -->
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/dampers.png)
       
@@ -439,7 +797,12 @@ sections:
 
   - id: setup-tips
     level: 2
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设定的用户。
+      
+      ---
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
       
@@ -447,7 +810,30 @@ sections:
 
   - id: setup-recommendations
     level: 3
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      `Baseline` 是一套稳定、最大下压力的设定，用于帮助车手熟悉车辆。因此它应能在各种燃油量和赛道条件下通过技术检查（Nürburgring Nordschleife 布局除外，该处应使用 `nuburgring_sprint/endurance`），但不会提供极致性能。
+      
+      名称带有 `_wet` 的设定预装湿地胎，并包含适合湿地条件的调整。
+      
+      名称带有 `_sprint` 的设定采用 50% 燃油量，车辆平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设定用于正式竞赛。
+      
+      名称带有 `_endurance` 的设定采用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。名为 `fixed` 的设定用于固定车辆设定系列赛，与 `high_downforce_sprint` 设定相近。
+      
+      名称带有 `nurburgring_` 的设定采用 70 mm 最低车高，仅用于 Nürburgring Nordschleife 的各类赛道布局。
+      
+      虽然大多数赛道通常偏向较高下压力，但在某些情况下，减小尾翼角度以降低阻力可能更有利。
+      
+      如果某条赛道没有专用设定，建议先从高下压力设定开始，再评估其他下压力等级。判断赛道是否可能受益于降低下压力配置时，最高车速是一项很好的指标。
+      
+      以下范围可用于判断可能最合适的配置等级，但请注意，赛道设计（高速弯数量等）、海拔和环境条件等因素也会影响选择；海拔较高或环境温度较高时，通常更偏向使用较高下压力。
+      
+      | 最高车速 | 下压力等级 |
+      | --- | --- |
+      | 低于 250 km/h（155 mph） | 高下压力 |
+      | 250 至 270 km/h | 中下压力 |
+      | 高于 270 km/h（167 mph） | 低至最小下压力 |
     bodyEn: |+
       Baseline is a stable, maximum downforce setup that is intended as an introduction to the car. As such, this setup should always pass tech inspection at every fuel load and track (Except Nürburgring Nordschleife configurations where ‘nuburgring_sprint/endurance’ should be used) but will not provide ultimate performance.
       
@@ -473,7 +859,55 @@ sections:
 
   - id: aerodynamic-targets-and-adjustments
     level: 3
+    titleZh: "空气动力学目标与调整"
     titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前、后轴车高的细微变化非常敏感，因此在调整静态车高、各车角弹簧刚度和尾翼角度等项目时，必须始终考虑这一点。
+      
+      获得最大总下压力的最佳配置如下：
+      
+      - 尾翼角度：+10.5
+      - 动态前车高：35.0 mm（±2.5 mm）
+      - 动态后车高：70.0 mm（±2.5 mm）
+      
+      一旦车高高于或低于上述目标，总下压力便会开始下降。以最大下压力为目标时，必须考虑赛道的所有工况。例如，如果制动时后车高超过目标值，空气动力学平衡会前移，同时总下压力也会降低，车辆因此变得不稳定。在真实驾驶中，正是这些制动工况决定了您能多接近最大下压力目标。
+      
+      获得最小总阻力的最佳配置如下：
+      
+      - 尾翼角度：+0.5
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+      
+      在大多数赛道上，很难将车高降到足以达到这些低阻力目标，但 Daytona 等赛道可以做到。请记住，绝对最低车高受路面条件限制；接近目标时空气阻力会降低，但如果车底开始接触地面，整体阻力反而可能增加。还需说明的是，这套低阻力配置既无法提供最佳总下压力，也无法提供最佳操控平衡。
+      
+      调整尾翼角度时，应进行以下配套调整以维持空气动力学平衡：
+      
+      - 尾翼角度：+1
+      - 前车高：-1.5 mm
+      - 或
+      - 后车高：+4.5 mm
+      
+      &nbsp;
+      
+      - 尾翼角度：-1
+      - 前车高：+1.5 mm
+      - 或
+      - 后车高：-4.5 mm
+      
+      这些调整灵敏度在空气动力学图谱的各区域并不相同，也不适用于所有尾翼角度。因此强烈建议使用“TIRES/AERO（轮胎／空气动力学）”选项卡中的空气动力学平衡计算器：
+      
+      - 从一套已知高速空气动力学平衡良好的车辆设定开始。
+      - 记录前轴下压力占比和高速动态车高。
+      - 根据所需的总下压力变化增大或减小尾翼角度。
+      - 调整高速后车高，直至达到目标前轴下压力占比。
+      - 将维持平衡所需的动态后车高差值，应用到“Chassis（底盘）”选项卡中的静态后车高。
+      
+      必要时也可同时组合调整前、后车高（例如较低后车高不易实现时）。减小尾翼角度后，这样做可保留更多总下压力而不破坏平衡，但代价是空气阻力略有增加。
+      
+      这些参考值只是建议追求的目标，车辆整体平衡仍应放在首位。在某些情况下，可能无法在这些目标值下获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+      
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
     bodyEn: |+
       GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
       
@@ -524,7 +958,17 @@ sections:
 
   - id: chassis-adjustments
     level: 3
+    titleZh: "底盘调整"
     titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著影响空气动力学平台的俯仰和升沉，也不想调整差速器，可以使用可调式前、后防倾杆。
+      
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面），对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少，对操作输入的响应加快。
     bodyEn: |+
       Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
       
@@ -537,7 +981,20 @@ sections:
 
   - id: differential-adjustments
     level: 3
+    titleZh: "差速器调整"
     titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      差速器提供两类调整选项。
+      
+      - 增加摩擦片工作面 -&gt; 收油时更多转向不足、加油时更多转向过度；在颠簸路面和碾过路肩时，内侧车轮较不易空转。
+      - 减少摩擦片工作面 -&gt; 收油时较少转向不足、加油时较少转向过度；在颠簸路面和碾过路肩时，内侧车轮更易空转。通常更适合 Spa 一类路面平顺、路肩平坦的赛道。
+      
+      在全油门、持续制动或完全滑行等高输入扭矩状态下，摩擦片工作面数量起主导作用。
+      
+      预载会叠加到差速器的总锁止扭矩中，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不例外。因此，在差速器输入扭矩接近零的过渡阶段，例如松开油门和／或开始拖刹时，预载的作用更为明显。
+      
+      - 增加预载 -&gt; 较少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 减少预载 -&gt; 更多收油转向过度、较低入弯稳定性、收油时较少转向不足、加油时较少转向过度。
     bodyEn: |+
       Two adjustment options are available for the differential.
       
@@ -550,4 +1007,4 @@ sections:
       
       - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
       - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.
-
+      

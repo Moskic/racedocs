@@ -16,6 +16,18 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/welcome-hero.png)
+      
+      #### 亲爱的 iRACING 用户：
+      
+      恭喜您购入 Audi R8 LMS EVO II GT3！iRacing 全体团队感谢您的支持与对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶这辆新赛车时，能在赛道上收获无限激情！
+      
+      本指南将介绍如何充分发挥这辆新赛车的性能，包括如何在离开赛道后调整车辆设定，以及驾驶时会在座舱内看到哪些信息。希望本指南能帮助您尽快熟悉赛车、提升圈速。
+      
+      再次感谢您的购买，赛道上见！
+      
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/welcome-car.png)
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/welcome-hero.png)
       
@@ -31,10 +43,24 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
+      
+      #### 前后独立双叉臂悬架
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4599 mm / 181 in |
+      | 车宽 | 1997 mm / 78.62 in |
+      | 轴距 | 2700 mm / 106.3 in |
+      | 干重 | 1320 kg / 2910 lbs |
+      | 含车手湿重 | 1479 kg / 3260 lbs |
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
       
@@ -50,7 +76,21 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/power-unit.png)
+      
+      自然吸气 V10 发动机
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 5.2 升 / 317 立方英寸 |
+      | 转速上限 | 8500 RPM |
+      | 扭矩 | 410 lb-ft / 556 Nm |
+      | 功率 | 518 bhp / 386 kW |
+      
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/vehicle-profile.png)
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/power-unit.png)
       
@@ -67,7 +107,16 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南中的信息旨在帮助您更深入地理解车库内可用的底盘设定调整项目，以便根据个人偏好调校车辆。
+      
+      不过，在深入调整底盘之前，最好先熟悉赛车和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设定。要加载基准设定，只需打开“Garage（车库）”，点击“iRacing Setups”，再选择适合目标赛道的设定。如果当前赛道没有专用基准设定，可以选择特性相近赛道的设定作为起点。
+      
+      选好适当设定后，请驶上赛道，专注于做出平顺且稳定的圈速，找准正确的行车线，并在连续多圈中了解轮胎磨损和操控特性的变化趋势。
+      
+      当您确信自己使用内置基准设定时已接近个人驾驶极限，便可继续阅读本指南，开始按照自己的操控偏好调校赛车。
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
       
@@ -79,7 +128,16 @@ sections:
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/getting-started.png)
+      
+      启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调整映射控制按键。虽然这些按键并非驾驶车辆所必需，但能让您在赛道上根据个人驾驶风格快速调整驾驶辅助系统。
+      
+      进入座舱后，只需按下“升挡”按键挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无需踩下离合器。不过，如果系统判断当前车速对于目标挡位过高、降挡可能损坏发动机，降挡保护会阻止此次操作，换挡指令将被直接忽略。
+      
+      当由 10 颗 LED 组成的换挡提示灯序列中最后一颗红灯亮起时升挡。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/getting-started.png)
       
@@ -91,7 +149,20 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/loading-iracing-setup.png)
+      
+      进入比赛时，车辆会自动加载 iRacing 基准设定 `<baseline.sto>`。如果希望使用 iRacing 针对不同条件预先制作的其他设定，可依次点击“Garage（车库）”&gt;“iRacing Setups”，然后选择符合需求的设定。
+      
+      若要自定义车辆设定，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+      
+      若要保存设定供日后使用，请点击右侧的“Save As（另存为）”，为设定命名并保存更改。点击车库右侧的“My Setups（我的设定）”即可查看全部个人设定。
+      
+      若要与另一位车手或当前比赛中的所有人共享设定，可点击车库右侧的“Share（共享）”。
+      
+      如果其他车手正与您共享设定，也可在车库右侧的“Shared Setups（共享设定）”中找到。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/loading-iracing-setup.png)
       
@@ -107,13 +178,56 @@ sections:
 
   - id: dash-configuration
     level: 2
+    titleZh: "仪表配置"
     titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      Audi R8 LMS EVO II GT3 配备的 Bosch DDU S2 Plus 仪表提供两个显示页面。两页所显示的信息完全相同，但会反转配色，以帮助车手适应不同环境下的视觉需求。
     bodyEn: |+
       The Bosch DDU S2 Plus display in the Audi R8 LMS EVO II GT3 has two display page options. Both pages are identical in the information displayed, however colors are inverted to help with driver vision for varying conditions.
 
   - id: day-and-night-pages
     level: 3
+    titleZh: "日间与夜间页面"
     titleEn: "DAY & NIGHT PAGES"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/day-and-night-pages.png)
+      
+      #### 顶部信息组
+      
+      | 项目 | 说明 |
+      | --- | --- |
+      | Tire Pressures | 四条轮胎的胎压（bar 或 psi）显示在仪表左上角。胎压不足时，相应方框显示为红色；进入最佳范围后，背景会恢复默认颜色。 |
+      | Gear | 当前挡位显示在顶部信息组中央。 |
+      | TC Lat | 当前牵引力控制系统设定。 |
+      | TC Long | 当前牵引力控制系统设定。 |
+      | ABS | 当前 ABS 系统设定。目前 ABS 前后轴相对介入比例均锁定为 100%。 |
+      | Tire Temps | 四条轮胎的平均温度分别显示在 ABS 数值下方的方框内。 |
+      
+      #### 中央行
+      
+      | 项目 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速显示在中央行左侧。 |
+      | Brakebal | 当前制动力分配设定（前制动管路压力百分比）。 |
+      | Speed | 当前车速（km/h 或 mph）。 |
+      
+      #### 下部信息组
+      
+      | 项目 | 说明 |
+      | --- | --- |
+      | Lap Time | 当前圈速。 |
+      | Lap | 自驶离车库以来完成的圈数。 |
+      | Diff | 当前分段用时与本场最佳圈速之间的差值。 |
+      
+      #### 底行
+      
+      | 项目 | 说明 |
+      | --- | --- |
+      | TGear | 变速箱油温。 |
+      | TOil | 发动机油温。 |
+      | TMot | 发动机冷却液温度。 |
+      | Fuel Lap | 本圈燃油消耗量（升或美制加仑）。 |
+      | Fuel Used | 当前长距离阶段的燃油消耗量（升或美制加仑）。 |
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/day-and-night-pages.png)
       
@@ -156,7 +270,16 @@ sections:
 
   - id: pit-limiter
     level: 3
+    titleZh: "维修区限速器"
     titleEn: "PIT LIMITER"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/pit-limiter.png)
+      
+      维修区限速器启用时，六颗换挡提示灯会亮起蓝色。如果车辆低于维修区限速，仪表会显示带有车速的绿色叠加方框；红色背景则表示车速超过维修区限速。
+      
+      ---
+      
+      <!-- section-divider page=9 -->
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/pit-limiter.png)
       
@@ -168,7 +291,12 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设定的高级用户。驾驶本车并不要求调整以下参数，但这些调整可能显著改变车辆的操控特性。建议每次仅对单一变量进行小幅调整，并在测试效果后再继续修改。
+      
+      ---
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
       
@@ -176,10 +304,34 @@ sections:
 
   - id: tires-and-aero
     level: 2
+    titleZh: "轮胎与空气动力学"
     titleEn: "TIRES & AERO"
   - id: tires
     level: 3
+    titleZh: "轮胎"
     titleEn: "TIRES"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/tires.png)
+      
+      #### 轮胎类型
+      
+      选择车辆进入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥赛道，湿地胎则适用于降雨和湿滑赛道条件。
+      
+      #### 初始胎压
+      
+      车辆进入赛道时轮胎内的气压。提高胎压会降低滚动阻力和热量积聚，但也会降低抓地力；降低胎压会增加滚动阻力和热量积聚，但能提高抓地力。车速和负载越高，所需胎压通常越高；车速和负载较低时，较低胎压往往表现更好。为获得最佳性能，应根据赛道特性设定冷胎压。一般建议从较低胎压开始，再视需要逐步提高。
+      
+      #### 上次热胎压
+      
+      车辆返回维修区后测得的轮胎气压。冷热胎压的差值可用于判断一段连续驾驶过程中车辆平衡的变化：负载较大的轮胎通常会出现更大的冷热胎压差。理想情况下，工作状态相近的轮胎应以相同速率升压，以免随着轮胎使用时间增加而改变操控平衡。因此应调整冷胎压，使同类轮胎达到工作温度后保持相近胎压。应在连续行驶若干圈、轮胎状态稳定后分析热胎压。由于每段连续驾驶的圈数会随赛道长度变化，可将满油续航里程的大约 50% 作为合适的初始评估点。
+      
+      #### 轮胎温度
+      
+      车辆返回维修区后测得的轮胎胎体温度。车轮负载以及轮胎在赛道上的工作强度都会反映在温度中，可据此分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位，尤其是外倾角。数值分别在胎面内侧、中部和外侧三个区域测量。
+      
+      #### 剩余胎面
+      
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损非常有助于识别车轮定位问题，例如胎面某一侧过度磨损；结合轮胎温度，还可用于分析车辆操控平衡。这些数值与温度数据在相同的三个胎面区域测量。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/tires.png)
       
@@ -205,7 +357,30 @@ sections:
 
   - id: aero-balance-calculator
     level: 3
+    titleZh: "空气动力学平衡计算器"
     titleEn: "AERO BALANCE CALCULATOR"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/aero-balance-calculator.png)
+      
+      空气动力学计算器用于帮助理解调整尾翼设定以及前、后车高时，空气动力学平衡会如何变化。请务必注意：此处显示的前、后车高数值不会对车辆本身产生任何机械设定变化；但在此处更改尾翼角度会实际应用到车辆上。本计算器仅为参考工具。
+      
+      #### 高速前车高
+      
+      高速车高（RH at Speed）为计算器提供空气动力学计算所需的参考高度。使用计算器时，请通过遥测读取赛车在赛道任意位置的前车高，并将其输入“Front RH at Speed（高速前车高）”。建议采用左前与右前车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 高速后车高
+      
+      高速车高（RH at Speed）为计算器提供空气动力学计算所需的参考高度。使用计算器时，请通过遥测读取赛车在赛道任意位置的后车高，并将其输入“Rear RH at Speed（高速后车高）”。建议采用左后与右后车高的平均值，以更准确地反映当前空气动力学平台状态，而非只使用单个车角的高度。
+      
+      #### 尾翼设置
+      
+      尾翼设定是指尾翼的相对迎角。尾翼是效能很强的空气动力学部件，会显著影响车辆产生的总下压力和阻力，增大角度还会使空气动力学平衡向后移动。增大尾翼角度可提升中高速弯的总体过弯抓地力，但会降低直线速度。调整尾翼角度时，应同时考虑前、后车高，尤其是两者之差，即“前后倾角（rake）”。增大尾翼角度时，要保持相同的整体空气动力学平衡，就必须增大车辆的前后倾角。
+      
+      空气动力学计算器中的“Wing Setting（尾翼设定）”与“Chassis（底盘）”页面“Rear（后部）”区域内的同名项目直接联动；更改其中一项会自动同步另一项。
+      
+      #### 前轴下压力占比
+      
+      该数值显示在计算器所设定的尾翼和车高组合下，作用于前轴的下压力占总下压力的比例。它只代表这组参数下某一瞬间的空气动力学平衡。可选取弯道或某段赛道中的多个位置，对比制动、稳态过弯和出弯加速等不同状态下空气动力学平衡的变化。前轴占比越高，车辆在中高速弯中越容易表现出转向过度。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/aero-balance-calculator.png)
       
@@ -231,10 +406,38 @@ sections:
 
   - id: chassis-setup
     level: 2
+    titleZh: "底盘"
     titleEn: "CHASSIS"
   - id: front
     level: 3
+    titleZh: "前部"
     titleEn: "FRONT"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/front.png)
+      
+      #### 防倾杆刀片
+      
+      可通过改变防倾杆连接臂（即“刀片”）的配置，调整整个防倾杆总成的刚度。防倾杆两端各有三个选项，组合后可形成五档总刚度。增大任一端数值都会提高防倾杆的有效刚度，减小数值则会降低刚度。较高数值会通过连接臂向防倾杆本体传递更多作用力，从而提高前悬架侧倾刚度，并使车辆过弯时更容易转向不足；较低数值则会降低前悬架侧倾刚度，并可减少转向不足。
+      
+      #### 前束角
+      
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束会增大内侧轮胎的滑移，而增加正前束会减小滑移。负前束会降低直线稳定性，但可提高入弯响应；前轴正前束则会降低入弯响应，同时减少前轮温度积聚。
+      
+      #### 前制动主缸
+      
+      可通过改变前制动主缸尺寸来调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配后移，并增加前轮抱死所需的踏板力。较小的主缸则相反，会提高前制动管路压力，使制动力分配前移，并减少所需踏板力。
+      
+      #### 后制动主缸
+      
+      可通过改变后制动主缸尺寸来调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配前移，并增加后轮抱死所需的踏板力。较小的主缸则相反，会提高后制动管路压力，使制动力分配后移，并减少所需踏板力。
+      
+      #### 制动片
+      
+      可通过制动片配方改变车辆的制动表现。“Low（低）”配方的摩擦力最小，制动效能最低；“Medium（中）”和“High（高）”配方提供更大摩擦力、提升制动效能，但也会增加车轮抱死的风险。
+      
+      #### 夜间 LED 灯带
+      
+      改变车顶外缘两条灯带的颜色。共有蓝、紫、红、黄、橙、绿和关闭七种选项，所有选项均不会影响车辆性能。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/front.png)
       
@@ -264,7 +467,34 @@ sections:
 
   - id: in-car-dials
     level: 3
+    titleZh: "车内旋钮"
     titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/in-car-dials.png)
+      
+      #### 制动力分配
+      
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力高于后制动管路压力，制动平衡因此前移，前轮更容易抱死，但制动区内的整体稳定性也可能提高。应根据车手偏好和赛道条件进行调校，以获得当前情境下的最佳制动表现。需要注意的是，不同的前、后制动主缸尺寸组合需要匹配不同的制动力分配数值；这是因为改变前后轴主缸尺寸的差值，本身就会使制动管路压力产生前偏或后偏。
+      
+      #### 牵引力控制设置
+      
+      牵引力控制开关的位置决定 ECU 在后轮空转时削减发动机扭矩的积极程度。系统提供 12 个挡位，数值越高，牵引力控制介入越强。提高介入程度可减少车轮空转和后轮磨损，但如果系统过于积极地削减发动机扭矩、抑制出弯加速，整体性能也可能下降。1 至 6 号映射用于干燥赛道的光头胎，7 至 11 号映射用于湿地，12 挡则会关闭牵引力控制系统。
+      
+      #### 油门曲线设置
+      
+      油门曲线设定决定车手踏板位置变化如何转换为发动机输出扭矩。1 挡采用类似蝶形节气门的响应，在踏板行程后段扭矩增长更激进。3 挡较为温和，油门位置与扭矩采用线性映射。2 挡则介于两者之间。
+      
+      #### ABS 设置
+      
+      车辆当前使用的 ABS 映射。ABS 系统共有 12 个挡位，按不同赛道条件分为三组；数值越低，防止制动抱死的辅助越少，数值越高，辅助越强。1 至 6 挡用于干地光头胎，7 至 11 挡用于湿地。通常 7 挡适合小雨，随着条件恶化应逐步提高设定，11 挡适合大雨。12 挡会完全关闭 ABS。
+      
+      #### 显示页面
+      
+      此项目设定车辆加载时默认显示的仪表页面。更多信息请参阅本指南的“仪表显示配置”章节。
+      
+      #### 对角配重
+      
+      对角配重是车库静态状态下，作用于右前和左后车角的重量占车辆总重的百分比。若其他底盘设定均保持左右对称，50.0% 通常最适合非椭圆赛道，可使车辆在左弯和右弯中表现对称。高于 50% 会增加左弯的转向不足和右弯的转向过度。可通过调整各车角的弹簧座偏移量改变对角配重。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/in-car-dials.png)
       
@@ -294,7 +524,32 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/front-corners.png)
+      
+      #### 车角重量
+      
+      车库静态状态下，每条轮胎所承载的重量。合理分配车辆各处重量，对于针对特定赛道和条件优化赛车至关重要。可通过各车角的弹簧座偏移量，分别调整单轮重量和对角配重。
+      
+      #### 车高
+      
+      地面到前轴中心线处车辆底板的距离。车高直接影响空气动力学性能和机械抓地力，因此是性能优化的关键。提高前车高会减少前轴下压力和总下压力，但会允许车辆过弯时在前轴产生更多横向重量转移；降低前车高则会增加前轴及总下压力，同时减少前轴横向重量转移。
+      
+      在尾翼角度极低的最小阻力设定中，可能需要提高前车高才能获得正确的车辆平衡。
+      
+      #### 弹簧座偏移量
+      
+      通过改变弹簧的安装位置调整该车角的车高。增大弹簧座偏移量会降低该车角，减小偏移量则会抬高该车角。左右两侧应保持对称调整，以确保同轴两侧车高一致且对角配重不变。也可以按对角线成对调整弹簧座偏移量（左前配右后、右前配左后），改变车辆的静态对角配重。
+      
+      #### 弹簧刚度
+      
+      此设定决定各车角安装的弹簧刚度。较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的空气动力学平台控制提升空力表现；但轮胎负载波动也会增大，从而损失机械抓地力。在颠簸赛道上，硬弹簧的缺点通常更为明显，使用较软弹簧往往能提升整体表现。改变车角弹簧会同时影响平台的侧倾和俯仰控制，因此调整弹簧刚度时还应考虑调整防倾杆，以维持原有的前后侧倾刚度分配和整体平衡。降低车角弹簧刚度时，应适当提高防倾杆刚度（根据改动幅度选择调整刀片或直径），以维持此前的侧倾刚度。更改弹簧刚度后，必须调整弹簧座偏移量，使车辆恢复到原来的静态车高。
+      
+      #### 外倾角
+      
+      外倾角是车轮相对于底盘中心的垂直倾斜角度。车轮顶部比底部更靠近底盘中心线时为负外倾角；顶部比底部更远离中心线时为正外倾角。受悬架几何和过弯负载影响，四个车轮都需要使用负外倾角。增大负外倾角可提高轮胎产生的过弯侧向力，但会降低制动时的纵向抓地力。过大的外倾角虽然能产生很高的过弯力，却也会显著缩短轮胎寿命，因此必须在耐久性与性能之间取得平衡。增大前轮负外倾角通常可提升中高速弯的前轴抓地力，但会损失制动性能，并需要将制动力分配后移以作补偿。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/front-corners.png)
       
@@ -322,7 +577,26 @@ sections:
 
   - id: left-right-rear
     level: 3
+    titleZh: "后轮设置"
     titleEn: "LEFT / RIGHT REAR"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/left-right-rear.png)
+      
+      #### 后车高
+      
+      地面到后轴中心线处车辆底板的距离。提高后车高会降低后轴下压力占比、增加总下压力，并允许车辆过弯时在后轴产生更多横向重量转移。反之，降低车高会提高后轴下压力占比、减少总下压力，同时减少后轴横向重量转移。后车高是调校机械平衡和空气动力学平衡的关键项目；为获得最佳性能，应结合所选后车角弹簧匹配静态后车高。
+      
+      #### 所选弹簧／弹簧刚度
+      
+      与前轴相似，较硬弹簧会缩小高、低负载状态之间的车高变化，并通过更好的平台控制提升空气动力学性能，但会牺牲机械抓地力。慢速弯出口激进加油时，这一现象尤其明显；硬弹簧在这类情况下表现较差，在颠簸赛道上更可能造成显著牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样可以使用更低的静态后车高，减少低速弯中的后轴重量转移，同时在高速弯保持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。更改弹簧刚度后，必须调整弹簧座偏移量，使车辆恢复到原来的静态车高。
+      
+      #### 外倾角
+      
+      与前轴相同，后轮也适合使用较大的负外倾角来提高横向抓地能力；不过后轮负外倾角通常会略小于前轮。主要有两个原因：第一，后轮比前轮宽 25 mm（约 1 英寸）；第二，后轮还需要负责驱动车辆前进，外倾角带来的横向抓地收益必须与纵向牵引力的损失进行权衡。
+      
+      #### 前束角
+      
+      后轴通常采用正前束。增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。调整后轮前束时要注意，后轴设置值针对单个车轮，而前轴设置值是左右轮的合计值。因此，把左右后轮的设置值相加后，后轴总前束变化量是前轴同一显示数值所代表变化量的两倍。通常建议保持左右前束值相等，避免车辆出现斜行或不对称操控；但在莱姆罗克公园这类左右弯严重不对称的赛道，采用不对称的后轮前束及其他设置参数可能有性能收益。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/left-right-rear.png)
       
@@ -344,7 +618,18 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/rear.png)
+      
+      #### 燃油量
+      
+      车辆进入赛道时油箱内的燃油量。
+      
+      #### 防倾杆刀片
+      
+      可通过改变防倾杆连接臂（即“刀片”）的配置，调整整个防倾杆总成的刚度。较高数值会通过连接臂向防倾杆本体传递更多作用力，从而提高后悬架侧倾刚度；其效果与增大防倾杆直径相同，但调整幅度较小。反之，较低数值会降低后悬架侧倾刚度，其效果与减小防倾杆直径相同。可将刀片调整理解为不同防倾杆直径设定之间的精细微调。共有 6 种刀片组合，从 1-1（最软）到 3-3（最硬）。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/rear.png)
       
@@ -358,7 +643,22 @@ sections:
 
   - id: gears-differential
     level: 3
+    titleZh: "齿比／差速器"
     titleEn: "GEARS / DIFFERENTIAL"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/gears-and-differential.png)
+      
+      #### 六挡齿比
+      
+      根据赛道类型，可选择两种六挡齿比。FIA 齿比较短，适用于大多数赛道；IMSA Daytona 齿比则应在 Daytona 和 Le Mans 使用，以防赛车在直道结束前提前触及转速限制器。
+      
+      #### 摩擦片工作面数量
+      
+      差速器内摩擦片工作面的数量会影响保持后轴锁止所施加的总作用力。该数值相当于一个倍数系数，增加工作面数量会逐级提高锁止力。例如，8 个摩擦片工作面的锁止力是 4 个的两倍，而 4 个又是 2 个的两倍。
+      
+      #### 差速器预载
+      
+      差速器预载是始终存在于差速器内的静态锁止力，在加速和减速时均保持恒定。提高预载会增加差速器两侧的锁止程度，使车辆在松开油门时更容易转向不足，并在激进加油时产生更突然的转向过度。提高预载也会让收油与加油之间的过渡更加平顺，因为差速器锁止力不会降至零；这有助于减少收油转向过度并增强车手信心。若慢速弯出弯驱动力明显不足，或车辆在中低速弯由油门切换至制动的过程中旋转过度，通常应提高差速器预载。
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/gears-and-differential.png)
       
@@ -376,7 +676,34 @@ sections:
 
   - id: dampers
     level: 2
+    titleZh: "减振器"
     titleEn: "DAMPERS"
+    bodyZh: |+
+      ![图片](./assets/audi-r8-lms-evo-ii-gt3/dampers.png)
+      
+      #### 低速压缩阻尼
+      
+      低速压缩阻尼（LSC）决定减振器在较低轴速下压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手操作以及过弯力引起的底盘运动。该调节器采用泄流螺钉：从全闭位置起 2 格为最大阻尼（压缩阻力最大），38 格为最小阻尼（压缩阻力最小）。提高低速压缩阻尼会使车辆在制动、变向等瞬态运动中更快地向前轴或后轴转移重量；增加阻尼通常还会提高车辆在施加油门时的转向不足倾向。
+      
+      在前轴，提高 LSC 会使车辆在制动以及前悬架压缩时更容易转向不足。在后轴，提高 LSC 可在施加油门和后悬架压缩时增加牵引力；设定过高时，车手可能会将这种表现感知为转向不足。
+      
+      #### 高速压缩阻尼
+      
+      高速压缩阻尼（HSC）影响减振器在较高活塞杆速度下的表现，通常对应碾过路肩和赛道路面颠簸。0 为最大阻尼，40 为最小阻尼。提高高速压缩阻尼会让悬架在这些情况下更硬；降低 HSC 则能更好地吸收冲击，但可能损害赛道各处的空气动力学平台。在平顺赛道上，提高高速压缩阻尼通常能改善性能；在颠簸赛道或路肩激进的赛道上，降低高速压缩阻尼可用平台控制作为代价换取更多机械抓地力。HSC 对正确控制底盘侧倾、俯仰和升沉非常重要。
+      
+      #### 低速回弹阻尼
+      
+      低速回弹阻尼（LSR）控制减振器在较低活塞杆速度下伸展时的刚度，通常对应车手操作引起的车身运动。该调节器采用泄流螺钉：从全闭位置起 2 格为最大阻尼，38 格为最小阻尼。较高回弹阻尼会抑制减振器伸展，较低阻尼则让减振器更快伸展。提高回弹刚度可改善空气动力学平台控制和整体底盘响应；但如果悬架在负载减小时来不及充分伸展，也可能使轮胎完全失去与赛道表面的接触。
+      
+      在前轴，提高 LSR 会让加速时的车头保持低位更久，但可能在施加油门或越过坡顶时引发转向不足。在后轴，提高 LSR 可增强制动时的车辆稳定性，但设定过于激进也可能引发转向不足。
+      
+      #### 高速回弹阻尼
+      
+      高速回弹阻尼（HSR）控制减振器在通过颠簸和路肩后伸展时的表现。0 为最大阻尼，40 为最小阻尼。较高阻尼力会减慢减振器伸展，较低数值则让减振器更快伸展。HSR 对车手操作引起的操控变化影响不如其他阻尼明显，但对于底盘针对赛道输入作出正确的空气动力学响应十分重要。
+      
+      ---
+      
+      <!-- section-divider page=18 -->
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/dampers.png)
       
@@ -406,7 +733,12 @@ sections:
 
   - id: setup-tips
     level: 2
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设定的用户。
+      
+      ---
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
       
@@ -414,7 +746,52 @@ sections:
 
   - id: setup-recommendations
     level: 3
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      如果车辆设定未通过技术检查，通常是车高需要调整。可使用车辆前后两端的车高调节项目进行调整：右键点击（正值）会提高车高，左键点击（负值）会降低车高。
+      
+      在“iRacing Setups”文件夹中可以找到多种车辆设定。
+      
+      `Baseline` 是采用 100% 燃油量的设定，仅用于确保车辆能够加载。因此它应能在各种燃油量和赛道条件下通过技术检查（Nürburgring Nordschleife 布局除外，该处应使用 `nuburgring_sprint/endurance`），但不会提供极致性能。
+      
+      名称带有 `_wet` 的设定预装湿地胎，并包含适合湿地条件的调整。
+      
+      名称带有 `_sprint` 的设定采用 50% 燃油量，车辆平衡更激进，适用于存在燃油限制或比赛时长约为 25 至 30 分钟的场合。这些设定用于正式竞赛。
+      
+      名称带有 `_endurance` 的设定采用 100% 燃油量，适用于没有燃油限制和／或比赛时长约为 1 小时以上的场合。
+      
+      名为 `fixed` 的设定用于固定车辆设定系列赛，与 `high_downforce_sprint` 设定相近。
+      
+      名称带有 `nurburgring_` 的设定采用 70 mm 最低车高，仅用于 Nürburgring Nordschleife 的各类赛道布局。
+      
+      虽然大多数赛道通常偏向较高下压力，但在某些情况下，减小尾翼角度以降低阻力可能更有利。以下为各赛道建议使用的下压力等级，可作为粗略参考：
+      
+      | 赛道 | 下压力等级 | 赛道 | 下压力等级 |
+      | --- | --- | --- | --- |
+      | 若泽·卡洛斯·帕切赛道 | 高／中 | 长滩街道赛道 | 高 |
+      | 蒙扎国家赛车场 | 中 | 奥舍斯莱本赛车运动场 | 高 |
+      | 布兰兹哈奇赛道 | 高 | 帕诺拉马山赛道 | 高／中 |
+      | 巴塞罗那-加泰罗尼亚赛道 | 高 | 纽博格林大奖赛赛道 | 高 |
+      | 马尼库尔赛道 | 高／中 | 冈山国际赛道 | 高 |
+      | 斯帕-弗朗科尔尚赛道 | 中 | 美洲公路赛道 | 高／中 |
+      | 勒芒 24 小时赛道 | 中 | 赛百灵国际赛道 | 高 |
+      | 代托纳国际赛道 | 低／中 | 银石赛道 | 高／中 |
+      | 底特律贝尔岛大奖赛赛道 | 高 | 索诺玛赛道 | 高 |
+      | 富士国际赛车场 | 高／中 | 弗吉尼亚国际赛道 | 高／中 |
+      | 匈牙利赛道 | 高 | 沃特金斯格伦国际赛道 | 高／中 |
+      | 印第安纳波利斯赛车场 | 中 | 拉古纳塞卡赛道 | 高 |
+      | 莱姆罗克公园赛道 | 高 |  |  |
+      
+      如果要驾驶未列出的赛道，建议先从高下压力设定开始，再评估其他下压力等级。判断赛道是否可能受益于降低下压力配置时，最高车速是一项很好的指标。
+      
+      以下范围可用于判断可能最合适的配置等级，但请注意，赛道设计（高速弯数量等）、海拔和环境条件等因素也会影响选择；海拔较高或环境温度较高时，通常更偏向使用较高下压力。
+      
+      | 最高车速 | 下压力等级 |
+      | --- | --- |
+      | 低于 250 km/h（155 mph） | 高下压力 |
+      | 250 至 270 km/h | 中下压力 |
+      | 高于 270 km/h（167 mph） | 低至最小下压力 |
     bodyEn: |+
       If the setup fails tech inspection, it is likely the ride heights require adjustment. This is performed by using the ride height adjustments at either end of the car. Right clicks (positive) will increase the ride height while left clicks (negative) will reduce the ride height.
       
@@ -462,7 +839,47 @@ sections:
 
   - id: aerodynamic-targets-and-adjustments
     level: 3
+    titleZh: "空气动力学目标与调整"
     titleEn: "AERODYNAMIC TARGETS AND ADJUSTMENTS"
+    bodyZh: |+
+      GT3 赛车对前、后轴车高的细微变化非常敏感，因此在调整静态车高、各车角弹簧刚度和尾翼角度等项目时，必须始终考虑这一点。
+      
+      获得最大总下压力的最佳配置如下：
+      
+      - 尾翼角度：7
+      - 动态前车高：40.0 mm（±2.5 mm）
+      - 动态后车高：62.0 mm（±2.5 mm）
+      
+      一旦车高高于或低于上述目标，总下压力便会开始下降。以最大下压力为目标时，必须考虑赛道的所有工况。例如，如果制动时后车高超过目标值，空气动力学平衡会前移，同时总下压力也会降低，车辆因此变得不稳定。在真实驾驶中，正是这些制动工况决定了您能多接近最大下压力目标。
+      
+      获得最小总阻力的最佳配置如下：
+      
+      - 尾翼角度：2
+      - 动态前车高：17.5 mm（±2.5 mm）
+      - 动态后车高：17.5 mm（±2.5 mm）
+      
+      在大多数赛道上，很难将车高降到足以达到这些低阻力目标，但 Daytona 等赛道可以做到。请记住，绝对最低车高受路面条件限制；接近目标时空气阻力会降低，但如果车底开始接触地面，整体阻力反而可能增加。还需说明的是，这套低阻力配置既无法提供最佳总下压力，也无法提供最佳操控平衡。
+      
+      调整尾翼角度时，应进行以下配套调整以维持空气动力学平衡：
+      
+      - 尾翼角度：+1
+      - 前车高：-2.4 mm
+      - 或
+      - 后车高：+7.2 mm
+      
+      &nbsp;
+      
+      - 尾翼角度：-1
+      - 前车高：+2.4 mm
+      - 或
+      - 后车高：-7.2 mm
+      
+      必要时也可同时组合调整前、后车高（例如较低后车高不易实现时）。减小尾翼角度后，这样做可保留更多总下压力而不破坏平衡，但代价是空气阻力略有增加。
+      
+      这些参考值只是建议追求的目标，车辆整体平衡仍应放在首位。在某些情况下，可能无法在这些目标值下获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+      
+      - 较小尾翼角度 = 更多转向过度、更少下压力、更小阻力、更低过弯速度、更高直线速度。
+      - 较大尾翼角度 = 更多转向不足、更多下压力、更大阻力、更高过弯速度、更低直线速度。
     bodyEn: |+
       GT3 cars are very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
       
@@ -505,7 +922,17 @@ sections:
 
   - id: chassis-adjustments
     level: 3
+    titleZh: "底盘调整"
     titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望调整车辆的基础平衡，又不想显著影响空气动力学平台的俯仰和升沉，也不想调整差速器，可以使用可调式前、后防倾杆。
+      
+      - 更硬的前防倾杆 -&gt; 更多转向不足
+      - 更软的前防倾杆 -&gt; 更多转向过度
+      - 更硬的后防倾杆 -&gt; 更多转向过度
+      - 更软的后防倾杆 -&gt; 更多转向不足
+      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面），对操作输入的响应变慢。
+      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少，对操作输入的响应加快。
     bodyEn: |+
       Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
       
@@ -518,7 +945,20 @@ sections:
 
   - id: differential-adjustments
     level: 3
+    titleZh: "差速器调整"
     titleEn: "DIFFERENTIAL ADJUSTMENTS"
+    bodyZh: |+
+      差速器提供两类调整选项。
+      
+      - 增加摩擦片工作面 -&gt; 收油时更多转向不足、加油时更多转向过度；在颠簸路面和碾过路肩时，内侧车轮较不易空转。
+      - 减少摩擦片工作面 -&gt; 收油时较少转向不足、加油时较少转向过度；在颠簸路面和碾过路肩时，内侧车轮更易空转。通常更适合 Spa 一类路面平顺、路肩平坦的赛道。
+      
+      在全油门、持续制动或完全滑行等高输入扭矩状态下，摩擦片工作面数量起主导作用。
+      
+      预载会叠加到差速器的总锁止扭矩中，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不例外。因此，在差速器输入扭矩接近零的过渡阶段，例如松开油门和／或开始拖刹时，预载的作用更为明显。
+      
+      - 增加预载 -&gt; 较少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
+      - 减少预载 -&gt; 更多收油转向过度、较低入弯稳定性、收油时较少转向不足、加油时较少转向过度。
     bodyEn: |+
       Two adjustment options are available for the differential.
       
@@ -531,5 +971,5 @@ sections:
       
       - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
       - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.
-
-
+      
+      
