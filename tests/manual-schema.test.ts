@@ -49,6 +49,16 @@ test('accepts a valid manual', () => {
   assert.equal(manualSchema.safeParse(validManual()).success, true);
 });
 
+test('accepts supported vehicle classes', () => {
+  for (const vehicleClass of ['GT3', 'GT4', 'Cup', 'Prototype', 'Touring']) {
+    const manual = validManual();
+    manual.vehicleClass = vehicleClass;
+    assert.equal(manualSchema.safeParse(manual).success, true);
+  }
+
+  assertInvalid((manual) => (manual.vehicleClass = 'Road'), 'Invalid option');
+});
+
 test('only accepts supported racing disciplines', () => {
   for (const discipline of [
     'oval',

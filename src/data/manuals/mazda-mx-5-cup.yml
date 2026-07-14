@@ -1,0 +1,295 @@
+slug: mazda-mx-5-cup
+published: true
+titleZh: Mazda MX-5 Cup 用户手册
+titleEn: Global Mazda MX-5 Cup User Manual
+contentType: vehicle-manual
+brand: Mazda
+vehicleClass: Cup
+platform: iRacing
+discipline: sports-car
+cover: ./assets/mazda-mx-5-cup/cover.png
+source:
+  type: official
+  title: iRacing Global Mazda MX-5 Cup User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided V2 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/mazda-mx-5-cup/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your iRacing membership, and we hope you enjoy the Global Mazda MX-5 Cup car. From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/mazda-mx-5-cup/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/chassis-specifications.png)
+      
+      DOUBLE-WISHBONE FRONT, MULTI-LINK REAR SUSPENSION
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 3911 mm / 153.9 in |
+      | Width | 1727 mm / 68 in |
+      | Wheelbase | 2311 mm / 91 in |
+      | Dry Weight | 975 kg / 2150 lbs |
+      | Wet Weight with Driver | 1008 kg / 2224 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/power-unit.png)
+      
+      SKYACTIV-G 16-VALVE 4 CYLINDER
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.0 Liters / 122.0 CID |
+      | Torque | 151 lb-ft / 204 Nm |
+      | Power | 181 bhp / 135 kW |
+      | RPM Limit | 7500 |
+      
+      ![Image](./assets/mazda-mx-5-cup/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/getting-started.png)
+      
+      The Mazda MX-5 requires the clutch to be depressed prior to engaging the engine starter for safety reasons. If you are using the Manual Clutch setting, be sure to have the clutch fully depressed when starting the car or the starter will not turn on. If you are using Auto Clutch or a shifting aid, you can start the engine like any other car.
+      
+      Once the engine is started, leaving the pits is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal while slowly releasing the clutch if using Manual Clutch.
+      
+      This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+      
+      Upshifting is recommended when the shift lights on the dashboard are flashing. This occurs at 7400 RPM, the rev limiter kicks in at 7500 RPM.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+      
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      
+      The dash display in this car is non-adjustable and features a single page to display critical vehicle information.
+      
+      ![Image](./assets/mazda-mx-5-cup/dash-configuration.png)
+      
+      Six numbered status indicator lights are featured in the top left and top right of the dash within the outer frame. Each light displays a different condition, with the light’s color representing a different level of each condition:
+      
+      1. Engine Warning - Will illuminate in red if a serious engine problem is present, usually paired with a message on the main display.
+      2. Water Temperature - Flashes blue whenever the engine cooling water is overheated
+      3. Fuel Level - Displays fuel level in three stages based on percent of a full tank:
+          - Green: More than 25% of fuel level remaining
+          - Yellow: Less than 25%, but more than 15% remaining
+          - Red (Flashing): Less than 15% remaining
+      4. Inoperable
+      5. Inoperable
+      6. Pit Limiter - Flashes yellow when pit speed limiter is on. NOTE: Pit speed limiter is only available in 1st gear.
+      
+      The Global MX-5 is equipped with an AiM MXL2 Digital Dash to show the driver all vital information in an easy-to-read display.
+      
+      - RPM Band - Displays engine RPM by filling-in segments around the top of the display. Every line is 1000 RPM.
+      - Speed - Vehicle speed is shown in the center of the display just underneath the “7” on the RPM Band.
+      - Gear - The currently selected gear is on the right of the RPM band
+      - H2OT - Water Temperature in the engine cooling system
+      - GPS: Good - GPS Connection status
+      - Lap - Displays the number of laps completed. This does not reset to zero when returning to the garage.
+      - Lap Time - The previously completed lap time is displayed in the center bottom of the display.
+      - Engine Warning Box - Should a serious issue develop with the engine, a boxed message will appear on the right side of the display.
+
+  - id: pit-limiter
+    level: 3
+    titleEn: "PIT LIMITER"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/pit-limiter.png)
+      
+      When the pit limiter is active the yellow light beside the 6 will flash. The right side of the dash will also be changed to only display “Pit Speed”. The pit limiter is only available in 1st gear, shifting up will deactivate it.
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/shift-lights.png)
+      
+      The dash lights illuminate in pairs, meeting in the middle and then flash when the car should be shifted.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: suspension
+    level: 2
+    titleEn: "SUSPENSION"
+
+  - id: tire
+    level: 3
+    titleEn: "TIRE"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/tire.png)
+      
+      #### TIRE COMPOUND
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/front.png)
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheels relative to the chassis centerline when viewed from above. Negative toe-in sets the front of the tires farther from the centerline than the rear of the tires while positive toe-in sets the front of the tires closer to the centerline than the rear of the tires. Toe-out will destabilize the car in a straight line but this will increase turn-in response at the cost of increased tire temperature and wear. Reducing toe-out (and even running toe-in) will stabilize the car in a straight line and reduce temperature and wear, but could make the car sluggish in response to steering inputs.
+      
+      #### ANTI-ROLL BAR
+      
+      The front Anti-Roll Bar can be set to one of three settings to change the roll stiffness of the front suspension. Softer settings will reduce front suspension roll stiffness, reducing understeer but slightly reducing the front end’s responsiveness to quick steering inputs. Firmer settings will increase the front suspension roll stiffness, increasing understeer and steering response.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car. When adjusting cross weight, be sure to adjust the perch offsets in pairs (both fronts, LR+RF or RR+LF, all four) to avoid dramatically altering the ride heights. Changing ride heights will alter the suspension dynamics on its own, which could mask or conflict with the desired crossweight adjustment.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/front-corners.png)
+      
+      #### COLD AIR PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Hot pressures should be analyzed once the tires have stabilized after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run or race length, whichever is more appropriate for the event.
+      
+      #### LAST TEMPS O M I (TIRE TEMPERATURES)
+      
+      Tire carcass temperatures once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight placement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### FRONT RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis just behind the front wheels. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s mechanical grip when cornering and responsiveness. Increasing front ride height will allow for more weight transfer across the front axle when cornering, usually reducing understeer but sometimes reducing front-end responsiveness. Conversely, reducing ride height will reduce the weight transfer across the front axle, which can induce understeer but usually provides a more responsive feel to the driver.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the static preload on the spring. Increasing the spring perch offset will result in lowering the corner of the car and reducing the corner weight, while reducing the spring perch offset will raise the corner of the car and increase the corner weight (along with changes to the other three corner weights). These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### COMPRESSION DAMPING
+      
+      The compression damping setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper. For the MX-5, “0” is the minimum damping setting (least resistance to compression) while “+11” is maximum damping (most resistance to compression). Increasing the compression damping will result in a faster transfer of weight to the wheel during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more compression damping will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
+      
+      #### REBOUND DAMPING
+      
+      The Rebound damping setting is a paired adjustment to both low and high speed rebound damping characteristics. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. A typical low damper speed situation would be as the car rolls back to level on a corner exit while a high speed situation would be where the suspension is extending after large kerb contact. Setting “0” is minimum damping (least resistance to extension) while “+11” is maximum damping (most resistance to extension). While high rebound stiffness will result in improved chassis response it is important to avoid situations where the shock is too slow in rebound (set too high) as this will result in the tire losing complete contact with the track surface which can induce or exacerbate severe oscillations.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: left-right-rear
+    level: 3
+    titleEn: "LEFT / RIGHT REAR"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/left-right-rear.png)
+      
+      #### REAR RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis just in front of the rear wheels. Increasing rear ride height will allow for more weight transfer across the rear axle when cornering, typically inducing oversteer. Conversely, reducing ride height will reduce weight transfer across the rear axle, typically inducing understeer.
+      
+      #### COMPRESSION DAMPING
+      
+      The compression damping setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing the compression damping will result in a faster transfer of weight to the wheel during transient movements such as accelerating and direction change with increased damping usually providing an increase in response but a reduction in overall grip. Excessively stiff compression damping can cause very poor traction on rough tracks as it can result in large tire load variation and a reduction in overall grip.
+      
+      #### REBOUND DAMPING
+      
+      The rebound damping setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control and better overall chassis response but it is important to avoid situations where the shock is too slow in rebound (set too high) as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase, though an increase in rebound stiffness can help to
+      
+      ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Similar to the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however it is typical to run slightly reduced rear camber relative to the front. This is primarily because rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      
+      ![Image](./assets/mazda-mx-5-cup/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheels, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds.
+      
+      #### ANTI-ROLL BAR
+      
+      The rear Anti-Roll Bar can be run one of two ways: “OEM” and “Unhooked”. When “OEM” is selected, the stock rear Anti-Roll Bar is attached, increasing rear suspension stiffness and inducing oversteer while cornering. When “Unhooked” is selected, the rear Anti-Roll Bar is detached, dramatically reducing rear roll stiffness, which will induce understeer.
+
