@@ -16,6 +16,19 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/mazda-mx-5-cup/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您成为 iRacing 会员，希望您能尽情享受 Global Mazda MX-5 Cup 赛车！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Global Mazda MX-5 Cup 赛车](./assets/mazda-mx-5-cup/welcome-car.png)
+
     bodyEn: |+
       ![Image](./assets/mazda-mx-5-cup/welcome-hero.png)
       
@@ -31,11 +44,26 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
 
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/mazda-mx-5-cup/chassis-specifications.png)
+
+      前悬架采用双叉臂结构，后悬架采用多连杆结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 3911 mm / 153.9 in |
+      | 车宽 | 1727 mm / 68 in |
+      | 轴距 | 2311 mm / 91 in |
+      | 干重 | 975 kg / 2150 lbs |
+      | 含车手湿重 | 1008 kg / 2224 lbs |
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/chassis-specifications.png)
@@ -52,7 +80,22 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/mazda-mx-5-cup/power-unit.png)
+
+      SKYACTIV-G 16 气门直列四缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 2.0 升 / 244.1 cid |
+      | 扭矩 | 151 lb-ft / 204 Nm |
+      | 功率 | 181 bhp / 135 kW |
+      | 转速上限 | 7500 RPM |
+
+      ![车辆侧视图](./assets/mazda-mx-5-cup/vehicle-profile.png)
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/power-unit.png)
@@ -70,7 +113,15 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
     bodyEn: |+
       
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
@@ -81,7 +132,19 @@ sections:
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/mazda-mx-5-cup/getting-started.png)
+
+      出于安全考虑，Mazda MX-5 要求先踩下离合器才能接通发动机启动机。如果使用“手动离合器”设置，启动车辆时务必将离合器完全踩下，否则启动机不会工作。如果使用“自动离合器”或换挡辅助，则可像其他车辆一样启动发动机。
+
+      发动机启动后，只需按下“升挡”按钮挂入挡位并踩下油门，即可驶离维修区；如果使用手动离合器，请同时缓慢松开离合器。
+
+      本车采用序列式变速箱，升挡和降挡均无须操作离合器。不过，降挡保护会在系统判断当前车速相对于目标挡位过高、可能造成发动机损坏时阻止降挡；此时，降挡指令会被直接忽略。
+
+      建议在仪表台上的换挡提示灯闪烁时升挡。提示灯会在 7400 RPM 时开始闪烁，转速限制器则在 7500 RPM 时介入。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/getting-started.png)
@@ -96,7 +159,21 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/mazda-mx-5-cup/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/loading-iracing-setup.png)
@@ -113,7 +190,36 @@ sections:
 
   - id: dash-configuration
     level: 2
+    titleZh: "仪表配置"
     titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      本车的仪表显示不可调整，仅提供一个页面，用于显示关键车辆信息。
+
+      ![仪表配置](./assets/mazda-mx-5-cup/dash-configuration.png)
+
+      仪表外框左上方和右上方设有六个带编号的状态指示灯。各指示灯对应不同状态，灯光颜色则表示该状态的不同等级：
+
+      1. 发动机警告 — 发动机出现严重故障时亮红灯，通常还会在主显示屏上同时显示提示信息。
+      2. 水温 — 发动机冷却液过热时闪烁蓝灯。
+      3. 燃油量 — 根据剩余燃油占满箱容量的百分比，分三个阶段显示：
+          - 绿色：剩余燃油超过 25%
+          - 黄色：剩余燃油低于 25%、但高于 15%
+          - 红色（闪烁）：剩余燃油低于 15%
+      4. 不可用
+      5. 不可用
+      6. 维修区限速器 — 维修区限速器开启时闪烁黄灯。注意：维修区限速器仅能在 1 挡使用。
+
+      Global MX-5 配备 AiM MXL2 数字仪表，以清晰易读的布局向车手显示所有重要信息。
+
+      - RPM Band — 通过依次填充显示屏顶部周围的分段来显示发动机转速，每条刻度代表 1000 RPM。
+      - Speed — 车辆速度，显示于转速条“7”下方的显示屏中央。
+      - Gear — 当前选择的挡位，显示于转速条右侧。
+      - H2OT — 发动机冷却系统的冷却液温度。
+      - GPS: Good — GPS 连接状态。
+      - Lap — 已完成圈数。返回车库时不会重置为零。
+      - Lap Time — 上一完整圈的圈速，显示于显示屏底部中央。
+      - Engine Warning Box — 发动机出现严重问题时，显示屏右侧会出现带边框的提示信息。
+
     bodyEn: |+
       
       The dash display in this car is non-adjustable and features a single page to display critical vehicle information.
@@ -145,7 +251,13 @@ sections:
 
   - id: pit-limiter
     level: 3
+    titleZh: "维修区限速器"
     titleEn: "PIT LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/mazda-mx-5-cup/pit-limiter.png)
+
+      启用维修区限速器后，数字 6 旁的黄色指示灯会闪烁，仪表右侧也会切换为仅显示“Pit Speed”。维修区限速器只能在 1 挡使用，升挡会将其关闭。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/pit-limiter.png)
@@ -154,7 +266,13 @@ sections:
 
   - id: shift-lights
     level: 3
+    titleZh: "换挡提示灯"
     titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/mazda-mx-5-cup/shift-lights.png)
+
+      仪表提示灯会从两侧向中央成对亮起，并在车辆达到换挡时机时闪烁。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/shift-lights.png)
@@ -163,18 +281,31 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
     bodyEn: |+
       
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
 
   - id: suspension
     level: 2
+    titleZh: "悬架"
     titleEn: "SUSPENSION"
 
   - id: tire
     level: 3
+    titleZh: "轮胎"
     titleEn: "TIRE"
+    bodyZh: |+
+      ![轮胎](./assets/mazda-mx-5-cup/tire.png)
+
+      #### 轮胎配方
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/tire.png)
@@ -185,7 +316,23 @@ sections:
 
   - id: front
     level: 3
+    titleZh: "前部"
     titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/mazda-mx-5-cup/front.png)
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。前束为负值时，轮胎前缘比后缘更远离中心线；前束为正值时，轮胎前缘比后缘更靠近中心线。负前束会降低车辆的直线稳定性，但可提高初始转向响应，代价是胎温和磨损增加。减小负前束（甚至采用正前束）会提高直线稳定性并降低胎温与磨损，但可能使车辆对转向输入的响应变得迟缓。
+
+      #### 防倾杆
+
+      前防倾杆提供三个设置，用于改变前悬架的侧倾刚度。较软的设置会降低前悬架侧倾刚度、减轻转向不足，但也会略微降低车头对快速转向输入的响应。较硬的设置会提高前悬架侧倾刚度，增加转向不足和转向响应。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各轮的弹簧座偏移来改变对角配重。调整对角配重时，务必成对调整弹簧座偏移（两个前轮、左后与右前、右后与左前，或全部四轮），避免大幅改变车高。车高变化本身会改变悬架动态，可能掩盖预期的对角配重调整效果或与之冲突。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/front.png)
@@ -204,7 +351,51 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/mazda-mx-5-cup/front-corners.png)
+
+      #### 冷态胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，但可提高抓地力。车速和负荷较高时需要更高胎压，车速和负荷较低时则通常使用较低胎压表现更好。为获得最佳性能，应根据赛道特性设置冷态胎压。一般建议从较低胎压开始，再按需逐步提高。
+
+      #### 上次热态胎压
+
+      车辆返回维修区后的轮胎气压。冷态与热态胎压之差可用于判断车辆在一个赛道驾驶阶段中的平衡变化；负荷较重的轮胎会产生更大的冷热胎压差。理想情况下，工作状态相近的轮胎应以相同速率增压，以免车辆的操控平衡随着轮胎使用时间而改变。因此，应调整冷态胎压，使同类轮胎达到工作温度后具有相近胎压。应在连续行驶若干圈、胎压趋于稳定后分析热态胎压。由于每次驾驶阶段的圈数会随赛道长度变化，可先在完整燃油驾驶里程或比赛距离约 50% 处进行分析，具体取更符合赛事情况的一项。
+
+      #### 上次胎温 O M I（轮胎温度）
+
+      车辆返回维修区后的轮胎胎体温度。单轮载荷和轮胎在赛道上的工作强度会反映在胎温中，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作强度；内侧与外侧温度则可用于分析车辆在赛道上的车轮定位状态，主要是外倾角。这些数值分别在胎面外侧、中部和内侧三个区域测量。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎的剩余胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；还可结合胎温分析车辆的操控平衡。其测量区域与胎温相同。
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移进行调整。
+
+      #### 前车高
+
+      地面到前轮后方底盘参考点的距离。由于数值是相对于车辆上的特定参考点测量，因此未必代表车辆的实际离地间隙，但可作为车辆静止时距赛道表面高度的可靠基准。调整车高是获得最佳性能的关键，因为车高会直接影响车辆过弯时的机械抓地力与响应。提高前车高会允许过弯时前轴发生更多横向载荷转移，通常可减轻转向不足，但有时会降低车头响应。相反，降低前车高会减少前轴横向载荷转移，可能导致转向不足，但通常能为车手提供更灵敏的响应感受。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧的静态预载来调整车辆该轮的车高。增大弹簧座偏移会降低该轮车高并减少单轮载荷；减小弹簧座偏移则会抬高该轮车高并增加单轮载荷，同时也会影响其余三个车轮的载荷。此类调整应在同一车轴左右对称进行，以确保左右车高一致且不改变对角配重。也可成对角线调整弹簧座偏移（左前与右后、右前与左后），以改变车辆的静态对角配重。
+
+      #### 压缩阻尼
+
+      压缩阻尼设置会同时调整减振器的低速与高速压缩阻尼特性。对于 MX-5，“0”是最小阻尼设置（压缩阻力最小），“+11”是最大阻尼设置（压缩阻力最大）。提高压缩阻尼会使制动、变向等瞬态动作中的载荷更快传递至车轮，通常可提高初始转向响应，但会降低整体抓地力。高速压缩阻尼会随低速压缩阻尼同步增加，因此车辆碾过路肩时的冲击响应也会更生硬。在较平整的赛道上，较高压缩阻尼通常有利于性能；在较颠簸或路肩激进的赛道上，降低压缩阻尼则可牺牲部分平台控制来换取更高的机械抓地力。
+
+      #### 回弹阻尼
+
+      回弹阻尼设置会同时调整减振器的低速与高速回弹阻尼特性。提高回弹阻尼会减慢减振器在低速和高速工况下的伸长速度。典型的低减振器速度工况是车辆在出弯时由侧倾状态恢复水平；高速工况则是悬架在大幅碾过路肩后伸长。“0”是最小阻尼设置（伸长阻力最小），“+11”是最大阻尼设置（伸长阻力最大）。较高的回弹刚度可改善底盘响应，但应避免减振器回弹过慢（设置过高），否则轮胎可能完全失去与赛道表面的接触，引发或加剧严重振荡。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/front-corners.png)
@@ -251,7 +442,27 @@ sections:
 
   - id: left-right-rear
     level: 3
+    titleZh: "左／右后轮"
     titleEn: "LEFT / RIGHT REAR"
+    bodyZh: |+
+      ![左／右后轮设置](./assets/mazda-mx-5-cup/left-right-rear.png)
+
+      #### 后车高
+
+      地面到后轮前方底盘后部参考点的距离。提高后车高会允许过弯时后轴发生更多横向载荷转移，通常会增加转向过度。相反，降低后车高会减少后轴横向载荷转移，通常会增加转向不足。
+
+      #### 压缩阻尼
+
+      压缩阻尼设置会同时调整减振器的低速与高速压缩阻尼特性，调节范围与前减振器相同。提高压缩阻尼会使加速、变向等瞬态动作中的载荷更快传递至车轮，通常可提高响应，但会降低整体抓地力。在颠簸赛道上，压缩阻尼过硬可能导致轮胎负荷大幅波动并降低整体抓地力，从而严重损害牵引力。
+
+      #### 回弹阻尼
+
+      回弹阻尼设置会同时调整减振器的低速与高速回弹阻尼特性，调节范围与前减振器相同。提高回弹阻尼会减慢减振器在低速和高速工况下的伸长速度。与前轴相同，较高的回弹刚度可改善平台控制和底盘整体响应，但应避免减振器回弹过慢（设置过高），否则轮胎可能完全失去与赛道表面的接触。此问题在制动和初始入弯阶段尤其不利；不过，提高回弹刚度也能在施加制动时“减缓”车辆俯仰姿态的变化，从而可能改善制动稳定性。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。与前轮相似，为提高横向抓地能力，后轮也适合采用较大的负外倾角；不过，后轮负外倾通常会略小于前轮。这主要是因为后轮还负责驱动车辆前进，因此外倾角对横向抓地力的增益需要与纵向牵引力的损失进行权衡。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/left-right-rear.png)
@@ -274,7 +485,23 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/mazda-mx-5-cup/rear.png)
+
+      #### 燃油量
+
+      油箱内的燃油量。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轴通常采用正前束。增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。
+
+      #### 防倾杆
+
+      后防倾杆有两种设置：“OEM”和“断开”。选择“OEM”时，原厂后防倾杆保持连接，会提高后悬架刚度并增加过弯时的转向过度。选择“断开”时，后防倾杆脱开，后轴侧倾刚度会大幅降低，从而增加转向不足。
+
     bodyEn: |+
       
       ![Image](./assets/mazda-mx-5-cup/rear.png)

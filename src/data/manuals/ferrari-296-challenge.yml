@@ -16,6 +16,19 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/ferrari-296-challenge/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Ferrari 296 Challenge！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Ferrari 296 Challenge 赛车](./assets/ferrari-296-challenge/welcome-car.png)
+
     bodyEn: |+
       ![Image](./assets/ferrari-296-challenge/welcome-hero.png)
       
@@ -31,11 +44,26 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
 
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/ferrari-296-challenge/chassis-specifications.png)
+
+      前后悬架均采用双叉臂结构，配备外置式弹簧与减振器
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4602 mm / 181.2 in |
+      | 车宽 | 1958 mm / 77 in |
+      | 轴距 | 2600 mm / 102.3 in |
+      | 干重 | 1470 kg / 3240 lbs |
+      | 含车手湿重 | 1575 kg / 3472 lbs |
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/chassis-specifications.png)
@@ -52,7 +80,22 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/ferrari-296-challenge/power-unit.png)
+
+      120° 涡轮增压 V6 发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.0 升 / 183 CID |
+      | 转速上限 | 8500 RPM |
+      | 扭矩 | 546 lb-ft / 740 Nm |
+      | 功率 | 690 bhp / 514 kW |
+
+      ![车辆侧视图](./assets/ferrari-296-challenge/vehicle-profile.png)
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/power-unit.png)
@@ -70,7 +113,17 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
     bodyEn: |+
       
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
@@ -83,7 +136,15 @@ sections:
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/ferrari-296-challenge/getting-started.png)
+
+      启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调整映射控制按键。虽然这些并非驾驶车辆的必要操作，但可让您在赛道上根据驾驶风格快速调整车手辅助系统。
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无须操作离合器。不过，降挡保护会在系统判断当前车速相对于目标挡位过高、可能造成发动机损坏时阻止降挡；此时，降挡指令会被直接忽略。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/getting-started.png)
@@ -94,7 +155,21 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/ferrari-296-challenge/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。
+
+      若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/loading-iracing-setup.png)
@@ -111,7 +186,30 @@ sections:
 
   - id: dash-configuration
     level: 2
+    titleZh: "仪表配置"
     titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      Ferrari 296 Challenge 的仪表台配备大型数字显示屏，可在赛道驾驶时为车手提供丰富信息。显示屏共有四个页面可选；四页的左半部分保持不变，右半部分则随所选页面切换。
+
+      ![仪表配置](./assets/ferrari-296-challenge/dash-configuration.png)
+
+      | 左侧区域 | 说明 |
+      | --- | --- |
+      | Tachometer | 显示屏顶部的图形转速表直观显示发动机转速。 |
+      | P OIL | 发动机机油系统压力，单位为 bar 或 psi |
+      | T OIL | 发动机机油温度，单位为 °C 或 °F |
+      | T WATER | 发动机冷却液温度，单位为 °C 或 °F |
+      | Fuel Gauge | 橙色图形燃油表位于挡位与车速显示框的左侧。 |
+      | TC2 | 当前 TC2 设置 |
+      | TC1 | 当前 TC1 设置 |
+      | ABS | 当前 ABS 设置。设置 1–2 显示“SLICK”；设置 3–4 则以蓝色背景显示“RAIN”。 |
+
+      | 中央区域 | 说明 |
+      | --- | --- |
+      | Gear | 当前选择的挡位，显示于白色框区域顶部中央 |
+      | TCS/ABS Activation | 挡位指示下方为牵引力控制或防抱死制动介入指示灯；任一系统为防止车轮空转或抱死而介入时，该指示灯都会闪烁。 |
+      | Speed | 车辆速度，单位为 km/h 或 mph |
+
     bodyEn: |+
       
       The Ferrari 296 Challenge features a large digital display in the dash that provides the driver with a wealth of information while on track. Featuring four pages to choose from, the left half of the display is constant for all four pages while the right half will change based on the page selected.
@@ -137,7 +235,18 @@ sections:
 
   - id: race-page
     level: 3
+    titleZh: "比赛页面"
     titleEn: "RACE PAGE"
+    bodyZh: |+
+      ![比赛页面](./assets/ferrari-296-challenge/race-page.png)
+
+      | 比赛页面 | 说明 |
+      | --- | --- |
+      | Best Diff Time | 当前圈与本次会话最佳圈之间的实时圈速差。当前圈更快时，该数值会以紫色背景突出显示。 |
+      | Lap | 本次会话已完成的圈数 |
+      | Lap Time | 当前圈用时 |
+      | Fuel Cons | 实时燃油消耗量，单位为升或加仑 |
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/race-page.png)
@@ -151,7 +260,17 @@ sections:
 
   - id: tire-page
     level: 3
+    titleZh: "轮胎页面"
     titleEn: "TIRE PAGE"
+    bodyZh: |+
+      ![轮胎页面](./assets/ferrari-296-challenge/tire-page.png)
+
+      | 轮胎页面 | 说明 |
+      | --- | --- |
+      | Best Diff Time | 当前圈与本次会话最佳圈之间的实时圈速差。当前圈更快时，该数值会以紫色背景突出显示。 |
+      | Tire Pressures | 车辆示意图四角分别显示各条轮胎的实时胎压，单位为 kPa 或 psi。每条轮胎均有颜色编码指示其是否处于最佳范围：蓝色表示过低，绿色表示最佳，红色表示过高。 |
+      | Predicted Time | 当前圈的预计圈速 |
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/tire-page.png)
@@ -164,7 +283,18 @@ sections:
 
   - id: quali-page
     level: 3
+    titleZh: "排位页面"
     titleEn: "QUALI PAGE"
+    bodyZh: |+
+      ![排位页面](./assets/ferrari-296-challenge/quali-page.png)
+
+      | 排位页面 | 说明 |
+      | --- | --- |
+      | Best Diff Time | 当前圈与本次会话最佳圈之间的实时圈速差。当前圈更快时，该数值会以紫色背景突出显示。 |
+      | Lap | 本次会话已完成的圈数 |
+      | Best Lap Time | 本次会话的最佳圈速 |
+      | Predicted Time | 当前圈的预计圈速 |
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/quali-page.png)
@@ -178,7 +308,17 @@ sections:
 
   - id: coach-page
     level: 3
+    titleZh: "教练页面"
     titleEn: "COACH PAGE"
+    bodyZh: |+
+      ![教练页面](./assets/ferrari-296-challenge/coach-page.png)
+
+      | 教练页面 | 说明 |
+      | --- | --- |
+      | Best Diff Time | 当前圈与本次会话最佳圈之间的实时圈速差。当前圈更快时，该数值会以紫色背景突出显示。 |
+      | Coach Lap Time | 基于预设目标圈速的对比圈。有关载入该数值的方法，请参阅本指南的“调校提示”章节。 |
+      | Predicted Time | 当前圈的预计圈速 |
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/coach-page.png)
@@ -191,7 +331,15 @@ sections:
 
   - id: shift-lights
     level: 3
+    titleZh: "换挡提示灯"
     titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/ferrari-296-challenge/shift-lights.png)
+
+      数字显示屏上方的一组十颗 LED 用于提示发动机何时达到最佳换挡时机。
+
+      随着转速升高，提示灯会从左向右依次亮起，颜色由绿色变为红色。当全部提示灯均呈红色并闪烁时，车手应执行升挡。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/shift-lights.png)
@@ -202,7 +350,13 @@ sections:
 
   - id: pit-speed-limiter
     level: 3
+    titleZh: "维修区限速器"
     titleEn: "PIT SPEED LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/ferrari-296-challenge/pit-speed-limiter.png)
+
+      启用维修区限速器后，所有换挡提示灯都会变为绿色，显示屏上会出现黄色“PIT LIMITER”横幅，并在右下角显示维修区道路限速。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/pit-speed-limiter.png)
@@ -211,18 +365,47 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
     bodyEn: |+
       
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
 
   - id: tires-and-aero
     level: 2
+    titleZh: "轮胎与空气动力学"
     titleEn: "TIRES & AERO"
 
   - id: tire-data
     level: 3
+    titleZh: "轮胎数据"
     titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/ferrari-296-challenge/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压／起始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但滚动阻力更大，升温也更快。较高胎压会让车辆响应略微更灵敏、滚动阻力更小，但抓地力也会降低。通常，高速赛道更适合较高胎压；在更重视机械抓地力的低速赛道，较低胎压往往表现更好。
+
+      #### 上次热态胎压
+
+      车辆完成一个赛道驾驶阶段返回车库后，轮胎压力会显示为热态胎压。冷态与热态胎压之差能很好地反映轮胎在赛道上的负荷和工作强度。承受更多负荷的轮胎会产生更大的压力增幅；留意各条轮胎的压力增幅，并通过调整冷态胎压进行补偿，对优化轮胎性能至关重要。
+
+      #### 上次胎温
+
+      车辆返回车库后会显示轮胎胎体温度（在胎面内部测量）。这些温度能有效判断各条轮胎在赛道上承受的工作量或负荷。内侧与外侧温度之差可用于调整单个车轮的定位参数；中央温度与两侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎面厚度
+
+      胎温下方显示轮胎剩余胎面厚度，以新胎的百分比表示。这些数值有助于判断一套轮胎在更换前还能使用多久，但不像温度那样能直接反映轮胎负荷不足或过度工作的状态。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/tire-data.png)
@@ -249,11 +432,32 @@ sections:
 
   - id: chassis-2
     level: 2
+    titleZh: "底盘"
     titleEn: "CHASSIS"
 
   - id: front
     level: 3
+    titleZh: "前部"
     titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/ferrari-296-challenge/front.png)
+
+      #### 防倾杆孔位
+
+      可将前防倾杆（ARB）连杆安装在两个孔位之一，以微调防倾杆刚度。“软”设置会降低前轴侧倾刚度，减轻入弯时的转向不足；“硬”设置则会提高前轴侧倾刚度，增加入弯时的转向不足。
+
+      #### 总前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束会提高内侧轮胎的滑移，增加正前束则会减少滑移。前轮负前束（车库中显示为负值）可提高初始转向响应，但会降低直线稳定性。正前束会降低初始转向响应，但可减少前胎温度积聚并提高直线稳定性。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各轮的弹簧座偏移来改变对角配重。
+
+      #### 前轴配重
+
+      车库中前轴载荷占车辆总重的百分比。较高的前轴配重会在过弯时增加转向不足并提高直线稳定性；较低的前轴配重则会在过弯时增加转向过度。该数值无法直接调整，而会随燃油量等其他设置变化。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/front.png)
@@ -276,7 +480,27 @@ sections:
 
   - id: in-car-dials
     level: 3
+    titleZh: "车内旋钮"
     titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![车内旋钮](./assets/ferrari-296-challenge/in-car-dials.png)
+
+      #### 显示页面
+
+      设置发动机启动时显示的车内仪表页面。
+
+      #### ABS 设置
+
+      车辆当前使用的 ABS 映射。ABS 系统提供 4 个挡位，以适应不同赛道条件：数值越低，防止车轮抱死的辅助越少；数值越高，辅助越多。设置 1–2 适用于干地光头胎，设置 3–4 适用于湿地条件。ABS 系统无法关闭。
+
+      #### TC1 设置
+
+      TC1 设置控制检测到车轮空转时牵引力控制系统的干预程度。设置 0 会关闭整个牵引力控制系统（TC1 与 TC2）；设置 1 的辅助最少，设置 4 的辅助最多。
+
+      #### TC2 设置
+
+      TC2 设置控制牵引力控制系统根据车辆横摆对车轮空转作出反应的灵敏度。设置 1 的辅助最少，设置 4 的辅助最多。只有将 TC1 设为 0 才能关闭 TC2。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/in-car-dials.png)
@@ -299,7 +523,29 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/ferrari-296-challenge/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移进行调整。
+
+      #### MP 车高
+
+      地面到车辆前部指定参考点（即“主点”）的距离。调整车高是获得最佳性能的关键，因为车高会直接影响车辆的空气动力学性能和机械抓地力。提高前车高会减少前轴下压力和整车总下压力，但会允许过弯时前轴发生更多横向载荷转移。相反，降低前车高会增加前轴及整车总下压力，但会减少前轴横向载荷转移。
+
+      使用极低尾翼角度的最低阻力设置时，可能需要提高前车高，才能获得适当的空气动力学平衡。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧的安装位置来调整车辆该轮的车高。增大弹簧座偏移会降低该轮车高，减小弹簧座偏移则会抬高该轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且不改变对角配重。也可成对角线调整弹簧座偏移（左前与右后、右前与左后），以改变车辆的静态对角配重。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/front-corners.png)
@@ -324,7 +570,31 @@ sections:
 
   - id: rear-corners
     level: 3
+    titleZh: "后轮设置"
     titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/ferrari-296-challenge/rear-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移进行调整。
+
+      #### MP 车高
+
+      地面到车辆后部参考点（即“主点”）的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低后车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧的安装位置来调整车辆该轮的车高。增大弹簧座偏移会降低该轮车高，减小弹簧座偏移则会抬高该轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且不改变对角配重。也可成对角线调整弹簧座偏移（左前与右后、右前与左后），以改变车辆的静态对角配重。
+
+      #### 外倾角
+
+      后轮外倾角与前轮作用相似，采用负值可提高横向抓地力。但由于后轮同时也是驱动轮，外倾角会直接影响加速和制动时可用的纵向抓地力。增大负外倾角的绝对值虽可提高横向抓地力和过弯稳定性，却会削弱加油时的前向牵引力；重刹时后轮载荷减小，也会增加后轮抱死的风险。
+
+      #### 正前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轴通常采用正前束。增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。调整后轮前束时要注意，后轴设置值针对单个车轮，而前轴设置值是左右轮的合计值。因此，把左右后轮的设置值相加后，后轴总前束变化量是前轴同一显示数值所代表变化量的两倍。通常建议保持左右前束值相等，避免车辆出现斜行或不对称操控。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/rear-corners.png)
@@ -351,7 +621,23 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/ferrari-296-challenge/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱内的燃油量。
+
+      #### 防倾杆孔位
+
+      可将后防倾杆（ARB）连杆安装在两个孔位之一，以微调防倾杆刚度。“软”设置会降低后轴侧倾刚度，减轻入弯时的转向过度；“硬”设置则会提高后轴侧倾刚度，增加入弯时的转向过度。
+
+      #### 尾翼角度
+
+      尾翼角度是指尾翼的相对攻角。尾翼是作用显著的空气动力学装置，会大幅影响车辆产生的总下压力（以及阻力），并随着角度增加使空气动力学平衡向后移动。增大尾翼角度可提高中高速弯的总体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是两者之差，即“前后车高差”。增大尾翼角度时，若要维持相同的整体空气动力学平衡，就需要增大车辆的前后车高差。
+
     bodyEn: |+
       
       ![Image](./assets/ferrari-296-challenge/rear.png)
@@ -370,14 +656,54 @@ sections:
 
   - id: setup-tips
     level: 2
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
     bodyEn: |+
       
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-details
     level: 3
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      #### 防抱死制动与牵引力控制系统
+
+      ABS 提供 4 个设置：P1–P2 用于干地胎，P3–P4 用于湿地胎。该设置会影响目标制动力分配、差速器减速侧锁止、制动力分配目标，以及制动时允许的最大车轮滑移率。P1 是激进型干地设置，P2 是保守型干地设置；同理，P3 是激进型湿地设置，P4 是保守型湿地设置。
+
+      激进型设置会采用更靠后的制动力分配，允许更大的横摆，并更强调通过拖刹使车辆旋转。由于性能并非最佳，不建议在干地条件下使用湿地 ABS 设置。ABS 无法关闭。
+
+      TC1 根据允许的纵向车轮滑移率进行调整，并可按需关闭。共有 5 个 TC1 设置：P0 = 关闭；大多数条件下建议使用 P1–P2；系统干预程度从 P0（关闭）最低，逐步增加至 P4 最高。
+
+      TC2 并非根据车轮滑移率进行调节，而是依据车辆横摆角工作；设置越低，系统介入前允许的横摆越大。该设置还会调整差速器驱动侧锁止：挡位越低，驱动侧锁止越强，从而让车辆在加油时更容易旋转。共有 4 个 TC2 设置：P1 允许最大的横摆并提供最强的驱动侧锁止；P4 对横摆限制最严，驱动侧锁止最弱，以提高车辆的易驾性。请注意，选择 TC1 P0（关闭）时，TC2 也会一并关闭，差速器驱动侧锁止则设为与 TC2 P1 相当的水平。
+
+      #### 尾翼角度
+
+      本车配备可调尾翼，它是调整整车平衡的主要工具。结合后车高变化以维持相同空气动力学平衡时，也可用它为不同类型赛道设定整车下压力水平。尾翼角度每增加 1 度，后车高需相应增加 4 mm（0.157 in），才能维持相同的空气动力学平衡。
+
+      #### 底盘调整
+
+      如果调整燃油量后设置未能通过技术检查，很可能需要调整车高。可通过车辆前后两端的弹簧座偏移完成调整：右键单击（正向调整）会降低车高，左键单击（负向调整）会提高车高。
+
+      Ferrari 296 Challenge 可调整的设置项目相对较少；不过，如果您希望自行创建设置，我们提供了以下说明帮助您入门。
+
+      **胎压** — 对于大多数赛道的四个车轮，最低胎压通常能提供最佳性能。这些最低值经过设定，可使热态胎压达到典型的真实赛车目标值。不过，如果赛道拥有特别长的直道（例如勒芒），略微提高胎压可能有助于减少滚动阻力和轮胎发热。
+
+      **防倾杆设置** — 车辆前后两端的防倾杆各有两个孔位，可用于微调操控平衡。前防倾杆越硬，转向不足越明显；后防倾杆越硬，转向过度越明显。
+
+      **车高** — 在车辆前后两端，只要仍能通过技术检查，使用尽可能低的车高即可同时获得最佳机械性能和空气动力学性能：前部为 105 mm，后部为 107 mm。只有在纽博格林等极端赛道发生严重触底时，才应提高前车高。略微提高后车高可使空气动力学平衡前移，增加转向过度，同时也会提高整车总下压力和空气阻力。若要维持相同的空气动力学平衡，应按照“说明”选项卡中“车手辅助／设置”部分的要求增大尾翼角度。
+
+      **外倾角** — 建议前轮使用尽可能大的负外倾角。增大负外倾角可提高横向（过弯）能力，但会降低纵向（牵引力与直线制动）能力。通常，横向能力的增益会超过纵向能力的损失。
+
+      **前束** — 前轮增加正前束可改善弯中表现，但会牺牲入弯稳定性和直线制动表现。增加负前束可改善初始转向响应，但可能使弯中内侧轮胎滑移过大，造成过度拖磨。后轮只能设置正前束。增加正前束可提高制动和加油引起车辆动态变化时的稳定性，但也可能加剧弯中转向不足，并降低车辆对操作输入的整体响应速度。
+
+      #### 教练圈速
+
+      数字显示屏的“教练”页面可以载入已保存的圈速作为比较基准。使用时，请在模拟器中打开“选项”页面，依次进入“选项 &gt; 分段计时差 &gt; 圈速数据 &gt; 对比圈 &gt; 载入”。载入的圈速将显示在仪表“Coach”一栏中。
+
     bodyEn: |+
       
       #### ANTI-LOCK BRAKING AND TRACTION CONTROL SYSTEMS
