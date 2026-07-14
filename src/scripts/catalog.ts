@@ -69,6 +69,7 @@ function updateCatalog() {
 
 searchInput?.addEventListener('input', updateCatalog);
 for (const filter of filters) filter.addEventListener('change', updateCatalog);
+window.addEventListener('pageshow', updateCatalog);
 clearButton?.addEventListener('click', () => {
   if (searchInput) searchInput.value = '';
   for (const filter of filters) filter.value = '';
