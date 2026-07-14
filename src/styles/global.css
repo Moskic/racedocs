@@ -19,6 +19,9 @@ html {
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   min-width: 20rem;
   margin: 0;
   overflow-x: hidden;
@@ -69,6 +72,56 @@ html[data-language="en"] .language-pair > [data-lang="en"] {
   width: min(78rem, 100%);
   margin: 0 auto;
   padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 5vw, 4rem) 8rem;
+}
+
+.about-main {
+  width: min(46rem, 100%);
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 5vw, 2rem) 6rem;
+}
+
+.about-intro h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.about-lead {
+  margin: 1.25rem 0 0;
+  color: #52616a;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  line-height: 1.7;
+}
+
+.about-section {
+  margin-top: 3rem;
+}
+
+.about-section h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.about-section p {
+  margin: 0;
+  color: #52616a;
+  line-height: 1.75;
+}
+
+.about-project-link {
+  width: fit-content;
+  margin-top: 1rem;
+  color: #9e2a2b;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.about-project-link:hover {
+  color: #721f20;
 }
 
 .catalog-intro {
@@ -319,6 +372,33 @@ html[data-language="en"] .language-pair > [data-lang="en"] {
   line-height: 1.25;
 }
 
+.site-footer {
+  display: flex;
+  width: min(78rem, 100%);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: auto auto 0;
+  padding: 2rem clamp(1rem, 5vw, 4rem) 2.5rem;
+  color: #64727b;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.footer-site-name,
+.site-footer a {
+  color: #172026;
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #9e2a2b;
+}
+
 .language-switch {
   display: flex;
   gap: 0.25rem;
@@ -549,6 +629,8 @@ html[data-language="en"] .language-switch button[data-language-option="en"] {
 .manual-prose a:focus-visible,
 .manual-toc a:focus-visible,
 .manual-card > a:focus-visible,
+.site-footer a:focus-visible,
+.about-project-link:focus-visible,
 .not-found a:focus-visible,
 .catalog-controls input:focus-visible,
 .catalog-controls select:focus-visible,

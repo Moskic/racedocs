@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 
+import SiteFooter from '../components/SiteFooter.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -52,6 +54,7 @@ const shareImage = new URL(image, Astro.site);
   </head>
   <body>
     <slot />
+    <SiteFooter />
     <script is:inline>
       (() => {
         const language = document.documentElement.dataset.language === 'en' ? 'en' : 'zh';

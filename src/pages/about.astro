@@ -1,0 +1,68 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="关于 RaceDocs · RaceDocs"
+  description="了解 RaceDocs 双语模拟赛车手册资料库。"
+  hasEnglish={true}
+>
+  <SiteHeader hasEnglish={true} subtitleZh="关于本站" subtitleEn="About" />
+  <main class="about-main" aria-labelledby="about-title">
+    <header class="about-intro">
+      <h1 id="about-title" class="language-pair">
+        <span data-lang="zh">关于 RaceDocs</span>
+        <span data-lang="en">About RaceDocs</span>
+      </h1>
+      <p class="about-lead language-pair">
+        <span data-lang="zh">RaceDocs 是面向中文模拟赛车玩家的双语数字手册资料库，让赛车手册更容易查找、阅读和对照。</span>
+        <span data-lang="en">RaceDocs is a bilingual digital manual library that makes sim-racing documentation easier to find, read, and compare.</span>
+      </p>
+    </header>
+
+    <section class="about-section">
+      <h2 class="language-pair">
+        <span data-lang="zh">为什么做</span>
+        <span data-lang="en">Why RaceDocs</span>
+      </h2>
+      <p class="language-pair">
+        <span data-lang="zh">许多模拟赛车手册只有英文版本，传统 PDF 在移动设备上也不便于检索和对照。RaceDocs 将这些资料整理为适合网页阅读的双语内容，帮助玩家更快理解车辆与设置。</span>
+        <span data-lang="en">Many sim-racing manuals are available only in English, and traditional PDFs can be difficult to search and compare on mobile devices. RaceDocs reorganizes them into bilingual, web-friendly references.</span>
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2 class="language-pair">
+        <span data-lang="zh">独立性与权利</span>
+        <span data-lang="en">Independence and rights</span>
+      </h2>
+      <p class="language-pair">
+        <span data-lang="zh">RaceDocs 是独立项目，与相关赛车品牌、汽车制造商及模拟平台没有隶属或合作关系。相关名称、商标、原始手册和媒体内容归各自权利人所有。网站源代码采用 MIT License，手册内容不因此自动适用相同许可。</span>
+        <span data-lang="en">RaceDocs is an independent project and is not affiliated with the racing brands, vehicle manufacturers, or simulation platforms referenced here. Their names, trademarks, original manuals, and media remain the property of their respective owners. The site source code is licensed under the MIT License; manual content is not automatically covered by that license.</span>
+      </p>
+    </section>
+
+    <section class="about-section">
+      <h2 class="language-pair">
+        <span data-lang="zh">反馈与项目</span>
+        <span data-lang="en">Feedback and project</span>
+      </h2>
+      <p class="language-pair">
+        <span data-lang="zh">如果你发现翻译错误、版本差异或其他问题，可以前往 GitHub 查看源代码并提交反馈。</span>
+        <span data-lang="en">If you find a translation error, version difference, or another issue, visit GitHub to review the source and share feedback.</span>
+      </p>
+      <a class="about-project-link language-pair" href="https://github.com/Moskic/racedocs">
+        <span data-lang="zh">GitHub 仓库 ↗</span>
+        <span data-lang="en">GitHub repository ↗</span>
+      </a>
+    </section>
+  </main>
+
+  <script>
+    import { activeLanguage, applyLanguage, bindLanguageSwitch } from '../scripts/language';
+
+    bindLanguageSwitch((language) => applyLanguage(language));
+    applyLanguage(activeLanguage(), false);
+  </script>
+</BaseLayout>
