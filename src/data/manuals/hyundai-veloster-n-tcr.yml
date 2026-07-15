@@ -16,6 +16,19 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/hyundai-veloster-n-tcr/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      房车赛一直是全球最受欢迎的公路赛事形式之一，将易于上手的前轮驱动车辆与世界上众多传奇赛道相结合。由此呈现出的激烈贴身对抗，不仅让车手在驾驶席中乐在其中，也令看台上的车迷大呼过瘾。
+
+      Hyundai Veloster N TC 于 2019 年推出，专为现代汽车的北美车队打造，以更好地体现现代汽车在当地市场的布局。该车以开启现代品牌在当代房车赛事统治地位的 Hyundai i30 N TC 为基础，与前代车型共享大部分部件，也很快在赛道上取得相似成功。2019 年是 Veloster 首次参加 IMSA Michelin Pilot Challenge，知名车队 Bryan Herta Autosport 派出的 Veloster 赛车凭借合计四场胜利，包揽最终积分榜前两名。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Hyundai Veloster N TCR 赛车](./assets/hyundai-veloster-n-tcr/welcome-car.png)
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/welcome-hero.png)
       
@@ -31,10 +44,25 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/hyundai-veloster-n-tcr/chassis-specifications.png)
+
+      前悬架采用麦弗逊支柱结构，后悬架采用四连杆多连杆结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4600 mm / 181 in |
+      | 车宽 | 1950 mm / 77 in |
+      | 轴距 | 2650 mm / 104 in |
+      | 干重 | 1411 kg / 3112 lbs |
+      | 含车手湿重 | 1484 kg / 3272 lbs |
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/chassis-specifications.png)
       
@@ -50,7 +78,22 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/hyundai-veloster-n-tcr/power-unit.png)
+
+      涡轮增压 DOHC 四缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 2.0 升 / 122 CID |
+      | 转速上限 | 7000 RPM |
+      | 扭矩 | 330 lb-ft / 450 Nm |
+      | 功率 | 350 bhp / 260 kW |
+
+      ![车辆侧视图](./assets/hyundai-veloster-n-tcr/vehicle-profile.png)
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/power-unit.png)
       
@@ -67,13 +110,27 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/hyundai-veloster-n-tcr/getting-started.png)
+
+      启动车辆前，建议先为制动力分配调整映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶风格快速调整制动力分配。
+
+      进入车辆后，踩下离合器并挂入 1 挡。踩下油门的同时缓慢松开离合器，即可起步。
+
+      Hyundai Veloster N TCR 配有六个前进挡和一个倒挡；车辆开始行驶后，升挡和降挡均无须使用离合器。停车时需要踩下离合器以防发动机熄火，必要时挂入倒挡也需要操作离合器。升挡时，只需按下已分配的按钮选择高一挡；降挡时，按下降挡按钮选择低一挡。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/getting-started.png)
       
@@ -85,7 +142,19 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/hyundai-veloster-n-tcr/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/loading-iracing-setup.png)
       
@@ -99,13 +168,32 @@ sections:
 
   - id: dash-pages
     level: 2
+    titleZh: "仪表页面"
     titleEn: "DASH PAGES"
+    bodyZh: |+
+      Hyundai Veloster N TC 配备数字仪表显示屏，共有三个主要页面。页面会根据车辆当前状态自动切换，以便随时显示最相关的数据。
+
     bodyEn: |+
       The Hyundai Veloster N TC features a digital dash display with three main pages. Pages change automatically based on what the car is doing to display the most relevant data at any given time.
 
   - id: page-1
     level: 3
+    titleZh: "页面 1"
     titleEn: "PAGE 1"
+    bodyZh: |+
+      ![仪表页面 1](./assets/hyundai-veloster-n-tcr/dash-page-1.png)
+
+      车辆静止且处于空挡时，启用第一个显示页面。
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Gear Indicator | 屏幕中央显示当前选择的挡位（此页面为空挡）。 |
+      | Tachometer | 挡位指示周围为显示发动机转速的转速表。 |
+      | Water Temp | 屏幕左上方显示发动机冷却液温度。 |
+      | Oil Temp | 屏幕右上方显示发动机机油温度。 |
+      | Exhaust Gas Temp | 屏幕左下方显示发动机排气温度。 |
+      | Oil Pressure | 屏幕右下方显示发动机机油压力。 |
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/dash-page-1.png)
       
@@ -122,7 +210,23 @@ sections:
 
   - id: page-2
     level: 3
+    titleZh: "页面 2"
     titleEn: "PAGE 2"
+    bodyZh: |+
+      ![仪表页面 2](./assets/hyundai-veloster-n-tcr/dash-page-2.png)
+
+      车辆静止但已挂入 1 挡时，启用第二个显示页面。该页面有助于完成静止发车。
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Tachometer | 屏幕上部显示发动机转速。 |
+      | pinlet (mBar) | 屏幕中央显示当前发动机进气压力。发车前提高转速时，进气压力达到最佳起步范围后，该条会变为绿色。 |
+      | CarSpeed | 左下方黑色条显示车辆速度。 |
+      | Gear | 绿色条显示当前选择的挡位。 |
+      | Clutch | 中央红色条显示当前离合器踏板位置。 |
+      | Pedal | 第二个红色条显示当前油门踏板位置。 |
+      | tExhaust | 右下方黑色条显示排气温度。 |
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/dash-page-2.png)
       
@@ -140,7 +244,29 @@ sections:
 
   - id: page-3
     level: 3
+    titleZh: "页面 3"
     titleEn: "PAGE 3"
+    bodyZh: |+
+      ![仪表页面 3](./assets/hyundai-veloster-n-tcr/dash-page-3.png)
+
+      车辆开始行驶后，仪表会切换至第三个页面。该页面显示比赛所需信息，也是最常见的仪表页面。
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Speed | 当前车速，显示于 Hyundai Motorsport 标志上方的左上角。 |
+      | Time | 当前圈已经过的时间 |
+      | Tachometer | 屏幕上部显示发动机转速。 |
+      | tWater | 发动机冷却液温度，显示于下部区域左上方。 |
+      | pOil | 发动机机油压力，显示于左下方冷却液温度之下。 |
+      | Gear | 当前选择的挡位，显示于屏幕中央。 |
+      | timeSlip | 当前圈与本次会话最佳圈之间的圈速差。 |
+      | lastLap | 上一完整圈的圈速。 |
+      | Lap | 本次会话已完成的圈数，显示于右下方。返回维修区道路时，该数值不会重置。 |
+
+      ![维修区限速器已启用](./assets/hyundai-veloster-n-tcr/pit-limiter-active.png)
+
+      启用维修区限速器后，页面 3 的背景会由黑色变为绿色，以提示维修区限速器正在工作。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/dash-page-3.png)
       
@@ -164,16 +290,45 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
 
   - id: tires
     level: 2
+    titleZh: "轮胎"
     titleEn: "TIRES"
   - id: tire-settings
     level: 3
+    titleZh: "轮胎设置"
     titleEn: "TIRE SETTINGS"
+    bodyZh: |+
+      ![轮胎设置](./assets/hyundai-veloster-n-tcr/tire-settings.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 起始胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，但可提高抓地力。车速和负荷较高时需要更高胎压，车速和负荷较低时则通常使用较低胎压表现更好。为获得最佳性能，应根据赛道特性设置冷态胎压。
+
+      #### 上次热态胎压
+
+      车辆返回维修区后的轮胎气压。冷态与热态胎压之差可用于判断车辆在一个赛道驾驶阶段中的平衡变化；负荷较重的轮胎会产生更大的冷热胎压差。理想情况下，工作状态相近的轮胎应以相同速率增压，以免车辆的操控平衡随着轮胎使用时间而改变。因此，应调整冷态胎压，使同类轮胎达到工作温度后具有相近胎压。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，通过高温计测得的轮胎胎体温度。单轮载荷和轮胎在赛道上的工作强度会反映在胎温中，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作强度；内侧与外侧温度则可用于分析车辆在赛道上的车轮定位状态。这些数值分别在胎面上的三个区域测量。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎的剩余胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；还可结合胎温分析车辆的操控平衡。这些数值分别在胎面上的三个区域测量。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/tire-settings.png)
       
@@ -199,10 +354,59 @@ sections:
 
   - id: chassis-details
     level: 2
+    titleZh: "底盘"
     titleEn: "CHASSIS"
   - id: front
     level: 3
+    titleZh: "前部"
     titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/hyundai-veloster-n-tcr/chassis-front.png)
+
+      #### 前轴配重百分比
+
+      车库中前轴载荷占车辆总重的百分比。较高的前轴配重会在过弯时增加转向不足并提高直线稳定性；较低的前轴配重则会在过弯时增加转向过度。该数值无法直接调整，而会随燃油量等其他设置变化。
+
+      #### 对角配重
+
+      对角配重是左后轮与右前轮载荷之和占车辆总重的百分比。可通过各轮的弹簧座偏移在四个车轮之间转移载荷。最好将该数值保持在尽可能接近 50.0% 的位置，以确保左右弯中的操控特性对称。
+
+      #### 防倾杆直径
+
+      防倾杆直径设置控制前悬架的侧倾刚度。直径更大的前防倾杆会提高侧倾刚度并增加转向不足；直径更小的防倾杆则会降低悬架侧倾刚度，从而减轻转向不足。
+
+      #### 防倾杆臂长度
+
+      可通过调整防倾杆摆臂长度，在不改变防倾杆直径的情况下微调其等效刚度。较长的摆臂（数值较高）产生的等效刚度低于较短的摆臂（数值较低）。
+
+      #### 转向传动比
+
+      转向传动比是方向盘转角与前轮转角之间关系的数值，可理解为让前轮转动 1° 所需的方向盘输入角度。例如，转向传动比“10”表示需要转动方向盘 10°，才能使前轮转动 1°。较低的转向传动比会让转向感觉更灵敏、更快，达到过弯所需轮胎转角时的方向盘输入也更少。换一种说法，在方向盘输入相同的情况下，较低的转向传动比会产生更大的前轮转角。Hyundai Veloster N TC 的真实赛车设置为 10；此外还提供 14，以使转向手感更接近本组别其他车辆。
+
+      #### 总前束
+
+      从上方观察时，前束角是前轮相对于底盘中心线的夹角。该设置的正值表示正前束，负值表示负前束。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束，会因转弯时内侧轮胎滑移角增大而降低直线稳定性。这有助于提高初始转向响应，但转向角过大时也更容易使轮胎滑移过度并失去抓地力。前轮正前束会降低初始转向响应，但可减少前胎温度积聚。
+
+      #### ABS 设置
+
+      防抱死制动系统（ABS）提供五个设置，以适应不同情况。设置 1 用于干地，设置 2 用于微湿条件，设置 3 用于湿地。设置 4 适合安全车阶段，设置 5 用于紧急情况，会使系统进入“跛行”模式。该数值可通过 F8 黑框调整。
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，更多制动力传递至前轮；低于 50% 时，更多制动力传递至后轮。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。
+
+      #### 后制动比例阀
+
+      后制动比例阀设置控制传递至后轮的制动压力，可在不改变前轮制动压力的情况下调整后制动力。提高后制动比例阀数值会增加后轮制动管路压力，其效果类似于将制动力分配向后移动，但不会减少前轮制动力。降低后制动比例阀设置会减少后轮制动压力，效果类似于将制动力分配向前移动。
+
+      #### 起步转速限制
+
+      静止发车时，可提高或降低转速限制器设置，以针对不同抓地力水平优化起步。较高的限制值可避免发动机转速跌落过多，但也更容易使前轮空转。
+
+      #### 中央分流器高度
+
+      车库中会显示前分流器的离地间隙。该数值无法直接调整，但会随车库中的其他设置变化。技术检查不会对此数值进行限制，它仅用于参考车辆静止时的姿态。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/chassis-front.png)
       
@@ -252,7 +456,39 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/hyundai-veloster-n-tcr/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移进行调整。
+
+      #### 车高
+
+      地面到底盘参考点的距离。由于数值是相对于车辆上的特定参考点测量，因此未必代表车辆的实际离地间隙，但可作为车辆静止时距赛道表面高度的可靠基准。调整车高是获得最佳性能的关键，因为车高会直接影响车辆的空气动力学性能和机械抓地力。提高前车高会减少前轴下压力和整车总下压力，但会允许过弯时前轴发生更多横向载荷转移。相反，降低前车高会增加前轴及整车总下压力，但会减少前轴横向载荷转移。
+
+      #### 弹簧座偏移
+
+      弹簧座偏移通过改变弹簧在静止状态下的预载来调整车高和单轮载荷。减小数值会提高弹簧预载，增加该轮载荷并抬高该轮车高；增大数值则作用相反，会降低该轮车高和载荷。调整车高时，应成对调整这些设置（例如左右轮同步调整），或同时调整车辆全部四个弹簧预载，以避免改变对角配重。
+
+      #### 弹簧刚度
+
+      此设置决定各轮所安装弹簧的刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制提高空气动力学性能；但也会加大轮胎负荷波动，导致机械抓地力下降。赛道越颠簸，硬弹簧的缺点通常越明显，此时使用较软弹簧反而能改善整体表现。各轮弹簧的变化会同时影响平台的侧倾和俯仰控制；调整各轮弹簧刚度时，还应考虑相应调整防倾杆，以保持原有的前后侧倾刚度分配和操控平衡。降低各轮弹簧刚度时，应提高防倾杆刚度，以维持更换弹簧前的整体侧倾刚度。更改弹簧刚度后，必须调整弹簧座偏移，将车辆恢复至此前的静态车高。
+
+      #### 压缩刚度
+
+      压缩刚度影响减振器抵抗压缩（长度缩短）的程度，通常对应转向、制动、油门等车手操作及过弯力引起的底盘运动。较高的压缩刚度会减慢悬架行程并增加运动过程中的车轮负荷，但也会削弱悬架吸收颠簸的能力。降低压缩刚度有助于悬架吸收颠簸，但可能使车手感受到的底盘响应变弱。
+
+      #### 回弹刚度
+
+      回弹刚度影响减振器抵抗伸长（长度增加）的程度，通常对应车手操作引起的车身运动。较高的回弹数值会减慢减振器伸长，较低的数值则允许其更快伸长。较高的回弹数值可以更好地控制空气动力学姿态，但如果悬架无法充分伸长并维持轮胎与赛道的正常接触，也可能导致车轮卸载。回弹过强还可能使车轮在赛道表面弹跳而无法持续贴地，引发不必要的振荡。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/front-corners.png)
       
@@ -286,7 +522,39 @@ sections:
 
   - id: rear-corners
     level: 3
+    titleZh: "后轮设置"
     titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/hyundai-veloster-n-tcr/rear-corners.png)
+
+      #### 单轮载荷
+
+      显示车辆在车库中静止时各车轮承受的载荷，可用于在底盘调整过程中判断重量分布。
+
+      #### 车高
+
+      地面到底盘后部参考点的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低后车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。
+
+      #### 弹簧座偏移
+
+      弹簧座偏移通过改变弹簧在静止状态下的预载来调整车高和单轮载荷。减小数值会提高弹簧预载，增加该轮载荷并抬高该轮车高；增大数值则作用相反，会降低该轮车高和载荷。调整车高时，应成对调整这些设置（例如左右轮同步调整），或同时调整车辆全部四个弹簧预载，以避免改变对角配重。
+
+      #### 弹簧刚度
+
+      与前轴相似，较硬的弹簧可缩小高、低负荷状态间的车高变化，通过改善平台控制提高空气动力学性能，但代价是机械抓地力降低。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。提高后弹簧刚度可使用较低的静态后车高，减少低速过弯时的后轴载荷转移；同时在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。更改弹簧刚度后，必须调整弹簧座偏移，将车辆恢复至此前的静态车高。
+
+      #### 压缩刚度
+
+      压缩刚度影响减振器抵抗压缩（长度缩短）的程度，通常对应转向、制动、油门等车手操作及过弯力引起的底盘运动。较高的压缩刚度会减慢悬架行程并增加运动过程中的车轮负荷，但也会削弱悬架吸收颠簸的能力。降低压缩刚度有助于悬架吸收颠簸，但可能使车手感受到的底盘响应变弱。
+
+      #### 回弹刚度
+
+      回弹刚度影响减振器抵抗伸长（长度增加）的程度，通常对应车手操作引起的车身运动。较高的回弹数值会减慢减振器伸长，较低的数值则允许其更快伸长。较高的回弹数值可以更好地控制空气动力学姿态，但如果悬架无法充分伸长并维持轮胎与赛道的正常接触，也可能导致车轮卸载。回弹过强还可能使车轮在赛道表面弹跳而无法持续贴地，引发不必要的振荡。
+
+      #### 外倾角
+
+      与前轮一样，为提高横向抓地能力，后轮也适合采用较大的负外倾角。由于后轮不是驱动轮，且通常承受的负荷小于前轮，因此后轮使用的负外倾角一般小于前轮。增大后轮负外倾角可提高轮胎的过弯力，但也会增加磨损和热量积聚，并降低轮胎的最大制动能力。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/rear-corners.png)
       
@@ -320,7 +588,31 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/hyundai-veloster-n-tcr/chassis-rear.png)
+
+      #### 燃油量
+
+      燃油量是车辆驶离车库时油箱内的燃油量。
+
+      #### 防倾杆直径
+
+      防倾杆直径设置控制后悬架的侧倾刚度。直径更大的后防倾杆会提高侧倾刚度并增加转向过度；直径更小的防倾杆则会降低悬架侧倾刚度，从而减轻转向过度。
+
+      #### 防倾杆臂长度
+
+      可通过调整防倾杆摆臂长度，在不改变防倾杆直径的情况下微调其等效刚度。较长的摆臂（数值较高）产生的等效刚度低于较短的摆臂（数值较低）。
+
+      #### 总前束
+
+      从上方观察时，前束角是后轮相对于底盘中心线的夹角。该设置的正值表示正前束，负值表示负前束。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在后轴增加负前束会降低直线稳定性，并可能在某些情况下突然引发转向过度。后轮正前束会降低初始转向响应，但会提高直线稳定性。
+
+      #### 尾翼设置
+
+      可通过尾翼设置改变尾翼攻角。较高角度会使尾翼产生更多下压力，使空气动力学平衡向后移动，从而增加中高速弯中的转向不足，但也会增加阻力。较低角度会减少下压力，使空气动力学平衡前移，从而增加中高速弯中的转向过度，同时也会减少尾翼产生的阻力。可用角度范围为 -4.0° 至 +4.0°；但需要注意，所有角度都会产生下压力，负角度并不会产生升力。
+
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/chassis-rear.png)
       
@@ -346,13 +638,37 @@ sections:
 
   - id: setup-tips
     level: 2
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-details
     level: 3
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      “iRacing 设置”文件夹中提供以下设置：
+
+      基准 — 50 L 燃油，操控特性较为保守，适合首次驾驶本车。
+
+      湿地基准 — 50 L 燃油，针对湿地天气调整设置并安装湿地胎。
+
+      固定设置 — 25 L 燃油，适用于 15 分钟官方固定设置冲刺系列赛。
+
+      纽北固定设置 — 38 L 燃油，适用于纽博格林较长距离的固定设置比赛。
+
+      中等下压力 — 45 L 燃油，适用于半小时官方系列赛，下压力水平可应对多种赛道。
+
+      低下压力 — 45 L 燃油，适用于半小时官方系列赛，下压力水平适合代托纳或勒芒等重视降低阻力的赛道。
+
+      高下压力 — 45 L 燃油，适用于半小时官方系列赛，下压力水平适合狭窄、多弯且偏好高下压力（以及可能较少车身旋转）的赛道。
+
+      耐力 — 满箱燃油，中等下压力配置，适用于长距离耐力赛。
+
     bodyEn: |+
       The following iRacing setups are provided in the iRacing setups folder:
       
@@ -374,7 +690,20 @@ sections:
 
   - id: brake-system-settings
     level: 3
+    titleZh: "制动系统设置"
     titleEn: "BRAKE SYSTEM SETTINGS"
+    bodyZh: |+
+      本车配有制动力分配调节器，用于改变前后制动管路之间的压力平衡。
+
+      Hyundai Veloster N TCR 还配有后制动压力限制器（比例阀）。在给定踏板力下，它会减少传递至后制动器的压力，但不会影响前制动管路压力；重刹时，它还允许有效制动力分配（前制动管路压力百分比）向前移动。前轮驱动车辆的后胎静态载荷较小，重刹时后胎负荷会进一步减轻。正确调整比例阀可以避免后胎在这种情况下抱死。
+
+      较高的比例阀设置允许更高的后制动管路压力和制动力，但也存在后轮抱死的风险。比例阀每从最大值下调一挡，有效前制动管路压力占比约增加 1%。最低的比例阀设置对后制动管路压力限制最强，这会迫使前制动器承担最多工作，并延长制动距离。
+
+      应先设置制动力分配调节器，针对低、中等踏板力工况进行调校；再设置比例阀，用它微调大踏板力下的制动表现。
+
+      - 较低制动阀设置 = 重刹时有效制动力分配更靠前。
+      - 较高制动阀设置 = 重刹时有效制动力分配更靠后。
+
     bodyEn: |+
       This car has a Brake Bias Adjuster to change the pressure balance between the front and rear brake lines.
       
@@ -389,7 +718,16 @@ sections:
 
   - id: aerodynamic-adjustments
     level: 3
+    titleZh: "空气动力学调整"
     titleEn: "AERODYNAMIC ADJUSTMENTS"
+    bodyZh: |+
+      改变操控特性最简单的方法是调整尾翼设置。尾翼角度越高（越偏正值），空气动力学平衡越向后移动（车辆越趋向转向不足），阻力也越大。如果不确定某条赛道适合的尾翼配置，可先从 -2 开始，再根据需要调整为更多车身旋转（减少尾翼）或更少车身旋转（增加尾翼）。
+
+      - 尾翼更高（更偏正值）= 车身旋转更少／下压力和阻力更大
+      - 尾翼更低（更偏负值）= 车身旋转更多／下压力和阻力更小
+
+      如果希望在不改变下压力配置（尾翼设置）的情况下调整空气动力学平衡，可通过各轮的弹簧座调整改变车辆前后车高差。增大前后车高差（后部更高、前部更低）会使空气动力学平衡前移，增加车身旋转；减小前后车高差（后部更低、前部更高）会使空气动力学平衡后移，减少车身旋转。需要注意，保持较低的前分流器高度对于产生下压力和提高空气动力学效率非常重要。除极端情况外，建议调整前后车高差时保持最低前车高，仅调整后车高。
+
     bodyEn: |+
       The easiest way to make changes to the handling is to adjust the rear wing setting. A higher angle (more positive) wing setting is a more rearward aero balance (understeer) as well as more drag. A wing setting of -2 is a reasonable place to start if you are unsure of a reasonable wing trim for any given track. You may find you want more rotation (less wing) or less rotation (more wing) from there.
       
@@ -400,7 +738,24 @@ sections:
 
   - id: chassis-adjustments
     level: 3
+    titleZh: "底盘调整"
     titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      还可通过选择前后弹簧来影响动态空气动力学平衡。前部或后部使用较软弹簧，会在负荷下产生更大压缩量，使车辆该端下沉得更多（动态车高更低）；较硬弹簧则会在相同负荷下更好地支撑车辆该端。利用这些调整，可以改变车辆在赛道行驶时的动态前后车高差。
+
+      - 前后车高差更大（后部相对前部更高）= 车身旋转更多
+      - 前后车高差更小（后部相对前部更低）= 车身旋转更少
+
+      如果希望在不改变空气动力学平衡的情况下调整机械平衡，可调整前后防倾杆及防倾杆摆臂。
+
+      更大的前防倾杆／更短的防倾杆摆臂 = 车身旋转更少
+
+      更小的前防倾杆／更长的防倾杆摆臂 = 车身旋转更多
+
+      更大的后防倾杆／更短的防倾杆摆臂 = 车身旋转更多
+
+      更小的后防倾杆／更长的防倾杆摆臂 = 车身旋转更少
+
     bodyEn: |+
       It is also possible to affect the dynamic aero balance with front and rear spring selection. A softer spring at front or rear will allow more deflection under load which will let that end of the car travel more (lower ride heights) while a stiffer spring will hold up that end of the car more under the same load. You can affect the rake of the car while on track with these adjustments.
       
@@ -419,6 +774,10 @@ sections:
 
   - id: rear-alignment
     level: 3
+    titleZh: "后轮定位"
     titleEn: "REAR ALIGNMENT"
+    bodyZh: |+
+      对这辆前轮驱动车辆，预计可使用一定程度的后轮负前束，以增加车身旋转和出弯驱动力。负前束越大（数值越负），车辆在入弯和弯中的旋转越明显。较小的负前束（数值更偏正）可能更符合您的驾驶风格，也可能让车辆在当前驾驶方式、设置或赛道条件下保持更一致的旋转特性。建议对此进行尝试——这是一项效果非常显著的调整！
+
     bodyEn: |+
       It is expected you may wish to run some amount of rear toe out to increase rotation and drive off in this front wheel drive car. More toe out (negative) will result in more rotation on entry and mid corner. You may find less toe out (more positive) may suit your driving style or keep rotation more consistent for your driving, setup, or track conditions. Some experimentation is encouraged here! This can be a powerful adjustment!
