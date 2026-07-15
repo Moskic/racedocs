@@ -1,0 +1,426 @@
+slug: hyundai-elantra-n-tcr
+published: true
+titleZh: Hyundai Elantra N TCR 用户手册
+titleEn: Hyundai Elantra N TCR User Manual
+contentType: vehicle-manual
+brand: Hyundai
+vehicleClass: TCR
+platform: iRacing
+discipline: sports-car
+cover: ./assets/hyundai-elantra-n-tcr/cover.png
+source:
+  type: official
+  title: iRacing Hyundai Elantra N TCR User Manual
+  revision: V3
+  notice: Complete English transcription imported from the user-provided V3 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Hyundai Elantra N TCR! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      Touring car racing remains one of the world’s most popular forms of road racing, combining approachable front-wheel drive cars with some of the most legendary circuits on the planet. The result is an aggressive, elbows-out form of road racing that proves to be just as much fun for the drivers behind the wheel as it is to watch for the fans in the seats.
+      
+      Introduced in September 2020, Hyundai’s Elantra N TC became its latest touring car offering to customer teams around the world. Succeeding the i30 and Veloster touring cars that had made their debuts in previous seasons, the Elantra improves upon Hyundai’s existing technology with a brand new two-liter, turbocharged engine that produces 350 horsepower. The car made its IMSA Michelin Pilot Challenge debut in 2021, with Bryan Herta Autosport campaigning two cars.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/hyundai-elantra-n-tcr/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/chassis-specifications.png)
+      
+      FRONT-ENGINE, FRONT-WHEEL DRIVE WITH FRONT MCPHERSON STRUT & REAR MULTILINK SUSPENSION
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4,710mm / 185in |
+      | Width | 1,950mm / 77in |
+      | Wheelbase | 2,750mm / 108in |
+      | Dry Weight | 1434kg / 3162lbs |
+      | Wet Weight with Driver | 1506kg / 3320lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/power-unit.png)
+      
+      TURBOCHARGED DOHC 4-CYLINDER
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.0 Liters / 122CID |
+      | RPM Limit | 7000RPM |
+      | Torque | 330lb-ft / 450Nm |
+      | Power | 350bhp / 260kW |
+      
+      ![Image](./assets/hyundai-elantra-n-tcr/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias adjustment. While this is not mandatory, this will allow you to make quick changes to the brake bias to suit your driving style while on track.
+      
+      Once you load into the car, depress the clutch and select 1st gear. Slowly release the clutch while applying the throttle to drive away.
+      
+      The Hyundai Elantra N TC features six forward gears and one reverse gear, and does not require clutch use once the vehicle is in motion for upshifts or downshifts. A clutch is necessary when coming to a stop to prevent stalling the engine and shifting into reverse if necessary. To upshift, simply press the assigned button to select the next higher gear. To downshift, press the downshift button to select the next lower gear.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleEn: "DASH PAGES"
+    bodyEn: |+
+      The Hyundai Elantra N TC features a digital dash display with three main pages. Pages change automatically based on what the car is doing to display the most relevant data at any given time.
+
+  - id: page-1
+    level: 3
+    titleEn: "PAGE 1"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/dash-page-1.png)
+      
+      The first display page is active when the car is stationary and in Neutral.
+      
+      | Display | Description |
+      | --- | --- |
+      | Gear Indicator | The center of the display shows the selected gear (Neutral, for this page). |
+      | Tachometer | Surrounding the gear indicator is a tachometer displaying engine RPM. |
+      | Water Temp | The upper left of the display shows the Engine’s Water Temperature |
+      | Oil Temp | The upper right of the display shows the Engine’s Oil Temperature |
+      | Exhaust Gas Temp | The lower left of the display shows the engine’s Exhaust Gas Temperature. |
+      | Oil Pressure | The lower right of the display shows the Engine Oil Pressure. |
+
+  - id: page-2
+    level: 3
+    titleEn: "PAGE 2"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/dash-page-2.png)
+      
+      The second display page activates when the car is stationary but 1st gear is selected. This page is helpful for standing starts.
+      
+      | Display | Description |
+      | --- | --- |
+      | Tachometer | The upper part of the display shows the engine RPM. |
+      | pinlet (mBar) | The center of the display shows the current engine inlet pressure. As RPM is increased for a start, this bar will change to green when inlet pressure is optimum for a launch. |
+      | CarSpeed | The black bar in the lower left shows the vehicle’s speed. |
+      | Gear | The green bar shows the currently selected gear. |
+      | Clutch | The red bar in the center displays the current clutch pedal position. |
+      | Pedal | The second red bar displays the current throttle pedal position. |
+      | tExhaust | The black bar in the lower right displays the Exhaust Gas Temperature. |
+
+  - id: page-3
+    level: 3
+    titleEn: "PAGE 3"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/dash-page-3.png)
+      
+      Once the vehicle is moving, the dash will change to the third page. This page displays information relevant for racing, and is the most
+      
+      | Display | Description |
+      | --- | --- |
+      | Speed | Current vehicle speed is shown in the upper left above the Hyundai Motorsport logo. |
+      | Time | Time elapsed on the current lap |
+      | Tachometer | The upper part of the display shows the engine RPM. |
+      | tWater | Engine Water Temperature is shown on the upper left of the lower section. |
+      | pOil | Engine Oil Pressure is shown in the lower left, below Water Temperature. |
+      | Gear | The currently selected gear is shown in the center of the display |
+      | timeSlip | This shows the difference between the current lap and the session’s best lap |
+      | lastLap | The lap time for the previously completed lap is shown here. |
+      | Lap | The number of laps completed in the current session is shown in the lower right. This value does not reset when returning to pit road. |
+      
+      ![Image](./assets/hyundai-elantra-n-tcr/pit-limiter-active.png)
+      
+      When the pit limiter is active, Page #3 will change from black to green to show the Pit Speed Limiter is active.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires
+    level: 2
+    titleEn: "TIRES"
+  - id: tire-settings
+    level: 3
+    titleEn: "TIRE SETTINGS"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/tire-settings.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for rain and wet track conditions.
+      
+      #### STARTING PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads will require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+      
+      #### TIRE TEMPERATURES
+      
+      Tire carcass temperatures, measured via Pyrometer, once the car has returned from the pits. Wheel Loads and the amount of work a tire is doing on-track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment while on track. These values are measured in three zones across the tread of the tire.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in three zones across the tread of the tire.
+
+  - id: chassis-details
+    level: 2
+    titleEn: "CHASSIS"
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/chassis-front.png)
+      
+      #### % FRONT WEIGHT
+      
+      The percentage of total vehicle weight in the garage across the front axle. Higher Nose Weight values will induce understeer when cornering and promote straight-line stability, while lower Nose Weight values will increase oversteer while cornering. This is not directly adjustable and is altered by other adjustments, such as Fuel Level.
+      
+      #### CROSS WEIGHT
+      
+      Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the entire weight of the car, displayed in percent. This is adjusted via the corner Spring Perch Offset settings to move weight between the four wheels. It’s best to keep this value as close to 50.0% as possible to ensure symmetrical handling characteristics.
+      
+      #### ANTI-ROLL BAR DIAMETER
+      
+      The Anti-Roll Bar Diameter setting controls the roll stiffness in the front suspension. Larger front Anti-Roll Bar sizes will increase roll stiffness and induce understeer, while smaller Anti-Roll Bar sizes can reduce understeer by softening the suspension’s roll stiffness.
+      
+      #### ANTI-ROLL BAR ARM LENGTH
+      
+      The length of the Anti-Roll Bar arms can be adjusted to fine tune the effective stiffness of the bar without changing the diameter. Longer arms (higher number values) will create a softer effective stiffness than shorter arms (lower number values).
+      
+      #### STEERING RATIO
+      
+      The Steering Ratio is a numerical value relating steering wheel angle to road wheel angle. This ratio can be thought of as the degrees of driver steering input needed to produce one degree of turn of the front wheels. For example, a steering ratio of “10” can be thought of as requiring 10° of steering input to turn the wheels 1°. A steering ratio with a lower ratio will feel more responsive or faster and will require less steering input to reach the tire angle needed to navigate a corner. Another way to think about this is that for the same steering wheel input, a lower steering ratio will produce more road wheel turn. The real-world setting for the Hyundai Elantra N TC is 10, however an option of 14 is available to make the steering feel more like what is found in the other vehicles in this class.
+      
+      #### NET TOE-IN
+      
+      Toe is the angle of the front wheels, when viewed from above, relative to the centerline of the chassis. Positive values for this setting are Toe-In, negative values are Toe-out. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out is the opposite. On the front end, adding toeout will decrease straight-line stability by increasing the slip angle on the inside tire when turning. This can aid in turn-in response but can make it easier to over-slip the tire and lose grip with too much steering angle. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+      
+      #### ABS SETTING
+      
+      The Anti-Lock Brake System (ABS) can be changed to one of five settings to suit different situations. Setting 1 is used for Dry conditions, Setting 2 is for Damp conditions, and Setting 3 is for Wet conditions. Setting 4 is useful for Safety Car situations and Setting 5 is for emergencies and puts the system into “Limp” mode. This value can be adjusted via the F8 Black Box.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### REAR BRAKE VALVE
+      
+      The Rear Brake Valve setting controls the amount of braking pressure that goes to the rear wheels, allowing rear brake adjustment without altering the amount of pressure that goes to the front wheels. Increasing the Rear Brake Valve value will generate more brake line pressure to the rear wheels, producing a similar effect to reducing front brake bias, without reducing the braking force to the front wheels. Reducing the Rear Brake Valve setting will reduce brake pressure to the rear wheels, similar to shifting the brake bias forward.
+      
+      #### LAUNCH RPM LIMIT
+      
+      For standing starts, the RPM limiter can be adjusted up or down to optimize launch for different grip levels. Higher limits can prevent the engine from bogging down, but can spin the front tires more easily.
+      
+      #### CENTER SPLITTER HEIGHT
+      
+      The front splitter ground clearance is shown in the garage. This is not directly adjustable but will change based on other settings in the garage. There are no tech-inspection checks on this value and it only serves as a reference for the car’s attitude under static conditions.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### SPRING PERCH OFFSET
+      
+      Spring perch offset is used to adjust ride height and corner weight by changing the preload on the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right together, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control; however, they will also result in increased tire load variation which will manifest as a loss in mechanical grip. The drawbacks of stiffer springs will become more pronounced on rougher tracks where softer springs will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and handling balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as before the spring change. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### BUMP STIFFNESS
+      
+      Bump stiffness affects how resistant the shock is to compression (reduction in length), usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher Bump Stiffness values will slow suspension travel and increase wheel load during travel, but reduces how well the suspension can handle bumps. Reducing Bump Stiffness can help the suspension absorb bumps, but can reduce how responsive the chassis feels to the driver.
+      
+      #### REBOUND STIFFNESS
+      
+      Rebound stiffness affects how resistant the shock is to extension (increase in length), typically during body movement as a result of driver inputs. Higher rebound values will slow extension of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t extend enough to maintain proper contact with the track. Excessive rebound can also lead to unwanted oscillations caused by the wheel bouncing off of the track surface instead of staying in contact.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      This displays the weight on each wheel while sitting in the garage under static conditions. Useful for determining weight distribution during chassis adjustments.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce but will increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance, and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance
+      
+      #### SPRING PERCH OFFSET
+      
+      Spring perch offset is used to adjust ride height and corner weight by changing the preload on the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right together, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low loads and will produce better aerodynamic performance through improved platform control at the expense of mechanical grip. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. Increasing rear spring rate will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### BUMP STIFFNESS
+      
+      Bump stiffness affects how resistant the shock is to compression (reduction in length), usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher Bump Stiffness values will slow suspension travel and increase wheel load during travel, but reduces how well the suspension can handle bumps. Reducing Bump Stiffness can help the suspension absorb bumps, but can reduce how responsive the chassis feels to the driver.
+      
+      #### REBOUND STIFFNESS
+      
+      Rebound stiffness affects how resistant the shock is to extension (increase in length), typically during body movement as a result of driver inputs. Higher rebound values will slow extension of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t extend enough to maintain proper contact with the track. Excessive rebound can also lead to unwanted oscillations caused by the wheel bouncing off of the track surface instead of staying in contact.
+      
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability. Since the rear wheels are not driven and are typically under less load than the fronts, the rear tires will usually see better performance with less camber than the front tires. More rear camber will increase cornering forces from the tires as increasing wear and heat buildup, but will decrease maximum braking capacity from the tires.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      ![Image](./assets/hyundai-elantra-n-tcr/chassis-rear.png)
+      
+      #### FUEL LEVEL
+      
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+      
+      #### ANTI-ROLL BAR DIAMETER
+      
+      The Anti-Roll Bar Diameter setting controls the roll stiffness in the rear suspension. Larger rear Anti-Roll Bar sizes will increase roll stiffness and induce oversteer, while smaller Anti-Roll Bar sizes can reduce oversteer by softening the suspension’s roll stiffness.
+      
+      #### ANTI-ROLL BAR ARM LENGTH
+      
+      The length of the Anti-Roll Bar arms can be adjusted to fine tune the effective stiffness of the bar without changing the diameter. Longer arms (higher number values) will create a softer effective stiffness than shorter arms (lower number values).
+      
+      #### NET TOE-IN
+      
+      Toe is the angle of the rear wheels, when viewed from above, relative to the centerline of the chassis. Positive values for this setting are Toe-In, negative values are Toe-out. Toe-in is when the front of the wheels are closer to the centerline than the rear of the wheels, and Toe-out is the opposite. On the rear end, adding toe-out will decrease straight-line stability and can induce oversteer suddenly in some cases. Toe-in at the rear will reduce turn-in responsiveness but will increase straight-line stability.
+      
+      #### REAR WING SETTING
+      
+      The rear wing’s angle of attack can be changed via the Rear Wing Setting. Higher angles will cause the wing to produce more downforce and shift aero balance rearward, inducing understeer in mid- to high-speed corners, but will increase drag. Lower angles will reduce the amount of downforce generated and shift aero balance forward, increasing oversteer in mid- and high-speed corners, but will also reduce the amount of drag produced by the wing. Angle settings are available from -4.0° to +4.0°, however it is important to note that all angles will produce downforce, and negative angles do not produce lift.
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-details
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      The following iRacing setups are provided in the iRacing setups folder:
+      
+      Baseline - 50L fuel with conservative handling characteristics for your first time in the car.
+      
+      Baseline Wet - 50L fuel with setup adjustments and wet tires fitted for wet weather conditions.
+      
+      Fixed - 25L fuel for the 15 minute official fixed sprint series.
+      
+      Fixed Nordschleife - 38L fuel for the longer fixed race at Nürburgring.
+      
+      Medium Downforce - 45L fuel for the half hour official series with downforce levels appropriate for a variety of tracks.
+      
+      Low Downforce - 45L fuel for the half hour official series with downforce levels appropriate for tracks like Daytona or Le Mans where minimizing drag is important.
+      
+      High Downforce - 45L fuel for the half hour official series with downforce levels appropriate for tighter, twisty tracks where high levels of downforce (and possibly less rotation) is preferred.
+      
+      Endurance - Full fuel for long endurance races with a medium downforce trim.
+
+  - id: brake-system-settings
+    level: 3
+    titleEn: "BRAKE SYSTEM SETTINGS"
+    bodyEn: |+
+      This car has a Brake Bias Adjuster to change the pressure balance between the front and rear brake lines.
+      
+      The Hyundai Elantra N TCR also has a Rear Brake Pressure Limiter (Proportioning Valve), which reduces the amount of pressure going to the rear brakes (it has no effect on front line pressure) for a given pedal force input. It also allows the effective brake bias (% Front line pressure) to move forward in heavy braking conditions. Since front wheel drive cars do not have much static load on the rear tires, hard braking can result in lightly-loaded rear tires. A properly adjusted Proportioning Valve can keep the rear tires from locking in these situations.
+      
+      Higher Prop Valve settings allow more rear brake line pressure and stopping power but risk locking the rear brakes. Each Prop Valve adjustment down from the maximum increases the effective % Front line pressure by about 1%. The lowest Prop Valve setting limits rear brake line pressure the most, this forces the front brakes to do the most work and will increase stopping distances.
+      
+      Set your Brake Bias Adjuster first and tune it for low and medium pedal force situations, then set the Proportioning Valve next as a way to fine-tune high pedal force braking.
+      
+      - Lower Brake Valve Setting = Higher effective brake bias during heavy brake situations.
+      - Higher Brake Valve Setting = Lower effective brake bias during heavy brake situations.
+
+  - id: aerodynamic-adjustments
+    level: 3
+    titleEn: "AERODYNAMIC ADJUSTMENTS"
+    bodyEn: |+
+      The easiest way to make changes to the handling is to adjust the rear wing setting. A higher angle (more positive) wing setting is a more rearward aero balance (understeer) as well as more drag. A wing setting of -2 is a reasonable place to start if you are unsure of a reasonable wing trim for any given track. You may find you want more rotation (less wing) or less rotation (more wing) from there.
+      
+      - Higher Wing (More Positive) = Less Rotation / More Downforce and Drag
+      - Lower Wing (More Negative) = More Rotation / Less Downforce and Drag
+      
+      If you find you wish to change the aero balance of the car without changing your downforce trim (wing setting), you can adjust the rake of the vehicle with the spring perch adjustments on each corner of the car. More rake (higher rear, lower front) will move aero balance forward (more rotation) and less rake (lower rear, higher front) will more aero balance rearward (less rotation). It is worth noting that keeping the splitter (front) height low is important for making downforce and aero efficiency. It is recommended that when adjusting rake you adjust rear heights while keeping front heights at minimum for all but the most extreme of situations.
+
+  - id: chassis-adjustments
+    level: 3
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyEn: |+
+      It is also possible to affect the dynamic aero balance with front and rear spring selection. A softer spring at front or rear will allow more deflection under load which will let that end of the car travel more (lower ride heights) while a stiffer spring will hold up that end of the car more under the same load. You can affect the rake of the car while on track with these adjustments.
+      
+      - More Rake (Higher Rear vs Front) = More Rotation
+      - Less Rake (Lower Rear vs Front) = Less Rotation
+      
+      If you would like to change the mechanical balance without changing the aero balance the front and rear ARBs and ARB arms may be adjusted.
+      
+      Bigger Front ARB/Shorter ARB Arms = Less rotation
+      
+      Smaller Front ARB/Longer ARB Arms = More rotation
+      
+      Bigger Rear ARB/Shorter ARB Arms = More rotation
+      
+      Smaller Rear ARB/Longer ARB Arms = Less rotation
+
+  - id: rear-alignment
+    level: 3
+    titleEn: "REAR ALIGNMENT"
+    bodyEn: |+
+      It is expected you may wish to run some amount of rear toe out to increase rotation and drive off in this front wheel drive car. More toe out (negative) will result in more rotation on entry and mid corner. You may find less toe out (more positive) may suit your driving style or keep rotation more consistent for your driving, setup, or track conditions. Some experimentation is encouraged here! This can be a powerful adjustment!

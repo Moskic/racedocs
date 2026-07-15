@@ -50,7 +50,7 @@ test('accepts a valid manual', () => {
 });
 
 test('accepts supported vehicle classes', () => {
-  for (const vehicleClass of ['GT3', 'GT4', 'Cup', 'Prototype', 'Touring']) {
+  for (const vehicleClass of ['GT3', 'GT4', 'Cup', 'TCR', 'Prototype', 'Touring']) {
     const manual = validManual();
     manual.vehicleClass = vehicleClass;
     assert.equal(manualSchema.safeParse(manual).success, true);

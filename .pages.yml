@@ -59,7 +59,7 @@ content:
         type: select
         required: true
         options:
-          values: [GT3, GT4, Cup, Prototype, Touring]
+          values: [GT3, GT4, Cup, TCR, Prototype, Touring]
       - name: platform
         label: 模拟平台
         type: string
