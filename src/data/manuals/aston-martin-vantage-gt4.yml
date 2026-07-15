@@ -1,0 +1,431 @@
+slug: aston-martin-vantage-gt4
+published: true
+titleZh: Aston Martin Vantage GT4 用户手册
+titleEn: Aston Martin Vantage GT4 User Manual
+contentType: vehicle-manual
+brand: Aston Martin
+vehicleClass: GT4
+platform: iRacing
+discipline: sports-car
+cover: ./assets/aston-martin-vantage-gt4/cover.png
+source:
+  type: official
+  title: iRacing Aston Martin Vantage GT4 User Manual
+  revision: V4
+  notice: Complete English transcription imported from the user-provided V4 extraction.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the Aston Martin Vantage GT4! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      Aston Martin has long used the Vantage as its entry into GT4-spec racing, putting the car through multiple revisions and decades worth of racing history. The current-spec GT4 made its debut in the 2019 24 Hours of Nurburgring, where a factory-prepared entry took the SP8T class win by four laps. The next year, KohR Motorsports gave the Vantage GT4 its first IMSA Michelin Pilot Challenge Grand Sport championship, as drivers Kyle Marcelli and Nate Stacy scored a weekend-sweep at Mid-Ohio. Vantage GT4s remain in use with many of the top GT4 programs and events around the world.
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/aston-martin-vantage-gt4/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      FRONT DOUBLE WISHBONE AND REAR MULTI-LINK SUSPENSION.
+      
+      ![Image](./assets/aston-martin-vantage-gt4/chassis-specifications.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4520 mm / 178.0 in |
+      | Width | 1948 mm / 76.7 in |
+      | Wheelbase | 2703 mm / 106.7 in |
+      | Dry Weight | 1283 kg / 106.4 lbs |
+      | Wet Weight with Driver | 1464 kg / 3477 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      TWIN-TURBO ALUMINUM 90 DEGREE V8
+      
+      ![Image](./assets/aston-martin-vantage-gt4/power-unit.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 4.0 Liters / 244.1 cid |
+      | Torque | 425 lb-ft / 576 Nm |
+      | Power | 460 bhp / 343 kW |
+      | RPM Limit | 7175 |
+      
+      ![Image](./assets/aston-martin-vantage-gt4/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, TC and ABS settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and stability management systems to suit your driving style while out on track.
+      
+      Once you load into the car, getting started is as easy as pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal. This car uses an automated sequential transmission and does not require manual clutch operation to shift in either direction. However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear requested. If that is the case, the downshift command will simply be ignored.
+      
+      Upshifting is recommended when the shift lights on the dashboard are all fully illuminated. This is at approximately 6750 rpm.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, TC and ABS settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and stability management systems to suit your driving style while out on track. Once you load into the car, getting started is as easy as pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal.
+      
+      This car uses an automated sequential transmission and does not require manual clutch operation to shift in either direction. However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear requested. If that is the case, the downshift command will simply be ignored. Upshifting is recommended when the shift lights on the dashboard are all fully illuminated. This is at approximately 6750 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleEn: "DASH CONFIGURATION"
+    bodyEn: |+
+      The dash display in this car is adjustable and features three selectable pages to display differing levels of vehicle information.
+
+  - id: dash-page-1
+    level: 3
+    titleEn: "DASH PAGE 1"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/dash-page-1.png)
+      
+      | Lights | Description |
+      | --- | --- |
+      | Left Light Stack | Left side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a LF lockup while the lowermost two will illuminate in blue to indicate a LR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      | Right Light Stack | Right side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a RF lockup while the lowermost two will illuminate in blue to indicate a RR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      
+      | Screen | Description |
+      | --- | --- |
+      | Row 1 Left - Speed | Road speed (km/h or mph) |
+      | Row 1 Center | Currently selected gear |
+      | Row 1 Right - Best Lap | Session best lap time as mm:ss:ms |
+      | Row 2 Left - Water Temp | Engine water temperature (Celsius or Fahrenheit). |
+      | Row 2 Right - Last Lap | Last lap time as mm:ss:ms |
+      | Row 3 Left - Fuel Used | Fuel used relative to a full tank (Liters or US Gallons) |
+      | Row 3 Right - Delta | Current lap time delta to best lap as ss:ms |
+      | Row 4 Left - Pit | Pit limiter indicator, illuminates green when the pit limiter is active |
+      | Row 4 Second from left - TC | Current traction control setting |
+      | Row 4 Third from left - MAP | Current engine map setting (non-adjustable) |
+      | Row 4 Center - A/C | Current air conditioning setting (non-adjustable) |
+      | Row 4 Third from right - Wiper | Current windscreen wiper setting |
+      | Row 4 Second from right - ABS | Current ABS setting |
+      | Row 4 Right - FCY | FCY indicator |
+
+  - id: dash-page-2
+    level: 3
+    titleEn: "DASH PAGE 2"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/dash-page-2.png)
+      
+      | Lights | Description |
+      | --- | --- |
+      | Left Light Stack | Left side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a LF lockup while the lowermost two will illuminate in blue to indicate a LR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      | Right Light Stack | Right side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a RF lockup while the lowermost two will illuminate in blue to indicate a RR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      
+      | Screen | Description |
+      | --- | --- |
+      | Row 1 Left - Oil Temp | Engine oil temperature (Celsius or Fahrenheit) |
+      | Row 1 Center | Currently selected gear |
+      | Row 1 Right - Battery Voltage | Battery voltage (Volts) |
+      | Row 2 Left - Oil Pressure | Engine oil pressure (bar or psi) |
+      | Row 2 Right - Fuel Used | Fuel used relative to a full tank (Liters or US Gallons) |
+      | Row 3 Left - Water Temp | Engine water temperature (Celsius or Fahrenheit) |
+      | Row 3 Right - Gearbox Temp | Gearbox oil temperature (Celsius or Fahrenheit) |
+      | Row 4 Left - Pit | Pit limiter indicator, illuminates green when the pit limiter is active |
+      | Row 4 Second from left - TC | Current traction control setting |
+      | Row 4 Third from left - MAP | Current engine map setting (non-adjustable) |
+      | Row 4 Center - A/C | Current air conditioning setting (non-adjustable) |
+      | Row 4 Third from right - Wiper | Current windscreen wiper setting |
+      | Row 4 Second from right - ABS | Current ABS setting |
+      | Row 4 Right - FCY | FCY indicator |
+
+  - id: dash-page-3
+    level: 3
+    titleEn: "DASH PAGE 3"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/dash-page-3.png)
+      
+      | Lights | Description |
+      | --- | --- |
+      | Left Light Stack | Left side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a LF lockup while the lowermost two will illuminate in blue to indicate a LR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      | Right Light Stack | Right side wheel lockup indicators. The uppermost two will illuminate in blue to indicate a RF lockup while the lowermost two will illuminate in blue to indicate a RR lockup. The second and third lights in the stack will also flash red when the engine is stalled. |
+      
+      | Screen | Description |
+      | --- | --- |
+      | Row 1 Left - Speed | Road speed (km/h or mph) |
+      | Row 1 Center | Currently selected gear |
+      | Row 1 Right - Best Lap | Session best lap time as mm:ss:ms |
+      | Row 2 Left - Water Temp | Engine water temperature (Celsius or Fahrenheit) |
+      | Row 2 Right - Last Lap | Last lap time as mm:ss:ms |
+      | Row 3 Left | Current tire pressures LF/RF top row, LR/RR bottom row (kPa or psi) |
+      | Row 3 Right - Lap Count | Current session lap count and current lap time delta to best lap as ss:ms |
+      | Row 4 Left - Pit | Pit limiter indicator, illuminates green when the pit limiter is active |
+      | Row 4 Second from left - TC | Current traction control setting |
+      | Row 4 Third from left - MAP | Current engine map setting (non-adjustable) |
+      | Row 4 Center - A/C | Current air conditioning setting (non-adjustable) |
+      | Row 4 Third from right - Wiper | Current windscreen wiper setting |
+      | Row 4 Second from right - ABS | Current ABS setting |
+      | Row 4 Right - FCY | FCY indicator |
+
+  - id: pit-speed-limiter
+    level: 3
+    titleEn: "PIT SPEED LIMITER"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/pit-speed-limiter.png)
+      
+      When the pit limiter is active all shift lights will begin to flash in green, the ‘pit’ text will illuminate on the dashboard and the display graphics will change from yellow to green.
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/shift-lights.png)
+      
+      The shift lights illuminate from the left to right, indicating the driver should upshift when all are flashing blue. Once the RPM has passed the optimum shift point and is approaching the rev limiter, all lights will begin flashing red.
+
+  - id: traction-control
+    level: 3
+    titleEn: "TRACTION CONTROL"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/traction-control.png)
+      
+      When traction control is active, all lights in the clusters affixed to the top of the dashboard will flash in green.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-aero
+    level: 2
+    titleEn: "TIRES & AERO"
+  - id: tire-data
+    level: 3
+    titleEn: "TIRE DATA"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### STARTING PRESSURE
+      
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+      
+      #### LAST HOT PRESSURE
+      
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Hot pressures should be analyzed once the tires have stabilized after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+      
+      #### TIRE TEMPERATURES
+      
+      Tire carcass temperatures once the car has returned to the pits, measured in three zones across the tread of the tire: Inside, Middle and Outer.. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Middle temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as the temperatures.
+
+  - id: chassis-details
+    level: 2
+    titleEn: "CHASSIS"
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/chassis-front.png)
+      
+      #### ARB SETTINGS
+      
+      Increasing the ARB setting shortens the ARB arm and will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can, in some cases, lead to a more responsive steering feel for the driver. Conversely, reducing the ARB setting lengthens the ARB arm, softening the suspension in roll and increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. Along with this, the effects of softening or stiffening the ARB assembly in relation to aerodynamics should also be considered, a softer ARB configuration will result in more body roll which will decrease control of the aero platform in high speed corners and potentially lead to a loss in aero efficiency. Three ARB settings are available ranging from 1 (softest) to 3 (stiffest).
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners. Cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/in-car-dials.png)
+      
+      #### DASH DISPLAY PAGE
+      
+      Changes the currently selected digital dash page. Three options are available as previously described in the dash configuration section of this manual.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing the most modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes but allow the least modulation.
+      
+      #### ABS SETTING
+      
+      The current ABS map the car is using. Twelve positions are available: Position 1 has the least intervention/support, position 11 has the most support, and position 0 disables the ABS completely. Position 7 is the recommended baseline setting. More intervention reduces the possibility of and the duration of lockups during braking but can result in longer braking distances if the system is set overly aggressive for the amount of available grip.
+      
+      #### TRACTION CONTROL SETTING
+      
+      The position of the traction control switch determines how aggressively the ECU cuts engine torque in reaction to rear wheel spin. Twelve positions are available: Settings 1-11 range from least intervention/sensitivity (position 1) to the highest intervention/ sensitivity (position 11) while position 0 disables the traction control completely. Position 1 is the recommended baseline setting. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### FRONT RIDE HEIGHT
+      
+      Distance from the ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track under static conditions. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control. However overly stiff springs will result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### BUMP STIFFNESS
+      
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper. For the Vantage GT4, setting “0” is minimum damping (least resistance to compression) while “25” is maximum damping (most resistance to compression). Increasing the bump stiffness will result in faster weight transfer to the wheel during transient movements, such as braking and direction change, with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more bump stiffness will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
+      
+      #### REBOUND STIFFNESS
+      
+      The Rebound Stiffness setting is a paired adjustment to both low and high speed rebound damping characteristics. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. A typical low damper speed situation would be as the car rolls back to level on a corner exit while a high speed situation would be where the suspension is extending after large kerb contact. Setting “0” is minimum damping (least resistance to extension) while “18” is maximum damping (most resistance to extension). While high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface which can induce or exacerbate severe oscillations.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/rear-corners.png)
+      
+      #### REAR RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### BUMP STIFFNESS
+      
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper with identical ranges to those of the front dampers. Increasing the compression damping will result in faster weight transfer to the wheel during transient movements, such as accelerating and direction change, with increased damping usually providing an increase in response but a reduction in overall grip especially at corner exit traction in the context of rear dampers. Excessively stiff compression damping can cause very poor traction on rough tracks as it can result in large tire load variation and a reduction in overall grip.
+      
+      #### REBOUND STIFFNESS
+      
+      The rebound stiffness setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. High rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase though an increase in rebound stiffness can help to “slow down” the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
+
+  - id: rear-corners-details
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in.
+      
+      Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      ![Image](./assets/aston-martin-vantage-gt4/chassis-rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank.
+      
+      #### ARB SETTING
+      
+      Increasing the ARB assembly stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also cause the car to “take a set” more quickly at initial turn-in. Conversely, reducing the ARB assembly stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the rear especially in transient movements, but grip across the rear axle will increase. Three ARB settings are available ranging from 1 ‘soft’ to 3 ‘stiff’.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-details
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      In the iRacing Setup folder you will find several default setups to choose from:
+      
+      Baseline - 50% fuel level, the default setup when first loading the car, intentionally conservative to allow you to acclimatize to a new car or track.
+      
+      Baseline_wet - 50% fuel level, the default setup for a wet track with wet tires fitted and driver aids adjusted for wet conditions.
+      
+      Endurance - 100% fuel level, intended for most tracks where optimal wing angles will be in the 3-5 range and race lengths are at, or over, one hour in length.
+      
+      Endurance Low Downforce - 100% fuel level, intended for tracks where straight-line performance is a priority (Daytona, Le Mans, etc.) and a low wing angle is required. Fueled for race lengths at, or over, one hour in length.
+      
+      Sprint_Open - 56% fuel level, intended for most tracks in the Open Setup series where optimal wing angles are in the 3-5 range.
+      
+      Sprint_Open_Low_Downforce - 56% fuel level, intended for tracks in the Open Setup series where straight-line performance is a priority and optimal wing angles are low.
+      
+      Sprint_Fixed - 50% fuel level, intended for short sprint races and the setup used for the Fixed Setup series.
+
+  - id: chassis-adjustments
+    level: 3
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyEn: |+
+      Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
+      
+      | Field | Description |
+      | --- | --- |
+      | Stiffer front ARB | More understeer |
+      | Stiffer rear ARB | More oversteer |
+      | Lower wing setting | More oversteer, less downforce, and higher straight-line speed. |
+      | Higher wing setting | More understeer, more downforce, and lower straight-line speed. |
+      
+      In the event a setup fails tech inspection after fuel level or other changes it is likely the ride heights require adjustment. This is performed by using the Spring Perch Offset adjustments at either end of the car: Right-clicks (positive) will reduce the ride height, left-clicks (negative) will increase the ride height.
