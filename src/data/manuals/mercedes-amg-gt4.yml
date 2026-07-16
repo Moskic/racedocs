@@ -33,12 +33,31 @@ sections:
       
       ![Image](./assets/mercedes-amg-gt4/welcome-car.png)
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/welcome-hero.png)
+
+      #### 亲爱的 iRACING 用户：
+
+      恭喜您购买 Mercedes-AMG GT4！iRacing 全体成员感谢您的支持与信赖。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时尽享赛道激情！
+
+      与 GT3 级别的兄长相比，Mercedes-AMG GT4 的实力依然不容小觑。虽然采用与公路版 Mercedes-AMG GT 相近、排量较小的 4.0 升 V8 发动机，它仍能输出高达 544 马力。车辆也保留了 Mercedes 极具辨识度的设计元素，从修长而富有攻击性的车头，到让身后对手一眼认出的标志性格栅。
+
+      在 Black Falcon 与 Schnitzelalm 车队手中，它多次在 Nürburgring 24 Hours 证明实力：前两次参赛均赢得竞争激烈的 SP10 组别，并于 2021 年再添一冠。它也是 IMSA Michelin Pilot Challenge 的热门车型；2018 年，Team TGM 与车手 Hugh Plumb、Owen Trinkler 为其赢得首个锦标赛冠军，并且在参加该组别的前四个赛季中每年至少获胜一次。
+
+      本指南将说明如何充分发挥新车性能，包括如何在车库调节设置，以及驾驶时座舱内各项显示的含义。希望它能帮助您尽快掌握车辆。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![图片](./assets/mercedes-amg-gt4/welcome-car.png)
+
   - id: tech-specs
     level: 2
     titleEn: "TECH SPECS"
+    titleZh: "技术规格"
   - id: chassis
     level: 3
     titleEn: "CHASSIS"
+    titleZh: "底盘"
     bodyEn: |+
       #### FRONT AND REAR DOUBLEWISHBONE SUSPENSION
       
@@ -52,9 +71,23 @@ sections:
       | Dry Weight | 1486 kg / 3276 lbs |
       | Wet Weight with Driver | 1595 kg / 3516 lbs |
 
+    bodyZh: |+
+      #### 前后双叉臂悬架
+
+      ![图片](./assets/mercedes-amg-gt4/chassis-specifications.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4619 mm / 181.9 in |
+      | 车宽 | 1996 mm / 78.6 in |
+      | 轴距 | 2630 mm / 103.5 in |
+      | 干重 | 1486 kg / 3276 lbs |
+      | 含车手湿重 | 1595 kg / 3516 lbs |
+
   - id: power-unit
     level: 3
     titleEn: "POWER UNIT"
+    titleZh: "动力单元"
     bodyEn: |+
       TWIN-TURBO ALUMINUM 90 DEGREE V8
       
@@ -69,9 +102,24 @@ sections:
       
       ![Image](./assets/mercedes-amg-gt4/vehicle-profile.png)
 
+    bodyZh: |+
+      双涡轮增压铝制 90 度夹角 V8 发动机
+
+      ![图片](./assets/mercedes-amg-gt4/power-unit.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 4.0 L / 244.1 cid |
+      | 扭矩 | 425 lb-ft / 576 Nm |
+      | 功率 | 460 bhp / 343 kW |
+      | 转速上限 | 6875 RPM |
+
+      ![图片](./assets/mercedes-amg-gt4/vehicle-profile.png)
+
   - id: introduction
     level: 2
     titleEn: "INTRODUCTION"
+    titleZh: "简介"
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference. Before starting the car, it is recommended to map controls for Brake Bias, TC and ABS settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and stability management systems to suit your driving while out on track.
       
@@ -81,9 +129,19 @@ sections:
       
       Upshifting is recommended when all the shift lights flash red, this is at approximately 6600 rpm but will shift up or down slightly depending on the selected gear.
 
+    bodyZh: |+
+      本指南旨在帮助您深入了解车库中的底盘设置调节项目，以便按照个人偏好调校车辆。启动车辆前，建议先为制动力分配、TC 和 ABS 设置映射控制按键。这样可在赛道上根据驾驶需求快速调整制动力分配和稳定性管理系统。
+
+      进入车辆后，只需拨动“升挡”拨片挂入挡位，再踩下油门即可起步。本车采用自动化序列式变速箱，升挡和降挡均无需手动操作离合器。
+
+      如果当前车速对于目标挡位过高，降挡保护会阻止降挡，指令将被直接忽略。
+
+      建议在所有换挡指示灯闪烁红色时升挡，通常约为 6600 RPM，但会随当前挡位略有变化。
+
   - id: getting-started
     level: 3
     titleEn: "GETTING STARTED"
+    titleZh: "快速上手"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/getting-started.png)
       
@@ -91,9 +149,17 @@ sections:
       
       However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/getting-started.png)
+
+      进入座舱后，只需按下“升挡”按键挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无需踩下离合器。
+
+      不过，如果系统判断当前车速对于目标挡位过高、降挡可能损坏发动机，降挡保护会阻止此次操作，换挡指令将被直接忽略。
+
   - id: loading-an-iracing-setup
     level: 3
     titleEn: "LOADING AN iRACING SETUP"
+    titleZh: "载入 iRacing 设置"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/loading-iracing-setup.png)
       
@@ -107,15 +173,35 @@ sections:
       
       If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如需使用 iRacing 针对不同条件预制的设置，可依次点击“Garage（车库）”&gt;“iRacing Setups（iRacing 设置）”，然后选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+
+      如需保存设置供以后使用，请点击右侧的“Save As（另存为）”，为设置命名并保存更改。点击车库右侧的“My Setups（我的设置）”，即可查看所有个人保存的设置。
+
+      如需与另一位车手或会话中的所有人共享设置，可点击车库右侧的“Share（共享）”。
+
+      如果其他车手向您共享设置，也可在车库右侧的“Shared Setups（共享设置）”中找到。
+
+
   - id: dash-configuration
     level: 2
     titleEn: "DASH CONFIGURATION"
+    titleZh: "仪表配置"
     bodyEn: |+
       The dash display in this car is adjustable and features three selectable pages to display differing levels of vehicle information.
+
+    bodyZh: |+
+      本车的仪表显示可调整，共有三个可选页面，分别显示不同层级的车辆信息。
+
 
   - id: dash-page-1-configuration
     level: 3
     titleEn: "DASH PAGE 1 CONFIGURATION"
+    titleZh: "仪表页面 1 配置"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/dash-page-1-configuration.png)
       
@@ -136,9 +222,30 @@ sections:
       | Row 4 Right | Remaining fuel (Liters or US Gallons) |
       | Bottom Row | Selected dash display page |
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/dash-page-1-configuration.png)
+
+      | 显示位置 | 说明 |
+      | --- | --- |
+      | 顶行 | 发动机转速图形 |
+      | 第 2 行左侧 | 发动机冷却液温度（摄氏度或华氏度） |
+      | 第 2 行左起第二项 | 蓄电池电压（V） |
+      | 第 2 行中央 | 相对最佳圈的圈时差 |
+      | 第 2 行右侧 | 车速（km/h 或 mph） |
+      | 第 3 行左侧 | 发动机机油温度 |
+      | 第 3 行左起第二项 | 变速箱油温 |
+      | 第 3 行中央 | 当前挡位 |
+      | 第 3 行右起第三项 | 当前 ABS 映射 |
+      | 第 3 行右起第二项 | 当前牵引力控制映射 |
+      | 第 3 行右侧 | 当前发动机映射 |
+      | 第 4 行左侧 | 上一圈圈时 |
+      | 第 4 行右侧 | 剩余燃油（L 或美制 gal） |
+      | 底行 | 当前仪表页面 |
+
   - id: dash-page-2-configuration
     level: 3
     titleEn: "DASH PAGE 2 CONFIGURATION"
+    titleZh: "仪表页面 2 配置"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/dash-page-2-configuration.png)
       
@@ -160,17 +267,45 @@ sections:
       | Row 4 Right | Remaining fuel (Liters or US Gallons) |
       | Bottom Row | Selected dash display page |
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/dash-page-2-configuration.png)
+
+      | 显示位置 | 说明 |
+      | --- | --- |
+      | 顶行 | 发动机转速图形 |
+      | 第 2 行左侧 | 发动机冷却液温度 |
+      | 第 2 行左起第二项 | 蓄电池电压（V） |
+      | 第 2 行中央 | 相对最佳圈的圈时差 |
+      | 第 2 行右侧 | 车速（km/h 或 mph） |
+      | 第 3 行左侧 | 左前轮胎压（bar 或 psi） |
+      | 第 3 行左起第二项 | 右前轮胎压（bar 或 psi） |
+      | 第 3 行中央 | 当前挡位 |
+      | 第 3 行右起第三项 | 当前 ABS 映射 |
+      | 第 3 行右起第二项 | 当前牵引力控制映射 |
+      | 第 3 行右侧 | 当前发动机映射 |
+      | 第 4 行左侧 | 左后轮胎压（bar 或 psi） |
+      | 第 4 行左起第二项 | 右后轮胎压（bar 或 psi） |
+      | 第 4 行右侧 | 剩余燃油（L 或美制 gal） |
+      | 底行 | 当前仪表页面 |
+
   - id: pit-speed-limiter
     level: 3
     titleEn: "PIT SPEED LIMITER"
+    titleZh: "维修区限速器"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/pit-speed-limiter.png)
       
       When the pit limiter is active a blue bar will appear at the top of the screen specifying the current vehicle speed. This bar will be blue while under the limit and red when over. In addition to this, the shift light cluster will flash with alternating blue and yellow lights.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/pit-speed-limiter.png)
+
+      维修区限速器启用时，屏幕顶部会出现显示当前车速的横条：低于限速时为蓝色，超速时变为红色；换挡灯组还会以蓝色与黄色交替闪烁。
+
   - id: shift-lights
     level: 3
     titleEn: "SHIFT LIGHTS"
+    titleZh: "换挡提示灯"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/shift-lights.png)
       
@@ -185,18 +320,39 @@ sections:
       | 2 Red | 6430 rpm |
       | All Red Flashing | 6600 rpm |
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/shift-lights.png)
+
+      换挡指示灯由外向内依次点亮。第一盏 LED 的点亮转速随挡位变化，因此下表仅适用于 3 挡。
+
+      | 换挡指示灯 | 发动机转速 |
+      | --- | --- |
+      | 2 盏绿色 | 5790 RPM |
+      | 4 盏绿色 | 5950 RPM |
+      | 2 盏黄色 | 6110 RPM |
+      | 4 盏黄色 | 6270 RPM |
+      | 2 盏红色 | 6430 RPM |
+      | 全部红灯闪烁 | 6600 RPM |
+
   - id: advanced-setup-options
     level: 2
     titleEn: "ADVANCED SETUP OPTIONS"
+    titleZh: "高级设置选项"
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
 
   - id: tires-aero
     level: 2
     titleEn: "TIRES & AERO"
+    titleZh: "轮胎与空气动力学"
   - id: tire-data
     level: 3
     titleEn: "TIRE DATA"
+    titleZh: "轮胎数据"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/tire-data.png)
       
@@ -220,12 +376,38 @@ sections:
       
       The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，同时提升抓地力。较高的车速和负载需要更高胎压，而在车速和负载较低时，较低胎压通常表现更好。为获得最佳性能，应依据赛道特性设定冷态胎压。一般建议从较低胎压开始，再按需逐步提高。
+
+      #### 热态胎压
+
+      车辆返回维修区后的轮胎气压。冷态与热态胎压之差可用于判断车辆在一段连续行驶过程中平衡如何变化；负载较大的轮胎通常会出现更大的胎压增幅。理想情况下，工作状态相近的轮胎应以相同速率升压，以免随着轮胎使用时间增加而改变操控平衡。因此，应调整冷态胎压，使相似轮胎达到工作温度后具有相近胎压。应在轮胎经过若干圈、状态稳定后分析热态胎压。由于每段行驶的圈数会随赛道长度而变化，可将完成约半箱燃油里程时作为初步参考点。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，使用高温计测得的轮胎胎体温度。车轮负载以及轮胎在赛道上的工作量都会反映在胎温中，可据此分析车辆操控平衡。胎面中央温度适合直接比较各条轮胎的工作量；内侧和外侧温度则适合分析赛道行驶时的车轮定位状态，尤其是外倾角。数值分别取自胎面的内侧、中部和外侧三个区域。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎剩余的胎面厚度。轮胎磨损对于识别潜在的车轮定位问题非常有帮助，例如胎面一侧过度磨损；结合胎温，还可用于分析车辆操控平衡。数值取自与胎温相同的三个区域。
+
+
   - id: chassis-details
     level: 2
     titleEn: "CHASSIS"
+    titleZh: "底盘"
   - id: front
     level: 3
     titleEn: "FRONT"
+    titleZh: "前部"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/front.png)
       
@@ -245,9 +427,29 @@ sections:
       
       The percentage of total vehicle weight in the garage acting on the front corners. This cannot be adjusted per say but is influenced by the total fuel load carried. As fuel burns (or less starting fuel is specified) the nose weight of the car will increase due to the fuel tank location. This will tend to push the overall balance towards understeer. As such, this reference item can be useful in establishing how much of an adjustment to the setup is required when changing fuel load.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/front.png)
+
+      #### 横向稳定杆设置
+
+      提高设置会缩短横向稳定杆力臂、增加前悬架侧倾刚度，减少车身侧倾但加剧机械性转向不足，并可能提升转向响应。降低设置则会增加侧倾、减轻转向不足并提高前轴抓地力，但转向感会较迟缓。较软设置还会削弱高速弯中的空气动力学平台控制，可能降低气动效率。
+
+      #### 前束
+
+      从上方观察时，前束是车轮相对于底盘中心线的夹角。前轴增加外八会提高内侧轮胎滑移并降低直线稳定性；增加前束则会减少滑移并提升直线稳定性。
+
+      #### 对角重量比
+
+      右前轮与左后轮重量之和占整车总重的百分比。非椭圆赛道通常以 50.0% 为理想值。高于 50% 会使左弯更易转向不足、右弯更易转向过度，可通过各车角弹簧座偏移调整。
+
+      #### 前轴重量比
+
+      前轮所承受重量占整车总重的百分比。该数值无法直接调节，但会受燃油量影响。由于油箱位置，燃油消耗或起步燃油减少时，前轴重量比会上升，使整体平衡趋向转向不足。改变燃油量时可参考此项判断所需设置调整幅度。
+
   - id: in-car-dials
     level: 3
     titleEn: "IN-CAR DIALS"
+    titleZh: "车内旋钮"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/in-car-dials.png)
       
@@ -271,9 +473,33 @@ sections:
       
       The position of the traction control switch determines how aggressively the ecu cuts engine torque in reaction to rear wheel spin. 12 positions are available. Settings 1-11 range from least intervention/sensitivity (position 11) through to highest intervention/ sensitivity (position 1). Position 12 disables the traction control completely. Position 10 is the recommended baseline setting. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/in-car-dials.png)
+
+      #### 仪表显示页面
+
+      切换当前数字仪表页面。本手册仪表配置章节所述，共有 2 个页面可选。
+
+      #### 制动力分配
+
+      表示施加到前制动器的制动力百分比。高于 50% 会使制动平衡前移，增加前轮抱死倾向，但可能提高制动稳定性。应结合车手偏好与赛道条件调校。
+
+      #### 刹车片
+
+      “Low”摩擦力最低、制动效能较弱，但最便于细腻控制；“Medium”和“High”摩擦力及制动效能更高，但可调制性最低。
+
+      #### ABS 设置
+
+      共有 12 挡。1 挡辅助最多，11 挡介入最少，12 挡完全关闭 ABS；推荐基准为 4 挡。增加介入可减少制动抱死概率和持续时间，但若相对可用抓地力过于激进，可能延长制动距离。
+
+      #### TC 设置
+
+      决定 ECU 在后轮空转时削减发动机扭矩的积极程度。1–11 挡由 11 挡介入最少逐步增加至 1 挡介入最多，12 挡完全关闭 TC；推荐基准为 10 挡。增加介入可减少空转与后轮磨损，但过度削减扭矩会限制出弯加速并降低性能。
+
   - id: front-corners
     level: 3
     titleEn: "FRONT CORNERS"
+    titleZh: "前轮设置"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/front-corners.png)
       
@@ -297,9 +523,33 @@ sections:
       
       The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper. In this case 0 is minimum damping (least resistance to compression) while 15 is maximum damping (most resistance to compression). Increasing the bump stiffness will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more bump stiffness will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/front-corners.png)
+
+      #### 单轮重量
+
+      车辆静止时每条轮胎承受的重量。合理分配整车重量至关重要，单轮重量与对角重量比通过各车角弹簧座偏移调整。
+
+      #### 前部车身高度
+
+      地面至底盘参考点的距离。提高前部高度会减少前部及整车下压力，但允许前轴产生更多载荷转移；降低高度则会增加前部及整车下压力，同时减少前轴载荷转移。
+
+      #### 弹簧刚度
+
+      较硬弹簧可减少不同负载下的高度变化、改善气动平台控制，但会增大轮胎载荷波动并损失机械抓地力，在颠簸赛道上尤其明显。改变弹簧时应结合横向稳定杆维持前后侧倾刚度分配，并通过弹簧座偏移恢复原有静态高度。
+
+      #### 弹簧座偏移
+
+      增大偏移会降低该车角，减小偏移会抬高该车角。同轴左右应保持对称；也可按对角线成对调整以改变静态对角重量比。
+
+      #### 压缩阻尼刚度
+
+      联动控制低速和高速压缩阻尼，0 为最小、15 为最大。提高阻尼可提升入弯响应，但减少前轴整体抓地力并使路肩冲击更生硬。平整赛道通常适合较高阻尼；颠簸赛道可用较低阻尼换取机械抓地力。
+
   - id: front-corners-details
     level: 3
     titleEn: "FRONT CORNERS"
+    titleZh: "前轮设置"
     bodyEn: |+
       #### REBOUND STIFFNESS
       
@@ -309,9 +559,19 @@ sections:
       
       Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
 
+    bodyZh: |+
+      #### 回弹阻尼刚度
+
+      联动控制低速和高速回弹阻尼，0 为最小伸长阻力，12 为最大。提高回弹阻尼会减慢减振器伸长，改善气动平台与底盘响应；但回弹过慢会使轮胎失去接地，并可能引发或加剧严重振荡。
+
+      #### 外倾角
+
+      负外倾可提高轮胎横向力，但会减少制动时的纵向抓地力并加快磨损。增大前轮负外倾通常可提升中高速弯前轴抓地力，却会损失制动性能，因此需要将制动力分配适当后移补偿。
+
   - id: rear-corners
     level: 3
     titleEn: "REAR CORNERS"
+    titleZh: "后轮设置"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/rear-corners.png)
       
@@ -327,9 +587,25 @@ sections:
       
       The rebound stiffness setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase though an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/rear-corners.png)
+
+      #### 后部车身高度
+
+      提高后部高度会减少后部下压力、增加整车总下压力，并允许后轴产生更多载荷转移；降低高度会提高后部下压力占比，但减少总下压力和后轴载荷转移。应结合后弹簧匹配静态高度。
+
+      #### 压缩阻尼刚度
+
+      范围与前减振器相同。提高阻尼可提升加速和变向响应，但会降低整体抓地力，尤其是出弯牵引力；过硬会在颠簸赛道上造成明显牵引力损失。
+
+      #### 回弹阻尼刚度
+
+      范围与前减振器相同。提高阻尼会减慢减振器伸长、改善平台控制；过慢则可能使轮胎失去接地。适度提高可放慢制动时的俯仰变化并改善稳定性。
+
   - id: rear-corners-details
     level: 3
     titleEn: "REAR CORNERS"
+    titleZh: "后轮设置"
     bodyEn: |+
       #### CAMBER
       
@@ -339,9 +615,20 @@ sections:
       
       At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
 
+    bodyZh: |+
+      #### 外倾角
+
+      与前轮一样，后轮也适合采用较大的负外倾，以提升横向抓地能力；不过，后轮负外倾通常会略小于前轮。主要有两个原因：首先，后轮比前轮更宽；其次，后轮还负责驱动车辆前进，外倾角对横向抓地力的增益必须与纵向牵引性能的损失进行权衡。
+
+      #### 前束
+
+      后轴通常采用前束。增加前束可提升直线稳定性，但会降低变向响应。应尽量避免过大的前束值，因为这会增加滚动阻力并降低直线速度。调整后轮前束时，请注意后轴数值针对每个车轮单独设置，而前轴为成对调节。因此，将左右后轮前束相加后，后轴单轮设置值的影响强度是前轴组合调节值的两倍。通常建议左右前束保持一致，以避免车辆斜行或出现不对称操控；不过，在 Lime Rock Park 等高度不对称的赛道上，后轮前束及其他设置采用不对称配置可能带来性能收益。
+
+
   - id: rear
     level: 3
     titleEn: "REAR"
+    titleZh: "后部"
     bodyEn: |+
       ![Image](./assets/mercedes-amg-gt4/rear.png)
       
@@ -361,15 +648,40 @@ sections:
       
       The number of clutch faces affect how much overall force is applied to keep the differential locked. Treated as a multiplier, adding more faces produces increasingly more locking force but has no impact around zero input torque. This can be considered to be a coarse adjustment to the differential and is most impactful under true coast and wide open throttle situations.
 
+    bodyZh: |+
+      ![图片](./assets/mercedes-amg-gt4/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱中的燃油量。
+
+      #### 横向稳定杆设置
+
+      提高刚度会减少后轴侧倾但加剧机械性转向过度，并使车辆入弯时更快稳定姿态；降低刚度会增加侧倾、减轻转向过度并提高后轴抓地力，但瞬态响应会减慢。
+
+      #### 尾翼设置
+
+      增大尾翼攻角会增加总下压力和阻力，使气动平衡后移；中高速弯抓地力提高，但直线速度下降。应结合前后车身高度及前后倾角（rake）调整；增大尾翼角度时需要提高前后倾角，才能维持原有气动平衡。
+
+      #### 差速器离合片
+
+      离合摩擦面数量决定维持差速器锁止的总作用力。它相当于倍增系数：增加摩擦面会提高锁止力，但在输入扭矩接近零时没有影响。此项属于差速器的粗调，主要影响完全滑行和全油门工况。
+
   - id: setup-tips
     level: 2
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
 
   - id: setup-tips-details
     level: 3
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       In the iRacing Setup folder you will find several default setups to choose from:
       
@@ -401,9 +713,42 @@ sections:
       
       50% fuel level, intended for short sprint races and the setup used for the Fixed Setup series.
 
+    bodyZh: |+
+      在 iRacing 设置文件夹中，您可以选择以下几套默认设置：
+
+      #### BASELINE
+
+      50% 燃油量。首次载入车辆时使用的默认设置，刻意采用保守调校，便于您熟悉新车或新赛道。
+
+      #### BASELINE_WET
+
+      50% 燃油量。用于湿滑赛道的默认设置，已安装湿地胎，并针对湿地条件调整驾驶辅助系统。
+
+      #### ENDURANCE
+
+      100% 燃油量。适用于大多数最佳尾翼角度处于 3–5 挡的赛道，以及时长达到或超过一小时的比赛。
+
+      #### ENDURANCE LOW DOWNFORCE
+
+      100% 燃油量。适用于重视直线性能、需要较低尾翼角度的赛道（如 Daytona、Le Mans 等），燃油量按时长达到或超过一小时的比赛配置。
+
+      #### SPRINT_OPEN
+
+      56% 燃油量。适用于开放设置系列赛中的大多数赛道，其最佳尾翼角度通常处于 3–5 挡。
+
+      #### SPRINT_OPEN_LOW_DOWNFORCE
+
+      56% 燃油量。适用于开放设置系列赛中重视直线性能、最佳尾翼角度较低的赛道。
+
+      #### SPRINT_FIXED
+
+      50% 燃油量。适用于短程冲刺赛，也是固定设置系列赛采用的设置。
+
+
   - id: chassis-adjustments
     level: 3
     titleEn: "CHASSIS ADJUSTMENTS"
+    titleZh: "底盘调整"
     bodyEn: |+
       Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
       
@@ -416,5 +761,8 @@ sections:
       Higher wing setting - More understeer, more downforce, and lower straight-line speed.
       
       In the event a setup fails tech inspection after fuel level or other changes it is likely the ride heights require adjustment. This is performed by using the Spring Perch Offset adjustments at either end of the car: Right-clicks (positive) will reduce the ride height, left-clicks (negative) will increase the ride height.
+    bodyZh: |+
+      如需自行调校，最直接的车辆平衡调整方式是横向稳定杆或尾翼：前横向稳定杆更硬会增加转向不足；后横向稳定杆更硬会增加转向过度；降低尾翼会增加转向过度、减少下压力并提高直线速度；提高尾翼则相反。
 
+      如果改变燃油量或其他设置后未能通过技术检查，通常需要调整车身高度。右键单击弹簧座偏移（正值）会降低高度，左键单击（负值）会提高高度。
 

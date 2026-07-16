@@ -31,12 +31,29 @@ sections:
       
       ![Image](./assets/porsche-718-cayman-gt4/welcome-car.png)
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/welcome-hero.png)
+
+      #### 亲爱的 iRACING 用户：
+
+      恭喜您购买 Porsche 718 Cayman GT4！iRacing 全体成员感谢您的支持与信赖。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时尽享赛道激情！鲜有汽车制造商能像 Porsche 一样备受推崇，许多车手都不会错过驾驶其经典车型的机会。718 Cayman GT4 Clubsport 将 425 马力的 Porsche 性能与灵活、易于驾驭的 GT4 平台融为一体。
+
+      它由此成为风靡全球的赛车，从单一车型锦标赛到多组别 IMSA Michelin Pilot Challenge 均可见其身影——后者也是它在 iRacing 中的主战场。敏锐的操控和十足的驾驶乐趣，也让 718 Cayman GT4 Clubsport 深受赛道日玩家欢迎。
+
+      本指南将说明如何充分发挥新车性能，包括车库设置和驾驶时座舱显示的含义。希望它能帮助您尽快掌握车辆。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![图片](./assets/porsche-718-cayman-gt4/welcome-car.png)
+
   - id: tech-specs
     level: 2
     titleEn: "TECH SPECS"
+    titleZh: "技术规格"
   - id: chassis
     level: 3
     titleEn: "CHASSIS"
+    titleZh: "底盘"
     bodyEn: |+
       #### MID-ENGINE RWD WITH FRONT AND REAR MCPHERSON STRUT SUSPENSION
       
@@ -50,9 +67,23 @@ sections:
       | Dry Weight | 1331 kg / 2934 lbs |
       | Wet Weight with Driver | 1436 kg / 3166 lbs |
 
+    bodyZh: |+
+      #### 中置发动机后轮驱动，前后麦弗逊式悬架
+
+      ![图片](./assets/porsche-718-cayman-gt4/chassis-specifications.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4456 mm / 175.4 in |
+      | 车宽 | 1778 mm / 2476 in |
+      | 轴距 | 2476 mm / 97.5 in |
+      | 干重 | 1331 kg / 2934 lbs |
+      | 含车手湿重 | 1436 kg / 3166 lbs |
+
   - id: power-unit
     level: 3
     titleEn: "POWER UNIT"
+    titleZh: "动力单元"
     bodyEn: |+
       ALUMINUM 6 CYLINDER BOXER ENGINE
       
@@ -67,9 +98,24 @@ sections:
       
       ![Image](./assets/porsche-718-cayman-gt4/vehicle-profile.png)
 
+    bodyZh: |+
+      铝制六缸水平对置发动机
+
+      ![图片](./assets/porsche-718-cayman-gt4/power-unit.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.8 L / 231.9 cid |
+      | 扭矩 | 313 lb-ft / 425 Nm |
+      | 功率 | 425 bhp / 313 kW |
+      | 转速上限 | 7800 RPM |
+
+      ![图片](./assets/porsche-718-cayman-gt4/vehicle-profile.png)
+
   - id: introduction
     level: 2
     titleEn: "INTRODUCTION"
+    titleZh: "简介"
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference. Before starting the car, it is recommended to map controls for Brake Bias and ABS/TCS/ESC settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and stability management systems to suit your driving while out on track.
       
@@ -77,9 +123,17 @@ sections:
       
       Upshifting is recommended when the shift lights on the dashboard are all fully illuminated. This is at 7500 rpm.
 
+    bodyZh: |+
+      本指南旨在帮助您深入了解车库中的底盘设置调节项目，以便按照个人偏好调校车辆。启动车辆前，建议先为制动力分配及 ABS/TCS/ESC 设置映射控制按键，以便在赛道上快速调整制动力分配和稳定性管理系统。
+
+      进入车辆后，只需拨动“升挡”拨片挂入挡位，再踩下油门即可起步。本车采用自动化序列式变速箱，升挡和降挡均无需手动操作离合器。如果当前车速对于目标挡位过高，降挡保护会阻止降挡，指令将被直接忽略。
+
+      建议在仪表盘换挡指示灯全部亮起时升挡，对应转速为 7500 RPM。
+
   - id: getting-started
     level: 3
     titleEn: "GETTING STARTED"
+    titleZh: "快速上手"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/getting-started.png)
       
@@ -87,9 +141,17 @@ sections:
       
       However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/getting-started.png)
+
+      进入座舱后，只需按下“升挡”按键挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无需踩下离合器。
+
+      不过，如果系统判断当前车速对于目标挡位过高、降挡可能损坏发动机，降挡保护会阻止此次操作，换挡指令将被直接忽略。
+
   - id: loading-an-iracing-setup
     level: 3
     titleEn: "LOADING AN iRACING SETUP"
+    titleZh: "载入 iRacing 设置"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/loading-iracing-setup.png)
       
@@ -103,15 +165,35 @@ sections:
       
       If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如需使用 iRacing 针对不同条件预制的设置，可依次点击“Garage（车库）”&gt;“iRacing Setups（iRacing 设置）”，然后选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+
+      如需保存设置供以后使用，请点击右侧的“Save As（另存为）”，为设置命名并保存更改。点击车库右侧的“My Setups（我的设置）”，即可查看所有个人保存的设置。
+
+      如需与另一位车手或会话中的所有人共享设置，可点击车库右侧的“Share（共享）”。
+
+      如果其他车手向您共享设置，也可在车库右侧的“Shared Setups（共享设置）”中找到。
+
+
   - id: dash-configuration
     level: 2
     titleEn: "DASH CONFIGURATION"
+    titleZh: "仪表配置"
     bodyEn: |+
       The dash display in this car is non-adjustable and features a single page to display critical vehicle information.
+
+    bodyZh: |+
+      本车的仪表显示屏不可调整，只有一个页面，用于显示关键车辆信息。
+
 
   - id: dash-configuration-details
     level: 3
     titleEn: "DASH CONFIGURATION"
+    titleZh: "仪表配置"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/dash-configuration.png)
       
@@ -141,17 +223,53 @@ sections:
       | Row 7 Second from right | ESC on/off indicator |
       | Row 7 Right | Current gearbox mode: M in normal operation, P in neutral and R in reverse |
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/dash-configuration.png)
+
+      | 显示位置 | 说明 |
+      | --- | --- |
+      | 左灯组顶部两盏 LED | 成对亮黄，指示左前轮抱死 |
+      | 左灯组底部两盏 LED | 成对亮紫，指示左后轮空转 |
+      | 右灯组顶部两盏 LED | 成对亮黄，指示右前轮抱死 |
+      | 右灯组底部两盏 LED | 成对亮紫，指示右后轮空转 |
+      | 第 1 行左侧 | 实车所装轮胎，用于限速器等系统标定 |
+      | 第 1 行左起第二项 | 远光灯状态 |
+      | 第 1 行中央 | 车速（km/h 或 mph） |
+      | 第 1 行右侧 | 当前会话圈数 |
+      | 第 2 行左侧 | 发动机机油温度 |
+      | 第 2 行中央 | 当前挡位 |
+      | 第 2 行右侧 | 上一圈圈时（mm:ss:ms） |
+      | 第 3 行左侧 | 发动机机油压力（bar 或 psi） |
+      | 第 3 行右侧 | 相对会话最佳圈的圈时差（ss:ms） |
+      | 第 4 行左侧 | 发动机冷却液温度 |
+      | 第 5 行左侧 | 剩余燃油（L 或美制 gal） |
+      | 第 6 行左侧 | 相对初始值的制动力分配变化百分比及图形 |
+      | 第 6 行中央 | 按车辆方位排列的当前胎压（kPa 或 psi） |
+      | 第 7 行左侧 | 实车故障指示 |
+      | 第 7 行左起第二项 | 当前 ABS/TC/ESC 设置 |
+      | 第 7 行中央 | 当前发动机转速 |
+      | 第 7 行右起第三项 | TC 开关状态 |
+      | 第 7 行右起第二项 | ESC 开关状态 |
+      | 第 7 行右侧 | 当前变速箱模式：正常为 M，空挡为 P，倒挡为 R |
+
   - id: pit-speed-limiter
     level: 3
     titleEn: "PIT SPEED LIMITER"
+    titleZh: "维修区限速器"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/pit-speed-limiter.png)
       
       When the pit limiter is active a large green box containing the current speed and gear will fill the upper portion of the dashboard. The box will turn orange if traveling above the pit road speed limit with the limiter active.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/pit-speed-limiter.png)
+
+      维修区限速器启用时，仪表上部会显示包含当前车速和挡位的大型绿色方框；若启用限速器后车速仍超过维修区限速，方框会变为橙色。
+
   - id: shift-lights
     level: 3
     titleEn: "SHIFT LIGHTS"
+    titleZh: "换挡提示灯"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/shift-lights.png)
       
@@ -168,18 +286,41 @@ sections:
       | 1 Red | 7400 rpm |
       | All Flashing | 7500 rpm |
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/shift-lights.png)
+
+      换挡指示灯由外向内依次点亮。第一盏 LED 的点亮转速随挡位变化，因此下表仅适用于 3 挡。
+
+      | 换挡指示灯 | 发动机转速 |
+      | --- | --- |
+      | 1 盏绿色 | 6500 RPM |
+      | 2 盏绿色 | 6700 RPM |
+      | 3 盏绿色 | 6900 RPM |
+      | 1 盏黄色 | 7100 RPM |
+      | 2 盏黄色 | 7200 RPM |
+      | 3 盏黄色 | 7300 RPM |
+      | 1 盏红色 | 7400 RPM |
+      | 全部闪烁 | 7500 RPM |
+
   - id: advanced-setup-options
     level: 2
     titleEn: "ADVANCED SETUP OPTIONS"
+    titleZh: "高级设置选项"
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
 
   - id: tires-aero
     level: 2
     titleEn: "TIRES & AERO"
+    titleZh: "轮胎与空气动力学"
   - id: tire-data
     level: 3
     titleEn: "TIRE DATA"
+    titleZh: "轮胎数据"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/tire-data.png)
       
@@ -203,12 +344,38 @@ sections:
       
       The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，同时提升抓地力。较高的车速和负载需要更高胎压，而在车速和负载较低时，较低胎压通常表现更好。为获得最佳性能，应依据赛道特性设定冷态胎压。一般建议从较低胎压开始，再按需逐步提高。
+
+      #### 热态胎压
+
+      车辆返回维修区后的轮胎气压。冷态与热态胎压之差可用于判断车辆在一段连续行驶过程中平衡如何变化；负载较大的轮胎通常会出现更大的胎压增幅。理想情况下，工作状态相近的轮胎应以相同速率升压，以免随着轮胎使用时间增加而改变操控平衡。因此，应调整冷态胎压，使相似轮胎达到工作温度后具有相近胎压。应在轮胎经过若干圈、状态稳定后分析热态胎压。由于每段行驶的圈数会随赛道长度而变化，可将完成约半箱燃油里程时作为初步参考点。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，使用高温计测得的轮胎胎体温度。车轮负载以及轮胎在赛道上的工作量都会反映在胎温中，可据此分析车辆操控平衡。胎面中央温度适合直接比较各条轮胎的工作量；内侧和外侧温度则适合分析赛道行驶时的车轮定位状态，尤其是外倾角。数值分别取自胎面的内侧、中部和外侧三个区域。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎剩余的胎面厚度。轮胎磨损对于识别潜在的车轮定位问题非常有帮助，例如胎面一侧过度磨损；结合胎温，还可用于分析车辆操控平衡。数值取自与胎温相同的三个区域。
+
+
   - id: chassis-details
     level: 2
     titleEn: "CHASSIS"
+    titleZh: "底盘"
   - id: front
     level: 3
     titleEn: "FRONT"
+    titleZh: "前部"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/front.png)
       
@@ -224,9 +391,25 @@ sections:
       
       The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/front.png)
+
+      #### 横向稳定杆设置
+
+      提高设置会缩短横向稳定杆力臂、增加前悬架侧倾刚度，减少车身侧倾但加剧机械性转向不足，并可能提升转向响应。降低设置则会增加侧倾、减轻转向不足并提高前轴抓地力，但可能削弱高速弯中的空气动力学平台控制。
+
+      #### 前束
+
+      从上方观察时，车轮前缘更靠近中心线称为前束，反之称为外八。前轴增加外八会提高内侧轮胎滑移并降低直线稳定性；增加前束则会减少滑移并提升直线稳定性。
+
+      #### 对角重量比
+
+      右前轮与左后轮重量之和占整车总重的百分比。非椭圆赛道通常以 50.0% 为理想值。高于 50% 会使左弯更易转向不足、右弯更易转向过度，可通过弹簧座偏移调整。
+
   - id: in-car-dials
     level: 3
     titleEn: "IN-CAR DIALS"
+    titleZh: "车内旋钮"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/in-car-dials.png)
       
@@ -242,9 +425,25 @@ sections:
       
       This option provides a combined control for the traction control (TC) and ABS (Anti-Lock Braking System). Positions 1 to 11 offer increasing levels of TC and ABS intervention/sensitivity with 11 providing the most assistance and 1 providing the least assistance. Position 0 disables both the TC and ABS.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/in-car-dials.png)
+
+      #### 制动力分配
+
+      表示施加到前制动器的制动力百分比。高于 50% 会使制动平衡前移，增加前轮抱死倾向，但可能提高制动稳定性。应结合车手偏好和赛道条件调校。
+
+      #### 刹车片
+
+      “Low”摩擦力最低、制动效能较弱，但最便于细腻控制；“Medium”和“High”摩擦力及制动效能更高，但可调制性最低。
+
+      #### ABS/TC/ESC 设置
+
+      此选项联动控制 TC 和 ABS。1–11 挡的介入程度逐级增加，11 挡辅助最多、1 挡辅助最少；0 挡同时关闭 TC 和 ABS。
+
   - id: front-corners
     level: 3
     titleEn: "FRONT CORNERS"
+    titleZh: "前轮设置"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/front-corners.png)
       
@@ -264,9 +463,29 @@ sections:
       
       The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper. In this case 0 is minimum damping (least resistance to compression) while 18 is maximum damping (most resistance to compression). Increasing the bump stiffness will result in a faster transfer of weight to this corner of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more bump stiffness will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/front-corners.png)
+
+      #### 单轮重量
+
+      车辆静止时每条轮胎承受的重量。单轮重量与对角重量比通过各车角弹簧座偏移调整。
+
+      #### 前部车身高度
+
+      地面至底盘参考点的距离。提高前部高度会减少前部及整车下压力，但允许前轴产生更多载荷转移；降低高度则会增加前部及整车下压力，同时减少前轴载荷转移。
+
+      #### 弹簧座偏移
+
+      增大偏移会降低该车角，减小偏移会抬高该车角。同轴左右应保持对称；也可按对角线成对调整以改变静态对角重量比。
+
+      #### 压缩阻尼刚度
+
+      联动控制低速和高速压缩阻尼，0 为最小、18 为最大。提高阻尼通常可提升入弯响应，但会减少前轴整体抓地力并使路肩冲击更生硬。平整赛道适合较高阻尼；颠簸赛道可用较低阻尼换取机械抓地力。
+
   - id: front-corners-details
     level: 3
     titleEn: "FRONT CORNERS"
+    titleZh: "前轮设置"
     bodyEn: |+
       #### REBOUND STIFFNESS
       
@@ -276,9 +495,20 @@ sections:
       
       Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
 
+    bodyZh: |+
+      #### 回弹阻尼刚度
+
+      回弹阻尼刚度为联动设置，同时控制低速和高速回弹阻尼特性。提高回弹阻尼会减慢减振器在低速及高速工况下的伸长速度。典型低速工况是车辆出弯后由侧倾状态恢复水平；高速工况则包括悬架在猛烈碾压路肩后伸长。0 表示最小阻尼（伸长阻力最小），18 表示最大阻尼（伸长阻力最大）。较高回弹阻尼可加强空气动力学平台控制和底盘响应，但必须避免减振器回弹过慢，否则轮胎可能完全脱离赛道表面，引发或加剧严重振荡。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，顶部比底部更远离中心线称为正外倾。受悬架几何和过弯载荷影响，四个车轮均需要采用负外倾。增大负外倾可提高轮胎产生的横向力，但会减少制动时的纵向抓地力。外倾角过大虽可能带来很高的过弯能力，却会显著缩短轮胎寿命，因此必须在性能与耐久性之间取得平衡。增大前轮负外倾通常可提升中高速弯中的前轴抓地力，但会损失制动性能，因此需要将制动力分配适当后移予以补偿。
+
+
   - id: rear-corners
     level: 3
     titleEn: "REAR CORNERS"
+    titleZh: "后轮设置"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/rear-corners.png)
       
@@ -294,9 +524,25 @@ sections:
       
       The rebound stiffness setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase though an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/rear-corners.png)
+
+      #### 后部车身高度
+
+      提高后部高度会减少后部下压力、增加整车总下压力，并允许后轴产生更多载荷转移；降低高度会提高后部下压力占比，但减少总下压力和后轴载荷转移。
+
+      #### 压缩阻尼刚度
+
+      范围与前减振器相同。提高阻尼可提升加速和变向响应，但会降低整体抓地力，尤其是出弯牵引力；过硬会在颠簸赛道上造成明显牵引力损失。
+
+      #### 回弹阻尼刚度
+
+      范围与前减振器相同。提高阻尼会减慢减振器伸长、改善平台控制；过慢则可能使轮胎失去接地。适度提高可放慢制动时的俯仰变化并改善稳定性。
+
   - id: rear-corners-details
     level: 3
     titleEn: "REAR CORNERS"
+    titleZh: "后轮设置"
     bodyEn: |+
       #### CAMBER
       
@@ -306,9 +552,20 @@ sections:
       
       At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
 
+    bodyZh: |+
+      #### 外倾角
+
+      与前轮一样，后轮也适合采用较大的负外倾，以提升横向抓地能力；不过，后轮负外倾通常会略小于前轮。主要有两个原因：首先，后轮比前轮更宽；其次，后轮还负责驱动车辆前进，外倾角对横向抓地力的增益必须与纵向牵引性能的损失进行权衡。
+
+      #### 前束
+
+      后轴通常采用前束。增加前束可提升直线稳定性，但会降低变向响应。应尽量避免过大的前束值，因为这会增加滚动阻力并降低直线速度。调整后轮前束时，请注意后轴数值针对每个车轮单独设置，而前轴为成对调节。因此，将左右后轮前束相加后，后轴单轮设置值的影响强度是前轴组合调节值的两倍。通常建议左右前束保持一致，以避免车辆斜行或出现不对称操控；不过，在 Lime Rock Park 等高度不对称的赛道上，后轮前束及其他设置采用不对称配置可能带来性能收益。
+
+
   - id: rear
     level: 3
     titleEn: "REAR"
+    titleZh: "后部"
     bodyEn: |+
       ![Image](./assets/porsche-718-cayman-gt4/rear.png)
       
@@ -324,15 +581,36 @@ sections:
       
       The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
 
+    bodyZh: |+
+      ![图片](./assets/porsche-718-cayman-gt4/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱中的燃油量。
+
+      #### 横向稳定杆叶片
+
+      提高刚度会减少后轴侧倾但加剧机械性转向过度，并使车辆入弯时更快稳定姿态；降低刚度会增加侧倾、减轻转向过度并提高后轴抓地力，但瞬态响应会减慢。共有 7 挡，1 为“软”，7 为“硬”。
+
+      #### 尾翼设置
+
+      增大尾翼攻角会增加总下压力和阻力，使气动平衡后移；中高速弯抓地力提高，但直线速度下降。应结合前后车身高度及前后倾角（rake）调整；增大尾翼角度时需提高前后倾角以维持气动平衡。
+
   - id: setup-tips
     level: 2
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
 
   - id: setup-tips-details
     level: 3
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       In the iRacing Setup folder you will find several default setups to choose from:
       
@@ -364,9 +642,42 @@ sections:
       
       50% fuel level, intended for short sprint races and the setup used for the Fixed Setup series.
 
+    bodyZh: |+
+      在 iRacing 设置文件夹中，您可以选择以下几套默认设置：
+
+      #### BASELINE
+
+      50% 燃油量。首次载入车辆时使用的默认设置，刻意采用保守调校，便于您熟悉新车或新赛道。
+
+      #### BASELINE_WET
+
+      50% 燃油量。用于湿滑赛道的默认设置，已安装湿地胎，并针对湿地条件调整驾驶辅助系统。
+
+      #### ENDURANCE
+
+      100% 燃油量。适用于大多数最佳尾翼角度处于 3–5 挡的赛道，以及时长达到或超过一小时的比赛。
+
+      #### ENDURANCE LOW DOWNFORCE
+
+      100% 燃油量。适用于重视直线性能、需要较低尾翼角度的赛道（如 Daytona、Le Mans 等），燃油量按时长达到或超过一小时的比赛配置。
+
+      #### SPRINT_OPEN
+
+      56% 燃油量。适用于开放设置系列赛中的大多数赛道，其最佳尾翼角度通常处于 3–5 挡。
+
+      #### SPRINT_OPEN_LOW_DOWNFORCE
+
+      56% 燃油量。适用于开放设置系列赛中重视直线性能、最佳尾翼角度较低的赛道。
+
+      #### SPRINT_FIXED
+
+      50% 燃油量。适用于短程冲刺赛，也是固定设置系列赛采用的设置。
+
+
   - id: chassis-adjustments
     level: 3
     titleEn: "CHASSIS ADJUSTMENTS"
+    titleZh: "底盘调整"
     bodyEn: |+
       Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
       
@@ -379,5 +690,8 @@ sections:
       Higher wing setting - More understeer, more downforce, and lower straight-line speed.
       
       In the event a setup fails tech inspection after fuel level or other changes it is likely the ride heights require adjustment. This is performed by using the Spring Perch Offset adjustments at either end of the car: Right-clicks (positive) will reduce the ride height, left-clicks (negative) will increase the ride height.
+    bodyZh: |+
+      如需自行调校，最直接的车辆平衡调整方式是横向稳定杆或尾翼：前横向稳定杆更硬会增加转向不足；后横向稳定杆更硬会增加转向过度；降低尾翼会增加转向过度、减少下压力并提高直线速度；提高尾翼则相反。
 
+      如果改变燃油量或其他设置后未能通过技术检查，通常需要调整车身高度。右键单击弹簧座偏移（正值）会降低高度，左键单击（负值）会提高高度。
 

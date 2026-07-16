@@ -29,13 +29,28 @@ sections:
       
       ![Image](./assets/bmw-m4-g82-gt4/welcome-car.png)
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/welcome-hero.png)
+
+      #### 亲爱的 iRACING 用户：
+
+      恭喜您购买 BMW M4 G82 GT4！iRacing 全体成员衷心感谢您的支持与信赖。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时尽享赛道激情！
+
+      本指南将说明如何充分发挥新车性能，包括如何在车库中调整车辆设置，以及驾驶时座舱内各项显示的含义。希望它能帮助您尽快掌握车辆。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![图片](./assets/bmw-m4-g82-gt4/welcome-car.png)
+
   - id: tech-specs
     level: 2
     titleEn: "TECH SPECS"
+    titleZh: "技术规格"
 
   - id: chassis
     level: 3
     titleEn: "CHASSIS"
+    titleZh: "底盘"
     bodyEn: |+
       #### FULLY ADJUSTABLE INDEPENDENT FRONT AND REAR SUSPENSION.
       
@@ -49,9 +64,23 @@ sections:
       | Dry Weight | 1532 kg / 3377 lbs |
       | Wet Weight with Driver | 1642 kg / 3621 lbs |
 
+    bodyZh: |+
+      #### 前后全独立悬架，均可全面调校
+
+      ![图片](./assets/bmw-m4-g82-gt4/chassis-specifications.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4863 mm / 191.5 in |
+      | 车宽 | 2093 mm / 82.4 in |
+      | 轴距 | 2857 mm / 112.4 in |
+      | 干重 | 1532 kg / 3377 lbs |
+      | 含车手湿重 | 1642 kg / 3621 lbs |
+
   - id: power-unit
     level: 3
     titleEn: "POWER UNIT"
+    titleZh: "动力单元"
     bodyEn: |+
       SIX-CYLINDER IN-LINE WITH M TWINPOWER TURBO TECHNOLOGY
       
@@ -66,9 +95,24 @@ sections:
       
       ![Image](./assets/bmw-m4-g82-gt4/vehicle-profile.png)
 
+    bodyZh: |+
+      采用 M TWINPOWER TURBO 技术的直列六缸发动机
+
+      ![图片](./assets/bmw-m4-g82-gt4/power-unit.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.0 L / 183 cid |
+      | 扭矩 | 480 lb-ft / 650 Nm |
+      | 功率 | 530 bhp / 395 kW |
+      | 转速上限 | 7450 RPM |
+
+      ![图片](./assets/bmw-m4-g82-gt4/vehicle-profile.png)
+
   - id: introduction
     level: 2
     titleEn: "INTRODUCTION"
+    titleZh: "简介"
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
       
@@ -78,9 +122,19 @@ sections:
       
       Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
 
+    bodyZh: |+
+      本指南旨在帮助您深入了解车库中可用的底盘设置调节项目，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们针对这些赛车常用的各条赛道提供了基准设置。
+
+      如需载入基准设置，只需打开“Garage（车库）”，点击“iRacing Setups（iRacing 设置）”，再选择适合目标赛道的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。选好设置后，请上赛道专注于平顺且稳定地完成多圈，确认正确赛车线，并观察轮胎磨损和操控趋势。
+
+      当您确信使用内置基准设置已接近自身驾驶极限后，即可继续阅读，并按照个人操控偏好开始调校车辆。
+
   - id: getting-started
     level: 3
     titleEn: "GETTING STARTED"
+    titleZh: "快速上手"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/getting-started.png)
       
@@ -90,9 +144,19 @@ sections:
       
       Upshifting is recommended when the shift lights on the dashboard are fully illuminated in red.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/getting-started.png)
+
+      启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调节映射控制按键。虽然驾驶车辆并非必须这样做，但可让您在赛道上根据驾驶风格快速调整驾驶辅助系统。
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门即可起步。本车采用序列式变速箱，升挡和降挡均无需踩下离合器。如果系统判断当前车速对于所选挡位过高、降挡会损坏发动机，降挡保护会阻止操作，换挡指令将被直接忽略。
+
+      建议在仪表盘换挡指示灯全部亮红时升挡。
+
   - id: loading-an-iracing-setup
     level: 3
     titleEn: "LOADING AN iRACING SETUP"
+    titleZh: "载入 iRacing 设置"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/loading-iracing-setup.png)
       
@@ -104,15 +168,29 @@ sections:
       
       If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如需使用 iRacing 针对不同条件预制的设置，可依次点击“Garage（车库）”&gt;“iRacing Setups（iRacing 设置）”，然后选择符合需求的设置。
+
+      如需自定义设置，请在车库中完成调整并点击“Apply（应用）”。如需保存设置供以后使用，请点击右侧“Save As（另存为）”并命名；点击“My Setups（我的设置）”即可访问个人设置。
+
+      如需与另一位车手或会话中所有人共享设置，可点击右侧“Share（共享）”。其他车手共享给您的设置则位于“Shared Setups（共享设置）”中。
+
   - id: dash-pages
     level: 2
     titleEn: "DASH PAGES"
+    titleZh: "仪表页面"
     bodyEn: |+
       The dash display in this car is adjustable and features two selectable pages to display differing levels of vehicle information.
+
+    bodyZh: |+
+      本车仪表显示可调，共有两个页面可选，用于显示不同层级的车辆信息。
 
   - id: dash-page-1-configuration
     level: 3
     titleEn: "DASH PAGE 1 CONFIGURATION"
+    titleZh: "仪表页面 1 配置"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/dash-page-1-configuration.png)
       
@@ -146,9 +224,43 @@ sections:
       | Lap | Number of laps completed since leaving the pits |
       | Min | Session minutes that have transpired |
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/dash-page-1-configuration.png)
+
+      | 左侧信息组 | 说明 |
+      | --- | --- |
+      | 轮胎压力 | 左上信息组显示当前胎压（bar 或 PSI） |
+      | DSC 系统设置 | 胎压下方信息组左上框显示 DSC 设置 |
+      | 牵引力控制设置 | 适用时，DSC 旁显示 TC 设置。仅当 DSC 为“Off”或“TC”时显示：Off 时以红框指示 TC 已关闭；TC 模式下显示当前 TC 数值 |
+      | ABS 状态 | 根据当前 DSC 设置显示 ABS 为 On 或 Off |
+      | 油门设置 | DSC 设置下方显示当前油门响应设置 |
+      | SPD | 未使用 |
+      | LT | 未使用 |
+      | TMOT | 发动机冷却系统温度（°C 或 °F） |
+      | TOIL | 发动机机油温度（°C 或 °F） |
+      | TGEAR | 变速箱油温（°C 或 °F） |
+      | TDIFF | 后差速器油温（°C 或 °F） |
+
+      | 中央信息组 | 说明 |
+      | --- | --- |
+      | 挡位 | 显示屏中央显示当前挡位 |
+      | 车速 | 挡位下方显示当前车速（km/h 或 mph） |
+      | 已用燃油 | 离开维修区后消耗的燃油量（L 或 gal） |
+
+      | 右侧信息组 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速表（RPM） |
+      | 制动平衡 | 当前前轴制动力分配百分比 |
+      | pBrakeF | 其中一套前制动系统的管路压力，并非两侧之和；单位为 bar 或 PSI，使用 PSI 时仅显示末三位 |
+      | 圈时差 | 当前圈相对会话最佳圈的实时差值 |
+      | 圈时 | 上一完整圈圈时；完成一圈后，此框会暂时扩展显示完整圈时，再恢复正常尺寸 |
+      | 圈数 | 离开维修区后完成的圈数 |
+      | 分钟 | 当前会话已经过的分钟数 |
+
   - id: dash-page-2-configuration
     level: 3
     titleEn: "DASH PAGE 2 CONFIGURATION"
+    titleZh: "仪表页面 2 配置"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/dash-page-2-configuration.png)
       
@@ -160,51 +272,95 @@ sections:
       
       Live estimate for the current lap’s time
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/dash-page-2-configuration.png)
+
+      页面 2 会将轮胎压力信息区替换为圈时信息：
+
+      **最快圈时间**
+
+      当前会话的最快圈速。
+
+      **预测圈时**
+
+      当前圈最终用时的实时预测值。
+
   - id: shift-lights
     level: 3
     titleEn: "SHIFT LIGHTS"
+    titleZh: "换挡提示灯"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/shift-lights.png)
       
       LED lights at the top of the digital display will illuminate from the outer lights inward as RPM increases. Shifting is recommended when the center red lights have illuminated.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/shift-lights.png)
+
+      随着发动机转速升高，数字仪表顶部的 LED 会由外向内依次点亮。建议在中央红灯亮起时升挡。
+
   - id: tc-active-lights
     level: 3
     titleEn: "TC ACTIVE LIGHTS"
+    titleZh: "TC 作动指示灯"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/tc-active-lights.png)
       
       Two amber lights on either side of the digital display will illuminate whenever the Traction Control system is active and attempting to prevent wheelspin.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/tc-active-lights.png)
+
+      牵引力控制系统介入并尝试抑制车轮空转时，数字仪表两侧的两盏琥珀色指示灯会点亮。
+
   - id: pit-limiter
     level: 3
     titleEn: "PIT LIMITER"
+    titleZh: "维修区限速器"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/pit-limiter.png)
       
       Whenever the pit limiter is active, the outermost shift lights will light up in a magenta color and the Lap Time box in the lower right will switch to a Pit Time box, displaying the amount of time spent in the pit box for a stop.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/pit-limiter.png)
+
+      维修区限速器启用时，最外侧换挡灯会亮起洋红色，右下角的“Lap Time（圈时）”框会切换为“Pit Time（维修时间）”框，显示停车期间在维修位内停留的时间。
+
   - id: abs-active-lights
     level: 3
     titleEn: "ABS ACTIVE LIGHTS"
+    titleZh: "ABS 作动指示灯"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/abs-active-lights.png)
       
       Blue LED lights on each side of the display will illuminate whenever the Anti-Lock Brake system is intervening to prevent a wheel lockup.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/abs-active-lights.png)
+
+      防抱死制动系统介入以防车轮抱死时，显示屏两侧的蓝色 LED 会点亮。
+
   - id: advanced-setup-options
     level: 2
     titleEn: "ADVANCED SETUP OPTIONS"
+    titleZh: "高级设置选项"
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
 
   - id: tires-aero
     level: 2
     titleEn: "TIRES & AERO"
+    titleZh: "轮胎与空气动力学"
 
   - id: tire-data
     level: 3
     titleEn: "TIRE DATA"
+    titleZh: "轮胎数据"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/tire-data.png)
       
@@ -228,13 +384,39 @@ sections:
       
       The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
 
+    bodyZh: |+
+      ![轮胎数据](./assets/bmw-m4-g82-gt4/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压／起始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但滚动阻力更大，升温也更快。较高胎压会让车辆响应略微更灵敏、滚动阻力更小，但抓地力也会降低。通常，高速赛道更适合较高胎压；在更重视机械抓地力的低速赛道，较低胎压往往表现更好。
+
+      #### 上次热态胎压
+
+      车辆完成一个赛道驾驶阶段返回车库后，轮胎压力会显示为热态胎压。冷态与热态胎压之差能很好地反映轮胎在赛道上的负荷和工作强度。承受更多负荷的轮胎会产生更大的压力增幅；留意各条轮胎的压力增幅，并通过调整冷态胎压进行补偿，对优化轮胎性能至关重要。
+
+      #### 上次胎温
+
+      车辆返回车库后会显示轮胎胎体温度（在胎面内部测量）。这些温度能有效判断各条轮胎在赛道上承受的工作量或负荷。内侧与外侧温度之差可用于调整单个车轮的定位参数；中央温度与两侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎面厚度
+
+      胎温下方显示轮胎剩余胎面厚度，以新胎的百分比表示。这些数值有助于判断一套轮胎在更换前还能使用多久，但不像温度那样能直接反映轮胎负荷不足或过度工作的状态。
+
+
   - id: chassis-details
     level: 2
     titleEn: "CHASSIS"
+    titleZh: "底盘"
 
   - id: front
     level: 3
     titleEn: "FRONT"
+    titleZh: "前部"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/front.png)
       
@@ -254,9 +436,29 @@ sections:
       
       The percentage of total vehicle weight in the garage across the front axle. Higher Nose Weight values will induce understeer when cornering and promote straight-line stability, while lower Nose Weight values will increase oversteer while cornering. This is not directly adjustable and is altered by other adjustments, such as Fuel Level.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/front.png)
+
+      #### 横向稳定杆设置
+
+      可在车库中通过此项微调前悬架横向稳定杆刚度。共有 5 挡，1 最软、5 最硬。较硬设置会增加转向不足并提高高速弯稳定性；较软设置会减轻转向不足。驾驶过程中不可调整。
+
+      #### 前束
+
+      从上方观察时，前束是车轮相对于底盘中心线的夹角。车轮前缘更靠近中心线称为前束，反之称为外八。前轴增加外八（负值）会提高内侧轮胎滑移并降低直线稳定性；增加前束则会减少滑移并提升直线稳定性。
+
+      #### 对角重量比
+
+      右前轮与左后轮重量之和占整车总重的百分比。非椭圆赛道通常以 50.0% 为理想值，可在其他设置对称时获得左右弯一致的操控。高于 50% 会使左弯更易转向不足、右弯更易转向过度；低于 50% 则相反。可通过各车角的弹簧座偏移进行调整。
+
+      #### 前轴重量比
+
+      前轴承受重量占整车总重的百分比。数值较高会增加过弯转向不足并提升直线稳定性，较低则会增加过弯转向过度。此项无法直接调节，会随燃油量等其他设置变化。
+
   - id: in-car-dials
     level: 3
     titleEn: "IN-CAR DIALS"
+    titleZh: "车内旋钮"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/in-car-dials.png)
       
@@ -284,9 +486,37 @@ sections:
       
       The Throttle Setting will adjust how linear the power delivery is based on the throttle pedal position. The Dry setting will produce a digressive response curve with more initial power at low pedal travel, becoming less sensitive at high amounts of pedal travel. The Wet setting will be more progressive, with less power delivery at low pedal travel. Linear will be a consistent power application through the full pedal range.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/in-car-dials.png)
+
+      #### 仪表显示页面
+
+      切换当前数字仪表页面。本手册仪表配置章节所述，共有两个页面可选。
+
+      #### 制动力分配
+
+      表示施加到前制动器的制动力百分比。高于 50% 会使制动平衡前移，增加前轮抱死倾向，但可能提高制动区稳定性。应结合车手偏好和赛道条件调校，以获得最佳制动表现。
+
+      #### 刹车片
+
+      可通过刹车片材质改变制动性能。“Low”摩擦力最低、制动效能较弱，但最便于细腻控制；“Medium”和“High”摩擦力及制动效能更高，但可调制性最低。
+
+      #### DSC 设置
+
+      BMW 动态稳定控制（DSC）会监测四条轮胎的抓地状态，并在检测到车轮空转或侧滑时削减传至车轮的动力与扭矩，使车辆保持受控。共有 Off、On、MDM 和 TC 四种模式。Off 与 On 分别完全关闭或启用 DSC；Off 还会同时关闭 ABS 和 TC。MDM 会降低 ABS 与 TC 的介入强度，但不允许车手自行选择 TC 数值。TC 模式会将 ABS 设为 MDM 模式对应值，同时允许车手选择 TC 设置。
+
+      #### TC 设置
+
+      决定 ECU 在后轮空转时削减发动机扭矩的积极程度。共有 10 挡：2 挡介入最少，逐步增加至 10 挡介入最多；1 挡完全关闭 TC。增加介入可减少车轮空转和后胎磨损，但若削减扭矩过于激进，会限制出弯加速并降低整体性能。除非 DSC 设为“TC”，否则此项不可调，并会自动采用预设值。
+
+      #### 油门设置
+
+      调整动力输出相对于油门踏板位置的线性程度。Dry 采用渐减响应曲线：踏板初段动力较多，深踩时灵敏度降低。Wet 采用更渐进的曲线，踏板初段动力输出较少。Linear 则在整个踏板行程中保持一致的动力响应。
+
   - id: front-corners
     level: 3
     titleEn: "FRONT CORNERS"
+    titleZh: "前轮设置"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/front-corners.png)
       
@@ -318,9 +548,41 @@ sections:
       
       Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/front-corners.png)
+
+      #### 单轮重量
+
+      车辆在车库内处于静态时，每条轮胎承受的重量。合理分配整车重量对于针对特定赛道和条件优化车辆至关重要；单轮重量和对角重量比通过各车角的弹簧座偏移调整。
+
+      #### 车身高度
+
+      地面至底盘参考点的距离。该数值未必等同实际离地间隙，但可作为可靠的静态高度基准。提高前部车身高度会减少前部及整车下压力，但允许过弯时前轴发生更多载荷转移；降低高度则会增加前部及整车下压力，同时减少前轴载荷转移。
+
+      #### 弹簧刚度
+
+      较硬弹簧可减小高低负载之间的车身高度变化，通过更稳定的平台改善空气动力学性能；但过硬会增大轮胎载荷波动并损失机械抓地力，在颠簸赛道上尤其明显。改变车角弹簧会同时影响平台侧倾和俯仰，应结合横向稳定杆调整以维持原有前后侧倾刚度分配和整体平衡。降低弹簧刚度时，应相应提高横向稳定杆刚度。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧安装位置调节该车角高度。增大偏移会降低车身，减小偏移会抬高车身。同轴左右应保持对称，以维持相同车身高度且不改变对角重量比；也可按左前—右后、右前—左后成对调整，以改变静态对角重量比。
+
+      #### 压缩阻尼刚度
+
+      此设置联动控制低速和高速压缩阻尼。“-18”为最小阻尼（压缩阻力最小），“0”为最大阻尼（压缩阻力最大）。提高阻尼会在制动和变向等瞬态动作中加快载荷向车轮转移；对前减振器而言，通常可提升入弯响应但降低整体抓地力，并使路肩冲击更生硬。平整赛道通常适合较高阻尼；颠簸或路肩激进的赛道可用较低阻尼换取机械抓地力。
+
+      #### 回弹阻尼刚度
+
+      此设置联动控制低速和高速回弹阻尼。提高阻尼会减慢减振器伸长速度。“-18”为最小阻尼（伸长阻力最小），“0”为最大阻尼（伸长阻力最大）。较高回弹阻尼可改善空气动力学平台控制和底盘响应，但回弹过慢会使轮胎失去接地，并可能引发或加剧严重振荡。
+
+      #### 外倾角
+
+      车轮顶部更靠近底盘中心线称为负外倾，反之为正外倾。四个车轮均适合采用负外倾。增大负外倾可提升横向力，但会减少制动时的纵向抓地力并加快轮胎磨损。增大前轮负外倾通常可提升中高速弯前轴抓地力，却会损失制动性能，因此需要将制动力分配适当后移补偿。
+
   - id: rear-corners
     level: 3
     titleEn: "REAR CORNERS"
+    titleZh: "后轮设置"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/rear-corners.png)
       
@@ -356,9 +618,45 @@ sections:
       
       Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/rear-corners.png)
+
+      #### 单轮重量
+
+      车辆静态时每条轮胎承受的重量。单轮重量和对角重量比通过各车角弹簧座偏移调整。
+
+      #### 车身高度
+
+      提高后部车身高度会减少后部下压力、增加整车总下压力，并允许后轴产生更多载荷转移；降低高度会提高后部下压力占比，但减少总下压力和后轴载荷转移。应结合所选后弹簧匹配静态后部高度，以兼顾机械和气动平衡。
+
+      #### 弹簧刚度
+
+      较硬后弹簧可改善平台控制，但牺牲机械抓地力，尤其会影响颠簸赛道上的低速出弯牵引力。弹簧应匹配赛道，使高速与低速弯平衡一致。例如，高速弯转向不足而低速弯转向过度时，可提高后弹簧刚度，以采用更低的静态后部高度、减少低速后轴载荷转移，同时使高速动态气动平衡前移并减轻转向不足。调整后必须通过弹簧座偏移恢复原有静态高度。
+
+      #### 弹簧座偏移
+
+      增大偏移会降低该车角，减小偏移会抬高该车角。同轴左右应保持对称；也可按对角线成对调整以改变静态对角重量比。
+
+      #### 压缩阻尼刚度
+
+      范围与前减振器相同。提高压缩阻尼会在加速和变向时加快载荷转移；对后轴而言可提升响应，但会降低整体抓地力，尤其是出弯牵引力。过硬设置会在颠簸赛道上造成显著牵引力损失。
+
+      #### 回弹阻尼刚度
+
+      范围与前减振器相同。提高回弹阻尼会减慢减振器伸长，改善平台控制和底盘响应；但回弹过慢可能使轮胎失去接地。适度增加可放慢制动时的俯仰变化并改善稳定性，但在制动和初始入弯阶段必须避免过度设置。
+
+      #### 外倾角
+
+      后轮也适合采用较大的负外倾以提升横向抓地力，但通常略小于前轮。后轮更宽且负责驱动车辆，必须在横向抓地增益和纵向牵引力损失之间权衡。
+
+      #### 前束
+
+      后轴通常采用前束。增加前束可提升直线稳定性但降低变向响应；过大数值会增加滚动阻力并降低直线速度。后轴数值按单轮设置，而前轴为成对调节，因此左右后轮数值相加后的影响更强。通常应保持左右相等以避免斜行或不对称操控；Lime Rock Park 等高度不对称赛道则可能受益于不对称设置。
+
   - id: rear
     level: 3
     titleEn: "REAR"
+    titleZh: "后部"
     bodyEn: |+
       ![Image](./assets/bmw-m4-g82-gt4/rear.png)
       
@@ -374,15 +672,36 @@ sections:
       
       The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
 
+    bodyZh: |+
+      ![图片](./assets/bmw-m4-g82-gt4/rear.png)
+
+      #### 燃油量
+
+      车辆载入赛道时油箱中的燃油量。
+
+      #### 横向稳定杆设置
+
+      提高后横向稳定杆刚度会减少侧倾但加剧机械性转向过度，并使车辆初始入弯时更快稳定姿态；降低刚度会增加侧倾、减轻转向过度并提高后轴抓地力，但瞬态响应会减慢。共有 6 种设置：1 最软、5 最硬；“0”会完全断开后横向稳定杆，可在需要时显著减少转向过度。
+
+      #### 尾翼设置
+
+      增大尾翼攻角会增加总下压力和阻力，使空气动力学平衡后移；中高速弯抓地力提高，但直线速度下降。应结合前后车身高度及其差值——前后倾角（rake）进行调整。增大尾翼角度时需要提高前后倾角，才能维持原有整体气动平衡。
+
   - id: setup-tips
     level: 2
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
 
   - id: setup-tips-details
     level: 3
     titleEn: "SETUP TIPS"
+    titleZh: "调校提示"
     bodyEn: |+
       In the iRacing Setup folder you will find several default setups to choose from:
       
@@ -414,9 +733,42 @@ sections:
       
       50% fuel level, intended for short sprint races and the setup used for the Fixed Setup series.
 
+    bodyZh: |+
+      在 iRacing 设置文件夹中，您可以选择以下几套默认设置：
+
+      #### BASELINE
+
+      50% 燃油量。首次载入车辆时使用的默认设置，刻意采用保守调校，便于您熟悉新车或新赛道。
+
+      #### BASELINE_WET
+
+      50% 燃油量。用于湿滑赛道的默认设置，已安装湿地胎，并针对湿地条件调整驾驶辅助系统。
+
+      #### ENDURANCE
+
+      100% 燃油量。适用于大多数最佳尾翼角度处于 3–5 挡的赛道，以及时长达到或超过一小时的比赛。
+
+      #### ENDURANCE LOW DOWNFORCE
+
+      100% 燃油量。适用于重视直线性能、需要较低尾翼角度的赛道（如 Daytona、Le Mans 等），燃油量按时长达到或超过一小时的比赛配置。
+
+      #### SPRINT_OPEN
+
+      56% 燃油量。适用于开放设置系列赛中的大多数赛道，其最佳尾翼角度通常处于 3–5 挡。
+
+      #### SPRINT_OPEN_LOW_DOWNFORCE
+
+      56% 燃油量。适用于开放设置系列赛中重视直线性能、最佳尾翼角度较低的赛道。
+
+      #### SPRINT_FIXED
+
+      50% 燃油量。适用于短程冲刺赛，也是固定设置系列赛采用的设置。
+
+
   - id: chassis-adjustments
     level: 3
     titleEn: "CHASSIS ADJUSTMENTS"
+    titleZh: "底盘调整"
     bodyEn: |+
       Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
       
@@ -429,3 +781,15 @@ sections:
       Higher wing setting - More understeer, more downforce, and lower straight-line speed.
       
       In the event a setup fails tech inspection after fuel level or other changes it is likely the ride heights require adjustment. This is performed by using the Spring Perch Offset adjustments at either end of the car: Right-clicks (positive) will reduce the ride height, left-clicks (negative) will increase the ride height.
+    bodyZh: |+
+      如需自行调校，最直接的车辆平衡调整方式是改变横向稳定杆或尾翼设置：
+
+      前横向稳定杆更硬——转向不足增加
+
+      后横向稳定杆更硬——转向过度增加
+
+      尾翼设置更低——转向过度增加、下压力减少、直线速度提高。
+
+      尾翼设置更高——转向不足增加、下压力增加、直线速度降低。
+
+      如果调整燃油量或其他设置后未能通过技术检查，通常需要调整车身高度。可使用车辆前端或后端的弹簧座偏移修正：右键单击（正值）会降低车身高度，左键单击（负值）会提高车身高度。

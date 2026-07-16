@@ -16,6 +16,21 @@ source:
 sections:
   - id: preamble
     level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/aston-martin-vantage-gt4/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Aston Martin Vantage GT4！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      Aston Martin 长期以来一直以 Vantage 征战 GT4 规格赛事，这款赛车历经多次改款，拥有数十年的比赛历史。现行规格的 GT4 于 2019 年纽博格林 24 小时耐力赛首次亮相，厂队打造的赛车以四圈优势夺得 SP8T 组别冠军。次年，KohR Motorsports 为 Vantage GT4 赢得首个 IMSA Michelin Pilot Challenge Grand Sport 组别总冠军；车手 Kyle Marcelli 与 Nate Stacy 在中俄亥俄站包揽整个周末的胜利。如今，Vantage GT4 仍活跃在全球众多顶尖 GT4 车队与赛事中。
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Aston Martin Vantage GT4 赛车](./assets/aston-martin-vantage-gt4/welcome-car.png)
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/welcome-hero.png)
       
@@ -33,10 +48,25 @@ sections:
 
   - id: tech-specs
     level: 2
+    titleZh: "技术规格"
     titleEn: "TECH SPECS"
   - id: chassis
     level: 3
+    titleZh: "底盘"
     titleEn: "CHASSIS"
+    bodyZh: |+
+      前悬架采用双叉臂结构，后悬架采用多连杆结构。
+
+      ![底盘规格](./assets/aston-martin-vantage-gt4/chassis-specifications.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4520 mm / 178.0 in |
+      | 车宽 | 1948 mm / 76.7 in |
+      | 轴距 | 2703 mm / 106.7 in |
+      | 干重 | 1283 kg / 106.4 lbs |
+      | 含车手湿重 | 1464 kg / 3477 lbs |
+
     bodyEn: |+
       FRONT DOUBLE WISHBONE AND REAR MULTI-LINK SUSPENSION.
       
@@ -52,7 +82,22 @@ sections:
 
   - id: power-unit
     level: 3
+    titleZh: "动力单元"
     titleEn: "POWER UNIT"
+    bodyZh: |+
+      双涡轮增压铝合金 90° V8 发动机
+
+      ![动力单元](./assets/aston-martin-vantage-gt4/power-unit.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 4.0 升 / 244.1 cid |
+      | 扭矩 | 425 lb-ft / 576 Nm |
+      | 功率 | 460 bhp / 343 kW |
+      | 转速上限 | 7175 RPM |
+
+      ![车辆侧视图](./assets/aston-martin-vantage-gt4/vehicle-profile.png)
+
     bodyEn: |+
       TWIN-TURBO ALUMINUM 90 DEGREE V8
       
@@ -69,7 +114,17 @@ sections:
 
   - id: introduction
     level: 2
+    titleZh: "简介"
     titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      启动车辆前，建议先为制动力分配、TC 和 ABS 设置映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶风格快速调整制动力分配和车辆稳定性管理系统。
+
+      进入车辆后，只需拉动“升挡”拨片挂入挡位，再踩下油门踏板即可起步。本车采用自动化序列式变速箱，升挡和降挡均无须手动操作离合器。不过，降挡保护会在系统判断当前车速相对于请求挡位过高时阻止降挡；此时，降挡指令会被直接忽略。
+
+      建议在仪表台上的所有换挡提示灯全部亮起时升挡，对应转速约为 6750 RPM。
+
     bodyEn: |+
       The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
       
@@ -81,7 +136,15 @@ sections:
 
   - id: getting-started
     level: 3
+    titleZh: "快速上手"
     titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/aston-martin-vantage-gt4/getting-started.png)
+
+      启动车辆前，建议先为制动力分配、TC 和 ABS 设置映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶风格快速调整制动力分配和车辆稳定性管理系统。进入车辆后，只需拉动“升挡”拨片挂入挡位，再踩下油门踏板即可起步。
+
+      本车采用自动化序列式变速箱，升挡和降挡均无须手动操作离合器。不过，降挡保护会在系统判断当前车速相对于请求挡位过高时阻止降挡；此时，降挡指令会被直接忽略。建议在仪表台上的所有换挡提示灯全部亮起时升挡，对应转速约为 6750 RPM。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/getting-started.png)
       
@@ -91,7 +154,21 @@ sections:
 
   - id: loading-an-iracing-setup
     level: 3
+    titleZh: "载入 iRacing 设置"
     titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/aston-martin-vantage-gt4/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `[baseline.sto]`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。
+
+      若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/loading-iracing-setup.png)
       
@@ -107,13 +184,43 @@ sections:
 
   - id: dash-configuration
     level: 2
+    titleZh: "仪表配置"
     titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      本车的仪表显示可调整，共有三个可选页面，分别显示不同层级的车辆信息。
+
     bodyEn: |+
       The dash display in this car is adjustable and features three selectable pages to display differing levels of vehicle information.
 
   - id: dash-page-1
     level: 3
+    titleZh: "仪表页面 1"
     titleEn: "DASH PAGE 1"
+    bodyZh: |+
+      ![仪表页面 1](./assets/aston-martin-vantage-gt4/dash-page-1.png)
+
+      | 指示灯 | 说明 |
+      | --- | --- |
+      | 左侧灯组 | 左侧车轮抱死指示灯。最上方两颗亮蓝色表示左前轮抱死，最下方两颗亮蓝色表示左后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+      | 右侧灯组 | 右侧车轮抱死指示灯。最上方两颗亮蓝色表示右前轮抱死，最下方两颗亮蓝色表示右后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+
+      | 屏幕 | 说明 |
+      | --- | --- |
+      | 第 1 行左侧 — Speed | 车辆速度（km/h 或 mph） |
+      | 第 1 行中央 | 当前选择的挡位 |
+      | 第 1 行右侧 — Best Lap | 本次会话最佳圈速，格式为 mm:ss:ms |
+      | 第 2 行左侧 — Water Temp | 发动机冷却液温度（°C 或 °F） |
+      | 第 2 行右侧 — Last Lap | 上一完整圈的圈速，格式为 mm:ss:ms |
+      | 第 3 行左侧 — Fuel Used | 相对于满箱已消耗的燃油量（升或美制加仑） |
+      | 第 3 行右侧 — Delta | 当前圈相对于最佳圈的实时圈速差，格式为 ss:ms |
+      | 第 4 行左侧 — Pit | 维修区限速器指示；启用限速器时亮绿色 |
+      | 第 4 行左起第二项 — TC | 当前牵引力控制设置 |
+      | 第 4 行左起第三项 — MAP | 当前发动机映射设置（不可调整） |
+      | 第 4 行中央 — A/C | 当前空调设置（不可调整） |
+      | 第 4 行右起第三项 — Wiper | 当前风挡雨刷设置 |
+      | 第 4 行右起第二项 — ABS | 当前 ABS 设置 |
+      | 第 4 行右侧 — FCY | 全场黄旗指示灯 |
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/dash-page-1.png)
       
@@ -141,7 +248,33 @@ sections:
 
   - id: dash-page-2
     level: 3
+    titleZh: "仪表页面 2"
     titleEn: "DASH PAGE 2"
+    bodyZh: |+
+      ![仪表页面 2](./assets/aston-martin-vantage-gt4/dash-page-2.png)
+
+      | 指示灯 | 说明 |
+      | --- | --- |
+      | 左侧灯组 | 左侧车轮抱死指示灯。最上方两颗亮蓝色表示左前轮抱死，最下方两颗亮蓝色表示左后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+      | 右侧灯组 | 右侧车轮抱死指示灯。最上方两颗亮蓝色表示右前轮抱死，最下方两颗亮蓝色表示右后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+
+      | 屏幕 | 说明 |
+      | --- | --- |
+      | 第 1 行左侧 — Oil Temp | 发动机机油温度（°C 或 °F） |
+      | 第 1 行中央 | 当前选择的挡位 |
+      | 第 1 行右侧 — Battery Voltage | 蓄电池电压（V） |
+      | 第 2 行左侧 — Oil Pressure | 发动机机油压力（bar 或 psi） |
+      | 第 2 行右侧 — Fuel Used | 相对于满箱已消耗的燃油量（升或美制加仑） |
+      | 第 3 行左侧 — Water Temp | 发动机冷却液温度（°C 或 °F） |
+      | 第 3 行右侧 — Gearbox Temp | 变速箱油温（°C 或 °F） |
+      | 第 4 行左侧 — Pit | 维修区限速器指示；启用限速器时亮绿色 |
+      | 第 4 行左起第二项 — TC | 当前牵引力控制设置 |
+      | 第 4 行左起第三项 — MAP | 当前发动机映射设置（不可调整） |
+      | 第 4 行中央 — A/C | 当前空调设置（不可调整） |
+      | 第 4 行右起第三项 — Wiper | 当前风挡雨刷设置 |
+      | 第 4 行右起第二项 — ABS | 当前 ABS 设置 |
+      | 第 4 行右侧 — FCY | 全场黄旗指示灯 |
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/dash-page-2.png)
       
@@ -169,7 +302,33 @@ sections:
 
   - id: dash-page-3
     level: 3
+    titleZh: "仪表页面 3"
     titleEn: "DASH PAGE 3"
+    bodyZh: |+
+      ![仪表页面 3](./assets/aston-martin-vantage-gt4/dash-page-3.png)
+
+      | 指示灯 | 说明 |
+      | --- | --- |
+      | 左侧灯组 | 左侧车轮抱死指示灯。最上方两颗亮蓝色表示左前轮抱死，最下方两颗亮蓝色表示左后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+      | 右侧灯组 | 右侧车轮抱死指示灯。最上方两颗亮蓝色表示右前轮抱死，最下方两颗亮蓝色表示右后轮抱死。发动机熄火时，灯组中的第二和第三颗灯也会闪烁红色。 |
+
+      | 屏幕 | 说明 |
+      | --- | --- |
+      | 第 1 行左侧 — Speed | 车辆速度（km/h 或 mph） |
+      | 第 1 行中央 | 当前选择的挡位 |
+      | 第 1 行右侧 — Best Lap | 本次会话最佳圈速，格式为 mm:ss:ms |
+      | 第 2 行左侧 — Water Temp | 发动机冷却液温度（°C 或 °F） |
+      | 第 2 行右侧 — Last Lap | 上一完整圈的圈速，格式为 mm:ss:ms |
+      | 第 3 行左侧 | 当前胎压：上排为左前／右前，下排为左后／右后（kPa 或 psi） |
+      | 第 3 行右侧 — Lap Count | 本次会话当前圈数，以及当前圈相对于最佳圈的实时圈速差（ss:ms） |
+      | 第 4 行左侧 — Pit | 维修区限速器指示；启用限速器时亮绿色 |
+      | 第 4 行左起第二项 — TC | 当前牵引力控制设置 |
+      | 第 4 行左起第三项 — MAP | 当前发动机映射设置（不可调整） |
+      | 第 4 行中央 — A/C | 当前空调设置（不可调整） |
+      | 第 4 行右起第三项 — Wiper | 当前风挡雨刷设置 |
+      | 第 4 行右起第二项 — ABS | 当前 ABS 设置 |
+      | 第 4 行右侧 — FCY | 全场黄旗指示灯 |
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/dash-page-3.png)
       
@@ -197,7 +356,13 @@ sections:
 
   - id: pit-speed-limiter
     level: 3
+    titleZh: "维修区限速器"
     titleEn: "PIT SPEED LIMITER"
+    bodyZh: |+
+      ![维修区限速器](./assets/aston-martin-vantage-gt4/pit-speed-limiter.png)
+
+      启用维修区限速器后，所有换挡提示灯都会开始闪烁绿色，仪表台上的“pit”文字会亮起，显示图形也会由黄色变为绿色。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/pit-speed-limiter.png)
       
@@ -205,7 +370,13 @@ sections:
 
   - id: shift-lights
     level: 3
+    titleZh: "换挡提示灯"
     titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/aston-martin-vantage-gt4/shift-lights.png)
+
+      换挡提示灯从左向右依次亮起；当所有提示灯均呈蓝色闪烁时，车手应执行升挡。发动机转速超过最佳换挡点并接近转速限制器后，所有提示灯会开始闪烁红色。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/shift-lights.png)
       
@@ -213,7 +384,13 @@ sections:
 
   - id: traction-control
     level: 3
+    titleZh: "牵引力控制"
     titleEn: "TRACTION CONTROL"
+    bodyZh: |+
+      ![牵引力控制](./assets/aston-martin-vantage-gt4/traction-control.png)
+
+      牵引力控制系统介入时，安装在仪表台顶部灯组中的所有提示灯都会闪烁绿色。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/traction-control.png)
       
@@ -221,16 +398,45 @@ sections:
 
   - id: advanced-setup-options
     level: 2
+    titleZh: "高级设置选项"
     titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
     bodyEn: |+
       > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
 
   - id: tires-aero
     level: 2
+    titleZh: "轮胎与空气动力学"
     titleEn: "TIRES & AERO"
   - id: tire-data
     level: 3
+    titleZh: "轮胎数据"
     titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/aston-martin-vantage-gt4/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地光头胎用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 起始胎压
+
+      车辆载入赛道时的轮胎气压。较高胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低胎压会增加滚动阻力和热量积聚，但可提高抓地力。车速和负荷较高时需要更高胎压，车速和负荷较低时则通常使用较低胎压表现更好。为获得最佳性能，应根据赛道特性设置冷态胎压。一般建议从较低胎压开始，再按需逐步提高。
+
+      #### 上次热态胎压
+
+      车辆返回维修区后的轮胎气压。冷态与热态胎压之差可用于判断车辆在一个赛道驾驶阶段中的平衡变化；负荷较重的轮胎会产生更大的冷热胎压差。理想情况下，工作状态相近的轮胎应以相同速率增压，以免车辆的操控平衡随着轮胎使用时间而改变。因此，应调整冷态胎压，使同类轮胎达到工作温度后具有相近胎压。应在连续行驶若干圈、胎压趋于稳定后分析热态胎压。由于每次驾驶阶段的圈数会随赛道长度变化，可先在完整燃油驾驶里程约 50% 处进行分析。
+
+      #### 轮胎温度
+
+      车辆返回维修区后的轮胎胎体温度，分别在胎面内侧、中部和外侧三个区域测量。单轮载荷和轮胎在赛道上的工作强度会反映在胎温中，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作强度；内侧与外侧温度则可用于分析车辆在赛道上的车轮定位状态，主要是外倾角。
+
+      #### 剩余胎面厚度
+
+      车辆返回维修区后轮胎的剩余胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；还可结合胎温分析车辆的操控平衡。其测量区域与胎温相同。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/tire-data.png)
       
@@ -256,10 +462,27 @@ sections:
 
   - id: chassis-details
     level: 2
+    titleZh: "底盘"
     titleEn: "CHASSIS"
   - id: front
     level: 3
+    titleZh: "前部"
     titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/aston-martin-vantage-gt4/chassis-front.png)
+
+      #### 防倾杆设置
+
+      提高防倾杆设置会缩短防倾杆摆臂，提高前悬架侧倾刚度，从而减少车身侧倾，但增加机械转向不足。在某些情况下，这会让车手感到转向响应更加灵敏。相反，降低防倾杆设置会加长摆臂，使悬架在侧倾方向上更软，增加车身侧倾，但减少机械转向不足。这样可能使转向感觉不够灵敏，却能提高前轴抓地力。此外，还应考虑防倾杆软硬对空气动力学的影响：较软的防倾杆配置会增加车身侧倾，削弱高速弯中的空气动力学平台控制，并可能降低空气动力学效率。共有三个防倾杆设置，从 1（最软）至 3（最硬）。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。在前轴增加负前束会提高内侧轮胎的滑移并降低直线稳定性；增加正前束则会减少滑移并提高直线稳定性。
+
+      #### 对角配重
+
+      车库中右前轮与左后轮载荷之和占车辆总重的百分比。对于非椭圆赛道，在其他底盘设置左右对称的前提下，50.0% 通常为最佳值，可使车辆在左右弯中呈现对称的操控特性。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各轮的弹簧座偏移来改变对角配重。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/chassis-front.png)
       
@@ -277,7 +500,31 @@ sections:
 
   - id: in-car-dials
     level: 3
+    titleZh: "车内旋钮"
     titleEn: "IN-CAR DIALS"
+    bodyZh: |+
+      ![车内旋钮](./assets/aston-martin-vantage-gt4/in-car-dials.png)
+
+      #### 仪表显示页面
+
+      更改当前选择的数字仪表页面。本手册前述仪表配置章节介绍了三个可选页面。
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力相对于后制动管路更高，制动平衡会向前移动，前轮更容易抱死，但车辆在制动区内可能更稳定。应结合车手偏好和赛道条件进行调整，以获得当前情境下的最佳制动表现。
+
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能，但制动力最容易细腻调制；“中”和“高”设置提供更高摩擦力、增强制动效能，但制动力的可调制空间最小。
+
+      #### ABS 设置
+
+      车辆当前使用的 ABS 映射。共有十二个挡位：挡位 1 的干预／辅助最少，挡位 11 的辅助最多，挡位 0 则完全关闭 ABS。建议使用挡位 7 作为基准设置。提高干预可降低制动时发生抱死的概率并缩短抱死持续时间；但若相对于可用抓地力设置得过于激进，也可能延长制动距离。
+
+      #### 牵引力控制设置
+
+      牵引力控制开关挡位决定 ECU 在后轮空转时削减发动机扭矩的积极程度。共有十二个挡位：设置 1–11 从最低干预／灵敏度（挡位 1）逐步增加至最高干预／灵敏度（挡位 11），挡位 0 则完全关闭牵引力控制。建议使用挡位 1 作为基准设置。提高干预可减少车轮空转和后胎磨损，但若牵引力控制过度削减发动机扭矩、抑制出弯加速，也可能降低整体性能。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/in-car-dials.png)
       
@@ -303,7 +550,39 @@ sections:
 
   - id: front-corners
     level: 3
+    titleZh: "前轮设置"
     titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/aston-martin-vantage-gt4/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过各轮的弹簧座偏移进行调整。
+
+      #### 前车高
+
+      地面到底盘参考点的距离。由于数值是相对于车辆上的特定参考点测量，因此未必代表车辆的实际离地间隙，但可作为车辆静止时距赛道表面高度的可靠基准。调整车高是获得最佳性能的关键，因为车高会直接影响车辆的空气动力学性能和机械抓地力。提高前车高会减少前轴下压力和整车总下压力，但会允许过弯时前轴发生更多横向载荷转移。相反，降低前车高会增加前轴及整车总下压力，但会减少前轴横向载荷转移。
+
+      #### 弹簧刚度
+
+      此设置决定各轮所安装弹簧的刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制提高空气动力学性能；但弹簧过硬会加大轮胎负荷波动，导致机械抓地力下降。赛道越颠簸，硬弹簧的缺点通常越明显，此时使用较软弹簧反而能改善整体表现。各轮弹簧的变化会同时影响平台的侧倾和俯仰控制；调整各轮弹簧刚度时，还应考虑相应调整防倾杆，以保持原有的前后侧倾刚度分配和整体平衡。降低各轮弹簧刚度时，应提高防倾杆刚度，以维持之前的整体侧倾刚度。更改弹簧刚度后，必须调整弹簧座偏移，将车辆恢复至此前的静态车高。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧的安装位置来调整车辆该轮的车高。增大弹簧座偏移会降低该轮车高，减小弹簧座偏移则会抬高该轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且不改变对角配重。也可成对角线调整弹簧座偏移（左前与右后、右前与左后），以改变车辆的静态对角配重。
+
+      #### 压缩刚度
+
+      压缩刚度设置会同时调整减振器的低速与高速压缩阻尼特性。对于 Vantage GT4，设置“0”是最小阻尼（压缩阻力最小），设置“25”是最大阻尼（压缩阻力最大）。提高压缩刚度会使制动、变向等瞬态动作中的载荷更快传递至车轮；对于前减振器，增加阻尼通常可提高初始转向响应，但会降低整体抓地力。高速压缩阻尼会随低速压缩阻尼同步增加，因此车辆碾过路肩时的冲击响应也会更生硬。在较平整的赛道上，较高压缩刚度通常有利于性能；在较颠簸或路肩激进的赛道上，降低压缩阻尼则可牺牲部分平台控制来换取更高的机械抓地力。
+
+      #### 回弹刚度
+
+      回弹刚度设置会同时调整减振器的低速与高速回弹阻尼特性。提高回弹阻尼会减慢减振器在低速和高速工况下的伸长速度。典型低速工况是车辆在出弯时由侧倾状态恢复水平；高速工况则是悬架在大幅碾过路肩后伸长。设置“0”是最小阻尼（伸长阻力最小），设置“18”是最大阻尼（伸长阻力最大）。较高的回弹刚度可改善空气动力学平台控制和底盘整体响应，但应避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触，引发或加剧严重振荡。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增加前轮负外倾通常会增强中高速过弯时的前轴抓地力，但会损失制动性能，因此需要将制动力分配相应后移作为补偿。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/front-corners.png)
       
@@ -337,7 +616,27 @@ sections:
 
   - id: rear-corners
     level: 3
+    titleZh: "后轮设置"
     titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/aston-martin-vantage-gt4/rear-corners.png)
+
+      #### 后车高
+
+      地面到底盘后部参考点的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低后车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。
+
+      #### 弹簧刚度
+
+      与前轴相似，较硬的弹簧可缩小高、低负荷状态间的车高变化，通过改善平台控制提高空气动力学性能，但代价是机械抓地力降低。在低速弯大幅加油出弯时，这一影响可能尤其明显；硬弹簧在这类情境下反应较差，在颠簸赛道上尤甚，可能导致显著的牵引力损失。弹簧刚度应匹配赛道需求，并使车辆在高速与低速弯中的操控平衡保持一致。例如，一辆高速弯转向不足、低速弯转向过度的赛车，可能会受益于提高后弹簧刚度。这样既可使用较低的静态后车高，减少低速过弯时的后轴载荷转移，又能在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减轻转向不足。更改弹簧刚度后，必须调整弹簧座偏移，将车辆恢复至此前的静态车高。
+
+      #### 压缩刚度
+
+      压缩刚度设置会同时调整减振器的低速与高速压缩阻尼特性，调节范围与前减振器相同。提高压缩阻尼会使加速、变向等瞬态动作中的载荷更快传递至车轮；对于后减振器，增加阻尼通常可提高响应，但会降低整体抓地力，尤其会损害出弯牵引力。在颠簸赛道上，压缩阻尼过硬可能导致轮胎负荷大幅波动并降低整体抓地力，从而严重损害牵引力。
+
+      #### 回弹刚度
+
+      回弹刚度设置会同时调整减振器的低速与高速阻尼特性，调节范围与前减振器相同。提高回弹阻尼会减慢减振器在低速和高速工况下的伸长速度。较高的回弹刚度可改善空气动力学平台控制和底盘整体响应，但应避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触。此问题在制动和初始入弯阶段尤其不利；不过，提高回弹刚度也能在施加制动时“减缓”车辆俯仰姿态的变化，从而可能改善制动稳定性。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/rear-corners.png)
       
@@ -359,7 +658,19 @@ sections:
 
   - id: rear-corners-details
     level: 3
+    titleZh: "后轮设置"
     titleEn: "REAR CORNERS"
+    bodyZh: |+
+      #### 外倾角
+
+      与前轮一样，为提高横向抓地能力，后轮也适合采用较大的负外倾角；不过，后轮负外倾通常会略小于前轮。主要有两个原因：其一，后轮比前轮更宽；其二，后轮还负责驱动车辆前进，因此外倾角对横向抓地力的增益需要与纵向牵引力的损失进行权衡。
+
+      #### 正前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则称为负前束。后轴通常采用正前束。
+
+      增加正前束可改善直线稳定性，但会降低变向响应。应尽量避免使用过大的正前束，否则会增加滚动阻力、降低直线速度。调整后轮前束时要注意，后轴设置值针对单个车轮，而前轴设置值是左右轮的合计值。因此，把左右后轮的设置值相加后，后轴总前束变化量是前轴同一显示数值所代表变化量的两倍。通常建议保持左右前束值相等，避免车辆出现斜行或不对称操控；但在莱姆罗克公园这类左右弯严重不对称的赛道，采用不对称的后轮前束及其他设置参数可能有性能收益。
+
     bodyEn: |+
       #### CAMBER
       
@@ -373,7 +684,23 @@ sections:
 
   - id: rear
     level: 3
+    titleZh: "后部"
     titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/aston-martin-vantage-gt4/chassis-rear.png)
+
+      #### 燃油量
+
+      油箱内的燃油量。
+
+      #### 防倾杆设置
+
+      提高防倾杆总成刚度会增加后悬架侧倾刚度，从而减少车身侧倾，但增加机械转向过度。这也能让车辆在初始入弯时更快稳定至受力姿态。相反，降低防倾杆总成刚度会使悬架在侧倾方向上更软，增加车身侧倾，但减少机械转向过度。这样可能使车尾在瞬态动作中显得不够灵敏，却能提高后轴抓地力。共有三个防倾杆设置，从 1“软”至 3“硬”。
+
+      #### 尾翼设置
+
+      尾翼设置是指尾翼的相对攻角。尾翼是重要的空气动力学装置，会显著影响车辆产生的总下压力（以及阻力），并随着角度增加使空气动力学平衡向后移动。增大尾翼角度可提高中高速弯的总体过弯抓地能力，但也会降低直线速度。调整尾翼角度时，应同时考虑前后车高，尤其是两者之差，即“前后车高差”。增大尾翼角度时，若要维持相同的整体空气动力学平衡，就需要增大车辆的前后车高差。
+
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt4/chassis-rear.png)
       
@@ -391,13 +718,35 @@ sections:
 
   - id: setup-tips
     level: 2
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
     bodyEn: |+
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-details
     level: 3
+    titleZh: "调校提示"
     titleEn: "SETUP TIPS"
+    bodyZh: |+
+      “iRacing 设置”文件夹中提供以下默认设置：
+
+      基准 — 50% 燃油量，首次载入车辆时使用的默认设置；操控特性刻意设得较为保守，便于熟悉新车或新赛道。
+
+      湿地基准 — 50% 燃油量，湿地赛道的默认设置；已安装湿地胎，并针对湿地条件调整车手辅助系统。
+
+      耐力 — 100% 燃油量，适用于大多数最佳尾翼角度在 3–5 范围内、比赛时长达到或超过一小时的赛道。
+
+      低下压力耐力 — 100% 燃油量，适用于代托纳、勒芒等重视直线性能并需要低尾翼角度的赛道；燃油量按一小时或更长的比赛配置。
+
+      开放设置冲刺 — 56% 燃油量，适用于开放设置系列赛中的大多数赛道，最佳尾翼角度通常在 3–5 范围内。
+
+      低下压力开放设置冲刺 — 56% 燃油量，适用于开放设置系列赛中重视直线性能、最佳尾翼角度较低的赛道。
+
+      固定设置冲刺 — 50% 燃油量，适用于短距离冲刺赛，也是固定设置系列赛采用的设置。
+
     bodyEn: |+
       In the iRacing Setup folder you will find several default setups to choose from:
       
@@ -417,7 +766,20 @@ sections:
 
   - id: chassis-adjustments
     level: 3
+    titleZh: "底盘调整"
     titleEn: "CHASSIS ADJUSTMENTS"
+    bodyZh: |+
+      如果希望自行调整，改变车辆平衡最简单的方法是调整防倾杆或尾翼设置：
+
+      | 设置项 | 影响 |
+      | --- | --- |
+      | 更硬的前防倾杆 | 更多转向不足 |
+      | 更硬的后防倾杆 | 更多转向过度 |
+      | 更低的尾翼设置 | 更多转向过度、更少下压力、更高直线速度 |
+      | 更高的尾翼设置 | 更多转向不足、更多下压力、更低直线速度 |
+
+      如果调整燃油量或其他设置后未能通过技术检查，很可能需要调整车高。可通过车辆前后两端的弹簧座偏移完成调整：右键单击（正向调整）会降低车高，左键单击（负向调整）会提高车高。
+
     bodyEn: |+
       Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
       
