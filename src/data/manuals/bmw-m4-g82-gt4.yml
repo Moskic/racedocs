@@ -1,0 +1,431 @@
+slug: bmw-m4-g82-gt4
+published: true
+titleZh: BMW M4 G82 GT4 用户手册
+titleEn: BMW M4 G82 GT4 User Manual
+contentType: vehicle-manual
+brand: BMW
+vehicleClass: GT4
+platform: iRacing
+discipline: sports-car
+cover: ./assets/bmw-m4-g82-gt4/cover.png
+source:
+  type: official
+  title: iRacing BMW M4 G82 GT4 User Manual
+  revision: V2
+  notice: Complete English transcription validated against the user-provided official V2 PDF.
+sections:
+  - id: preamble
+    level: 2
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Congratulations on your purchase of the BMW M4 G82 GT4! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+      
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/bmw-m4-g82-gt4/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleEn: "CHASSIS"
+    bodyEn: |+
+      #### FULLY ADJUSTABLE INDEPENDENT FRONT AND REAR SUSPENSION.
+      
+      ![Image](./assets/bmw-m4-g82-gt4/chassis-specifications.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4863 mm / 191.5 in |
+      | Width | 2093 mm / 82.4 in |
+      | Wheelbase | 2857 mm / 112.4 in |
+      | Dry Weight | 1532 kg / 3377 lbs |
+      | Wet Weight with Driver | 1642 kg / 3621 lbs |
+
+  - id: power-unit
+    level: 3
+    titleEn: "POWER UNIT"
+    bodyEn: |+
+      SIX-CYLINDER IN-LINE WITH M TWINPOWER TURBO TECHNOLOGY
+      
+      ![Image](./assets/bmw-m4-g82-gt4/power-unit.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 3.0 Liters / 183 cid |
+      | Torque | 480 lb-ft / 650 Nm |
+      | Power | 530 bhp / 395 kW |
+      | RPM Limit | 7450 |
+      
+      ![Image](./assets/bmw-m4-g82-gt4/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleEn: "INTRODUCTION"
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars.
+      
+      To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may wwselect a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleEn: "GETTING STARTED"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+      
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift in either direction. However the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. If that is the case, the gear change command will simply be ignored.
+      
+      Upshifting is recommended when the shift lights on the dashboard are fully illuminated in red.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleEn: "DASH PAGES"
+    bodyEn: |+
+      The dash display in this car is adjustable and features two selectable pages to display differing levels of vehicle information.
+
+  - id: dash-page-1-configuration
+    level: 3
+    titleEn: "DASH PAGE 1 CONFIGURATION"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/dash-page-1-configuration.png)
+      
+      | Left Cluster | Description |
+      | --- | --- |
+      | Tyre Pressure | Current tire pressures in Bar or PSI are shown in the upper left group |
+      | DSC System Setting | The DSC setting is shown in the upper left box in the group below the Tyre Pressures |
+      | Traction Control Setting | When applicable, the Traction Control system (TC) setting is shown next to the DSC setting. This will only show a value if the DSC is currently set to “Off”, when it will display a red box indicating the TC system is disabled, or if DSC Mode is set to “TC”, when it will show the curent TC setting value |
+      | ABS Status | The Anti-Lock Brake System (ABS) setting will display as either On or Off depending on the current DSC system setting |
+      | Throttle Setting | The currently active throttle setting is shown below the DSC setting |
+      | SPD | Not used |
+      | LT | Not used |
+      | TMOT | Engine cooling system temperature, °C or °F |
+      | TOIL | Engine oil temperature, °C or °F |
+      | TGEAR | Gearbox oil temperature, °C or °F |
+      | TDIFF | Rear differential oil temperature, °C or °F |
+      
+      | Center | Description |
+      | --- | --- |
+      | Gear | The currently selected gear is shown in the center of the display |
+      | Speed | The vehicle’s current speed is shown below the gear indicator in kph or mph |
+      | Fuel Used | Amount of fuel used since leaving the pits in Liters or Gallons |
+      
+      | Right Cluster | Description |
+      | --- | --- |
+      | RPM | Engine tachometer, shown in Revolutions per Minute |
+      | Brake Balance | Current brake bias setting as percentage to the front brakes |
+      | pBrakeF | The pressure in the brake lines to one of the front brake systems (not a sum of both). Displayed in Bar or PSI, but will only show the last three digits when using PSI |
+      | Time Diff | Current time delta between the current and session-best lap |
+      | Lap Time | Previously-completed lap time. After a lap is completed this box will stretch across the display to show the full lap time before returning to its normal size |
+      | Lap | Number of laps completed since leaving the pits |
+      | Min | Session minutes that have transpired |
+
+  - id: dash-page-2-configuration
+    level: 3
+    titleEn: "DASH PAGE 2 CONFIGURATION"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/dash-page-2-configuration.png)
+      
+      Page 2 replaces the Tyre Pressure block with lap time information: Fastest Lap Time
+      
+      Current session fastest lap
+      
+      Predicted Lap Time
+      
+      Live estimate for the current lap’s time
+
+  - id: shift-lights
+    level: 3
+    titleEn: "SHIFT LIGHTS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/shift-lights.png)
+      
+      LED lights at the top of the digital display will illuminate from the outer lights inward as RPM increases. Shifting is recommended when the center red lights have illuminated.
+
+  - id: tc-active-lights
+    level: 3
+    titleEn: "TC ACTIVE LIGHTS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/tc-active-lights.png)
+      
+      Two amber lights on either side of the digital display will illuminate whenever the Traction Control system is active and attempting to prevent wheelspin.
+
+  - id: pit-limiter
+    level: 3
+    titleEn: "PIT LIMITER"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/pit-limiter.png)
+      
+      Whenever the pit limiter is active, the outermost shift lights will light up in a magenta color and the Lap Time box in the lower right will switch to a Pit Time box, displaying the amount of time spent in the pit box for a stop.
+
+  - id: abs-active-lights
+    level: 3
+    titleEn: "ABS ACTIVE LIGHTS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/abs-active-lights.png)
+      
+      Blue LED lights on each side of the display will illuminate whenever the Anti-Lock Brake system is intervening to prevent a wheel lockup.
+
+  - id: advanced-setup-options
+    level: 2
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-aero
+    level: 2
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleEn: "TIRE DATA"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### COLD PRESSURE / STARTING PRESSURE
+      
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+      
+      #### LAST HOT PRESSURE
+      
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+      
+      #### LAST TEMPERATURES
+      
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: chassis-details
+    level: 2
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleEn: "FRONT"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/front.png)
+      
+      #### ARB SETTING
+      
+      To fine tune the front suspension’s behavior, the Anti-Roll Bar stiffness can be tuned using the ARB Setting in the garage. Five settings are available, with 1 being the softest setting and 5 being the stiffest setting. Stiffer settings will induce understeer and increase stability in high-speed cornering while softer settings will reduce understeer. This is not adjustable while driving.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out (negative value) will increase slip in the inside tire and decrease straight-line stability while adding toe-in will reduce the slip and increase straight-line stability.
+      
+      #### CROSS WEIGHT
+      
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. A setting of 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, crossweight under 50% will result in the opposite effect. Cross weight can be adjusted by making changes to the spring perch offsets at each corner of the car.
+      
+      #### NOSE WEIGHT
+      
+      The percentage of total vehicle weight in the garage across the front axle. Higher Nose Weight values will induce understeer when cornering and promote straight-line stability, while lower Nose Weight values will increase oversteer while cornering. This is not directly adjustable and is altered by other adjustments, such as Fuel Level.
+
+  - id: in-car-dials
+    level: 3
+    titleEn: "IN-CAR DIALS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/in-car-dials.png)
+      
+      #### DASH DISPLAY PAGE
+      
+      Changes the currently selected digital dash page. Two options are available as previously described in the dash configuration section of this manual.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### BRAKE PADS
+      
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing the most modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes but allow the least modulation.
+      
+      #### DSC SETTING
+      
+      BMW’s Dynamic Stability Control (DSC) is a multifaceted system that monitors grip levels at all four tires and attempts to keep the car under control at all times by cutting power and torque delivery to the wheels when wheelspin or a slide is detected. The system can be run in one of four modes: Off, On, MDM, and TC. The “Off” and “On” settings disable or enable the DSC system entirely, with “Off” disabling both the Anti-Lock Brake (ABS) and Traction Control (TC) systems. The MDM setting will provide a less aggressive ABS and TC response but does not allow for user-selectable TC system settings. Finally the TC setting will set the ABS system to the MDM mode value but allow for a user-selected TC system setting.
+      
+      #### TC SETTING
+      
+      The position of the traction control switch determines how aggressively the ECU cuts engine torque in reaction to rear wheel spin. Ten positions are available: Settings 2-10 range from least intervention/sensitivity (position 2) to the highest intervention/ sensitivity (position 10) while position 1 disables the traction control completely. More intervention will result in less wheelspin and less rear tire wear but can reduce overall performance if the traction control is cutting engine torque too aggressively and stunting corner exit acceleration. Unless the DSC system is set to “TC”, this setting is non-adjustable and will automatically set to a predetermined value.
+      
+      #### THROTTLE SETTING
+      
+      The Throttle Setting will adjust how linear the power delivery is based on the throttle pedal position. The Dry setting will produce a digressive response curve with more initial power at low pedal travel, becoming less sensitive at high amounts of pedal travel. The Wet setting will be more progressive, with less power delivery at low pedal travel. Linear will be a consistent power application through the full pedal range.
+
+  - id: front-corners
+    level: 3
+    titleEn: "FRONT CORNERS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/front-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from the ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track under static conditions. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle.
+      
+      #### SPRING RATE
+      
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control. However overly stiff springs will result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### BUMP STIFFNESS
+      
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper. Setting “-18” is minimum damping (least resistance to compression) while “0” is maximum damping (most resistance to compression). Increasing the bump stiffness will result in faster weight transfer to the wheel during transient movements, such as braking and direction change, with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front dampers. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more bump stiffness will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
+      
+      #### REBOUND STIFFNESS
+      
+      The Rebound Stiffness setting is a paired adjustment to both low and high speed rebound damping characteristics. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. A typical low damper speed situation would be as the car rolls back to level on a corner exit while a high speed situation would be where the suspension is extending after large kerb contact. Setting “-18” is minimum damping (least resistance to extension) while “0” is maximum damping (most resistance to extension). While high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface which can induce or exacerbate severe oscillations.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+  - id: rear-corners
+    level: 3
+    titleEn: "REAR CORNERS"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the spring perch offset adjustments at each corner.
+      
+      #### RIDE HEIGHT
+      
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance.
+      
+      #### SPRING RATE
+      
+      Similar to the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Spring perch offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+      
+      #### SPRING PERCH OFFSET
+      
+      Used to adjust the ride height at the corner of the car by changing the installed position of the spring. Increasing the spring perch offset will result in lowering the corner of the car while reducing the spring perch offset will raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. The spring perch offsets can also be used in diagonal pairs (LF to RR and RF to LR) to change the static cross weight in the car.
+      
+      #### BUMP STIFFNESS
+      
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper with identical ranges to those of the front dampers. Increasing the compression damping will result in faster weight transfer to the wheel during transient movements, such as accelerating and direction change, with increased damping usually providing an increase in response but a reduction in overall grip especially at corner exit traction in the context of rear dampers. Excessively stiff compression damping can cause very poor traction on rough tracks as it can result in large tire load variation and a reduction in overall grip.
+      
+      #### REBOUND STIFFNESS
+      
+      The rebound stiffness setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. High rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the shock is too slow in rebounding as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase though an increase in rebound stiffness can help to “slow down” the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
+      
+      #### CAMBER
+      
+      As with the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+      
+      #### TOE-IN
+      
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. When making rear toe changes remember that the values are for each individual wheel as opposed to paired as at the front. This means that individual values on the rear wheels are twice as powerful as the combined adjustment at the front of the car when the rear toes are summed together. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleEn: "REAR"
+    bodyEn: |+
+      ![Image](./assets/bmw-m4-g82-gt4/rear.png)
+      
+      #### FUEL LEVEL
+      
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+      
+      #### ARB SETTING
+      
+      Increasing the ARB assembly stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also cause the car to “take a set” more quickly at initial turn-in. Conversely, reducing the ARB assembly stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the rear especially in transient movements, but grip across the rear axle will increase. Six ARB settings are available ranging from 1 ‘soft’ to 5 ‘stiff’, with setting “0” disconnecting the rear ARB entirely to dramatically reduce oversteer if desired.
+      
+      #### WING SETTING
+      
+      The wing setting refers to the relative angle of attack of the rear wing, this is an aerodynamic device which has a significant impact upon the total downforce (and drag!) produced by the car as well as shifting the aerodynamic balance of the car rearwards with increasing angle. Increasing the rear wing angle results in more total cornering grip capability in medium to high speed corners but will also result in a reduction of straight line speed. Rear wing angle should be adjusted in conjunction with front and rear ride heights, specifically the difference between front and rear ride heights known as ‘rake’. To retain the same overall aerodynamic balance it is necessary to increase the rake of the car when increasing the rear wing angle.
+
+  - id: setup-tips
+    level: 2
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-details
+    level: 3
+    titleEn: "SETUP TIPS"
+    bodyEn: |+
+      In the iRacing Setup folder you will find several default setups to choose from:
+      
+      #### BASELINE
+      
+      50% fuel level, the default setup when first loading the car, intentionally conservative to allow you to acclimatize to a new car or track.
+      
+      #### BASELINE_WET
+      
+      50% fuel level, the default setup for a wet track with wet tires fitted and driver aids adjusted for wet conditions.
+      
+      #### ENDURANCE
+      
+      100% fuel level, intended for most tracks where optimal wing angles will be in the 3-5 range and race lengths are at, or over, one hour in length.
+      
+      #### ENDURANCE LOW DOWNFORCE
+      
+      100% fuel level, intended for tracks where straight-line performance is a priority (Daytona, Le Mans, etc.) and a low wing angle is required. Fueled for race lengths at, or over, one hour in length.
+      
+      #### SPRINT_OPEN
+      
+      56% fuel level, intended for most tracks in the Open Setup series where optimal wing angles are in the 3-5 range.
+      
+      #### SPRINT_OPEN_LOW_DOWNFORCE
+      
+      56% fuel level, intended for tracks in the Open Setup series where straight-line performance is a priority and optimal wing angles are low.
+      
+      #### SPRINT_FIXED
+      
+      50% fuel level, intended for short sprint races and the setup used for the Fixed Setup series.
+
+  - id: chassis-adjustments
+    level: 3
+    titleEn: "CHASSIS ADJUSTMENTS"
+    bodyEn: |+
+      Should you choose to make your own adjustments the easiest way to change the balance of the car is through the Anti-Roll Bars or the Wing setting:
+      
+      Stiffer front ARB - More understeer
+      
+      Stiffer rear ARB - More oversteer
+      
+      Lower wing setting - More oversteer, less downforce, and higher straight-line speed.
+      
+      Higher wing setting - More understeer, more downforce, and lower straight-line speed.
+      
+      In the event a setup fails tech inspection after fuel level or other changes it is likely the ride heights require adjustment. This is performed by using the Spring Perch Offset adjustments at either end of the car: Right-clicks (positive) will reduce the ride height, left-clicks (negative) will increase the ride height.
