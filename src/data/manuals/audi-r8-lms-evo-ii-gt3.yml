@@ -60,7 +60,7 @@ sections:
       | 车宽 | 1997 mm / 78.62 in |
       | 轴距 | 2700 mm / 106.3 in |
       | 干重 | 1320 kg / 2910 lbs |
-      | 含车手湿重 | 1479 kg / 3260 lbs |
+      | 含车手湿重（含油液） | 1479 kg / 3260 lbs |
     bodyEn: |+
       ![Image](./assets/audi-r8-lms-evo-ii-gt3/chassis-specifications.png)
       
@@ -72,7 +72,7 @@ sections:
       | Width | 1997 mm / 78.62 in |
       | Wheelbase | 2700 mm / 106.3 in |
       | Dry Weight | 1320 kg / 2910 lbs |
-      | Wet Weight with Driver | 1479 kg / 3260 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1479 kg / 3260 lbs |
 
   - id: power-unit
     level: 3

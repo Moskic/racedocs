@@ -63,7 +63,7 @@ sections:
       | 车宽 | 2022 mm / 79.6 in |
       | 轴距 | 2916 mm / 114.8 in |
       | 干重 | 1285 kg / 2833 lbs |
-      | 含车手湿重 | 1411 kg / 3111 lbs |
+      | 含车手湿重（含油液） | 1411 kg / 3111 lbs |
 
     bodyEn: |+
       ![Image](./assets/bmw-m4-gt3/chassis-specifications.png)
@@ -76,7 +76,7 @@ sections:
       | Width | 2022 mm / 79.6 in |
       | Wheelbase | 2916 mm / 114.8 in |
       | Dry Weight | 1285 kg / 2833 lbs |
-      | Wet Weight with Driver | 1411 kg / 3111 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1411 kg / 3111 lbs |
 
   - id: power-unit
     level: 3

@@ -61,7 +61,7 @@ sections:
       | 车宽 | 1,950 mm / 77 in |
       | 轴距 | 2,700 mm / 106 in |
       | 干重 | 1406 kg / 3100 lbs |
-      | 含车手湿重 | 1480 kg / 3262 lbs |
+      | 含车手湿重（含油液） | 1480 kg / 3262 lbs |
 
     bodyEn: |+
       ![Image](./assets/honda-civic-type-r-tcr/chassis-specifications.png)
@@ -74,7 +74,7 @@ sections:
       | Width | 1,950mm / 77in |
       | Wheelbase | 2,700mm / 106in |
       | Dry Weight | 1406kg / 3100lbs |
-      | Wet Weight with Driver | 1480kg / 3262lbs |
+      | Wet Weight with Driver (Including Fluids) | 1480kg / 3262lbs |
 
   - id: power-unit
     level: 3

@@ -65,7 +65,7 @@ sections:
       | 车宽 | 1948 mm / 76.7 in |
       | 轴距 | 2703 mm / 106.7 in |
       | 干重 | 1283 kg / 106.4 lbs |
-      | 含车手湿重 | 1464 kg / 3477 lbs |
+      | 含车手湿重（含油液） | 1464 kg / 3477 lbs |
 
     bodyEn: |+
       FRONT DOUBLE WISHBONE AND REAR MULTI-LINK SUSPENSION.
@@ -78,7 +78,7 @@ sections:
       | Width | 1948 mm / 76.7 in |
       | Wheelbase | 2703 mm / 106.7 in |
       | Dry Weight | 1283 kg / 106.4 lbs |
-      | Wet Weight with Driver | 1464 kg / 3477 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1464 kg / 3477 lbs |
 
   - id: power-unit
     level: 3

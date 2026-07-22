@@ -62,7 +62,7 @@ sections:
       | 车宽 | 1920 mm / 75.6 in |
       | 轴距 | 2469 mm / 97.2 in |
       | 干重 | 1288 kg / 2866 lbs |
-      | 含车手湿重 | 1481 kg / 3266 lbs |
+      | 含车手湿重（含油液） | 1481 kg / 3266 lbs |
 
     bodyEn: |+
       
@@ -76,7 +76,7 @@ sections:
       | Width | 1920 mm / 75.6 in |
       | Wheelbase | 2469 mm / 97.2 in |
       | Dry Weight | 1288 kg / 2866 lbs |
-      | Wet Weight with Driver | 1481 kg / 3266 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1481 kg / 3266 lbs |
 
   - id: power-unit
     level: 3

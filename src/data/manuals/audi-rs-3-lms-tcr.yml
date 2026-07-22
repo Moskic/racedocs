@@ -69,7 +69,7 @@ sections:
       | 车宽 | 1,950 mm / 76.8 in |
       | 轴距 | 2,665 mm / 104.5 in |
       | 干重 | 1397 kg / 3080 lbs |
-      | 含车手湿重 | 1470 kg / 3240 lbs |
+      | 含车手湿重（含油液） | 1470 kg / 3240 lbs |
 
     bodyEn: |+
       ![Image](./assets/audi-rs-3-lms-tcr/chassis-specifications.png)
@@ -82,7 +82,7 @@ sections:
       | Width | 1,950mm / 76.8in |
       | Wheelbase | 2,665mm / 104.5in |
       | Dry Weight | 1397kg / 3080lbs |
-      | Wet Weight with Driver | 1470kg / 3240lbs |
+      | Wet Weight with Driver (Including Fluids) | 1470kg / 3240lbs |
 
   - id: power-unit
     level: 3

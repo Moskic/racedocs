@@ -62,7 +62,7 @@ sections:
       | 车宽 | 2050 mm / 80.7 in |
       | 轴距 | 2507 mm / 98.7 in |
       | 干重 | 1250 kg / 2755 lbs |
-      | 含车手湿重 | 1496 kg / 3300 lbs |
+      | 含车手湿重（含油液） | 1496 kg / 3300 lbs |
 
     bodyEn: |+
       ![Image](./assets/porsche-911-gt3-r-992/chassis-specifications.png)
@@ -75,7 +75,7 @@ sections:
       | Width | 2050 mm / 80.7 in |
       | Wheelbase | 2507 mm / 98.7 in |
       | Dry Weight | 1250 kg / 2755 lbs |
-      | Wet Weight with Driver | 1496 kg / 3300 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1496 kg / 3300 lbs |
 
   - id: power-unit
     level: 3

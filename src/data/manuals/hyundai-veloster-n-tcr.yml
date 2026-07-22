@@ -61,7 +61,7 @@ sections:
       | 车宽 | 1950 mm / 77 in |
       | 轴距 | 2650 mm / 104 in |
       | 干重 | 1411 kg / 3112 lbs |
-      | 含车手湿重 | 1484 kg / 3272 lbs |
+      | 含车手湿重（含油液） | 1484 kg / 3272 lbs |
 
     bodyEn: |+
       ![Image](./assets/hyundai-veloster-n-tcr/chassis-specifications.png)
@@ -74,7 +74,7 @@ sections:
       | Width | 1950 mm / 77 in |
       | Wheelbase | 2650 mm / 104 in |
       | Dry Weight | 1411 kg / 3112 lbs |
-      | Wet Weight with Driver | 1484 kg / 3272 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1484 kg / 3272 lbs |
 
   - id: power-unit
     level: 3

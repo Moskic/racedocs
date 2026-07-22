@@ -69,7 +69,7 @@ sections:
       | Width | 1996 mm / 78.6 in |
       | Wheelbase | 2630 mm / 103.5 in |
       | Dry Weight | 1486 kg / 3276 lbs |
-      | Wet Weight with Driver | 1595 kg / 3516 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1595 kg / 3516 lbs |
 
     bodyZh: |+
       #### 前后双叉臂悬架
@@ -82,7 +82,7 @@ sections:
       | 车宽 | 1996 mm / 78.6 in |
       | 轴距 | 2630 mm / 103.5 in |
       | 干重 | 1486 kg / 3276 lbs |
-      | 含车手湿重 | 1595 kg / 3516 lbs |
+      | 含车手湿重（含油液） | 1595 kg / 3516 lbs |
 
   - id: power-unit
     level: 3

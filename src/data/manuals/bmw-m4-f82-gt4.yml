@@ -60,7 +60,7 @@ sections:
       | Width | 2014 mm / 79.3 in |
       | Wheelbase | 2808 mm / 110.6 in |
       | Dry Weight | 1440 kg / 3175 lbs |
-      | Wet Weight with Driver | 1551 kg / 3419 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1551 kg / 3419 lbs |
     bodyZh: |+
       #### 前后全独立悬架，均可全面调校
 
@@ -72,7 +72,7 @@ sections:
       | 车宽 | 2014 mm / 79.3 in |
       | 轴距 | 2808 mm / 110.6 in |
       | 干重 | 1440 kg / 3175 lbs |
-      | 含车手湿重 | 1551 kg / 3419 lbs |
+      | 含车手湿重（含油液） | 1551 kg / 3419 lbs |
 
   - id: power-unit
     level: 3

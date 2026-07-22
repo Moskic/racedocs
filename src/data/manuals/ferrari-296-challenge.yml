@@ -62,7 +62,7 @@ sections:
       | 车宽 | 1958 mm / 77 in |
       | 轴距 | 2600 mm / 102.3 in |
       | 干重 | 1470 kg / 3240 lbs |
-      | 含车手湿重 | 1575 kg / 3472 lbs |
+      | 含车手湿重（含油液） | 1575 kg / 3472 lbs |
 
     bodyEn: |+
       
@@ -76,7 +76,7 @@ sections:
       | Width | 1958 mm / 77 in |
       | Wheelbase | 2600 mm / 102.3 in |
       | Dry Weight | 1470 kg / 3240 lbs |
-      | Wet Weight with Driver | 1575 kg / 3472 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1575 kg / 3472 lbs |
 
   - id: power-unit
     level: 3

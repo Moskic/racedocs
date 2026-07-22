@@ -62,7 +62,7 @@ sections:
       | Width | 2093 mm / 82.4 in |
       | Wheelbase | 2857 mm / 112.4 in |
       | Dry Weight | 1532 kg / 3377 lbs |
-      | Wet Weight with Driver | 1642 kg / 3621 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1642 kg / 3621 lbs |
 
     bodyZh: |+
       #### 前后全独立悬架，均可全面调校
@@ -75,7 +75,7 @@ sections:
       | 车宽 | 2093 mm / 82.4 in |
       | 轴距 | 2857 mm / 112.4 in |
       | 干重 | 1532 kg / 3377 lbs |
-      | 含车手湿重 | 1642 kg / 3621 lbs |
+      | 含车手湿重（含油液） | 1642 kg / 3621 lbs |
 
   - id: power-unit
     level: 3

@@ -61,7 +61,7 @@ sections:
       | 车宽 | 2043 mm / 80.5 in |
       | 轴距 | 2777 mm / 109 in |
       | 干重 | 1315 kg / 2900 lbs |
-      | 含车手湿重 | 1479 kg / 3260 lbs |
+      | 含车手湿重（含油液） | 1479 kg / 3260 lbs |
 
     bodyEn: |+
       ![Image](./assets/ford-mustang-gt3/chassis-specifications.png)
@@ -74,7 +74,7 @@ sections:
       | Width | 2043mm / 80.5in |
       | Wheelbase | 2777mm / 109in |
       | Dry Weight | 1315kg / 2900lbs |
-      | Wet Weight with Driver | 1479kg / 3260lbs |
+      | Wet Weight with Driver (Including Fluids) | 1479kg / 3260lbs |
 
   - id: power-unit
     level: 3

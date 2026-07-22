@@ -63,7 +63,7 @@ sections:
       | 车宽 | 2045 mm / 80.5 in |
       | 轴距 | 2642 mm / 104 in |
       | 干重 | 1320 kg / 2910 lbs |
-      | 含车手湿重 | 1485 kg / 3274 lbs |
+      | 含车手湿重（含油液） | 1485 kg / 3274 lbs |
 
     bodyEn: |+
       ![Image](./assets/acura-nsx-evo22-gt3/chassis-specifications.png)
@@ -76,7 +76,7 @@ sections:
       | Width | 2045mm / 80.5in |
       | Wheelbase | 2642mm / 104in |
       | Dry Weight | 1320kg / 2910lbs |
-      | Wet Weight with Driver | 1485kg / 3274lbs |
+      | Wet Weight with Driver (Including Fluids) | 1485kg / 3274lbs |
 
   - id: power-unit
     level: 3

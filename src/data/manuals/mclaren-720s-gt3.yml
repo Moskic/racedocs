@@ -63,7 +63,7 @@ sections:
       | 车宽 | 2040 mm / 80.3 in |
       | 轴距 | 2696 mm / 106.1 in |
       | 干重 | 1300 kg / 2932 lbs |
-      | 含车手湿重 | 1494 kg / 3293 lbs |
+      | 含车手湿重（含油液） | 1494 kg / 3293 lbs |
 
     bodyEn: |+
       ![Image](./assets/mclaren-720s-gt3/chassis-specifications.png)
@@ -76,7 +76,7 @@ sections:
       | Width | 2040 mm / 80.3 in |
       | Wheelbase | 2696 mm / 106.1 in |
       | Dry Weight | 1300 kg / 2932 lbs |
-      | Wet Weight with Driver | 1494 kg / 3293 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1494 kg / 3293 lbs |
 
   - id: power-unit
     level: 3

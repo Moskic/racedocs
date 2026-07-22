@@ -65,7 +65,7 @@ sections:
       | 车宽 | 1,950 mm / 77 in |
       | 轴距 | 2,750 mm / 108 in |
       | 干重 | 1434 kg / 3162 lbs |
-      | 含车手湿重 | 1506 kg / 3320 lbs |
+      | 含车手湿重（含油液） | 1506 kg / 3320 lbs |
 
     bodyEn: |+
       ![Image](./assets/hyundai-elantra-n-tcr/chassis-specifications.png)
@@ -78,7 +78,7 @@ sections:
       | Width | 1,950mm / 77in |
       | Wheelbase | 2,750mm / 108in |
       | Dry Weight | 1434kg / 3162lbs |
-      | Wet Weight with Driver | 1506kg / 3320lbs |
+      | Wet Weight with Driver (Including Fluids) | 1506kg / 3320lbs |
 
   - id: power-unit
     level: 3

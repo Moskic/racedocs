@@ -61,7 +61,7 @@ sections:
       | 车宽 | 2050 mm / 80.7 in |
       | 轴距 | 2769 mm / 109 in |
       | 干重 | 1330 kg / 2932 lbs |
-      | 含车手湿重 | 1491 kg / 3286 lbs |
+      | 含车手湿重（含油液） | 1491 kg / 3286 lbs |
     bodyEn: |+
       ![Image](./assets/aston-martin-vantage-gt3-evo/chassis-specifications.png)
       
@@ -73,7 +73,7 @@ sections:
       | Width | 2050 mm / 80.7 in |
       | Wheelbase | 2769 mm / 109 in |
       | Dry Weight | 1330 kg / 2932 lbs |
-      | Wet Weight with Driver | 1491 kg / 3286 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1491 kg / 3286 lbs |
 
   - id: power-unit
     level: 3

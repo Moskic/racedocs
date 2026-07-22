@@ -65,7 +65,7 @@ sections:
       | Width | 1778 mm / 2476 in |
       | Wheelbase | 2476 mm / 97.5 in |
       | Dry Weight | 1331 kg / 2934 lbs |
-      | Wet Weight with Driver | 1436 kg / 3166 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1436 kg / 3166 lbs |
 
     bodyZh: |+
       #### 中置发动机后轮驱动，前后麦弗逊式悬架
@@ -78,7 +78,7 @@ sections:
       | 车宽 | 1778 mm / 2476 in |
       | 轴距 | 2476 mm / 97.5 in |
       | 干重 | 1331 kg / 2934 lbs |
-      | 含车手湿重 | 1436 kg / 3166 lbs |
+      | 含车手湿重（含油液） | 1436 kg / 3166 lbs |
 
   - id: power-unit
     level: 3

@@ -61,7 +61,7 @@ sections:
       | 车宽 | 2050 mm / 81 in |
       | 轴距 | 2718 mm / 107 in |
       | 干重 | 1335 kg / 2943 lbs |
-      | 含车手湿重 | 1494 kg / 3294 lbs |
+      | 含车手湿重（含油液） | 1494 kg / 3294 lbs |
     bodyEn: |+
       ![Image](./assets/chevrolet-corvette-z06-gt3-r/chassis-specifications.png)
       
@@ -73,7 +73,7 @@ sections:
       | Width | 2050 mm / 81 in |
       | Wheelbase | 2718 mm / 107 in |
       | Dry Weight | 1335 kg / 2943 lbs |
-      | Wet Weight with Driver | 1494 kg / 3294 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1494 kg / 3294 lbs |
 
   - id: power-unit
     level: 3

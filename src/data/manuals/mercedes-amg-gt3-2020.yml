@@ -63,7 +63,7 @@ sections:
       | 车宽 | 2040 mm / 80.3 in |
       | 轴距 | 2630 mm / 103.5 in |
       | 干重 | 1320 kg / 2910 lbs |
-      | 含车手湿重 | 1440 kg / 3175 lbs |
+      | 含车手湿重（含油液） | 1440 kg / 3175 lbs |
     bodyEn: |+
       
       ![Image](./assets/mercedes-amg-gt3-2020/chassis-specifications.png)
@@ -76,7 +76,7 @@ sections:
       | Width | 2040 mm / 80.3 in |
       | Wheelbase | 2630 mm / 103.5 in |
       | Dry Weight | 1320 kg / 2910 lbs |
-      | Wet Weight with Driver | 1440 kg / 3175 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1440 kg / 3175 lbs |
 
   - id: power-unit
     level: 3

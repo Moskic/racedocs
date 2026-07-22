@@ -71,7 +71,7 @@ sections:
       | Width | 2095 mm / 82.5 in |
       | Wheelbase | 2674 mm / 105.3 in |
       | Dry Weight | 1425 kg / 3142 lbs |
-      | Wet Weight with Driver | 1540 kg / 3395 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1540 kg / 3395 lbs |
 
     bodyZh: |+
       MCLAREN 碳纤维 MONOCELL II 单体式底盘，前后独立绞牙避振悬架
@@ -84,7 +84,7 @@ sections:
       | 车宽 | 2095 mm / 82.5 in |
       | 轴距 | 2674 mm / 105.3 in |
       | 干重 | 1425 kg / 3142 lbs |
-      | 含车手湿重 | 1540 kg / 3395 lbs |
+      | 含车手湿重（含油液） | 1540 kg / 3395 lbs |
 
   - id: power-unit
     level: 3

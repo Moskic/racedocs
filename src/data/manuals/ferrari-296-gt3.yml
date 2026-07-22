@@ -62,7 +62,7 @@ sections:
       | 车宽 | 2050 mm / 80.7 in |
       | 轴距 | 2660 mm / 104.7 in |
       | 干重 | 1350 kg / 2976 lbs |
-      | 含车手湿重 | 1508 kg / 3325 lbs |
+      | 含车手湿重（含油液） | 1508 kg / 3325 lbs |
 
     bodyEn: |+
       ![Image](./assets/ferrari-296-gt3/chassis-specifications.png)
@@ -75,7 +75,7 @@ sections:
       | Width | 2050 mm / 80.7 in |
       | Wheelbase | 2660 mm / 104.7 in |
       | Dry Weight | 1350 kg / 2976 lbs |
-      | Wet Weight with Driver | 1508 kg / 3325 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1508 kg / 3325 lbs |
 
   - id: power-unit
     level: 3

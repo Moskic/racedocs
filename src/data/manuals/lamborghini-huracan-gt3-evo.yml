@@ -66,7 +66,7 @@ sections:
       | 车宽 | 2050 mm / 81 in |
       | 轴距 | 2645 mm / 104 in |
       | 干重 | 1285 kg / 2833 lbs |
-      | 含车手湿重 | 1480 kg / 3262 lbs |
+      | 含车手湿重（含油液） | 1480 kg / 3262 lbs |
     bodyEn: |+
       ![Image](./assets/lamborghini-huracan-gt3-evo/chassis-specifications.png)
       
@@ -78,7 +78,7 @@ sections:
       | Width | 2050 mm / 81 in |
       | Wheelbase | 2645 mm / 104 in |
       | Dry Weight | 1285 kg / 2833 lbs |
-      | Wet Weight with Driver | 1480 kg / 3262 lbs |
+      | Wet Weight with Driver (Including Fluids) | 1480 kg / 3262 lbs |
 
   - id: power-unit
     level: 3
