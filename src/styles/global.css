@@ -399,10 +399,27 @@ html[data-language="en"] .language-pair > [data-lang="en"] {
   color: #9e2a2b;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+}
+
+.header-about {
+  color: #dbe3e8;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-about:hover {
+  color: #fff;
+}
+
 .language-switch {
   display: flex;
   gap: 0.25rem;
-  margin-left: auto;
   padding: 0.2rem;
   border: 1px solid #ffffff40;
   border-radius: 0.45rem;
@@ -816,6 +833,15 @@ button:focus-visible {
 @media (max-width: 39.99rem) {
   .site-subtitle {
     display: none;
+  }
+
+  .site-header,
+  .header-actions {
+    gap: 0.5rem;
+  }
+
+  .language-switch button {
+    padding-inline: 0.45rem;
   }
 
   .catalog-filters {

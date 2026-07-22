@@ -18,5 +18,11 @@ const { hasEnglish, subtitleZh, subtitleEn } = Astro.props;
       <span data-lang="en">{subtitleEn ?? subtitleZh}</span>
     </span>
   )}
-  <LanguageSwitch hasEnglish={hasEnglish} />
+  <div class="header-actions">
+    <a href="/about/" class="header-about language-pair">
+      <span data-lang="zh">关于本站</span>
+      <span data-lang="en">About</span>
+    </a>
+    <LanguageSwitch hasEnglish={hasEnglish} />
+  </div>
 </header>
