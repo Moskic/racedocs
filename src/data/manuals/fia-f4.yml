@@ -1,0 +1,644 @@
+slug: fia-f4
+published: true
+titleZh: FIA F4 用户手册
+titleEn: FIA F4 User Manual
+contentType: vehicle-manual
+brand: FIA
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/fia-f4/cover.png
+source:
+  type: official
+  title: iRacing FIA F4 User Manual
+  revision: V3
+  notice: Complete English transcription imported from the user-provided official V3 PDF.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/fia-f4/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 FIA F4！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      FIA F4 的开发呼应了在全球范围内大幅提升赛车运动参与度的共同目标。随着第二代入门级方程式赛车于 2022 年推出，FIA F4 采用了 iRacing 会员所熟悉的同等水准分析、细节、数据和测试；同时，通用化车型不与特定制造商产生冲突，可供世界各地的国家级汽车运动俱乐部使用。
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![FIA F4 赛车](./assets/fia-f4/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the FIA F4! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The FIA F4 has been developed in conjunction with the global effort to massively increase the participation of motorsport worldwide. Following the introduction of a second-generation entry-level open-wheel formula in 2022, the FIA F4 benefits from the same level of analysis, detail, data, and testing as our members have come to expect while the genericized model allows for use by national clubs world-over without manufacturer conflicts.
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/fia-f4/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/fia-f4/chassis-specifications.png)
+
+      前后悬架均采用双叉臂推杆结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4467 mm / 175.9 in |
+      | 车宽 | 1738 mm / 68.4 in |
+      | 轴距 | 2745 mm / 108.1 in |
+      | 干重 | 581 kg / 1281 lbs |
+      | 含车手湿重 | 665 kg / 1466 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/chassis-specifications.png)
+
+      DOUBLE WISHBONE PUSHROD SUSPENSION FRONT AND REAR
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4467 mm / 175.9 in |
+      | Width | 1738 mm / 68.4 in |
+      | Wheelbase | 2745 mm / 108.1 in |
+      | Dry Weight | 581 kg / 1281 lbs |
+      | Wet Weight with Driver | 665 kg / 1466 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/fia-f4/power-unit.png)
+
+      直列四缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 2.0 升 / 122.6 CID |
+      | 转速上限 | 7275 RPM |
+      | 扭矩 | 226 lb-ft / 167 Nm |
+      | 功率 | 178 bhp / 131 kW |
+
+      ![FIA F4 车辆侧视图](./assets/fia-f4/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/power-unit.png)
+
+      INLINE 4 CYLINDER
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.0 Liters / 122.6 CID |
+      | RPM Limit | 7275 RPM |
+      | Torque | 226 lb-ft / 167 Nm |
+      | Power | 178 bhp / 131 kW |
+
+      ![Image](./assets/fia-f4/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/fia-f4/getting-started.png)
+
+      启动车辆前，建议先为制动力分配调整映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶需求快速调整制动力分配。
+
+      进入车辆后，只需拉动“升挡”拨片挂入挡位，再踩下油门踏板即可起步。本车采用自动化序列式变速箱，升挡和降挡均无须手动操作离合器。
+
+      建议在仪表台上的换挡提示灯全部亮起时升挡，对应转速为 7000 RPM。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/getting-started.png)
+
+      Before starting the car, it is recommended to map a control for Brake Bias adjustment. While this is not mandatory, this will allow you to make quick changes to the brake bias to suit your driving while out on track.
+
+      Once you load into the car, getting started is as easy as pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal. This car uses an automated sequential transmission and does not require manual clutch operation to shift in either direction.
+
+      Upshifting is recommended when the shift lights on the dashboard are all fully illuminated. This is at 7000 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/fia-f4/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup `<baseline.sto>`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+    bodyZh: |+
+      本车的仪表显示不可调整，仅提供一个页面，用于显示关键车辆信息。
+
+    bodyEn: |+
+      The dash display in this car is non-adjustable and features a single page to display critical vehicle information.
+
+  - id: dash-configuration
+    level: 3
+    titleZh: "仪表配置"
+    titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      ![仪表配置](./assets/fia-f4/dash-configuration.png)
+
+      #### 左列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Oil P | 发动机机油压力（bar 或 psi） |
+      | Oil T | 发动机水温（摄氏度或华氏度） |
+      | Best Lap | 本次会话最佳圈速，格式为 `mm:ss:ms` |
+
+      #### 中列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速 |
+      | Gear | 当前选择的挡位 |
+
+      #### 右列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Wat T | 发动机水温（摄氏度或华氏度） |
+      | Speed | 车辆速度（km/h 或 mph） |
+      | Last Lap | 上一完成圈的圈速 |
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/dash-configuration.png)
+
+      #### LEFT COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | Oil P | Engine oil pressure (Bar or psi) |
+      | Oil T | Engine water temperature (Celsius or Fahrenheit) |
+      | Best Lap | Session best lap as `mm:ss:ms` |
+
+      #### CENTER COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | RPM | Engine RPM |
+      | Gear | Currently selected gear |
+
+      #### RIGHT COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | Wat T | Engine water temperature (Celsius or Fahrenheit) |
+      | Speed | Road speed (km/h or mph) |
+      | Last Lap | Previously completed lap time |
+
+  - id: shift-lights-and-pit-limiter
+    level: 3
+    titleZh: "换挡提示灯与维修区限速器"
+    titleEn: "SHIFT LIGHTS & PIT LIMITER"
+    bodyZh: |+
+      ![换挡提示灯与维修区限速器](./assets/fia-f4/shift-lights-and-pit-limiter.png)
+
+      | 指示状态 | 转速 |
+      | --- | --- |
+      | 第 1 颗绿灯 | 6300 RPM |
+      | 第 2 颗绿灯 | 6500 RPM |
+      | 第 3 颗绿灯 | 6600 RPM |
+      | 第 4 颗绿灯 | 6700 RPM |
+      | 第 1 颗红灯 | 6800 RPM |
+      | 第 2 颗红灯 | 6900 RPM |
+      | 全部闪烁 | 7000 RPM |
+
+      启用维修区限速器后，仪表显示屏底部会出现一个大型绿色方框。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/shift-lights-and-pit-limiter.png)
+
+      | Indicator | RPM |
+      | --- | --- |
+      | 1 Green | 6300 RPM |
+      | 2 Green | 6500 RPM |
+      | 3 Green | 6600 RPM |
+      | 4 Green | 6700 RPM |
+      | 1 Red | 6800 RPM |
+      | 2 Red | 6900 RPM |
+      | All Flashing | 7000 RPM |
+
+      When the pit limiter is activated a large green box will appear at the base of the dash display.
+
+  - id: halo-center-pillar
+    level: 3
+    titleZh: "Halo 中央支柱"
+    titleEn: "HALO CENTER PILLAR"
+    bodyZh: |+
+      ![Halo 中央支柱设置](./assets/fia-f4/halo-center-pillar.png)
+
+      为改善车手视野，可以通过“选项”菜单中的“隐藏遮挡物”设置移除防石挡板。要启用此选项，请依次进入“选项”和“图形”菜单，再将“隐藏遮挡物”设为“座舱 Halo”或“全部”。这样会完全移除挡板，但回放中仍会显示。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/halo-center-pillar.png)
+
+      To improve driver visibility, the rock screen can be removed via the “Hide Obstructions” setting in the Options menu. To enable this option go to the Options and then Graphics menu, then change the “Hide Obstructions” setting to either “Cockpit halo” or “All”. This will remove the screen completely but it will still be visible in replays.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleZh: "轮胎数据"
+    titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/fia-f4/tire-data.png)
+
+      #### 轮胎类型
+
+      FIA F4 可根据天气条件更换所装轮胎。“干地”选项会安装适用于干燥赛道表面的光头胎，“湿地”选项则会安装适用于湿滑赛道表面的带花纹轮胎。
+
+      #### 冷胎压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。为获得最佳性能，应根据赛道特性设置冷胎压力。一般而言，建议从较低胎压开始，再根据需要逐步提高。
+
+      #### 热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。
+
+      应在连续行驶数圈、轮胎状态稳定后分析热胎压力。由于每次连续行驶的圈数会随赛道长度变化，可以完成约满油连续行驶里程的 50% 作为合适的起点。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，通过高温计测量轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位，主要是外倾角。这些数值在胎面横向的内侧、中部和外侧三个区域测量。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；还可结合轮胎温度分析车辆的操控平衡。这些数值与温度一样，在胎面的相同区域测量。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/tire-data.png)
+
+      #### TIRE TYPE
+
+      Tires fitted to the FIA F4 car can be changed based on weather conditions. The Dry option fits a slick tire intended for dry track conditions while the Wet option fits a treaded tire for wet track surfaces.
+
+      #### COLD PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+
+      #### HOT PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+
+      Hot pressures should be analyzed once the tires have stabilized after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+
+      #### TIRE TEMPERATURES
+
+      Tire carcass temperatures, measured via Pyrometer, once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-setup
+    level: 3
+    titleZh: "空气动力学设置"
+    titleEn: "AERO SETUP"
+    bodyZh: |+
+      ![空气动力学设置](./assets/fia-f4/aero-setup.png)
+
+      #### 前翼主翼面角度
+
+      前翼的相对攻角。这是一项会显著影响空气动力学平衡和总下压力的装置。增大前翼主翼面角度可提高中高速弯中的整体过弯能力，使操控平衡明显前移（更容易转向过度），并略微降低直线速度。调整前翼主翼面角度时，应同时考虑尾翼角度以及前后车高的相对差值，也就是“前后倾角”。减小前后倾角会使空气动力学平衡后移，增大前后倾角则会使其前移。
+
+      #### 尾翼角度
+
+      尾翼的相对攻角。对本车而言，尾翼的主要作用是调整空气动力学平衡，以配合前翼主翼面角度的变化。增大尾翼角度会产生更多下压力与阻力，并使空气动力学平衡后移（更容易转向不足）。无论对平衡还是下压力而言，尾翼的作用都相对弱于前翼主翼面，需要用更大的调整幅度来配合前翼主翼面的变化；但尾翼对阻力的影响相对更大。因此，在长直道较多的赛道上，降低尾翼角度以提高直线速度，可能有助于超车。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/aero-setup.png)
+
+      #### FRONT MAINPLANE ANGLE
+
+      The relative angle of attack of the front wing. This is a powerful aerodynamic device in terms of balance and total downforce produced. Increasing the front mainplane angle results in more total cornering capability in medium to high speed corners, a significant shift forwards in handling balance (more oversteer) and a slight reduction in straight line speed. The front mainplane angle should be adjusted in conjunction with the rear wing angle as well as the relative difference in front and rear ride heights known as ‘rake’. Reducing the rake will shift the aerodynamic balance rearwards while increasing it will shift the aerodynamic balance forwards.
+
+      #### REAR WING ANGLE
+
+      The relative angle of attack of the rear wing. On this car the primary purpose of the rear wing is to trim the aerodynamic balance to suit changes made to the front mainplane angle. Increasing the rear wing angle will produce more downforce, more drag and shift the aerodynamic balance rearwards (more understeer). In both balance and downforce senses it is relatively less powerful than the front mainplane and will require larger step changes to suit any changes made to the front mainplane. However, it is relatively more influential in terms of drag. As such, at tracks with long straights it may be beneficial to focus on reducing the rear wing angle for greater straight line speed to aid in overtaking.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: "空气动力学计算器"
+    titleEn: "AERO CALCULATOR"
+    bodyZh: |+
+      ![空气动力学计算器](./assets/fia-f4/aero-calculator.png)
+
+      空气动力学计算器用于帮助理解调整尾翼设置以及前后车高时，空气动力学平衡会如何变化。需要注意，此处显示的前后车高数值不会对车辆本身产生任何机械调整；但在此处更改尾翼角度会实际应用于车辆。此计算器仅供参考。
+
+      #### 高速状态后车高
+
+      高速状态车高（RH at Speed）用于向空气动力学计算器提供计算所需的参考高度。使用计算器时，请通过遥测数据确定车辆在赛道任意位置的后车高，并将该数值输入“高速状态前车高”设置。建议采用左后与右后车高的平均值；与使用单侧车高相比，这能更准确地反映当前空气动力学平台。
+
+      #### 下压力／阻力比
+
+      从绝对意义上说，该数值表示每单位阻力所产生的下压力，因此代表当前所选翼面配置与高速状态车高下的整体空气动力学效率。比较不同翼面与前后倾角组合时，可以用相同的下压力／阻力比作为基准。不过需要注意，这一数值只代表效率，并不表示产生的总下压力。因此，完全可能存在两个效率相同、但在弯中速度和直道末端速度方面表现差异很大的套件。
+
+      #### 前轴下压力占比
+
+      该数值显示计算器参数中所设翼面与车高组合下，作用于前轴的下压力比例。它代表这一组确切参数下瞬时的空气动力学平衡。您可以选取弯道或赛道区段内的多个位置，了解制动、稳态过弯和出弯加速等不同情形下空气动力学平衡如何变化。前轴占比越高，车辆在中高速弯中越容易转向过度。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/aero-calculator.png)
+
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+
+      #### REAR RH AT SPEED
+
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+
+      #### DOWNFORCE TO DRAG
+
+      In absolute terms this number represents the amount of downforce produced per unit drag and thus represents the overall aerodynamic efficiency of the currently selected wing configuration and at speed ride heights. This can be useful in evaluating various combinations of wings and rake while keeping an equivalent downforce to drag number. However, it should be noted that this number only represents the efficiency, not the total downforce produced. As such, it is very possible to create two different packages that have the same efficiency but very differing levels of performance in terms of mid corner and end of straightaway speeds.
+
+      #### FRONT DOWNFORCE
+
+      This value displays the proportion of downforce acting at the front axle for the given wing and ride height combination set within the calculator parameters. This value is an instantaneous representation of your aero balance at this exact set of parameters and it can be helpful to pick multiple points around a corner or section of track to understand how the aerodynamic balance is moving in differing situations such as braking, steady state cornering and accelerating at corner exit. A higher forwards percentage will result in more oversteer in mid to high speed corners.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/fia-f4/front.png)
+
+      #### 推杆偏移量
+
+      通过增大或减小前推杆长度来调整前车高。加长推杆会提高车高，缩短推杆则会降低车高。左右两侧联动，作为一个整体进行调整。
+
+      #### 防倾杆刀片
+
+      可改变防倾杆（ARB）摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。增加防倾杆摆臂数量会提高前悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手感到转向响应更加灵敏。相反，减少防倾杆摆臂数量会降低悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。此外，还应考虑防倾杆总成软硬变化对空气动力学的影响：较软的防倾杆总成会产生更多车身侧倾，降低高速弯中对空气动力学平台的控制，并可能损失空气动力学效率。共有 5 种防倾杆摆臂组合，范围从 1（最软）到 5（最硬）。
+
+      #### 减振器压缩阻尼刚度
+
+      压缩刚度是一项成对调整，会同时控制减振器的低速和高速压缩阻尼特性。此处 1 代表最小阻尼（压缩阻力最小），10 代表最大阻尼（压缩阻力最大）。增大压缩刚度，会使制动、变向等瞬态动作中载荷更快地转移至车辆这一端。对于前减振器而言，提高阻尼通常会改善初始入弯响应，但降低整体抓地力。高速压缩阻尼会随低速压缩阻尼成比例增加，因此车辆压过路肩时的反应也会更生硬。在较平整的赛道上，提高压缩刚度通常能改善表现；在较颠簸或路肩激进的赛道上，降低压缩阻尼可牺牲部分平台控制来换取更多机械抓地力。
+
+      #### 减振器回弹阻尼刚度
+
+      回弹刚度是一项成对调整，会同时控制减振器的低速和高速回弹阻尼特性。增大回弹阻尼会降低减振器在低速与高速工况下的伸长速度。典型的低减振器速度工况是车辆出弯时从侧倾姿态恢复水平；高速工况则是悬架在剧烈压过路肩后伸长。1 代表最小阻尼（伸长阻力最小），10 代表最大阻尼（伸长阻力最大）。较高的回弹刚度可改善空气动力学平台控制和底盘整体响应，但必须避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触，并引发或加剧严重振荡。
+
+      #### 制动力分配
+
+      制动力分配表示传递至前制动器的制动力百分比。数值高于 50% 时，前制动管路压力会大于后制动管路，使制动力平衡前移，增加前轮抱死倾向，但也可能提高制动区内的整体稳定性。应根据车手偏好和赛道条件进行调校，以在具体情况下获得最佳制动性能。
+
+      #### 对角配重
+
+      对角配重是车辆在车库中静止时，作用于右前轮与左后轮的重量占车辆总重的百分比。对于非椭圆赛道，50.0% 通常为最佳值；在其他底盘设置均对称时，这会使车辆在左右弯中呈现对称操控。高于 50% 的对角配重会使车辆在左弯中更容易转向不足、在右弯中更容易转向过度。可通过调整各车轮的弹簧刚度、胎压或定位参数来改变对角配重。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/front.png)
+
+      #### PUSHROD OFFSET
+
+      Used to adjust the front ride height by increasing or decreasing the length of the front pushrods. Lengthening the pushrod will increase the ride height and shortening the pushrod will reduce the ride height. Left and right adjustments are paired and adjusted as one.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Increasing the number of ARB arms will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the number of ARB arms will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. Along with this, the effects of softening or stiffening the ARB assembly in relation to aerodynamics should also be considered, softer ARB assemblies will result in more body roll which will decrease control of the aero platform in high speed corners and potentially lead to a loss in aero efficiency. 5 configurations of ARB arms are available and range from 1 (softest) to 5 (stiffest).
+
+      #### DAMPER COMPRESSION STIFFNESS
+
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper. In this case 1 is minimum damping (least resistance to compression) while 10 is maximum damping (most resistance to compression). Increasing the bump stiffness will result in a faster transfer of weight to this end of the car during transient movements such as braking and direction change with increased damping usually providing an increase in turn-in response but a reduction in overall grip in the context of front damping. High speed compression damping will increase proportionally to the increase in low speed compression damping which will also result in harsher response to kerb strikes. At smoother tracks more bump stiffness will typically increase performance while at rougher tracks or ones with aggressive kerbs less compression damping can result in an increase in mechanical grip at the expense of platform control.
+
+      #### DAMPER REBOUND STIFFNESS
+
+      The Rebound Stiffness setting is a paired adjustment to both low and high speed rebound damping characteristics. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. A typical low damper speed situation would be as the car rolls back to level on a corner exit while a high speed situation would be where the suspension is extending after large kerb contact. 1 is minimum damping (least resistance to extension) while 10 is maximum damping (most resistance to extension). While high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response it is important to avoid situations where the damper is too slow in rebounding as this will result in the tire losing complete contact with the track surface which can induce or exacerbate severe oscillations.
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tyres but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+
+      #### CROSS WEIGHT
+
+      The percentage of total vehicle weight in the garage acting across the right front and left rear corners. 50.0% is generally optimal for non-oval tracks as this will produce symmetrical handling in both left and right hand corners providing all other chassis settings are symmetrical. Higher than 50% cross weight will result in more understeer in left hand corners and increased oversteer in right hand corners, adjustments to cross weight can be made by making changes to the corner spring rates, air pressures or alignment at each corner of the car.
+
+  - id: front-corners
+    level: 3
+    titleZh: "左／右前轮"
+    titleEn: "LEFT/RIGHT FRONT"
+    bodyZh: |+
+      ![左右前轮设置](./assets/fia-f4/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆在车库中静止时，各条轮胎所承受的重量。正确安排车辆各处的重量对针对具体赛道和条件优化车辆至关重要。FIA F4 无法轻易改变这一数值，因为各车轮的推杆不可单独调整；不过，使用非对称设置时，单轮载荷仍可能出现一定差异。
+
+      #### 车高
+
+      地面到车辆底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测量，因此未必代表车辆实际离地间隙，但可以可靠表示车辆静止时相对于赛道表面的高度。调整车高对获得最佳性能至关重要，因为它会直接影响车辆的空气动力学表现和机械抓地力。提高前车高会减少前轴下压力与整车总下压力，但允许过弯时前轴发生更多横向载荷转移。相反，降低车高会增加前轴下压力与整车总下压力，但减少前轴横向载荷转移。规则允许的最低前车高为 20.0 mm。
+
+      #### 弹簧刚度
+
+      此设置决定安装在各车轮处的弹簧刚度。较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能；但也会增大轮胎负荷变化，表现为机械抓地力下降。通常，这一缺点在较颠簸的赛道上会更加明显，此时较软的弹簧可提高整体表现。改变各车轮的弹簧会同时影响平台的侧倾和俯仰控制；调整弹簧刚度时，还应考虑防倾杆的变化，以保持相同的前后侧倾刚度分配和整体平衡。降低各车轮的弹簧刚度时，应提高防倾杆刚度，以维持此前的侧倾刚度。共有 6 种弹簧刚度可选，范围从 88 N/mm（500 lbs/in）到 175 N/mm（1000 lbs/in）。每次更改弹簧刚度后，都必须调整推杆偏移量，使车辆恢复到之前的静态车高。
+
+      #### 主销后倾角
+
+      主销后倾角是从底盘侧面观察时，转向轴线相对于垂直方向的夹角。正主销后倾角表示从该视角看转向轴线向后倾斜；后倾角越大，轮胎接地印迹位于转向轴线后方的总拖距越大。增大主销后倾角后，在车手感受到的转向重量中，机械拖距相对于轮胎气动拖距所占比例会更高，因此整体转向手感更沉，但从轮胎感受到的反馈可能减少。增大主销后倾角还会带来次级影响，例如在大转向角下转动方向盘时增加动态外倾角，这在减速弯或发卡弯中可能有益。此外，主销后倾角越大，过弯时的顶升效应越强，会抬起内侧前轮并压低外侧前轮；这种顶升效应也会减轻内侧后轮负荷，甚至使其离地，从而帮助车辆绕过狭窄弯角。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大前轮负外倾角的绝对值通常会提高中高速弯中的前轴抓地力，但会降低制动性能，因此需要将制动力分配向后调整作为补偿。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. For the FIA F4 this cannot be easily influenced as individual corner pushrods are non-adjustable. However, when running asymmetrical setups some difference in corner weights may still be observed.
+
+      #### RIDE HEIGHT
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing front ride height will decrease front downforce as well as decrease overall downforce, but will allow for more weight transfer across the front axle when cornering. Conversely, reducing ride height will increase front and overall downforce, but reduce the weight transfer across the front axle. Minimum legal front ride height is 20.0 mm.
+
+      #### SPRING RATE
+
+      This setting determines the installed corner spring stiffness. Stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control; however, they will also result in increased tire load variation which will manifest as a loss in mechanical grip. Typically the drawbacks of stiffer springs will become more pronounced on rougher tracks and softer springs in these situations will result in increased overall performance. Corner spring changes will influence both roll and pitch control of the platform and ARB changes should be considered when altering corner spring stiffnesses in order to retain the same front to rear roll stiffness and overall balance. When reducing corner spring stiffness the ARB stiffness should be increased to retain the same roll stiffness as previously. Six options for spring rate are available ranging from 88 N/mm (500 lbs/in) to 175 N/mm (1000 lbs/in). Pushrod offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+
+      #### CASTER
+
+      Caster is the vertical angle of the steering axis relative to the side view of the chassis. Positive caster angle is where the steering axis is leaned rearwards from this viewpoint, the more caster the larger the total trail of the contact patch behind the steering axis. More caster angle will result in the mechanical trail being a larger proportion of the felt steering weight relative to the tires pneumatic trail. This will result in a heavier overall steering feel but a possible loss in felt feedback from the tire. Increasing caster angle will also have secondary effects such as an increase in dynamic camber when turning the wheel through large steering angles which can be beneficial in chicances or hairpins. As well as this the more caster angle the greater the jacking effect during cornering which will result in lifting the inside front wheel while lowering the outside front wheel. This jacking effect will also result in the unloading and potentially lifting of the inside rear wheel which can aid in rotation around tight corners.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "左／右后轮"
+    titleEn: "LEFT/RIGHT REAR"
+    bodyZh: |+
+      ![左右后轮设置](./assets/fia-f4/rear-corners.png)
+
+      #### 弹簧刚度
+
+      与前轴相同，较硬的弹簧可缩小高、低负荷状态间的车高变化，并通过改善平台控制带来更好的空气动力学性能，但代价是机械抓地力下降。这一缺点在低速弯出口激进加油时尤其明显；硬弹簧在此类情况下往往表现较差，在颠簸赛道上更是如此，并会导致明显的牵引力损失。弹簧刚度应根据赛道需求进行匹配，使车辆在高速和低速弯中的操控平衡保持一致。例如，若车辆高速弯转向不足、低速弯转向过度，提高后弹簧刚度可能有益。这样可以使用更低的静态后车高，减少低速过弯时后轴载荷转移，同时在高速过弯时维持甚至提高动态后车高，使空气动力学平衡前移并减少转向不足。共有 6 种弹簧刚度可选，范围从 88 N/mm（500 lbs/in）到 175 N/mm（1000 lbs/in）。每次更改弹簧刚度后，都必须调整推杆偏移量，使车辆恢复到之前的静态车高。
+
+      #### 外倾角
+
+      与前轮相同，为提高横向抓地能力，后轮也应采用较大的负外倾角；但后轮负外倾通常会略小于前轮。主要有两个原因：首先，后轮比前轮更宽；其次，后轮还必须承担驱动车辆前进的任务，因此外倾角带来的横向抓地力收益，需要与纵向牵引性能的损失相权衡。
+
+      #### 前束
+
+      后轮通常采用正前束。增加正前束可提高直线稳定性，但会降低变向时的响应。应尽可能避免过大的正前束，因为这会增加滚动阻力并降低直线速度。一般建议保持左右前束值相同，以避免车辆斜行或产生不对称操控；不过，在 Lime Rock Park 这类高度不对称的赛道上，采用非对称后轮前束及其他设置参数可能有助于提高性能。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/rear-corners.png)
+
+      #### SPRING RATE
+
+      Similar to at the front axle, stiffer springs will result in a smaller variance in ride height between high and low load cases and will produce superior aerodynamic performance through improved platform control at the expense of mechanical grip. This can be particularly prominent when exiting slow speed corners with aggressive throttle application. Stiffer springs will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering. As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to shift the aerodynamic balance forwards and reduce understeer. Six options for spring rate are available 88 N/mm (500 lbs/in) to 175 N/mm (1000 lbs/in). Pushrod offsets must be adjusted to return the car to the prior static ride heights after any spring rate change.
+
+      #### CAMBER
+
+      As at the front of the car it is desirable to run significant amounts of negative camber in order to increase the lateral grip capability; however, it is typical to run slightly reduced rear camber relative to the front. This is primarily for two reasons, firstly, the rear tires are wider compared to the fronts and secondly the rear tires must also perform the duty of driving the car forwards where benefits of camber to lateral grip become a tradeoff against reduced longitudinal (traction) performance.
+
+      #### TOE-IN
+
+      At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/fia-f4/rear.png)
+
+      #### 后车高
+
+      地面到车身后部底盘参考点的距离。提高后车高会减少后轴下压力、增加整车总下压力，并允许过弯时后轴发生更多横向载荷转移。相反，降低车高会增加后轴下压力占比、减少整车总下压力，同时降低后轴横向载荷转移。后车高是兼顾机械平衡与空气动力学平衡的关键调校项；为获得最佳表现，应根据所选后轮弹簧匹配静态后车高。规则允许的最低后车高为 30.0 mm，最高后车高为 40.0 mm。
+
+      #### 推杆偏移量
+
+      通过增大或减小后推杆长度来调整后车高。加长推杆会提高车高，缩短推杆则会降低车高。左右两侧联动，作为一个整体进行调整。
+
+      #### 防倾杆刀片
+
+      可改变防倾杆（ARB）摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。提高防倾杆总成刚度会增加后悬架侧倾刚度，从而减少车身侧倾，但增加机械性转向过度；这也会使车辆在开始入弯时更快进入稳定受力状态。相反，降低防倾杆总成刚度会减小悬架侧倾刚度，增加车身侧倾但减少机械性转向过度。此时车辆后部的响应感可能减弱，在瞬态动作中尤其明显，但后轴抓地力会提高。共有 5 种防倾杆摆臂组合，范围从 1（最软）到 5（最硬）。
+
+      #### 减振器压缩阻尼刚度
+
+      压缩刚度是一项成对调整，会同时控制减振器的低速和高速压缩阻尼特性，其调整范围与前减振器相同。增大压缩阻尼，会使加速、变向等瞬态动作中载荷更快地转移至车辆这一端。对于后减振器而言，提高阻尼通常会改善响应，但降低整体抓地力，尤其是出弯牵引力。过硬的压缩阻尼会导致车辆在颠簸赛道上的牵引力很差，因为它可能造成较大的轮胎负荷变化并降低整体抓地力。
+
+      #### 减振器回弹阻尼刚度
+
+      回弹刚度是一项成对调整，会同时控制减振器的低速和高速回弹阻尼特性，其调整范围与前减振器相同。增大回弹阻尼会降低减振器在低速与高速工况下的伸长速度。与前轴相同，较高的回弹刚度可改善空气动力学平台控制和底盘整体响应，但必须避免减振器回弹过慢，否则轮胎可能完全失去与赛道表面的接触。这在制动和初始入弯阶段尤其不利；不过，提高回弹刚度也能帮助“减缓”施加制动时车辆俯仰姿态的变化，从而可能改善制动稳定性。
+
+      #### 燃油量
+
+      油箱中的燃油量。油箱容量为 40 L（10.6 gal），以 1 L（0.26 gal）为增量进行调整。
+
+    bodyEn: |+
+      ![Image](./assets/fia-f4/rear.png)
+
+      #### REAR RIDE HEIGHT
+
+      Distance from ground to a reference point on the rear of the chassis. Increasing rear ride height will decrease rear downforce as well as increase overall downforce and will allow for more weight transfer across the rear axle when cornering. Conversely, reducing ride height will increase rear downforce percentage but reduce overall downforce while reducing the weight transfer across the rear axle. Rear ride height is a critical tuning component for both mechanical and aerodynamic balance considerations and static rear ride heights should be considered and matched to the chosen rear corner springs for optimal performance. Minimum legal rear ride height is 30.0 mm while maximum legal rear ride height is 40.0 mm.
+
+      #### PUSHROD OFFSET
+
+      Used to adjust the rear ride height by increasing or decreasing the length of the rear pushrods. Lengthening the pushrod will increase the ride height and shortening the pushrod will reduce the ride height. Left and right adjustments are paired and adjusted as one.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Increasing the ARB assembly stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also cause the car to “take a set” more quickly at initial turn-in. Conversely, reducing the ARB assembly stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the rear especially in transient movements, but grip across the rear axle will increase. 5 configurations of ARB arms are available and range from 1 (softest) to 5 (stiffest).
+
+      #### DAMPER COMPRESSION STIFFNESS
+
+      The bump stiffness setting is a paired adjustment controlling both the low and high speed compression damping characteristics of the damper with identical ranges to those of the front dampers. Increasing the compression damping will result in a faster transfer of weight to this end of the car during transient movements such as accelerating and direction change with increased damping usually providing an increase in response but a reduction in overall grip especially at corner exit traction in the context of rear dampers. Excessively stiff compression damping can cause very poor traction on rough tracks as it can result in large tire load variation and a reduction in overall grip.
+
+      #### DAMPER REBOUND STIFFNESS
+
+      The rebound stiffness setting is a paired adjustment controlling both the low and high speed damping characteristics of the damper with identical ranges to those of the front dampers. Increasing rebound damping will slow down the rate at which the damper extends in both low and high speed situations. As at the front, high rebound stiffness will result in improved platform control for aerodynamic performance and overall chassis response but it is important to avoid situations where the damper is too slow in rebounding as this will result in the tire losing complete contact with the track surface. This can be particularly detrimental during braking events and during the initial turn-in phase though an increase in rebound stiffness can help to ‘slow down’ the change in pitch of the car as the brakes are applied, potentially increasing braking stability.
+
+      #### FUEL LEVEL
+
+      The amount of fuel in the fuel tank. Tank capacity is 40 L (10.6 g). Adjustable in 1 L (0.26 g) increments.

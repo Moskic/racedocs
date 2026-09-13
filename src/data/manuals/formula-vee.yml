@@ -1,0 +1,510 @@
+slug: formula-vee
+published: true
+titleZh: Formula Vee 用户手册
+titleEn: Formula Vee User Manual
+contentType: vehicle-manual
+brand: Formula Vee
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/formula-vee/cover.png
+source:
+  type: official
+  title: iRacing Formula Vee User Manual
+  revision: Not stated
+  notice: Complete English transcription imported from the user-provided official PDF.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/formula-vee/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Formula Vee！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      赛车运动中最富传奇色彩的初级方程式组别之一现已加入 iRacing！Formula Vee 以 1963 年以前生产的大众甲壳虫原厂零部件为基础，将其与管状车架底盘以及玻璃纤维或碳纤维开轮式车身结合。自 1964 年起，它便一直是 SCCA Runoffs 全国锦标赛的一部分，并在世界各地广受欢迎；从 Niki Lauda 到 Keke Rosberg 等传奇车手，都曾驾驶这些经典赛车开启自己的职业生涯。
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Formula Vee 赛车](./assets/formula-vee/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Formula vee! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      One of the most legendary junior open-wheel racing formulas is part of iRacing! The Formula Vee is based on the stock parts a pre-1963 Volkswagen Beetle, combining them with a tubeframe chassis and fiberglass or carbon fiber open-wheel body. Part of the SCCA Runoffs since 1964, the cars have also proven highly popular around the world, with iconic names from Niki Lauda to Keke Rosberg starting their careers in these venerable machines.
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/formula-vee/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/formula-vee/chassis-specifications.png)
+
+      前悬架采用 H 形梁结构，后悬架采用摆动半轴结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 3426 mm / 134.88 in |
+      | 车宽 | 1097 mm / 43.2 in |
+      | 轴距 | 2090 mm / 82.3 in |
+      | 干重 | 396 kg / 873 lbs |
+      | 含车手湿重 | 481 kg / 1060 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/chassis-specifications.png)
+
+      H-BEAM FRONT AND SWING AXLE REAR SUSPENSION.
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 3426 mm / 134.88 in |
+      | Width | 1097 mm / 43.2 in |
+      | Wheelbase | 2090 mm / 82.3 in |
+      | Dry Weight | 396 kg / 873 lbs |
+      | Wet Weight with Driver | 481 kg / 1060 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/formula-vee/power-unit.png)
+
+      风冷水平对置四缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 1.4 升 / 85.4 cid |
+      | 扭矩 | 76 lb-ft / 103 Nm |
+      | 功率 | 69 bhp / 51 kW |
+      | 转速上限 | 7400 RPM |
+
+      ![Formula Vee 车辆侧视图](./assets/formula-vee/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/power-unit.png)
+
+      AIR-COOLED FLAT-4
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 1.4 Liters / 85.4 cid |
+      | Torque | 76 lb-ft / 103 Nm |
+      | Power | 69 bhp / 51 kW |
+      | RPM Limit | 7400 |
+
+      ![Image](./assets/formula-vee/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/formula-vee/getting-started.png)
+
+      上车前，建议先映射 H 型换挡器和手动脚踏离合器（如有）。Formula Vee 采用传统直选式变速箱，设有四个前进挡和一个倒挡。该变速箱的齿比并不像典型现代赛车那样排列，因此 1 挡只用于从静止状态起步，2 挡也很少使用，仅适用于紧凑发卡弯等极低速弯道。
+
+      大部分时间都会使用 3 挡和 4 挡，最好分别将其视为“低速挡”和“高速挡”。由于各挡齿比间距很大，在多数弯道降至 2 挡会导致后轴锁止并引发打转；频繁换挡并不适合这款车。
+
+      建议在仪表台第三颗红色换挡提示灯亮起时升挡，对应转速约为 6400 RPM。
+
+      最后，建议为制动力分配调整映射一个控制按键。虽然这并非驾驶车辆的必要条件，但这样可以在行驶中根据需要调整制动力分配，无须返回车库。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/getting-started.png)
+
+      Before jumping into the car, you are encouraged to map a H-pattern shifter and a manual foot clutch (if available). The Formula Vee uses a traditional direct selection transmission with four forward gears plus reverse. The ratios used for this gearbox are not that of a typical modern racecar and as such, first gear is exclusively used for pulling the car away from stationary while second is rarely used except for very slow speed corners such as tight hairpins.
+
+      The majority of your time will be spent using third and fourth gears and it is best to treat these as ‘low’ and ‘high’ respectively. As the ratio spacing is so large, downshifting to second for most corners will result in locking of the rear axle and a spin, excessive shifting is not optimal in this car.
+
+      Upshifting is recommended at the illumination of the third red shift lights on the dashboard. This is at approximately 6400 rpm.
+
+      Finally, it is recommended to map a control for Brake Bias adjustment. While this is not mandatory to drive the car, this will allow you to alter the brake bias to suit as you drive instead of returning to the garage.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/formula-vee/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 `<baseline.sto>`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+
+  - id: dash-configuration
+    level: 3
+    titleZh: "仪表配置"
+    titleEn: "DASH CONFIGURATION"
+    bodyZh: |+
+      ![仪表配置](./assets/formula-vee/dash-configuration.png)
+
+      | 位置 | 显示内容 |
+      | --- | --- |
+      | 最左侧 | 机油压力过低警告（机油压力低时亮起橙灯） |
+      | 左起第二项 | 发动机机油压力（仅 psi） |
+      | 最右侧 | 变速箱空挡指示灯（处于空挡时亮起绿灯） |
+      | 数字仪表顶部 | 发动机转速图形条 |
+      | 数字仪表中央左侧 | 发动机机油温度（摄氏度或华氏度） |
+      | 数字仪表中央 | 当前选择的挡位 |
+      | 数字仪表中央右侧 | 当前车速（km/h 或 mph） |
+      | 数字仪表左下角 | 当前会话圈数 |
+      | 数字仪表右下角 | 上一圈圈速 |
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/dash-configuration.png)
+
+      | Position | Display |
+      | --- | --- |
+      | Far Left | Low oil pressure warning (illuminates orange when oil pressure is low) |
+      | Second from left | Engine oil pressure (psi only) |
+      | Far Right | Gearbox neutral indicator (illuminates green when in neutral) |
+      | Digital Dash top | Graphical depiction of engine rpm |
+      | Digital Dash center Left | Engine oil temperature (Celsius or Fahrenheit) |
+      | Digital Dash center | Currently selected gear |
+      | Digital Dash center right | Current road speed (km/h or mph) |
+      | Digital Dash lower left | Current session lap |
+      | Digital Dash lower right | Last lap time |
+
+  - id: shift-lights
+    level: 3
+    titleZh: "换挡提示灯"
+    titleEn: "SHIFT LIGHTS"
+    bodyZh: |+
+      ![换挡提示灯](./assets/formula-vee/shift-lights.png)
+
+      | 指示状态 | 转速 |
+      | --- | --- |
+      | 1 颗红灯 | 6000 RPM |
+      | 2 颗红灯 | 6200 RPM |
+      | 3 颗红灯 | 6400 RPM |
+      | 4 颗红灯 | 6600 RPM |
+      | 5 颗红灯 | 6800 RPM |
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/shift-lights.png)
+
+      | Indicator | RPM |
+      | --- | --- |
+      | 1 Red | 6000 rpm |
+      | 2 Red | 6200 rpm |
+      | 3 Red | 6400 rpm |
+      | 4 Red | 6600 rpm |
+      | 5 Red | 6800 rpm |
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires
+    level: 2
+    titleZh: "轮胎"
+    titleEn: "TIRES"
+    bodyZh: |+
+      ![轮胎数据](./assets/formula-vee/tire-data.png)
+
+      #### 冷胎压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。为获得最佳性能，应根据赛道特性设置冷胎压力。一般而言，建议从较低胎压开始，再根据需要逐步提高。
+
+      #### 热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。
+
+      应在连续行驶数圈、轮胎状态稳定后分析热胎压力。由于每次连续行驶的圈数会随赛道长度变化，可以完成约满油连续行驶里程的 50% 作为合适的起点。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，通过高温计测量轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位，主要是外倾角。这些数值在胎面横向的内侧、中部和外侧三个区域测量。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；还可结合轮胎温度分析车辆的操控平衡。这些数值与温度一样，在胎面的相同区域测量。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/tire-data.png)
+
+      #### COLD AIR PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+
+      #### HOT AIR PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between cold and hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between cold and hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+
+      Hot pressures should be analyzed once the tires have stabilized after a period of laps. As the number of laps per run will vary depending upon track length a good starting point is approximately 50% of a full fuel run.
+
+      #### TIRE TEMPERATURES
+
+      Tire carcass temperatures, measured via Pyrometer, once the car has returned to the pits. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned to the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/formula-vee/front.png)
+
+      #### 防倾杆直径
+
+      防倾杆（ARB）的尺寸会影响前悬架的侧倾刚度，例如车辆过弯时的侧倾刚度。增大防倾杆尺寸会提高前悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会降低悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。
+
+      共有 4 种防倾杆直径可选，范围从 9.53 mm / ⅜ in（最软）到 19.05 mm / ¾ in（最硬）。需要特别注意的是，Formula Vee 没有后防倾杆，后弹簧也不参与车辆的侧倾刚度，因此前防倾杆与前弹簧的组合刚度决定了车辆的总侧倾刚度。正因如此，实车通常使用较硬的前防倾杆，有时甚至会采用最硬的选项。
+
+      #### 弹簧预载
+
+      通过改变弹簧的安装预载来调整车辆这一端的车高。增加圈数会降低车辆前部车高，减少圈数则会提高车辆前部车高。
+
+      #### 制动力分配
+
+      制动力分配表示分配给前制动器的制动力百分比。数值高于 50% 时，前制动管路压力会高于后制动管路，使制动平衡前移，增加前轮锁止倾向，但也可能提高制动区内的整体稳定性。应结合车手偏好和赛道条件进行调校，以在具体情形下获得最佳制动表现。
+
+      #### 屏幕颜色
+
+      数字仪表背景提供 7 种颜色可选：灰色、青色、蓝色、绿色、黄色、红色和紫色。此选项既可在车内调整，也可在车库中调整。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/front.png)
+
+      #### ARB DIAMETER
+
+      The ARB (Anti-Roll Bar) size influences the stiffness of the front suspension in roll, such as when navigating a corner. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+
+      4 ARB diameters are available ranging from 9.53 mm / ⅜” inch (softest) to 19.05 mm / ¾” inch (stiffest). Of particular note is that there is no Rear ARB in the Formula Vee, nor does the rear spring contribute to the roll stiffness of the car, this means that the Front ARB and Front Spring combined rates dictate the total roll stiffness of the car. As such, in the real car it is common to use a stiff (sometimes the stiffest available) Front ARB.
+
+      #### SPRING PRELOAD
+
+      Used to adjust the ride height at this end of the car by changing the installed preload of the spring, increasing the number of turns will lower the front ride height of the car while reducing the number of turns will raise the front ride height of the car.
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in greater pressure in the front brake line relative to the rear brake line which will shift the brake balance forwards increasing the tendency to lock up the front tires but potentially increasing overall stability in braking zones. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+
+      #### SCREEN COLOR
+
+      A choice of 7 different colors are available for the digital dash background: Gray, Cyan, Blue, Green, Yellow, Red and Purple. This option is adjustable from within the car as well as the garage.
+
+  - id: front-corners
+    level: 3
+    titleZh: "左／右前轮"
+    titleEn: "LEFT/RIGHT FRONT"
+    bodyZh: |+
+      ![左右前轮设置](./assets/formula-vee/front-corners.png)
+
+      #### 单轮载荷
+
+      车辆静止在车库中时各条轮胎下方承受的重量。正确分配车辆各处重量，对针对特定赛道和条件优化车辆至关重要。由于各车轮的推杆不可调整，Formula Vee 的单轮载荷不容易改变。不过，使用非对称设置时，仍可能观察到单轮载荷存在一定差异。
+
+      #### 车高
+
+      地面到车辆底盘参考点的距离，此处为底盘前端下缘，而非车鼻。调整车高对获得最佳性能至关重要，因为它会直接影响机械抓地力。提高前车高会使过弯时前轴发生更多载荷转移，多数情况下会增加转向不足；降低前车高则会减少前轴载荷转移、增加转向过度，并因重心高度下降而提升整体性能。
+
+      随着车高降低，应提高弹簧刚度以作补偿并防止触底。通常，在不过度接触赛道表面的前提下，尽可能低的实际车高会带来最佳表现；平整顺滑的赛道可以使用比粗糙起伏赛道更低的车高。规则允许的最低前车高为 25.4 mm（1.0 in）。
+
+      #### 减振器设置
+
+      同时改变线性减振器的压缩与回弹整体阻尼；数值越大表示阻尼越强，0 为最小阻尼，5 为最大阻尼。较高设置会让瞬态动作中外侧轮胎更快承载，使车辆对车手而言响应更灵敏，并提高制动稳定性；不过，在颠簸赛道上，过强阻尼会使轮胎负荷变化增大，从而导致整体抓地力下降。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大前轮负外倾角的绝对值通常会提高中高速弯中的前轴抓地力，但会降低制动性能，因此需要将制动力分配向后调整作为补偿。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. For the Formula Vee this cannot be easily influenced as individual corner pushrods are non-adjustable. However, when running asymmetrical setups some difference in corner weights may still be observed.
+
+      #### RIDE HEIGHT
+
+      Distance from ground to a reference point on the chassis, in this case the lower leading edge of the chassis (not the nose). Adjusting ride heights is key for optimum performance as they directly impact the mechanical grip. Increasing front ride height will allow for more weight transfer across the front axle while cornering, this will lead to an increase in understeer in most cases while lowering the front ride height will decrease weight transfer across the front axle, increase oversteer and provide an increase in overall performance through a reduction in CG height.
+
+      As ride height decreases the spring rate should be increased to compensate and prevent bottoming, typically, the lowest practical ride height without excessive track contact will result in the best performance with smooth flat tracks allowing for lower ride heights than rough and undulating ones. Minimum legal front ride height is 25.4 mm (1.0” inch).
+
+      #### SHOCK SETTING
+
+      Changes the overall damping of this linear shock in both compression and rebound; higher numbers indicate more damping with 0 being minimum damping and 5 being maximum damping. Higher settings will result in faster loading of the outside tire in transient maneuvers which can make the car feel more responsive to the driver and increase braking stability, however, at rough tracks excessive damping can lead to a loss in overall grip as the tire is subject to greater load variation.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "左／右后轮"
+    titleEn: "LEFT/RIGHT REAR"
+    bodyZh: |+
+      ![左右后轮设置](./assets/formula-vee/rear-corners.png)
+
+      #### 外倾角
+
+      由于 Formula Vee 采用摆动半轴式后悬架设计，后轮外倾角不容易改变；不过，这种设计会使外倾角随悬架垂直行程发生显著变化，因此车库界面仍会显示该数值，帮助理解悬架状态。虽然外倾角无法直接调整，但可通过后悬架的其他参数影响，包括推杆偏移量（限制最大下垂行程）、弹簧座偏移量（设置静态车高）以及弹簧刚度（增减负荷造成的行程量）。
+
+      与前轮一样，后轮采用负外倾有助于提高过弯时的横向抓地力，而接近零的数值则会提高制动和加速时的纵向抓地力。尤其需要确保制动过程中外倾角不会变为正值，否则横向和纵向性能都会下降，并加剧收油转向过度。
+
+      #### 前束
+
+      后轮通常采用正前束。增加正前束可提高直线稳定性，但会降低变向时的响应。应尽可能避免过大的正前束，因为这会增加滚动阻力并降低直线速度。一般建议保持左右前束值相同，以避免车辆斜行或产生不对称操控；不过，在 Lime Rock Park 这类高度不对称的赛道上，采用非对称后轮前束及其他设置参数可能有助于提高性能。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/rear-corners.png)
+
+      #### CAMBER
+
+      Due to the swing axle rear suspension design of the Formula Vee, rear camber cannot easily be changed however, this design results in significant amounts of camber change with vertical suspension travel and is therefore tracked within the garage to aid in this understanding. While it cannot be directly adjusted it can be influenced through other parameters in the rear suspension such as pushrod offset (to limit maximum droop travel), spring perch offset (to set the static ride height) and spring rate (increases or decreases the amount of travel due to load).
+
+      As at the front of the car, it is desirable to have negative camber at the rear for increased lateral grip during cornering while values closer to zero will increase longitudinal grip during braking and acceleration. Of particular importance is ensuring that the camber does not become positive during braking events, this will lead to a loss of both lateral and longitudinal capability and exacerbate lift-off oversteer events.
+
+      #### TOE-IN
+
+      At the rear of the car it is typical to run toe-in. Increases in toe-in will result in improved straight line stability and a reduction in response during direction changes. Large values of toe-in should be avoided if possible as this will increase rolling drag and reduce straight line speeds. Generally, it is advised to keep the left and right toe values equal to prevent crabbing or asymmetric handling behavior; however, heavily asymmetric tracks such as Lime Rock Park may see a benefit in performance from running asymmetric configurations of rear toe and other setup parameters.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/formula-vee/rear.png)
+
+      #### 后车高
+
+      地面到车身后部底盘参考点的距离，此处为底盘后端下缘。提高后车高会使过弯时后轴发生更多载荷转移（转向过度增加）；相反，降低车高会减少后轴载荷转移（转向不足增加）。后车高是调节机械平衡和外倾角的关键参数，为改善后轮外倾角控制，可能需要牺牲一定的车高控制。规则允许的最低后车高为 114 mm（4.5 in），最高后车高为 152 mm（6.0 in）。
+
+      #### 推杆偏移量
+
+      主要用于调整后悬架的下垂（伸长）行程，也可用于调整后车高。必须与弹簧座偏移量配合使用，才能达到预期目标。在缩短推杆的同时减小弹簧座偏移量以保持车高不变，可以减少下垂行程；这样可在制动过程中加强外倾角控制，降低外倾角变为正值的倾向，并可能减少收油转向过度。不过，过度限制下垂行程会使内侧后轮抬离赛道；由于车辆采用开放式差速器，这会导致驱动力损失，因此并不可取。
+
+      #### 弹簧座偏移量
+
+      通过改变弹簧的安装位置来调整车辆后部车高。增大弹簧座偏移量会降低车辆后部车高，减小弹簧座偏移量则会提高车辆后部车高。如上所述，此参数会与推杆偏移量配合使用，以改变后悬架的最大下垂行程。
+
+      #### 弹簧刚度
+
+      Formula Vee 后弹簧的安装方式类似于高下压力原型车或方程式赛车的第三弹簧，这意味着它只负责控制俯仰／垂向运动，并不参与后悬架的侧倾刚度。因此，较硬的后弹簧可缩小高、低负荷状态间的车高变化，并改善车身平台与外倾角控制，但代价是整体机械抓地力下降。
+
+      这一缺点在低速弯出口激进加油时尤其明显；硬弹簧在此类情况下往往表现较差，在颠簸赛道上更是如此，并会导致明显的牵引力损失。弹簧刚度应根据赛道需求进行匹配，使车辆在高速和低速弯中的操控平衡保持一致。
+
+      例如，若车辆高速弯转向不足、低速弯转向过度，提高后弹簧刚度可能有益。这样可以使用更低的静态后车高，减少低速过弯时后轴载荷转移，同时在高速过弯时维持甚至提高后车高，从而减少转向不足。共有 6 种弹簧刚度可选，范围从 13 N/mm（75 lbs/in）到 35 N/mm（200 lbs/in），每级增加 4.4 N/mm（25 lbs/in）。每次更改弹簧刚度后，都必须调整弹簧座偏移量，使车辆恢复到之前的静态车高。
+
+      #### 减振器设置
+
+      同时改变线性减振器的压缩与回弹整体阻尼；数值越大表示阻尼越强，0 为最小阻尼，5 为最大阻尼。较高设置会让加速过程中后轮更快承载，并可能提高平整赛道上的后轮牵引力；不过，在颠簸赛道上，过强阻尼会使轮胎负荷变化增大，从而导致整体抓地力下降。与弹簧一样，这支减振器在侧倾过程中不起作用。
+
+      #### 燃油量
+
+      油箱中的燃油量。油箱容量为 20 L（5.3 gal），以 1 L（0.26 gal）为增量进行调整。
+
+    bodyEn: |+
+      ![Image](./assets/formula-vee/rear.png)
+
+      #### REAR RIDE HEIGHT
+
+      Distance from ground to a reference point on the rear of the chassis, in this case the lower trailing edge of the chassis. Increasing rear ride height will allow for more weight transfer across the rear axle when cornering (more oversteer). Conversely, reducing ride height will reduce the weight transfer across the rear axle (more understeer). Rear ride height is a critical tuning component for mechanical balance and camber considerations, it may be necessary to trade-off some ride height control for improved rear camber control. Minimum legal ride height is 114 mm (4.5” inches), maximum legal ride height is 152 mm (6.0” inches).
+
+      #### PUSHROD OFFSET
+
+      Primarily used to adjust the droop (extension) travel of the rear suspension but can be used to adjust the rear ride height. This must be used in conjunction with the spring perch offset to achieve the desired goal. Reducing the pushrod length while reducing the spring perch offset to keep a constant ride height results in a reduction in droop travel; this results in increased camber control (reduced tendency to become positive) during braking events and potentially reduced lift-off oversteer. However, excessive droop limitation can lead to the inside rear wheel lifting off the track which is undesirable as this will result in a loss of forward drive due to the use of an open differential.
+
+      #### SPRING PERCH OFFSET
+
+      Used to adjust the rear ride height at this end of the car by changing the installed position of the spring, increasing the spring perch offset will lower the rear ride height of the car while increasing the spring perch offset will raise the rear ride height of the car. As noted above, it is utilized in conjunction with pushrod offset to alter maximum droop travel of the rear suspension.
+
+      #### SPRING RATE
+
+      The installation of the rear spring in the Formula Vee is similar to that of a heave spring in a high downforce prototype or open wheel car, this means that the spring is only effective at controlling pitch/heave moments and does not contribute to the roll stiffness of the rear suspension. As such, a stiffer rear spring will result in a smaller variance in ride height between high and low load cases and will provide improved platform and camber control at the expense of overall mechanical grip.
+
+      This can be particularly prominent when exiting slow speed corners with aggressive throttle application. A stiffer spring will tend to react poorly during these instances especially so on rough tracks which will result in significant traction loss. Spring stiffness should be matched to the needs of the racetrack and set such that the handling balance is consistent between high and low speed cornering.
+
+      As an example case, a car which suffers from high speed understeer but low speed oversteer could benefit from an increase in rear spring stiffness. This will allow for a lower static rear height which will reduce rear weight transfer during slow speed cornering while maintaining or even increasing the rear ride height in high speed cornering to reduce understeer. 6 options for spring rate are available ranging from 13 N/mm (75 lbs/in) to 35 N/mm (200 lbs/in) in 4.4 N/mm (25 lbs/in) steps. Spring perch offset must be adjusted to return the car to the prior static ride height after any spring rate change.
+
+      #### SHOCK SETTING
+
+      Changes the overall damping of this linear shock in both compression and rebound; higher numbers indicate more damping with 0 being minimum damping and 5 being maximum damping. Higher settings will result in faster loading of the rear tires during acceleration events and can increase rear traction on smooth tracks. However, at rough tracks excessive damping can lead to a loss in overall grip as the tire is subject to greater load variation. As with the spring, the shock has no impact during roll events.
+
+      #### FUEL LEVEL
+
+      The amount of fuel in the fuel tank. Tank capacity is 20 L (5.3 g). Adjustable in 1 L (0.26 g) increments.

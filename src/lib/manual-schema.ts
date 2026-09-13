@@ -34,7 +34,15 @@ export const manualSchema = z
     titleEn: optionalText,
     contentType: z.enum(['vehicle-manual', 'setup-guide', 'reference']),
     brand: z.string().trim().min(1, '品牌不能为空'),
-    vehicleClass: z.enum(['GT3', 'GT4', 'Cup', 'TCR', 'Prototype', 'Touring']),
+    vehicleClass: z.enum([
+      'GT3',
+      'GT4',
+      'Cup',
+      'TCR',
+      'Formula',
+      'Prototype',
+      'Touring',
+    ]),
     platform: z.string().trim().min(1, '模拟平台不能为空'),
     discipline: z.enum([
       'oval',

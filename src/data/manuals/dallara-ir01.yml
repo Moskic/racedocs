@@ -1,0 +1,781 @@
+slug: dallara-ir01
+published: true
+titleZh: Dallara iR-01 用户手册
+titleEn: Dallara iR-01 User Manual
+contentType: vehicle-manual
+brand: Dallara
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/dallara-ir01/cover.png
+source:
+  type: official
+  title: iRacing Dallara iR-01 User Manual
+  revision: Not stated
+  notice: Complete English transcription imported from the user-provided official PDF.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/dallara-ir01/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Dallara iR-01！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      Dallara iR-01 是 iRacing 与 Dallara 针对国际顶级开轮式赛车挑战给出的答案。这台迅捷灵敏的赛车融合了大奖赛赛车运动过去、现在与未来的精华，容易上手，但有限的电子系统与驾驶辅助也让真正掌握它充满挑战。
+
+      iR-01 搭载自然吸气 3.0 升 V10 发动机，令人联想起 20 世纪 90 年代初期和中期称霸赛场的动力单元。这台发动机可输出超过 900 马力，而车辆干重仅为 600 千克，由此造就了一台在车流中也极具竞争力、驾驶起来令人血脉偾张的激进赛车。
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Dallara iR-01 赛车](./assets/dallara-ir01/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Dallara IR-01! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The Dallara IR-01 is iRacing and Dallara’s answer to the challenges of premier international open-wheel motorsport. Designed to blend together the best elements of grand prix racing’s past, present, and future, this fast and agile machine is easy to pick up, but limited electronics and driver aids make it challenging to master.
+
+      The IR-01 is powered by a naturally aspirated, 3.0-liter V10 reminiscent of the engines that dominated the sport in the early and mid 1990s. Producing upwards of 900 horsepower at a dry weight of just 600 kilograms, the result is an aggressive car that races well in traffic and is a pure thrill ride to drive.
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/dallara-ir01/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/dallara-ir01/chassis-specifications.png)
+
+      碳纤维与铝材结构
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4550 mm / 179.1 in |
+      | 车宽 | 2180 mm / 85.8 in |
+      | 轴距 | 3050 mm / 120 in |
+      | 干重 | 600 kg / 1323 lbs |
+      | 含车手湿重 | 716 kg / 1579 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/chassis-specifications.png)
+
+      CARBON FIBRE ALUMINUM CONSTRUCTION
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4550 mm / 179.1 in |
+      | Width | 2180 mm / 85.8 in |
+      | Wheelbase | 3050 mm / 120 in |
+      | Dry Weight | 600 kg / 1323 lbs |
+      | Wet Weight with Driver | 716 kg / 1579 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/dallara-ir01/power-unit.png)
+
+      3.0 升 V10 发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 3.0 升 / 183 CID |
+      | 转速上限 | 20000 RPM |
+      | 扭矩 | 246 lb-ft / 333 Nm |
+      | 功率 | 900 bhp / 671 kW |
+
+      ![Dallara iR-01 车辆侧视图](./assets/dallara-ir01/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/power-unit.png)
+
+      3.0 LITER V10
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 3.0 Liters / 183 CID |
+      | RPM Limit | 20000 RPM |
+      | Torque | 246 lb-ft / 333 Nm |
+      | Power | 900 bhp / 671 kW |
+
+      ![Image](./assets/dallara-ir01/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/dallara-ir01/getting-started.png)
+
+      iR-01 很容易上手，但极难精通。车辆载入后，只需打开点火开关，按下起动机按钮，并等待仪表切换至 Race 页面。驶离维修区也很简单：按下“升挡”挂入挡位，再踩下油门踏板即可。车辆开始行驶后，iR-01 无论升挡还是降挡都不需要操作离合器或补油。建议在约 19,200 RPM 时升挡。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/getting-started.png)
+
+      The IR-01 is very easy to use, but extremely difficult to master. Once the car is loaded, simply turn on the ignition, press the starter button, and wait for the dash to change to the Race page. Leaving the pits is as simple as pressing “upshift” to put the car in gear, and hitting the accelerator pedal. Once in motion, the IR-01 does not require a clutch or throttle blips to change gear either up or down. Upshifting is recommended around 19,200 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/dallara-ir01/loading-iracing-setup.png)
+
+      进入比赛会话后，iR-01 会自动载入 iRacing 基准设置 `[baseline.sto]`。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。
+
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/loading-iracing-setup.png)
+
+      Upon loading into a session, the IR-01 will automatically load the iRacing Baseline setup `[baseline.sto]`. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+
+  - id: race-page
+    level: 3
+    titleZh: "“RACE”页面"
+    titleEn: "“RACE” PAGE"
+    bodyZh: |+
+      ![Race 仪表页面](./assets/dallara-ir01/race-page.png)
+
+      #### 左侧区域
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速 |
+      | SPEED | 车辆速度（MPH 或 KPH，取决于所选单位） |
+      | BRAKE BALANCE | 前轴制动力分配百分比 |
+      | PEDAL | 当前选择的油门映射设置 |
+      | FARB | 当前前防倾杆刀片设置 |
+      | RARB | 当前后防倾杆刀片设置 |
+
+      #### 右侧区域
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | LAP TIME | 当前圈速 |
+      | GAIN/LOSS | 与本次会话最佳圈速的时间差 |
+      | FUEL REMAINING | 车内剩余燃油（加仑或升，取决于所选单位） |
+
+      #### 底部一行
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | LAP | 当前连续行驶阶段已完成圈数 |
+      | VOLT | 电池当前测得电压 |
+      | WATER TEMP | 发动机水温（°C 或 °F） |
+      | OIL TEMP | 发动机机油温度（°C 或 °F） |
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/race-page.png)
+
+      #### LEFT CLUSTER
+
+      | Display | Description |
+      | --- | --- |
+      | RPM | Engine RPM |
+      | SPEED | Vehicle Speed (MPH or KPH, depending on selected units) |
+      | BRAKE BALANCE | % Front brake bias |
+      | PEDAL | Currently selected throttle map setting |
+      | FARB | Current Front Anti-Roll Bar blade setting |
+      | RARB | Current Rear Anti-Roll Bar blade setting |
+
+      #### RIGHT CLUSTER
+
+      | Display | Description |
+      | --- | --- |
+      | LAP TIME | Current Lap Time |
+      | GAIN/LOSS | Time difference to session best lap |
+      | FUEL REMAINING | Fuel level in the car (Gallons or Liters, depending on selected units) |
+
+      #### BOTTOM ROW
+
+      | Display | Description |
+      | --- | --- |
+      | LAP | Laps completed in current outing |
+      | VOLT | Current voltage measured at the battery |
+      | WATER TEMP | Engine water temperature (°C or °F) |
+      | OIL TEMP | Engine oil temperature (°C or °F) |
+
+  - id: qual-page
+    level: 3
+    titleZh: "“QUAL”页面"
+    titleEn: "“QUAL” PAGE"
+    bodyZh: |+
+      ![Qual 仪表页面](./assets/dallara-ir01/qual-page.png)
+
+      #### 左侧区域
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速 |
+      | SPEED | 车辆速度（MPH 或 KPH，取决于所选单位） |
+      | BRAKE BALANCE | 前轴制动力分配百分比 |
+      | PEDAL | 当前选择的油门映射设置 |
+      | FARB | 当前前防倾杆刀片设置 |
+      | RARB | 当前后防倾杆刀片设置 |
+
+      #### 右侧区域
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | LAP TIME | 当前圈速 |
+      | GAIN/LOSS | 与本次会话最佳圈速的时间差 |
+      | FUEL REMAINING | 车内剩余燃油（加仑或升，取决于所选单位） |
+
+      #### 底部一行
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | TIRE TEMP | 各轮胎当前表面温度（°C 或 °F） |
+      | TIRE PRESS | 各轮胎当前胎压（psi 或 kPa） |
+
+      #### 显示警告
+
+      显示屏会出现多种警告。左右两侧最上方的两个指示灯是车轮锁死指示灯，当某条轮胎在制动区发生滑动时会点亮。机油温度或水温超过 100 °C 上限时，显示屏会呈红色闪烁；油箱剩余燃油仅够行驶 3 圈时也会呈红色闪烁。启用维修区限速器后，屏幕会变为蓝色，两侧指示灯也会闪烁。水压或油压消失时，屏幕底部一行会显示消息说明问题，显示屏同时也会变为红色。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/qual-page.png)
+
+      #### LEFT CLUSTER
+
+      | Display | Description |
+      | --- | --- |
+      | RPM | Engine RPM |
+      | SPEED | Vehicle Speed (MPH or KPH, depending on selected units) |
+      | BRAKE BALANCE | % Front brake bias |
+      | PEDAL | Currently selected throttle map setting |
+      | FARB | Current Front Anti-Roll Bar blade setting |
+      | RARB | Current Rear Anti-Roll Bar blade setting |
+
+      #### RIGHT CLUSTER
+
+      | Display | Description |
+      | --- | --- |
+      | LAP TIME | Current Lap Time |
+      | GAIN/LOSS | Time difference to session best lap |
+      | FUEL REMAINING | Fuel level in the car (Gallons or Liters, depending on selected units) |
+
+      #### BOTTOM ROW
+
+      | Display | Description |
+      | --- | --- |
+      | TIRE TEMP | Current surface temperature for each tire (°C or °F) |
+      | TIRE PRESS | Current tire pressure for each tire (psi or kPa) |
+
+      #### DISPLAY NOTIFICATIONS
+
+      There are several warnings that will come up on the display. The top two lights on the left and right side are wheel lock indicators that will indicate that one of the tires is sliding through the braking zone. The display will flash red when oil or water temp exceed their limits of 100 C, and it will flash red when there are 3 laps of fuel left in the tank. The pit limiter will make the screen turn blue and the lights on the side will flash. When water or oil pressure is lost, a message will show up on the bottom line of the screen indicating what the problem is. The display will also turn red in that case.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires
+    level: 2
+    titleZh: "轮胎"
+    titleEn: "TIRES"
+
+  - id: tire-compound
+    level: 3
+    titleZh: "轮胎配方"
+    titleEn: "TIRE COMPOUND"
+    bodyZh: |+
+      ![轮胎配方](./assets/dallara-ir01/tire-compound.png)
+
+      iR-01 可使用三种轮胎配方，各有优缺点。软胎抓地力最高、圈速更快，但磨损也快。硬胎耐用得多，但抓地力最低、圈速也更慢。中性胎则在两者之间取得平衡，拥有适中的抓地力，使用寿命介于软胎与硬胎之间。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/tire-compound.png)
+
+      The IR-01 can run on one of three tire compounds, each with their own advantages and disadvantages. Soft tires will have the most grip and lower lap times, but will wear quickly. Hard tires will last much longer, but will have the least grip and slower lap times. Medium tires are a balance of the two, with a moderate level of grip and a lifespan that falls between the Soft and Hard tires.
+
+  - id: tire-settings
+    level: 3
+    titleZh: "轮胎设置（全部四条轮胎）"
+    titleEn: "TIRE SETTINGS (ALL FOUR TIRES)"
+    bodyZh: |+
+      ![轮胎设置](./assets/dallara-ir01/tire-settings.png)
+
+      #### 冷胎压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。为获得最佳性能，应根据赛道特性设置冷胎压力。在胎压达到 21 psi 之前，仪表上的胎压数值会持续闪烁。达到这一压力后，轮胎在为长距离行驶“稳定下来”的过程中，升温速度会变慢。
+
+      #### 热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。
+
+      #### 轮胎温度
+
+      车辆返回维修区后，通过高温计测量轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位。这些数值在胎面横向的三个区域测量。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；还可结合轮胎温度分析车辆的操控平衡。这些数值在胎面横向的三个区域测量。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/tire-settings.png)
+
+      #### COLD AIR PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads will require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. The tire pressures will flash on the display until they reach 21 psi. At this point the tires build heat slower as they “settle in” for the long run.
+
+      #### HOT AIR PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+
+      #### TIRE TEMPERATURES
+
+      Tire carcass temperatures, measured via Pyrometer, once the car has returned from the pits. Wheel Loads and the amount of work a tire is doing on-track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment while on track. These values are measured in three zones across the tread of the tire.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in three zones across the tread of the tire.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      Dallara iR-01 采用简化的悬架设计，不像公路车或大多数其他赛车那样在每个车轮处设置独立弹簧。取而代之的是，车身升沉（俯仰）与侧倾分别由前后升沉弹簧和防倾杆独立控制。可以通过升沉弹簧调校空气动力学表现，以维持高效的空气动力学平台；同时可通过防倾杆调节底盘侧倾和整体机械平衡。
+
+    bodyEn: |+
+      The Dallara IR-01 features a simplified suspension design which forgoes dedicated springs for each corner of the car, as you would see in a road car or most other race cars. Instead, heave (pitch) and roll are handled independently via front and rear Heave Springs and Anti-Roll Bars, respectively. Aerodynamic performance can be tuned via the Heave Springs to maintain an efficient aerodynamic platform, while the chassis roll and overall mechanical balance can be tuned via the Anti-Roll Bars.
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/dallara-ir01/front.png)
+
+      #### 防倾杆刚度
+
+      防倾杆（ARB）刚度设置通过改变防倾杆直径来调整前悬架的侧倾刚度。提高防倾杆刚度会提高前悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向不足。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，降低防倾杆刚度会软化悬架的侧倾特性，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。
+
+      #### 防倾杆刀片
+
+      可改变防倾杆摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。数值越高，通过摆臂传递给防倾杆本体的力越大，从而提高前悬架的侧倾刚度；其效果与增大防倾杆直径相同，但幅度较小。相反，较低数值会降低前悬架侧倾刚度，效果与减小防倾杆直径相同。可以把刀片调整理解为不同防倾杆直径设置之间的精细调节。
+
+      #### 推杆增量
+
+      改变推杆增量会改变前悬架推杆的总长度，直接影响前端车高。增加推杆增量会抬高前端，减少推杆增量则会降低前端。由于车辆采用单减振器设计，此调整会等量改变两根前推杆，不会改变对角配重。可用这一调整改变车高，而不影响升沉弹簧预载。
+
+      #### 前轴重量百分比
+
+      车辆的前轴重量百分比，是车辆总重量中由前轮承载的比例。它粗略代表车辆纵向重心位置，并直接影响车辆的高速稳定性。数值越高，车辆方向稳定性越强，适合低抓地力赛道以及使用额外前轴下压力的设置。相反，较低数值适合高抓地力赛道和高后轴下压力配置。
+
+      #### 弹簧座偏移量
+
+      通过可调弹簧座改变前升沉弹簧的静态负荷。此设置用于调整整体前端车高，以及前升沉弹簧的静态挠度与预载。
+
+      #### 弹簧刚度
+
+      升沉弹簧是一种仅在悬架垂直运动时提供阻力、不影响侧倾刚度的弹簧元件。它用于控制不断增加的空气动力学负荷，并帮助车辆在赛道上维持正确的空气动力学姿态。提高弹簧刚度会增加前悬架的垂直刚度，有利于维持较低的前车高，但可能使前端在颠簸路面上损失抓地力。较软的弹簧允许前端产生更多行程，对空气动力学姿态的控制会减弱，但能提供更好的前端机械抓地力。
+
+      #### 弹簧挠度
+
+      显示车辆在车库静态负荷下，升沉弹簧相对于其总长度的压缩量。
+
+      #### 压缩刚度
+
+      压缩刚度决定减振器抵抗压缩（长度缩短）的能力。此调整仅影响悬架的垂直（升沉）运动，可用于微调车辆在赛道上的空气动力学平台。提高数值会增加压缩阻力（抵抗前车高降低），较低数值则允许前端更容易压缩。
+
+      #### 回弹刚度
+
+      回弹刚度决定减振器抵抗伸长（长度增加）的能力。它仅作用于升沉运动；提高前减振器回弹刚度，有助于控制车高不必要的垂直振荡。如果悬架无法随负荷变化正常工作，例如回弹刚度过高，前轮在颠簸路面上会损失抓地力。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/front.png)
+
+      #### ARB STIFFNESS
+
+      The ARB (Anti-Roll Bar) stiffness setting adjusts the roll stiffness of the front suspension via a change in the ARB’s diameter. Increasing the ARB stiffness will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the front suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings.
+
+      #### PUSHROD DELTA
+
+      Changing the Pushrod Delta results in a change in overall length of the front suspension pushrods, directly affecting the front-end ride height. Increasing the Pushrod Delta will raise the front end and decreasing the Pushrod Delta will lower the front end. Due to the car’s mono-shock design, this adjustment changes both front pushrods equally and prevents any crossweight changes. This adjustment can be used to alter the ride heights without affecting the heave spring preload.
+
+      #### NOSE WEIGHT
+
+      The vehicle’s Nose Weight is the percentage of the vehicle’s weight on the front tires. Nose Weight represents a rough approximation of the longitudinal Center of Gravity location in the vehicle and has a direct influence on the high-speed stability of the vehicle. Higher Nose Weight values result in a more directionally-stable vehicle, good for low-grip tracks and situations where the vehicle is set up with extra front downforce. Conversely, lower Nose Weight values are good for high-grip tracks and configurations with high rear downforce levels.
+
+      #### SPRING PERCH OFFSET
+
+      This changes the static load of the front heave spring via an adjustable spring perch. This is used to alter the overall front end ride height as well as the static deflection and preload in the front Heave Spring.
+
+      #### SPRING RATE
+
+      The Heave Spring is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is used to control increasing aerodynamic loads and helps to maintain the proper aerodynamic attitude around a circuit. Higher spring rates will increase the front suspension’s vertical stiffness, useful for maintaining a low front ride height but can cause a loss of grip in the front end over bumpy surfaces. Softer spring rates will result in more front end travel, reducing the control over the aerodynamic attitude, but will result in better front-end mechanical grip.
+
+      #### SPRING DEFLECTION
+
+      This displays how much the Heave Spring is compressed from its total length under static loads in the garage.
+
+      #### BUMP STIFFNESS
+
+      Bump stiffness affects how resistant the shock is to compression (reduction in length). This adjustments affect only vertical (heave) movements in the suspension, and are useful in fine-tuning the aerodynamic platform around the track. Increasing values will produce more resistance to compression (reduction in front ride height), while lower values will allow the front end to compress more easily.
+
+      #### REBOUND STIFFNESS
+
+      Rebound stiffness affects how resistant the shock is to extension (increase in length). Working only in heave, increasing the front rebound can help to control unwanted vertical oscillations in ride height. If the suspension is not allowed to work over changes in load, such as when rebound is too high, the front tires will see a loss in grip over bumpy surfaces.
+
+  - id: corners
+    level: 3
+    titleZh: "各车轮（全部四个区域）"
+    titleEn: "CORNERS (ALL FOUR SECTIONS)"
+    bodyZh: |+
+      ![各车轮设置](./assets/dallara-ir01/corners.png)
+
+      #### 单轮重量
+
+      显示车辆静置在车库中时，各车轮在静态条件下承载的重量，可用于判断重量分布。
+
+      #### 车高
+
+      底盘车高是地面到车辆底盘下方参考点的距离。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和车轮负荷影响，四个车轮都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的过弯力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为前束，反之则为外八。在前轴增加外八会提高内侧轮胎的滑移，而增加前束会降低滑移。外八可提高直线稳定性和入弯响应；前轴前束会降低入弯响应，但也能减少前轮温度积聚。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/corners.png)
+
+      #### CORNER WEIGHT
+
+      This displays the weight on each wheel while sitting in the garage under static conditions. Useful for determining weight distribution.
+
+      #### RIDE HEIGHT
+
+      Chassis Ride Height is the distance from the ground to a reference point on the bottom of the chassis.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the front end, adding toe-out will increase slip in the inside tire while adding toe-in will reduce the slip. This can be used to increase straight-line stability and turn-in responsiveness with toe-out. Toe-in at the front will reduce turn-in responsiveness but will reduce temperature buildup in the front tires.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/dallara-ir01/rear.png)
+
+      #### 防倾杆刚度
+
+      防倾杆（ARB）刚度设置通过改变防倾杆直径来调整后悬架的侧倾刚度。提高防倾杆刚度会提高后悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向过度。相反，降低防倾杆刚度会软化悬架的侧倾特性，增加车身侧倾但减少机械性转向过度。此时转向响应感可能减弱，但后轴抓地力会提高。
+
+      #### 防倾杆刀片
+
+      可改变防倾杆摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。数值越高，通过摆臂传递给防倾杆本体的力越大，从而提高后悬架的侧倾刚度；其效果与增大防倾杆直径相同，但幅度较小。相反，较低数值会降低后悬架侧倾刚度，效果与减小防倾杆直径相同。可以把刀片调整理解为不同防倾杆直径设置之间的精细调节。
+
+      #### 拉杆增量
+
+      改变拉杆增量会改变后悬架拉杆的总长度，直接影响后端车高。增加拉杆增量会降低后端，减少拉杆增量则会抬高前端。由于车辆采用单减振器设计，此调整会等量改变两根后拉杆，不会改变对角配重。可用这一调整改变车高，而不影响后升沉弹簧预载。
+
+      #### 弹簧座偏移量
+
+      通过可调弹簧座改变后升沉弹簧的静态负荷。此设置用于调整整体后端车高，以及后升沉弹簧的静态挠度与预载。
+
+      #### 弹簧刚度
+
+      升沉弹簧是一种仅在悬架垂直运动时提供阻力、不影响侧倾刚度的弹簧元件。它用于控制不断增加的空气动力学负荷，并帮助车辆在赛道上维持正确的空气动力学姿态。提高弹簧刚度会增加后悬架的垂直刚度，有利于保持稳定的后车高，但可能使后端在颠簸路面上损失抓地力。较软的弹簧允许后端产生更多行程，对空气动力学姿态的控制会减弱，但能提供更好的后端机械抓地力。
+
+      #### 弹簧挠度
+
+      显示车辆在车库静态负荷下，升沉弹簧相对于其总长度的压缩量。
+
+      #### 压缩刚度
+
+      压缩刚度决定减振器抵抗压缩（长度缩短）的能力。此调整仅影响悬架的垂直（升沉）运动，可用于微调车辆在赛道上的空气动力学平台。提高数值会增加压缩阻力，较低数值则允许后端更容易压缩。
+
+      #### 回弹刚度
+
+      回弹刚度决定减振器抵抗伸长（长度增加）的能力。它仅作用于升沉运动；提高后减振器回弹刚度，有助于控制车高不必要的垂直振荡。如果悬架无法随负荷变化正常工作，例如回弹刚度过高，后轮在颠簸路面上会损失抓地力。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/rear.png)
+
+      #### ARB STIFFNESS
+
+      The ARB (Anti-Roll Bar) stiffness setting adjusts the roll stiffness of the rear suspension via a change in the ARB’s diameter. Increasing the ARB stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings.
+
+      #### PULLROD DELTA
+
+      Changing the Pullrod Delta results in a change in overall length of the rear suspension pullrods, directly affecting the rear-end ride height. Increasing the Pullrod Delta will lower the rear end and decreasing the Pullrod Delta will raise the front end. Due to the car’s mono-shock design, this adjustment changes both rear pullrods equally and prevents any crossweight changes. This adjustment can be used to alter the ride heights without affecting the rear heave spring preload.
+
+      #### SPRING PERCH OFFSET
+
+      This changes the static load of the rear heave spring via an adjustable spring perch. This is used to alter the overall rear end ride height as well as the static deflection and preload in the rear Heave Spring.
+
+      #### SPRING RATE
+
+      The Heave Spring is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is used to control increasing aerodynamic loads and helps to maintain the proper aerodynamic attitude around a circuit. Higher spring rates will increase the rear suspension’s vertical stiffness, useful for maintaining a consistent rear ride height but can cause a loss of grip in the rear end over bumpy surfaces. Softer spring rates will result in more rear end travel, reducing the control over the aerodynamic attitude, but will result in better rear-end mechanical grip.
+
+      #### SPRING DEFLECTION
+
+      This displays how much the Heave Spring is compressed from its total length under static loads in the garage.
+
+      #### BUMP STIFFNESS
+
+      Bump stiffness affects how resistant the shock is to compression (reduction in length). This adjustment affects only vertical (heave) movements in the suspension, and are useful in fine-tuning the aerodynamic platform around the track. Increasing values will produce more resistance to compression, while lower values will allow the rear end to compress more easily.
+
+      #### REBOUND STIFFNESS
+
+      Rebound stiffness affects how resistant the shock is to extension (increase in length). Working only in heave, increasing the rear rebound can help to control unwanted vertical oscillations in ride height. If the suspension is not allowed to work over changes in load, such as when rebound is too high, the rear tires will see a loss in grip over bumpy surfaces.
+
+  - id: vehicle-systems
+    level: 2
+    titleZh: "车辆系统"
+    titleEn: "VEHICLE SYSTEMS"
+
+  - id: aero
+    level: 3
+    titleZh: "空气动力学"
+    titleEn: "AERO"
+    bodyZh: |+
+      ![空气动力学设置](./assets/dallara-ir01/aero.png)
+
+      #### 前翼角度
+
+      前翼角度设置会改变前翼翼面的攻角。增大翼角会提高前翼产生的下压力，但也会增加阻力；减小翼角则会降低下压力，同时减少阻力。前翼角度对前轴下压力影响显著，会大幅改变车辆在中高速弯中的前端抓地力。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/aero.png)
+
+      #### FRONT WING ANGLE
+
+      The Front Wing Angle setting changes the Angle of Attack of the front wing elements. Increasing wing angle increases the downforce generated by the wing but increases drag, while decreasing the wing angle reduces the downforce generated by the wing while reducing drag. Front Wing Angle has a heavy influence on front downforce, having a large effect on front-end grip in mid- to high-speed corners.
+
+  - id: gearbox
+    level: 3
+    titleZh: "变速箱"
+    titleEn: "GEARBOX"
+    bodyZh: |+
+      ![变速箱设置](./assets/dallara-ir01/gearbox.png)
+
+      #### 主减速比
+
+      主减速比会改变车辆的最高速度与加速能力。较低数值可带来更高的总体最高速度，但加速较慢；较高数值会降低车辆最高速度，但提供更好的加速性能。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/gearbox.png)
+
+      #### FINAL DRIVE
+
+      The final drive ratio alters the vehicle’s top speed and acceleration, with lower values producing a higher overall top speed with slower acceleration and higher values reducing the vehicle’s top speed but providing better acceleration.
+
+  - id: differential
+    level: 3
+    titleZh: "差速器"
+    titleEn: "DIFFERENTIAL"
+    bodyZh: |+
+      ![差速器设置](./assets/dallara-ir01/differential.png)
+
+      #### 滑行侧斜坡角
+
+      差速器斜坡角会改变维持差速器锁止所产生的力。滑行侧斜坡角在减速时起作用：数值越大，锁止力越小；数值越小，锁止力越大。较大的锁止力会在减速时产生更多转向不足。
+
+      #### 驱动侧斜坡角
+
+      差速器斜坡角会改变维持差速器锁止所产生的力。驱动侧斜坡角在加速时起作用：数值越大，锁止力越小；数值越小，锁止力越大。较大的锁止力会产生更多转向不足，但有助于提高出弯牵引力。
+
+      #### 离合器片
+
+      离合器摩擦面的数量会影响维持差速器锁止所施加的总作用力。该参数相当于一个乘数，增加摩擦面数量会逐步提高锁止力。
+
+      #### 预载
+
+      差速器可对摩擦面施加静态预载。数值越高，差速器在所有状态下的锁止力越大，并在加速和减速时产生更多转向不足。此数值也会影响弯中表现；较高数值会限制差速器解锁程度，从而增加弯中转向不足。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/differential.png)
+
+      #### COAST RAMP ANGLE
+
+      Differential ramp angles alter how much force is produced to keep the differential locked. Coast Ramp Angles affect the differential under deceleration, with higher numbers generating less locking force and lower numbers generating more locking force. Higher locking force will generate more understeer under deceleration.
+
+      #### DRIVE RAMP ANGLE
+
+      Differential ramp angles alter how much force is produced to keep the differential locked. Drive Ramp Angles affect the differential under acceleration, with higher numbers generating less locking force and lower numbers generating more locking force. Higher locking force will generate more understeer but will help with traction out of a corner.
+
+      #### CLUTCH PLATES
+
+      The number of clutch faces affect how much overall force is applied to keep the differential locked. Treated as a multiplier, adding more faces produces increasingly more locking force.
+
+      #### PRELOAD
+
+      The differential can be set with a static preload applied to the friction surfaces. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer.
+
+  - id: engine-in-car-dials
+    level: 3
+    titleZh: "发动机车内旋钮"
+    titleEn: "ENGINE IN-CAR DIALS"
+    bodyZh: |+
+      ![发动机车内旋钮](./assets/dallara-ir01/engine-in-car-dials.png)
+
+      #### 油门曲线
+
+      油门曲线控制油门踏板的扭矩映射。设置 1 采用 S 形扭矩映射：油门输入较小时扭矩增幅较低，随后会随油门输入增加而快速提高。设置 3 采用线性扭矩映射，油门开度每增加一个百分点，发动机扭矩都会等比例增加。设置 2 的线性程度高于设置 1，但 S 形程度高于设置 3。可通过车内调整黑框中的 PEDAL 设置调整此项。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/engine-in-car-dials.png)
+
+      #### THROTTLE SHAPING
+
+      Throttle Shape controls the torque mapping of the throttle pedal. Setting 1 has an S-shaped torque map with lower torque increase at low throttle inputs but rapidly increasing torque with increasing throttle input. Setting 3 is a linear torque map, with each percent increase in throttle application providing an equal amount of torque increase from the engine. Setting 2 is a torque map that is more linear than Setting 1, but more S-curved than Setting 3. This setting is adjustable from the In-Car Adjustments black-box via the PEDAL setting.
+
+  - id: fuel
+    level: 3
+    titleZh: "燃油"
+    titleEn: "FUEL"
+    bodyZh: |+
+      ![燃油设置](./assets/dallara-ir01/fuel.png)
+
+      #### 燃油量
+
+      燃油量是车辆驶离车库时油箱内的燃油量。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/fuel.png)
+
+      #### FUEL LEVEL
+
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+
+  - id: brake-system
+    level: 3
+    titleZh: "制动系统"
+    titleEn: "BRAKE SYSTEM"
+    bodyZh: |+
+      ![制动系统设置](./assets/dallara-ir01/brake-system.png)
+
+      #### 前制动主缸
+
+      可以更改前制动主缸尺寸，以改变通往前制动卡钳管路中的压力。较大的主缸会降低前制动压力，使制动力分配后移，并产生更“柔和”的制动脚感。较小的主缸会提高前制动管路压力，使制动力分配前移，并带来更激进的制动踏板脚感。
+
+      #### 后制动主缸
+
+      可以更改后制动主缸尺寸，以改变通往后制动卡钳管路中的压力。较大的主缸会降低后制动压力，使制动力分配前移，并产生更“柔和”的制动脚感。较小的主缸会提高后制动管路压力，使制动力分配后移，并带来更激进的制动踏板脚感。
+
+      #### 制动力分配
+
+      制动力分配是传递至前制动器的制动力百分比。数值高于 50% 时，更多压力会传递至前轴；数值低于 50% 时，更多制动力会传递至后轴。应根据车手偏好和赛道条件进行调校，以在特定情况下获得最佳制动表现。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/brake-system.png)
+
+      #### FRONT MASTER CYLINDER
+
+      The Front Brake Master Cylinder size can be changed to alter the pressure in the lines to the front brake calipers. A larger master cylinder will reduce the pressure to the front brakes, shifting brake bias rearward and producing a “softer” brake feel. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and providing a more aggressive feel in the brake pedal.
+
+      #### REAR MASTER CYLINDER
+
+      The Rear Brake Master Cylinder size can be changed to alter the pressure in the lines to the rear brake calipers. A larger master cylinder will reduce the pressure to the rear brakes, shifting brake bias forward and producing a “softer” brake feel. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and providing a more aggressive feel in the brake pedal.
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+
+  - id: steering-system
+    level: 3
+    titleZh: "转向系统"
+    titleEn: "STEERING SYSTEM"
+    bodyZh: |+
+      ![转向系统设置](./assets/dallara-ir01/steering-system.png)
+
+      #### 转向小齿轮传动比
+
+      可以更改转向小齿轮尺寸，以改变车手感受到的转向快慢。该数值表示转向小齿轮每转一圈时齿条的移动量；数值越大，转向感受越快。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/steering-system.png)
+
+      #### STEERING PINION RATIO
+
+      The size of the steering pinion can be changed to alter how fast or slow the steering feels to the driver. The value represents the amount of steering rack movement for a single revolution of the steering pinion, with larger values resulting in a faster steering feel.
+
+  - id: dash-config
+    level: 3
+    titleZh: "仪表配置"
+    titleEn: "DASH CONFIG"
+    bodyZh: |+
+      ![仪表配置](./assets/dallara-ir01/dash-config.png)
+
+      #### 显示页面
+
+      设置车辆载入时方向盘上的默认显示页面。
+
+    bodyEn: |+
+      ![Image](./assets/dallara-ir01/dash-config.png)
+
+      #### DISPLAY PAGE
+
+      Sets the default display page on the steering wheel when the car is loaded.
