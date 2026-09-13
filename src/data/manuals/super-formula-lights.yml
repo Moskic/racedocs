@@ -12,7 +12,7 @@ source:
   type: official
   title: iRacing Super Formula Lights User Manual
   revision: V1
-  notice: Complete English transcription imported from the user-provided official V1 PDF.
+  notice: Complete English transcription imported from the user-provided official V1 PDF, with obvious typographical errors in the original corrected.
 sections:
   - id: preamble
     level: 2
@@ -188,7 +188,7 @@ sections:
       | --- | --- |
       | Laptime | 当前圈速，显示在屏幕顶部 |
       | Last Lap | 上一完成圈的圈速，位于屏幕左侧 |
-      | Lap # | 当前已完成圈数 |
+      | Lap # | 当前会话中已完成的圈数 |
       | Gear | 当前选择的挡位，显示在屏幕中央 |
       | RPM | 当前发动机转速 |
       | Water Temp | 发动机冷却水温，单位为 °C 或 °F |
@@ -200,7 +200,7 @@ sections:
       | --- | --- |
       | Laptime | Current lap time is shown across the top of the display |
       | Last Lap | The previously completed lap time is on the left of the display |
-      | Lap # | Number of laps completed in the current |
+      | Lap # | Number of laps completed in the current session |
       | Gear | The currently-selected gear is shown in the center of the display |
       | RPM | Current engine RPM |
       | Water Temp | Engine cooling water temperature in °C or °F |
@@ -220,8 +220,8 @@ sections:
       | Oil P | 发动机机油系统压力，单位为 PSI 或 Bar |
       | Rail P | 燃油系统压力，单位为 PSI 或 Bar |
       | Throttle | 油门踏板位置，以百分比表示 |
-      | Batt | 当前发动机转速 |
-      | Gear | 发动机冷却水温，单位为 °C 或 °F |
+      | Batt | 电池电压 |
+      | Gear | 当前选择的挡位 |
 
       #### 中列
 
@@ -252,8 +252,8 @@ sections:
       | Oil P | Engine Oil system pressure in PSI or Bar |
       | Rail P | Fuel system pressure in PSI or Bar |
       | Throttle | Throttle pedal position in percent |
-      | Batt | Current engine RPM |
-      | Gear | Engine cooling water temperature in °C or °F |
+      | Batt | Battery voltage |
+      | Gear | Currently selected gear |
 
       #### CENTER COLUMN
 
@@ -409,7 +409,7 @@ sections:
 
       高速状态车高（RH at Speed）设置是空气动力学计算器的输入项，用于确定所选空气动力学套件的大致空气动力学表现。更改这些数值会改变所显示的前轴下压力数值以及计算器中的下压力／阻力比。要查看赛道表现，请使用遥测输出中的前车高传感器（Front RH）和后车高传感器（Rear RH）。在更改车高或弹簧之前，也可以更改这些数值，以观察前后倾角将如何影响空气动力学表现。
 
-      #### 高速状态后车高
+      #### 前轴下压力
 
       前轴下压力数值表示作用于前轴的下压力占下压力总量的百分比。该数值根据高速状态车高数值以及所选空气动力学选项计算得出，应在底盘调校过程中持续监控，以避免出现意外结果。为确保底盘调整不会因空气动力学变化而被掩盖，请始终参照该数值，确保其在空气动力学设置更改前后保持恒定。
 
@@ -442,7 +442,7 @@ sections:
 
       The Ride Height (RH) at Speed settings are inputs for the aero calculator to determine the approximate aero performance with the chosen aero package. Changing these values changes the displayed Front Downforce value as well as the Downforce-to-Drag ratio in the calculator. To check on-track performance, use the front ride height sensors (Front RH) and rear ride height sensors (Rear RH) found in telemetry output. These can also be changed to observe how rake will affect aerodynamic performance prior to ride height or spring changes.
 
-      #### REAR RH AT SPEED
+      #### FRONT DOWNFORCE
 
       The Front Downforce value represents the percentage of total downforce that is working on the front axle. This value is calculated with the At Speed ride height values, as well as the chosen aerodynamic options, and should be monitored during the chassis setup process to prevent unexpected results. To ensure chassis adjustments don’t become masked by aerodynamic changes, always refer to this value to ensure it remains constant before and after aerodynamic setup changes.
 
@@ -746,7 +746,7 @@ sections:
 
       #### 回弹阻尼
 
-      低速压缩影响减振器在相对低速运动时抵抗压缩（长度缩短）的能力，这些运动通常由车手操作（转向、制动和油门）以及过弯力引起的车体运动造成。数值越高，压缩阻力越大，在这些低速条件下载荷更快地转移到某个轮胎上，从而在加油时引发转向不足。
+      回弹阻尼控制减振器在较低速度下伸张时的刚度，通常发生在车手操作引起的车体运动过程中。回弹数值越高，越能抵抗减振器伸长；数值越低，减振器伸张越快。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸长以保持与赛道良好接触时，可能导致车轮卸载。过大的回弹可能导致车轮在赛道上弹跳而非保持接触，从而引发不必要的振荡。
 
       #### 外倾角
 
@@ -785,7 +785,7 @@ sections:
 
       #### REBOUND DAMPING
 
-      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+      Rebound Damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. Excessive rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
 
       #### CAMBER
 
@@ -812,7 +812,7 @@ sections:
 
       #### 第三弹簧座偏移量
 
-      通过可调弹簧座改变第三弹簧的静态载荷。用于改变整体前端车高。
+      通过可调弹簧座改变第三弹簧的静态载荷。用于改变整体后车高。
 
       #### 第三弹簧形变量
 
@@ -828,11 +828,11 @@ sections:
 
       #### 防倾杆尺寸
 
-      防倾杆（ARB）尺寸会影响前悬架在侧倾（例如过弯）时的刚度。增大防倾杆尺寸会提高前悬架的侧倾刚度，从而减少车身侧倾但增加机械性转向不足。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会使悬架在侧倾时变软，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但后轴抓地力会提高。
+      防倾杆（ARB）尺寸会影响后悬架在侧倾（例如过弯）时的刚度。增大防倾杆尺寸会提高后悬架的侧倾刚度，从而减少车身侧倾但增加机械性转向过度。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会使悬架在侧倾时变软，增加车身侧倾但减少机械性转向过度。此时转向响应感可能减弱，但后轴抓地力会提高。
 
       #### 防倾杆摆臂长度
 
-      防倾杆摆臂长度选项用于改变防倾杆总成摆臂的长度。摆臂越长，防倾杆总成越软、侧倾刚度越低，越容易转向不足。摆臂越短，前悬架侧倾刚度越高，越容易转向过度。
+      防倾杆摆臂长度选项用于改变防倾杆总成摆臂的长度。摆臂越长，防倾杆总成越软、侧倾刚度越低，越容易转向不足。摆臂越短，后悬架侧倾刚度越高，越容易转向过度。
 
     bodyEn: |+
       ![Image](./assets/super-formula-lights/rear.png)
@@ -847,7 +847,7 @@ sections:
 
       #### THIRD PERCH OFFSET
 
-      Changes the static load of the third spring via an adjustable spring perch. This is used to alter the overall front end ride height.
+      Changes the static load of the third spring via an adjustable spring perch. This is used to alter the overall rear ride height.
 
       #### THIRD SPRING DEFL
 
@@ -863,11 +863,11 @@ sections:
 
       #### ARB SIZE
 
-      The ARB (Anti-Roll Bar) size influences the stiffness of the front suspension in roll, such as when navigating a corner. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+      The ARB (Anti-Roll Bar) size influences the stiffness of the rear suspension in roll, such as when navigating a corner. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
 
       #### ARB ARM LENGTH
 
-      The ARB Arm Length option changes how long the ARB assembly arms are. Longer arms result in a softer ARB assembly and less stiffness in roll, inducing understeer. Shorter arms stiffen the front suspension in roll, inducing oversteer.
+      The ARB Arm Length option changes how long the ARB assembly arms are. Longer arms result in a softer ARB assembly and less stiffness in roll, inducing understeer. Shorter arms stiffen the rear suspension in roll, inducing oversteer.
 
   - id: differential
     level: 3
