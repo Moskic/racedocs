@@ -205,7 +205,7 @@ sections:
       | 显示项目 | 说明 |
       | --- | --- |
       | Oil P | 发动机机油压力（bar 或 psi） |
-      | Oil T | 发动机水温（摄氏度或华氏度） |
+      | Oil T | 发动机机油温度（摄氏度或华氏度） |
       | Best Lap | 本次会话最佳圈速，格式为 `mm:ss:ms` |
 
       #### 中列
@@ -231,7 +231,7 @@ sections:
       | Display | Description |
       | --- | --- |
       | Oil P | Engine oil pressure (Bar or psi) |
-      | Oil T | Engine water temperature (Celsius or Fahrenheit) |
+      | Oil T | Engine oil temperature (Celsius or Fahrenheit) |
       | Best Lap | Session best lap as `mm:ss:ms` |
 
       #### CENTER COLUMN
