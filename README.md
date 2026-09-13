@@ -24,7 +24,7 @@ pnpm build
 
 ## 内容维护
 
-每本手册对应 `src/data/manuals/` 中的一个 YAML 文件，也可以通过根目录的 `.pages.yml` 使用 Pages CMS 编辑。
+每本手册对应 `src/data/manuals/` 中的一个 YAML 文件。
 
 - `slug` 只使用小写英文、数字和连字符，并与文件名一致。
 - `published: true` 的手册才会进入生产构建。
