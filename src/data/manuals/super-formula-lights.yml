@@ -231,7 +231,7 @@ sections:
       | Water T | 发动机冷却水温，单位为 °C 或 °F |
       | Oil T | 发动机机油温度，单位为 °C 或 °F |
       | Fuel T | 燃油温度，单位为 °C 或 °F |
-      | Lambada | 当前空燃比 |
+      | Lambda | 当前空燃比 |
 
       #### 右列
 
@@ -263,7 +263,7 @@ sections:
       | Water T | Engine cooling water temperature in °C or °F |
       | Oil T | Engine oil temperature in °C or °F |
       | Fuel T | Fuel temperature in °C or °F |
-      | Lambada | Current air/fuel mixture ratio |
+      | Lambda | Current air/fuel mixture ratio |
 
       #### RIGHT COLUMN
 
@@ -824,7 +824,7 @@ sections:
 
       #### 推杆长度偏移量
 
-      后推杆可通过加长或缩短来改变车高，而不会影响前弹簧组件的预载。使用该调整前，请先将两条角弹簧和后第三弹簧设置为目标数值，然后通过推杆长度调整后车高。加长推杆会提高后车高，缩短推杆则会降低后车高。
+      后推杆可通过加长或缩短来改变车高，而不会影响后弹簧组件的预载。使用该调整前，请先将两条角弹簧和后第三弹簧设置为目标数值，然后通过推杆长度调整后车高。加长推杆会提高后车高，缩短推杆则会降低后车高。
 
       #### 防倾杆尺寸
 
@@ -859,7 +859,7 @@ sections:
 
       #### PUSHROD LENGTH OFFSET
 
-      The rear Pushrods can be lengthened or shortened to change ride height without affecting the preload on the front spring components. Before using this adjustment, ensure both corner springs and the rear Third spring are set to the desired value, then adjust the rear ride height with the pushrod length. Longer pushrods will raise the rear ride height, shorter pushrods will reduce rear ride height.
+      The rear Pushrods can be lengthened or shortened to change ride height without affecting the preload on the rear spring components. Before using this adjustment, ensure both corner springs and the rear Third spring are set to the desired value, then adjust the rear ride height with the pushrod length. Longer pushrods will raise the rear ride height, shorter pushrods will reduce rear ride height.
 
       #### ARB SIZE
 
