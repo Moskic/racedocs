@@ -1,0 +1,1002 @@
+slug: super-formula-lights
+published: true
+titleZh: Super Formula Lights 用户手册
+titleEn: Super Formula Lights User Manual
+contentType: vehicle-manual
+brand: Dallara
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/super-formula-lights/cover.png
+source:
+  type: official
+  title: iRacing Super Formula Lights User Manual
+  revision: V1
+  notice: Complete English transcription imported from the user-provided official V1 PDF.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/super-formula-lights/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Super Formula Lights！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Super Formula Lights 赛车](./assets/super-formula-lights/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Super Formula Lights! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/super-formula-lights/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: "技术规格"
+    titleEn: "TECH SPECS"
+
+  - id: chassis
+    level: 3
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+    bodyZh: |+
+      ![底盘规格](./assets/super-formula-lights/chassis-specifications.png)
+
+      前后均采用推杆驱动的内置弹簧双叉臂悬架
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4934mm / 194in |
+      | 车宽 | 1875mm / 74in |
+      | 轴距 | 2866mm / 113in |
+      | 干重 | 587kg / 1250lbs |
+      | 含车手湿重 | 690kg / 1520lbs |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/chassis-specifications.png)
+
+      DOUBLE WISHBONE WITH PUSHROD-ACTUATED INBOARD SPRINGS
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4934mm / 194in |
+      | Width | 1875mm / 74in |
+      | Wheelbase | 2866mm / 113in |
+      | Dry Weight | 587kg / 1250lbs |
+      | Wet Weight with Driver | 690kg / 1520lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: "动力单元"
+    titleEn: "POWER UNIT"
+    bodyZh: |+
+      ![动力单元](./assets/super-formula-lights/power-unit.png)
+
+      涡轮增压 3 缸发动机，TOYOTA TGE33
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 1.6 Liters / 97.6CID |
+      | 转速上限 | 7100 RPM Soft Limit / 7300 RPM Hard Limit |
+      | 扭矩 | 230lb-ft / 311Nm |
+      | 功率 | 276bhp / 206kW |
+
+      ![Super Formula Lights 车辆侧视图](./assets/super-formula-lights/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/power-unit.png)
+
+      TURBOCHARGED, 3 CYLINDER, TOYOTA TGE33
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 1.6 Liters / 97.6CID |
+      | RPM Limit | 7100 RPM Soft Limit / 7300 RPM Hard Limit |
+      | Torque | 230lb-ft / 311Nm |
+      | Power | 276bhp / 206kW |
+
+      ![Image](./assets/super-formula-lights/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: "简介"
+    titleEn: "INTRODUCTION"
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: "快速上手"
+    titleEn: "GETTING STARTED"
+    bodyZh: |+
+      ![快速上手](./assets/super-formula-lights/getting-started.png)
+
+      启动车辆前，建议先为制动力分配调整映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶需求快速调整制动力分配。
+
+      进入车辆后，只需拉动“升挡”拨片挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡和降挡均无须手动操作离合器。不过，车辆的降挡保护会在系统判断车速对所选挡位过高时阻止降挡；此时降挡指令将被直接忽略。
+
+      建议在仪表台上的换挡提示灯全部亮起时升挡，对应转速约为 7000 RPM。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/getting-started.png)
+
+      Before starting the car, it is recommended to map controls for Brake Bias. While this is not mandatory, this will allow you to make quick changes to the brake bias to suit your driving while out on track.
+
+      Once you load into the car, getting started is as easy as pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require manual clutch operation to shift in either direction. However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear requested. If that is the case, the downshift command will simply be ignored.
+
+      Upshifting is recommended when the shift lights on the dashboard are all fully illuminated around 7000 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: "载入 iRacing 设置"
+    titleEn: "LOADING AN iRACING SETUP"
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/super-formula-lights/loading-iracing-setup.png)
+
+      首次进入会话时，车辆会自动载入 iRacing 基准设置。如果您想尝试 iRacing 其他预制选项，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的其他选项。由于本车在不同类型的赛道上使用略有不同的底盘和车身配置，因此必须载入同类型赛道的设置才能通过技术检查。例如，Talladega 的设置可以在 Daytona 通过检查，但很可能无法在 Bristol 通过。如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/loading-iracing-setup.png)
+
+      When you first load into a session, the iRacing Baseline setup will be automatically loaded onto the car. If you would like to try any of the other iRacing pre-built options, you may select it by going to Garage &gt; iRacing Setups &gt; and then selecting another option that fits your needs. Because this car uses slightly different chassis and body configurations on different types of tracks, it will be necessary to load a setup from the same track type to pass tech inspection. For example, a setup for Talladega will pass at Daytona, but likely will not pass at Bristol. If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: "仪表页面"
+    titleEn: "DASH PAGES"
+    bodyZh: |+
+      Super Formula Lights 配备集成于方向盘的数字显示屏，共有两个页面：竞速（Race）与诊断（Diagnostics），分别向车手提供信息。
+
+    bodyEn: |+
+      The Super Formula Light features a digital display integrated into the steering wheel. Two pages provide information to the driver across two pages: Race and Diagnostics.
+
+  - id: race
+    level: 3
+    titleZh: "竞速"
+    titleEn: "RACE"
+    bodyZh: |+
+      ![竞速页面](./assets/super-formula-lights/dash-race.png)
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Laptime | 当前圈速，显示在屏幕顶部 |
+      | Last Lap | 上一完成圈的圈速，位于屏幕左侧 |
+      | Lap # | 当前已完成圈数 |
+      | Gear | 当前选择的挡位，显示在屏幕中央 |
+      | RPM | 当前发动机转速 |
+      | Water Temp | 发动机冷却水温，单位为 °C 或 °F |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/dash-race.png)
+
+      | Display | Description |
+      | --- | --- |
+      | Laptime | Current lap time is shown across the top of the display |
+      | Last Lap | The previously completed lap time is on the left of the display |
+      | Lap # | Number of laps completed in the current |
+      | Gear | The currently-selected gear is shown in the center of the display |
+      | RPM | Current engine RPM |
+      | Water Temp | Engine cooling water temperature in °C or °F |
+
+  - id: diagnostic
+    level: 3
+    titleZh: "诊断"
+    titleEn: "DIAGNOSTIC"
+    bodyZh: |+
+      ![诊断页面](./assets/super-formula-lights/dash-diagnostic.png)
+
+      #### 左列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | RPM | 发动机转速 |
+      | Oil P | 发动机机油系统压力，单位为 PSI 或 Bar |
+      | Rail P | 燃油系统压力，单位为 PSI 或 Bar |
+      | Throttle | 油门踏板位置，以百分比表示 |
+      | Batt | 当前发动机转速 |
+      | Gear | 发动机冷却水温，单位为 °C 或 °F |
+
+      #### 中列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Air T | 环境气温，单位为 °C 或 °F |
+      | Water T | 发动机冷却水温，单位为 °C 或 °F |
+      | Oil T | 发动机机油温度，单位为 °C 或 °F |
+      | Fuel T | 燃油温度，单位为 °C 或 °F |
+      | Lambada | 当前空燃比 |
+
+      #### 右列
+
+      | 显示项目 | 说明 |
+      | --- | --- |
+      | Diff Time | 当前圈与本次会话最佳圈之间的圈速差 |
+      | Current Lap | 当前圈速 |
+      | Last Lap | 上一完成圈的圈速 |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/dash-diagnostic.png)
+
+      #### LEFT COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | RPM | Engine RPM |
+      | Oil P | Engine Oil system pressure in PSI or Bar |
+      | Rail P | Fuel system pressure in PSI or Bar |
+      | Throttle | Throttle pedal position in percent |
+      | Batt | Current engine RPM |
+      | Gear | Engine cooling water temperature in °C or °F |
+
+      #### CENTER COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | Air T | Ambient air temperature in °C or °F |
+      | Water T | Engine cooling water temperature in °C or °F |
+      | Oil T | Engine oil temperature in °C or °F |
+      | Fuel T | Fuel temperature in °C or °F |
+      | Lambada | Current air/fuel mixture ratio |
+
+      #### RIGHT COLUMN
+
+      | Display | Description |
+      | --- | --- |
+      | Diff Time | Current lap time difference between the current lap and the best lap of the session |
+      | Current Lap | Current lap time |
+      | Last Lap | Previously completed lap time |
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: "高级设置选项"
+    titleEn: "ADVANCED SETUP OPTIONS"
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的进阶用户。调整以下参数并非必要操作，而且可能显著改变车辆的操控特性。建议所有调整都采用小幅渐进的方式，每次仅更改一个变量，然后上赛道测试效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: "轮胎与空气动力学"
+    titleEn: "TIRES & AERO"
+
+  - id: tire-data
+    level: 3
+    titleZh: "轮胎数据"
+    titleEn: "TIRE DATA"
+    bodyZh: |+
+      ![轮胎数据](./assets/super-formula-lights/tire-data.png)
+
+      #### 轮胎类型
+
+      本车可根据天气条件更换所装轮胎。“干地”选项会安装适用于干燥赛道表面的光头胎，“湿地”选项则会安装适用于湿滑赛道表面的带花纹轮胎。
+
+      #### 冷胎压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。为获得最佳性能，应根据赛道特性设置冷胎压力。一般而言，建议从较低胎压开始，再根据需要逐步提高。
+
+      #### 上次热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。应仔细关注热胎压力，以便在比赛中充分发挥轮胎性能。
+
+      #### 上次温度
+
+      在车库中测量的是胎面橡胶内部的轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位以及轮胎气压。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；不过在分析操控平衡时，不应让轮胎磨损的优先级高于轮胎温度。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/tire-data.png)
+
+      #### TIRE TYPE
+
+      Tires fitted to the Super Formula Light car can be changed based on weather conditions. The Dry option fits a slick tire intended for dry track conditions while the Wet option fits a treaded tire for wet track surfaces.
+
+      #### COLD PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance. Generally speaking, it is advisable to start at lower pressures and work your way upwards as required.
+
+      #### LAST HOT PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Careful attention should be paid to the Hot Pressures to extract the most performance out of the tires during a race.
+
+      #### LAST TEMPERATURES
+
+      The temperatures measured in the garage are tire carcass temperatures measured within the tread rubber itself. Wheel Loads and the amount of work a tire is doing on the track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment and tire air pressure while on track.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, but should never be prioritized over tire temperatures when analyzing handling balance.
+
+  - id: aero-setup
+    level: 3
+    titleZh: "空气动力学设置"
+    titleEn: "AERO SETUP"
+    bodyZh: |+
+      ![空气动力学设置](./assets/super-formula-lights/aero-setup.png)
+
+      #### 空气动力学套件
+
+      Super Formula Lights 可使用三套整体空气动力学套件，以适应不同赛道的需求。高下压力套件会以牺牲阻力为代价提供最大的空气动力学抓地力；低下压力套件会削减大量阻力，但空气动力学抓地力偏弱；中等下压力套件则在二者之间取得折中。更改空气动力学套件还可能改变翼片组件及其设置范围，因此在更改该数值前后持续关注空气动力学平衡至关重要，可避免出现意外结果。
+
+      #### 前翼襟翼配置
+
+      前翼上部襟翼可设置为高下压力或低下压力配置。高下压力选项会增加前翼的下压力与阻力，低下压力选项则会减少前翼的下压力与阻力。如果在空气动力学套件设置中选择了高下压力或低下压力，则只能使用与该套件对应的襟翼（低下压力襟翼不能与高下压力套件搭配使用）。如果选择了中等下压力套件，则两种前翼襟翼均可使用。
+
+      #### 前翼襟翼角度
+
+      襟翼角度设置会改变前翼上部襟翼相对于水平面的角度。角度越大，前翼产生的下压力越大，空气动力学平衡前移，阻力也会增加；角度越小，下压力越小，空气动力学平衡后移，阻力也随之降低。
+
+      #### 前翼襟翼格尼襟翼
+
+      可以在前翼最上层襟翼的后缘加装一块小型扰流板（即“格尼襟翼”）。加装后，前翼的下压力与阻力都会显著增加，同时空气动力学平衡会大幅前移。可选 5mm 或 10mm 的扰流板，尺寸越大效果越明显。扰流板也可以完全拆除，从而大幅降低阻力，并使空气动力学平衡向车尾方向移动。
+
+      #### 尾翼上部襟翼角度
+
+      尾翼上部襟翼角度设置用于控制尾翼上部襟翼元件的角度。角度越大，下压力越大、阻力越大，空气动力学平衡后移；角度越小，下压力和阻力都会降低，但空气动力学平衡前移。
+
+      #### 尾翼横梁翼角度
+
+      尾翼位于车轴上方的较低元件称为横梁翼，其调整方式与上部元件类似，可用于调节整体下压力与空气动力学平衡。角度越大，整体下压力越大，空气动力学平衡后移；角度越小，空气动力学平衡前移，整体下压力降低。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/aero-setup.png)
+
+      #### AERO PACKAGE
+
+      The Super Formula Light can use one of three overall aerodynamic packages to tailor the car to the needs of a given circuit. High DF will provide the most aerodynamic grip at the expense of drag, Low DF will trim away a large amount of drag but will be light on aerodynamic grip, while Medium DF will provide a moderate amount of both downforce and drag. Changing the Aerodynamic Package may also change the wing components and their setting limits, so keeping track of Aero Balance before and after changing this value is crucial to preventing unexpected results.
+
+      #### FRONT FLAP CONFIGURATION
+
+      The front wing upper flaps can be set to either a High DF or Low DF configuration. The High DF option will increase downforce and drag on the front wing, the Low DF option will reduce downforce and drag on the front wing. If High or Low DF is chosen in the Aero Package setting, only the flap that corresponds to the Aero Package can be used (Low DF Flap can’t be used with the High DF Aero Package). If the Medium DF Aero Package is selected, either Front Flap can be used
+
+      #### FRONT FLAP ANGLE
+
+      The Flap Angle setting changes the angle of the front wing’s upper flap elements relative to horizontal. Higher angles will increase the downforce generated at the front wing, shift aero forward, and increase drag, while lower angles will decrease downforce, shift aero rearward, and reduce drag.
+
+      #### FRONT FLAP GURNEY FLAP
+
+      A small wicker (or “Gurney Flap”) can be added to the trailing edge of the front wing upper-most flap. If installed, downforce and drag from the front wing will increase significantly as well as a large shift forward for the Aero Balance. Options include a 5 or 10mm wicker, with the larger option producing a larger effect. The wicker can also be removed entirely resulting in a large reduction in drag as well as an aerodynamic balance shift towards the rear of the car.
+
+      #### REAR UPPER FLAP ANGLE
+
+      The Rear Upper Flap Angle setting controls the angle of the rear wing’s upper flap element. Higher angles will produce more downforce, more drag, and shift aero rearward, while lower angles will reduce both downforce and drag but shift aero forward.
+
+      #### REAR BEAM WING ANGLE
+
+      A lower element on the rear wing situated just above the axle, known as the Beam Wing, can be adjusted similarly to the upper elements to tune overall downforce and aerodynamic balance. Higher angles will increase overall downforce and shifts aero rearward, lower angles will shift aero forward and reduce overall downforce.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: "空气动力学计算器"
+    titleEn: "AERO CALCULATOR"
+    bodyZh: |+
+      ![空气动力学计算器](./assets/super-formula-lights/aero-calculator.png)
+
+      空气动力学计算器可让您快速大致了解当前配置下车辆的空气动力学平衡。选定前后空气动力学设置后，可设置前、后车高来查看车辆的空气动力学平衡和下压力／阻力比。这对于规划设置更改非常有帮助，既可以保持更改前后的空气动力学平衡不变，也能了解平衡会随更改发生多大变化。请注意，车库中此区域所选设置不会影响设置或赛道表现，只是了解车辆表现的一种方式。
+
+      #### 高速状态前车高
+
+      高速状态车高（RH at Speed）设置是空气动力学计算器的输入项，用于确定所选空气动力学套件的大致空气动力学表现。更改这些数值会改变所显示的前轴下压力数值以及计算器中的下压力／阻力比。要查看赛道表现，请使用遥测输出中的前车高传感器（Front RH）和后车高传感器（Rear RH）。在更改车高或弹簧之前，也可以更改这些数值，以观察前后倾角将如何影响空气动力学表现。
+
+      #### 高速状态后车高
+
+      前轴下压力数值表示作用于前轴的下压力占下压力总量的百分比。该数值根据高速状态车高数值以及所选空气动力学选项计算得出，应在底盘调校过程中持续监控，以避免出现意外结果。为确保底盘调整不会因空气动力学变化而被掩盖，请始终参照该数值，确保其在空气动力学设置更改前后保持恒定。
+
+      #### 阻力微调
+
+      阻力微调数值表示车辆产生的阻力大小，以相对于基础阻力值的偏移量显示。数值越高表示车辆受到的阻力越大，数值越低表示阻力越小。
+
+      #### 下压力微调
+
+      下压力微调数值表示车辆产生的下压力大小，以相对于基础下压力值的偏移量显示。数值越高表示车辆的总下压力越大，数值越低表示下压力越小。
+
+      #### 平衡微调
+
+      平衡微调数值表示空气动力学压力中心相对于基础值的偏移量。数值越高表示前移越多，数值越低表示后移越多，但该数值并不代表给定空气动力学套件下实际的气动平衡。
+
+      #### 下压力／阻力比
+
+      下压力／阻力比表示每单位阻力能产生多少下压力。通常，较大的下压力／阻力比意味着车辆工作效率较高，在给定阻力数值下能产生较大的下压力；而下压力／阻力比较低通常出现在更“滑”、低阻力的空气动力学套件上。
+
+      #### 空气动力学平衡
+
+      空气动力学平衡表示作用于前轴的下压力占下压力总量的百分比。该数值根据高速状态车高与倾角数值以及所选空气动力学选项计算得出，应在底盘调校过程中持续监控，以避免出现意外结果。为确保底盘调整不会因空气动力学变化而被掩盖，请始终参照该数值，确保其在空气动力学设置更改前后保持恒定。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/aero-calculator.png)
+
+      The Aero Calculator is a quick way to get a general idea of the car’s aero balance in the current configuration. Once the Front and Rear Aero settings have been chosen, the front and rear ride heights can be set to find the car’s aero balance and Downforce-to-Drag ratio. This is very helpful for planning setup changes to either keep the same aerodynamic balance after a change or to understand how much the balance will shift with changes. Please note the settings chosen in this area of the garage do not affect the setup or on-track performance and are simply a way to understand how the car is performing.
+
+      #### FRONT RH AT SPEED
+
+      The Ride Height (RH) at Speed settings are inputs for the aero calculator to determine the approximate aero performance with the chosen aero package. Changing these values changes the displayed Front Downforce value as well as the Downforce-to-Drag ratio in the calculator. To check on-track performance, use the front ride height sensors (Front RH) and rear ride height sensors (Rear RH) found in telemetry output. These can also be changed to observe how rake will affect aerodynamic performance prior to ride height or spring changes.
+
+      #### REAR RH AT SPEED
+
+      The Front Downforce value represents the percentage of total downforce that is working on the front axle. This value is calculated with the At Speed ride height values, as well as the chosen aerodynamic options, and should be monitored during the chassis setup process to prevent unexpected results. To ensure chassis adjustments don’t become masked by aerodynamic changes, always refer to this value to ensure it remains constant before and after aerodynamic setup changes.
+
+      #### DRAG TRIM
+
+      The Drag Trim value is a representation of how much drag is being generated by the vehicle, displayed as an offset of the base drag value. Higher values indicate a higher amount of drag on the car, lower values indicate less drag.
+
+      #### DOWNFORCE TRIM
+
+      The Downforce Trim value is a representation of how much downforce is being generated by the vehicle, displayed as an offset of the base downforce value. Higher values indicate a higher amount of overall downforce on the car, lower values indicate less downforce.
+
+      #### BALANCE TRIM
+
+      The Balance Trim value is a representation of how much the aerodynamic Center of Pressure has been shifted from the base value. Higher values indicate a shift forward, lower values indicate a rearward shift, but this value does not represent the actual aerodynamic balance for the given aero package.
+
+      #### DOWNFORCE TO DRAG
+
+      The Downforce to Drag ratio is a relation of how much downforce is produced for one unit of drag. Generally, a larger Downforce to Drag ratio would imply the car is working efficiently and producing large amounts of downforce for given drag numbers, while a lower Downforce to Drag value is typically seen on more slippery, low-drag aerodynamic packages.
+
+      #### AERO BALANCE
+
+      Aero Balance represents the percentage of total downforce that is working on the front axle. This value is calculated with the At Speed ride height and tilt values, as well as the chosen aerodynamic options, and should be monitored during the chassis setup process to prevent unexpected results. To ensure chassis adjustments don’t become masked by aerodynamic changes, always refer to this value to ensure it remains constant before and after aerodynamic setup changes
+
+  - id: chassis-setup
+    level: 2
+    titleZh: "底盘"
+    titleEn: "CHASSIS"
+
+  - id: front
+    level: 3
+    titleZh: "前部"
+    titleEn: "FRONT"
+    bodyZh: |+
+      ![前部设置](./assets/super-formula-lights/front.png)
+
+      #### 垂向弹簧
+
+      垂向弹簧是一种悬架元件，用于在底盘沿纯垂直方向运动时承载负荷，不会承受车身侧倾产生的负荷。前垂向弹簧会影响车辆在制动时以及经过颠簸时的操控平衡，但主要用于控制随车速升高而增大的空气动力学负荷。垂向弹簧越硬，悬架的垂直行程越硬，空气动力学平台越稳定，但在颠簸路面上可能降低机械抓地力。垂向弹簧越软，机械抓地力越大，但可能因运动幅度过大而难以保持空气动力学表现的一致性。
+
+      #### 垂向弹簧座偏移量
+
+      垂向弹簧座偏移量用于为垂向弹簧元件施加预载，从而在不产生悬架不对称受力的前提下改变前车高。减小该数值会预压垂向弹簧并提高前车高，增大该数值则会释放弹簧并降低前车高。
+
+      #### 垂向弹簧形变量
+
+      垂向弹簧形变量表示垂向弹簧从自由（无载荷）长度起的压缩量。该数值不可直接调整，而是由其他前悬架调整所引起，尤其是垂向弹簧座偏移量设置，但也可能受各角弹簧设置影响。形变量越大表示弹簧承受的预载越高，形变量越小表示弹簧越松弛。
+
+      #### 垂向减振器形变量
+
+      垂向减振器形变量表示垂向元件在触底之前还有多少可用行程。该数值不代表悬架中的载荷，仅表示垂向减振器的位置。
+
+      #### 推杆长度偏移量
+
+      前推杆可通过加长或缩短来改变车高，而不会影响前弹簧组件的预载。使用该调整前，请先将两条角弹簧和前垂向弹簧设置为目标数值，然后通过推杆长度调整前车高。加长推杆会提高前车高，缩短推杆则会降低前车高。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）是前悬架中的一种弹性装置，用于抵消侧倾运动，但不作用于垂直载荷。更改防倾杆直径会改变前悬架的侧倾刚度和操控平衡：防倾杆设置越硬，前部侧倾刚度越大，越容易转向不足；设置越软，刚度越小，转向不足越少。断开防倾杆会将其从悬架中完全移除，可大幅减少机械性转向不足，但侧倾刚度下降会在高速弯中损害空气动力学表现。
+
+      #### 防倾杆摆臂长度
+
+      防倾杆摆臂长度选项用于改变防倾杆总成摆臂的长度。摆臂越长，防倾杆总成越软、侧倾刚度越低，越容易转向过度。摆臂越短，前悬架侧倾刚度越高，越容易转向不足。
+
+      #### 防倾杆刀片
+
+      防倾杆刀片（或称摆臂）可在防倾杆尺寸设置之外进一步调节悬架的侧倾刚度。该选项用于更改防倾杆刀片的朝向，为便于使用而赋予数值：编号 #1 为最软选项，数值增大时刀片逐渐变硬，最大为 #5。就刚度而言，刀片选项与对防倾杆尺寸进行类似调整的效果相同：
+
+      刀片设置越硬，前部侧倾刚度越大，越容易转向不足；刀片设置越软，前部侧倾刚度越小，转向不足越少。该设置可在车内通过 F8 黑色控制盒中的“FARB”项进行调整。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/front.png)
+
+      #### HEAVE SPRING
+
+      The Heave Spring is a suspension element that handles loads when the chassis moves in a purely vertical direction and does not experience loads generated from chassis roll. The front Heave Spring will influence the chassis’ handling balance during braking and over bumps, but is primarily intended to control increasing aerodynamic loads with higher speeds. Stiffer Heave Spring rates will stiffen the suspension in vertical travel and result in a more consistent aerodynamic platform but can reduce mechanical grip over rough surfaces. Softer Heave Springs will increase mechanical grip but could allow too much movement to keep the aerodynamic behavior consistent.
+
+      #### HEAVE PERCH OFFSET
+
+      The Heave Perch Offset is a way to preload the Heave Spring element, allowing front ride height changes without inducing any asymmetric loading to the suspension. Decreasing the value will preload the Heave spring and raise the front ride heights, increasing the value will unload the spring and lower the front ride heights.
+
+      #### HEAVE SPRING DEFL
+
+      The Heave Spring Deflection is how much the Heave Spring has compressed from its free (unloaded) length. This is not directly adjustable, but is altered as a result of other front suspension adjustments, especially the Heave Perch Offset setting but can be altered by the corner spring settings as well. Higher deflection indicates the spring is under higher pre-load, lower deflection indicates a more relaxed spring.
+
+      #### HEAVE DAMPER DEFL
+
+      The Heave Damper Deflection is an indicator of how much travel is available in the Heave element before bottoming out. This value doesn’t represent any loading in the suspension, only the Heave Damper’s position.
+
+      #### PUSHROD LENGTH OFFSET
+
+      The front Pushrods can be lengthened or shortened to change ride height without affecting the preload on the front spring components. Before using this adjustment, ensure both corner springs and the front Heave spring are set to the desired value, then adjust the front ride height with the pushrod length. Longer pushrods will raise the front ride height, shorter pushrods will reduce front ride height.
+
+      #### ARB SIZE
+
+      The Anti-Roll Bar (ARB) is a spring device in the front suspension that counteracts roll movement but not vertical loading. Changing the ARB diameter will alter the front suspension’s roll stiffness and handling balance: Stiffer ARB settings will increase front roll stiffness and induce understeer, softer ARB settings will reduce stiffness and reduce understeer. Disconnecting the bar will remove the ARB from the suspension entirely and can greatly reduce mechanical understeer, however this reduction in roll stiffness can hurt aerodynamic performance in high-speed corners.
+
+      #### ARB ARM LENGTH
+
+      The ARB Arm Length option changes how long the ARB assembly arms are. Longer arms result in a softer ARB assembly and less stiffness in roll, inducing oversteer. Shorter arms stiffen the front suspension in roll, inducing understeer.
+
+      #### ARB BLADES
+
+      The ARB Blades (or arms) can be changed to further tune the suspension roll stiffness beyond only the ARB size setting. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with #1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of #5. Based on stiffness the blade option will produce the same result as a similar adjustment to the ARB Size:
+
+      Stiffer blade settings will increase front roll stiffness and induce understeer while softer blade settings will reduce front roll stiffness and reduce understeer. This setting can be adjusted in the car from the F8 black box using the “FARB” setting.
+
+  - id: brakes-in-car-misc
+    level: 3
+    titleZh: "制动／车内／杂项"
+    titleEn: "BRAKES / IN-CAR / MISC"
+    bodyZh: |+
+      ![制动／车内／杂项设置](./assets/super-formula-lights/brakes-in-car-misc.png)
+
+      #### 显示页面
+
+      设置车辆启动时方向盘显示屏的默认页面。该设置不影响车辆性能。
+
+      #### 前主缸
+
+      可更改前制动主缸尺寸，以改变通往前制动卡钳的管路压力。主缸越大，通往前制动器的管路压力越小，制动力分配后移，锁死前轮所需的踏板力增大。主缸越小，通往前制动器的制动管路压力越大，制动力分配前移，锁死前轮所需的踏板力减小。
+
+      #### 后主缸
+
+      可更改后制动主缸尺寸，以改变通往后制动卡钳的管路压力。主缸越大，通往后制动器的管路压力越小，制动力分配前移，锁死后轮所需的踏板力增大。主缸越小，通往后制动器的制动管路压力越大，制动力分配后移，锁死后轮所需的踏板力减小。
+
+      #### 制动压力分配
+
+      制动压力分配设置决定总制动管路压力中有多少被送往前轮。百分比越高，施加在前轮的制动力越大，可能在制动时引发转向不足；降低百分比会使制动力后移，并在制动时引发转向过度。如果分配设置过于靠前或靠后，重刹时可能导致车轮抱死，因此应将其设置为能够在前后轴上重刹而不抱死的数值。
+
+      #### 燃油量
+
+      车辆载入世界时油箱中的燃油量。
+
+      #### 对角配重
+
+      对角配重是车辆总重中位于右前轮和左后轮上方的重量百分比。对角配重数值越高，车辆在左弯中越容易转向不足，在右弯中越容易转向过度。对角配重数值越低，车辆在左弯中越容易转向过度，在右弯中越容易转向不足。
+
+      #### 齿轮组
+
+      共有五组传动齿轮可选，用于针对不同赛道类型调校车辆。较短的齿轮组可改善加速，但会牺牲极速；较长的齿轮选项可提高极速，但会牺牲加速。通常，弯道较紧、速度较低的赛道更适合较短的齿轮组，而速度较高、弯道流畅的赛道则更适合较长的齿轮组。
+
+      #### 极速
+
+      当前所选齿轮组能够达到的估算极速。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/brakes-in-car-misc.png)
+
+      #### DISPLAY PAGE
+
+      This sets the default page on the steering wheel’s display when the car is started. This has no effect on car performance.
+
+      #### FRONT MASTER CYLINDER
+
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+
+      #### REAR MASTER CYLINDER
+
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+
+      #### BRAKE PRESSURE BIAS
+
+      The Brake Pressure Bias setting determines how much of the overall brake line pressure is sent to the front wheels. Higher percentages apply more braking pressure to the front wheels, which can induce understeer under braking, while reducing the percentage will shift braking force rearward and induce oversteer under braking. If the bias is set too far forward or rearward it can cause wheel lockups under heavy braking, so it should be set to a value that allows for heavy braking without lockups on either axle.
+
+      #### FUEL LEVEL
+
+      The amount of fuel in the fuel tank when the car is loaded into the world.
+
+      #### CROSSWEIGHT
+
+      Crossweight is the percentage of the car’s total weight situated over the Right-Front and Left-Rear wheels. Higher Cross Weight values will induce understeer in left-hand corners and oversteer in right-hand corners. Lower Cross Weight values will induce oversteer in left-hand corners and understeer in right-hand corners.
+
+      #### GEAR STACK
+
+      Five sets of drive gear are available to help tune the car for different track types. Shorter gear stacks will improve acceleration at the expense of top speed, longer gear options will increase top speed at the expense of acceleration. Generally a track with tighter corners and lower speeds will benefit from a shorter gear stack while a track with high speeds and flowing corners will see better performance from a longer gear stack.
+
+      #### TOP SPEED
+
+      The estimated top speed achievable from the currently-selected gear stack.
+
+  - id: front-corners
+    level: 3
+    titleZh: "前轮"
+    titleEn: "FRONT CORNERS"
+    bodyZh: |+
+      ![前轮设置](./assets/super-formula-lights/front-corners.png)
+
+      #### 单轮载荷
+
+      单轮载荷表示车辆在车库中静止时各车轮所承受的重量。可用于直观了解静态条件下的重量分布，并帮助在调校过程中识别重量分布的变化。
+
+      #### 车高
+
+      前车高是从地面到底盘特定测量点的距离。由于该数值是针对车上特定参考点测量，因此未必代表底盘的最低点，也就不能具体代表底盘的离地间隙，而是作为调校和空气动力学工作的参考。前车高应设置得较低以获得空气动力学和机械抓地力，但也要足够高，避免底盘在一圈中与赛道发生明显接触。提高或降低前车高会影响空气动力学平衡、整体下压力水平和阻力，因此更改该数值时请查阅空气动力学计算器，以了解车高变化对操控的影响。
+
+      #### 弹簧形变量
+
+      弹簧形变量表示主承载弹簧从完全伸长长度起的压缩量（在车库静态条件下）。可用于判断弹簧承受的预载大小。
+
+      #### 减振器形变量
+
+      减振器形变量表示减振器在车库静态条件下从完全伸长度起的压缩量。这有助于判断在减振器弹簧和垫片接触减振器筒身之前还有多少减振器行程可用。
+
+      #### 扭杆预载
+
+      用于调整车高和对角配重，调整该设置会在静态条件下对扭杆施加预载。减小该数值会增加扭杆预载，为该角增加重量并提高该角的车高。增大该数值则相反，会降低该角的高度和重量。应以成对方式（例如左右）或在车上同时调整全部四个弹簧预载，以避免在调整车高时改变对角配重。
+
+      #### 扭杆外径
+
+      扭杆外径会改变前悬架扭杆的尺寸，从而改变其刚度，扭杆在前悬架中用作弹簧元件。弹簧用于在赛道上的各种负荷下防止底盘接触赛道，并管理底盘的空气动力学姿态，但其刚度也会对车辆操控特性产生重大影响。在前部，较硬的弹簧（较大外径）可防止前翼在空气动力学负荷增大时移动过多，但会降低机械抓地力，并可能在较慢的弯角中引发转向不足。较软的弹簧会使前部运动更多，不利于空气动力学，但会增加前轴的机械抓地力并减少转向不足（极端情况下可能引发转向过度）。外径越大越硬，外径越小越软。
+
+      #### 压缩阻尼
+
+      压缩阻尼影响减振器在相对低速运动时抵抗压缩（长度缩短）的能力，这些运动通常由车手操作（转向、制动和油门）以及过弯力引起的车体运动造成。数值越高，压缩阻力越大，在这些低速条件下载荷更快地转移到某个轮胎上，从而引发转向不足。数值越低，载荷转移到轮胎的速度越慢，应用于前减振器时可减少转向不足。
+
+      #### 回弹阻尼
+
+      回弹阻尼控制减振器在较低速度下伸张时的刚度，通常发生在车手操作引起的车体运动过程中。回弹数值越高，越能抵抗减振器伸长；数值越低，减振器伸张越快。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸长以保持与赛道良好接触时，可能导致车轮卸载。在调校操控时，前部较高的低速回弹会增加油门状态下的机械性转向不足（但会减少前唇升举），较低的数值则能更长时间保持前部抓地力，有助于减少转向不足，但会允许更多前唇升举。过大的前回弹可能导致车轮在赛道上弹跳而非保持接触，从而引发不必要的振荡。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的纵向抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大前轮外倾角的绝对值通常会提高中高速弯中的前轴抓地力，但会降低制动性能，因此需要将制动力分配向后调整作为补偿。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      Corner Weight represents the weight on each wheel when sitting in the garage. This can be used to visualize the weight distribution under static conditions and help with identifying changes to weight distribution through the setup process.
+
+      #### RIDE HEIGHT
+
+      Front Ride Height is a measurement from the ground to point on the bottom of the chassis. Since this value doesn’t necessarily represent the lowest point on the chassis it does not specifically represent the chassis’ ground clearance, but is instead a reference for setup and aero work. It is important to have the front ride height low for both aero and mechanical grip, but high enough that the chassis doesn’t make significant contact with the race track over the course of a lap. Raising and lowering the front ride height will affect aerodynamic balance, overall downforce levels, and drag, so consult the Aero Calculator to see how a ride height change will influence handling when changing this value
+
+      #### SPRING DEFL
+
+      Spring Deflection is how much the primary ride spring has compressed from its fully extended length while under static conditions in the garage. Useful for determining how much preload a spring is under.
+
+      #### SHOCK DEFL
+
+      Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before the shock springs and packers are engaged on the shock body.
+
+      #### TORSION BAR PRELOAD
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the torsion bar under static conditions. Decreasing the value increases preload on the torsion bar, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### TORSION BAR OUTER DIAMETER
+
+      The Torsion Bar Outer Diameter changes the size, and thus the stiffness, of the front suspension torsion bars, which are used as spring elements. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs (larger Outer Diameter) can keep the front wing from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Larger diameters will be stiffer, smaller diameters will be softer.
+
+      #### COMPRESSION DAMPING
+
+      Compression Damping affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer. Lower values will slow weight transfer to a tire, reducing understeer when applied to the front shocks.
+
+      #### REBOUND DAMPING
+
+      Rebound Damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low-speed rebound can increase on-throttle mechanical understeer (but reduce splitter lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Increasing front camber values will typically result in increased front axle grip during mid to high speed cornering but will result in a loss of braking performance and necessitate a rearward shift in brake bias to compensate.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, viewed from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+  - id: rear-corners
+    level: 3
+    titleZh: "后轮"
+    titleEn: "REAR CORNERS"
+    bodyZh: |+
+      ![后轮设置](./assets/super-formula-lights/rear-corners.png)
+
+      #### 单轮载荷
+
+      单轮载荷表示车辆在车库中静止时各车轮所承受的重量。可用于直观了解静态条件下的重量分布，并帮助在调校过程中识别重量分布的变化。
+
+      #### 弹簧形变量
+
+      弹簧形变量表示主承载弹簧从完全伸长长度起的压缩量（在车库静态条件下）。可用于判断弹簧承受的预载大小。
+
+      #### 减振器形变量
+
+      减振器形变量表示减振器在车库静态条件下从完全伸长度起的压缩量。这有助于判断在减振器弹簧和垫片接触减振器筒身之前还有多少减振器行程可用。
+
+      #### 弹簧座偏移量
+
+      用于调整车高和对角配重，调整该设置会在静态条件下对弹簧施加预载。减小该数值会增加弹簧预载，为该角增加重量并提高该角的车高。增大该数值则相反，会降低该角的高度和重量。应以成对方式（例如左右）或在车上同时调整全部四个弹簧预载，以避免在调整车高时改变对角配重。
+
+      #### 弹簧刚度
+
+      弹簧刚度改变弹簧的软硬程度，以单位位移所对应的力表示。弹簧主要负责在车轮负荷变化时保持车高和空气动力学姿态，较硬的弹簧能更好地维持车辆的空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地应对颠簸并提高机械抓地力，但会损害车辆的空气动力学平台。根据认证规则，后轴弹簧刚度必须左右对称，且只能成对更改。
+
+      #### 压缩阻尼
+
+      低速压缩影响减振器在相对低速运动时抵抗压缩（长度缩短）的能力，这些运动通常由车手操作（转向、制动和油门）以及过弯力引起的车体运动造成。数值越高，压缩阻力越大，在这些低速条件下载荷更快地转移到某个轮胎上，从而在加油时引发转向不足。
+
+      #### 回弹阻尼
+
+      低速压缩影响减振器在相对低速运动时抵抗压缩（长度缩短）的能力，这些运动通常由车手操作（转向、制动和油门）以及过弯力引起的车体运动造成。数值越高，压缩阻力越大，在这些低速条件下载荷更快地转移到某个轮胎上，从而在加油时引发转向不足。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。较高的后外倾角可提高过弯稳定性，但会降低制动时的稳定性。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，反之则为负前束。在后轴，增加正前束会提高直线稳定性，但可能损害车辆的变向能力。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/rear-corners.png)
+
+      #### CORNER WEIGHT
+
+      Corner Weight represents the weight on each wheel when sitting in the garage. This can be used to visualize the weight distribution under static conditions and help with identifying changes to weight distribution through the setup process.
+
+      #### SPRING DEFL
+
+      Spring Deflection is how much the primary ride spring has compressed from its fully extended length while under static conditions in the garage. Useful for determining how much preload a spring is under
+
+      #### SHOCK DEFL
+
+      Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before the shock springs and packers are engaged on the shock body.
+
+      #### SPRING PERCH OFFSET
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### SPRING RATE
+
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+
+      #### COMPRESSION DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+
+      #### REBOUND DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
+
+  - id: rear
+    level: 3
+    titleZh: "后部"
+    titleEn: "REAR"
+    bodyZh: |+
+      ![后部设置](./assets/super-formula-lights/rear.png)
+
+      #### 后车高
+
+      后车高是从地面到车身后部沿车辆中心线某参考点的距离。由于该数值未必代表底盘的最低点，因此不能具体代表底盘的离地间隙，而是作为调校和空气动力学工作的参考。提高或降低后车高会影响空气动力学平衡、整体下压力水平和阻力，因此更改该数值时请查阅空气动力学计算器，以了解车高变化对操控的影响。
+
+      #### 第三弹簧
+
+      第三弹簧是一种弹簧元件，仅提供垂直悬架运动方向的阻力，而不影响侧倾刚度。该弹簧元件有助于控制不断增大的空气动力学负荷，并在赛道上维持适当的空气动力学姿态。车尾的第三弹簧对于在赛道全程维持和控制后车高、从而最大化车尾车身产生的下压力至关重要。
+
+      #### 第三弹簧座偏移量
+
+      通过可调弹簧座改变第三弹簧的静态载荷。用于改变整体前端车高。
+
+      #### 第三弹簧形变量
+
+      第三弹簧形变量表示后第三弹簧从自由（无载荷）长度起的压缩量。该数值不可直接调整，而是由其他后悬架调整所引起，尤其是第三弹簧座偏移量设置，但也可能受各角弹簧设置影响。形变量越大表示弹簧承受的预载越高，形变量越小表示弹簧越松弛。
+
+      #### 第三减振器形变量
+
+      第三减振器形变量表示后第三弹簧元件在触底之前还有多少可用行程。该数值不代表悬架中的载荷，仅表示第三减振器的位置。
+
+      #### 推杆长度偏移量
+
+      后推杆可通过加长或缩短来改变车高，而不会影响前弹簧组件的预载。使用该调整前，请先将两条角弹簧和后第三弹簧设置为目标数值，然后通过推杆长度调整后车高。加长推杆会提高后车高，缩短推杆则会降低后车高。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会影响前悬架在侧倾（例如过弯）时的刚度。增大防倾杆尺寸会提高前悬架的侧倾刚度，从而减少车身侧倾但增加机械性转向不足。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会使悬架在侧倾时变软，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但后轴抓地力会提高。
+
+      #### 防倾杆摆臂长度
+
+      防倾杆摆臂长度选项用于改变防倾杆总成摆臂的长度。摆臂越长，防倾杆总成越软、侧倾刚度越低，越容易转向不足。摆臂越短，前悬架侧倾刚度越高，越容易转向过度。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/rear.png)
+
+      #### RIDE HEIGHT
+
+      Rear Ride Height is a measurement from the ground to a reference point on the chassis along the centerline of the car. Since this value doesn’t necessarily represent the lowest point on the chassis it does not specifically represent the chassis’ ground clearance, but is instead a reference for setup and aero work. Raising and lowering the rear ride height will affect aerodynamic balance, overall downforce levels, and drag, so consult the Aero Calculator to see how a ride height change will influence handling when changing this value.
+
+      #### THIRD SPRING
+
+      The Third Spring is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork.
+
+      #### THIRD PERCH OFFSET
+
+      Changes the static load of the third spring via an adjustable spring perch. This is used to alter the overall front end ride height.
+
+      #### THIRD SPRING DEFL
+
+      The Third Spring Deflection is how much the rear Third Spring has compressed from its free (unloaded) length. This is not directly adjustable, but is altered as a result of other rear suspension adjustments, especially the Third Perch Offset setting but can be altered by the corner spring settings as well. Higher deflection indicates the spring is under higher pre-load, lower deflection indicates a more relaxed spring.
+
+      #### THIRD DAMPER DEFL
+
+      The Third Damper Deflection is an indicator of how much travel is available in the rear Third Spring element before bottoming out. This value doesn’t represent any loading in the suspension, only the Third Damper’s position.
+
+      #### PUSHROD LENGTH OFFSET
+
+      The rear Pushrods can be lengthened or shortened to change ride height without affecting the preload on the front spring components. Before using this adjustment, ensure both corner springs and the rear Third spring are set to the desired value, then adjust the rear ride height with the pushrod length. Longer pushrods will raise the rear ride height, shorter pushrods will reduce rear ride height.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size influences the stiffness of the front suspension in roll, such as when navigating a corner. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+
+      #### ARB ARM LENGTH
+
+      The ARB Arm Length option changes how long the ARB assembly arms are. Longer arms result in a softer ARB assembly and less stiffness in roll, inducing understeer. Shorter arms stiffen the front suspension in roll, inducing oversteer.
+
+  - id: differential
+    level: 3
+    titleZh: "差速器"
+    titleEn: "DIFFERENTIAL"
+    bodyZh: |+
+      ![差速器设置](./assets/super-formula-lights/differential.png)
+
+      #### 坡道角
+
+      坡道角是一种通过不同配置调校差速器在减速和加速时锁止程度的方式。坡道角数值分为“滑行”（减速）和“动力”（加速）两侧。角度数值越低，对应情形下的锁止力越大；角度数值越高，锁止力越小。对于“滑行”调整，锁止力越大（坡道角越小）会增加转向不足，锁止力越小（角度越大）会增加转向过度。在“动力”一侧，锁止力越大会在加油时增加转向过度，锁止力越小则会增加转向不足。由于这些调整彼此相对独立、可以分别选择，因此在使用预载和摩擦片数量完成整个弯角的调校后，这是一种微调入弯和出弯表现的绝佳方式。
+
+      #### 离合器摩擦片数量
+
+      差速器离合器摩擦片是一种大幅增加差速器锁止力的方式，用于使两根后轴保持同步。与单组摩擦片相比，所用摩擦片数量会将锁止力按片数成倍放大。例如，4 片摩擦片的锁止力是单片摩擦片的 4 倍，12 片则是单片的 12 倍，以此类推。锁止力越大（摩擦片越多），在入弯减速、松开油门时出现的转向不足越多，但在加油出弯时的转向过度也会增加。摩擦片越少，入弯减速时的转向过度越多，但加油时的转向不足也会增加。
+
+      #### 预载
+
+      差速器预载是一种始终存在于差速器中的静态锁止力，与加速或减速无关。增大预载会在制动时增加转向不足，但在加油时增加转向过度；减小预载则会在制动时增加转向过度，但在加油时增加转向不足。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/differential.png)
+
+      #### RAMP ANGLES
+
+      The Ramp Angles are a way to tune the differential locking on deceleration and acceleration with various configurations. The Ramp Angle values are split between “coast”, or deceleration, and “power”, or acceleration. Lower angle values will have more locking force for the situation that it is associated with, while higher angle values will have less locking force. For the “coast” adjustment, more locking force (lower ramp angles) will increase understeer while less locking force (higher angles) will increase oversteer. On the “power” side, more locking force will add oversteer on throttle and less locking force will increase understeer. Since these adjustments are somewhat independent of one another and can be chosen independently, this is a great way to fine-tune corner entry and exit once the whole corner has been tuned with the Preload and Friction Faces number.
+
+      #### CLUTCH FRICTION FACES
+
+      The differential Clutch Friction Faces are a way to greatly increase the forces from the differential that attempt to keep the two rear axles locked in sync. The number of clutch faces used will multiply the locking force by the number of faces in use when compared to a single set of friction faces. For example, 4 friction faces will have 4 times the locking force of one face, 12 will have 12 times the force of one face, etc. Higher locking forces (more friction faces) will increase the amount of understeer seen when off the throttle under deceleration for corner entry, but will increase oversteer on exit when applying the throttle. Fewer faces will increase oversteer on corner entry while decelerating but add understeer when applying the throttle.
+
+      #### PRELOAD
+
+      Differential Preload is a static amount of locking force that is always present in the differential regardless of acceleration or deceleration. Increasing the preload will add understeer under braking but oversteer on throttle application, while decreasing preload will add oversteer under braking but understeer on throttle application.
+
+  - id: setup-tips
+    level: 2
+    titleZh: "设置技巧"
+    titleEn: "SETUP TIPS"
+    bodyZh: |+
+      ![设置技巧](./assets/super-formula-lights/setup-tips.png)
+
+      如果设置无法通过技术检查，问题很可能出在车高上，需要加以调整。调整方法是在车头或车尾使用 P-rod 长度偏移量：向右单击（正值）会提高车高，向左单击（负值）则会降低车高。在 iRacing 设置文件夹中，您会找到各种设置：
+
+      **Baseline（基准）**是一种 50% 燃油负载、最大下压力配置的设置，旨在为新车手上手提供安全且通用的表现。该设置可在所有可能的燃油负载下通过技术检查，但不提供最大性能。
+
+      **低、中、高下压力**设置均为 50% 燃油负载设置，适用于没有赛道专用设置的情况。
+
+      标注为“_wet”的设置已预先装好雨胎，并包含适合湿地条件的设置调整。
+
+      **赛道专用设置**用于每周的 Super Formula Lights 系列赛。它们已加油，可安全完成固定设置和开放设置系列赛的全程。
+
+      如果您想驾驶未列出的赛道，建议先从高下压力设置开始，再评估其他下压力级别的选项。
+
+      本车配有第三弹簧和垂向弹簧，可让您在不影响侧倾刚度的情况下调整俯仰运动（以及动态车高）。这些弹簧会对俯仰运动产生重大影响。请将它们与前扭杆和后弹簧配合使用，以设定车辆的动态车高。
+
+      在本车上，通常最好将车头尽可能调低，以产生更多下压力。
+
+      #### 空气动力学平衡
+
+      为车辆设定正确空气动力学平衡涉及两部分：一部分是车库中直接影响空气动力学平衡的选项（翼片角度和车库车高），另一部分是影响车辆高速行驶时动态车高（弹簧、扭杆）和瞬态运动（减振器）的选项。这些设置相互作用，共同决定车辆在不同类型弯角中的整体空气动力学平衡。
+
+      请记住，空气动力学平衡在低速弯中仍然起作用——尽管影响较小，但仍会影响您所感受到的表现。
+
+      此外还要考虑，某些影响空气动力学平衡的选项，尤其是影响车辆动态车高的选项，也会影响侧倾行为，进而影响机械平衡。例如，软化前扭杆会让车头在高速时下沉更多。这会增大前后车高差，使空气动力学平衡进一步前移（更易转向过度），同时降低前部的总侧倾阻力，效果如同软化了防倾杆。
+
+      另一方面，第三弹簧和垂向弹簧（及其对应的减振器）只影响车辆的俯仰运动。它们用于在不影响侧倾行为或整体机械平衡的情况下微调动态车高。
+
+      #### 机械平衡
+
+      影响底盘侧倾刚度的选项（防倾杆、弹簧以及瞬态运动中的减振器）和差速器设置共同构成了所感受到的机械平衡。
+
+      在调整侧倾刚度时，请同时注意总侧倾刚度以及前后侧倾刚度之间的平衡。前后刚度之间的平衡会体现为入弯与加油状态之间平衡的变化，而总侧倾刚度则影响车辆转动时的整体响应性和柔顺性。
+
+      #### 齿轮组
+
+      您应努力使用尽可能短的齿轮组，同时避免在最长直道上以 6 挡超转发动机。每个齿轮组都计算有对应的极速，可帮助您进行选择。较短的齿轮会显著改善加速，但极速较低。
+
+      #### 轮胎接地印迹
+
+      最后一块主要拼图是轮胎接地印迹。影响轮胎接地印迹的设置（外倾角和前束）大多独立于其他设置，因此在调校过程的任何阶段都易于微调。不过，如果车辆其他部分的平衡引发了不良行为，这些设置可能难以优化。
+
+      #### 结语
+
+      在对每项设置进行更改时，您很可能会遇到某个阶段，不确定某项更改是在改善车辆平衡还是无益。这通常发生在另一个选项引发了不良行为、并掩盖了您正在调整的选项的细节时。遇到这种情况，请尝试试验另一项设置，看看它是否更有效地优化了车辆平衡。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-lights/setup-tips.png)
+
+      If the setup fails tech inspection, it is likely either the ride heights that will require adjustment. This is performed by using the P-rod Length Offset at either end of the car. Right clicks (positive) will increase the ride height while left clicks (negative) will reduce the ride height. In the iRacing Setups folder you will find a variety of setups:
+
+      **Baseline** is a 50% fuel load setup in maximum downforce configuration intended to be safe and versatile for newcomers to the car. This setup will pass tech inspection at all possible fuel loads but does not offer maximum performance.
+
+      **Low, Medium and High Downforce** setups are 50% fuel load setups intended for use when no track specific setup exists.
+
+      Setups labeled ‘_wet’ have wet tyres pre-fitted and setup adjustments to suit wet conditions.
+
+      **Track specific setups** are intended for use in the weekly Super Formula Lights series. They are fueled to safely make the finish in both the fixed and open series.
+
+      Should you wish to drive at a track not listed it is recommended to start out with the High Downforce setup first before evaluating the other downforce level options.
+
+      This car has third and heave springs, which allow you to adjust pitch motion (and dynamic ride heights) without affecting roll stiffness. These will have a major effect on pitch motion. Use these in conjunction with the front torsion bars and rear springs to set the dynamic ride heights of the car.
+
+      In this car, it’s generally best to run the front of the car as low as possible to generate more downforce.
+
+      #### AERODYNAMIC BALANCE
+
+      There are two parts to setting the correct aerodynamic balance for your car: the options that affect aerodynamic balance directly in the garage (wing angles and garage ride heights) as well as options that affect the car’s dynamic ride heights at speed (springs, torsion bars) and transient motions (dampers). These settings all interact to determine what overall aero balance the car has through different types of corners.
+
+      Keep in mind that aero balance is still in effect in low-speed corners - although its effect is lessened, it will have an impact on what you feel.
+
+      Also, consider that some options that affect aero balance, particularly those that affect the car’s dynamic ride heights, will also have an effect on roll behavior and therefore mechanical balance. For example, softening the front torsion bars will allow the front to sink lower at speed. This increases the difference between front and rear ride heights which pushes aero balance further forward (more oversteer) while also lowering the total roll resistance of the front as if you had softened the anti-roll bar.
+
+      On the other hand, third and heave springs (and their corresponding dampers) only affect pitch motion of the car. These are used to tweak dynamic ride heights without affecting roll behavior or general mechanical balance.
+
+      #### MECHANICAL BALANCE
+
+      Options that affect the chassis roll stiffness (anti-roll bars, springs, and dampers in transient motions) and differential settings play into what is felt as mechanical balance.
+
+      As you are adjusting roll stiffness, be aware of the total roll stiffness as well as the balance between front and rear roll stiffness. The balance between front and rear stiffness can be felt as balance shifts between turn-in and on-throttle behavior, while total roll stiffness affects the car’s overall responsiveness and pliableness while turning.
+
+      #### GEAR STACK
+
+      You should endeavor to use the shortest gear stack that you can without resulting in over revving the engine in 6th gear on the longest straight. There is a top speed calculated for each gear stack to assist you with this selection. Shorter gears will produce significantly better acceleration but have a lower ultimate top speed.
+
+      #### TIRE CONTACT PATCH
+
+      The last main piece of the puzzle is the tire contact patch. Settings that affect the tire contact patch (camber and toe) behave mostly independently of other settings, which makes them easy to tweak at any point along the setup process. However, they can be difficult to optimize if other parts of the car’s balance are inducing undesirable behaviors.
+
+      #### FINAL NOTE
+
+      As you make changes to each setup option, it is likely that you will reach a point where you are unsure if a change is helping the car’s balance or not. That often happens when another option is inducing an undesirable behavior and covering up details of the option you are currently adjusting. When this happens, try experimenting with another setting and see if it is more effective in optimizing the car’s balance.
