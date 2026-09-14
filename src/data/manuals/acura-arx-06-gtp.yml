@@ -136,8 +136,6 @@ sections:
     titleZh: 快速上手
     titleEn: GETTING STARTED
     bodyZh: |+
-      ![快速上手车辆](./assets/acura-arx-06-gtp/getting-started-overview.png)
-
       ![快速上手](./assets/acura-arx-06-gtp/getting-started-car.png)
 
       启动车辆前，建议先为制动力分配和牵引力控制系统映射控制按键。虽然这不是驾驶车辆的必需条件，但这样可以让您在赛道上根据自己的驾驶风格快速调整驾驶辅助系统。
@@ -145,8 +143,6 @@ sections:
       载入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡或降挡均无需踩离合器。不过，如果车辆判断当前行驶速度对于所选挡位过高、会导致发动机损坏，降挡保护就不会允许降挡。在这种情况下，降挡指令会被直接忽略。建议在方向盘上的换挡提示灯全部变红时升挡。
 
     bodyEn: |+
-      ![Image](./assets/acura-arx-06-gtp/getting-started-overview.png)
-
       ![Image](./assets/acura-arx-06-gtp/getting-started-car.png)
 
       Before starting the car, it is recommended to map controls to adjust the Brake Bias and Traction Control systems. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.

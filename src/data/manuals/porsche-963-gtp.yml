@@ -138,16 +138,12 @@ sections:
     bodyZh: |+
       ![快速上手](./assets/porsche-963-gtp/getting-started-view.png)
 
-      ![快速上手控制](./assets/porsche-963-gtp/getting-started-controls.png)
-
       启动车辆前，建议先为制动力分配、牵引力控制和 ABS 调整映射控制按键。虽然驾驶本车并非必须，但这样可以在赛道上根据个人驾驶风格快速调整驾驶辅助系统。
 
       进入车辆后，只需按下“升挡”按钮挂入挡位并踩下油门踏板即可起步。本车采用序列式变速箱，升挡或降挡均不需要踩离合器。不过，如果车辆判断当前车速对于所选挡位过高、降挡会导致发动机损坏，降挡保护将阻止降挡。在这种情况下，降挡指令会被直接忽略。建议在方向盘上的所有换挡灯变为蓝色时升挡。
 
     bodyEn: |+
       ![Image](./assets/porsche-963-gtp/getting-started-view.png)
-
-      ![Image](./assets/porsche-963-gtp/getting-started-controls.png)
 
       Before starting the car, it is recommended to map controls for Brake Bias, Traction Control and ABS adjustments. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
 
