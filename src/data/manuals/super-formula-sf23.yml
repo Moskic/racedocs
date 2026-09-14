@@ -1,0 +1,867 @@
+slug: super-formula-sf23
+published: true
+titleZh: Super Formula SF23 用户手册
+titleEn: Super Formula SF23 User Manual
+contentType: vehicle-manual
+brand: Dallara
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/super-formula-sf23/cover.png
+source:
+  type: official
+  title: iRacing Super Formula SF23 User Manual
+  revision: V4
+  notice: Complete English transcription imported from the user-provided official V4 PDF, with obvious extraction and typographical errors corrected against the original page layout.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/super-formula-sf23/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Super Formula SF23！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      Dallara SF23 于 2023 年 Super Formula 赛季首次亮相，是这家意大利制造商为日本顶级方程式赛车系列开发的第三款开放轮式赛车。从外观上看，SF23 在前代车型的基础上引入了全新的空气动力学设计，旨在创造更多超车机会。在可持续发展方面，新设计采用新型天然材料，使原材料和制造环节的二氧化碳排放量减少 75%；车辆使用的 Yokohama 轮胎也显著增加了可再生原材料的比例，同时保持了上一代轮胎的性能。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Super Formula SF23 赛车](./assets/super-formula-sf23/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Super Formula SF23! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      Debuting in the 2023 Super Formula season, the Dallara SF23 is the third open-wheel car developed by the Italian manufacturer for Japan’s premier open-wheel racing series. From a visual standpoint, the SF23 evolves from its predecessor by introducing new aerodynamics designed to produce more overtaking. From a sustainability one, the new design reduces carbon dioxide emissions in raw materials and manufacturing by 75% thanks to new, natural materials, while even the Yokohama tires used on the car use significantly more renewable raw materials while maintaining the performance of previous tires.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/super-formula-sf23/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: 技术规格
+    titleEn: TECH SPECS
+
+  - id: chassis-specifications
+    level: 3
+    titleZh: 底盘
+    titleEn: CHASSIS
+    bodyZh: |+
+      ![底盘规格](./assets/super-formula-sf23/chassis-specifications.png)
+
+      推杆驱动内置弹簧的双叉臂悬架
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 5233 mm / 206 in |
+      | 车宽 | 1910 mm / 75 in |
+      | 轴距 | 3115 mm / 123 in |
+      | 干重 | 600 kg / 1322 lbs |
+      | 含车手湿重 | 670 kg / 1477 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/chassis-specifications.png)
+
+      DOUBLE WISHBONE WITH PUSHROD-ACTUATED INBOARD SPRINGS
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 5233 mm / 206 in |
+      | Width | 1910 mm / 75 in |
+      | Wheelbase | 3115 mm / 123 in |
+      | Dry Weight | 600 kg / 1322 lbs |
+      | Wet Weight with Driver | 670 kg / 1477 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: 动力单元
+    titleEn: POWER UNIT
+    bodyZh: |+
+      ![动力单元](./assets/super-formula-sf23/power-unit.png)
+
+      涡轮增压直列四缸发动机
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 2.0 Liters / 122.6 CID |
+      | 转速上限 | 9400 RPM |
+      | 扭矩 | 354 lb-ft / 480 Nm |
+      | 功率 | 550 bhp / 408 kW |
+
+      ![Super Formula SF23 车辆侧视图](./assets/super-formula-sf23/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/power-unit.png)
+
+      TURBOCHARGED INLINE 4-CYLINDER
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.0 Liters / 122.6 CID |
+      | RPM Limit | 9400 RPM |
+      | Torque | 354 lb-ft / 480 Nm |
+      | Power | 550 bhp / 408 kW |
+
+      ![Image](./assets/super-formula-sf23/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: 简介
+    titleEn: INTRODUCTION
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校底盘。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: 快速上手
+    titleEn: GETTING STARTED
+    bodyZh: |+
+      ![快速上手](./assets/super-formula-sf23/getting-started.png)
+
+      启动车辆前，建议先为制动力分配调整映射控制按键。虽然这并非必要操作，但可让您在赛道上根据驾驶需求快速调整制动力分配。
+
+      进入车辆后，只需拉动“升挡”拨片挂入挡位，再踩下油门踏板即可起步。本车采用自动化序列式变速箱，升挡和降挡均无须手动操作离合器。
+
+      不过，若降挡保护系统判断当前车速对于所请求的挡位过高，就不会允许降挡；此时降挡指令会被直接忽略。
+
+      建议在仪表台上的换挡提示灯全部亮起时升挡，对应转速约为 9300 RPM。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/getting-started.png)
+
+      Before starting the car, it is recommended to map controls for Brake Bias. While this is not mandatory, this will allow you to make quick changes to the brake bias to suit your driving while out on track.
+
+      Once you load into the car, getting started is as easy as pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal. This car uses an automated sequential transmission and does not require manual clutch operation to shift in either direction.
+
+      However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear requested. If that is the case, the downshift command will simply be ignored.
+
+      Upshifting is recommended when the shift lights on the dashboard are all fully illuminated. This is at approximately 9300 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: 载入 iRacing 设置
+    titleEn: LOADING AN iRACING SETUP
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/super-formula-sf23/loading-iracing-setup.png)
+
+      进入会话时，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如果您希望使用 iRacing 针对各种条件预制的其他设置，可依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人保存的设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: 仪表配置
+    titleEn: DASH CONFIGURATION
+    bodyZh: |+
+      Super Formula SF23 的方向盘集成了数字显示屏，用于在赛道上向车手显示重要的发动机与性能信息。显示屏共有四个页面：
+
+    bodyEn: |+
+      The steering wheel for the Super Formula SF23 cars features an integrated digital display to show the driver important engine and performance information while on track. The display features four display pages:
+
+  - id: engine-page
+    level: 3
+    titleZh: 发动机页面
+    titleEn: ENGINE PAGE
+    bodyZh: |+
+      ![发动机页面](./assets/super-formula-sf23/dash-engine.png)
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | LAP | 已完成圈数（显示值比当前圈数少 1） |
+      | TIME | 上一完成圈的圈速 |
+      | REF | 本次会话最佳圈速 |
+      | DIFF | 当前圈各计时段相对于本次会话最佳圈的累计时间差 |
+      | 挡位指示 | 当前选择的挡位显示在屏幕中央的绿色方框内 |
+      | SPEED | 当前车速；根据车库中选择的单位，以英里/小时或千米/小时显示 |
+      | FUEL | 离开维修区后消耗的燃油量；根据车库中选择的单位，以加仑或升显示 |
+      | CAL POT POSITION | 这些数值以数字形式表示车内可用的不同设置。模拟器中唯一可更改的是橙色数值，代表当前的油门曲线设置 |
+      | ECT | 发动机冷却液温度，单位为 °F 或 °C |
+      | EOP | 发动机机油压力，单位为 psi 或 bar |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/dash-engine.png)
+
+      | Field | Value |
+      | --- | --- |
+      | LAP | Number of laps completed (displays one less than the current lap) |
+      | TIME | Previously completed lap time |
+      | REF | Best lap time of the session |
+      | DIFF | Cumulative splits differential time to the best lap of the current session |
+      | Gear Indicator | The currently-selected gear is shown in the middle of the display in a green box |
+      | SPEED | Current speed in Miles-Per-Hour or Kilometers-Per-Hour depending on the units selected in the garage |
+      | FUEL | The amount of fuel burned since leaving the pits in gallons or liters, depending on the units selected in the garage |
+      | CAL POT POSITION | These values represent the various settings available in the car in numerical form. The only value that can be changed in the sim is the Orange value, which represents the current Throttle Shaping setting |
+      | ECT | Engine Coolant temperature in °F or °C |
+      | EOP | Engine Oil Pressure in psi or bar |
+
+  - id: overtake-page
+    level: 3
+    titleZh: 超车页面
+    titleEn: OVERTAKE PAGE
+    bodyZh: |+
+      ![超车页面](./assets/super-formula-sf23/dash-overtake.png)
+
+      超车页面与发动机页面相同，但 ECT 和 EOP 数值会替换为超车系统信息：
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | OT Left | 系统在本次会话剩余时间内被禁用之前可使用的秒数 |
+      | ReTime | 再次启用超车模式前的剩余时间。若该值不为零，则无法激活系统 |
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/dash-overtake.png)
+
+      The Overtake page is the same as the Engine page, except the ECT and EOP values are replaced with information about the Overtake system:
+
+      | Field | Value |
+      | --- | --- |
+      | OT Left | Amount of time, in seconds, available before the system is disabled for the remainder of the session. |
+      | ReTime | Amount of time remaining until Overtake Mode can be enabled again. If this value is non-zero, the system cannot be activated. |
+
+  - id: tms-page
+    level: 3
+    titleZh: TMS 页面
+    titleEn: TMS PAGE
+    bodyZh: |+
+      ![TMS 页面](./assets/super-formula-sf23/dash-tms.png)
+
+      TMS 页面会在显示屏中央一行显示轮胎压力信息，并以右侧轮胎的压力信息取代仪表右侧的圈速数值。每个数值（TMS FL、TMS FR 等）均以 psi 或 bar 显示当前胎压。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/dash-tms.png)
+
+      The TMS page features Tire Pressure information in the center row of the display, replacing the Lap Time values on the right side of the dash with right-side tire pressure information. Each value (TMS FL, TMS FR, etc.) shows the current tire pressure in psi or Bar.
+
+  - id: tire-temps-page
+    level: 3
+    titleZh: 轮胎温度页面
+    titleEn: TIRE TEMPS PAGE
+    bodyZh: |+
+      ![轮胎温度页面](./assets/super-formula-sf23/dash-tire-temperatures.png)
+
+      轮胎温度页面以 °F 或 °C 显示四条轮胎的内部温度。这些数值是当前内部空气温度，而不是轮胎胎面或表面温度。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/dash-tire-temperatures.png)
+
+      The Tire Temps page shows the internal temperature of all four tires in °F or °C. These values are the current internal air temperature, not the temperature of the tire’s tread or surface.
+
+  - id: left-side-led-status-cluster
+    level: 2
+    titleZh: 左侧 LED 状态灯组
+    titleEn: LEFT-SIDE LED STATUS CLUSTER
+    bodyZh: |+
+      方向盘左侧的三枚 LED 会以不同颜色和闪烁模式向车手传递信息：
+
+    bodyEn: |+
+      A trio of LED lights on the left side of the steering wheel display various colors and patterns to deliver information to the driver:
+
+  - id: brake-temperature-low
+    level: 3
+    titleZh: 制动器温度低
+    titleEn: BRAKE TEMPERATURE LOW
+    bodyZh: |+
+      当制动器温度远低于工作温度时，灯组会点亮一枚绿色 LED，用于表示当前温度低于最佳温度的程度：
+
+      ![制动器温度远低于最佳温度](./assets/super-formula-sf23/brake-temperature-far-below.png)
+
+      底部的一枚绿色 LED 表示制动器温度远低于最佳温度，其表现可能不稳定，或制动效果不及预期。
+
+      ![制动器温度接近最佳温度](./assets/super-formula-sf23/brake-temperature-near-optimum.png)
+
+      顶部的一枚绿色 LED 表示制动器已接近工作温度，但仍略低于能够产生峰值性能的温度。
+
+    bodyEn: |+
+      When the brakes are far below operating temperature the cluster will illuminate one LED in green to show how far below the optimum temperature the brakes are at a given moment:
+
+      ![Image](./assets/super-formula-sf23/brake-temperature-far-below.png)
+
+      A single green LED on the bottom indicates the brakes are far below optimum temperature and may be inconsistent or not as effective as may be expected.
+
+      ![Image](./assets/super-formula-sf23/brake-temperature-near-optimum.png)
+
+      A single green LED on the top indicates the brakes are close to their operating temperature but are slightly cooler than what would produce peak performance.
+
+  - id: overtake-system
+    level: 2
+    titleZh: 超车系统
+    titleEn: OVERTAKE SYSTEM
+    bodyZh: |+
+      Super Formula SF23 配备按需启用的超车系统，可提高最大可用马力。按下“超车”按钮后，燃油流量限制会提高，使发动机功率增加约 5%。该系统可在测试或练习会话中随时启用（无时间限制），在比赛中也可随时启用（有时间限制），但在排位赛中会被禁用。
+
+      在比赛会话中，系统可在任意时刻启用，累计使用时间为 200 秒，但每次启用之间强制间隔 100 或 110 秒（取决于赛道）。系统启用时，仪表页面会显示绿色叠层以表示系统处于工作状态，左侧 LED 灯组也会以绿色闪烁。叠层会显示倒计时，表示系统在比赛中还能启用多少秒，并以进度条直观显示彻底停用前剩余的可用时间。
+
+      ![超车系统已启用](./assets/super-formula-sf23/overtake-active.png)
+
+      系统在一次启用后关闭时，显示屏会返回所选页面，屏幕左侧出现蓝红色进度条，同时左侧 LED 灯组以紫色闪烁，表示系统正在重置、暂时无法启用；显示页面 2 上的“ReTime”数值也会从 100 开始倒计时。当左侧进度条到达屏幕顶部且 ReTime 数值归零时（两者会同时发生），系统即可再次启用，左侧 LED 灯组也会变为蓝色。
+
+      ![超车系统正在重置](./assets/super-formula-sf23/overtake-resetting.png)
+
+      如果比赛期间触发全场黄旗，系统将关闭（若黄旗出现时系统正处于启用状态），ReTime 会重置并显示“100”。在整个黄旗期间系统均不可用，但绿旗恢复比赛后，无论黄旗开始时 ReTime 还剩多少，系统都将立即可用。
+
+      系统启用期间的可用时间接近耗尽时，绿色叠层会变为红色，系统启用时闪烁的左侧 LED 灯组也会变为红色，并以相同模式闪烁。
+
+      系统时间耗尽后，显示屏会返回当前使用的显示页面，发动机功率也会恢复至标准输出。在本次会话剩余时间内，超车显示页面上的“OT Left”和“ReTime”数值均会显示为“0”。
+
+    bodyEn: |+
+      The Super Formula SF23 features an on-demand Overtake system to provide an increase in maximum horsepower available. When the Overtake button is pressed, the fuel flow limit will increase to boost engine power by roughly 5%. This system can be activated at any time during a Test or Practice session (with no time limit), any time during a Race (with a time limit), but is disabled for Qualifying.
+
+      During a Race session the system can be active for a total of 200 seconds, at any time, but forces a 100 or 110-second (depending on track) delay between activations. When the system is active, the dash page will change to a green overlay to indicate the system is active and the left-side LED cluster will flash in green. This overlay will show a timer counting down how many seconds the system can remain active in the race as well as a bar to graphically display how much activation time is left before complete deactivation.
+
+      ![Image](./assets/super-formula-sf23/overtake-active.png)
+
+      When the system is deactivated following an activation, the display will return to the selected page and a blue/red bar will appear on the left side of the screen as well as the left-side LED cluster flashing purple to indicate the system is resetting and cannot be activated as well as the “ReTime” value counting down from 100 on display Page 2. When the bar on the left reaches the top of the screen and the ReTime value reaches zero (this will happen simultaneously), the system is available for activation again and the left-side LED cluster will change to blue.
+
+      ![Image](./assets/super-formula-sf23/overtake-resetting.png)
+
+      If a full course caution period is activated during a race, the system will deactivate (if the system was active at the time of the caution) and ReTime will be reset and show “100”. For the length of the caution period the system will be unavailable, but will be available immediately after green-flag racing resumes regardless of whether there was ReTime remaining at the start of the caution period.
+
+      As the system runs low on available time while it is active the green overlay will change to red and the left-side LED clusters that blink while the system is active will become red and flash in the same pattern.
+
+      Once the system is depleted, the display will return to the active display page and engine power will return to its standard output. The “OT Left” and “ReTime” values on the Overtake display page will both display “0” for the remainder of the session.
+
+  - id: overtake-system-active-over-20-seconds
+    level: 3
+    titleZh: 超车系统已启用（剩余时间超过 20 秒）
+    titleEn: OVERTAKE SYSTEM ACTIVE (OVER 20S REMAINING)
+    bodyZh: |+
+      ![超车系统剩余时间超过 20 秒](./assets/super-formula-sf23/overtake-over-20-seconds.png)
+
+      超车系统启用且剩余时间超过 20 秒时，灯组会以绿色左右交替闪烁。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/overtake-over-20-seconds.png)
+
+      When the Overtake system is activated and the time remaining is over 20 seconds the cluster will alternate left and right in green.
+
+  - id: overtake-system-active-under-20-seconds
+    level: 3
+    titleZh: 超车系统已启用（剩余时间不足 20 秒）
+    titleEn: OVERTAKE SYSTEM ACTIVE (UNDER 20S REMAINING)
+    bodyZh: |+
+      ![超车系统剩余时间不足 20 秒](./assets/super-formula-sf23/overtake-under-20-seconds.png)
+
+      如果超车系统距离停用不足 20 秒，LED 会以与正常工作时相同的模式闪烁，但颜色会变为红色。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/overtake-under-20-seconds.png)
+
+      If the Overtake system has less than 20 seconds remaining before deactivation the LEDs will flash in the same pattern as normal operation but will show in red.
+
+  - id: overtake-system-reset
+    level: 3
+    titleZh: 超车系统重置
+    titleEn: OVERTAKE SYSTEM RESET
+    bodyZh: |+
+      ![超车系统重置](./assets/super-formula-sf23/overtake-system-reset.png)
+
+      超车系统关闭后（但系统仍有剩余可用时间），LED 灯组会以紫色亮起并持续闪烁，直至系统完成重置、可以再次使用超车功能。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/overtake-system-reset.png)
+
+      After the Overtake system has been deactivated (but while there is still time remaining for the system to be used) the LED cluster will be illuminated in purple and flash until the system has reset and Overtake can be used again.
+
+  - id: overtake-system-available
+    level: 3
+    titleZh: 超车系统可用
+    titleEn: OVERTAKE SYSTEM AVAILABLE
+    bodyZh: |+
+      ![超车系统可用](./assets/super-formula-sf23/overtake-system-available.png)
+
+      超车系统关闭后的 ReTime 重置期结束后，LED 会显示为蓝色，表示系统可以再次使用。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/overtake-system-available.png)
+
+      Following the ReTime reset period after the Overtake system is deactivated the LEDs will display in blue to signal the system is available to be used again.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: 高级设置选项
+    titleEn: ADVANCED SETUP OPTIONS
+    bodyZh: |+
+      > 本节面向希望深入了解车辆设置各个方面的高级用户。并非必须调整以下参数，且这些调整可能显著改变车辆的操控方式。建议以小幅增量进行任何调整，并且每次只调整一个变量，随后再测试改动效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: 轮胎与空气动力学
+    titleEn: TIRES & AERO
+
+  - id: tire-data
+    level: 3
+    titleZh: 轮胎数据
+    titleEn: TIRE DATA
+    bodyZh: |+
+      ![轮胎数据](./assets/super-formula-sf23/tire-data.png)
+
+      #### 冷胎压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。
+
+      #### 上次热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。应仔细关注热胎压力，以便在比赛中充分发挥轮胎性能。
+
+      #### 上次温度
+
+      在车库中测量的是胎面橡胶内部的轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位以及轮胎气压。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；不过在分析操控平衡时，不应让轮胎磨损的优先级高于轮胎温度。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/tire-data.png)
+
+      #### COLD PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads will require higher pressures, while lower speeds and loads will see better performance from lower pressures.
+
+      #### LAST HOT PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Careful attention should be paid to the Hot Pressures to extract the most performance out of the tires during a race.
+
+      #### LAST TEMPS
+
+      The temperatures measured in the garage are tire carcass temperatures measured within the tread rubber itself. Wheel Loads and the amount of work a tire is doing on the track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment and tire air pressure while on track.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, but should never be prioritized over tire temperatures when analyzing handling balance.
+
+  - id: front-and-rear-aero
+    level: 3
+    titleZh: 前后空气动力学
+    titleEn: FRONT & REAR AERO
+    bodyZh: |+
+      ![前后空气动力学设置](./assets/super-formula-sf23/front-rear-aero.png)
+
+      #### 襟翼角度
+
+      襟翼角度设置会改变前翼上层襟翼元件相对于水平面的角度。角度越大，前翼产生的下压力越高，空气动力学平衡越向前移动，同时阻力也会增加；角度越小，下压力越低，空气动力学平衡越向后移动，同时阻力也会减小。
+
+      #### 尾翼角度
+
+      尾翼角度设置控制尾翼上层襟翼元件的角度。角度越大，产生的下压力和阻力越高，空气动力学平衡也越向后移动；角度越小，下压力和阻力都会降低，但空气动力学平衡会向前移动。
+
+      #### 格尼襟翼
+
+      可在尾翼上层襟翼的后缘安装格尼襟翼（又称扰流片）。它会显著增加后部下压力，但也会带来阻力代价。共有两种尺寸可选，较大的扰流片会比较小的扰流片产生更多下压力和阻力。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/front-rear-aero.png)
+
+      #### FLAP ANGLE
+
+      The Flap Angle setting changes the angle of the front wing’s upper flap elements relative to horizontal. Higher angles will increase the downforce generated at the front wing, shift aero forward, and increase drag, while lower angles will decrease downforce, shift aero rearward, and reduce drag.
+
+      #### WING ANGLE
+
+      The Rear Wing Angle setting controls the angle of the rear wing’s upper flap element. Higher angles will produce more downforce, more drag, and shift aero rearward, while lower angles will reduce both downforce and drag but shift aero forward.
+
+      #### GURNEY FLAP
+
+      A Gurney Flap, or wicker, can be installed on the trailing edge of the rear wing’s upper flap. This will dramatically increase rear downforce but with a drag penalty. Available in two sizes, the larger wicker will produce more downforce and drag than the smaller wicker.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: 空气动力学计算器
+    titleEn: AERO CALCULATOR
+    bodyZh: |+
+      ![空气动力学计算器](./assets/super-formula-sf23/aero-calculator.png)
+
+      空气动力学计算器用于帮助理解调整尾翼设置以及前后车高时，空气动力学平衡会如何变化。需要特别注意：这里显示的前后车高数值不会对车辆本身产生任何机械变化，但这里对尾翼角度所做的更改会应用到车辆上。此计算器仅供参考。
+
+      #### 高速后车高
+
+      高速车高（RH）设置是空气动力学计算器的输入项，用于估算所选空气动力学套件的性能。更改这些数值会改变计算器中显示的前部下压力数值以及升阻比。要检查赛道上的实际表现，请使用遥测输出中的前车高传感器（Front RH）和后车高传感器（Rear RH）。也可以更改这些数值，在调整车高或弹簧之前观察俯仰角如何影响空气动力学表现。
+
+      #### 前部下压力
+
+      前部下压力数值表示作用于前轴的下压力占总下压力的百分比。该数值根据高速车高数值以及所选空气动力学选项计算得出；在底盘调校过程中应持续监控，以避免出现意外结果。为防止空气动力学变化掩盖底盘调整的效果，在进行空气动力学设置调整前后，务必参照此数值并确保其保持不变。
+
+      #### 升阻比
+
+      升阻比表示每一单位阻力所对应的下压力。一般来说，较高的升阻比意味着车辆工作效率较高，能以给定的阻力产生大量下压力；较低的升阻比通常出现在更顺滑、低阻力的空气动力学套件上。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/aero-calculator.png)
+
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+
+      #### REAR RH AT SPEED
+
+      The Ride Height (RH) at Speed settings are inputs for the aero calculator to determine the approximate aero performance with the chosen aero package. Changing these values changes the displayed Front Downforce value as well as the Downforce-to-Drag ratio in the calculator. To check on-track performance, use the front ride height sensors (Front RH) and rear ride height sensors (Rear RH) found in telemetry output. These can also be changed to observe how rake will affect aerodynamic performance prior to ride height or spring changes.
+
+      #### FRONT DOWNFORCE
+
+      The Front Downforce value represents the percentage of total downforce that is working on the front axle. This value is calculated with the At Speed ride height values, as well as the chosen aerodynamic options, and should be monitored during the chassis setup process to prevent unexpected results. To ensure chassis adjustments don’t become masked by aerodynamic changes, always refer to this value to ensure it remains constant before and after aerodynamic setup changes.
+
+      #### DOWNFORCE TO DRAG
+
+      The Downforce to Drag ratio is a relation of how much downforce is produced for one unit of drag. Generally, a larger Downforce to Drag ratio would imply the car is working efficiently and producing large amounts of downforce for given drag numbers, while a lower Downforce to Drag value is typically seen on more slippery, low-drag aerodynamic packages.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: 底盘
+    titleEn: CHASSIS
+
+  - id: front
+    level: 3
+    titleZh: 前部
+    titleEn: FRONT
+    bodyZh: |+
+      ![前部设置](./assets/super-formula-sf23/front.png)
+
+      #### 防倾杆直径
+
+      前防倾杆（ARB）有 15 mm（5/8”）、18 mm（11/16”）或 30 mm（1 3/16”）三种直径可选，中心均有直径 3 mm（1/8”）的中空孔。较大的直径会提高前悬架的侧倾刚度，减少机械抓地力并引发转向不足，但会尽力使底盘在过弯时保持更平。较小的直径会降低侧倾刚度，增加前轴机械抓地力并减少转向不足，但会允许底盘产生更多侧倾。
+
+      #### 防倾杆位置
+
+      防倾杆位置会改变防倾杆摆臂的朝向。数值越高，防倾杆总成越硬，前部侧倾刚度越大；数值越低，防倾杆总成越软，侧倾刚度越小。其效果与改变防倾杆直径相同：较高的侧倾刚度会引发转向不足，较低的侧倾刚度则会减少转向不足。
+
+      #### 垂向弹簧刚度
+
+      垂向弹簧是一种悬架元件，用于在底盘沿纯垂直方向运动时承载负荷，不会承受车身侧倾产生的负荷。前垂向弹簧会影响车辆在制动时以及经过颠簸时的操控平衡，但主要用于控制随车速升高而增大的空气动力学负荷。垂向弹簧越硬，悬架的垂直行程越硬，空气动力学平台越稳定，但在颠簸路面上可能降低机械抓地力。垂向弹簧越软，机械抓地力越大，但可能因运动幅度过大而难以保持空气动力学表现的一致性。
+
+      #### 垂向弹簧间隙
+
+      垂向弹簧间隙是垂向弹簧总成开始承载任何负荷前所需的压缩量。该数值可以直接设置，但也会随其他能够改变车高、进而改变悬架静态形变量的底盘设置而变化。正值表示车辆静止时垂向弹簧未承载，需要悬架先压缩才会加载；负值则表示垂向弹簧在静态条件下已预载。数值越低，弹簧会在悬架行程中越早介入；数值越高，介入越晚。
+
+      #### 制动压力分配
+
+      制动压力分配设置决定总制动管路压力中有多少被送往前轮。百分比越高，施加在前轮的制动力越大，可能在制动时引发转向不足；降低百分比会使制动力后移，并在制动时引发转向过度。如果分配设置过于靠前或靠后，重刹时可能导致车轮抱死，因此应将其设置为能够在前后轴上重刹而不抱死的数值。
+
+      #### 显示页面
+
+      设置车辆启动时方向盘显示屏的默认页面。该设置不影响车辆性能。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/front.png)
+
+      #### ARB DIAMETER
+
+      The front Anti-Roll Bar (ARB) is available in a 15mm (5/8”), 18mm (11/16”), or a 30mm (1 3/16”) diameter with a 3mm (1/8”) hollow bore through the center. Larger diameter options will stiffen the front suspension in roll, reducing mechanical grip and inducing understeer, but will try to keep the chassis flatter when cornering. The smaller diameter options will reduce roll stiffness, increasing mechanical grip across the front axle and reducing understeer, but will allow the chassis to roll more.
+
+      #### ARB POSITION
+
+      The ARB position changes the orientation of the ARB’s arms. Higher numbers will stiffen the ARB assembly and increase front roll stiffness, lower numbers will soften the ARB assembly and decrease roll stiffness. This results in the same effects from ARB diameter changes, with higher roll stiffness inducing understeer and lower roll stiffness reducing understeer.
+
+      #### HEAVE SPRING RATE
+
+      The Heave Spring is a suspension element that handles loads when the chassis moves in a purely vertical direction and does not experience loads generated from chassis roll. The front Heave Spring will influence the chassis’ handling balance during braking and over bumps, but is primarily intended to control increasing aerodynamic loads with higher speeds. Stiffer Heave Spring rates will stiffen the suspension in vertical travel and result in a more consistent aerodynamic platform but can reduce mechanical grip over rough surfaces. Softer Heave Springs will increase mechanical grip but could allow too much movement to keep the aerodynamic behavior consistent.
+
+      #### HEAVE SPRING GAP
+
+      The Heave Spring Gap is the amount of compression required in the Heave Spring Assembly before the Heave Spring begins carrying any load. This can be set directly but will also change as a result of other chassis settings that can alter ride height, and thus the suspension’s static deflection. Positive values signify the Heave Spring is unloaded when the car is stationary and requires suspension compression before loading, while negative values indicate a preloaded Heave Spring in static conditions. Lower values will engage the spring sooner through suspension travel, higher values will delay the spring’s engagement.
+
+      #### BRAKE PRESSURE BIAS
+
+      The Brake Pressure Bias setting determines how much of the overall brake line pressure is sent to the front wheels. Higher percentages apply more braking pressure to the front wheels, which can induce understeer under braking, while reducing the percentage will shift braking force rearward and induce oversteer under braking. If the bias is set too far forward or rearward it can cause wheel lockups under heavy braking, so it should be set to a value that allows for heavy braking without lockups on either axle.
+
+      #### DISPLAY PAGE
+
+      This sets the default page on the steering wheel’s display when the car is started. This has no effect on car performance.
+
+  - id: front-corners
+    level: 3
+    titleZh: 前轮
+    titleEn: FRONT CORNERS
+    bodyZh: |+
+      ![前轮设置](./assets/super-formula-sf23/front-corners.png)
+
+      #### 单轮载荷
+
+      单轮载荷表示车辆在车库中静止时各车轮所承受的重量。可用于直观了解静态条件下的重量分布，并帮助在调校过程中识别重量分布的变化。
+
+      #### 车高
+
+      前车高是从地面到车辆中心线上某个底盘参考点的距离。由于该数值未必代表底盘的最低点，因此不能具体代表底盘的离地间隙，而是作为调校和空气动力学工作的参考。前车高应设置得较低，以兼顾空气动力学和机械抓地力，但也要足够高，避免底盘在一圈中与赛道发生明显接触。提高或降低前车高会影响空气动力学平衡、整体下压力水平和阻力，因此更改该数值时请查阅空气动力学计算器，以了解车高变化对操控的影响。
+
+      #### 推杆长度
+
+      为调整车高，可使用螺旋扣式调节器改变推杆的有效长度。较长的推杆会提高车辆前部，较短的推杆会降低车辆前部，两侧前推杆会对称调整。
+
+      #### 扭杆
+
+      扭杆设置会改变前悬架扭杆的外径；扭杆在悬架中用作弹簧元件。弹簧用于在赛道负荷下防止底盘接触赛道，并控制底盘的空气动力学姿态，但其刚度也会显著影响车辆的操控特性。在前部，较硬的弹簧可在空气动力学负荷增加时防止前翼移动过多，但会降低机械抓地力，并可能在慢速弯中引发转向不足。较软的弹簧会使前部产生更多运动，可能不利于空气动力学表现，但会增加前轴机械抓地力并减少转向不足（极端情况下可能引发转向过度）。直径越大越硬，直径越小越软。
+
+      #### 压缩阻尼
+
+      前部压缩阻尼影响减振器在活塞速度相对较低时抵抗压缩（长度缩短）的能力，这通常来自车手操作以及不断增加的空气动力学负荷所造成的底盘运动。数值越高，在这些低速条件下的压缩阻力越大；数值越低，减振器越柔顺。从机械抓地力角度看，增加前部低速压缩阻尼会在制动时产生转向不足；降低前部压缩阻尼则会减少制动和入弯时的转向不足。从空气动力学角度看，增加低速压缩阻尼会减缓制动时底盘的垂直运动，从而使空气动力学平台更加稳定。
+
+      #### 回弹阻尼
+
+      回弹阻尼控制减振器在较低活塞速度下伸张时的阻力，这通常由车手操作和不断变化的空气动力学负荷引起。较高的回弹数值会抵抗减振器伸张，较低的数值则允许减振器更快伸张。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸张以保持与赛道良好接触时，可能导致车轮卸载。就操控调校而言，较高的前部低速回弹阻尼会增加加油时的机械性转向不足；较低的数值则能让前轮更久地保持抓地力，有助于减少转向不足。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。增大负外倾角的绝对值可提高沿轮胎外倾方向产生的过弯力（使入弯响应更灵敏），但外倾角过大时可能降低制动能力。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为前束，车轮前缘比后缘更远离中心线则称为后束。在前轴，前束会改变轮胎响应转向输入的速度，并影响车辆的直线稳定性。后束设置（车库中的负值）会提高入弯响应，但降低直线稳定性；前束设置（正值）会提高直线稳定性，但使初始转向响应更加迟缓。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      Corner Weight represents the weight on each wheel when sitting in the garage. This can be used to visualize the weight distribution under static conditions and help with identifying changes to weight distribution through the setup process.
+
+      #### RIDE HEIGHT
+
+      Front Ride Height is a measurement from the ground to a reference point on the chassis along the centerline of the car. Since this value doesn’t necessarily represent the lowest point on the chassis it does not specifically represent the chassis’ ground clearance, but is instead a reference for setup and aero work. It is important to have the front ride height low for both aero and mechanical grip, but high enough that the chassis doesn’t make significant contact with the race track over the course of a lap. Raising and lowering the front ride height will affect aerodynamic balance, overall downforce levels, and drag, so consult the Aero Calculator to see how a ride height change will influence handling when changing this value.
+
+      #### PUSHROD LENGTH
+
+      To adjust the Ride Height, a turnbuckle style adjuster is available to change the effective length of the pushrods. Longer pushrods will raise the front of the car and shorter pushrods will lower the front of the car, with both front pushrods being adjusted symmetrically.
+
+      #### TORSION BAR
+
+      The Torsion Bar setting changes the outer diameter of the front suspension torsion bars, which are used as spring elements. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front wing from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Larger diameters will be stiffer, smaller diameters will be softer.
+
+      #### BUMP STIFFNESS
+
+      Front Bump Stiffness affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low shock piston speeds, usually in chassis movements as a result of driver input and building aerodynamic forces. Higher values will increase compression resistance under these low-speed conditions, lower values will result in a more compliant shock. From a mechanical grip standpoint, more front low-speed compression will produce understeer under braking. Reducing front Bump Stiffness will reduce understeer at braking and turn-in. For aerodynamics, more low-speed compression will slow vertical chassis movement under braking, which can result in a more stable aerodynamic platform.
+
+      #### REBOUND STIFFNESS
+
+      Rebound Stiffness controls how resistant the shock is when extending at lower shock piston speeds, typically due to driver inputs and changing aerodynamic loads. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheels being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low-speed rebound can increase on-throttle mechanical understeer while lower values will maintain front end grip longer, helping to reduce understeer.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Higher negative camber values will provide more cornering forces in the direction of the tire’s camber (more aggressive turn-in response), but may reduce braking capability at high camber angles.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+  - id: rear-corners
+    level: 3
+    titleZh: 后轮
+    titleEn: REAR CORNERS
+    bodyZh: |+
+      ![后轮设置](./assets/super-formula-sf23/rear-corners.png)
+
+      #### 单轮载荷
+
+      单轮载荷表示车辆在车库中静止时各车轮所承受的重量。可用于直观了解静态条件下的重量分布，并帮助在调校过程中识别重量分布的变化。
+
+      #### 车高
+
+      后车高是从地面到车辆中心线上某个底盘参考点的距离。由于该数值未必代表底盘的最低点，因此不能具体代表底盘的离地间隙，而是作为调校和空气动力学工作的参考。应将后车高设置为适合特定赛道、能够兼顾空气动力学和机械抓地力的数值。提高或降低后车高会影响空气动力学平衡、整体下压力水平和阻力，因此更改该数值时请查阅空气动力学计算器，以了解车高变化对操控的影响。
+
+      #### 推杆长度
+
+      为调整车高，可使用螺旋扣式调节器改变推杆的有效长度。较长的推杆会提高车辆后部，较短的推杆会降低车辆后部，两侧后推杆会对称调整。
+
+      #### 弹簧刚度
+
+      弹簧刚度是控制各车轮的悬架角弹簧的软硬程度，其数值表示将弹簧压缩特定距离（英寸或毫米）所需的力（磅或牛顿）。弹簧用于在赛道负荷下防止底盘接触赛道，并控制底盘的空气动力学姿态，但其刚度也会显著影响车辆的操控特性。在后部，较硬的弹簧可在空气动力学负荷增加时防止车尾移动过多，但会降低机械抓地力，并可能在慢速弯中引发转向过度。较软的弹簧会使车尾产生更多运动，可能不利于空气动力学表现，但会增加后轴机械抓地力并减少转向过度（极端情况下可能引发转向不足）。
+
+      #### 压缩阻尼
+
+      后部压缩阻尼影响减振器在活塞速度相对较低时抵抗压缩（长度缩短）的能力，这通常来自车手操作以及不断增加的空气动力学负荷所造成的底盘运动。数值越高，在这些低速条件下的压缩阻力越大；数值越低，减振器越柔顺。从机械抓地力角度看，增加后部低速压缩阻尼会在加油时产生转向不足；降低后部压缩阻尼则会减少加油时的转向不足。从空气动力学角度看，增加低速压缩阻尼会减缓加油时以及空气动力学负荷增加时底盘的垂直运动，从而使空气动力学平台更加稳定。
+
+      #### 回弹阻尼
+
+      回弹阻尼控制减振器在较低活塞速度下伸张时的阻力，这通常由车手操作和不断变化的空气动力学负荷引起。较高的回弹数值会抵抗减振器伸张，较低的数值则允许减振器更快伸张。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸张以保持与赛道良好接触时，可能导致车轮卸载。就操控调校而言，较高的后部低速回弹阻尼会增加制动时的机械性转向不足，较低的数值则可能在制动时引发转向过度。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。增大负外倾角的绝对值可提高沿轮胎外倾方向产生的过弯力（提升高速过弯稳定性），但外倾角过大时可能降低加油时的牵引力。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。负前束会使轮胎前缘比后缘更远离中心线，正前束则会使轮胎前缘比后缘更靠近中心线。该设置会改变后轮滑移角：前束可提高直线稳定性，但会降低车辆入弯时的旋转倾向。较低的前束数值（向后束方向调整）可带来更快的转向响应，但可能使转向感不稳定。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/rear-corners.png)
+
+      #### CORNER WEIGHT
+
+      Corner Weight represents the weight on each wheel when sitting in the garage. This can be used to visualize the weight distribution under static conditions and help with identifying changes to weight distribution through the setup process.
+
+      #### RIDE HEIGHT
+
+      Rear Ride Height is a measurement from the ground to a reference point on the chassis along the centerline of the car. Since this value doesn’t necessarily represent the lowest point on the chassis it does not specifically represent the chassis’ ground clearance, but is instead a reference for setup and aero work. It is important to have the rear ride height set to optimize both aero and mechanical grip for a given track. Raising and lowering the rear ride height will affect aerodynamic balance, overall downforce levels, and drag, so consult the Aero Calculator to see how a ride height change will influence handling when changing this value.
+
+      #### PUSHROD LENGTH
+
+      To adjust the Ride Height, a turnbuckle style adjuster is available to change the effective length of the pushrods. Longer pushrods will raise the rear of the car and shorter pushrods will lower the rear of the car, with both rear pushrods being adjusted symmetrically.
+
+      #### SPRING RATE
+
+      Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance (inches or millimeters). Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the rear end, stiffer springs can keep the rear of the car from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause oversteer in slower corners. Softer springs will result in more rear end movement, which can hurt aero, but will increase mechanical grip across the rear axle and reduce oversteer (or cause understeer, in extreme cases).
+
+      #### BUMP STIFFNESS
+
+      Rear Bump Stiffness affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low shock piston speeds, usually in chassis movements as a result of driver input and building aerodynamic forces. Higher values will increase compression resistance under these low-speed conditions, lower values will result in a more compliant shock. From a mechanical grip standpoint, more rear low-speed compression will produce understeer on throttle application. Reducing rear Bump Stiffness will reduce understeer on throttle. For aerodynamics, more low-speed compression will slow vertical chassis movement under throttle and increasing aerodynamic loads which can result in a more stable aerodynamic platform.
+
+      #### REBOUND STIFFNESS
+
+      Rebound Stiffness controls how resistant the shock is when extending at lower shock piston speeds, typically due to driver inputs and changing aerodynamic loads. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheels being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher rear low-speed rebound can increase mechanical understeer under braking while lower values can induce oversteer under braking.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Higher negative camber values will provide more cornering forces in the direction of the tire’s camber (more stability in high-speed cornering), but may reduce on-throttle traction at high camber angles.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheels relative to the chassis centerline when viewed from above. Negative toe-in sets the front of the tires farther from the centerline than the rear of the tires while positive toe-in sets the front of the tires closer to the centerline than the rear of the tires. This setting can change the rear tire slip angle, with toe-in providing more straight-line stability but reducing the car’s tendency to rotate into a corner. Lower toe-in values (moving towards toe-out) can provide a quicker steering response, but may produce an unstable steering feeling.
+
+  - id: rear
+    level: 3
+    titleZh: 后部
+    titleEn: REAR
+    bodyZh: |+
+      ![后部设置](./assets/super-formula-sf23/rear.png)
+
+      #### 燃油量
+
+      显示车辆载入模拟器时油箱中的燃油量。
+
+      #### 防倾杆直径
+
+      后防倾杆（ARB）有 15 mm（5/8”）和 17 mm（11/16”）两种直径可选。较大的直径会提高后悬架的侧倾刚度，减少机械抓地力并引发转向过度，但会尽力使底盘在过弯时保持更平。较小的直径会降低侧倾刚度，增加后轴机械抓地力并减少转向过度，但会允许底盘产生更多侧倾。
+
+      #### 第三弹簧刚度
+
+      第三弹簧刚度控制一种仅在垂向（悬架垂直行程）工作时起作用的弹簧元件的刚度，可用于防止车辆在较大的空气动力学负荷或赛道形状（例如凹陷或弯道倾角）产生的垂直力作用下下沉过多。以这种方式使用第三弹簧，可以使用更软的角弹簧（因为它们无须承担全部空气动力学负荷），从而提高过弯时的后部机械抓地力。较硬的第三弹簧比柔软的第三弹簧更能抵抗垂直行程，产生更稳定的空气动力学姿态，但在低速、空气动力学负荷较小时可能降低后部机械抓地力。
+
+      #### 第三弹簧间隙
+
+      第三弹簧间隙是后第三弹簧总成开始承载任何负荷前所需的压缩量。该数值可以直接设置，但也会随其他能够改变车高、进而改变悬架静态形变量的底盘设置而变化。正值表示车辆静止时第三弹簧未承载，需要悬架先压缩才会加载；负值则表示第三弹簧在静态条件下已预载。数值越低，弹簧会在悬架行程中越早介入；数值越高，介入越晚。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/rear.png)
+
+      #### FUEL LEVEL
+
+      This shows how much fuel will be in the fuel tank when the car is loaded in the sim.
+
+      #### ARB DIAMETER
+
+      The rear Anti-Roll Bar (ARB) is available in 15mm (5/8”) and 17mm (11/16”) diameters. Larger diameter options will stiffen the rear suspension in roll, reducing mechanical grip and inducing oversteer, but will try to keep the chassis flatter when cornering. The smaller diameter options will reduce roll stiffness, increasing mechanical grip across the rear axle and reducing oversteer, but will allow the chassis to roll more.
+
+      #### 3RD SPRING RATE
+
+      The 3rd Spring Rate controls the stiffness of a spring element that works only in heave (vertical suspension travel) and can be set to prevent the car from dropping too far under heavy aerodynamic loads or vertical forces from track shape, such as dips or turn banking. Using the 3rd Spring in this way allows for softer corner springs to be used (since they won’t have to carry the full aerodynamic loads), increasing rear mechanical grip while cornering. Stiffer 3rd Spring Rates will resist vertical travel more than softer 3rd Spring Rates, producing a more consistent aerodynamic attitude but potentially reducing rear mechanical grip when aerodynamic loads are low.
+
+      #### 3RD SPRING GAP
+
+      The 3rd Spring Gap is the amount of compression required in the rear 3rd Spring Assembly before the spring begins carrying any load. This can be set directly but will also change as a result of other chassis settings that can alter ride height, and thus the suspension’s static deflection. Positive values signify the 3rd Spring is unloaded when the car is stationary and requires suspension compression before loading, while negative values indicate a preloaded 3rd Spring in static conditions. Lower values will engage the spring sooner through suspension travel, higher values will delay the spring’s engagement.
+
+  - id: drivetrain
+    level: 2
+    titleZh: 传动系统
+    titleEn: DRIVETRAIN
+
+  - id: differential
+    level: 3
+    titleZh: 差速器
+    titleEn: DIFFERENTIAL
+    bodyZh: |+
+      ![差速器设置](./assets/super-formula-sf23/differential.png)
+
+      #### 离合片
+
+      差速器离合片能够大幅增加差速器试图将两根后半轴锁定为同步转动的作用力。与使用一组离合片相比，离合片的数量会按所用片数倍增锁止力。例如，4 片离合片的锁止力是单片的 4 倍，12 片则是单片的 12 倍，依此类推。较高的锁止力（更多离合片）会在减速、松开油门入弯时增加转向不足，但在出弯加油时增加转向过度。较少的离合片会在减速入弯时增加转向过度，但在加油时增加转向不足。
+
+      #### 预载
+
+      差速器预载是一种始终存在的静态锁止力，不受车辆加速或减速影响。增加预载会在制动时增加转向不足、在加油时增加转向过度；降低预载则会在制动时增加转向过度、在加油时增加转向不足。
+
+      #### 驱动角
+
+      驱动角会改变加速时差速器用于锁定半轴的作用力。角度越大，产生的作用力越小，会在出弯初始加油时引发转向过度；角度越小，产生的作用力越大，并在这种情况下引发转向不足。
+
+      #### 滑行角
+
+      滑行角会改变减速时差速器用于锁定半轴的作用力。角度越大，产生的作用力越小，会在制动时引发转向过度；角度越小，产生的作用力越大，并在这种情况下引发转向不足。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/differential.png)
+
+      #### CLUTCH PLATES
+
+      The differential Clutch Plates are a way to greatly increase the forces from the differential that attempt to keep the two rear axles locked in sync. The number of clutch plates used will multiply the locking force by the number of plates in use when compared to a single set of clutch plates. For example, 4 clutch plates will have 4 times the locking force of one plate, 12 will have 12 times the force of one plate, etc. Higher locking forces (more plates) will increase the amount of understeer seen when off the throttle under deceleration for corner entry, but will increase oversteer on exit when applying the throttle. Fewer plates will increase oversteer on corner entry while decelerating but add understeer when applying the throttle.
+
+      #### PRELOAD
+
+      Differential Preload is a static amount of locking force that is always present in the differential regardless of acceleration or deceleration. Increasing the preload will add understeer under braking but oversteer on throttle application, while decreasing preload will add oversteer under braking but understeer on throttle application.
+
+      #### DRIVE ANGLE
+
+      The Drive Angle alters how much force is applied in the differential to lock the axles together during acceleration. Higher angles will produce less force, inducing oversteer on initial throttle application out of a corner, while lower angles will produce more force and induce understeer in these situations.
+
+      #### COAST ANGLE
+
+      The Coast Angle alters how much force is applied in the differential to lock the axles together during deceleration. Higher angles will produce less force, inducing oversteer under braking, while lower angles will produce more force and induce understeer in these situations.
+
+  - id: engine-in-car-dials
+    level: 3
+    titleZh: 发动机车内旋钮
+    titleEn: ENGINE IN-CAR DIALS
+    bodyZh: |+
+      ![发动机车内旋钮](./assets/super-formula-sf23/engine-in-car-dials.png)
+
+      #### 油门曲线
+
+      油门曲线选项控制发动机扭矩如何随油门踏板行程输出。较低的设置会模拟“蝶阀式”油门：踏板开度较小时输出的扭矩较少，中段扭矩快速增加，随后在较高开度时增幅放缓。较高的设置则更加线性，每增加一定踏板行程，扭矩都会以较一致的幅度增加。该设置可通过车内的“TPS”设置进行更改。
+
+      #### 起步控制转速
+
+      起步控制系统准备就绪时，起步控制转速设置（车内的“Start Limit”设置）会改变车辆静止且油门全开时的最高转速。对于抓地力较低的赛道表面，可利用此设置帮助减少比赛起步时的车轮空转。起步控制按钮映射可在“选项 &gt; 控制”菜单的“牵引力控制”类别下找到。
+
+    bodyEn: |+
+      ![Image](./assets/super-formula-sf23/engine-in-car-dials.png)
+
+      #### THROTTLE SHAPING
+
+      The Throttle Shaping option controls how torque is delivered from the engine through throttle pedal travel. Low settings will emulate a “butterfly”-style throttle with less torque given at lower throttle positions, a high increase in the middle portion of the throttle pedal’s travel, and then a slower build at the higher percentage. The higher values will be more linear, with a consistent increase in torque for each amount of pedal travel. This setting can be changed in the car through the “TPS” setting.
+
+      #### LAUNCH CONTROL RPM
+
+      When the Launch Control system is armed, the Launch Control RPM setting (“Start Limit” in-car setting) will change the maximum RPM at full-throttle while the car is stationary. This can be set to help reduce wheelspin at the race start for low-grip track surfaces. Launch Control button mappings are available in the Options &gt; Control menu listed under Traction Control.

@@ -1,0 +1,777 @@
+slug: mercedes-amg-f1-w12-e-performance
+published: true
+titleZh: Mercedes-AMG F1 W12 E Performance 用户手册
+titleEn: Mercedes-AMG F1 W12 E Performance User Manual
+contentType: vehicle-manual
+brand: Mercedes-AMG
+vehicleClass: Formula
+platform: iRacing
+discipline: formula-car
+cover: ./assets/mercedes-amg-f1-w12-e-performance/cover.png
+source:
+  type: official
+  title: iRacing Mercedes-AMG F1 W12 E Performance User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided official V2 PDF, with obvious extraction and typographical errors corrected against the original page layout.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/mercedes-amg-f1-w12-e-performance/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Mercedes-AMG F1 W12 E Performance！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      Mercedes-AMG Petronas Formula One Team 在过去十年的大部分时间里都是世界上最具统治力的车队。在 Lewis Hamilton、Nico Rosberg、Valtteri Bottas 和 George Russell 的共同努力下，车队于 2014 至 2020 年连续七次赢得世界车手冠军和世界车队冠军。2021 赛季是竞赛规则大幅改革前的最后一个赛季，车队推出 F1 W12 E Performance，作为王座的新一代继承者。这款赛车搭载可输出超过 1,000 马力的 1.6 升 V6 混合动力系统，是统治级 W11 的进化版本；W11 在前一年仅有四场比赛未能取胜。W12 在巴林首秀便由 Hamilton 驾驶夺冠，并在前四场比赛中赢下三场；随后又帮助 Hamilton 在一场末段降雨、精彩纷呈的俄罗斯大奖赛中取得职业生涯第 100 场大奖赛胜利。
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Mercedes-AMG F1 W12 E Performance 赛车](./assets/mercedes-amg-f1-w12-e-performance/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/welcome-hero.png)
+
+      #### DEAR IRACING USER,
+
+      Congratulations on your purchase of the Mercedes-AMG F1 W12 E Performance! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The Mercedes-AMG Petronas Formula One Team has been the most dominant race team in the world over much of the past decade, winning seven World Driver’s and World Constructor’s Championships in a row from 2014-2020 thanks to the combined efforts of Lewis Hamilton, Nico Rosberg, Valtteri Bottas, and George Russell. For the 2021 season, the last before sweeping revisions to the competition formula, the team introduced the F1 W12 E Performance as its next heir to the throne. Powered by a 1.6-liter V6 hybrid capable of producing over 1,000 horsepower, the car was an evolution of the dominant W11 that had won all but four races the previous year. The W12 won with Hamilton on its debut in Bahrain and took victories in three of its first four starts, while also leading Hamilton to his milestone 100th career Grand Prix victory in a compelling Russian Grand Prix that saw rain fall in the race’s closing laps.
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: 技术规格
+    titleEn: TECH SPECS
+
+  - id: chassis-specifications
+    level: 3
+    titleZh: 底盘
+    titleEn: CHASSIS
+    bodyZh: |+
+      ![底盘规格](./assets/mercedes-amg-f1-w12-e-performance/chassis-specifications.png)
+
+      前悬架采用推杆式双叉臂，后悬架采用拉杆式双叉臂
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 5700 mm / 224 in |
+      | 车宽 | 2000 mm / 78.7 in |
+      | 轴距 | 3724 mm / 146.6 in |
+      | 干重 | 833 kg / 1836 lbs |
+      | 含车手湿重 | 943 kg / 2078 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/chassis-specifications.png)
+
+      DOUBLE WISHBONE PUSHROD FRONT, DOUBLE WISHBONE PULLROD REAR
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 5700 mm / 224 in |
+      | Width | 2000 mm / 78.7 in |
+      | Wheelbase | 3724 mm / 146.6 in |
+      | Dry Weight | 833 kg / 1836 lbs |
+      | Wet Weight with Driver | 943 kg / 2078 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: 动力单元
+    titleEn: POWER UNIT
+    bodyZh: |+
+      ![动力单元](./assets/mercedes-amg-f1-w12-e-performance/power-unit.png)
+
+      MERCEDES-AMG M12 1.6 升 V6
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 1.6 Liters / 98 CID |
+      | 转速上限 | 13000 RPM |
+      | 扭矩 | 530 lb-ft / 718 Nm |
+      | 功率 | 1050 bhp / 782 kW |
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/power-unit.png)
+
+      MERCEDES-AMG M12 1.6L V6
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 1.6 Liters / 98 CID |
+      | RPM Limit | 13000 RPM |
+      | Torque | 530 lb-ft / 718 Nm |
+      | Power | 1050 bhp / 782 kW |
+
+  - id: introduction
+    level: 2
+    titleZh: 简介
+    titleEn: INTRODUCTION
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校底盘。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了设置。要载入这些设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用设置，可以选择特性相近赛道的设置作为起点。选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided setups for each track commonly raced by these cars. To access the provided setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated setup is not included, you may select a setup for a similar track to use as your baseline. After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: 快速上手
+    titleEn: GETTING STARTED
+    bodyZh: |+
+      ![快速上手](./assets/mercedes-amg-f1-w12-e-performance/getting-started.png)
+
+      车辆载入后，只需打开点火开关、按下起动机按钮，并等待发动机转速稳定。驶离维修区同样简单：按下“升挡”挂入挡位，在缓慢松开离合器的同时踩下油门踏板。车辆开始行驶后，所有换挡均无须使用离合器，也无须手动收油。只需按下升挡或降挡按钮选择下一挡位，车辆便会自动完成其余操作。建议在方向盘顶部的蓝色指示灯亮起时升挡，对应转速约为 11,500 RPM。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/getting-started.png)
+
+      Once the car is loaded, simply turn on the ignition, press the starter button, and wait for the engine revs to stabilize. Leaving the pits is as simple as pressing “upshift” to put the car in gear, and hitting the accelerator pedal while slowly releasing the clutch. Once the car is in motion, all shifting is clutchless and doesn’t require manual throttle cuts. Simply press the upshift or downshift buttons to select the next gear, and the car will do everything for you. Upshifting is recommended when the blue lights illuminate on the top of the steering wheel, around 11,500 rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: 载入 iRacing 设置
+    titleEn: LOADING AN iRACING SETUP
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/mercedes-amg-f1-w12-e-performance/loading-iracing-setup.png)
+
+      进入会话时，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如果您希望使用 iRacing 针对各种条件预制的其他设置，可依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。要查看所有个人保存的设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs. If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so. If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-pages
+    level: 2
+    titleZh: 仪表页面
+    titleEn: DASH PAGES
+    bodyZh: |+
+      Mercedes-AMG W12 的方向盘内置数字仪表显示屏，共有两个显示页面。这些页面会向车手显示所有相关发动机信息，以及圈速、燃油消耗和轮胎数据。两个页面所显示数值的单位均取决于车库界面中的单位选择。
+
+    bodyEn: |+
+      The Mercedes-AMG W12 features a digital dash display built into the steering wheel with two display pages. These pages show all relevant information about the engine to the driver as well as information about lap times, fuel usage, and tire data. For both pages, the values shown are displayed in units based on the selection in the Garage screen.
+
+  - id: warmup-page
+    level: 3
+    titleZh: 暖胎页面
+    titleEn: WARMUP PAGE
+    bodyZh: |+
+      ![暖胎页面](./assets/mercedes-amg-f1-w12-e-performance/dash-warmup.png)
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | SPEED | 车辆速度 |
+      | 挡位状态指示 | 在测试、练习或排位赛中载入车辆时，传动系统需要学习全部八个前进挡，以优化换挡性能。最初八个挡位均以红色方框表示。当每个挡位被选中且发动机在该挡位达到高转速后，对应方框会变为绿色；全部挡位完成学习后，八个方框都会从屏幕上消失 |
+      | 挡位指示 | 当前选择的挡位显示在屏幕中央 |
+      | 轮胎表面温度 | 轮胎表面温度以显示屏两侧的大号白色数字表示。数值会实时更新，可用于判断轮胎何时达到理想工作温度 |
+      | 轮胎胎体温度 | 胎体温度以蓝色数字显示在轮胎表面温度旁。这些核心温度表示胎面内部的温度，升温和降温速度均慢于表面温度 |
+      | 当前释放模式 | 当前使用的混合动力系统能量释放模式显示在挡位指示正下方 |
+      | BATT | 电池当前电量显示在释放模式下方，以电池当前储存电量的百分比表示 |
+      | DELTA | 在本次会话中记录圈速后出现，表示当前圈相对于本次会话最快圈的时间差 |
+      | TWATER | 发动机冷却液温度显示在屏幕中央最底部，可用于识别发动机冷却问题 |
+      | 实时制动力分配 | 屏幕右侧的大号橙色数字显示瞬时制动力分配。车手未踩制动踏板时，该数值显示基础制动力分配；踩下制动踏板后，数值会根据制动力分配渐变设置发生变化 |
+      | 基础制动力分配 | 位于实时制动力分配数值下方，由粗调和微调制动力分配设置共同决定，不考虑制动力分配迁移设置 |
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/dash-warmup.png)
+
+      | Field | Description |
+      | --- | --- |
+      | SPEED | Vehicle speed |
+      | Gear Status Indicators | When the car is loaded into the world during Test, Practice, or Qualifying, the drivetrain will need to learn all eight forward gears to optimize shifting performance. Initially all eight gears will be represented with a red box. After each gear is selected and the engine has reached high RPM in that gear, its corresponding box will turn green, with all eight boxes being removed from the screen once all gears have been learned. |
+      | Gear Indicator | The currently selected gear is shown in the center of the display |
+      | Tire Surface Temperatures | The tire surface temperatures are represented by large white numbers on the sides of the display. These values will update in real time and can be used to determine when the tires are at their ideal operating temperature. |
+      | Tire Carcass Temperatures | The temperature in the tire carcass is displayed with blue numbers next to the Tire Surface Temperatures. These core temperatures represent the temperature within the tread itself and will heat up and cool down slower than the surface temperatures. |
+      | Current Deploy Mode | The hybrid system deploy mode currently in use is shown directly beneath the Gear Indicator. |
+      | BATT | The battery’s current charge level is shown underneath the Deploy Mode. This value is the percentage of charge currently stored within the battery. |
+      | DELTA | This value appears once a lap time has been set in the session and represents the difference in time for the current lap against the session fastest lap. |
+      | TWATER | The engine coolant temperature is shown in the center of the screen at the very bottom and can be used to identify engine cooling issues. |
+      | Live Brake Bias | The large orange number on the right side of the screen shows the instantaneous brake bias. When there is no brake input from the driver, this value will show the base brake bias, but as the brake pedal is depressed the value will change based on the brake ramping settings. |
+      | Base Brake Bias | Below the Live Brake Bias value is the Base Brake Bias value. This value is a combination of the Coarse and Fine brake bias settings and does not factor in the Brake Bias Migration setting. |
+
+  - id: race-page
+    level: 3
+    titleZh: 比赛页面
+    titleEn: RACE PAGE
+    bodyZh: |+
+      ![比赛页面](./assets/mercedes-amg-f1-w12-e-performance/dash-race.png)
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | DEPLOY | 当前圈还可更改混合动力系统能量释放模式的次数 |
+      | LAP | 当前圈数 |
+      | 圈速差 | 当前圈速与本次会话最佳圈速之差，显示在屏幕左上方 |
+      | 挡位指示 | 当前选择的挡位显示在屏幕中央 |
+      | 实时制动力分配 | 屏幕右侧的大号橙色数字显示瞬时制动力分配，与暖胎页面显示的数值相同 |
+      | LL | 上一圈的燃油消耗量，单位为千克/圈 |
+      | TAR | 目标燃油消耗量，显示在上一圈燃油消耗量下方，表示为顺利完成比赛每圈应消耗的燃油量 |
+      | 当前释放模式 | 当前使用的混合动力系统能量释放模式显示在挡位指示正下方 |
+      | BATT | 当前所选释放模式下方显示电池当前荷电状态，以百分比表示 |
+      | LAST | 上一圈圈速以蓝色数字显示在屏幕右下方 |
+      | 燃油条 | 比赛会话中，屏幕右侧的彩色条会根据当前燃油消耗量，显示现有燃油是否足以完成比赛。每个色块代表 50 克燃油：绿色表示燃油有余，红色表示燃油不足。例如，两个绿色色块表示多出 100 克燃油，两个红色色块则表示比完成比赛所需燃油少 100 克 |
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/dash-race.png)
+
+      | Field | Description |
+      | --- | --- |
+      | DEPLOY | This value represents how many hybrid system deploy mode changes are remaining during the current lap. |
+      | LAP | Current lap number |
+      | Laptime Delta | The difference between the current lap time and the session best lap time is shown in the upper left section of the display |
+      | Gear Indicator | The currently selected gear is shown in the center of the display |
+      | Live Brake Bias | The large orange number on the right side of the screen shows the instantaneous brake bias. This value is the same as what is shown on the Warmup page. |
+      | LL | The amount of fuel used in the previous lap, in kilograms per lap. |
+      | TAR | The target fuel usage is shown below the previous lap’s fuel usage. This value shows how much fuel should be used per lap to reach the end of the race. |
+      | Current Deploy Mode | The hybrid system deploy mode currently in use is shown directly beneath the Gear Indicator. |
+      | BATT | The current charge state of the battery (in percent) is shown under the currently selected deploy mode. |
+      | LAST | The previous lap time is shown in the bottom right of the display in blue numbers. |
+      | Fuel Bar | On the right side of the display during Race sessions, a colored bar will show whether or not the current fuel level is enough to reach the end of the race based on the current fuel usage. Each block in the bar represents 50 grams of fuel, with green blocks representing excess fuel and red blocks representing a lack of fuel. For example, if the bar shows two green blocks, there is 100 grams of excess fuel, while two red blocks would represent the fuel level being 100 grams less than what is necessary to complete the race. |
+
+  - id: lap-end-screen
+    level: 3
+    titleZh: 圈末画面
+    titleEn: LAP END SCREEN
+    bodyZh: |+
+      ![圈末画面](./assets/mercedes-amg-f1-w12-e-performance/dash-lap-end.png)
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | TIME | 上一圈圈速显示在屏幕左上方 |
+      | LAP | 当前圈数显示在屏幕右上方 |
+      | 挡位指示 | 当前选择的挡位显示在屏幕中央 |
+      | DELTA | 上一圈圈速与本次会话最佳圈速之差 |
+      | FUEL DELTA | 上一圈燃油消耗量与目标燃油消耗量之差，显示在屏幕底部，单位为 kg/lap |
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/dash-lap-end.png)
+
+      | Field | Description |
+      | --- | --- |
+      | TIME | The previous lap time is shown in the upper left of the display |
+      | LAP | The current lap number is shown in the top right of the display |
+      | Gear Indicator | The currently selected gear is shown in the center of the display |
+      | DELTA | The difference between the previous lap time and the session best lap time |
+      | FUEL DELTA | The difference in the amount of fuel used on the previous lap relative to the Target Fuel Usage value will appear at the bottom of the display in kg/lap. |
+
+  - id: halo-center-pillar
+    level: 3
+    titleZh: Halo 中央支柱
+    titleEn: HALO CENTER PILLAR
+    bodyZh: |+
+      ![Halo 中央支柱设置](./assets/mercedes-amg-f1-w12-e-performance/halo-center-pillar.png)
+
+      为改善车手视野，可通过“选项”菜单中的“隐藏障碍物”设置移除 Halo 的中央支柱。要启用此选项，请依次进入“选项”和“图形”菜单，再将“隐藏障碍物”设置更改为“座舱 Halo”或“全部”。中央支柱随后会显示为透明版本。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/halo-center-pillar.png)
+
+      To improve driver visibility, the center support pillar for the Halo can be removed via the “Hide Obstructions” setting in the Options menu. To enable this option go to the Options and then Graphics menu, then change the “Hide Obstructions” setting to either “Cockpit halo” or “All”. This will set the center pillar to a transparent version.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: 高级设置选项
+    titleEn: ADVANCED SETUP OPTIONS
+    bodyZh: |+
+      > 本节面向希望深入了解车辆设置各个方面的高级用户。并非必须调整以下参数，且这些调整可能显著改变车辆的操控方式。建议以小幅增量进行任何调整，并且每次只调整一个变量，随后再测试改动效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: 轮胎与空气动力学
+    titleEn: TIRES & AERO
+
+  - id: tire-compound
+    level: 3
+    titleZh: 轮胎配方
+    titleEn: TIRE COMPOUND
+    bodyZh: |+
+      ![轮胎配方](./assets/mercedes-amg-f1-w12-e-performance/tire-compound.png)
+
+      Mercedes W12 可使用三种轮胎配方：软胎（红色胎壁字样）、中性胎（黄色胎壁字样）和硬胎（白色胎壁字样）。软胎抓地力较高，整体速度更快，但轮胎寿命较短；硬胎抓地力相对较低，速度较慢，但轮胎寿命长得多。中性胎的抓地力、速度和轮胎寿命均介于软胎与硬胎之间。在比赛会话中，车辆必须使用排位赛所用配方发车。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/tire-compound.png)
+
+      A selection of three tire compounds is available for use in the Mercedes W12: Soft (Red sidewall lettering), Medium (Yellow sidewall lettering), and Hard (White sidewall lettering). The Soft compound has a high level of grip and will result in a faster overall pace at the cost of shorter tire life, while the Hard compound has a relatively low amount of grip and will produce a slower pace with a much longer tire life. The Medium compound will be between the Soft and Hard in grip levels, pace, and tire life. For race sessions, cars must start the race on the compound used in Qualifying.
+
+  - id: tire-settings
+    level: 3
+    titleZh: 轮胎设置（全部四条轮胎）
+    titleEn: TIRE SETTINGS (ALL FOUR TIRES)
+    bodyZh: |+
+      ![轮胎设置](./assets/mercedes-amg-f1-w12-e-performance/tire-settings.png)
+
+      #### 起始压力
+
+      车辆载入赛道时的轮胎气压。较高的胎压可降低滚动阻力和热量积聚，但会减少抓地力；较低的胎压会增加滚动阻力和热量积聚，但可提高抓地力。速度和负荷较高时需要较高胎压，速度和负荷较低时则通常可从较低胎压获得更好表现。为获得最佳性能，应根据赛道特性设置冷胎压力。
+
+      #### 上次热胎压力
+
+      车辆返回维修区后的轮胎气压。冷胎压力与热胎压力之间的差值可用于判断车辆在一个连续行驶阶段中平衡状态的变化：负荷较大的轮胎，其冷热胎压差会更大。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎在整个使用周期中引起操控平衡变化。因此，应调整冷胎压力，确保同类轮胎达到工作温度后具有相近胎压。应仔细关注热胎压力，以便在比赛中充分发挥轮胎性能。
+
+      #### 轮胎温度 O / M / I
+
+      在车库中测量的是胎面橡胶内部的轮胎胎体温度。车轮负荷及轮胎在赛道上的工作量会反映在轮胎温度中，这些数值可用于分析车辆的操控平衡。中部温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析车辆行驶时的车轮定位。
+
+      #### 剩余胎面
+
+      车辆返回维修区后轮胎剩余的胎面量。轮胎磨损对于识别车轮定位方面可能存在的问题非常有用，例如轮胎某一侧过度磨损；不过在分析操控平衡时，不应让轮胎磨损的优先级高于轮胎温度。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/tire-settings.png)
+
+      #### STARTING PRESSURE
+
+      Air pressure in the tire when the car is loaded into the world. Higher pressures will reduce rolling drag and heat buildup, but will decrease grip. Lower pressures will increase rolling drag and heat buildup, but will increase grip. Higher speeds and loads will require higher pressures, while lower speeds and loads will see better performance from lower pressures. Cold pressures should be set to track characteristics for optimum performance.
+
+      #### LAST HOT PRESSURE
+
+      Air pressure in the tire after the car has returned to the pits. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature. Careful attention should be paid to the Hot Pressures to extract the most performance out of the tires during a race.
+
+      #### TIRE TEMPS O / M / I
+
+      The temperatures measured in the garage are tire carcass temperatures, measured within the tread rubber itself. Wheel Loads and the amount of work a tire is doing on-track is reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment while on track.
+
+      #### TREAD REMAINING
+
+      The amount of tread remaining on the tire once the car has returned from the pits. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, but should never be prioritized over tire temperatures when analyzing handling balance.
+
+  - id: aero-package
+    level: 3
+    titleZh: 空气动力学套件
+    titleEn: AERO PACKAGE
+    bodyZh: |+
+      ![空气动力学套件](./assets/mercedes-amg-f1-w12-e-performance/aero-package.png)
+
+      #### 下压力规格
+
+      提供三种下压力套件，用于针对不同类型的赛道优化性能。高下压力套件可产生最多的空气动力学抓地力，但阻力也最大；低下压力套件产生的空气动力学抓地力最少，但阻力很小。中下压力套件的表现介于高、低下压力套件之间。
+
+      #### 前襟翼偏移量
+
+      可改变前翼上层襟翼，以调整下压力水平，并使车辆的空气动力学平衡向前或向后移动。数值越高，襟翼角度越大，前翼产生的下压力越高，空气动力学平衡也越向前移动。数值越低，下压力越小，空气动力学平衡越向后移动，同时阻力略有降低。
+
+      #### 尾翼格尼襟翼
+
+      尾翼格尼襟翼设置会改变尾翼最上层元件后缘小襟翼的高度。增加扰流片高度会使空气动力学平衡后移，但也会增加阻力；降低扰流片高度会减少下压力和阻力，并使空气动力学平衡前移。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/aero-package.png)
+
+      #### DOWNFORCE TRIM
+
+      Three downforce packages are available to optimize performance for various track types. The High downforce package will produce the most aerodynamic grip but with the highest amount of drag and the Low downforce package will produce the least aerodynamic grip but will produce very little drag. The Medium downforce package will produce a result between the High and Low packages.
+
+      #### FRONT FLAP OFFSET
+
+      The front wing’s upper flap can be changed to alter the downforce level as well as move the aerodynamic balance forward or rearward on the car. Higher values will increase the angle on the flap, producing more downforce from the front wing while shifting the aerodynamic balance forward. Lower values will reduce downforce and shift the aerodynamic balance rearward and slightly reduce drag.
+
+      #### REAR WING GURNEY
+
+      The Rear Wing Gurney setting changes the height of a small flap at the trailing edge of the rear wing’s uppermost element. Increasing the wicker’s height will shift aero balance rearward but will also increase drag, while decreasing the wicker height will reduce downforce and drag and shift aero balance forward.
+
+  - id: aero-calculator
+    level: 3
+    titleZh: 空气动力学计算器
+    titleEn: AERO CALCULATOR
+    bodyZh: |+
+      ![空气动力学计算器](./assets/mercedes-amg-f1-w12-e-performance/aero-calculator.png)
+
+      空气动力学计算器可用于快速了解车辆在当前配置下的大致空气动力学平衡。将空气动力学套件设置为目标数值后，把“高速车高”数值改为车辆的赛道实际车高（来自遥测数据），即可显示相应设置下的空气动力学平衡。这对于规划设置调整非常有帮助：既可在调整后维持相同的空气动力学平衡，也可了解调整会使平衡移动多少。
+
+      #### 高速前后车高
+
+      高速车高（RH）设置是空气动力学计算器的输入项，用于估算所选空气动力学套件的性能。更改这些数值会改变计算器中显示的前部下压力数值以及升阻比。要检查赛道上的实际表现，请使用遥测数据中前车高传感器（Front RH）的平均值，以及后车高传感器（Rear RH）的平均值。也可以更改这些数值，在调整车高或弹簧之前观察俯仰角如何影响空气动力学表现。
+
+      #### 空气动力学平衡
+
+      空气动力学平衡表示作用于前轴的下压力占总下压力的百分比。该数值受前后车高、前翼角度、尾翼格尼襟翼和整体下压力规格影响；在底盘调校过程中应持续监控，以避免出现意外结果。为防止空气动力学变化掩盖底盘调整的效果，在进行空气动力学设置调整前后，务必参照此数值并确保其保持不变。
+
+      #### 升阻比
+
+      升阻比表示每一单位阻力所对应的下压力。一般来说，较高的升阻比意味着车辆工作效率较高，能以给定的阻力产生大量下压力；较低的升阻比通常出现在更顺滑、低阻力的空气动力学套件上。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/aero-calculator.png)
+
+      The Aero Calculator is a quick way to get a general idea of the car’s aero balance in the current configuration. After setting the Aero Package to the desired values, changing the “RH at Speed” values to the car’s on-track heights (pulled from telemetry data) will display the aerodynamic balance with those settings. This is very helpful for planning setup changes to either keep the same aerodynamic balance after a change or to understand how much the balance will shift with changes.
+
+      #### FRONT & REAR RH AT SPEED
+
+      The RH (Ride Height) at Speed settings are inputs for the aero calculator to determine the approximate aero performance with the chosen aero package. Changing these values changes the displayed Front Downforce value as well as the Downforce-to-Drag ratio in the calculator. To check on-track performance, use the average of the front ride height sensors (Front RH) and the average of the rear ride height sensors (Rear RH) from telemetry. These can also be changed to observe how rake will affect aerodynamic performance prior to ride height or spring changes.
+
+      #### AERO BALANCE
+
+      Aero Balance represents the percentage of total downforce that is working on the front axle. This is affected by front and rear ride heights, front wing angle, rear wing gurney, and the overall downforce trim, and should be monitored during the chassis setup process to prevent unexpected results. To ensure chassis adjustments don’t become masked by aerodynamic changes, always refer to this value to ensure it remains constant before and after aerodynamic setup changes.
+
+      #### DOWNFORCE TO DRAG
+
+      The Downforce to Drag ratio is a relation of how much downforce is produced for one unit of drag. Generally, a larger Downforce to Drag ratio would imply the car is working efficiently and producing large amounts of downforce for given drag numbers, while a lower Downforce to Drag value is typically seen on more slippery, low-drag aerodynamic packages.
+
+  - id: chassis-setup
+    level: 2
+    titleZh: 底盘
+    titleEn: CHASSIS
+
+  - id: front
+    level: 3
+    titleZh: 前部
+    titleEn: FRONT
+    bodyZh: |+
+      ![前部设置](./assets/mercedes-amg-f1-w12-e-performance/front.png)
+
+      #### 透明 Halo
+
+      如有需要，可以移除 Halo 的中央支柱，以改善驾驶时的视野。此设置不会影响车辆性能。
+
+      #### 重量分配
+
+      重量分配数值表示车辆总重量中位于前轴的比例。该数值可与前部下压力百分比配合使用，调整车辆在高速时的稳定性或在低速弯中的转向灵活性。提高重量分配百分比会使重量前移，让车辆在高速时不那么敏感、更稳定，但在低速时会更抗拒改变方向。降低重量分配数值会使重量后移，让车辆在高速时更敏感，但通过慢弯时更容易转向。
+
+      #### 垂向刚度
+
+      前部垂向刚度控制垂向弹簧的硬度。该弹簧用于抵抗纯垂直方向的行程，对于在较高速度下维持并支撑高下压力至关重要。较硬的垂向弹簧可减少负载变化时的悬架行程，有利于空气动力学表现，但也可能使悬架过硬并降低机械抓地力。较软的垂向弹簧有助于提升机械抓地力，但可能导致车辆在高速时触底，并在低速时需要更高的车高。此外，较软的垂向弹簧可能导致底盘运动过大，使空气动力学平台不稳定。
+
+      #### 侧倾刚度
+
+      侧倾刚度用于改变前悬架抗侧倾装置的硬度。较高的侧倾刚度会增加前部侧倾刚度，减少侧倾但加剧转向不足；较低的侧倾刚度会降低硬度、增加侧倾并减轻转向不足。提高侧倾刚度还会减少底盘侧倾引起的车轮外倾角变化，而较软的侧倾刚度会带来更大的外倾角变化。
+
+      #### 车高
+
+      前车高测量的是前轴位置处，从地面到车身底板平面的距离。由于该数值以底盘底板为基准，并未计入车辆中央的木板，因此不能准确表示车辆的实际离地间隙。改变静态车高会影响空气动力学表现；降低前车高会增加整体下压力、使空气动力学平衡更靠前，并减少阻力。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/front.png)
+
+      #### TRANSPARENT HALO
+
+      If desired, the Halo’s central pillar can be removed to improve visibility while driving. This setting has no impact on vehicle performance.
+
+      #### WEIGHT DIST
+
+      The Weight Distribution value shows how much of the car’s total weight is situated on the front axle. This can be used in conjunction with the Front Downforce percentage to tune how stable the car is at high speeds or how easily the car will rotate through low-speed corners. Increasing the Weight Distribution percentage will shift weight forward, making the car less darty and more stable at high speeds, but will be more resistant to direction changes at low speeds. Lower Weight Distribution values will shift weight rearward, causing the car to be twitchier at high speeds but will rotate more easily through slow corners.
+
+      #### HEAVE RATE
+
+      The front Heave Rate controls the stiffness of the heave spring. This spring works to resist purely vertical travel, and is crucial for maintaining and supporting high levels of downforce at higher speeds. Stiffer heave spring rates will result in less suspension travel over changing loads, which is good for aerodynamics, but can make the suspension overly stiff and reduce mechanical grip. Softer heave springs will help with mechanical grip but could lead to bottoming out at high speeds and higher ride heights at lower speeds. Further, softer heave springs can lead to excessive chassis movement and an unstable aerodynamic platform.
+
+      #### ROLL RATE
+
+      The Roll Rate changes the stiffness of the front suspension’s anti-roll device. Higher roll rates will increase front roll stiffness, reducing roll but increasing understeer, while lower roll rates will reduce stiffness, increase roll, and reduce understeer. Increased roll stiffness will also reduce the change in wheel camber due to chassis roll, while softer roll stiffness values will result in more camber change.
+
+      #### RIDE HEIGHT
+
+      Front Ride Height measures the distance from the ground to a point on the chassis plane measured at the front axle. Since this value is measured at the chassis floor, it does not account for the plank along the center of the car, and thus doesn’t accurately represent the car’s actual ground clearance. Altering the static ride height will affect aerodynamic performance, with lower front ride heights increasing overall downforce, more forward aero balance, and less drag.
+
+  - id: front-corners
+    level: 3
+    titleZh: 前轮
+    titleEn: FRONT CORNERS
+    bodyZh: |+
+      ![前轮设置](./assets/mercedes-amg-f1-w12-e-performance/front-corners.png)
+
+      #### 单轮重量
+
+      这是车辆停在车库中时各车轮承载的重量。正确分配车辆各处的重量，对于根据特定赛道和条件优化车辆至关重要。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。负外倾角表示车轮顶部比底部更靠近底盘中心线；正外倾角表示轮胎顶部比底部更向外。更大的负外倾角会在轮胎外倾方向产生更大的过弯力（转向响应更积极），但外倾角过大时可能降低制动能力。四个车轮都应始终采用负外倾角；不过，若赛道朝某一方向的弯角明显更多，则采用不对称外倾角数值可能会有所帮助。
+
+      #### 前束
+
+      前束是从垂直方向观察时，车轮相对于底盘中心线的夹角。车轮前端比后端更靠近中心线时为内八，车轮前端比后端离中心线更远时为外八。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。外八设置（车库中的负值）会增强入弯响应并降低直线稳定性；内八设置（车库中的正值）会提高直线稳定性，但使初始转向响应更迟钝。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      This is the weight situated at the wheels while in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Higher negative camber values will provide more cornering forces in the direction of the tire’s camber (more aggressive turn-in response), but may reduce braking capability at high camber angles. Always use negative camber on all four wheels, however circuits with significantly more turns in one direction may benefit from asymmetric camber values.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+  - id: rear-corners
+    level: 3
+    titleZh: 后轮
+    titleEn: REAR CORNERS
+    bodyZh: |+
+      ![后轮设置](./assets/mercedes-amg-f1-w12-e-performance/rear-corners.png)
+
+      #### 单轮重量
+
+      这是车辆停在车库中时各车轮承载的重量。正确分配车辆各处的重量，对于根据特定赛道和条件优化车辆至关重要。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。负外倾角表示车轮顶部比底部更靠近底盘中心线；正外倾角表示轮胎顶部比底部更向外。在后轴，更大的外倾角可带来更强的过弯稳定性，尤其是在高速和高负载情况下；较小的外倾角通常会提高加速时的牵引力。四个车轮都应始终采用负外倾角；不过，若赛道朝某一方向的弯角明显更多，则采用不对称外倾角数值可能会有所帮助。
+
+      #### 前束
+
+      前束是从上方观察时，车轮相对于底盘中心线的夹角。正前束会使轮胎前端比后端更靠近中心线；后轴不允许负前束。后轴两侧轮胎最好都采用内八（正值），这可形成方向稳定性更高的配置，并有助于加速。较小的内八会让车辆更容易转向，尤其是在入弯和加速时，但直线和弯心稳定性会降低。本车后轴的每个车轮均可独立调整，而不是像前轴那样使用总前束数值。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/rear-corners.png)
+
+      #### CORNER WEIGHT
+
+      This is the weight situated at the wheels while in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. In the rear, more camber produces more cornering stability, especially at high speeds and high loads, while less camber will often increase traction on throttle application. Always use negative camber on all four wheels, however circuits with significantly more turns in one direction may benefit from asymmetric camber values.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheels relative to the chassis centerline when viewed from above. Positive toe-in puts the front of the tires closer to the centerline than the rear of the tires, negative toe-in is not allowed at the rear. For the rear, it is desirable to have toe-in (positive value) for both rear tires, which produces a more directionally-stable configuration and helps with throttle application. Less toe-in will allow the car to rotate better, especially at turn-in and on throttle, but will be less stable in a straight line and through the corner’s center. For the rear of the car, each wheel is adjustable individually instead of having a net toe value like the front end.
+
+  - id: rear
+    level: 3
+    titleZh: 后部
+    titleEn: REAR
+    bodyZh: |+
+      ![后部设置](./assets/mercedes-amg-f1-w12-e-performance/rear.png)
+
+      #### 燃油量
+
+      可针对排位赛等不同配置调整车辆中的燃油量，也可在底盘设置过程中将燃油完全清空。通常最好先以少量燃油或无燃油状态设置车辆，再在驶上赛道前加入所需的燃油量。
+
+      #### 垂向刚度
+
+      后部垂向刚度控制后部垂向弹簧的硬度。该弹簧用于抵抗纯垂直方向的行程，对于在较高速度下维持并支撑高下压力至关重要。较硬的垂向弹簧可减少负载变化时的悬架行程，有利于空气动力学表现，但也可能使悬架过硬并降低机械抓地力。较软的垂向弹簧有助于提升机械抓地力，但可能导致车辆在高速时触底，并在低速时需要更高的车高。后部垂向刚度会显著影响底盘的俯仰角，从而影响车辆在赛道各处产生的下压力大小和空气动力学平衡。
+
+      #### 侧倾刚度
+
+      侧倾刚度用于改变后悬架抗侧倾装置的硬度。较高的侧倾刚度会增加后部侧倾刚度，减少侧倾但加剧转向过度；较低的侧倾刚度会降低硬度、增加侧倾并加剧转向不足。
+
+      #### 车高
+
+      后车高测量的是后轴位置处，从地面到车身底板平面的距离。由于该数值以底盘底板为基准，并未计入车辆中央的木板，因此不能准确表示车辆的实际离地间隙。改变静态车高会影响空气动力学表现；提高后车高会增加整体下压力、使空气动力学平衡更靠前，同时增加阻力。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/rear.png)
+
+      #### FUEL LEVEL
+
+      The amount of fuel in the car can be altered for various configurations, such as qualifying, or removed entirely during the chassis setup process. It’s usually best to set the car up with low or no fuel, then add the desired fuel level before going out to the track.
+
+      #### HEAVE RATE
+
+      The rear Heave Rate controls the stiffness of the rear heave spring. This spring works to resist purely vertical travel, and is crucial for maintaining and supporting high levels of downforce at higher speeds. Stiffer heave spring rates will result in less suspension travel over changing loads, which is good for aerodynamics, but can make the suspension overly stiff which reduces mechanical grip. Softer heave springs will help with mechanical grip, but could lead to bottoming out at high speeds and higher ride heights at lower speeds. Rear heave rate greatly influences the chassis’ rake angle, and thus both the amount of downforce produced and the aerodynamic balance, around the circuit.
+
+      #### ROLL RATE
+
+      The Roll Rate changes the stiffness of the rear suspension’s anti-roll device. Higher roll rates will increase rear roll stiffness, reducing roll but increasing oversteer, while lower roll rates will reduce stiffness, increase roll, and increase understeer.
+
+      #### RIDE HEIGHT
+
+      The rear Ride Height is represented as a single value at the chassis centerline at the rear of the floor. Since this value is measured at the floor, it does not account for the plank along the center of the car, and thus doesn’t accurately represent the car’s actual ground clearance. Altering the static ride height will affect aerodynamic performance, with higher rear ride heights increasing overall downforce, more forward aero balance, and more drag.
+
+  - id: drive-brake
+    level: 2
+    titleZh: 传动 / 制动
+    titleEn: DRIVE / BRAKE
+
+  - id: differential
+    level: 3
+    titleZh: 差速器
+    titleEn: DIFFERENTIAL
+    bodyZh: |+
+      ![差速器设置](./assets/mercedes-amg-f1-w12-e-performance/differential.png)
+
+      #### 入弯预载
+
+      预载设置会向差速器施加静态锁止力，该锁止力在减速时存在，但不会影响弯心或加速阶段。提高预载设置会对差速器施加更大的锁止力，在减速时引发转向不足；降低预载力则会减少锁止力，使差速器运行得更开放，并在减速时产生更多转向过度。
+
+      #### 锁止扭矩
+
+      ![差速器锁止扭矩曲线](./assets/mercedes-amg-f1-w12-e-performance/locking-torque.png)
+
+      #### 入弯
+
+      差速器的入弯设置控制弯中减速和入弯阶段的锁止力大小。较高数值会施加更多锁止力并产生更多转向不足；较低数值会施加较少锁止力，并在这一阶段产生更多转向过度。可通过 F8 黑盒中的 ENTRY 设置在车内调整此项。
+
+      #### 弯中
+
+      弯道减速阶段结束后、加速阶段开始前，差速器会根据弯中设置施加锁止力。较高数值施加更多锁止力，较低数值施加较少锁止力。由于该设置在减速与加速之间的过渡阶段生效，入弯和出弯状态会重叠：较高的弯中设置会在减速时产生更多转向不足、在加速时产生更多转向过度；较低设置则相反，会在减速时产生更多转向过度、在加速时产生更多转向不足。可通过 F8 黑盒中的 MID 设置在车内调整此项。
+
+      #### 高速
+
+      高速设置控制加速阶段以及大油门过弯时差速器施加的锁止力大小。与另外两项差速器设置一样，较高数值会在加速阶段施加更多锁止力，较低数值则减少锁止力。锁止力越大，转向过度越多；减小锁止力会在加速时增加转向不足。可通过 F8 黑盒中的 HISPD 设置在车内调整此项。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/differential.png)
+
+      #### ENTRY PRELOAD
+
+      The preload setting applies a static locking force to the differential that will be present during deceleration, but has no effect during center-corner or acceleration. Increasing the preload setting applies more locking force to the differential, inducing understeer on deceleration, while reducing the preload force will reduce locking force and run more open, with more oversteer on deceleration.
+
+      #### LOCKING TORQUE
+
+      ![Differential locking torque curve](./assets/mercedes-amg-f1-w12-e-performance/locking-torque.png)
+
+      #### ENTRY
+
+      The differential’s Entry setting controls the amount of locking force present during deceleration in a corner and the turn-in phase. Higher values apply more locking force and more understeer, while lower values apply less locking force and more oversteer during this section of a corner. This adjustment can be changed in the car via the ENTRY setting in the F8 black box.
+
+      #### MIDDLE
+
+      Once the deceleration phase of a corner is complete but prior to the acceleration phase, the differential will apply a locking force based on the Middle setting. Higher values will apply more locking force and lower values will apply less locking force. Since this setting is active during a transition phase between deceleration and acceleration, conditions for both entry and exit overlap, with higher Middle settings producing more understeer on deceleration and oversteer on acceleration. Lower Middle settings will do the opposite, with more oversteer on deceleration and more understeer on acceleration. This adjustment can be changed in the car via the MID setting in the F8 black box.
+
+      #### HIGH SPEED
+
+      The High Speed setting controls the amount of locking force applied to the differential during acceleration and through corners with heavy throttle applications. As with the other two differential settings, higher values apply more locking force and lower values reduce the locking force during the acceleration phase. Higher amounts of locking force will increase oversteer, while reducing the locking force will increase understeer on throttle. This adjustment can be changed in the car via the HISPD setting in the F8 black box.
+
+  - id: power-unit-config
+    level: 3
+    titleZh: 动力单元配置
+    titleEn: POWER UNIT CONFIG
+    bodyZh: |+
+      ![动力单元配置](./assets/mercedes-amg-f1-w12-e-performance/power-unit-config.png)
+
+      #### MGU-K 能量释放模式
+
+      Mercedes W12 的混合动力系统可在五种模式之一运行，以改变每圈结束时系统中的电池荷电状态（SoC）。
+
+      #### 不释放（No Deploy）
+
+      此模式会阻止混合动力系统通过电动机（MGU-K）释放电能来推动车辆，用于确保排位赛飞驰圈开始时电池已充满。此发动机模式仅可在排位赛以及练习/测试赛段中使用。
+
+      #### 排位（Qual）
+
+      此模式用于排位赛的飞驰圈。它会在一圈内释放几乎所有可用电能，通过电动机（MGU-K）尽可能推动车辆。在排位赛中，应在驶出圈以及可能进行的慢速圈使用“不释放”模式，以储存尽可能多的电能；在接近起终点线、即将进入最后一个弯道前切换至“排位”模式，开始飞驰圈。此发动机模式仅可在排位赛以及练习/测试赛段中使用。
+
+      #### 进攻（Attack）
+
+      此模式应谨慎使用，主要在正赛中以短时间方式辅助超车。它会非常快速地消耗电池电量；若之后需要为电池重新充电，就会损失性能。通常，此模式带来的单圈时间收益小于重新充电造成的损失，因此只有在绝对有必要完成超车时才应使用。也可在比赛最后一圈左右使用，以便在之后不再需要电量时消耗电池。此发动机模式仅可在练习和正赛赛段中使用。
+
+      #### 均衡（Balanced）
+
+      此模式应在正赛的大多数时间使用。它会释放尽可能多的电能来推动车辆并缩短单圈时间，同时维持整圈平均电池荷电状态（SoC）为 80%。赛段开始后的前几圈，控制器需要 2～3 个计时圈进行学习，并将电量从 100% 降至 80%。从第 3 或第 4 个计时圈开始，系统的每圈能量释放应趋于稳定和一致。此发动机模式仅可在练习和正赛赛段中使用。
+
+      #### 充电（Build）
+
+      只有在迫切需要尽快提高电池荷电状态、并且可以接受牺牲单圈时间时，才应使用此模式。它的目标是让整圈平均荷电状态达到 100%。注意：一旦电量稳定，就不应继续使用此能量释放模式，因为电池已处于 100% 荷电状态时，回收的电能将会浪费。此发动机模式仅可在练习和正赛赛段中使用。
+
+      在赛道上，动力单元系统每圈最多只能更改四次能量释放模式。达到上限后，系统会保持最后选择的模式，直到车辆通过起终点线开始新的一圈。
+
+      #### 发动机制动
+
+      发动机制动设置控制驾驶者松开油门时来自发动机的减速力大小。设置值越低，发动机制动越强，可能在松开油门时引发更多转向过度。设置值越高，发动机制动越弱，可能在松开油门时产生更多转向不足。可通过 F8 黑盒中的 EB 设置在车内调整此项。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/power-unit-config.png)
+
+      #### MGU-K DEPLOY MODE
+
+      The Mercedes W12 Hybrid system can run in one of five modes to alter how much battery State of Charge (SoC) is present in the system at the end of the lap:
+
+      #### NO DEPLOY
+
+      This mode will prevent the hybrid system from deploying electrical energy to propel the car with an electric motor (MGU-K), and is used to ensure the battery is fully charged at the beginning of a qualifying lap. This engine mode is only available during Qualifying and Practice/Test sessions.
+
+      #### QUAL
+
+      This mode is intended to be used on flying laps during qualifying sessions. It will deploy nearly all of the available electrical energy to propel the car as much as possible with an electric motor (MGU-K) over a single lap. During qualifying, you will use No Deploy to store as much electrical energy as possible during your out lap and, potentially, slow laps, and will switch to Qual mode just before the final corner as you approach start/finish to begin your fast lap(s). This engine mode is only available during Qualifying and Practice/Test sessions.
+
+      #### ATTACK
+
+      This mode should be used sparingly and primarily in short bursts during races to aid overtaking. It will draw the battery charge down quite aggressively, costing performance if you need to re-charge the battery. Typically, this mode will give a smaller lap time benefit than you will lose having to re-charge, so should be used only when it is absolutely necessary to make an overtake. It may also be used during the last lap or so of a race to draw the battery down when it will no longer be needed. This engine mode is only available during Practice and Race sessions.
+
+      #### BALANCED
+
+      This mode should be used most of the time during races. It deploys as much electrical energy as possible to propel the car and minimize lap times while maintaining an average battery state of charge (SoC) of 80% over the lap. During the opening laps of a session, it will take 2-3 timed laps for the controller to learn and draw the battery down from 100% to 80%. From the 3rd or 4th timed lap, the system should deploy in a stable and consistent manner from lap to lap. This engine mode is only available during Practice and Race sessions.
+
+      #### BUILD
+
+      This mode should only be used when you are desperate to build battery SoC as quickly as possible and can afford to compromise lap times to do it. It will target an average SoC of 100% over the lap. Note: you should not keep using this deployment mode once it has stabilized, as harvested electrical energy will be lost if the battery is already at 100% SoC. This engine mode is only available during Practice and Race sessions.
+
+      While on track, the Power Unit system is limited to four deployment mode changes per lap. Once the limit has been reached, the system will remain in whichever mode was last selected until the car has crossed the start/finish line to begin another lap.
+
+      #### ENGINE BRAKING
+
+      The Engine Braking setting controls how much deceleration force will come from the engine when the driver releases the throttle. Higher amounts of engine braking occur at lower setting values, and can induce more oversteer when off-throttle. Less engine braking is produced at higher setting values and can result in more understeer when off throttle. This adjustment can be changed in the car via the EB setting in the F8 black box.
+
+  - id: brake-system-config
+    level: 3
+    titleZh: 制动系统配置
+    titleEn: BRAKE SYSTEM CONFIG
+    bodyZh: |+
+      ![制动系统配置](./assets/mercedes-amg-f1-w12-e-performance/brake-system-config.png)
+
+      #### 基础制动力分配
+
+      基础制动力分配设置用于确定总制动力中传递至前制动器的比例。提高该数值会将更多制动力移至前轴，降低该数值则会将更多制动力移至车辆后部。应将此设置调整到施加最大制动力时，前轴或后轴都不会意外锁死；同时也可用它调整车辆入弯时的操控特性。较高的制动力分配值会使车辆在制动时具有更高的方向稳定性，但可能轻微引发转向不足；若设置得过于靠前，还有锁死某个前轮的风险。较低的制动力分配值会使车辆在制动时更容易转入弯道，但也可能锁死某个后轮并导致车辆打转。可通过 F8 黑盒中的 BBAL 设置在车内调整此项。
+
+      #### 动态渐变
+
+      可通过“开始制动力分配渐变”设置来设定制动力分配渐变开始的时点。该数值决定制动力分配何时开始从“基础前制动力分配”提高至“总制动力分配”，其数值代表渐变开始时的踏板行程。
+
+      #### 动态制动力分配渐变
+
+      ![动态制动力分配渐变曲线](./assets/mercedes-amg-f1-w12-e-performance/dynamic-brake-bias-ramping.png)
+
+      #### 制动力分配迁移
+
+      当驾驶者踩下制动踏板并超过“动态渐变”选项所设定的数值后，制动力分配会开始从“基础制动力分配”向前移动，并根据“制动力分配迁移”设置，在踏板行程达到 100% 时达到“总制动力分配”数值。“制动力分配迁移”的每一档都会让“总制动力分配”提高 1%：设置 1 不作改变，设置 10 则向前移动 9%。可通过 F8 黑盒中的 BMIG 设置在车内调整此项。
+
+      该设置对于在高速产生巨大空气动力学负载时实现最佳制动性能非常重要。在重刹时让制动力分配前移，可以利用高空气动力学负载下增强的制动能力；随着车速（以及空气动力学负载）降低，制动力分配也会向后移动。这样既能施加强大的制动力，又可避免制动阶段后期前轮锁死。
+
+      #### 总制动力分配
+
+      踩下全部制动踏板行程时可达到的最大制动力分配显示在“总峰值平衡”数值中。该设置以“基础制动力分配”为起点，并应用“制动力分配迁移”数值，从而确定踩下全部踏板行程时的制动力分配。
+
+      #### Brake Magic 修正值
+
+      Brake Magic 系统会将制动力分配改为预设的、偏重前轴的设置，以便在安全车阶段或热身圈快速加热前制动器和轮胎。车库中的 Brake Magic 数值决定启用 Brake Magic 时的制动力分配；该数值以小数而非百分比表示（0.75 代表 75% 的制动力分配）。
+
+    bodyEn: |+
+      ![Image](./assets/mercedes-amg-f1-w12-e-performance/brake-system-config.png)
+
+      #### BASE BRAKE BIAS
+
+      The Base Brake Bias sets the amount of total braking force that is sent to the front brakes. Increasing this value shifts more braking force to the front axle, decreasing this shifts more to the rear of the car. This setting should be set so that maximum applied braking force doesn’t lock either the front or rear axle unexpectedly, but can also be used to tune the car’s handling at turn-in. Higher brake bias values will result in a more directionally-stable car under braking, but can slightly induce understeer and risk locking one of the front wheels if set too far forward. Lower brake bias values will cause the car to want to turn into a corner more easily under braking, but can potentially lock one of the rear wheels and spin the car. This adjustment can be set in the car via the BBAL setting in the F8 black box.
+
+      #### DYNAMIC RAMPING
+
+      The point at which brake bias ramping will begin can be set with the Begin Bias Ramping setting. This value sets when the brake bias will begin to increase from the Base Front Brake Bias setting to the Total Brake Bias value, with this value representing the amount of pedal travel where ramping begins.
+
+      #### DYNAMIC BRAKE BIAS RAMPING
+
+      ![Dynamic brake bias ramping curve](./assets/mercedes-amg-f1-w12-e-performance/dynamic-brake-bias-ramping.png)
+
+      #### BRAKE BIAS MIGRATION
+
+      When the driver presses the brake pedal past the value set with the Dynamic Ramping option, the brake bias will begin moving forward from the Base Brake Bias value to a value set with the Brake Migration setting to reach the Total Brake Bias value at 100% brake travel. Each setting of Brake Migration will increase the Total Brake Bias value by 1% from no change at setting 1 to a 9% forward value at setting 10. This value can be adjusted in-car via the BMIG setting in the F8 black box.
+
+      This setting is important to achieving peak braking performance at the high amounts of aerodynamic load produced at high speeds. Having the brake bias shift forward under heavy braking takes advantage of the increased braking capability under high aero loads, but also shifts the brake rearward as speed (and aero load) decreases. This helps to allow heavy braking forces while avoiding front-wheel lockup late in the braking phase.
+
+      #### TOTAL BRAKE BIAS
+
+      The maximum brake bias that will be achieved at full brake pedal travel is shown in the Total Peak Balance value. This setting takes the Base Brake Bias setting and applies the Brake Migration Value to determine what the Brake Bias will be at full pedal travel.
+
+      #### BRAKE MAGIC MODIFIER
+
+      Brake Magic is a system that will change the brake bias to a pre-set, front-heavy brake bias setting to quickly heat the front brakes and tires for safety car or warm-up laps. The garage value for Brake Magic determines the brake bias when Brake Magic is turned on, represented as a decimal instead of percentage (0.75 represents 75% brake bias).
