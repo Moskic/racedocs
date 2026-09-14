@@ -12,8 +12,8 @@
   },
   "packageManager": "pnpm@11.7.0",
   "engines": {
-    "node": "24.14.0",
-    "pnpm": "11.7.0"
+    "node": ">=24 <25",
+    "pnpm": ">=11 <12"
   },
   "devDependencies": {
     "@astrojs/markdown-satteri": "0.3.3",
