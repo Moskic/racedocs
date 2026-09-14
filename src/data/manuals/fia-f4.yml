@@ -403,7 +403,7 @@ sections:
 
       #### 高速状态后车高
 
-      高速状态车高（RH at Speed）用于向空气动力学计算器提供计算所需的参考高度。使用计算器时，请通过遥测数据确定车辆在赛道任意位置的后车高，并将该数值输入“高速状态前车高”设置。建议采用左后与右后车高的平均值；与使用单侧车高相比，这能更准确地反映当前空气动力学平台。
+      高速状态车高（RH at Speed）用于向空气动力学计算器提供计算所需的参考高度。使用计算器时，请通过遥测数据确定车辆在赛道任意位置的后车高，并将该数值输入“高速状态后车高”设置。建议采用左后与右后车高的平均值；与使用单侧车高相比，这能更准确地反映当前空气动力学平台。
 
       #### 下压力／阻力比
 
@@ -420,7 +420,7 @@ sections:
 
       #### REAR RH AT SPEED
 
-      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Rear RH at Speed” setting. It is advisable to use an average value of the LR and RR ride heights as this will provide a more accurate representation of the current aero platform rather than using a single corner height.
 
       #### DOWNFORCE TO DRAG
 

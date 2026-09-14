@@ -534,7 +534,7 @@ sections:
 
       #### 拉杆增量
 
-      改变拉杆增量会改变后悬架拉杆的总长度，直接影响后端车高。增加拉杆增量会降低后端，减少拉杆增量则会抬高前端。由于车辆采用单减振器设计，此调整会等量改变两根后拉杆，不会改变对角配重。可用这一调整改变车高，而不影响后升沉弹簧预载。
+      改变拉杆增量会改变后悬架拉杆的总长度，直接影响后端车高。增加拉杆增量会降低后端，减少拉杆增量则会抬高后端。由于车辆采用单减振器设计，此调整会等量改变两根后拉杆，不会改变对角配重。可用这一调整改变车高，而不影响后升沉弹簧预载。
 
       #### 弹簧座偏移量
 
@@ -569,7 +569,7 @@ sections:
 
       #### PULLROD DELTA
 
-      Changing the Pullrod Delta results in a change in overall length of the rear suspension pullrods, directly affecting the rear-end ride height. Increasing the Pullrod Delta will lower the rear end and decreasing the Pullrod Delta will raise the front end. Due to the car’s mono-shock design, this adjustment changes both rear pullrods equally and prevents any crossweight changes. This adjustment can be used to alter the ride heights without affecting the rear heave spring preload.
+      Changing the Pullrod Delta results in a change in overall length of the rear suspension pullrods, directly affecting the rear-end ride height. Increasing the Pullrod Delta will lower the rear end and decreasing the Pullrod Delta will raise the rear end. Due to the car’s mono-shock design, this adjustment changes both rear pullrods equally and prevents any crossweight changes. This adjustment can be used to alter the ride heights without affecting the rear heave spring preload.
 
       #### SPRING PERCH OFFSET
 

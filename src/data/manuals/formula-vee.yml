@@ -38,7 +38,7 @@ sections:
 
       Congratulations on your purchase of the Formula vee! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
 
-      One of the most legendary junior open-wheel racing formulas is part of iRacing! The Formula Vee is based on the stock parts a pre-1963 Volkswagen Beetle, combining them with a tubeframe chassis and fiberglass or carbon fiber open-wheel body. Part of the SCCA Runoffs since 1964, the cars have also proven highly popular around the world, with iconic names from Niki Lauda to Keke Rosberg starting their careers in these venerable machines.
+      One of the most legendary junior open-wheel racing formulas is part of iRacing! The Formula Vee is based on the stock parts of a pre-1963 Volkswagen Beetle, combining them with a tubeframe chassis and fiberglass or carbon fiber open-wheel body. Part of the SCCA Runoffs since 1964, the cars have also proven highly popular around the world, with iconic names from Niki Lauda to Keke Rosberg starting their careers in these venerable machines.
 
       The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
 
@@ -491,7 +491,7 @@ sections:
 
       #### SPRING PERCH OFFSET
 
-      Used to adjust the rear ride height at this end of the car by changing the installed position of the spring, increasing the spring perch offset will lower the rear ride height of the car while increasing the spring perch offset will raise the rear ride height of the car. As noted above, it is utilized in conjunction with pushrod offset to alter maximum droop travel of the rear suspension.
+      Used to adjust the rear ride height at this end of the car by changing the installed position of the spring, increasing the spring perch offset will lower the rear ride height of the car while decreasing the spring perch offset will raise the rear ride height of the car. As noted above, it is utilized in conjunction with pushrod offset to alter maximum droop travel of the rear suspension.
 
       #### SPRING RATE
 
