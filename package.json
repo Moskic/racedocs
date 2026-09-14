@@ -10,7 +10,7 @@
     "preview": "astro preview",
     "test": "node --test tests/*.test.ts"
   },
-  "packageManager": "pnpm@11.7.0",
+  "packageManager": "pnpm@11.26.0",
   "engines": {
     "node": ">=24 <25",
     "pnpm": ">=11 <12"
