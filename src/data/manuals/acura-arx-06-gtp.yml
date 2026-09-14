@@ -1,0 +1,854 @@
+slug: acura-arx-06-gtp
+published: true
+titleZh: Acura ARX-06 GTP 用户手册
+titleEn: Acura ARX-06 GTP User Manual
+contentType: vehicle-manual
+brand: Acura
+vehicleClass: Prototype
+platform: iRacing
+discipline: sports-car
+cover: ./assets/acura-arx-06-gtp/cover.png
+source:
+  type: official
+  title: iRacing Acura ARX-06 GTP User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided official V2 PDF. Obvious extraction line-order artifacts were corrected against the original page layout; the confirmed PDF typo “anywheelspin” was normalized to “any wheelspin.”
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/acura-arx-06-gtp/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Acura ARX-06 GTP！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Acura ARX-06 GTP 赛车](./assets/acura-arx-06-gtp/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Acura ARX-06 GTP! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/acura-arx-06-gtp/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: 技术规格
+    titleEn: TECH SPECS
+
+  - id: chassis-specifications
+    level: 3
+    titleZh: 底盘
+    titleEn: CHASSIS
+    bodyZh: |+
+      ![底盘规格](./assets/acura-arx-06-gtp/chassis-specifications.png)
+
+      带推杆驱动内置弹簧的双叉臂悬架
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 5100 mm / 200.8 in |
+      | 车宽 | 2000 mm / 78.7 in |
+      | 轴距 | 3148 mm / 124 in |
+      | 干重 | 1030 kg / 2271 lbs |
+      | 含车手湿重 | 1176 kg / 2594 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/chassis-specifications.png)
+
+      DOUBLE WISHBONE WITH PUSHROD- ACTUATED INBOARD SPRINGS
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 5100 mm / 200.8 in |
+      | Width | 2000 mm / 78.7 in |
+      | Wheelbase | 3148 mm / 124 in |
+      | Dry Weight | 1030 kg / 2271 lbs |
+      | Wet Weight with Driver | 1176 kg / 2594 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: 动力单元
+    titleEn: POWER UNIT
+    bodyZh: |+
+      双涡轮 V6，配备 Bosch MGU 混合动力系统
+
+      ![动力单元](./assets/acura-arx-06-gtp/power-unit.png)
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 2.4 Liters / 146.5 CID |
+      | 转速上限 | 9985 RPM |
+      | 扭矩 | 396 lb-ft / 537 Nm |
+      | 功率 | 671 bhp / 500 kW |
+
+      ![车辆侧视图](./assets/acura-arx-06-gtp/vehicle-profile.png)
+
+    bodyEn: |+
+      TWIN-TURBO V6 WITH BOSCH MGU HYBRID SYSTEM
+
+      ![Image](./assets/acura-arx-06-gtp/power-unit.png)
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 2.4 Liters / 146.5 CID |
+      | RPM Limit | 9985 RPM |
+      | Torque | 396 lb-ft / 537 Nm |
+      | Power | 671 bhp / 500 kW |
+
+      ![Image](./assets/acura-arx-06-gtp/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: 简介
+    titleEn: INTRODUCTION
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校底盘设置。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信自己使用随附的基准设置已接近个人驾驶极限后，请继续阅读，开始根据自己的操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: 快速上手
+    titleEn: GETTING STARTED
+    bodyZh: |+
+      ![快速上手车辆](./assets/acura-arx-06-gtp/getting-started-overview.png)
+
+      ![快速上手](./assets/acura-arx-06-gtp/getting-started-car.png)
+
+      启动车辆前，建议先为制动力分配和牵引力控制系统映射控制按键。虽然这不是驾驶车辆的必需条件，但这样可以让您在赛道上根据自己的驾驶风格快速调整驾驶辅助系统。
+
+      载入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡或降挡均无需踩离合器。不过，如果车辆判断当前行驶速度对于所选挡位过高、会导致发动机损坏，降挡保护就不会允许降挡。在这种情况下，降挡指令会被直接忽略。建议在方向盘上的换挡提示灯全部变红时升挡。
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/getting-started-overview.png)
+
+      ![Image](./assets/acura-arx-06-gtp/getting-started-car.png)
+
+      Before starting the car, it is recommended to map controls to adjust the Brake Bias and Traction Control systems. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift up or down. However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. In these situations the downshift command will simply be ignored. Upshifting is recommended when all of the shift lights on the steering wheel have changed to red.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: 载入 iRacing 设置
+    titleEn: LOADING AN iRACING SETUP
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/acura-arx-06-gtp/loading-iracing-setup.png)
+
+      进入会话后，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如果您希望使用 iRacing 针对各种条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人保存的设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: 仪表配置
+    titleEn: DASH CONFIGURATION
+    bodyZh: |+
+      与车辆性能和车手可调设置相关的重要信息，都可以在集成于 Acura ARX-06 方向盘中的数字显示屏上找到。
+
+      ![仪表配置](./assets/acura-arx-06-gtp/dash-configuration.png)
+
+      | 字段 | 说明 |
+      | --- | --- |
+      | Lap Time Data | 显示屏顶部的横幅显示当前圈和上一圈的圈速信息。左框显示上一圈已完成的圈速，中框显示当前圈相对于本次会话最佳圈速的时间差，右框显示当前圈的预计圈速。分段时间和预计圈速会实时更新（完成一个赛段时会短暂停止更新）；分段时间较慢时变红，较快时变绿。 |
+      | E | 显示当前启用的混合动力释放模式 |
+      | F | 以百分比显示油箱剩余燃油量 |
+      | SoC % | 当前混合动力系统荷电状态，即电池储能系统中的剩余能量 |
+      | Laps | 本次会话已完成的圈数 |
+      | TC1 Map | 当前启用的牵引力控制滑移设置 |
+      | TC2 Map | 当前启用的牵引力控制增益设置 |
+      | TMOT | 发动机冷却（水）温度 |
+      | TOIL | 发动机机油温度 |
+      | Gear Indicator | 显示屏中央显示当前选择的挡位 |
+      | Tire Pressures | 实时胎压，显示在挡位指示下方各轮胎对应的位置 |
+      | Tire Surface Temperature | 各轮胎实时表面温度 |
+      | BAL | 当前制动力分配设置 |
+      | F REM | 剩余燃油量 |
+      | ARB F/R | 当前选择的前（蓝色）和后（红色）防倾杆设置 |
+      | F LAP | 上一圈消耗的燃油量 |
+      | POIL | 发动机机油压力 |
+      | PWAT | 发动机水压 |
+
+    bodyEn: |+
+      Vital information relating to the car’s performance and driver-adjustable settings can all be found on the digital display integrated into the Acura ARX-06’s steering wheel.
+
+      ![Image](./assets/acura-arx-06-gtp/dash-configuration.png)
+
+      | Field | Value |
+      | --- | --- |
+      | Lap Time Data | A banner across the top of the display shows information about the current and previous lap times. The left box displays the previously completed lap, the middle box shows the current time delta to the best lap time in the session, and the right box shows the predicted lap time for the current lap. The split box and the predicted lap time update live (but stop briefly when a sector is completed), with the split box turning red for a slower lap and green for a faster lap. |
+      | E | Displays the currently active Hybrid deploy mode |
+      | F | Amount of fuel remaining in the tank, shown as a percentage |
+      | SoC % | Current Hybrid System State of Charge, or how much energy is remaining in the battery storage system |
+      | Laps | Number of laps completed in the session |
+      | TC1 Map | Currently active Traction Control Slip setting |
+      | TC2 Map | Currently active Traction Control Gain setting |
+      | TMOT | Engine cooling (water) temperature |
+      | TOIL | Engine oil temperature |
+      | Gear Indicator | Currently selected gear, shown in the center of the display |
+      | Tire Pressures | Live tire pressures, shown below the Gear Indicator for each tire |
+      | Tire Surface Temperature | Live surface tire temperature for each tire |
+      | BAL | Current Brake Bias setting |
+      | F REM | Amount of fuel remaining |
+      | ARB F/R | Currently selected Front (blue) and Rear (red) ARB settings |
+      | F LAP | Amount of fuel used in the previous lap |
+      | POIL | Engine Oil Pressure |
+      | PWAT | Engine Water Pressure |
+
+  - id: wheelspin-brake-lock-indicators
+    level: 3
+    titleZh: 车轮空转 / 制动锁死指示灯
+    titleEn: WHEELSPIN / BRAKE LOCK INDICATOR LIGHTS
+    bodyZh: |+
+      仪表盘方向盘后方设有两组 LED 灯，用于快速向车手提示是否发生车轮空转或制动锁死。左侧 LED 灯组对应左侧车轮，右侧灯组对应右侧车轮。
+
+      ![牵引力控制指示灯](./assets/acura-arx-06-gtp/traction-control-indicator.png)
+
+      | 指示 | 说明 |
+      | --- | --- |
+      | 牵引力控制 | 当灯组全部亮起蓝色时，牵引力控制系统正在介入以减少车轮空转。严重的车轮空转和牵引力控制系统介入会使灯光持续亮蓝色；较轻程度的牵引力控制介入则会使灯光开始闪烁。 |
+
+      ![制动锁死指示灯](./assets/acura-arx-06-gtp/brake-lockup-indicator.png)
+
+      | 指示 | 说明 |
+      | --- | --- |
+      | 制动锁死 | 每当制动力足以使某个车轮开始锁死时，LED 灯就会亮起，同时显示发生锁死的车轮及锁死程度。粉色灯表示前轮锁死，黄色灯表示后轮锁死；亮起的 LED 越多，锁死越严重。上图显示两个前轮均已锁死，左后轮有轻微锁死。 |
+
+    bodyEn: |+
+      Two sets of LED lights are situated behind the steering wheel on the dash to quickly communicate to the driver if any wheelspin or brake lockup is occurring. The left LED cluster corresponds to the left wheels and the right cluster corresponds to the right wheels.
+
+      ![Image](./assets/acura-arx-06-gtp/traction-control-indicator.png)
+
+      | Indicator | Description |
+      | --- | --- |
+      | Traction Control | When the clusters light up all LEDs in blue the Traction Control system is intervening to reduce wheelspin. Severe cases of wheelspin and TC system activation will produce a solid blue light and the lights will begin flashing for less amounts of TC intervention. |
+
+      ![Image](./assets/acura-arx-06-gtp/brake-lockup-indicator.png)
+
+      | Indicator | Description |
+      | --- | --- |
+      | Brake Lockup | Whenever braking force is sufficient to begin locking a wheel the LEDs will illuminate to show both which wheel is locking and how severe the lockup is. Pink lights indicate front wheel lockup and yellow lights indicate rear wheel lockups, with lockups becoming more severe with more LEDs illuminated. The image above shows both front wheels locked with a slight lockup on the left-rear wheel. |
+
+  - id: shift-lights
+    level: 3
+    titleZh: 换挡提示灯
+    titleEn: SHIFT LIGHTS
+    bodyZh: |+
+      ![换挡提示灯](./assets/acura-arx-06-gtp/shift-lights.png)
+
+      方向盘顶部设有一组灯光，用于帮助车手在加速时判断何时升入下一挡。随着发动机转速升高，灯光会从左向右依次亮起，颜色从绿色开始，最后以右侧的两个红色 LED 收尾。
+
+      ![最佳换挡点](./assets/acura-arx-06-gtp/shift-point.png)
+
+      达到最佳换挡点后，所有 LED 都会变为红色并开始闪烁。
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/shift-lights.png)
+
+      The top of the steering wheel has a set of lights to help the driver know when to shift up to the next gear while accelerating. As RPM increases, the lights will illuminate from the left to right starting with green and ending with two red LEDs on the right.
+
+      ![Image](./assets/acura-arx-06-gtp/shift-point.png)
+
+      Once the optimum shift point has been reached all LEDs will change to red and begin flashing.
+
+  - id: pit-limiter
+    level: 3
+    titleZh: 进站限速器
+    titleEn: PIT LIMITER
+    bodyZh: |+
+      ![进站限速器](./assets/acura-arx-06-gtp/pit-limiter.png)
+
+      进站限速器启用时，换挡提示灯（以及换挡提示灯两侧的状态灯组）会变为粉色，方向盘显示屏右上方会出现“速度（SPEED）”指示。启用限速器且车速高于维修区道路限速时，中间的灯会熄灭。车速降低到维修区道路限速时，灯会亮起并向中央汇聚，直到所有灯都亮起，表示车辆正以维修区道路限速行驶。灯光仅按二挡发动机转速进行标定；在其他挡位启用进站限速器不会影响维修区道路限速，但车辆达到维修区道路限速时亮起的灯数会发生变化。
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/pit-limiter.png)
+
+      When the pit limiter is active the shift lights (and the status clusters on either side of the shift lights) will change to pink and a “SPEED” indicator will appear at the top right of the steering wheel display. When the pit limiter is enabled and speed is above the pit road speed limit the center lights will be off. As speed decreases to the pit road speed limit the lights will illuminate and converge in the center until all lights are on, signaling the car is traveling at the pit road speed limit. The lights are tuned for 2nd gear RPMs only, running with the pit limiter on in another gear won’t affect the pit road speed limit but will change how many lights are illuminated when the car is running at the pit road speed limit.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: 高级设置选项
+    titleEn: ADVANCED SETUP OPTIONS
+    bodyZh: |+
+      > 本节面向希望深入了解车辆设置不同方面的高级用户。调整以下参数并非驾驶车辆所必需，而且可能显著改变车辆的操控方式。建议小幅、逐步调整，每次只改变一个变量，然后测试变化。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-aero
+    level: 2
+    titleZh: 轮胎与空气动力学
+    titleEn: TIRES & AERO
+
+  - id: tire-data
+    level: 3
+    titleZh: 轮胎数据
+    titleEn: TIRE DATA
+    bodyZh: |+
+      ![轮胎数据](./assets/acura-arx-06-gtp/tire-data.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 轮胎类型（TIRE TYPE） | 选择车辆载入赛道时安装的轮胎类型。干地或光头胎用于干燥比赛条件；湿胎用于下雨和湿滑赛道条件。 |
+      | 初始胎压（STARTING PRESSURE） | 车辆载入赛道时的轮胎气压。较低的胎压会提供更多抓地力，但会产生更大的滚动阻力并更快升温；较高的胎压会让车辆响应略快并减少滚动阻力，但会降低抓地力。通常，高胎压更适合高速赛道，而低胎压更适合机械抓地力重要的低速赛道。 |
+      | 最后温度（LAST TEMPS） | 车辆驶回后显示的轮胎胎体温度（在胎面内部测量）。这些温度是判断轮胎在赛道上承受多少工作量或载荷的有效方式。内侧与外侧温度的差异可用于调校单个车轮的定位；中间温度则可与外侧温度比较，以帮助调校胎压。 |
+      | 剩余胎纹（TREAD REMAINING） | 轮胎温度下方会显示胎面剩余量，以新胎的百分比表示。这些数值有助于判断一套轮胎在需要更换前还能使用多久，但与温度相比，它们不一定能同样反映轮胎是否工作过度或工作不足。 |
+      | 最后热胎压（LAST HOT PRESSURE） | 车辆完成一段赛道行驶并返回车库后，胎压会显示为热胎压。冷胎压与热胎压之间的差值，是观察轮胎在赛道上承受载荷和工作的好方法。承受更多工作的轮胎会建立更高胎压；关注哪些轮胎胎压升高更多，并通过调整冷胎压进行补偿，对优化轮胎性能至关重要。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/tire-data.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | TIRE TYPE | Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions. |
+      | STARTING PRESSURE | The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important. |
+      | LAST TEMPS | The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure. |
+      | TREAD REMAINING | The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will. |
+      | LAST HOT PRESSURE | When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance. |
+
+  - id: aero-settings
+    level: 3
+    titleZh: 空气动力学设置
+    titleEn: AERO SETTINGS
+    bodyZh: |+
+      ![空气动力学设置](./assets/acura-arx-06-gtp/aero-settings.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 后翼角度（REAR WING ANGLE） | 后翼角度设置会改变后翼的迎角。增大角度会增加产生的下压力并使空气动力学平衡后移，但也会增加尾翼产生的阻力。减小角度会降低总下压力并使空气动力学平衡前移，同时降低阻力并允许更高的最高速度。此角度是参考测量值，并非相对于地面的绝对角度。 |
+      | 前/后高速车高（FRONT/REAR RH AT SPEED） | 高速车高（RH at Speed）用于为空气动力学计算器提供参考高度。使用空气动力学计算器时，通过遥测在赛道任意位置确定车辆的前、后车高，并将相应数值输入“Front RH at Speed”设置。 |
+      | 下压力平衡（DOWNFORCE BALANCE） | 该数值以车头下压力的百分比显示总下压力有多少位于前轴上。百分比越高表示车头下压力越大，会增加中高速弯中的转向过度；百分比越低表示车尾下压力越大，会增加中高速弯中的转向不足。 |
+      | 空气动力学计算器（AERO CALCULATOR） | 用于显示特定配置下车辆近似空气动力学数值的工具。车辆空气动力学设置的变化会反映在计算器中，从而帮助了解车辆在赛道上的空气动力学表现。计算器还可用于确定需要进行哪些改动，以缓解由空气动力学引起的操控问题。 |
+      | 升阻比（L/D） | “L/D”是升力（下压力）与阻力的比值，用于量化车身在产生下压力时的效率，即产生了多少阻力作为代价。L/D 值越高，表示每单位阻力产生的下压力越多，也意味着车身效率更高。在不牺牲总下压力的前提下，较高的 L/D 值会带来更快、更高效的车辆。L/D 的最佳数值会因空气动力学配置和赛道类型而异。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/aero-settings.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | REAR WING ANGLE | The Rear Wing Angle setting changes the angle of attack of the rear wing. Increasing the angle will increase the amount of downforce produced and move the aero balance rearward but will increase the amount of drag the wing produces. Reducing the angle will reduce overall downforce and shift aero balance forward, but will reduce drag and allow for a higher top speed. This angle is expressed as a reference measurement, not an absolute angle relative to the ground. |
+      | FRONT/REAR RH AT SPEED | The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front and Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. |
+      | DOWNFORCE BALANCE | Displayed in percent of Front downforce, this value shows how much of the car’s total downforce is over the front axle. A higher percentage value indicates more front downforce, increasing oversteer in mid- to high-speed corners and a lower percentage value indicates more rear downforce, increasing understeer in mid- to high-speed corners. |
+      | AERO CALCULATOR | The Aero Calculator is a tool used to display the car’s approximate aerodynamic values in a given configuration. Changes to the car’s aerodynamic settings will be reflected in the Aero Calculator, giving an idea of how the car will behave aerodynamically while on the race track. This calculator can also be used to determine what changes need to be made to the car to alleviate aerodynamically-induced handling issues. |
+      | L/D | The “L/D” value is the ratio of Lift (downforce) to Drag. This quantifies how efficiently the car’s bodywork is producing downforce in terms of how much drag is being produced as a result. A higher L/D value means more downforce is being produced for each unit of drag, meaning the bodywork is being more efficient. Having a higher L/D value without sacrificing overall downforce will result in a faster, more efficient car. Optimum values for L/D can vary based on the aerodynamic configuration and track type. |
+
+  - id: chassis
+    level: 2
+    titleZh: 底盘
+    titleEn: CHASSIS
+
+  - id: front-chassis
+    level: 3
+    titleZh: 前部
+    titleEn: FRONT
+    bodyZh: |+
+      ![前部底盘设置](./assets/acura-arx-06-gtp/front-chassis.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 垂向弹簧（HEAVE SPRING） | 垂向弹簧是悬架元件，在底盘仅沿垂直方向运动时承受载荷，不承受由底盘侧倾产生的载荷。前垂向弹簧会影响制动和通过颠簸路面时的底盘操控平衡，但主要用于控制随速度升高而增加的空气动力学载荷。更硬的垂向弹簧刚度会使悬架垂向行程更硬，并带来更稳定的空气动力学平台，但可能降低崎岖路面的机械抓地力。更软的垂向弹簧会增加机械抓地力，但可能允许过多运动，使空气动力学表现不够稳定。 |
+      | 防倾杆尺寸（ARB SIZE） | 防倾杆（ARB）是前悬架中的弹簧装置，用于抵抗侧倾运动，但不抵抗垂向载荷。改变防倾杆直径会改变前悬架的侧倾刚度和操控平衡：更硬的 ARB 设置会增加前部侧倾刚度并导致转向不足，更软的设置会降低刚度并减小转向不足。断开防倾杆会将其完全从悬架中移除，能够大幅降低机械转向不足，但侧倾刚度下降可能损害高速弯中的空气动力学性能。 |
+      | 垂向弹簧座偏移（HEAVE PERCH OFFSET） | 垂向弹簧座偏移用于给垂向弹簧元件预加载，使前部车高可以改变而不会对悬架产生不对称载荷。减小该数值会给垂向弹簧增加预载并抬高前部车高，增大该数值会释放弹簧载荷并降低前部车高。 |
+      | 防倾杆刀片（ARB BLADES） | 防倾杆刀片（或摆臂）可在仅调整 ARB 尺寸之外进一步调校悬架侧倾刚度。该选项改变 ARB 刀片的方向，并以数值表示以便操作：#1 最软，数值增大到最大值 #5 时刀片逐渐变硬。按刚度而言，刀片设置与相应 ARB 尺寸调整产生相同结果：更硬的刀片会增加前部侧倾刚度并导致转向不足，更软的刀片会降低前部侧倾刚度并减小转向不足。该设置可在车辆中通过 F8 黑盒的“FARB”设置调整。 |
+      | 垂向弹簧挠度（HEAVE SPRING DEFLECTION） | 垂向弹簧挠度是垂向弹簧从自由（未加载）长度压缩了多少。该值不能直接调整，但会因其他前悬架调整而改变，尤其受垂向弹簧座偏移影响。挠度越大表示弹簧预载越高，挠度越小表示弹簧越放松。 |
+      | 垂向减振器挠度（HEAVE DAMPER DEFLECTION） | 垂向减振器挠度表示垂向元件在触底前还可用的行程。该数值不代表悬架上的任何载荷，只表示垂向减振器的位置。 |
+      | 推杆长度差值（PUSHROD LENGTH DELTA） | 同时调整两根前悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整前部车高而不改变垂向弹簧预载的有效方法。 |
+      | 前束（TOE-IN） | 前束是从垂直方向观察时，车轮相对于底盘中心线的角度。前束内收表示车轮前端比后端更靠近中心线；前束外张则表示车轮前端比后端更远离中心线。在前部，前束会改变轮胎对转向输入的响应速度，并影响车辆直线稳定性。前束外张（车库中的负值）会提高入弯响应，但降低直线稳定性；前束内收（车库中的正值）会提高直线稳定性，但使初始转向响应更迟钝。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/front-chassis.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | HEAVE SPRING | The Heave Spring is a suspension element that handles loads when the chassis moves in a purely vertical direction and does not experience loads generated from chassis roll. The front Heave Spring will influence the chassis’ handling balance during braking and over bumps, but is primarily intended to control increasing aerodynamic loads with higher speeds. Stiffer Heave Spring rates will stiffen the suspension in vertical travel and result in a more consistent aerodynamic platform but can reduce mechanical grip over rough surfaces. Softer Heave Springs will increase mechanical grip but could allow too much movement to keep the aerodynamic behavior consistent. |
+      | ARB SIZE | The Anti-Roll Bar (ARB) is a spring device in the front suspension that counteracts roll movement but not vertical loading. Changing the ARB diameter will alter the front suspension’s roll stiffness and handling balance: Stiffer ARB settings will increase front roll stiffness and induce understeer, softer ARB settings will reduce stiffness and reduce understeer. Disconnecting the bar will remove the ARB from the suspension entirely and can greatly reduce mechanical understeer, however this reduction in roll stiffness can hurt aerodynamic performance in high-speed corners. |
+      | HEAVE PERCH OFFSET | The Heave Perch Offset is a way to preload the Heave Spring element, allowing front ride height changes without inducing any asymmetric loading to the suspension. Decreasing the value will preload the Heave spring and raise the front ride heights, increasing the value will unload the spring and lower the front ride heights. |
+      | ARB BLADES | The ARB Blades (or arms) can be changed to further tune the suspension roll stiffness beyond only the ARB size setting. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with #1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of #5. Based on stiffness the blade option will produce the same result as a similar adjustment to the ARB Size: Stiffer blade settings will increase front roll stiffness and induce understeer while softer blade settings will reduce front roll stiffness and reduce understeer. This setting can be adjusted in the car from the F8 black box using the “FARB” setting. |
+      | HEAVE SPRING DEFLECTION | The Heave Spring Deflection is how much the Heave Spring has compressed from its free (unloaded) length. This is not directly adjustable, but is altered as a result of other front suspension adjustments, especially the Heave Perch Offset setting. Higher deflection indicates the spring is under higher pre-load, lower deflection indicates a more relaxed spring. |
+      | HEAVE DAMPER DEFLECTION | The Heave Damper Deflection is an indicator of how much travel is available in the Heave element before bottoming out. This value doesn’t represent any loading in the suspension, only the Heave Damper’s position. |
+      | PUSHROD LENGTH DELTA | This adjusts the length of both front suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust front ride height without altering the preload on the Heave Spring. |
+      | TOE-IN | Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish. |
+
+  - id: rear-chassis
+    level: 3
+    titleZh: 后部
+    titleEn: REAR
+    bodyZh: |+
+      ![后部底盘设置](./assets/acura-arx-06-gtp/rear-chassis.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 垂向弹簧（HEAVE SPRING） | 垂向弹簧是悬架元件，在底盘仅沿垂直方向运动时承受载荷，不承受由底盘侧倾产生的载荷。后垂向弹簧会影响制动和通过颠簸路面时的底盘操控平衡，但主要用于控制随速度升高而增加的空气动力学载荷。更硬的垂向弹簧刚度会使悬架垂向行程更硬，并带来更稳定的空气动力学平台，但可能降低崎岖路面的机械抓地力。更软的垂向弹簧会增加机械抓地力，但可能允许过多运动，使空气动力学表现不够稳定。 |
+      | 防倾杆尺寸（ARB SIZE） | 防倾杆（ARB）是后悬架中的弹簧装置，用于抵抗侧倾运动，但不抵抗垂向载荷。改变防倾杆直径会改变后悬架的侧倾刚度和操控平衡：更硬的 ARB 设置会增加后部侧倾刚度并导致转向过度，更软的设置会降低刚度并减小转向过度。断开防倾杆会将其完全从悬架中移除，能够大幅降低机械转向过度，但侧倾刚度下降可能损害高速弯中的空气动力学性能。 |
+      | 垂向弹簧座偏移（HEAVE PERCH OFFSET） | 垂向弹簧座偏移用于给垂向弹簧元件预加载，使后部车高可以改变而不会对悬架产生不对称载荷。减小该数值会给垂向弹簧增加预载并抬高后部车高，增大该数值会释放弹簧载荷并降低后部车高。 |
+      | 防倾杆刀片（ARB BLADES） | 防倾杆刀片（或摆臂）可在仅调整 ARB 尺寸之外进一步调校悬架侧倾刚度。该选项改变 ARB 刀片的方向，并以数值表示以便操作：#1 最软，数值增大到最大值 #5 时刀片逐渐变硬。按刚度而言，刀片设置与相应 ARB 尺寸调整产生相同结果：更硬的刀片会增加后部侧倾刚度并导致转向过度，更软的刀片会降低后部侧倾刚度并减小转向过度。该设置可在车辆中通过 F8 黑盒的“RARB”设置调整。 |
+      | 垂向弹簧挠度（HEAVE SPRING DEFLECTION） | 垂向弹簧挠度是垂向弹簧从自由（未加载）长度压缩了多少。该值不能直接调整，但会因其他后悬架调整而改变，尤其受垂向弹簧座偏移影响。挠度越大表示弹簧预载越高，挠度越小表示弹簧越放松。 |
+      | 垂向减振器挠度（HEAVE DAMPER DEFLECTION） | 垂向减振器挠度表示垂向元件在触底前还可用的行程。该数值不代表悬架上的任何载荷，只表示垂向减振器的位置。 |
+      | 推杆长度差值（PUSHROD LENGTH DELTA） | 同时调整两根后悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整后部车高而不改变垂向弹簧预载的有效方法。 |
+      | 后束（TOE-IN） | 前束是从垂直方向观察时，车轮相对于底盘中心线的角度。前束内收表示车轮前端比后端更靠近中心线；前束外张则表示车轮前端比后端更远离中心线。在后部，前束主要会改变车辆的直线稳定性和改变方向的容易程度。前束外张（车库中的负值）会提高入弯响应，但降低直线稳定性；前束内收（车库中的正值）会提高直线稳定性。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/rear-chassis.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | HEAVE SPRING | The Heave Spring is a suspension element that handles loads when the chassis moves in a purely vertical direction and does not experience loads generated from chassis roll. The rear Heave Spring will influence the chassis’ handling balance during braking and over bumps, but is primarily intended to control increasing aerodynamic loads with higher speeds. Stiffer Heave Spring rates will stiffen the suspension in vertical travel and result in a more consistent aerodynamic platform but can reduce mechanical grip over rough surfaces. Softer Heave Springs will increase mechanical grip but could allow too much movement to keep the aerodynamic behavior consistent. |
+      | ARB SIZE | The Anti-Roll Bar (ARB) is a spring device in the rear suspension that counteracts roll movement but not vertical loading. Changing the ARB diameter will alter the rear suspension’s roll stiffness and handling balance: Stiffer ARB settings will increase rear roll stiffness and induce oversteer, softer ARB settings will reduce stiffness and reduce oversteer. Disconnecting the bar will remove the ARB from the suspension entirely and can greatly reduce mechanical oversteer, however this reduction in roll stiffness can hurt aerodynamic performance in high-speed corners. |
+      | HEAVE PERCH OFFSET | The Heave Perch Offset is a way to preload the Heave Spring element, allowing rear ride height changes without inducing any asymmetric loading to the suspension. Decreasing the value will preload the Heave spring and raise the rear ride heights, increasing the value will unload the spring and lower the rear ride heights. |
+      | ARB BLADES | The ARB Blades (or arms) can be changed to further tune the suspension roll stiffness beyond only the ARB size setting. This option changes the orientation of the ARB blades and are given numerical values for simplicity, with #1 being the softest option and the blades becoming stiffer as the value is increased to the maximum setting of #5. Based on stiffness the blade option will produce the same result as a similar adjustment to the ARB Size: Stiffer blade settings will increase rear roll stiffness and induce oversteer while softer blade settings will reduce rear roll stiffness and reduce oversteer. This setting can be adjusted in the car from the F8 black box using the “RARB” setting. |
+      | HEAVE SPRING DEFLECTION | The Heave Spring Deflection is how much the Heave Spring has compressed from its free (unloaded) length. This is not directly adjustable, but is altered as a result of other rear suspension adjustments, especially the Heave Perch Offset setting. Higher deflection indicates the spring is under higher pre-load, lower deflection indicates a more relaxed spring. |
+      | HEAVE DAMPER DEFLECTION | The Heave Damper Deflection is an indicator of how much travel is available in the Heave element before bottoming out. This value doesn’t represent any loading in the suspension, only the Heave Damper’s position. |
+      | PUSHROD LENGTH DELTA | This adjusts the length of both rear suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust rear ride height without altering the preload on the Heave Spring. |
+      | TOE-IN | Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the rear end, Toe will primarily alter how stable the car is in a straight line and how easily the car will change direction. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability. |
+
+  - id: front-corners
+    level: 3
+    titleZh: 前部车轮
+    titleEn: FRONT CORNERS
+    bodyZh: |+
+      ![前部车轮设置](./assets/acura-arx-06-gtp/front-corners.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 角重（CORNER WEIGHT） | 车辆静止在车库中时每条轮胎下方的重量。车辆周围的重量分布对车辆性能至关重要，最终决定车辆的操控方式。这些数值不能直接调整，但会因悬架载荷变化而在设置过程中频繁改变。改变这些数值最有效的方法是调整“扭杆圈数”设置，但四个角的角重都会受到影响。 |
+      | 车高（RIDE HEIGHT） | 前车高是从地面到投影至前轴的底盘底板下表面的距离。这些是参考车高，不一定代表离地间隙，因此遥测中出现零值（甚至负值）不一定表示底盘已经接触地面。 |
+      | 外倾角（CAMBER） | 外倾角是车轮相对于底盘中心的垂直角度。负外倾角表示车轮顶部比底部更靠近底盘中心线，正外倾角表示轮胎顶部比底部更向外。由于悬架几何和弯中载荷的影响，四个车轮都需要负外倾角。更大的负外倾角会增加轮胎产生的转弯力，但会减少制动时的纵向抓地力。过大的外倾角虽然能产生很高的转弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间取得平衡。 |
+      | 扭杆挠度（TORSION BAR DEFLECTION） | 扭杆挠度是悬架扭杆相对于未加载状态的偏转量。挠度越大，表示相应扭杆的预载越高；挠度越小，表示扭杆的预载越低。 |
+      | 扭杆圈数（TORSION BAR TURNS） | 每根扭杆都可以预加载，以抬高或降低车辆的某个角，并增加或减少扭杆弹簧的预载。增大圈数值会给扭杆增加预载并抬高该角车高；减小圈数值会降低相应扭杆的预载并降低该角车高。 |
+      | 扭杆外径（TORSION BAR O.D.） | 每个角的扭杆都是该车每个角的弹簧元件，其工作方式与传统螺旋弹簧相同。每根扭杆的外径决定其弹簧刚度，以及悬架载荷变化时的刚硬程度。直径更大的扭杆弹簧刚度更高、也更硬，有利于保持车辆在赛道上的空气动力学姿态稳定，但会降低机械抓地力，尤其是在低速弯中。直径更小的扭杆弹簧刚度更低，可带来更多机械抓地力，但悬架额外的运动可能损害高速下的空气动力学性能。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/front-corners.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | CORNER WEIGHT | The weight under each tire while the car is stationary in the garage. Weight placement around the car is crucial to a car’s performance and is ultimately what determines how the car handles. These are not directly adjustable, but will change frequently through the setup process due to changing loads on the suspension. The most effective way to change the values is through the Torsion Bar Turns setting, however all four corner weights will be affected. |
+      | RIDE HEIGHT | Front Ride Height is the distance from the ground to the bottom of the chassis plank projected to the front axle. These are reference heights, not necessarily ground clearance values, so values of zero (or even negative) in telemetry may not necessarily indicate the chassis being in contact with the ground. |
+      | CAMBER | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. |
+      | TORSION BAR DEFLECTION | Torsion Bar Deflection is how far the suspension torsion bars have deflected from their unloaded state. Higher deflection equates to more preload on a given torsion bar, while lower deflections indicate a bar with less preload. |
+      | TORSION BAR TURNS | Each torsion bar can be preloaded to raise or lower a given corner of the car and increase or decrease the preload on the torsion bar springs. Increasing the Turn value will preload the torsion bar and raise the corner’s ride height, decreasing the Turn value will reduce the preload on a given torsion bar and lower the corner’s ride height. |
+      | TORSION BAR O.D. | The corner Torsion Bars are the spring elements for each corner of the car and behave in the same way as a conventional coil spring. The Outer Diameter of each torsion bar determines the bar’s spring rate and how stiff the bar is through changing suspension loads. Larger diameter bars will have a higher spring rate and will be stiffer, which is great for maintaining a consistent aerodynamic attitude around the track but will reduce mechanical grip, especially in slow corners. Smaller torsion bars will have a lower spring rate and produce more mechanical grip, however the extra movement from the suspension can hurt aerodynamic performance at high speeds. |
+
+  - id: rear-corners
+    level: 3
+    titleZh: 后部车轮
+    titleEn: REAR CORNERS
+    bodyZh: |+
+      ![后部车轮设置](./assets/acura-arx-06-gtp/rear-corners.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 角重（CORNER WEIGHT） | 车辆静止在车库中时每条轮胎下方的重量。车辆周围的重量分布对车辆性能至关重要，最终决定车辆的操控方式。这些数值不能直接调整，但会因悬架载荷变化而在设置过程中频繁改变。改变这些数值最有效的方法是调整“扭杆圈数”设置，但四个角的角重都会受到影响。 |
+      | 车高（RIDE HEIGHT） | 后车高是从地面到投影至后轴的底盘底板下表面的距离。这些是参考车高，不一定代表离地间隙，因此遥测中出现零值（甚至负值）不一定表示底盘已经接触地面。 |
+      | 外倾角（CAMBER） | 外倾角是车轮相对于底盘中心的垂直角度。负外倾角表示车轮顶部比底部更靠近底盘中心线，正外倾角表示轮胎顶部比底部更向外。由于悬架几何和弯中载荷的影响，四个车轮都需要负外倾角。更大的负外倾角会增加轮胎产生的转弯力，但会减少制动时的纵向抓地力。过大的外倾角虽然能产生很高的转弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间取得平衡。 |
+      | 扭杆挠度（TORSION BAR DEFLECTION） | 扭杆挠度是悬架扭杆相对于未加载状态的偏转量。挠度越大，表示相应扭杆的预载越高；挠度越小，表示扭杆的预载越低。 |
+      | 扭杆圈数（TORSION BAR TURNS） | 每根扭杆都可以预加载，以抬高或降低车辆的某个角，并增加或减少扭杆弹簧的预载。增大圈数值会给扭杆增加预载并抬高该角车高；减小圈数值会降低相应扭杆的预载并降低该角车高。 |
+      | 扭杆外径（TORSION BAR O.D.） | 每个角的扭杆都是该车每个角的弹簧元件，其工作方式与传统螺旋弹簧相同。每根扭杆的外径决定其弹簧刚度，以及悬架载荷变化时的刚硬程度。直径更大的扭杆弹簧刚度更高、也更硬，有利于保持车辆在赛道上的空气动力学姿态稳定，但会降低机械抓地力，尤其是在低速弯中。直径更小的扭杆弹簧刚度更低，可带来更多机械抓地力，但悬架额外的运动可能损害高速下的空气动力学性能。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/rear-corners.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | CORNER WEIGHT | The weight under each tire while the car is stationary in the garage. Weight placement around the car is crucial to a car’s performance and is ultimately what determines how the car handles. These are not directly adjustable, but will change frequently through the setup process due to changing loads on the suspension. The most effective way to change the values is through the Torsion Bar Turns setting, however all four corner weights will be affected. |
+      | RIDE HEIGHT | Rear Ride Height is the distance from the ground to the bottom of the chassis plank projected to the rear axle. These are reference heights, not necessarily ground clearance values, so values of zero (or even negative) in telemetry may not necessarily indicate the chassis being in contact with the ground. |
+      | CAMBER | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. |
+      | TORSION BAR DEFLECTION | Torsion Bar Deflection is how far the suspension torsion bars have deflected from their unloaded state. Higher deflection equates to more preload on a given torsion bar, while lower deflections indicate a bar with less preload. |
+      | TORSION BAR TURNS | Each torsion bar can be preloaded to raise or lower a given corner of the car and increase or decrease the preload on the torsion bar springs. Increasing the Turn value will preload the torsion bar and raise the corner’s ride height, decreasing the Turn value will reduce the preload on a given torsion bar and lower the corner’s ride height. |
+      | TORSION BAR O.D. | The corner Torsion Bars are the spring elements for each corner of the car and behave in the same way as a conventional coil spring. The Outer Diameter of each torsion bar determines the bar’s spring rate and how stiff the bar is through changing suspension loads. Larger diameter bars will have a higher spring rate and will be stiffer, which is great for maintaining a consistent aerodynamic attitude around the track but will reduce mechanical grip, especially in slow corners. Smaller torsion bars will have a lower spring rate and produce more mechanical grip, however the extra movement from the suspension can hurt aerodynamic performance at high speeds. |
+
+  - id: dampers
+    level: 2
+    titleZh: 减振器
+    titleEn: DAMPERS
+
+  - id: heave-dampers
+    level: 3
+    titleZh: 垂向减振器
+    titleEn: HEAVE DAMPERS
+    bodyZh: |+
+      ![垂向减振器设置](./assets/acura-arx-06-gtp/heave-dampers.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 低速压缩阻尼（LS COMPRESSION DAMPING） | 低速压缩阻尼影响减振器在相对低速运动时对压缩（长度缩短）的抵抗程度，通常对应转向、制动和油门等车手输入以及弯道载荷引起的底盘运动。较高数值会增加压缩阻力，使低速条件下载荷更快转移到相应轮胎，从而在踩油门时导致转向不足。对于前部减振器，增大低速压缩阻尼可能在制动和入弯时导致转向不足，减小则会降低转向不足。增大后部低速压缩阻尼会提高初始踩油门时的牵引力，减小则可以降低加油时的转向不足。 |
+      | 低速回弹阻尼（LS REBOUND DAMPING） | 低速回弹阻尼控制减振器在低速伸长时的刚度，通常发生在车手输入造成的车身运动过程中。较高的回弹值会抵抗减振器伸长，较低的数值会允许减振器更快伸长。较高的回弹值可以更好地控制空气动力学姿态，但如果悬架无法充分伸展以维持与赛道的适当接触，车轮可能会卸载。对于车辆前部，较高的低速回弹会在踩油门时导致转向不足；车辆后部设置较高时，则可能在制动时导致转向不足。 |
+      | 高速压缩阻尼（HS COMPRESSION DAMPING） | 高速压缩阻尼影响减振器在高速行程中的表现，通常对应路缘冲击和路面颠簸。较高的压缩数值会使悬架在这些情况下更硬；较低的数值会让悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 |
+      | 高速回弹阻尼（HS REBOUND DAMPING） | 高速回弹会在颠簸和路缘冲击时调节减振器的伸长。较高数值会降低减振器伸长的速度，较低数值会让减振器更容易伸长。尽管它对车手输入造成的操控影响没有那么大，但如果设置不当，高速回弹仍会在空气动力学控制和非受控振荡方面产生类似结果。 |
+      | 高速压缩阻尼斜率（HS COMPRESSION DAMPING SLOPE） | 高速压缩阻尼斜率设置控制减振器高速压缩侧的整体曲线形状。较低的斜率数值会产生更平坦、更渐退的曲线；较高的数值则会产生更线性、更激进的压缩曲线。斜率设置对于控制减振器高速运动时的颠簸吸收以及空气动力学平台非常重要。较低的斜率有助于在崎岖赛道上吸收颠簸和路缘等尖锐冲击；较高的斜率会使悬架保持更硬，有助于抵抗压缩并使底盘抬过路面颠簸。需要理解的是，这些设置会影响高速压缩阻尼可用的范围：斜率越高，高速压缩的整体作用力越大。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/heave-dampers.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | LS COMPRESSION DAMPING | Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application. For shocks on the front end, increasing Low-Speed Compression can induce understeer under braking and at turn-in, reducing it will reduce understeer. Increasing Low-Speed Compression on the rear of the car will increase traction on initial throttle application, while reducing it can reduce on-throttle understeer. |
+      | LS REBOUND DAMPING | Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. On the front of the car, higher Low-Speed Rebound can induce understeer on throttle application while higher settings on the rear of the car can induce understeer under braking. |
+      | HS COMPRESSION DAMPING | High-Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. |
+      | HS REBOUND DAMPING | High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in result to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. |
+      | HS COMPRESSION DAMPING SLOPE | The High-Speed Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid, which can be helpful in resisting compression and raising the chassis above a bump in the track surface. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression. |
+
+  - id: roll-dampers
+    level: 3
+    titleZh: 侧倾减振器
+    titleEn: ROLL DAMPERS
+    bodyZh: |+
+      ![侧倾减振器设置](./assets/acura-arx-06-gtp/roll-dampers.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 低速阻尼（LS DAMPING） | 侧倾减振器的低速阻尼设置会改变其在侧倾过程中对压缩和伸长的抵抗程度。较高数值会在底盘侧倾时产生更硬的减振器，使弯道外侧轮胎更快承受载荷；较低数值会使减振器更软，延迟外侧轮胎承受载荷。由于侧倾减振器的工作方式，底盘侧倾时减振器会在一个方向压缩、在另一个方向回弹，因此压缩和回弹会同时等量调整。 |
+      | 高速阻尼（HS DAMPING） | 高速阻尼设置会改变前侧倾减振器在更高速度下的刚度，例如单轮驶过路缘或发生左右振荡时。与低速设置一样，压缩和回弹数值作为一个整体联动。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/roll-dampers.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | LS DAMPING | The Low-Speed damping setting on the Roll Dampers will alter how resistant the damper is to both compression and expansion during roll. Higher values will produce a stiffer shock with chassis roll, which can load the outer tire in a corner more quickly, and lower values will soften the shock and delay load to the outer tire. Due to the Roll Damper’s operation, rolling the chassis will result in the damper compressing for one direction and rebounding for the other direction, thus both compression and rebound are adjusted equally together. |
+      | HS DAMPING | The High-Speed damping setting will alter how stiff the front Roll Damper is at higher velocities, such as one-wheel curb strikes or side-to-side oscillations. As with the Low-Speed setting, the compression and rebound values are linked as one. |
+
+  - id: systems
+    level: 2
+    titleZh: 系统
+    titleEn: SYSTEMS
+
+  - id: lighting-brake-spec
+    level: 3
+    titleZh: 灯光与制动规格
+    titleEn: LIGHTING & BRAKE SPEC
+    bodyZh: |+
+      ![灯光与制动规格](./assets/acura-arx-06-gtp/lighting-brake-spec.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 车顶识别灯颜色（ROOF ID LIGHT COLOR） | 可以改变车顶识别灯的颜色，以便在夜间环境中更好地区分涂装相似的车辆。该调整不会影响车辆性能。 |
+      | 刹车片复合材料（PAD COMPOUND） | 可以通过刹车片复合材料改变车辆的制动性能。“Low”设置提供最小摩擦力，会降低制动效果，但有利于更好地调节制动压力；“Medium”和“High”提供更多摩擦力并提高制动效果，同时增加制动锁死的风险。 |
+      | 前主缸（FRONT MASTER CYLINDER） | 可以改变前制动主缸的尺寸，以调整通往前制动卡钳的管路压力。更大的主缸会降低前制动压力，使制动力分配后移，并增加锁死前轮所需的踏板力度。更小的主缸会增加前制动管路压力，使制动力分配前移，并降低锁死前轮所需的踏板力度。 |
+      | 后主缸（REAR MASTER CYLINDER） | 可以改变后制动主缸的尺寸，以调整通往后制动卡钳的管路压力。更大的主缸会降低后制动压力，使制动力分配前移，并增加锁死后轮所需的踏板力度。更小的主缸会增加后制动管路压力，使制动力分配后移，并降低锁死后轮所需的踏板力度。 |
+      | 制动压力分配（BRAKE PRESSURE BIAS） | 制动力分配是传向前制动器的制动力百分比。高于 50% 的数值表示更多压力传向前部，低于 50% 的数值表示更多制动力传向后部。应根据车手偏好和赛道条件进行调节，以获得特定情况下的最佳制动性能。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/lighting-brake-spec.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | ROOF ID LIGHT COLOR | The color of the identifier lights on the roof of the car can be changed to better identify similarly-painted cars in nighttime conditions. This adjustment has no effect on vehicle performance. |
+      | PAD COMPOUND | The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing for better brake pressure modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup. |
+      | FRONT MASTER CYLINDER | The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels. |
+      | REAR MASTER CYLINDER | The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels. |
+      | BRAKE PRESSURE BIAS | Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation. |
+
+  - id: hybrid-fuel
+    level: 3
+    titleZh: 混合动力配置与燃油
+    titleEn: HYBRID CONFIG & FUEL
+    bodyZh: |+
+      ![混合动力与燃油设置](./assets/acura-arx-06-gtp/hybrid-fuel.png)
+
+      Acura ARX-06 的混合动力系统可设为五种释放模式之一，以改变一圈结束时的目标荷电状态（SoC）。每种模式都会在一圈中使用不同程度的能量来达到目标，因此有些模式会在消耗电池电量的代价下，在一圈中产生更多功率并实现更快圈速。
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 不释放（NO DEPLOY） | 在“不释放”模式下，混合动力系统不会使用电池中储存的能量。这实际上会禁用混合动力驱动系统，并且只会在一圈中为电池充电。该模式仅在排位赛和测试会话中可用，用于在切换到“Qual”模式前将电池充满。 |
+      | 平衡（BALANCED） | “平衡”模式是混合动力系统的主要比赛模式。该模式会尝试释放电能，在尽可能降低圈速的同时，在一圈持续时间内保持合理的荷电状态。会话开始时，混合动力系统需要几圈飞驰圈来学习赛道并优化释放策略，以取得最佳圈速；该模式仅在练习、比赛和测试会话中可用。 |
+      | 排位（QUAL） | 该模式用于排位赛的飞驰圈，并会尝试在一圈中用尽所有电池电量。该模式仅在排位赛和测试会话中可用；在出站圈和热身圈中应先使用“不释放”设置，确保电池充满后再切换到“Qual”模式。 |
+      | 建立电量（BUILD） | “建立”模式会在电池电量较低，或需要在切换到“Attack”模式前充电时，尝试尽快建立电池电量。请注意，与“平衡”模式相比，该模式会大幅牺牲圈速；电池充电后应切回“平衡”模式，避免浪费回收的能量并防止不必要的速度损失。该模式仅在练习、比赛和测试会话中可用。 |
+      | 攻击（ATTACK） | “攻击”模式会降低目标荷电状态，以便在比赛会话中使用更多功率帮助超车。通常，该模式带来的圈速收益不足以抵消使用后需要重新充电和恢复的速度损失，因此只应在完成超车确有必要时使用。由于最后一圈不再需要电池，该模式也可在最后一圈用于短时间提速。该模式仅在练习、比赛和测试会话中可用。 |
+      | 燃油量（FUEL LEVEL） | 燃油量是车辆驶离车库时油箱中的燃油量。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/hybrid-fuel.png)
+
+      The Acura ARX-06’s hybrid system can be set to one of five deploy modes to alter the target State of Charge (SoC) for the end of a lap. Each of these modes will use varying levels of energy throughout a lap to reach a target, and thus some will produce more power over the course of a lap and faster lap times at the cost of discharging the battery.
+
+      | Setting | Description |
+      | --- | --- |
+      | NO DEPLOY | In the “No Deploy” mode, the Hybrid system will not use any energy stored in the battery. This essentially disables the Hybrid drive system and will only charge the battery throughout a lap. This is only available in Qualifying and Test sessions and is used to fully charge the battery before switching to Qual mode. |
+      | BALANCED | The Balanced mode is the primary Race mode for the Hybrid system. This mode will attempt to deploy electrical charge to reduce lap times as much as possible while still maintaining a reasonable State of Charge over the duration of a lap. At the start of a session, it will take a few flying laps for the Hybrid system to learn the track and optimize deployment for the best lap times, and this mode is only available in Practice, Race, and Test sessions. |
+      | QUAL | This mode is intended to be used on flying laps during qualifying sessions and will attempt to use all of the battery charge during a lap. This is only available during Qualifying and Test sessions and should be preceded by the No Deploy setting on outlaps and warmup laps to ensure the battery is fully charged before switching to the Qual mode. |
+      | BUILD | The Build mode will attempt to build battery charge as quickly as possible in the event of a low battery charge or if it is needed prior to switching to Attack mode. Note that this will compromise lap times significantly compared to Balanced, and it’s important to switch back to Balanced mode once the battery has charged to avoid losing harvested energy and to prevent unnecessary loss in pace. This mode is only available in Practice, Race, and Test sessions. |
+      | ATTACK | Attack mode reduces the target State of Charge to use more power during race sessions to help with overtaking. Generally the laptime gain from this mode is not enough to offset the loss in pace from having to recharge and recover from using Attack mode, so it should be used only when it is absolutely necessary to complete an overtake. This mode can also be used on the final lap for a burst of speed since the battery is no longer needed. This mode is only available for Practice, Race, and Test sessions. |
+      | FUEL LEVEL | Fuel level is the amount of fuel in the fuel tank when the car leaves the garage. |
+
+  - id: traction-control-gear-ratios
+    level: 3
+    titleZh: 牵引力控制与齿比
+    titleEn: TRACTION CONTROL & GEAR RATIOS
+    bodyZh: |+
+      ![牵引力控制与齿比设置](./assets/acura-arx-06-gtp/traction-control-gear-ratios.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 牵引力控制增益（TRACTION CONTROL GAIN） | 增益是检测到车轮空转时牵引力控制介入的程度。数值越高，控制车轮空转时的节气门切断越强烈。驾驶时可在 F8 黑盒中更改此数值。 |
+      | 齿轮组（GEAR STACK） | 齿轮组会改变变速箱的齿比。可选“Short”和“Long”两种设置。“Short”会选择更偏重加速的齿轮组，适用于直道较短或弯道较慢的赛道；“Long”会选择更适合高速赛道和长直道的齿轮。 |
+      | 牵引力控制滑移（TRACTION CONTROL SLIP） | 滑移是牵引力控制系统对车轮空转的敏感程度。数值越高，牵引力控制系统会在更小的车轮空转量下激活；数值越低，则允许更多车轮空转后才激活。驾驶时可在 F8 黑盒中更改此数值。 |
+      | 齿速（GEAR SPEEDS） | 变速箱的七个前进挡都会显示发动机达到最高转速时的大致地面速度。这些数值会根据所选齿轮组改变，但真实最高速度可能会因赛道状况略有不同。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/traction-control-gear-ratios.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | TRACTION CONTROL GAIN | Gain is the amount of intervention the Traction Control will exert when wheel spin is detected. Higher values result in a more aggressive throttle cut to control wheelspin. This value can be changed in the F8 black box while driving. |
+      | GEAR STACK | Gear Stack changes the gear ratios in the transmission. Two choices are available: Short and Long. The Short setting will choose a more acceleration-focused gear set for tracks with shorter straights or slower corners, while the Long option will choose gears more suited to high-speed tracks with long straights. |
+      | TRACTION CONTROL SLIP | Slip is how sensitive the Traction Control system will be to wheelspin. Higher values will activate the Traction Control system with smaller amounts of wheelspin, while lower values will allow slightly more wheelspin prior to activating the system. This value can be changed in the F8 black box while driving. |
+      | GEAR SPEEDS | Each of the transmission’s seven forward gears will show the approximate ground speed at which the engine will reach maximum RPM. These values will change based on which Gear Stack is selected, but the true maximum speed may differ slightly due to on-track conditions. |
+
+  - id: rear-diff-spec
+    level: 3
+    titleZh: 后差速器规格
+    titleEn: REAR DIFF SPEC
+    bodyZh: |+
+      ![后差速器规格](./assets/acura-arx-06-gtp/rear-differential.png)
+
+      | 设置 | 说明 |
+      | --- | --- |
+      | 差速器斜坡角（DIFF RAMP ANGLES） | 差速器斜坡角会影响差速器在加速时施加的力，以保持两个驱动轮锁定在一起。较低数值会产生更大的锁止力，而更大的锁止力会增加制动和加速阶段的转向不足。较高数值会产生更小的锁止力，并在这些情况下导致转向过度。 |
+      | 离合器摩擦片（CLUTCH FRICTION PLATES） | 离合器片的数量会影响保持差速器锁止所施加的总作用力。将其视为一个乘数，增加片数会使锁止力逐步增大。 |
+      | 预载（PRELOAD） | 可为差速器设置一个施加的静态载荷。较高数值会在所有情况下产生更大的差速器锁止力，在加速和减速时带来更多转向不足。该数值也会影响弯中表现：较高数值不允许差速器解锁过多，从而增加弯中转向不足。 |
+
+    bodyEn: |+
+      ![Image](./assets/acura-arx-06-gtp/rear-differential.png)
+
+      | Setting | Description |
+      | --- | --- |
+      | DIFF RAMP ANGLES | The Differential Ramp Angles affect the force exerted by the differential to keep both driven tires locked together under acceleration. Lower values produce more locking force, and more locking force increases understeer during braking and acceleration phases. Higher values will produce less locking force and induce oversteer in these situations. |
+      | CLUTCH FRICTION PLATES | The number of clutch faces affect how much overall force is applied to keep the differential locked. Treated as a multiplier, adding more faces produces increasingly more locking force. |
+      | PRELOAD | The differential can be set with a static load applied. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer. |
+
+  - id: setup-tips
+    level: 2
+    titleZh: 设置技巧
+    titleEn: SETUP TIPS
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆不同设置方面的用户。
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: provided-setups
+    level: 3
+    titleZh: 随附设置
+    titleEn: PROVIDED SETUPS
+    bodyZh: |+
+      Acura ARX-06 GTP 随附 12 套 iRacing 设置：
+
+      #### 基准（BASELINE）
+
+      这是高下压力设置的稍微稳定版本，适合第一次驾驶本车的车手，或希望比高下压力设置获得更多稳定性的车手。
+
+      #### 高下压力（HIGH DOWNFORCE）
+
+      适用于大多数赛道。该设置效率相当高并能产生最多下压力，但也会产生最大的阻力。
+
+      #### 中下压力（MEDIUM DOWNFORCE）
+
+      适用于 Spa 等拥有长直道的赛道。牺牲更多下压力和效率，以换取更高的直线速度。
+
+      #### 低下压力（LOW DOWNFORCE）
+
+      适用于勒芒。最低阻力和下压力配置。
+
+      #### Daytona
+
+      这是低下压力设置的变体，针对 Daytona 调整，以避免在椭圆赛道倾斜弯道上触底。
+
+      #### Daytona 24H
+
+      这是 Daytona 设置的变体，专门根据一年中的时间、预计天气和 24 小时比赛的要求制作。
+
+      除固定 IMSA 设置外，所有设置中的燃油量均设为 89 L，这是本车油箱的最大容量。
+
+      #### 固定（FIXED）
+
+      官方 IMSA 固定赛系列使用的高下压力设置，燃油量受限。
+
+      #### 固定排位（FIXED QUAL）
+
+      固定赛系列设置，使用排位赛燃油量和混合动力释放。
+
+      #### 固定勒芒（FIXED LEMANS）
+
+      官方 IMSA 固定赛系列使用的低下压力设置，燃油量受限。
+
+      #### 固定勒芒排位（FIXED LEMANS QUAL）
+
+      固定低下压力系列设置，使用排位赛燃油量和混合动力释放。
+
+      #### 固定 Daytona（FIXED DAYTONA）
+
+      Daytona 设置，燃油量受限。
+
+      #### 固定 Daytona 排位（FIXED DAYTONA QUAL）
+
+      Daytona 系列设置，使用排位赛燃油量和混合动力释放。
+
+    bodyEn: |+
+      There are 12 iRacing setups provided for the Acura ARX-06 GTP:
+
+      #### BASELINE
+
+      A slightly more stable version of the high downforce setup for a driver’s first time in the car or for those wanting more stability than the high downforce setup provides.
+
+      #### HIGH DOWNFORCE
+
+      For use at most tracks. Although quite efficient and creating the most downforce, this setup also makes the most drag.
+
+      #### MEDIUM DOWNFORCE
+
+      For use at track with long straights like Spa. Sacrificing more downforce and efficiency for more straight line speed.
+
+      #### LOW DOWNFORCE
+
+      For use at Le Mans. Lowest drag and downforce trim.
+
+      #### DAYTONA
+
+      A variation of the Low Downforce setup for use at Daytona with changes to avoid bottoming on the oval banking.
+
+      #### DAYTONA 24H
+
+      A variation on the Daytona setup made specifically with time of year, expected weather, and the demands of a 24 hour race setup in mind.
+
+      The fuel level in all setups (except the fixed IMSA setups) are set to 89 L, which is the maximum tank capacity for this car.
+
+      #### FIXED
+
+      The high downforce setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED QUAL
+
+      The fixed series setup with qualifying fuel and hybrid deployment.
+
+      #### FIXED LEMANS
+
+      The low downforce setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED LEMANS QUAL
+
+      The fixed LDF series setup with qualifying fuel and hybrid deployment.
+
+      #### FIXED DAYTONA
+
+      The Daytona setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED DAYTONA QUAL
+
+      The Daytona series setup with qualifying fuel and hybrid deployment.
+
+  - id: chassis-heights
+    level: 3
+    titleZh: 底盘高度
+    titleEn: CHASSIS HEIGHTS
+    bodyZh: |+
+      Acura ARX-06 在平均后车高约 45 mm、平均前车高约 25 mm 时可产生最大下压力。
+
+      更大的前后车高差（后车高高于前车高，即较大的俯仰角）会使空气动力学平衡前移，导致转向过度；较小的俯仰角会使空气动力学平衡后移，导致转向不足。
+
+      在不改变侧倾刚度的情况下，可以通过调整前垂向弹簧和后垂向弹簧来影响赛道上的动态车高。
+
+      较软的后垂向弹簧会允许车辆后部在空气动力学载荷下下沉，但由于后车高会明显低于最大下压力所需的目标高度（45 mm），车辆在弯中会损失一部分下压力和效率。需要在阻力/下压力和动态空气动力学平衡之间做出取舍。
+
+      | 空气动力学调整 | 说明 |
+      | --- | --- |
+      | 如果要调整设置，改变空气动力学平衡最容易的方法是调整后翼角度。一般来说，如果发现需要将翼面位置向任一方向调整超过一格，建议从其他下压力配置（高、中或低）之一开始。 | 如果希望在不改变下压力/阻力配置的情况下改变空气动力学平衡，可以增大或减小后推杆长度偏移量来调整后车高。由于本车下压力很大，这会在所有情况下影响平衡，但在中高速弯中尤其明显。 |
+      | 后翼角度更低 = 更多转向过度、更少下压力，以及更高直线速度。 | 后推杆长度差值更低 = 更低后车高、更小俯仰角，以及更靠后的空气动力学平衡（转向不足）。 |
+      | 后翼角度更高 = 更多转向不足、更多下压力，以及更低直线速度。 | 后推杆长度差值更高 = 更高后车高、更大俯仰角，以及更靠前的空气动力学平衡（转向过度）。 |
+
+    bodyEn: |+
+      The Acura ARX-06 generates the most downforce with an average rear ride height around 45mm and an average front ride height around 25mm.
+
+      More rake (high rear ride heights compared to front ride heights) will move aero balance forward, inducing oversteer, and less rake will shift the aero rearward and induce understeer.
+
+      You can affect the dynamic ride heights (without changing the roll stiffness) on track by adjusting the front heave spring and the rear heave spring.
+
+      A soft rear heave spring will allow the rear of the car to drop under aero load but you will lose some amount of downforce and efficiency mid corner as the rear ride heights will be well under the target rear heights for maximum downforce (45mm). Some compromises will need to be made regarding drag/downforce and dynamic aero balance.
+
+      | AERODYNAMIC ADJUSTMENTS | Value |
+      | --- | --- |
+      | Should you choose to make adjustments to the setup, the easiest way to change the aerodynamic balance of the setup is through adjustment of the rear wing angle. Generally speaking, if you find you want to adjust wing position in more than a click in either direction it is recommended you start from one of the other downforce trim setups (high, medium, or low). | If you would like to change the aero balance without changing the downforce/drag trim adjust the rear ride height by increasing or decreasing the rear pushrod length offset. This will affect balance in all situations due to the high amount of downforce but this will be particularly noticeable in mid and high speed corners. |
+      | Lower wing angle = More oversteer, less downforce, and higher straight line speed. | Lower pushrod length delta = Lower rear ride height, less rake, and a more rearward aero balance (understeer). |
+      | Higher wing angle = More understeer, more downforce, and lower straight line speed. | Higher pushrod length delta = Higher rear ride height, more rake, and a more forward aero balance (oversteer). |
+
+  - id: mechanical-adjustments
+    level: 3
+    titleZh: 机械调整
+    titleEn: MECHANICAL ADJUSTMENTS
+    bodyZh: |+
+      如果希望在不改变空气动力学平衡的情况下改变机械平衡，可以调整前、后防倾杆和防倾杆刀片。如果您对车辆的总体平衡感到满意，但希望在低速弯中获得更多或更少的旋转，这种方法尤其有用。
+
+      前防倾杆更大 / 刀片数值更高 = 更多转向不足
+
+      前防倾杆更小 / 刀片数值更低 = 更少转向不足
+
+      后防倾杆更大 / 刀片数值更高 = 更多转向过度
+
+      后防倾杆更小 / 刀片数值更低 = 更少转向过度
+
+    bodyEn: |+
+      If you would like to change the mechanical balance without changing the aero balance the front and rear ARBs and ARB blades may be adjusted. This can be particularly useful if you are happy with the general balance of the car but want either more or less rotation in slow speed corners.
+
+      Bigger front ARB/higher blade value = More understeer
+
+      Smaller front ARB/lower blade values = Less understeer
+
+      Bigger rear ARB/higher blade values = More oversteer
+
+      Smaller rear ARB/lower blade values = Less oversteer
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: 差速器调整
+    titleEn: DIFFERENTIAL ADJUSTMENTS
+    bodyZh: |+
+      后差速器是 Acura 中的强力调节工具，最简单的调整方式是增加或减少预载。虽然调整预载会影响加油时的表现，但您可能会更明显地感受到它对入弯和转向初段的影响。
+
+      - 预载更多 = 松油门时旋转更少，入弯时稳定性更高。
+      - 预载更少 = 松油门时旋转更多，入弯时稳定性更低。
+
+    bodyEn: |+
+      The rear differential is a powerful tool in the Acura, and the simplest change one can make is increasing or decreasing the preload. While adjusting the preload will affect the on throttle behavior you probably notice more of a change on entry and turn in.
+
+      - More preload = Less rotation off throttle, more stability on entry.
+      - Less preload = More rotation off throttle, less stability on entry.

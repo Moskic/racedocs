@@ -1,0 +1,1234 @@
+slug: cadillac-v-series-r-gtp
+published: true
+titleZh: Cadillac V-Series.R GTP 用户手册
+titleEn: Cadillac V-Series.R GTP User Manual
+contentType: vehicle-manual
+brand: Cadillac
+vehicleClass: Prototype
+platform: iRacing
+discipline: sports-car
+cover: ./assets/cadillac-v-series-r-gtp/cover.png
+source:
+  type: official
+  title: iRacing Cadillac V-Series.R GTP User Manual
+  revision: V2
+  notice: >-
+    Complete English transcription imported from the user-provided official V2 PDF. Obvious PDF errors were corrected and are noted here: “anywheelspin” was corrected to “any wheelspin”; “front” was corrected to “rear” in the Rear Third Perch Offset description; the duplicated front-suspension wording was corrected to rear-suspension wording in Rear Pushrod Length Offset; “in result to driver inputs” was corrected to “in response to driver inputs”; and “Acura” was corrected to “Cadillac” in Differential Adjustments.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![欢迎页面](./assets/cadillac-v-series-r-gtp/welcome-hero.png)
+
+      #### 亲爱的 iRacing 用户：
+
+      恭喜您购买 Cadillac V-Series.R GTP！iRacing 全体成员感谢您的支持以及对我们产品的认可。我们致力于提供极致的模拟赛车体验，也希望您驾驶新车时能在赛道上尽享激情！
+
+      本指南将说明如何充分发挥新车的性能，涵盖从赛道外的车辆设置调整，到驾驶时在座舱内看到的各种信息。希望本指南能帮助您快速上手。
+
+      再次感谢您的购买，我们赛道上见！
+
+      ![Cadillac V-Series.R GTP 赛车](./assets/cadillac-v-series-r-gtp/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/welcome-hero.png)
+
+      #### DEAR iRACING USER,
+
+      Congratulations on your purchase of the Cadillac V-Series R GTP! From all of us at iRacing, we appreciate your support and your commitment to our product. We aim to deliver the ultimate sim racing experience, and we hope that you’ll find plenty of excitement with us behind the wheel of your new car!
+
+      The following guide explains how to get the most out of your new car, from how to adjust its settings off of the track to what you’ll see inside of the cockpit while driving. We hope that you’ll find it useful in getting up to speed.
+
+      Thanks again for your purchase, and we’ll see you on the track!
+
+      ![Image](./assets/cadillac-v-series-r-gtp/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: 技术规格
+    titleEn: TECH SPECS
+
+  - id: chassis-specifications
+    level: 3
+    titleZh: 底盘
+    titleEn: CHASSIS
+    bodyZh: |+
+      ![底盘规格](./assets/cadillac-v-series-r-gtp/chassis-front.png)
+
+      前后均采用推杆驱动的独立扭杆悬架，并配有前部 Heave 和后部第三弹簧元件
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 5100 mm / 201 in |
+      | 车宽 | 2000 mm / 78.7 in |
+      | 轴距 | 3148 mm / 124 in |
+      | 干重 | 1030 kg / 2270 lbs |
+      | 含车手湿重 | 1150 kg / 2535 lbs |
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/chassis-front.png)
+
+      PUSHROD-ACTUATED INDEPENDENT TORSION BAR FRONT AND REAR SUSPENSION WITH FRONT HEAVE AND REAR THIRD-SPRING ELEMENTS
+
+      | Specification | Value |
+      | --- | --- |
+      | Length | 5100 mm / 201 in |
+      | Width | 2000 mm / 78.7 in |
+      | Wheelbase | 3148 mm / 124 in |
+      | Dry Weight | 1030 kg / 2270 lbs |
+      | Wet Weight with Driver | 1150 kg / 2535 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: 动力单元
+    titleEn: POWER UNIT
+    bodyZh: |+
+      ![动力单元](./assets/cadillac-v-series-r-gtp/power-unit.png)
+
+      自然吸气 DOHC V8 系统
+
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 5.5 升 / 336 CID |
+      | 转速上限 | 8770 RPM |
+      | 扭矩 | 463 lb-ft / 630 Nm |
+      | 功率 | 675 bhp / 505 kW |
+
+      ![车辆侧视图](./assets/cadillac-v-series-r-gtp/vehicle-profile.png)
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/power-unit.png)
+
+      NATURALLY ASPIRATED DOHC V8 SYSTEM
+
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 5.5 Liters / 336 CID |
+      | RPM Limit | 8770 RPM |
+      | Torque | 463 lb-ft / 630 Nm |
+      | Power | 675 bhp / 505 kW |
+
+      ![Image](./assets/cadillac-v-series-r-gtp/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: 简介
+    titleEn: INTRODUCTION
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校底盘设置。
+
+      不过，在深入调整底盘之前，最好先熟悉车辆和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设置。要载入基准设置，只需打开“车库”，单击“iRacing 设置”，然后为所选赛道选择合适的设置。如果某条赛道没有专用基准设置，可以选择特性相近赛道的设置作为起点。
+
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars. To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: 快速上手
+    titleEn: GETTING STARTED
+    bodyZh: |+
+      ![快速上手](./assets/cadillac-v-series-r-gtp/getting-started.png)
+
+      启动车辆前，建议先为制动力分配和牵引力控制系统设置映射控制按键。虽然这并非驾驶本车所必需，但这样可以在赛道上根据个人驾驶风格快速调整驾驶辅助系统。
+
+      进入车辆后，只需按下“升挡”按钮挂入挡位，再踩下油门踏板即可起步。本车采用序列式变速箱，升挡或降挡均不需要踩离合器。不过，若降挡保护系统判断当前车速对于所选挡位过高、可能导致发动机损坏，就不会允许降挡；此时降挡指令会被直接忽略。建议在方向盘上的所有换挡提示灯变为红色时升挡。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/getting-started.png)
+
+      Before starting the car, it is recommended to map controls to adjust the Brake Bias and Traction Control systems. While this is not mandatory to drive the car, this will allow you to make quick changes to the driver aid systems to suit your driving style while out on the track.
+
+      Once you load into the car, getting started is as easy as selecting the “upshift” button to put it into gear, and hitting the accelerator pedal. This car uses a sequential transmission and does not require a clutch input to shift up or down. However, the car’s downshift protection will not allow you to downshift if it feels you are traveling too fast for the gear selected and would incur engine damage. In these situations the downshift command will simply be ignored. Upshifting is recommended when all of the shift lights on the steering wheel have changed to red.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: 载入 iRacing 设置
+    titleEn: LOADING AN iRACING SETUP
+    bodyZh: |+
+      ![载入 iRacing 设置](./assets/cadillac-v-series-r-gtp/loading-iracing-setup.png)
+
+      进入比赛会话后，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如果您希望使用 iRacing 针对不同条件预制的其他设置，可以依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+
+      如需自定义设置，只需在车库中完成所需修改，然后单击“应用”。若要保存设置供日后使用，请单击右侧的“另存为”，为修改后的设置命名并保存。
+
+      要查看所有个人设置，请单击车库右侧的“我的设置”。如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/loading-iracing-setup.png)
+
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply. If you would like to save your setup for future use click “Save As” on the right to name and save the changes.
+
+      To access all of your personally saved setups, click “My Setups” on the right side of the garage. If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: 仪表配置
+    titleEn: DASH CONFIGURATION
+    bodyZh: |+
+      与车辆性能和车手可调设置相关的重要信息，都可以在集成于 Cadillac V-Series.R GTP 方向盘中的数字显示屏上找到。
+
+      ![仪表配置](./assets/cadillac-v-series-r-gtp/dashboard-configuration.png)
+
+      | 左列 | 含义 |
+      | --- | --- |
+      | REM（燃油） | 油箱剩余燃油量，单位为加仑或升 |
+      | DELTA（燃油） | 当前每圈燃油用量与预设燃油用量目标之间的差值 |
+      | LAPS（燃油） | 油箱耗尽前预计剩余的圈数 |
+      | TRGT（燃油） | 每圈燃油用量目标，由车库中的 Fuel Target 设置 |
+      | Tire Temps | 每条轮胎的平均表面温度，单位为 °F 或 °C |
+      | BBT | Brake Bias Target 设置 |
+      | BBM | Base Brake Pressure Bias 设置 |
+      | MIG | Brake Bias Migration 设置 |
+      | TC A | 当前 Traction Control Gain 设置 |
+      | RED | |
+      | EPAS | Power Steering Assist 等级 |
+
+      | 中列 | 含义 |
+      | --- | --- |
+      | Speed | 车辆速度，单位为英里/小时或公里/小时 |
+      | Gear Indicator | 当前选择的变速箱挡位 |
+      | Tire Press | 实时轮胎胎压，单位为 PSI 或 kPa。数值背景会发生变化：胎压不足显示为蓝色，胎压过高显示为红色，最佳胎压显示为黑色背景。 |
+
+      | 右列 | 含义 |
+      | --- | --- |
+      | Lap | 当前圈数 |
+      | DELTA（s） | 当前圈与本节最佳圈之间的实时时间差 |
+      | LAST | 上一圈完成时间 |
+      | SoC | 当前混合动力系统荷电状态（State of Charge）等级 |
+      | ARB F | 前防倾杆叶片设置 |
+      | ARB R | 后防倾杆叶片设置 |
+      | ECU A | |
+      | ECU B | |
+      | PEDAL | 当前油门踏板扭矩映射设置 |
+      | BLUE | |
+      | TC B | 当前 Traction Control Slip 设置 |
+
+    bodyEn: |+
+      Vital information relating to the car’s performance and driver-adjustable settings can all be found on the digital display integrated into the Cadillac V-Series R GTP’s steering wheel.
+
+      ![Image](./assets/cadillac-v-series-r-gtp/dashboard-configuration.png)
+
+      | Left Column | Value |
+      | --- | --- |
+      | REM (fuel) | Amount of fuel remaining in the fuel tank in gallons or liters |
+      | DELTA (fuel) | Difference between current per-lap fuel usage and the pre-set fuel usage target |
+      | LAPS (fuel) | Estimated number of laps remaining before the fuel tank is empty |
+      | TRGT (fuel) | Target per-lap fuel usage, set by the Fuel Target setting in the garage |
+      | Tire Temps | Average surface temperature of each tire in °F or °C |
+      | BBT | Brake Bias Target setting |
+      | BBM | Base Brake Pressure Bias setting |
+      | MIG | Brake Bias Migration setting |
+      | TC A | Current Traction Control Gain setting |
+      | RED | |
+      | EPAS | Power Steering Assist level |
+
+      | Center Column | Value |
+      | --- | --- |
+      | Speed | Vehicle speed in miles-per-hour or kilometers-per-hour |
+      | Gear Indicator | Currently selected transmission gear |
+      | Tire Press | Live tire pressures, shown in PSI or kPa. The background of these values will change, with underinflated tires shown in blue, overinflated tires in red, and optimum pressures shown with a black background. |
+
+      | Right Column | Value |
+      | --- | --- |
+      | Lap | Current lap number |
+      | DELTA (s) | Live time difference between the current lap and the session best lap |
+      | LAST | Previously completed lap time |
+      | SoC | Current Hybrid System State of Charge level |
+      | ARB F | Front ARB blade setting |
+      | ARB R | Rear ARB blade setting |
+      | ECU A | |
+      | ECU B | |
+      | PEDAL | Current throttle pedal torque map setting |
+      | BLUE | |
+      | TC B | Current Traction Control Slip setting |
+
+  - id: wheelspin-brake-lock-indicator-lights
+    level: 3
+    titleZh: 车轮空转 / 制动锁死指示灯
+    titleEn: WHEELSPIN / BRAKE LOCK INDICATOR LIGHTS
+    bodyZh: |+
+      仪表盘方向盘后方设有两组 LED 灯，用于快速向车手提示是否发生车轮空转或制动锁死。左侧 LED 灯组对应左侧车轮，右侧灯组对应右侧车轮。
+
+      ![牵引力控制指示灯](./assets/cadillac-v-series-r-gtp/wheelspin-traction-control.png)
+
+      | 指示灯 | 说明 |
+      | --- | --- |
+      | 牵引力控制 | 当灯组全部亮起蓝色时，表示牵引力控制系统正在介入以减少车轮空转。严重的车轮空转和 TC 系统介入会产生持续亮起的蓝灯；TC 介入程度较小时，灯会开始闪烁。 |
+
+      ![制动锁死指示灯](./assets/cadillac-v-series-r-gtp/wheelspin-brake-lockup.png)
+
+      | 指示灯 | 说明 |
+      | --- | --- |
+      | 制动锁死 | 当制动力足以开始锁死车轮时，LED 会亮起，显示发生锁死的车轮以及锁死程度。粉色灯表示前轮锁死，黄色灯表示后轮锁死；亮起的 LED 越多，锁死越严重。上图显示两个前轮均已锁死，左后轮有轻微锁死。 |
+
+    bodyEn: |+
+      Two sets of LED lights are situated behind the steering wheel on the dash to quickly communicate to the driver if any wheelspin or brake lockup is occurring. The left LED cluster corresponds to the left wheels and the right cluster corresponds to the right wheels.
+
+      ![Image](./assets/cadillac-v-series-r-gtp/wheelspin-traction-control.png)
+
+      | Indicator | Description |
+      | --- | --- |
+      | Traction Control | When the clusters light up all LEDs in blue the Traction Control system is intervening to reduce wheelspin. Severe cases of wheelspin and TC system activation will produce a solid blue light and the lights will begin flashing for less amounts of TC intervention. |
+
+      ![Image](./assets/cadillac-v-series-r-gtp/wheelspin-brake-lockup.png)
+
+      | Indicator | Description |
+      | --- | --- |
+      | Brake Lockup | Whenever braking force is sufficient to begin locking a wheel the LEDs will illuminate to show both which wheel is locking and how severe the lockup is. Pink lights indicate front wheel lockup and yellow lights indicate rear wheel lockups, with lockups becoming more severe with more LEDs illuminated. The image above shows both front wheels locked with a slight lockup on the left-rear wheel. |
+
+  - id: shift-lights
+    level: 3
+    titleZh: 换挡提示灯
+    titleEn: SHIFT LIGHTS
+    bodyZh: |+
+      ![转速换挡提示灯](./assets/cadillac-v-series-r-gtp/shift-lights-rpm.png)
+
+      方向盘顶部设有一组灯，用于在加速时帮助车手判断何时升入下一挡。随着转速升高，灯会从左至右依次亮起，颜色由绿色开始，右侧以两颗红色 LED 结束。
+
+      ![最佳换挡点](./assets/cadillac-v-series-r-gtp/shift-lights-optimum.png)
+
+      达到最佳换挡点后，所有 LED 都会变为蓝色并开始闪烁。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/shift-lights-rpm.png)
+
+      The top of the steering wheel has a set of lights to help the driver know when to shift up to the next gear while accelerating. As RPM increases, the lights will illuminate from the left to right starting with green and ending with two red LEDs on the right.
+
+      ![Image](./assets/cadillac-v-series-r-gtp/shift-lights-optimum.png)
+
+      Once the optimum shift point has been reached all LEDs will change to blue and begin flashing.
+
+  - id: pit-limiter
+    level: 3
+    titleZh: 进站限速器
+    titleEn: PIT LIMITER
+    bodyZh: |+
+      ![维修区限速器](./assets/cadillac-v-series-r-gtp/pit-limiter.png)
+
+      维修区限速器启用时，换挡提示灯和屏幕背景都会变为蓝色，系统工作期间换挡提示灯会闪烁。混合动力系统的 SoC 指示器会变为车辆速度。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/pit-limiter.png)
+
+      Whenever the Pit Speed Limiter is active shift lights and the screen’s background will change to blue, with the shift lights flashing while the system is active. The Hybrid System’s SoC indicator will change to vehicle speed.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: 高级设置选项
+    titleEn: ADVANCED SETUP OPTIONS
+    bodyZh: |+
+      > 本节面向希望深入了解车辆设置不同方面的进阶用户。调整以下参数并非必需，而且可能显著改变车辆的操控方式。建议以递增方式进行任何调整，每次只修改一个变量，然后测试改动效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-aero
+    level: 2
+    titleZh: 轮胎与空气动力学
+    titleEn: TIRES & AERO
+
+  - id: tire-data
+    level: 3
+    titleZh: 轮胎数据
+    titleEn: TIRE DATA
+    bodyZh: |+
+      ![轮胎数据](./assets/cadillac-v-series-r-gtp/tire-data.png)
+
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地或光头胎用于干燥赛道条件，Wet 湿胎用于下雨和湿滑赛道条件。
+
+      #### 初始胎压
+
+      车辆载入赛道时轮胎中的空气压力。较低的胎压会提供更多抓地力，但会产生更大的滚动阻力并更快升温。较高的胎压会让车辆响应略快并产生更小的滚动阻力，但会降低抓地力。通常，高速赛道更适合较高胎压；在机械抓地力很重要的低速赛道，较低胎压效果更好。
+
+      #### 最后热胎压
+
+      车辆完成一段赛道行驶返回车库后，显示的轮胎压力会标记为热胎压。冷胎压与热胎压的差异，是了解轮胎在赛道上承受多大负荷和工作强度的好方法。承受更多工作的轮胎会建立更高的压力；关注哪些轮胎压力升高更多，并相应调整冷胎压，对于优化轮胎性能可能至关重要。
+
+      #### 最后温度
+
+      车辆从赛道返回后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断某条轮胎在赛道上承受了多少工作或负荷。内侧与外侧温度的差异可用于调校单个车轮的定位；中心温度则可与外侧温度比较，以帮助调校胎压。
+
+      #### 剩余胎面
+
+      轮胎剩余胎面以新胎的百分比显示在温度下方。这些数值有助于判断一套轮胎还能使用多远、何时需要更换，但不一定能像温度那样说明轮胎是否承受了过多或过少的工作。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/tire-data.png)
+
+      #### TIRE TYPE
+
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+
+      #### STARTING PRESSURE
+
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+
+      #### LAST HOT PRESSURE
+
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+
+      #### LAST TEMPS
+
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+
+      #### TREAD REMAINING
+
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
+
+  - id: aero-settings
+    level: 3
+    titleZh: 空气动力学设置
+    titleEn: AERO SETTINGS
+    bodyZh: |+
+      ![空气动力学设置](./assets/cadillac-v-series-r-gtp/aero-settings.png)
+
+      #### 后翼角度
+
+      后翼角度设置会改变翼面元件的迎角。增大翼角会增加翼面产生的下压力，但也会增加阻力；减小翼角则会降低翼面产生的下压力，同时降低阻力。后翼角度会强烈影响后部下压力，进而显著影响中高速弯中的车尾抓地力。
+
+      #### 空气动力学计算器
+
+      空气动力学计算器用于显示特定配置下车辆近似的空气动力学数值。改变车辆空气动力学设置后，计算器中的数值也会更新，从而帮助判断车辆在赛道上的空气动力学表现。该计算器还可用于确定需要对车辆进行哪些改动，以缓解空气动力学导致的操控问题。
+
+      #### 前 / 后高速车高
+
+      高速车高（RH at Speed）用于向空气动力学计算器提供计算参考高度。使用空气动力学计算器时，应通过遥测在赛道任意位置确定车辆的前、后车高，并将该数值输入“Front RH at Speed”设置。
+
+      #### 下压力平衡
+
+      该数值以车头下压力的百分比显示，表示车辆总下压力中位于前轴上方的比例。百分比越高，说明前部下压力越大，中高速弯中的转向过度越明显；百分比越低，说明后部下压力越大，中高速弯中的转向不足越明显。
+
+      #### 升力 / 阻力比（L/D）
+
+      “L/D”数值是升力（下压力）与阻力的比值，用于量化车身产生下压力时所带来的阻力。L/D 越高，表示每单位阻力产生的下压力越多，也就是车身效率越高。在不牺牲总下压力的情况下，提高 L/D 会带来更快、更高效的车辆。L/D 的最佳值会因空气动力学配置和赛道类型而异。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/aero-settings.png)
+
+      #### REAR WING ANGLE
+
+      The rear wing angle setting changes the Angle of Attack of the wing elements. Increasing wing angle increases the downforce generated by the wing but increases drag, while decreasing the wing angle reduces the downforce generated by the wing while reducing drag. Rear wing angle has a heavy influence on rear downforce, having a heavy influence on rear-end grip in mid- to high-speed corners.
+
+      #### AERO CALCULATOR
+
+      The Aero Calculator is a tool used to display the car’s approximate aerodynamic values in a given configuration. Changes to the car’s aerodynamic settings will be reflected in the Aero Calculator, giving an idea of how the car will behave aerodynamically while on the race track. This calculator can also be used to determine what changes need to be made to the car to alleviate aerodynamically-induced handling issues.
+
+      #### FRONT/REAR RH AT SPEED
+
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front and Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting.
+
+      #### DOWNFORCE BALANCE
+
+      Displayed in percent of Front downforce, this value shows how much of the car’s total downforce is over the front axle. A higher percentage value indicates more front downforce, increasing oversteer in mid- to high-speed corners and a lower percentage value indicates more rear downforce, increasing understeer in mid- to high-speed corners.
+
+      #### L/D
+
+      The “L/D” value is the ratio of Lift (downforce) to Drag. This quantifies how efficiently the car’s bodywork is producing downforce in terms of how much drag is being produced as a result. A higher L/D value means more downforce is being produced for each unit of drag, meaning the bodywork is being more efficient. Having a higher L/D value without sacrificing overall downforce will result in a faster, more efficient car. Optimum values for L/D can vary based on the aerodynamic configuration and track type.
+
+  - id: chassis
+    level: 2
+    titleZh: 底盘
+    titleEn: CHASSIS
+
+  - id: front
+    level: 3
+    titleZh: 前部
+    titleEn: FRONT
+    bodyZh: |+
+      ![前部底盘设置](./assets/cadillac-v-series-r-gtp/front-chassis.png)
+
+      #### Heave 弹簧
+
+      前部 Heave 弹簧是处理纯垂向外部载荷的悬架元件，不会控制转弯时会导致车身侧倾的载荷。这些载荷通常来自高速时不断增加的下压力、赛道上的凹陷和隆起，或重刹车。较高的刚度值会使悬架在 Heave 方向变硬，有助于控制车高、维持良好的空气动力学平台，但在颠簸路面可能产生弹跳。较低的刚度更容易吸收颠簸和载荷，但过度的车身运动会损害空气动力学平台。
+
+      #### Heave 座高偏移
+
+      Heave 座高偏移用于调整 Heave 弹簧的预载。这是通过前部 Heave 元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高前部车高；相反，较高数值会释放弹簧载荷、降低前部车高。
+
+      #### Heave 弹簧挠度
+
+      Heave 弹簧挠度表示静态条件下 Heave 弹簧被压缩的量。该数值不能直接调整，但会随 Heave 座高偏移和前部扭杆设置的调整而变化。
+
+      #### Heave 滑块挠度
+
+      滑块挠度表示 Heave 弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会改变前悬架的侧倾刚度。增大防倾杆尺寸会提高前悬架侧倾刚度，减少车身侧倾，但增加机械转向不足。在某些情况下，这也会让车手感觉转向响应更快。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向不足；这可能使转向感觉响应变慢，但前轴整体抓地力会增加。
+
+      #### 防倾杆叶片
+
+      可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高前悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低前悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。
+
+      #### 前束
+
+      从垂直方向观察，前束是车轮相对于底盘中心线的角度。前轮前端比后端更靠近中心线时为前束，前端比轮胎后端离中心线更远时为后束。在前部，前束会改变轮胎对转向输入的响应速度，并影响车辆直线行驶的稳定性。前束为负的设置值（后束）会提高入弯响应、降低直线稳定性；前束为正的设置值会提高直线稳定性，但使初始转向响应更迟钝。
+
+      #### 推杆长度偏移
+
+      该设置会同时调整两根前悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整前部车高的好方法，无须改变 Heave 弹簧或任一前部扭杆的预载。
+
+      #### 动力转向辅助
+
+      改变动力转向系统的辅助等级。较高数值会提高辅助，使转向感觉更轻；较低数值会降低辅助，使转向更沉重。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/front-chassis.png)
+
+      #### HEAVE SPRING
+
+      The front Heave Spring is a suspension element that handles external loads from purely vertical loads and doesn’t control loads that would induce chassis roll when cornering. Generally these loads are present for increasing downforce loads at higher speeds, dips and crests in the track, or under heavy braking. Higher rate values will stiffen the suspension in heave, which is good for controlling ride heights to maintain a good aerodynamic platform, but can produce a bouncing effect on rough surfaces. Lower rates will absorb bumps and loads easier, but will hurt the aerodynamic platform due to excessive chassis movement.
+
+      #### HEAVE PERCH OFFSET
+
+      The Heave Perch Offset is used to adjust preload on the Heave Spring. This is one of two methods to adjust ride height through the front Heave element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights.
+
+      #### HEAVE SPRING DEFLECTION
+
+      Heave Spring Deflection represents the amount the Heave Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Heave Perch Offset and front Torsion Bar settings.
+
+      #### HEAVE SLIDER DEFLECTION
+
+      The Slider Deflection is how far the slider mechanism the Heave Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size alters the stiffness of the front suspension in roll. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the sway bar. Conversely, lower values reduce the roll stiffness of the front suspension and produce the same effects as decreasing the diameter of the sway bar. These blade adjustments can be thought of as fine-tuning adjustments between sway bar diameter settings.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
+
+      #### PUSHROD LENGTH OFFSET
+
+      This adjusts the length of both front suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust front ride height without altering the preload on the Heave Spring or either front Torsion Bars.
+
+      #### POWER STEERING ASSIST
+
+      Changes the assist level of the power steering system. Higher values will increase the assist and make the steering feel lighter, lower values will reduce assist and make the steering heavier.
+
+  - id: front-corners
+    level: 3
+    titleZh: 前部车轮
+    titleEn: FRONT CORNERS
+    bodyZh: |+
+      ![前部车轮设置](./assets/cadillac-v-series-r-gtp/front-corners.png)
+
+      #### 车轮载荷
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过前部扭杆圈数设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。
+
+      #### 减震器挠度
+
+      减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。
+
+      #### 扭杆挠度
+
+      扭杆挠度表示前部扭杆弹簧在静态条件下被预加载了多少。挠度值越高表示弹簧预载越大，数值越低表示弹簧预载越小。
+
+      #### 扭杆圈数
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对扭杆施加预载。减小数值会增加扭杆预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 扭杆外径
+
+      与防倾杆类似，扭杆是一种通过悬架行程产生的施加扭矩来提供抵抗力的弹簧。不过，这些扭杆的一端固定在车身上，因此只抵抗单个车轮的运动，其方式与螺旋弹簧抵抗运动和载荷变化相同。增大扭杆直径会提高弹簧刚度，减小直径则会降低弹簧刚度。刚性更高的弹簧非常适合平整赛道以及需要高度控制空气动力学姿态的场合，但刚性弹簧会显著降低机械抓地力，尤其是在颠簸路面。对于低抓地力和/或颠簸赛道，以及空气动力学效果可能不明显的低速赛道，较软的弹簧会牺牲空气动力学控制，却能提高机械抓地力。扭杆直径调整应与车高调整配合进行，以避免车辆在赛道上意外触底。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而造成转向不足。应用于前部减震器时，较低数值会减缓重量向轮胎的转移，减少转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 高速压缩阻尼斜率
+
+      压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的前部低速回弹会增加油门开启时的机械转向不足（但会减少前翼片抬升），较低数值则会让前端抓地力维持更久，有助于减少转向不足，但会增加前翼片抬升。前部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。
+
+      #### 高速回弹阻尼
+
+      高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/front-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Torsion Bar Turns setting on the front corners.
+
+      #### RIDE HEIGHT
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag.
+
+      #### SHOCK DEFLECTION
+
+      Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before a bump stop is engaged on the shock.
+
+      #### TORSION BAR DEFLECTION
+
+      The Torsion Bar Deflection is a representation of how much the front torsion bar springs have been preloaded under static conditions. Higher deflection values show higher amounts of spring preload, lower values represent less spring preload.
+
+      #### TORSION BAR TURNS
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the torsion bar under static conditions. Decreasing the value increases preload on the torsion bar, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### TORSION BAR O.D.
+
+      Similar to an Anti-Roll Bar, a torsion bar is a spring that exerts resistive forces via applied torque generated through suspension travel. However, these torsion bars are fixed to the chassis at one end, and thus resist movement only on one wheel in the same way a coil spring resists movement and load changes. Increasing the torsion bar’s diameter gives a higher spring rate, and reducing the diameter gives a lower spring rate. Stiffer springs are very helpful for smooth tracks and applications where a high level of aerodynamic attitude control is required, however stiff springs reduce mechanical grip significantly, especially over bumps. On low-grip and/or bumpy tracks, as well as lower speed tracks where aerodynamics may not be as effective, softer springs will increase mechanical grip while sacrificing aerodynamic control. Torsion Bar Diameter adjustments should be made in conjunction with ride height adjustments to prevent unwanted grounding of the chassis while on track.
+
+      #### LS COMP DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer. Lower values will slow weight transfer to a tire, reducing understeer when applied to the front shocks.
+
+      #### HS COMP DAMPING
+
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track.
+
+      #### HS COMP DAMPING SLOPE
+
+      The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression.
+
+      #### LS REBOUND DAMPING
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low-speed rebound can increase on-throttle mechanical understeer (but reduce splitter lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
+      #### HS REBOUND DAMPING
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
+
+  - id: rear-corners
+    level: 3
+    titleZh: 后部车轮
+    titleEn: REAR CORNERS
+    bodyZh: |+
+      ![后部车轮设置](./assets/cadillac-v-series-r-gtp/rear-corners.png)
+
+      #### 车轮载荷
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。
+
+      #### 减震器挠度
+
+      减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。
+
+      #### 弹簧挠度
+
+      弹簧挠度表示弹簧相对于未加载长度压缩了多少。该数值可用于观察静态条件下的弹簧预载，并与车辆其他车轮比较；数值越高表示相应弹簧的预载越大。
+
+      #### 弹簧座高偏移
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 弹簧刚度
+
+      弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而在施加油门时造成转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 高速压缩阻尼斜率
+
+      压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。较大的后轮外倾角可以提高过弯稳定性，但会降低制动时的稳定性。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的后部低速回弹会增加松油门时的机械转向不足（但会减少车尾抬升），较低数值则会让后端抓地力维持更久，有助于减少转向过度，但会增加减速时的车尾抬升。后部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。
+
+      #### 前束
+
+      从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/rear-corners.png)
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
+
+      #### RIDE HEIGHT
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing.
+
+      #### SHOCK DEFLECTION
+
+      Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before a bump stop is engaged on the shock.
+
+      #### SPRING DEFLECTION
+
+      Spring Deflection shows how much the spring has compressed from its unloaded length. This can be used to see spring preload under static conditions and compare it against other corners of the car, with higher values representing more preload on a given spring.
+
+      #### SPRING PERCH OFFSET
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### SPRING RATE
+
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+
+      #### LS COMP DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+
+      #### HS COMP DAMPING
+
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track.
+
+      #### HS COMP DAMPING SLOPE
+
+      The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking.
+
+      #### LS REBOUND DAMPING
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher rear low-speed rebound can increase off-throttle mechanical understeer (but reduce rear-end lift) while lower values will maintain rear end grip longer, helping to reduce oversteer, but will allow more rear end lift under deceleration. Excessive rear rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
+
+  - id: rear
+    level: 3
+    titleZh: 后部
+    titleEn: REAR
+    bodyZh: |+
+      ![后部底盘设置](./assets/cadillac-v-series-r-gtp/rear-chassis.png)
+
+      #### 第三弹簧
+
+      第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。
+
+      #### 第三弹簧座高偏移
+
+      第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。
+
+      #### 第三弹簧挠度
+
+      第三弹簧挠度表示后部第三弹簧在静态条件下被压缩的量。该数值不能直接调整，但会随第三弹簧座高偏移和后部弹簧设置的调整而变化。
+
+      #### 第三滑块挠度
+
+      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+
+      #### 推杆长度偏移
+
+      该设置会同时调整两根后悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整后部车高的好方法，无须改变第三弹簧或任一后部弹簧的预载。
+
+      #### 横向配重
+
+      横向配重是车辆左后轮和右前轮承受的重量占整车重量的比例，以百分比显示。该数值通过车轮弹簧预载调整（前部扭杆圈数和后部弹簧座高偏移）进行调整。大多数赛道应将其保持在约 50%。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。
+
+      #### 防倾杆叶片
+
+      可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高后悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低后悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/rear-chassis.png)
+
+      #### THIRD SPRING
+
+      The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork.
+
+      #### THIRD PERCH OFFSET
+
+      The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising rear ride heights. Conversely, higher values will unload the spring and lower rear ride heights.
+
+      #### THIRD SPRING DEFLECTION
+
+      Third Spring Deflection represents the amount the rear Third Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Third Perch Offset and rear Spring settings.
+
+      #### THIRD SLIDER DEFLECTION
+
+      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
+
+      #### PUSHROD LENGTH OFFSET
+
+      This adjusts the length of both rear suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust rear ride height without altering the preload on the Third Spring or either rear Springs.
+
+      #### CROSS WEIGHT
+
+      Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the entire weight of the car, displayed in percent. This is adjusted via the corner spring preload adjustments (Front Torsion Bar Turns and Rear Spring Perch Offset). This value should be around 50% for most tracks.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the Anti-roll bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the Anti-roll bar. These blade adjustments can be thought of as fine-tuning adjustments between Anti-roll bar diameter settings.
+
+  - id: brakes-drive-unit
+    level: 2
+    titleZh: 制动 / 驱动单元
+    titleEn: BRAKES/DRIVE UNIT
+
+  - id: lighting-brake-spec
+    level: 3
+    titleZh: 灯光与制动规格
+    titleEn: LIGHTING & BRAKE SPEC
+    bodyZh: |+
+      ![灯光与制动规格](./assets/cadillac-v-series-r-gtp/lighting-brake-spec.png)
+
+      #### 车顶识别灯颜色
+
+      可以改变车顶识别灯的颜色，以便在夜间条件下更好地区分涂装相似的车辆。该调整不会影响车辆性能。
+
+      #### 刹车片复合材料
+
+      可以通过刹车片复合材料改变车辆的制动性能。“Low”设置提供最小摩擦力，降低制动效果，但能更好地调节制动压力；“Medium”和“High”提供更多摩擦力并提高制动效果，同时增加制动锁死的风险。
+
+      #### 前制动总泵
+
+      可以改变前制动总泵尺寸，以调整传递至前制动卡钳的管路压力。较大的总泵会降低前制动器的管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力度。较小的总泵会提高前制动器管路压力，使制动力分配向前移动，并降低锁死前轮所需的踏板力度。
+
+      #### 后制动总泵
+
+      可以改变后制动总泵尺寸，以调整传递至后制动卡钳的管路压力。较大的总泵会降低后制动器的管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力度。较小的总泵会提高后制动器管路压力，使制动力分配向后移动，并降低锁死后轮所需的踏板力度。
+
+      #### 制动力分配压力
+
+      制动力分配是传递至前制动器的制动力百分比。高于 50% 的数值会将更多压力传向前制动器，低于 50% 的数值则会将更多制动力传向后制动器。应根据车手偏好和赛道条件进行调校，以获得特定情况下的最佳制动性能。
+
+      #### 制动力分配目标
+
+      以制动力分配压力为基准设置制动力分配偏移。正值会使制动力分配高于制动力分配压力设置，每次点击增加 0.5%；负值会使制动力分配低于制动力分配压力，每次点击减少 0.5%。例如，如果制动力分配压力为 50%，目标值为“2”，实际制动力分配将设置为 51%。
+
+      #### 制动力分配迁移
+
+      该设置决定制动力分配随制动踏板行程向前或向后迁移的程度。正值会使制动力分配向前迁移，并使最大制动力分配每次点击增加 1%；负值会使制动力分配向后迁移，并使最小制动力分配每次点击减少 1%。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/lighting-brake-spec.png)
+
+      #### ROOF ID LIGHT COLOR
+
+      The color of the identifier lights on the roof of the car can be changed to better identify similarly-painted cars in nighttime conditions. This adjustment has no effect on vehicle performance.
+
+      #### PAD COMPOUND
+
+      The vehicle’s braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes but allowing for better brake pressure modulation, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup.
+
+      #### FRONT MASTER CYLINDER
+
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+
+      #### REAR MASTER CYLINDER
+
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+
+      #### BRAKE BIAS TARGET
+
+      Sets the brake bias with an offset from the Brake Pressure Bias. Positive values will set the brake bias higher than the Pressure Bias setting by 0.5% per click, negative values will set the bias lower than the Pressure Bias by 0.5% per click. For example, if the Brake Pressure Bias is 50% and the Target is “2”, the actual brake bias will be set to 51%.
+
+      #### BRAKE BIAS MIGRATION
+
+      This sets how far forward or rearward the brake bias will shift with brake pedal travel. Positive values will migrate the bias forward and increase the maximum brake bias by 1% per click, negative values will migrate it rearward and reduce the minimum brake bias by 1%.
+
+  - id: hybrid-config-fuel
+    level: 3
+    titleZh: 混合动力配置与燃油
+    titleEn: HYBRID CONFIG & FUEL
+    bodyZh: |+
+      ![混合动力与燃油设置](./assets/cadillac-v-series-r-gtp/hybrid-fuel.png)
+
+      Cadillac V-Series.R GTP 的混合动力系统可以设置为五种模式之一，以改变每圈结束时电池荷电状态（SoC）的目标。每种模式都会在一圈中使用不同程度的能量来达到目标，因此有些模式会在电池放电的代价下，在一圈中产生更多功率并带来更快圈速。
+
+      #### 不释放（NO DEPLOY）
+
+      在“No Deploy”模式下，混合动力系统不会使用电池中储存的能量。这实际上会禁用混合动力驱动系统，只在一圈行驶过程中为电池充电。该模式仅在排位赛和测试赛中可用，用于在切换到 Qual 模式前将电池充满。
+
+      #### 排位（QUAL）
+
+      该模式用于排位赛中的飞驰圈，并会尝试在一圈内使用全部电池电量。该模式仅在排位赛和测试赛中可用；在外圈和暖胎圈应先使用 No Deploy 设置，以确保电池充满后再切换到 Qual 模式。
+
+      #### 进攻（ATTACK）
+
+      Attack 模式会降低荷电状态目标，在比赛中使用更多功率以帮助超车。通常，该模式带来的圈速收益不足以抵消使用 Attack 模式后重新充电和恢复电量造成的速度损失，因此只有在完成超车确有必要时才应使用。由于最后一圈之后不再需要电池，该模式也可用于最后一圈的速度爆发。该模式仅在练习、比赛和测试赛中可用。
+
+      #### 平衡（BALANCED）
+
+      Balanced 模式是混合动力系统的主要比赛模式。它会尝试释放电能，尽可能缩短圈速，同时在一圈内维持合理的荷电状态。会话开始时，混合动力系统需要几圈飞驰圈来学习赛道，并优化释放策略以获得最佳圈速；该模式仅在练习、比赛和测试赛中可用。
+
+      #### 充电（BUILD）
+
+      当电池电量较低，或需要在切换到 Attack 模式前补充电量时，Build 模式会尝试尽快建立电池电量。请注意，与 Balanced 相比，该模式会显著牺牲圈速；电池充电完成后应切回 Balanced，以免损失已回收的能量并避免不必要的速度损失。该模式仅在练习、比赛和测试赛中可用。
+
+      #### 燃油量（FUEL LEVEL）
+
+      燃油量是车辆驶离车库时油箱中的燃油量。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/hybrid-fuel.png)
+
+      The Hybrid power system on the Cadillac V-Series R GTP can be set to one of five modes to change the target battery State of Charge (SoC) after each lap. Each of these modes will use varying levels of energy throughout a lap to reach a target, and thus some will produce more power over the course of a lap and faster lap times at the cost of discharging the battery.
+
+      #### NO DEPLOY
+
+      In the “No Deploy” mode, the Hybrid system will not use any energy stored in the battery. This essentially disables the Hybrid drive system and will only charge the battery throughout a lap. This is only available in Qualifying and Test sessions and is used to fully charge the battery before switching to Qual mode.
+
+      #### QUAL
+
+      This mode is intended to be used on flying laps during qualifying sessions and will attempt to use all of the battery charge during a lap. This is only available during Qualifying and Test sessions and should be preceded by the No Deploy setting on outlaps and warmup laps to ensure the battery is fully charged before switching to the Qual mode.
+
+      #### ATTACK
+
+      Attack mode reduces the target State of Charge to use more power during race sessions to help with overtaking. Generally the laptime gain from this mode is not enough to offset the loss in pace from having to recharge and recover from using Attack mode, so it should be used only when it is absolutely necessary to complete an overtake. This mode can also be used on the final lap for a burst of speed since the battery is no longer needed. This mode is only available for Practice, Race, and Test sessions.
+
+      #### BALANCED
+
+      The Balanced mode is the primary Race mode for the Hybrid system. This mode will attempt to deploy electrical charge to reduce lap times as much as possible while still maintaining a reasonable State of Charge over the duration of a lap. At the start of a session, it will take a few flying laps for the Hybrid system to learn the track and optimize deployment for the best lap times, and this mode is only available in Practice, Race, and Test sessions.
+
+      #### BUILD
+
+      The Build mode will attempt to build battery charge as quickly as possible in the event of a low battery charge or if it is needed prior to switching to Attack mode. Note that this will compromise lap times significantly compared to Balanced, and it’s important to switch back to Balanced mode once the battery has charged to avoid losing harvested energy and to prevent unnecessary loss in pace. This mode is only available in Practice, Race, and Test sessions.
+
+      #### FUEL LEVEL
+
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+
+  - id: traction-control-gear-ratios-rear-diff-spec
+    level: 3
+    titleZh: 牵引力控制、齿比与后差速器规格
+    titleEn: TRACTION CONTROL, GEAR RATIOS, & REAR DIFF SPEC
+    bodyZh: |+
+      ![牵引力、齿比与差速器设置](./assets/cadillac-v-series-r-gtp/traction-gear-differential.png)
+
+      #### 牵引力控制增益
+
+      增益是检测到车轮打滑时牵引力控制系统施加的介入程度。数值越高，为控制车轮空转而进行的油门切断越激进。
+
+      #### 牵引力控制滑移
+
+      滑移表示牵引力控制系统对车轮空转的敏感程度。数值越高，较小程度的车轮空转就会激活牵引力控制系统；数值越低，系统会允许更多车轮空转后才介入。
+
+      #### 油门形状
+
+      油门形状设置会根据油门踏板位置调整扭矩输出的线性程度。设置“1”是完全线性的，给定百分比的油门会输出相近百分比的最大扭矩（25% 油门 = 25% 扭矩）。随着设置值升高，扭矩输出会变得更加非线性，类似蝶阀式油门：在极低和极高油门百分比时扭矩增幅更小，在油门中段的扭矩增幅更大。这会改变初次施加油门时的车辆感觉，是适应不同驾驶风格的有效工具。
+
+      #### 齿轮组
+
+      齿轮组会改变变速箱的齿比。有两种选择：Short（短）和 Long（长）。Short 设置会选择更偏重加速的齿轮组，适合直道较短或弯道较慢的赛道；Long 选项会选择更适合高速赛道和长直道的挡位。
+
+      #### 齿速
+
+      变速箱的七个前进挡都会显示发动机达到最大转速时的大致地面速度。这些数值会根据选择的齿轮组而变化，但由于赛道上的实际条件，真实最高速度可能略有不同。
+
+      #### 滑行 / 驱动斜坡角
+
+      滑行斜坡角和驱动斜坡角会影响差速器在加速时使两个驱动轮保持锁定所施加的力。较低数值会产生更大的锁止力，而更大的锁止力会增加制动和加速阶段的转向不足。较高数值会产生更小的锁止力，并在这些情况下导致转向过度。
+
+      #### 离合器摩擦片
+
+      离合器片的数量会影响保持差速器锁止所施加的总力。将其视为乘数，增加片数会产生越来越大的锁止力。
+
+      #### 预载
+
+      可以为差速器设置静态载荷。数值越高，差速器在所有条件下产生的锁止力越大，从而在加速和减速时带来更多转向不足。该数值也会影响弯心表现；数值越高，差速器越不容易解锁，弯心转向不足越明显。
+
+    bodyEn: |+
+      ![Image](./assets/cadillac-v-series-r-gtp/traction-gear-differential.png)
+
+      #### TRACTION CONTROL GAIN
+
+      Gain is the amount of intervention the Traction Control will exert when wheel spin is detected. Higher values result in a more aggressive throttle cut to control wheelspin.
+
+      #### TRACTION CONTROL SLIP
+
+      Slip is how sensitive the Traction Control system will be to wheelspin. Higher values will activate the Traction Control system with smaller amounts of wheelspin, while lower values will allow slightly more wheelspin prior to activating the system.
+
+      #### THROTTLE SHAPE
+
+      The Throttle Shape setting will adjust how linear the torque delivery is based on the throttle pedal position. Setting “1” is purely linear, with a given percent of throttle delivering a similar percentage of max torque (25% throttle = 25% torque). As settings are increased the torque delivery becomes more non-linear, similar to a butterfly-style throttle: less torque increase at very low and very high throttle percentage and more torque increase in the throttle’s mid-range. This will change the feel of the car when throttle is initially applied and is a good tool for drivers with various driving styles.
+
+      #### GEAR STACK
+
+      Gear Stack changes the gear ratios in the transmission. Two choices are available: Short and Long. The Short setting will choose a more acceleration-focused gear set for tracks with shorter straights or slower corners, while the Long option will choose gears more suited to high-speed tracks with long straights.
+
+      #### GEAR SPEEDS
+
+      Each of the transmission’s seven forward gears will show the approximate ground speed at which the engine will reach maximum RPM. These values will change based on which Gear Stack is selected, but the true maximum speed may differ slightly due to on-track conditions.
+
+      #### COAST/DRIVE RAMP ANGLES
+
+      Coast and Drive Ramp Angles affect the force exerted by the differential to keep both driven tires locked together under acceleration. Lower values produce more locking force, and more locking force increases understeer during braking and acceleration phases. Higher values will produce less locking force and induce oversteer in these situations.
+
+      #### CLUTCH FRICTION PLATES
+
+      The number of clutch faces affect how much overall force is applied to keep the differential locked. Treated as a multiplier, adding more faces produces increasingly more locking force.
+
+      #### PRELOAD
+
+      The differential can be set with a static load applied. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer.
+
+  - id: setup-tips
+    level: 2
+    titleZh: 设置技巧
+    titleEn: SETUP TIPS
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆设置不同方面的用户。
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: provided-setups
+    level: 3
+    titleZh: 随附设置
+    titleEn: PROVIDED SETUPS
+    bodyZh: |+
+      Cadillac V-Series.R GTP 随附 12 个 iRacing 设置：
+
+      #### 基准（BASELINE）
+
+      比高下压力设置略稳定的版本，适合第一次驾驶本车的车手，或希望获得比高下压力设置更高稳定性的车手。
+
+      #### 高下压力（HIGH DOWNFORCE）
+
+      适用于大多数赛道。该设置效率相当高并能产生最大下压力，但同时也会产生最大阻力。
+
+      #### 中下压力（MEDIUM DOWNFORCE）
+
+      适用于 Spa 等拥有长直道的赛道。牺牲更多下压力和效率，以换取更高的直线速度。
+
+      #### 低下压力（LOW DOWNFORCE）
+
+      适用于勒芒。最低阻力和下压力配置。
+
+      #### Daytona
+
+      低下压力设置的变体，适用于 Daytona，并进行了改动以避免在椭圆赛道倾斜弯道上触底。
+
+      #### Daytona 24H
+
+      Daytona 设置的变体，专门考虑了一年中的时间、预期天气以及 24 小时比赛设置的要求。
+
+      除固定 IMSA 设置外，所有设置的燃油量均设为 89 L，这是本车油箱的最大容量。
+
+      #### 固定（FIXED）
+
+      为官方 IMSA 固定赛制提供的高下压力设置，燃油量受限。
+
+      #### 固定排位（FIXED QUAL）
+
+      带有排位赛燃油量和混合动力释放的固定赛制设置。
+
+      #### 固定勒芒（FIXED LEMANS）
+
+      为官方 IMSA 固定赛制提供的低下压力设置，燃油量受限。
+
+      #### 固定勒芒排位（FIXED LEMANS QUAL）
+
+      带有排位赛燃油量和混合动力释放的固定低下压力赛制设置。
+
+      #### 固定 Daytona（FIXED DAYTONA）
+
+      为官方 IMSA 固定赛制提供的 Daytona 设置，燃油量受限。
+
+      #### 固定 Daytona 排位（FIXED DAYTONA QUAL）
+
+      带有排位赛燃油量和混合动力释放的 Daytona 赛制设置。
+
+    bodyEn: |+
+      There are 12 iRacing setups provided for the Cadillac V-Series R GTP:
+
+      #### BASELINE
+
+      A slightly more stable version of the high downforce setup for a driver’s first time in the car or for those wanting more stability than the high downforce setup provides.
+
+      #### HIGH DOWNFORCE
+
+      For use at most tracks. Although quite efficient and creating the most downforce, this setup also makes the most drag.
+
+      #### MEDIUM DOWNFORCE
+
+      For use at track with long straights like Spa. Sacrificing more downforce and efficiency for more straight line speed.
+
+      #### LOW DOWNFORCE
+
+      For use at Le Mans. Lowest drag and downforce trim.
+
+      #### DAYTONA
+
+      A variation of the Low Downforce setup for use at Daytona with changes to avoid bottoming on the oval banking.
+
+      #### DAYTONA 24H
+
+      A variation on the Daytona setup made specifically with time of year, expected weather, and the demands of a 24 hour race setup in mind.
+
+      The fuel level in all setups (except the fixed IMSA setups) are set to 89 L, which is the maximum tank capacity for this car.
+
+      #### FIXED
+
+      The high downforce setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED QUAL
+
+      The fixed series setup with qualifying fuel and hybrid deployment.
+
+      #### FIXED LEMANS
+
+      The low downforce setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED LEMANS QUAL
+
+      The fixed LDF series setup with qualifying fuel and hybrid deployment.
+
+      #### FIXED DAYTONA
+
+      The Daytona setup with limited fuel for the official IMSA fixed series.
+
+      #### FIXED DAYTONA QUAL
+
+      The Daytona series setup with qualifying fuel and hybrid deployment.
+
+  - id: chassis-heights
+    level: 3
+    titleZh: 底盘高度
+    titleEn: CHASSIS HEIGHTS
+    bodyZh: |+
+      Cadillac V-Series.R GTP 在前部平均车高约 20 mm、后部平均车高约 35 mm 时产生的下压力最多。需要注意的是，当前部平均车高接近 30 mm 时，产生的阻力最小。
+
+      更大的俯仰角（后部车高高于前部车高）会使空气动力学平衡向前移动（转向过度），更小的俯仰角会使其向后移动（转向不足）。
+
+      在不改变侧倾刚度的情况下，可以通过调整前部 Heave 弹簧和后部第三弹簧的刚度来影响赛道上的动态车高。
+
+    bodyEn: |+
+      The Cadillac V-Series.R GTP generates the most downforce with an average front ride height around 20mm and an average rear ride height around 35mm. It’s important to note that the least amount of drag is generated when the average front ride height is closer to 30mm.
+
+      More rake (high rear ride heights compared to front ride heights) will move aero balance forward (oversteer) and less rake will move it rearwards (understeer).
+
+      You can affect the dynamic ride heights (without changing the roll stiffness) on track by adjusting the front heave spring and the rear third spring stiffnesses.
+
+  - id: aerodynamic-adjustments
+    level: 3
+    titleZh: 空气动力学调整
+    titleEn: AERODYNAMIC ADJUSTMENTS
+    bodyZh: |+
+      如果选择调整设置，改变设置平衡最简单的方法是调整后翼角度。一般而言，如果发现需要将翼面位置向任一方向调整超过一格，建议从其他下压力配置（高、中或低）中的一个开始。
+
+      降低翼角 = 更多转向过度、更少下压力和更高直线速度。
+
+      提高翼角 = 更多转向不足、更多下压力和更低直线速度。
+
+      如果希望在不改变下压力 / 阻力配置的情况下改变空气动力学平衡，可以增大或减小后部推杆长度偏移来调整后部车高。由于下压力很大，这会影响所有情况下的平衡，但在中高速弯中尤其明显。
+
+      降低推杆长度偏移 = 更低的后部车高、更小的俯仰角、更靠后的空气动力学平衡（转向不足）。
+
+      提高推杆长度偏移 = 更高的后部车高、更大的俯仰角、更靠前的空气动力学平衡（转向过度）。
+
+    bodyEn: |+
+      Should you choose to make adjustments to the setup the easiest way to change the balance of the setup is through adjustment of the rear wing angle. Generally speaking if you find you want to adjust wing position in more than a click in either direction it is recommended you start from one of the other downforce trim setups (high, medium, or low).
+
+      Lower wing angle = More oversteer, less downforce, and higher straight line speed.
+
+      Higher wing angle = More understeer, more downforce, and lower straight line speed.
+
+      If you would like to change the aero balance without changing the downforce/drag trim adjust the rear ride height by increasing or decreasing the rear pushrod length offset. This will affect balance in all situations due to the high amount of downforce but this will be particularly noticeable in mid and high speed corners.
+
+      Lower pushrod length offset = Lower rear ride height, less rake, a more rearward aero balance (understeer).
+
+      Higher pushrod length offset = Higher rear ride height, more rake, a more forward aero balance (oversteer).
+
+  - id: mechanical-adjustments
+    level: 3
+    titleZh: 机械调整
+    titleEn: MECHANICAL ADJUSTMENTS
+    bodyZh: |+
+      如果希望在不改变空气动力学平衡的情况下改变机械平衡，可以调整前、后防倾杆及其叶片。这在您对车辆总体平衡满意、但希望在低速弯中获得更多或更少旋转时尤其有用。
+
+      前防倾杆更大 / 叶片数值更高 = 更多转向不足
+
+      前防倾杆更小 / 叶片数值更低 = 更少转向不足
+
+      后防倾杆更大 / 叶片数值更高 = 更多转向过度
+
+      后防倾杆更小 / 叶片数值更低 = 更少转向过度
+
+    bodyEn: |+
+      If you would like to change the mechanical balance without changing the aero balance the front and rear ARBs and ARB blades may be adjusted. This can be particularly useful if you are happy with the general balance of the car but want either more or less rotation in slow speed corners.
+
+      Bigger front ARB/higher blade value = More understeer
+
+      Smaller front ARB/lower blade values = Less understeer
+
+      Bigger rear ARB/higher blade values = More oversteer
+
+      Smaller rear ARB/lower blade values = Less oversteer
+
+  - id: differential-adjustments
+    level: 3
+    titleZh: 差速器调整
+    titleEn: DIFFERENTIAL ADJUSTMENTS
+    bodyZh: |+
+      后差速器是 Cadillac 中一个强大的工具，最简单的调整方法是增加或减少预载。调整预载会影响油门开启时的表现，但您可能会更明显地感受到它对入弯和初始转向的影响。
+
+      - 更多预载 = 松油门时旋转更少，入弯时稳定性更高。
+      - 更少预载 = 松油门时旋转更多，入弯时稳定性更低。
+
+    bodyEn: |+
+      The rear differential is a powerful tool in the Cadillac, and the simplest change one can make is increasing or decreasing the preload. While adjusting the preload will affect the on throttle behavior you will probably notice more of a change on entry and turn in.
+
+      - More preload = Less rotation off throttle, more stability on entry.
+      - Less preload = More rotation off throttle, less stability on entry.
