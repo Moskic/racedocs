@@ -1,0 +1,889 @@
+slug: ligier-js-p320
+published: true
+titleZh: Ligier JS P320 用户手册
+titleEn: Ligier JS P320 User Manual
+contentType: vehicle-manual
+brand: Ligier
+vehicleClass: Prototype
+platform: iRacing
+discipline: sports-car
+cover: ./assets/ligier-js-p320/cover.png
+source:
+  type: official
+  title: iRacing Ligier JS P320 User Manual
+  revision: V2
+  notice: Complete English transcription imported from the user-provided official V2 PDF. Obvious extraction reading-order and line-break artifacts were corrected against the original page layout, including the two-column front-suspension and brakes/in-car pages; obvious spacing errors were normalized without changing technical data.
+sections:
+  - id: preamble
+    level: 2
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/welcome-hero.png)
+      
+      #### 亲爱的 iRacing 用户：
+      
+      Ligier JS P320 是 Ligier 面向全球 LMP3 规则推出的最新设计，于 2019 年夏季发布。它接替了自 2015 年起征战、在全球及国际赛事中赢得数百场胜利和多个冠军的 JS P3。为适应新一代 LMP3 规则，JS P320 在车身和悬架方面进行了重大改进，并加入牵引力控制以及动力更强的新款 Nissan V8 发动机。
+      
+      在进入顶级 IMSA WeatherTech 跑车锦标赛的前两个赛季中，Ligier 赛车统治了 LMP3 组别。2021 年，在车手冠军 Gar Robinson 的带领下，Riley Motorsports 在积分榜上取得第一和第三；CORE Autosport 的 Colin Braun 与 Jon Bennett 组合在首个赛季获得第二，并于 2022 年夺冠。自 2024 年起，JS P320 与其他 LMP3 赛车将仅参加 IMSA VP Racing SportsCar Challenge，并在与 GT4 赛车共同进行的多组别比赛中作为更快的组别参赛。
+      
+      再次感谢您的购买，我们赛道上见！
+      
+      ![图示](./assets/ligier-js-p320/welcome-car.png)
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/welcome-hero.png)
+      
+      #### DEAR iRACING USER,
+      
+      Ligier’s latest design to compete under global LMP3 regulations, the Ligier JS P320 launched in the summer of 2019. The JS P320 succeeded the JS P3 that had been running since 2015, scoring hundreds of wins and multiple championships across global and international series. It represented major changes from its predecessor in bodywork and suspension, and added traction control and a new, more powerful Nissan V8 engine as part of a new generation of LMP3 regulations.
+      
+      In its first two seasons as a part of the top-level IMSA WeatherTech SportsCar Championship, Ligier entries dominated the LMP3 class. Riley Motorsports finished first and third in the standings in 2021, led by driver’s champion Gar Robinson, while the CORE Autosport duo of Colin Braun and Jon Bennett finished second in that inaugural season before winning the title in 2022. For 2024 and beyond, the JS P320 and all other LMP3s will compete exclusively in the IMSA VP Racing SportsCar Challenge, where it will be the faster car in multi-class racing exclusively alongside GT4 cars.
+      
+      Thanks again for your purchase, and we’ll see you on the track!
+      
+      ![Image](./assets/ligier-js-p320/welcome-car.png)
+
+  - id: tech-specs
+    level: 2
+    titleZh: 技术规格
+    titleEn: TECH SPECS
+  - id: chassis
+    level: 3
+    titleZh: 底盘
+    titleEn: CHASSIS
+    bodyZh: |+
+      #### 推杆驱动内置弹簧的双叉臂悬架
+      
+      ![图示](./assets/ligier-js-p320/chassis-specifications.png)
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 车长 | 4605 mm / 181 in |
+      | 车宽 | 1900 mm / 75 in |
+      | 轴距 | 2860 mm / 112 in |
+      | 干重 | 950 kg / 2094 lbs |
+      | 含车手湿重 | 1115 kg / 2458 lbs |
+
+    bodyEn: |+
+      #### DOUBLE WISHBONE WITH PUSHROD-ACTUATED INBOARD SPRINGS
+      
+      ![Image](./assets/ligier-js-p320/chassis-specifications.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Length | 4605 mm / 181 in |
+      | Width | 1900 mm / 75 in |
+      | Wheelbase | 2860 mm / 112 in |
+      | Dry Weight | 950 kg / 2094 lbs |
+      | Wet Weight with Driver | 1115 kg / 2458 lbs |
+
+  - id: power-unit
+    level: 3
+    titleZh: 动力单元
+    titleEn: POWER UNIT
+    bodyZh: |+
+      自然吸气 Nissan V8
+      
+      ![图示](./assets/ligier-js-p320/power-unit.png)
+      
+      | 规格 | 数值 |
+      | --- | --- |
+      | 排量 | 5.6 Liters / 341 CID |
+      | 转速上限 | 7000 RPM |
+      | 扭矩 | 402 lb-ft / 545 Nm |
+      | 功率 | 460 bhp / 343 kW |
+      
+      ![图示](./assets/ligier-js-p320/vehicle-profile.png)
+
+    bodyEn: |+
+      NATURALLY ASPIRATED NISSAN V8
+      
+      ![Image](./assets/ligier-js-p320/power-unit.png)
+      
+      | Specification | Value |
+      | --- | --- |
+      | Displacement | 5.6 Liters / 341 CID |
+      | RPM Limit | 7000 |
+      | Torque | 402 lb-ft / 545 Nm |
+      | Power | 460 bhp / 343 kW |
+      
+      ![Image](./assets/ligier-js-p320/vehicle-profile.png)
+
+  - id: introduction
+    level: 2
+    titleZh: 简介
+    titleEn: INTRODUCTION
+    bodyZh: |+
+      本指南旨在帮助您深入理解车库中可用的底盘设置选项，以便按照个人偏好调校车辆。
+      
+      不过，在深入调整底盘之前，最好先熟悉赛车和赛道。为此，我们为这些赛车经常使用的各条赛道提供了基准设定。
+      
+      要加载基准设定，只需打开“Garage（车库）”，点击“iRacing Setups”，再选择适合目标赛道的设定。如果当前赛道没有专用基准设定，可以选择特性相近赛道的设定作为起点。
+      
+      选择合适的设置后，请驶上赛道并专注于跑出平顺且稳定的圈次，找准正确的赛车线，同时在连续多圈中观察轮胎磨损和操控趋势。
+      
+      当您确信使用随车提供的基准设置已接近自身驾驶极限后，请继续阅读，开始按照个人操控偏好调校车辆。
+
+    bodyEn: |+
+      The information found in this guide is intended to provide a deeper understanding of the chassis setup adjustments available in the garage, so that you may use the garage to tune the chassis setup to your preference.
+      
+      Before diving into chassis adjustments, though, it is best to become familiar with the car and track. To that end, we have provided baseline setups for each track commonly raced by these cars.
+      
+      To access the baseline setups, simply open the Garage, click iRacing Setups, and select the appropriate setup for your track of choice. If you are driving a track for which a dedicated baseline setup is not included, you may select a setup for a similar track to use as your baseline.
+      
+      After you have selected an appropriate setup, get on track and focus on making smooth and consistent laps, identifying the proper racing line and experiencing tire wear and handling trends over a number of laps.
+      
+      Once you are confident that you are nearing your driving potential with the included baseline setups, read on to begin tuning the car to your handling preferences.
+
+  - id: getting-started
+    level: 3
+    titleZh: 快速上手
+    titleEn: GETTING STARTED
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/getting-started.png)
+      
+      启动车辆前，建议先为制动力分配和牵引力控制设置映射控制按键。虽然并非必需，但这样可以在赛道上根据个人驾驶风格和赛道条件，快速调整制动力分配与牵引力控制系统。
+      
+      进入车辆后，踩下离合器并拉动“升挡”拨片挂入挡位，然后在松开离合器的同时踩下油门踏板即可起步。Ligier JS P320 升挡和降挡均无须手动操作离合器。
+      
+      建议在仪表台上的换挡提示灯全部亮起时升挡，对应转速约为 6600 RPM。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/getting-started.png)
+      
+      Before starting the car, it is recommended to map controls for Brake Bias and Traction Control settings. While this is not mandatory, this will allow you to make quick changes to the brake bias and traction control systems to suit your driving style and track conditions while out on track.
+      
+      Once you load into the car, getting started is as easy as pressing the clutch and pulling the “upshift” paddle to put it into gear, and hitting the accelerator pedal while releasing the clutch. The Ligier JS P320 does not require manual clutch operation to shift in either direction.
+      
+      Upshifting is recommended when the shift lights on the dashboard are all fully illuminated, around 6600rpm.
+
+  - id: loading-an-iracing-setup
+    level: 3
+    titleZh: 载入 iRacing 设置
+    titleEn: LOADING AN iRACING SETUP
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/loading-iracing-setup.png)
+      
+      进入会话时，车辆会自动载入 iRacing 基准设置 [baseline.sto]。如果您希望使用 iRacing 针对各种条件预制的其他设置，可依次单击“车库 &gt; iRacing 设置 &gt;”，再选择符合需求的设置。
+      
+      若要自定义车辆设定，只需在车库中完成所需调整，然后点击“Apply（应用）”。
+      
+      若要保存设定供日后使用，请点击右侧的“Save As（另存为）”，为设定命名并保存更改。点击车库右侧的“My Setups（我的设定）”即可查看全部个人设定。
+      
+      如需与另一位车手或会话中的所有人共享设置，可以单击车库右侧的“共享”。
+      
+      如果其他车手正在与您共享设置，也可以在车库右侧的“共享设置”中找到该设置。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/loading-iracing-setup.png)
+      
+      Upon loading into a session, the car will automatically load the iRacing Baseline setup [baseline.sto]. If you would prefer one of iRacing’s pre-built setups that suit various conditions, you may load it by clicking Garage &gt; iRacing Setups &gt; and then selecting the setup to suit your needs.
+      
+      If you would like to customize the setup, simply make the changes in the garage that you would like to update and click apply.
+      
+      If you would like to save your setup for future use click “Save As” on the right to name and save the changes. To access all of your personally saved setups, click “My Setups” on the right side of the garage.
+      
+      If you would like to share a setup with another driver or everyone in a session, you can select “Share” on the right side of the garage to do so.
+      
+      If a driver is trying to share a setup with you, you will find it under “Shared Setups” on the right side of the garage as well.
+
+  - id: dash-configuration
+    level: 2
+    titleZh: 仪表配置
+    titleEn: DASH CONFIGURATION
+    bodyZh: |+
+      方向盘集成的数字显示屏以清晰易读的单页布局向车手显示所有相关信息。
+      
+      ![图示](./assets/ligier-js-p320/dashboard-configuration.png)
+      
+      | 仪表页面布局 | 数值 |
+      | --- | --- |
+      | 上一圈 | 上一圈圈速以蓝色显示在屏幕左上方 |
+      | Best | 本赛段最佳圈速以粉色显示在屏幕右上方 |
+      | Gear Indicator | 当前挡位显示在屏幕中央 |
+      | RPM | 发动机转速显示在挡位指示器正下方 |
+      | 胎压 | 实时胎压显示在屏幕中央，单位取决于车库设置：英制显示 psi，公制显示 bar。 |
+      | Fuel Used | 显示屏左侧显示离开维修区后消耗的燃油量；英制单位显示美制加仑，公制单位显示升。 |
+      | Fuel Lap | 每圈结束后，上一圈耗油量会显示在 Fuel Used 数值下方，单位为美制加仑或升 |
+      | DIFF | 实时分段时间显示在屏幕右侧、最佳圈速下方，用于比较当前圈与最佳圈；更快时显示绿色，更慢时显示红色 |
+      | Speed | 车速显示在屏幕右侧，英制单位为 mph，公制单位为 km/h |
+      | 机油压力 | 发动机机油系统压力显示在左下方，英制单位为 psi，公制单位为 bar |
+      | TC | 当前牵引力控制设置显示在屏幕底部的黄色方框内。该值与 F8 黑框中的 TC 选项一致；设置为“0”时显示“OFF”，表示系统已禁用。 |
+      | 油门曲线 | 当前油门曲线设置显示在屏幕右下方的紫色方框内 |
+      | Water T | 发动机冷却水温显示在屏幕右下方，英制单位为 °F，公制单位为 °C |
+
+    bodyEn: |+
+      The steering wheel’s integrated digital display shows all relevant information to the driver in an easy to read, single-page format.
+      
+      ![Image](./assets/ligier-js-p320/dashboard-configuration.png)
+      
+      | Dash Page Layout | Value |
+      | --- | --- |
+      | Last | The previously completed lap time is shown in the upper left of the display in blue |
+      | Best | The session’s best lap is shown in the upper right of the display in pink |
+      | Gear Indicator | The currently-selected gear is located in the middle of the display |
+      | RPM | Engine RPM is located just beneath the gear indicator |
+      | Tyre Press | Live pressures are shown in the center of the display in units based on what is selected in the garage. Imperial units will display Pounds-per-square-Inch and Metric units will display Bar. |
+      | Fuel Used | How much fuel that has been used since leaving pit road is shown on the left side of the display. Imperial units will show US Gallons and Metric units will show Liters |
+      | Fuel Lap | After completing each lap the amount of fuel that was used in the previous lap will be displayed beneath the Fuel Used value in US Gallons or Liters |
+      | DIFF | A live split time is shown on the right side of the display underneath the Best Lap display. This will compare the current lap against the Best lap, displaying a faster lap in green and a slower lap in red |
+      | Speed | The vehicle’s speed is shown on the right side of the display in Miles-per-Hour for Imperial units and Kilometers-per-Hour for Metric units |
+      | OIL P | The engine oil system pressure is shown on the bottom left in Pounds-per-square-inch for Imperial units and Bar for Metric units |
+      | TC | The currently-selected Traction Control setting is shown in a yellow box on the bottom of the display. This value will match the TC option in the F8 black box unless the setting is “0”, when this will display “OFF” to indicate the system is disabled |
+      | PPS | The currently-selected throttle shape setting is shown on the bottom right of the display in a purple box |
+      | Water T | The engine’s cooling water temperature is displayed in the bottom right, in °F for Imperial and °C for Metric units |
+
+  - id: racelogic
+    level: 3
+    titleZh: Racelogic
+    titleEn: RACELOGIC
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/racelogic.png)
+      
+      车手左侧仪表台顶部安装有 Racelogic 分段与圈速显示器。行驶过程中，它会显示当前圈相对本赛段最佳圈速的分段时间，并以图形条表示时间差。正时间差且图形条位于中心右侧表示当前圈慢于基准；负时间差且图形条位于中心左侧表示当前圈更快。完成一圈后，显示器会显示刚完成的圈速以及新一圈的时间差。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/racelogic.png)
+      
+      To the left of the driver, mounted on top of the dash, is a Racelogic Split and Laptime display. During a lap this display will show the current split time relative to the session best lap time, as well as a graphical bar representing the displayed time difference. A positive split and a bar displayed to the right of center will indicate a lap slower than the reference, while a negative split and a bar to the left of center indicates a faster lap. When a lap is completed, the display will show the previously completed lap time as well as a split for the new lap.
+
+  - id: pit-limiter
+    level: 3
+    titleZh: 维修区限速器
+    titleEn: PIT LIMITER
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/pit-limiter.png)
+      
+      | 维修区限速页面布局 | 数值 |
+      | --- | --- |
+      | Gear | 当前挡位以大号数字显示在左上方 |
+      | Speed | 当前车速显示在右上方，单位为 km/h 或 mph |
+      | 牵引力控制映射 | 当前选择的牵引力控制（TC）映射 |
+      | Fuel Used | 车辆上次进站后消耗的燃油量，单位为升或加仑 |
+      | 制动平衡 | 当前制动力分配设置 |
+      | 踏板 % | 实时油门踏板位置 |
+      | 轮胎压力 | 实时胎压（bar 或 PSI） |
+      | Water T | 发动机冷却水温（°C 或 °F） |
+      | 油门曲线映射 | 当前选择的油门曲线设置 |
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/pit-limiter.png)
+      
+      | Pit Limiter Page Layout | Value |
+      | --- | --- |
+      | Gear | The Currently-selected gear will be shown in the upper left with a large number |
+      | Speed | Current vehicle speed is shown in the upper right, in kph or mph |
+      | TC Map | Currently selected Traction Control (TC) mapping |
+      | Fuel Used | Volume of fuel used since the car was last pitted, in Liters or Gallons |
+      | Brake Balance | Current Brake Balance setting |
+      | Pedal % | Live throttle pedal position |
+      | Tyre Pressure | Live tire pressures, in bar or PSI |
+      | Water T | Engine cooling water temperature, in °C or °F |
+      | PPS Map | Currently selected Throttle Shape setting |
+
+  - id: shift-lights
+    level: 3
+    titleZh: 换挡提示灯
+    titleEn: SHIFT LIGHTS
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/shift-lights.png)
+      
+      Ligier JS P320 的换挡提示灯并不直接对应固定转速，而是根据发动机转速上升速率决定开始点亮的时机，使换挡提示能依据车辆的加速强度在最佳换挡点显示。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/shift-lights.png)
+      
+      The shift lights for the Ligier JS P320 are not tied directly to a specific RPM value, but are instead timed to begin illuminating based on the engine RPM acceleration to where the shift indication is shown at the optimum shift point based on how aggressively the car is accelerating.
+
+  - id: advanced-setup-options
+    level: 2
+    titleZh: 高级设置选项
+    titleEn: ADVANCED SETUP OPTIONS
+    bodyZh: |+
+      > 本节面向希望深入了解车辆各项设置的高级用户。调整以下参数并非必要，而且可能显著改变车辆的操控特性。建议所有调整都采用循序渐进的方式，每次只更改一个变量，并在继续调整前先测试效果。
+
+    bodyEn: |+
+      > This section is aimed toward more advanced users who want to dive deeper into the different aspects of the vehicle’s setup. Making adjustments to the following parameters is not required and can lead to significant changes in the way a vehicle handles. It is recommended that any adjustments are made in an incremental fashion and only singular variables are adjusted before testing changes.
+
+  - id: tires-and-aero
+    level: 2
+    titleZh: 轮胎与空气动力学
+    titleEn: TIRES & AERO
+  - id: tire-data
+    level: 3
+    titleZh: 轮胎数据
+    titleEn: TIRE DATA
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/tire-data.png)
+      
+      #### 轮胎类型（TIRE TYPE）
+      
+      选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+      
+      #### 初始胎压（STARTING PRESSURE）
+      
+      设置车辆载入赛道时的轮胎气压。较低胎压可提供更多机械抓地力，但滚动阻力和热量积聚也更大；较高胎压可降低热量积聚和滚动阻力，但也会减少可用抓地力。通常，在车速和负荷较高的赛道上，较高胎压表现更好；在速度较慢、弯角较急的赛道上，较低胎压表现更佳。
+      
+      #### 最后热胎压（LAST HOT PRESSURE）
+      
+      上次热态胎压显示车辆返回车库时的轮胎气压。冷、热态胎压的差值有助于判断车辆在一个长距离阶段内的平衡变化；负荷较大的轮胎通常会出现更大的胎压升幅。理想情况下，工作状态相近的轮胎应以相同速率升压，避免轮胎使用过程中操控平衡发生变化。因此，应调整冷态胎压，使工作状态相近的轮胎达到工作温度后具有相近胎压。
+      
+      #### 最后温度（LAST TEMPS）
+      
+      车辆返回维修区或车手离开车辆后显示的轮胎胎体温度。车轮载荷及轮胎在赛道上的工作强度会反映在胎温上，可利用这些数值分析车辆的操控平衡。中央温度适合直接比较各条轮胎的工作量，内侧和外侧温度则适合分析赛道行驶中的车轮定位状态，尤其是外倾角。温度在胎面横向的三个区域测量：相对于底盘中心线的内侧、中间和外侧。
+      
+      #### 剩余胎纹（TREAD REMAINING）
+      
+      车辆返回维修区或车手离开车辆后，轮胎剩余的胎面厚度。轮胎磨损非常有助于识别车轮定位方面的潜在问题，例如轮胎一侧过度磨损；结合胎温数据，还可以分析车辆的操控平衡。剩余胎面厚度与胎温采用相同的区域划分进行测量。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/tire-data.png)
+      
+      #### TIRE TYPE
+      
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+      
+      #### STARTING PRESSURE
+      
+      This sets the air pressure in the tires when the car is loaded into the world. Lower pressures will produce more mechanical grip with more rolling drag and heat buildup, while higher pressures will reduce heat buildup and rolling drag, but will also reduce the available grip. Generally, higher pressures will perform better at tracks with high speeds and high loads while slower tracks with tighter corners will see better performance out of lower tire pressures.
+      
+      #### LAST HOT PRESSURE
+      
+      The Last Hot Pressure displays the air pressure in the tire when the car is returned to the garage. The difference between Cold and Hot pressures can be used to identify how the car is progressing through a run in terms of balance, with heavier-loaded tires seeing a larger difference between Cold and Hot pressures. Ideally, tires that are worked in a similar way should build pressure at the same rate to prevent a change in handling balance over the life of the tire, so Cold pressures should be adjusted to ensure that similar tires are at similar pressures once up to operating temperature.
+      
+      #### LAST TEMPS
+      
+      Tire carcass temperatures once the car has returned to the pits or the driver has gotten out of the car. Wheel Loads and the amount of work a tire is doing on-track are reflected in the tire’s temperature, and these values can be used to analyze the car’s handling balance. Center temperatures are useful for directly comparing the work done by each tire, while the Inner and Outer temperatures are useful for analyzing the wheel alignment (predominantly camber) while on track. These values are measured in three zones across the tread of the tire. Inside, Middle and Outer relative to the chassis centerline.
+      
+      #### TREAD REMAINING
+      
+      The amount of tread remaining on the tire once the car has returned to the pits or the driver has gotten out of the car. Tire wear is very helpful in identifying any possible issues with alignment, such as one side of the tire wearing excessively, and can be used in conjunction with tire temperatures to analyze the car’s handling balance. These values are measured in the same zones as those of temperature.
+
+  - id: aero-settings
+    level: 3
+    titleZh: 空气动力学设置
+    titleEn: AERO SETTINGS
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/aero-settings.png)
+      
+      | 前俯冲翼 | 数值 |
+      | --- | --- |
+      | 前俯冲翼安装在前翼子板的前灯下方，可显著增加车头下压力并使空气动力平衡前移，但也会略微增加阻力。共有三种配置：High Downforce（HDF）安装完整俯冲翼，大幅增加下压力和阻力；Medium Downforce（MDF）安装部分俯冲翼，相比 HDF 阻力更小、下压力也更低；Low Downforce（LDF）完全拆除俯冲翼，适用于极速对最佳性能至关重要的场合。 | 更改尾翼设置会改变尾翼总成的攻角。较大角度会增加下压力、使空气动力学平衡后移，但也会增加阻力；较小角度会减少阻力和下压力，同时使空气动力学平衡前移。为获得最佳性能，必须根据赛道特性调整尾翼角度：高速赛道通常受益于较小尾翼角度带来的低阻力；速度较慢、弯角较多的赛道则通常使用较大尾翼角度和更多下压力时表现更好。底盘页面中的此项设置与空气动力学计算器中的尾翼设置联动，更改其中一项会同步更改另一项。 |
+      | 车身格尼襟翼是安装在车尾的小型翼片，用于提高总下压力。启用后会增加后轴及全车下压力，但也会增加阻力。 | 尾翼带有可独立于主翼面调整的第二翼片，用于微调车尾下压力。与尾翼角度调整相同，较大角度会增加车尾下压力和阻力，较小角度则会降低二者。此数值是相对参考角度的偏移量，可以设为负值；负角度仍会产生下压力。 |
+      
+      #### 后翼角度（REAR WING ANGLE）
+      
+      #### 尾翼襟翼角度
+      
+      #### 车身格尼襟翼设置
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/aero-settings.png)
+      
+      | FRONT DIVE PLANES | Value |
+      | --- | --- |
+      | The Front Dive Planes are aerodynamic surfaces attached to the front fenders beneath the headlights. These can dramatically increase the downforce produced at the front of the car while shifting the aero balance forward but will increase drag slightly. Three variations are available: The High Downforce (HDF) option will install a full dive plane and greatly increase downforce and drag. The Medium Downforce (MDF) will install a partial dive plane, reducing drag over the HDF option but with less downforce. The Low Downforce (LDF) option will remove the dive planes completely, an option for when top speed is absolutely crucial for best performance. | Changing the Rear Wing Angle will alter the angle of attack of the entire rear wing assembly. Higher angles will increase downforce and shift aero balance rearward but will also increase drag. Lower angles will reduce drag and downforce while shifting aero balance forward. It’s very important to tune the Rear Wing angle to suit the track characteristics for optimum performance: Higher-speed tracks will usually benefit from the reduced drag of a lower wing angle while slower, twisty tracks will see better performance with a high wing angle and increased downforce. |
+      | The Deck Gurney is a small flap installed at the rear of the car to increase overall downforce. Using this aerodynamic device will increase rear downforce as well as total downforce, but will also increase drag. | The rear wing features a second element that can be adjusted independently of the rear wing mainplane to fine-tune the downforce level at the rear of the car. Just like the Rear Wing Angle adjustment, higher angles will increase downforce and drag at the rear of the car and lower angles will reduce downforce and drag. This adjustment value is an offset to a reference angle and can be set to a negative angle value, with these negative values still producing downforce. |
+      
+      #### REAR WING ANGLE
+      
+      #### REAR WING FLAP ANGLE
+      
+      #### DECK GURNEY SETTING
+
+  - id: aero-balance-calculator
+    level: 3
+    titleZh: 空气动力平衡计算器
+    titleEn: AERO BALANCE CALCULATOR
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/aero-balance-calculator.png)
+      
+      空气动力学计算器用于帮助理解调整尾翼设置以及前后车高时，空气动力学平衡会如何变化。需要注意，此处显示的前后车高数值不会对车辆本身产生任何机械调整；但在此处更改尾翼角度会实际应用于车辆。此计算器仅供参考。
+      
+      #### 动态前车高
+      
+      动态车高（RH）用于向空气动力学计算器提供计算时参考的车高。使用计算器时，通过遥测确定车辆在赛道任意位置的前车高，然后将该数值输入“动态前车高”设置。
+      
+      #### 动态后车高
+      
+      高速车高（RH at Speed）用于向空气动力学计算器提供计算参考高度。使用空气动力学计算器时，应通过遥测在赛道任意位置确定车辆的前、后车高，并将该数值输入“Front RH at Speed”设置。
+      
+      #### 下压力平衡（DOWNFORCE BALANCE）
+      
+      该数值以车头下压力的百分比显示，表示车辆总下压力中位于前轴上方的比例。百分比越高，说明前部下压力越大，中高速弯中的转向过度越明显；百分比越低，说明后部下压力越大，中高速弯中的转向不足越明显。
+      
+      #### （L/D）
+      
+      “L/D”数值是升力（下压力）与阻力的比值，用于量化车身产生下压力时所带来的阻力。L/D 越高，表示每单位阻力产生的下压力越多，也就是车身效率越高。在不牺牲总下压力的情况下，提高 L/D 会带来更快、更高效的车辆。L/D 的最佳值会因空气动力学配置和赛道类型而异。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/aero-balance-calculator.png)
+      
+      The Aero Calculator is a tool provided to aid in understanding the shift in aerodynamic balance associated with adjustment of the rear wing setting and front and rear ride heights. It is important to note that the values for front and rear ride height displayed here DO NOT result in any mechanical changes to the car itself, however, changes to the rear wing angle here WILL be applied to the car. This calculator is a reference tool ONLY.
+      
+      #### FRONT RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting.
+      
+      #### REAR RH AT SPEED
+      
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting.
+      
+      #### DOWNFORCE BALANCE
+      
+      Displayed in percent of Front downforce, this value shows how much of the car’s total downforce is over the front axle. A higher percentage value indicates an increase in front downforce, increasing oversteer in mid- to high-speed corners. A lower percentage value indicates an increase in rear downforce, increasing understeer in mid- to high-speed corners.
+      
+      #### (L/D)
+      
+      The “L/D” value is the ratio of Lift (downforce) to Drag. This quantifies how efficiently the car’s bodywork is producing downforce in terms of how much drag is being produced as a result. A higher L/D value means more downforce is being produced for each unit of drag, meaning the bodywork is being more efficient. Having a higher L/D value without sacrificing overall downforce will result in a faster, more efficient car. Optimum values for L/D can vary based on the aerodynamic configuration and track type.
+
+  - id: chassis-2
+    level: 2
+    titleZh: 底盘
+    titleEn: CHASSIS
+  - id: front
+    level: 3
+    titleZh: 前部
+    titleEn: FRONT
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/front-chassis.png)
+      
+      #### 垂向弹簧（HEAVE SPRING）
+      
+      前部 Heave 弹簧是处理纯垂向外部载荷的悬架元件，不会控制转弯时会导致车身侧倾的载荷。这些载荷通常来自高速时不断增加的下压力、赛道上的凹陷和隆起，或重刹车。较高的刚度值会使悬架在 Heave 方向变硬，有助于控制车高、维持良好的空气动力学平台，但在颠簸路面可能产生弹跳。较低的刚度更容易吸收颠簸和载荷，但过度的车身运动会损害空气动力学平台。
+      
+      #### 推杆长度调整
+      
+      该设置会同时调整两根前悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整前部车高的好方法，无须改变 Heave 弹簧或任一前部扭杆的预载。
+      
+      #### 防倾杆尺寸（ARB SIZE）
+      
+      | 垂向弹簧座偏移（HEAVE PERCH OFFSET） | 数值 |
+      | --- | --- |
+      | Heave 座高偏移用于调整 Heave 弹簧的预载。这是通过前部 Heave 元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高前部车高；相反，较高数值会释放弹簧载荷、降低前部车高。 | 防倾杆（ARB）尺寸会改变前悬架的侧倾刚度。增大防倾杆尺寸会提高前悬架侧倾刚度，减少车身侧倾，但增加机械转向不足。在某些情况下，这也会让车手感觉转向响应更快。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向不足；这可能使转向感觉响应变慢，但前轴整体抓地力会增加。 |
+      | 垂向弹簧间隙是垂向弹簧总成开始承载任何负荷前所需的压缩量。该数值可以直接设置，但也会随其他能够改变车高、进而改变悬架静态形变量的底盘设置而变化。正值表示车辆静止时垂向弹簧未承载，需要悬架先压缩才会加载；负值则表示垂向弹簧在静态条件下已预载。数值越低，弹簧会在悬架行程中越早介入；数值越高，介入越晚。 | 防倾杆设置用于微调前防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向过度；Hard 提供最大侧倾阻力，使机械平衡偏向转向不足；Medium 的侧倾刚度与操控平衡介于两者之间。 |
+      | 滑块挠度表示 Heave 弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。 | 从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。 |
+      
+      #### 防倾杆设置
+      
+      #### 垂向弹簧挠度（HEAVE SPRING DEFLECTION）
+      
+      #### 前束（TOE-IN）
+      
+      #### 升沉滑块挠度
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/front-chassis.png)
+      
+      #### HEAVE SPRING
+      
+      The front Heave Spring is a suspension element that handles external loads from purely vertical loads and doesn’t control loads that would induce chassis roll when cornering. Generally these loads are present for increasing downforce loads at higher speeds, dips and crests in the track, or under heavy braking. Higher rate values will stiffen the suspension in heave, which is good for controlling ride heights to maintain a good aerodynamic platform, but can produce a bouncing effect on rough surfaces. Lower rates will absorb bumps and loads easier, but will hurt the aerodynamic platform due to excessive chassis movement.
+      
+      #### PUSHROD LENGTH ADJUSTMENT
+      
+      This adjusts the length of both front suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust front ride height without altering the preload on the Heave Spring or either front Torsion Bars.
+      
+      #### ARB SIZE
+      
+      | HEAVE PERCH OFFSET | Value |
+      | --- | --- |
+      | The Heave Perch Offset is used to adjust preload on the Heave Spring. This is one of two methods to adjust ride height through the front Heave element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and reduce front ride heights. | The ARB (Anti-Roll Bar) size alters the stiffness of the front suspension in roll. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. |
+      | Heave Spring Deflection represents the amount the Heave Spring is compressed under static conditions, essentially a display of the preload on the Heave Spring. This can change as a result of adjusting almost everything else on the chassis, so special attention should be paid to ensure the deflection, and thus the spring preload, remains the same after making setup changes. This setting is directly adjustable through the Heave Perch Offset setting, with higher deflection values indicating more static compression and higher spring preload. | The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the front ARB assembly. The Soft setting will provide the least roll resistance and induce some oversteer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards understeer. The Medium option falls between the two settings in both roll stiffness and handling balance. |
+      | The Heave Slider is a mechanism that keeps the Heave Spring assembly moving in a linear fashion without producing the forces that a damper would produce. The Slider Deflection is how far this slider mechanism is mounted on has compressed from fully extended. This has no influence on the chassis handling, but is a way to see how much travel is available before the slider bottoms out. | Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish. |
+      
+      #### ARB SETTING
+      
+      #### HEAVE SPRING DEFLECTION
+      
+      #### TOE-IN
+      
+      #### HEAVE SLIDER DEFLECTION
+
+  - id: brakes-in-car-misc
+    level: 3
+    titleZh: 制动 / 车内 / 其他
+    titleEn: BRAKES / IN-CAR / MISC
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/brakes-in-car.png)
+      
+      #### 前灯 LED 颜色
+      
+      此设置可改变前灯外缘 LED 灯带的颜色。当多辆赛车使用相同涂装时，可用于在赛道上识别特定车辆。该设置不会影响车辆性能。
+      
+      #### 前主缸（FRONT MASTER CYLINDER）
+      
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。
+      
+      #### 制动压力分配（BRAKE PRESSURE BIAS）
+      
+      制动力分配是传递至前制动器的制动力百分比。高于 50% 的数值会将更多压力传向前制动器，低于 50% 的数值则会将更多制动力传向后制动器。应根据车手偏好和赛道条件进行调校，以获得特定情况下的最佳制动性能。
+      
+      #### 牵引力控制
+      
+      此设置决定牵引力控制系统在大油门输入或低抓地力条件下，为防止车轮空转而削减发动机扭矩的程度。数值越高，系统削减扭矩越积极；数值越低，系统会允许略多的车轮空转后再介入。将数值设为“0”会关闭牵引力控制。可通过车内 F8 黑框调整该数值。
+      
+      #### 油门曲线
+      
+      油门形状设置会根据油门踏板位置调整扭矩输出的线性程度。设置“1”是完全线性的，给定百分比的油门会输出相近百分比的最大扭矩（25% 油门 = 25% 扭矩）。随着设置值升高，扭矩输出会变得更加非线性，类似蝶阀式油门：在极低和极高油门百分比时扭矩增幅更小，在油门中段的扭矩增幅更大。这会改变初次施加油门时的车辆感觉，是适应不同驾驶风格的有效工具。
+      
+      #### 后主缸（REAR MASTER CYLINDER）
+      
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。
+      
+      #### 交叉重量
+      
+      交叉重量是车辆左后轮与右前轮承受的重量占整车重量的比例，以百分比显示。该数值通过各轮弹簧预载设置（前扭杆圈数和后弹簧座高偏移）调整。大多数赛道应将其保持在约 50%，车库技术检查会将数值限制在 49.5% 至 50.5% 之间。
+      
+      #### 车头重量
+      
+      车头重量是前轴承受重量占整车总重的百分比。除改变燃油量外，此项无法直接调整，但会影响底盘操控平衡：较高的车头重量会使车辆在低速弯中更趋转向不足，较低数值则更趋转向过度。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/brakes-in-car.png)
+      
+      #### HEADLIGHT LED COLOR
+      
+      This changes the color of the LED light strip around the outside of the headlights, useful for identifying a specific car on-track when multiple cars share the same livery. This has no effect on vehicle performance.
+      
+      #### FRONT MASTER CYLINDER
+      
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+      
+      #### BRAKE PRESSURE BIAS
+      
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
+      
+      #### TRACTION CONTROL
+      
+      This setting alters how much the Traction Control system will cut engine torque to prevent wheelspin in heavy throttle application or low-grip conditions. Higher values will be more aggressive with torque cut to reduce wheelspin while lower values will allow slightly more wheelspin before intervening. Setting this value to “0” will disable the Traction Control. This value is adjustable from the in-car F8 black box.
+      
+      #### THROTTLE SHAPE
+      
+      The Throttle Shape setting will adjust how linear the torque delivery is based on the throttle pedal position. Setting “1” is purely linear, with a given percent of throttle delivering a similar percentage of max torque (25% throttle = 25% torque). As settings are increased the torque delivery becomes more non-linear, similar to a butterfly-style throttle: less torque increase at very low and very high throttle percentage and more torque increase in the throttle’s mid-range. This will change the feel of the car when throttle is initially applied and is a good tool for drivers with various driving styles.
+      
+      #### REAR MASTER CYLINDER
+      
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+      
+      #### CROSS WEIGHT
+      
+      Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the total weight of the car, displayed in percent. This is adjusted via the corner spring preload adjustments (Front Torsion Bar Turns and Rear Spring Perch Offset). This value should be around 50% for most tracks, with the garage tech limiting the value between 49.5% and 50.5%.
+      
+      #### NOSE WEIGHT
+      
+      Nose Weight is the amount of weight on the car’s front axle relative to the total weight of the car, displayed in a percentage. This is not directly adjustable, aside from varying fuel loads, but can have an effect on the chassis handling balance: Higher nose weight values will lead to understeer in slower corners while lower values will trend towards oversteer.
+
+  - id: front-corners
+    level: 3
+    titleZh: 前轮角
+    titleEn: FRONT CORNERS
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/front-corners.png)
+      
+      #### 弹簧座高偏移
+      
+      | 角重（CORNER WEIGHT） | 数值 |
+      | --- | --- |
+      | 车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过弹簧座偏移量设置进行调整。 | 通过改变弹簧上座的安装位置来调整车辆此轮的车高。增大弹簧座偏移量会降低弹簧预载，从而降低此轮车高；减小偏移量会提高弹簧预载，并抬高此轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且对角配重不变。 |
+      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。 | 弹簧刚度表示控制各车轮的悬架弹簧硬度，即将弹簧压缩特定距离所需的力（lb 或 N）。弹簧既用于防止底盘在载荷下触地，也用于控制底盘空气动力学姿态，同时会显著影响操控。前部较硬的弹簧可减少空气动力载荷增加时前翼的移动，但会降低机械抓地力，在慢弯造成转向不足；较软弹簧会带来更多前端运动，可能不利于空气动力学，却能提高前轴机械抓地力、减轻转向不足，极端时也可能造成转向过度。 |
+      
+      #### 车高（RIDE HEIGHT）
+      
+      #### 弹簧刚度
+      
+      #### 弹簧刚度
+      
+      弹簧刚度表示控制各车轮的悬架弹簧硬度，即将弹簧压缩特定距离所需的力（lb 或 N）。弹簧既用于防止底盘在载荷下触地，也用于控制底盘空气动力学姿态，同时会显著影响操控。前部较硬的弹簧可减少空气动力载荷增加时前翼的移动，但会降低机械抓地力，在慢弯造成转向不足；较软弹簧会带来更多前端运动，可能不利于空气动力学，却能提高前轴机械抓地力、减轻转向不足，极端时也可能造成转向过度。
+      
+      #### 减振器挠度
+      
+      减振器形变量表示减振器在车库静态条件下从完全伸长度起的压缩量。这有助于判断在减振器弹簧和垫片接触减振器筒身之前还有多少减振器行程可用。
+      
+      #### 外倾角（CAMBER）
+      
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/front-corners.png)
+      
+      #### SPRING PERCH OFFSET
+      
+      | CORNER WEIGHT | Value |
+      | --- | --- |
+      | The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset settings. | Used to adjust the ride height at a corner of the car by changing the installed position of the spring’s upper perch. Increasing the spring perch offset will reduce spring preload, lowering the corner of the car. Reducing the spring perch offset will increase spring preload and raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. |
+      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag. | Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front splitter from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Due to homologation rules, front spring rates must be symmetrical across the rear axle and can only be changed in pairs. |
+      
+      #### RIDE HEIGHT
+      
+      #### SPRING RATE
+      
+      #### SPRING RATE
+      
+      Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front splitter from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Due to homologation rules, front spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+      
+      #### SHOCK DEFLECTION
+      
+      Similar to Spring Deflection, Shock Deflection is how much the shock is compressed from its fully-extended length. While this is not a representation of any kind of loading on the shock, it is a way to see how much travel is available in the suspension before the shock runs out of available travel and contacts any travel-limiting devices. Be careful to pay attention to how much deflection is available for suspension extension, as the tire will become unloaded when shock deflection reaches zero.
+      
+      #### CAMBER
+      
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
+
+  - id: rear-corners
+    level: 3
+    titleZh: 后轮角
+    titleEn: REAR CORNERS
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/rear-corners.png)
+      
+      #### 角重（CORNER WEIGHT）
+      
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
+      
+      #### 弹簧挠度
+      
+      弹簧挠度表示弹簧相对无载长度的压缩量，可用于判断各弹簧的预载程度，以及底盘设置是否存在可能导致操控不一致的不对称。
+      
+      #### 减振器挠度
+      
+      | 车高（RIDE HEIGHT） | 数值 |
+      | --- | --- |
+      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。 | 与弹簧挠度类似，减振器挠度表示减振器相对完全伸展长度的压缩量。它并不代表减振器承受的载荷，而是用于判断悬架在耗尽可用行程、接触限位装置之前还剩多少行程。应特别关注悬架伸展方向的可用挠度，因为减振器挠度降至零时轮胎会失去载荷。这对制动时的车尾以及大俯仰角配置尤其重要，减振器行程耗尽可能引发突然的转向过度。 |
+      | 用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。 | 外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大后轮负外倾角可提高过弯稳定性，但会降低制动时的直线稳定性；减小后轮负外倾角通常可以提高低抓地力弯角出口的牵引力。 |
+      | 弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。 | 从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。 |
+      
+      #### 外倾角（CAMBER）
+      
+      #### 弹簧座高偏移
+      
+      #### 弹簧刚度
+      
+      #### 前束（TOE-IN）
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/rear-corners.png)
+      
+      #### CORNER WEIGHT
+      
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
+      
+      #### SPRING DEFLECTION
+      
+      The Spring Deflection value is how far the spring has compressed from its length when unloaded. This is a way to see how much each spring is preloaded and whether or not the chassis setup has any kind of asymmetry that could lead to inconsistent handling characteristics.
+      
+      #### SHOCK DEFLECTION
+      
+      | RIDE HEIGHT | Value |
+      | --- | --- |
+      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing. | Similar to Spring Deflection, Shock Deflection is how much the shock is compressed from its fully-extended length. While this is not a representation of any kind of loading on the shock, it is a way to see how much travel is available in the suspension before the shock runs out of available travel and contacts any travel-limiting devices. Be careful to pay attention to how much deflection is available for suspension extension, as the tire will become unloaded when shock deflection reaches zero. This is especially important for the rear of the car during braking and high-rake configurations, since running out of shock travel could cause sudden oversteer. |
+      | Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height. | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce straight-line stability under braking, while lower rear camber values can often increase traction out of low-grip corners. |
+      | Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs. | Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction. |
+      
+      #### CAMBER
+      
+      #### SPRING PERCH OFFSET
+      
+      #### SPRING RATE
+      
+      #### TOE-IN
+
+  - id: rear
+    level: 3
+    titleZh: 后部
+    titleEn: REAR
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/rear-chassis.png)
+      
+      #### 防倾杆尺寸（ARB SIZE）
+      
+      | 第三弹簧 | 数值 |
+      | --- | --- |
+      | 第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。 | 防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。 |
+      | 第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。 | 防倾杆设置用于微调后防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向不足；Hard 提供最大侧倾阻力，使机械平衡偏向转向过度；Medium 的侧倾刚度与操控平衡介于两者之间。 |
+      
+      #### 第三弹簧挠度
+      
+      第三弹簧挠度表示后部第三弹簧在静态条件下被压缩的量。该数值不能直接调整，但会随第三弹簧座高偏移和后部弹簧设置的调整而变化。
+      
+      #### 第三滑块挠度
+      
+      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+      
+      #### 推杆长度调整
+      
+      该设置会同时调整两根后悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整后部车高的好方法，无须改变第三弹簧或任一后部弹簧的预载。
+      
+      #### 燃油量（FUEL LEVEL）
+      
+      燃油量是车辆驶离车库时油箱中的燃油量。
+      
+      #### 差速器预载
+      
+      可以为差速器设置静态载荷。数值越高，差速器在所有条件下产生的锁止力越大，从而在加速和减速时带来更多转向不足。该数值也会影响弯心表现；数值越高，差速器越不容易解锁，弯心转向不足越明显。
+      
+      #### 防倾杆设置
+      
+      #### 第三弹簧座高偏移
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/rear-chassis.png)
+      
+      #### ARB SIZE
+      
+      | THIRD SPRING | Value |
+      | --- | --- |
+      | The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork. | The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase. |
+      | The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights. | The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the rear ARB assembly. The Soft setting will provide the least roll resistance and induce some understeer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards oversteer. The Medium option falls between the two settings in both roll stiffness and handling balance. |
+      
+      #### THIRD SPRING DEFLECTION
+      
+      Third Spring Deflection represents the amount the rear Third Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Third Perch Offset and rear Spring settings.
+      
+      #### THIRD SLIDER DEFLECTION
+      
+      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
+      
+      #### PUSHROD LENGTH ADJUSTMENT
+      
+      This adjusts the length of both rear suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust rear ride height without altering the preload on the Heave Spring or either of the rear corner springs.
+      
+      #### FUEL LEVEL
+      
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+      
+      #### DIFF PRELOAD
+      
+      The differential can be set with a static load applied. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer.
+      
+      #### ARB SETTING
+      
+      #### THIRD PERCH OFFSET
+
+  - id: dampers
+    level: 2
+    titleZh: 减振器
+    titleEn: DAMPERS
+    bodyZh: |+
+      ![图示](./assets/ligier-js-p320/dampers.png)
+      
+      #### 低速回弹阻尼（LS REBOUND DAMPING）
+      
+      | 低速压缩阻尼（LS COMPRESSION DAMPING） | 数值 |
+      | --- | --- |
+      | 低速压缩阻尼决定减振器活塞杆以较低速度运动并压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及常规过弯力引起的车身运动。本车调节数值越低，压缩阻力越大，低速状态下载荷也会更快地转移到相应轮胎上。 | 回弹阻尼控制减振器在较低速度下伸张时的刚度，通常发生在车手操作引起的车体运动过程中。回弹数值越高，越能抵抗减振器伸长；数值越低，减振器伸张越快。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸长以保持与赛道良好接触时，可能导致车轮卸载。过大的回弹可能导致车轮在赛道上弹跳而非保持接触，从而引发不必要的振荡。 |
+      | 高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 | 高速回弹阻尼调整减振器在经过大型颠簸和路肩后伸长时的表现。较低调节数值会降低减振器伸长速度，较高数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。 |
+      
+      #### 高速压缩阻尼（HS COMPRESSION DAMPING）
+      
+      #### 高速回弹阻尼（HS REBOUND DAMPING）
+
+    bodyEn: |+
+      ![Image](./assets/ligier-js-p320/dampers.png)
+      
+      #### LS REBOUND DAMPING
+      
+      | LS COMPRESSION DAMPING | Value |
+      | --- | --- |
+      | Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock shaft is moving at relatively low speeds, usually during movement caused by driver input (steering, braking, & throttle) and typical cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly. | Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand fast enough to maintain proper contact with the track. Excessive rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. |
+      | High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track and risk the bottom of the chassis coming into contact with the track surface. | High-speed rebound adjusts the shock in extension following large bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. |
+      
+      #### HS COMPRESSION DAMPING
+      
+      #### HS REBOUND DAMPING
+
+  - id: setup-tips
+    level: 2
+    titleZh: 设置技巧
+    titleEn: SETUP TIPS
+    bodyZh: |+
+      > 本节旨在帮助希望深入了解车辆各项设置的用户。
+
+    bodyEn: |+
+      > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
+
+  - id: setup-tips-2
+    level: 2
+    titleZh: 设置技巧
+    titleEn: SETUP TIPS
+    bodyZh: |+
+      本车配有第三弹簧和垂向弹簧，可让您在不影响侧倾刚度的情况下调整俯仰运动（以及动态车高）。这些弹簧会对俯仰运动产生重大影响。请将它们与前扭杆和后弹簧配合使用，以设定车辆的动态车高。
+      
+      随附基准设置的车高与弹簧已针对车辆空气动力特性进行配置。建议继续尝试和优化，但请注意：若设置导致动态车高明显偏离现有范围，通常会产生更少的下压力。
+      
+      | 调整 iRacing 基准设置 | 数值 |
+      | --- | --- |
+      | 本设置及其他随附设置既可直接用于比赛，也适合作为自行调校的起点。以下说明将提供一个起始框架，帮助您作出合适的设置选择。 | 在高速弯中，空气动力平衡的影响远大于机械平衡，因此可利用高速弯调整空气动力平衡，建立一个可靠的粗略基准，再继续调校其他部分。 |
+      | 开始调整时，可先判断每项改动影响车辆的空气动力平衡还是机械平衡，并尽量让二者都达到中性状态（既不转向过度，也不转向不足）。 | 起步阶段，先设定空气动力平衡，再细调机械平衡最为容易。 |
+
+    bodyEn: |+
+      This car has third and heave springs, allowing you to adjust pitch motion (and dynamic ride heights) without affecting roll stiffness. Use these in conjunction with the corner springs to set the dynamic ride heights of the car.
+      
+      The provided baseline setups have their ride heights and springs set to take advantage of the aerodynamic properties of the car. You are encouraged to experiment and optimize them further, but keep in mind that settings which stray far from the existing dynamic ride heights are likely to generate less downforce.
+      
+      | ADJUSTING THE IRACING BASELINE SETUPS | Value |
+      | --- | --- |
+      | This setup and other setups that have been provided are intended to be raceable setups as well as a good place to start while making your own adjustments. These notes will give you a starting point to help you make appropriate setup choices. | In high speed corners, aero balance has a large effect compared to mechanical balance, so we can use high speed corners to tweak our aero balance for a rough baseline which we can trust while tweaking other parts of the setup. |
+      | A framework you can use to start making adjustments is to understand whether a tweak affects aerodynamic balance or mechanical balance characteristics of the car, and to try to achieve a neutral (no oversteer or understeer) balance on both. | Starting out, it’s easiest to set aero balance first before dialing in mechanical balance. |
+
+  - id: aerodynamic-balance
+    level: 3
+    titleZh: 空气动力平衡
+    titleEn: AERODYNAMIC BALANCE
+    bodyZh: |+
+      为车辆设定正确空气动力学平衡涉及两部分：一部分是车库中直接影响空气动力学平衡的选项（翼片角度和车库车高），另一部分是影响车辆高速行驶时动态车高（弹簧、扭杆）和瞬态运动（减振器）的选项。这些设置相互作用，共同决定车辆在不同类型弯角中的整体空气动力学平衡。
+      
+      请记住，空气动力学平衡在低速弯中仍然起作用——尽管影响较小，但仍会影响您所感受到的表现。
+      
+      此外还要考虑，某些影响空气动力学平衡的选项，尤其是影响车辆动态车高的选项，也会影响侧倾行为，进而影响机械平衡。例如，软化前扭杆会让车头在高速时下沉更多。这会增大前后车高差，使空气动力学平衡进一步前移（更易转向过度），同时降低前部的总侧倾阻力，效果如同软化了防倾杆。
+      
+      另一方面，第三弹簧和垂向弹簧（及其对应的减振器）只影响车辆的俯仰运动。它们用于在不影响侧倾行为或整体机械平衡的情况下微调动态车高。
+
+    bodyEn: |+
+      There are two parts to setting the correct aerodynamic balance for your car: the options that affect aerodynamic balance directly in the garage (wing angles and garage ride heights) as well as options that affect the car’s dynamic ride heights at speed (heave, third, and corner springs) and transient motions (dampers). These settings all interact to determine what overall aero balance the car has through different types of corners.
+      
+      Keep in mind that aero balance is still in effect in low-speed corners - although its effect is diminished it will have an impact on the car’s handling.
+      
+      Also, consider that some options that affect aero balance, particularly those that affect the car’s dynamic ride heights, will also have an effect on roll behavior and therefore mechanical balance. For example, softening the front corner springs will allow the front to sink lower at speed. This increases the difference between front and rear ride heights which pushes aero balance further forward (more oversteer) while also lowering the total roll resistance of the front as if you had softened the anti-roll bar.
+      
+      On the other hand, third and heave springs (and their corresponding dampers) only affect pitch motion of the car. These are used to tweak dynamic ride heights without affecting roll behavior or general mechanical balance.
+
+  - id: mechanical-balance
+    level: 3
+    titleZh: 机械平衡
+    titleEn: MECHANICAL BALANCE
+    bodyZh: |+
+      影响底盘侧倾刚度的选项（防倾杆、弹簧以及瞬态运动中的减振器）和差速器设置共同构成了所感受到的机械平衡。
+      
+      在调整侧倾刚度时，请同时注意总侧倾刚度以及前后侧倾刚度之间的平衡。前后刚度之间的平衡会体现为入弯与加油状态之间平衡的变化，而总侧倾刚度则影响车辆转动时的整体响应性和柔顺性。
+      
+      Ligier JS P320 唯一可调的差速器参数是预载。对车手而言，这项调整最容易理解：较小预载会使车辆入弯时更趋转向过度、出弯时更趋转向不足；反之亦然。
+
+    bodyEn: |+
+      Options that affect the chassis’s roll stiffness (anti-roll bars, corner springs, and dampers in transient motions) and differential settings play into what is felt as mechanical balance.
+      
+      As you are adjusting roll stiffness be aware of the total roll stiffness as well as the balance between front and rear roll stiffness. The balance between front and rear stiffness can be felt as balance shifts between turn-in and on-throttle behavior, while total roll stiffness affects the overall responsiveness and pliability of the car while turning.
+      
+      In the Ligier JS P320, the only differential adjustment available is the preload adjustment. As a driver, this adjustment is the easiest to understand: less preload will make the car oversteer more on corner entry and understeer on corner exit and vice versa.
+
+  - id: tire-contact-patch
+    level: 3
+    titleZh: 轮胎接地印迹
+    titleEn: TIRE CONTACT PATCH
+    bodyZh: |+
+      最后一块主要拼图是轮胎接地印迹。影响轮胎接地印迹的设置（外倾角和前束）大多独立于其他设置，因此在调校过程的任何阶段都易于微调。不过，如果车辆其他部分的平衡引发了不良行为，这些设置可能难以优化。
+      
+      调整外倾角时，应权衡外倾推力（倾斜轮胎产生的额外横向力）与接地面积。外倾角越大，横向力越强，但接地面积减小会牺牲纵向抓地力，即制动和加速抓地力。
+
+    bodyEn: |+
+      The last consideration is the tire contact patch. Settings that affect the tire contact patch (camber and toe) behave mostly independently of other settings, which makes them easy to tweak at any point along the setup process. However, they can be difficult to optimize if other parts of the car’s balance are inducing undesirable behaviors. Use toe adjustments to adjust how much resistance the tires provide to your initial turn-in - for example, if you want more braking stability, you can add positive toe in the rear.
+      
+      For camber, consider the trade-off between camber thrust (the additional lateral force that the angled tire provides) and contact patch size. The more camber used, the more lateral force will be generated at the cost of longitudinal grip (grip under braking and acceleration, due to the smaller contact patch).
+
+  - id: final-note
+    level: 3
+    titleZh: 最后说明
+    titleEn: FINAL NOTE
+    bodyZh: |+
+      在对每项设置进行更改时，您很可能会遇到某个阶段，不确定某项更改是在改善车辆平衡还是无益。这通常发生在另一个选项引发了不良行为、并掩盖了您正在调整的选项的细节时。遇到这种情况，请尝试试验另一项设置，看看它是否更有效地优化了车辆平衡。
+
+    bodyEn: |+
+      As you make changes to each setup option, it is likely that you will reach a point where you are unsure if a change is helping the car’s balance or not. That often happens when another option is inducing an undesirable behavior and covering up details of the option you are currently adjusting. When this happens, try experimenting with another setting and see if it is more effective in optimizing the car’s balance.
