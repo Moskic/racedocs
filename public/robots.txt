@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://racedocs.moskic.com/sitemap.xml
+Sitemap: https://racedocs.eeracing.com/sitemap.xml

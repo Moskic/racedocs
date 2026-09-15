@@ -2,7 +2,7 @@
 
 RaceDocs 是面向中文模拟赛车玩家的双语数字手册资料库，提供经过校验的 YAML 内容、安全 Markdown 渲染、双语阅读，以及手册搜索和筛选。
 
-在线访问：[racedocs.moskic.com](https://racedocs.moskic.com)
+在线访问：[racedocs.eeracing.com](https://racedocs.eeracing.com)
 
 ## 开发
 

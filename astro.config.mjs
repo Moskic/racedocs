@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://racedocs.moskic.com',
+  site: 'https://racedocs.eeracing.com',
   output: 'static',
 });
