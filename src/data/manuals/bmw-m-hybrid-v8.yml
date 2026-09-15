@@ -51,10 +51,10 @@ sections:
     titleZh: 底盘
     titleEn: CHASSIS
     bodyZh: |+
-      前后均采用推杆驱动的独立扭杆悬架，并配有前部 Heave 和后部第三弹簧元件
-      
       ![图示](./assets/bmw-m-hybrid-v8/chassis-specifications.png)
-      
+
+      前后均采用推杆驱动的独立扭杆悬架，并配有前部 Heave 和后部第三弹簧元件
+
       | 规格 | 数值 |
       | --- | --- |
       | 车长 | 5100 mm / 200.8 in |
@@ -62,12 +62,11 @@ sections:
       | 轴距 | 3148 mm / 124 in |
       | 干重 | 1030 kg / 2270 lbs |
       | 含车手湿重 | 1150 kg / 2535 lbs |
-
     bodyEn: |+
-      PUSHROD-ACTUATED INDEPENDENT TORSION BAR FRONT AND REAR SUSPENSION WITH FRONT HEAVE AND REAR THIRD-SPRING ELEMENTS
-      
       ![Image](./assets/bmw-m-hybrid-v8/chassis-specifications.png)
-      
+
+      PUSHROD-ACTUATED INDEPENDENT TORSION BAR FRONT AND REAR SUSPENSION WITH FRONT HEAVE AND REAR THIRD-SPRING ELEMENTS
+
       | Specification | Value |
       | --- | --- |
       | Length | 5100 mm / 200.8 in |
@@ -81,31 +80,30 @@ sections:
     titleZh: 动力单元
     titleEn: POWER UNIT
     bodyZh: |+
-      铸铝 V8，配备混合动力 MGU-K 能量回收系统
-      
       ![图示](./assets/bmw-m-hybrid-v8/power-unit.png)
-      
+
+      铸铝 V8，配备混合动力 MGU-K 能量回收系统
+
       | 规格 | 数值 |
       | --- | --- |
       | 排量 | 4.0 Liters / 146.5 CID |
       | 转速上限 | 8200 RPM |
       | 扭矩 | 480 lb-ft / 650 Nm |
       | 功率 | 640 bhp / 477 kW |
-      
-      ![图示](./assets/bmw-m-hybrid-v8/vehicle-profile.png)
 
+      ![图示](./assets/bmw-m-hybrid-v8/vehicle-profile.png)
     bodyEn: |+
-      CAST ALUMINUM V8 WITH HYBRID MGU-K RECOVERY SYSTEM
-      
       ![Image](./assets/bmw-m-hybrid-v8/power-unit.png)
-      
+
+      CAST ALUMINUM V8 WITH HYBRID MGU-K RECOVERY SYSTEM
+
       | Specification | Value |
       | --- | --- |
       | Displacement | 4.0 Liters / 146.5 CID |
       | RPM Limit | 8200 RPM |
       | Torque | 480 lb-ft / 650 Nm |
       | Power | 640 bhp / 477 kW |
-      
+
       ![Image](./assets/bmw-m-hybrid-v8/vehicle-profile.png)
 
   - id: introduction
@@ -336,39 +334,48 @@ sections:
     titleEn: TIRE DATA
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/tire-data.png)
-      
-      #### 最后温度（LAST TEMPS）
-      
-      | 轮胎类型（TIRE TYPE） | 数值 |
-      | --- | --- |
-      | 选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。 | 车辆返回车库后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断各条轮胎在赛道上承受的工作量或负荷。内、外侧温差可用于调整单轮定位；中央温度与外侧温度的对比则有助于调整胎压。 |
-      | 车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力，升温也更快。较高胎压的响应感略强、滚动阻力更小，但抓地力会降低。通常，高速赛道更适合较高胎压；在更强调机械抓地力的低速赛道上，较低胎压表现更好。 | 胎温下方以新胎百分比显示剩余胎面厚度。这些数值适合判断一套轮胎还能行驶多远才需要更换，但不像胎温那样能够直接反映轮胎工作不足或过度工作的状态。 |
-      
-      车辆完成一个赛道行驶阶段并返回车库后，轮胎气压会显示为热态胎压。冷、热态胎压的差值有助于判断各条轮胎在赛道上的负荷与工作强度。工作量更大的轮胎会产生更大的胎压升幅；留意哪些轮胎升压更多，并通过调整冷态胎压进行补偿，对于优化轮胎性能至关重要。
-      
-      #### 初始胎压（STARTING PRESSURE）
-      
-      #### 剩余胎纹（TREAD REMAINING）
-      
-      #### 最后热胎压（LAST HOT PRESSURE）
 
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 初始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力，升温也更快。较高胎压的响应感略强、滚动阻力更小，但抓地力会降低。通常，高速赛道更适合较高胎压；在更强调机械抓地力的低速赛道上，较低胎压表现更好。
+
+      #### 最后热胎压
+
+      车辆完成一个赛道行驶阶段并返回车库后，轮胎气压会显示为热态胎压。冷、热态胎压的差值有助于判断各条轮胎在赛道上的负荷与工作强度。工作量更大的轮胎会产生更大的胎压升幅；留意哪些轮胎升压更多，并通过调整冷态胎压进行补偿，对于优化轮胎性能至关重要。
+
+      #### 最后温度
+
+      车辆返回车库后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断各条轮胎在赛道上承受的工作量或负荷。内、外侧温差可用于调整单轮定位；中央温度与外侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎纹
+
+      胎温下方以新胎百分比显示剩余胎面厚度。这些数值适合判断一套轮胎还能行驶多远才需要更换，但不像胎温那样能够直接反映轮胎工作不足或过度工作的状态。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/tire-data.png)
-      
-      #### LAST TEMPS
-      
-      | TIRE TYPE | Value |
-      | --- | --- |
-      | Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions. | The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure. |
-      | The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important. | The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will. |
-      
-      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
-      
+
+      #### TIRE TYPE
+
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+
       #### STARTING PRESSURE
-      
-      #### TREAD REMAINING
-      
+
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+
       #### LAST HOT PRESSURE
+
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+
+      #### LAST TEMPS
+
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+
+      #### TREAD REMAINING
+
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
 
   - id: aero-settings
     level: 3
@@ -376,38 +383,47 @@ sections:
     titleEn: AERO SETTINGS
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/aero-settings.png)
-      
-      #### 前/后高速车高（FRONT/REAR RH AT SPEED）
-      
-      | 后翼角度（REAR WING ANGLE） | 数值 |
-      | --- | --- |
-      | 后翼角度设置会改变后翼的迎角。增大角度会增加产生的下压力并使空气动力学平衡后移，但也会增加尾翼产生的阻力。减小角度会降低总下压力并使空气动力学平衡前移，同时降低阻力并允许更高的最高速度。此角度是参考测量值，并非相对于地面的绝对角度。 | 高速车高（RH at Speed）用于向空气动力学计算器提供计算参考高度。使用空气动力学计算器时，应通过遥测在赛道任意位置确定车辆的前、后车高，并将该数值输入“Front RH at Speed”设置。 |
-      | 空气动力学计算器用于显示特定配置下车辆近似的空气动力学数值。改变车辆空气动力学设置后，计算器中的数值也会更新，从而帮助判断车辆在赛道上的空气动力学表现。该计算器还可用于确定需要对车辆进行哪些改动，以缓解空气动力学导致的操控问题。 | 该数值以车头下压力的百分比显示，表示车辆总下压力中位于前轴上方的比例。百分比越高，说明前部下压力越大，中高速弯中的转向过度越明显；百分比越低，说明后部下压力越大，中高速弯中的转向不足越明显。 |
-      
-      #### 下压力平衡（DOWNFORCE BALANCE）
-      
-      #### 空气动力学计算器（AERO CALCULATOR）
-      
-      #### 升阻比（L/D）
-      
-      “L/D”数值是升力（下压力）与阻力的比值，用于量化车身产生下压力时所带来的阻力。L/D 越高，表示每单位阻力产生的下压力越多，也就是车身效率越高。在不牺牲总下压力的情况下，提高 L/D 会带来更快、更高效的车辆。L/D 的最佳值会因空气动力学配置和赛道类型而异。
 
+      #### 后翼角度
+
+      后翼角度设置会改变后翼的迎角。增大角度会增加产生的下压力并使空气动力学平衡后移，但也会增加尾翼产生的阻力。减小角度会降低总下压力并使空气动力学平衡前移，同时降低阻力并允许更高的最高速度。此角度是参考测量值，并非相对于地面的绝对角度。
+
+      #### 空气动力学计算器
+
+      空气动力学计算器用于显示特定配置下车辆近似的空气动力学数值。改变车辆空气动力学设置后，计算器中的数值也会更新，从而帮助判断车辆在赛道上的空气动力学表现。该计算器还可用于确定需要对车辆进行哪些改动，以缓解空气动力学导致的操控问题。
+
+      #### 前／后高速车高
+
+      高速车高（RH at Speed）用于向空气动力学计算器提供计算参考高度。使用空气动力学计算器时，应通过遥测在赛道任意位置确定车辆的前、后车高，并将该数值输入“Front RH at Speed”设置。
+
+      #### 下压力平衡
+
+      该数值以车头下压力的百分比显示，表示车辆总下压力中位于前轴上方的比例。百分比越高，说明前部下压力越大，中高速弯中的转向过度越明显；百分比越低，说明后部下压力越大，中高速弯中的转向不足越明显。
+
+      #### 升阻比（L/D）
+
+      “L/D”数值是升力（下压力）与阻力的比值，用于量化车身产生下压力时所带来的阻力。L/D 越高，表示每单位阻力产生的下压力越多，也就是车身效率越高。在不牺牲总下压力的情况下，提高 L/D 会带来更快、更高效的车辆。L/D 的最佳值会因空气动力学配置和赛道类型而异。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/aero-settings.png)
-      
-      #### FRONT/REAR RH AT SPEED
-      
-      | REAR WING ANGLE | Value |
-      | --- | --- |
-      | The Rear Wing Angle setting changes the angle of attack of the rear wing. Increasing the angle will increase the amount of downforce produced and move the aero balance rearward but will increase the amount of drag the wing produces. Reducing the angle will reduce overall downforce and shift aero balance forward, but will reduce drag and allow for a higher top speed. This angle is expressed as a reference measurement, not an absolute angle relative to the ground. | The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front and Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting. |
-      | The Aero Calculator is a tool used to display the car’s approximate aerodynamic values in a given configuration. Changes to the car’s aerodynamic settings will be reflected in the Aero Calculator, giving an idea of how the car will behave aerodynamically while on the race track. This calculator can also be used to determine what changes need to be made to the car to alleviate aerodynamically-induced handling issues. | Displayed in percent of Front downforce, this value shows how much of the car’s total downforce is over the front axle. A higher percentage value indicates more front downforce, increasing oversteer in mid- to high-speed corners and a lower percentage value indicates more rear downforce, increasing understeer in mid- to high-speed corners. |
-      
-      #### DOWNFORCE BALANCE
-      
+
+      #### REAR WING ANGLE
+
+      The Rear Wing Angle setting changes the angle of attack of the rear wing. Increasing the angle will increase the amount of downforce produced and move the aero balance rearward but will increase the amount of drag the wing produces. Reducing the angle will reduce overall downforce and shift aero balance forward, but will reduce drag and allow for a higher top speed. This angle is expressed as a reference measurement, not an absolute angle relative to the ground.
+
       #### AERO CALCULATOR
-      
+
+      The Aero Calculator is a tool used to display the car’s approximate aerodynamic values in a given configuration. Changes to the car’s aerodynamic settings will be reflected in the Aero Calculator, giving an idea of how the car will behave aerodynamically while on the race track. This calculator can also be used to determine what changes need to be made to the car to alleviate aerodynamically-induced handling issues.
+
+      #### FRONT/REAR RH AT SPEED
+
+      The Ride Height (RH) at Speed is used to give the Aero Calculator heights to reference for aerodynamic calculations. When using the aero calculator, determine the car’s Front and Rear Ride height via telemetry at any point on track and input that value into the “Front RH at Speed” setting.
+
+      #### DOWNFORCE BALANCE
+
+      Displayed in percent of Front downforce, this value shows how much of the car’s total downforce is over the front axle. A higher percentage value indicates more front downforce, increasing oversteer in mid- to high-speed corners and a lower percentage value indicates more rear downforce, increasing understeer in mid- to high-speed corners.
+
       #### L/D
-      
+
       The “L/D” value is the ratio of Lift (downforce) to Drag. This quantifies how efficiently the car’s bodywork is producing downforce in terms of how much drag is being produced as a result. A higher L/D value means more downforce is being produced for each unit of drag, meaning the bodywork is being more efficient. Having a higher L/D value without sacrificing overall downforce will result in a faster, more efficient car. Optimum values for L/D can vary based on the aerodynamic configuration and track type.
 
   - id: chassis-2
@@ -494,85 +510,104 @@ sections:
     titleEn: FRONT CORNERS
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/front-corners.png)
-      
-      #### 扭杆圈数（TORSION BAR TURNS）
-      
-      | 角重（CORNER WEIGHT） | 数值 |
-      | --- | --- |
-      | 车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过前部扭杆圈数设置进行调整。 | 用于调整车高和车轮载荷。调整该设置会在静态条件下对扭杆施加预载。减小数值会增加扭杆预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。 |
-      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。 | 与防倾杆类似，扭杆是一种通过悬架行程产生的施加扭矩来提供抵抗力的弹簧。不过，这些扭杆的一端固定在车身上，因此只抵抗单个车轮的运动，其方式与螺旋弹簧抵抗运动和载荷变化相同。增大扭杆直径会提高弹簧刚度，减小直径则会降低弹簧刚度。刚性更高的弹簧非常适合平整赛道以及需要高度控制空气动力学姿态的场合，但刚性弹簧会显著降低机械抓地力，尤其是在颠簸路面。对于低抓地力和/或颠簸赛道，以及空气动力学效果可能不明显的低速赛道，较软的弹簧会牺牲空气动力学控制，却能提高机械抓地力。扭杆直径调整应与车高调整配合进行，以避免车辆在赛道上意外触底。 |
-      
-      #### 扭杆挠度（TORSION BAR DEFLECTION）
-      
-      扭杆挠度表示前部扭杆弹簧在静态条件下被预加载了多少。挠度值越高表示弹簧预载越大，数值越低表示弹簧预载越小。
-      
-      #### 低速压缩阻尼
-      
-      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而造成转向不足。应用于前部减震器时，较低数值会减缓重量向轮胎的转移，减少转向不足。
-      
-      #### 车高（RIDE HEIGHT）
-      
-      #### 扭杆外径（TORSION BAR O.D.）
-      
-      #### 减振器挠度
-      
-      减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。
-      
-      #### 高速回弹阻尼（HS REBOUND DAMPING）
-      
-      | 高速压缩阻尼 | 数值 |
-      | --- | --- |
-      | 高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 | 高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。 |
-      | 压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。 | 外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。 |
-      
-      #### 低速回弹阻尼（LS REBOUND DAMPING）
-      
-      低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的前部低速回弹会增加油门开启时的机械转向不足（但会减少前翼片抬升），较低数值则会让前端抓地力维持更久，有助于减少转向不足，但会增加前翼片抬升。前部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。
-      
-      #### 高速压缩阻尼斜率
-      
-      #### 外倾角（CAMBER）
 
+      #### 角重
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过前部扭杆圈数设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。
+
+      #### 减振器挠度
+
+      减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。
+
+      #### 扭杆挠度
+
+      扭杆挠度表示前部扭杆弹簧在静态条件下被预加载了多少。挠度值越高表示弹簧预载越大，数值越低表示弹簧预载越小。
+
+      #### 扭杆圈数
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对扭杆施加预载。减小数值会增加扭杆预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 扭杆外径
+
+      与防倾杆类似，扭杆是一种通过悬架行程产生的施加扭矩来提供抵抗力的弹簧。不过，这些扭杆的一端固定在车身上，因此只抵抗单个车轮的运动，其方式与螺旋弹簧抵抗运动和载荷变化相同。增大扭杆直径会提高弹簧刚度，减小直径则会降低弹簧刚度。刚性更高的弹簧非常适合平整赛道以及需要高度控制空气动力学姿态的场合，但刚性弹簧会显著降低机械抓地力，尤其是在颠簸路面。对于低抓地力和/或颠簸赛道，以及空气动力学效果可能不明显的低速赛道，较软的弹簧会牺牲空气动力学控制，却能提高机械抓地力。扭杆直径调整应与车高调整配合进行，以避免车辆在赛道上意外触底。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而造成转向不足。应用于前部减震器时，较低数值会减缓重量向轮胎的转移，减少转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 高速压缩阻尼斜率
+
+      压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的前部低速回弹会增加油门开启时的机械转向不足（但会减少前翼片抬升），较低数值则会让前端抓地力维持更久，有助于减少转向不足，但会增加前翼片抬升。前部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。
+
+      #### 高速回弹阻尼
+
+      高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/front-corners.png)
-      
-      #### TORSION BAR TURNS
-      
-      | CORNER WEIGHT | Value |
-      | --- | --- |
-      | The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Torsion Bar Turns setting on the front corners and the Spring Perch Offset on the rear corners. | Used to adjust ride height and corner weight, adjusting this setting applies a preload to the torsion bar under static conditions. Decreasing the value increases preload on the torsion bar, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height. |
-      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag. | Similar to an Anti-Roll Bar, a torsion bar is a spring that exerts resistive forces via applied torque generated through suspension travel. However, these torsion bars are fixed to the chassis at one end, and thus resist movement only on one wheel in the same way a coil spring resists movement and load changes. Increasing the torsion bar’s diameter gives a higher spring rate, and reducing the diameter gives a lower spring rate. Stiffer springs are very helpful for smooth tracks and applications where a high level of aerodynamic attitude control is required, however stiff springs reduce mechanical grip significantly, especially over bumps. On low-grip and/or bumpy tracks, as well as lower speed tracks where aerodynamics may not be as effective, softer springs will increase mechanical grip while sacrificing aerodynamic control. Torsion Bar Diameter adjustments should be made in conjunction with ride height adjustments to prevent unwanted grounding of the chassis while on track. |
-      
-      #### TORSION BAR DEFLECTION
-      
-      The Torsion Bar Deflection is a representation of how much the front torsion bar springs have been preloaded under static conditions. Higher deflection values show higher amounts of spring preload, lower values represent less spring preload.
-      
-      #### LS COMP DAMPING
-      
-      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer. Lower values will slow weight transfer to a tire, reducing understeer when applied to the front shocks.
-      
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Torsion Bar Turns setting on the front corners and the Spring Perch Offset on the rear corners.
+
       #### RIDE HEIGHT
-      
-      #### TORSION BAR O.D.
-      
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag.
+
       #### SHOCK DEFLECTION
-      
+
       Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before a bump stop is engaged on the shock.
-      
-      #### HS REBOUND DAMPING
-      
-      | HS COMP DAMPING | Value |
-      | --- | --- |
-      | High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. | High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. |
-      | The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression. | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. |
-      
-      #### LS REBOUND DAMPING
-      
-      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low-speed rebound can increase on-throttle mechanical understeer (but reduce splitter lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
-      
+
+      #### TORSION BAR DEFLECTION
+
+      The Torsion Bar Deflection is a representation of how much the front torsion bar springs have been preloaded under static conditions. Higher deflection values show higher amounts of spring preload, lower values represent less spring preload.
+
+      #### TORSION BAR TURNS
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the torsion bar under static conditions. Decreasing the value increases preload on the torsion bar, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### TORSION BAR O.D.
+
+      Similar to an Anti-Roll Bar, a torsion bar is a spring that exerts resistive forces via applied torque generated through suspension travel. However, these torsion bars are fixed to the chassis at one end, and thus resist movement only on one wheel in the same way a coil spring resists movement and load changes. Increasing the torsion bar’s diameter gives a higher spring rate, and reducing the diameter gives a lower spring rate. Stiffer springs are very helpful for smooth tracks and applications where a high level of aerodynamic attitude control is required, however stiff springs reduce mechanical grip significantly, especially over bumps. On low-grip and/or bumpy tracks, as well as lower speed tracks where aerodynamics may not be as effective, softer springs will increase mechanical grip while sacrificing aerodynamic control. Torsion Bar Diameter adjustments should be made in conjunction with ride height adjustments to prevent unwanted grounding of the chassis while on track.
+
+      #### LS COMP DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer. Lower values will slow weight transfer to a tire, reducing understeer when applied to the front shocks.
+
+      #### HS COMP DAMPING
+
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track.
+
       #### HS COMP DAMPING SLOPE
-      
+
+      The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression.
+
+      #### LS REBOUND DAMPING
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher front low-speed rebound can increase on-throttle mechanical understeer (but reduce splitter lift) while lower values will maintain front end grip longer, helping to reduce understeer, but will allow more splitter lift. Excessive front rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
+      #### HS REBOUND DAMPING
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
+
       #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
 
   - id: chassis-3
     level: 2
@@ -584,81 +619,112 @@ sections:
     titleEn: REAR CORNERS
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/rear-corners.png)
-      
-      #### 弹簧座高偏移
-      
-      | 角重（CORNER WEIGHT） | 数值 |
-      | --- | --- |
-      | 车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。 | 用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。 |
-      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。 | 弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。 |
-      | 减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。 | 低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而在施加油门时造成转向不足。 |
-      
-      #### 车高（RIDE HEIGHT）
-      
-      #### 弹簧刚度
-      
-      #### 减振器挠度
-      
-      #### 低速压缩阻尼
-      
-      #### 弹簧挠度
-      
-      弹簧挠度表示弹簧相对于未加载长度压缩了多少。该数值可用于观察静态条件下的弹簧预载，并与车辆其他车轮比较；数值越高表示相应弹簧的预载越大。
-      
-      #### 高速回弹阻尼（HS REBOUND DAMPING）
-      
-      | 高速压缩阻尼 | 数值 |
-      | --- | --- |
-      | 高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 | 高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。 |
-      | 压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。 | 外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。较大的后轮外倾角可以提高过弯稳定性，但会降低制动时的稳定性。 |
-      | 低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的后部低速回弹会增加松油门时的机械转向不足（但会减少车尾抬升），较低数值则会让后端抓地力维持更久，有助于减少转向过度，但会增加减速时的车尾抬升。后部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。 | 从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。 |
-      
-      #### 高速压缩阻尼斜率
-      
-      #### 外倾角（CAMBER）
-      
-      #### 低速回弹阻尼（LS REBOUND DAMPING）
-      
-      #### 前束（TOE-IN）
 
+      #### 角重
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。
+
+      #### 减振器挠度
+
+      减震器挠度是指在车库静态条件下，减震器相对于完全伸展长度压缩了多少。这有助于确定减震器在触发缓冲块之前还剩多少行程。
+
+      #### 弹簧挠度
+
+      弹簧挠度表示弹簧相对于未加载长度压缩了多少。该数值可用于观察静态条件下的弹簧预载，并与车辆其他车轮比较；数值越高表示相应弹簧的预载越大。
+
+      #### 弹簧座偏移
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 弹簧刚度
+
+      弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。
+
+      #### 低速压缩阻尼
+
+      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而在施加油门时造成转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 高速压缩阻尼斜率
+
+      压缩阻尼斜率设置控制减震器高速压缩侧的整体形状。较低斜率会产生更平坦、更渐进的曲线，较高数值则会产生更线性、更激进的压缩图线。斜率设置对于控制减震器高速运动时的颠簸吸收和空气动力学平台非常重要。较低斜率有助于在更颠簸的赛道上吸收颠簸和路肩等尖锐冲击；较高斜率则会让悬架保持更刚性。需要理解的是，这些设置会影响高速压缩的作用范围；斜率越高，高速压缩产生的整体力越大。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减震器在低速伸展时的刚度，通常发生在车手输入导致的车身运动过程中。较高的回弹数值会抵抗减震器伸长，较低数值会让减震器更快伸展。较高的回弹数值可以更好地控制空气动力学姿态，但当悬架无法充分伸展以保持与赛道的适当接触时，可能使车轮卸载。调校操控时，较高的后部低速回弹会增加松油门时的机械转向不足（但会减少车尾抬升），较低数值则会让后端抓地力维持更久，有助于减少转向过度，但会增加减速时的车尾抬升。后部回弹过高可能导致不必要的振荡，因为车轮会从赛道路面弹起而不是保持接触。
+
+      #### 高速回弹阻尼
+
+      高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。较大的后轮外倾角可以提高过弯稳定性，但会降低制动时的稳定性。
+
+      #### 前束
+
+      从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/rear-corners.png)
-      
-      #### SPRING PERCH OFFSET
-      
-      | CORNER WEIGHT | Value |
-      | --- | --- |
-      | The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting. | Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height. |
-      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing. | Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs. |
-      | Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before a bump stop is engaged on the shock. | Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application. |
-      
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
+
       #### RIDE HEIGHT
-      
-      #### SPRING RATE
-      
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing.
+
       #### SHOCK DEFLECTION
-      
-      #### LS COMP DAMPING
-      
+
+      Shock Deflection is how much the shock has compressed from its fully extended length while under static conditions in the garage. This is useful for determining how much shock travel is available before a bump stop is engaged on the shock.
+
       #### SPRING DEFLECTION
-      
+
       Spring Deflection shows how much the spring has compressed from its unloaded length. This can be used to see spring preload under static conditions and compare it against other corners of the car, with higher values representing more preload on a given spring.
-      
-      #### HS REBOUND DAMPING
-      
-      | HS COMP DAMPING | Value |
-      | --- | --- |
-      | High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. | High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. |
-      | The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression. | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking. |
-      | Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher rear low-speed rebound can increase off-throttle mechanical understeer (but reduce rear-end lift) while lower values will maintain rear end grip longer, helping to reduce oversteer, but will allow more rear end lift under deceleration. Excessive rear rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. | Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction. |
-      
+
+      #### SPRING PERCH OFFSET
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### SPRING RATE
+
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+
+      #### LS COMP DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+
+      #### HS COMP DAMPING
+
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track.
+
       #### HS COMP DAMPING SLOPE
-      
-      #### CAMBER
-      
+
+      The Compression Damping Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression.
+
       #### LS REBOUND DAMPING
-      
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. When tuning for handling, higher rear low-speed rebound can increase off-throttle mechanical understeer (but reduce rear-end lift) while lower values will maintain rear end grip longer, helping to reduce oversteer, but will allow more rear end lift under deceleration. Excessive rear rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
+      #### HS REBOUND DAMPING
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking.
+
       #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
 
   - id: rear
     level: 3
@@ -666,47 +732,56 @@ sections:
     titleEn: REAR
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/rear-chassis.png)
-      
-      | 第三弹簧 | 数值 |
-      | --- | --- |
-      | 第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。 | 防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。 |
-      | 第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。 | 可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高后悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低后悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。 |
-      
-      #### 第三滑块挠度
-      
-      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
-      
-      #### 防倾杆尺寸（ARB SIZE）
-      
-      #### 防倾杆刀片（ARB BLADES）
-      
-      #### 第三弹簧座高偏移
-      
+
+      #### 第三弹簧
+
+      第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。
+
+      #### 第三弹簧座偏移
+
+      第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。
+
       #### 第三弹簧挠度
-      
+
       第三弹簧挠度表示后部第三弹簧在静态条件下被压缩的量。该数值不能直接调整，但会随第三弹簧座高偏移和后部弹簧设置的调整而变化。
 
+      #### 第三滑块挠度
+
+      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。
+
+      #### 防倾杆刀片
+
+      可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高后悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低后悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/rear-chassis.png)
-      
-      | THIRD SPRING | Value |
-      | --- | --- |
-      | The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork. | The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase. |
-      | The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights. | The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the Anti-roll bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the Anti-roll bar. These blade adjustments can be thought of as fine-tuning adjustments between Anti-roll bar diameter settings. |
-      
-      #### THIRD SLIDER DEFLECTION
-      
-      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
-      
-      #### ARB SIZE
-      
-      #### ARB BLADES
-      
+
+      #### THIRD SPRING
+
+      The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork.
+
       #### THIRD PERCH OFFSET
-      
+
+      The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights.
+
       #### THIRD SPRING DEFLECTION
-      
+
       Third Spring Deflection represents the amount the rear Third Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Third Perch Offset and rear Spring settings.
+
+      #### THIRD SLIDER DEFLECTION
+
+      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+
+      #### ARB BLADES
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the diameter of the Anti-roll bar. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the diameter of the Anti-roll bar. These blade adjustments can be thought of as fine-tuning adjustments between Anti-roll bar diameter settings.
 
   - id: brakes-drive-unit
     level: 2
@@ -768,45 +843,60 @@ sections:
     titleEn: HYBRID CONFIG & FUEL
     bodyZh: |+
       ![图示](./assets/bmw-m-hybrid-v8/hybrid-fuel.png)
-      
-      BMW M Hybrid V8 的混合动力系统可以设置为五种模式之一，以改变每圈结束时电池荷电状态（SoC）的目标。每种模式都会在一圈中使用不同程度的能量来达到目标，因此有些模式会在电池放电的代价下，在一圈中产生更多功率并带来更快圈速。
-      
-      #### 平衡（BALANCED）
-      
-      | 不释放（NO DEPLOY） | 数值 |
-      | --- | --- |
-      | 在“No Deploy”模式下，混合动力系统不会使用电池中储存的能量。这实际上会禁用混合动力驱动系统，只在一圈行驶过程中为电池充电。该模式仅在排位赛和测试赛中可用，用于在切换到 Qual 模式前将电池充满。 | Balanced 模式是混合动力系统的主要比赛模式。它会尝试释放电能，尽可能缩短圈速，同时在一圈内维持合理的荷电状态。会话开始时，混合动力系统需要几圈飞驰圈来学习赛道，并优化释放策略以获得最佳圈速；该模式仅在练习、比赛和测试赛中可用。 |
-      | 该模式用于排位赛中的飞驰圈，并会尝试在一圈内使用全部电池电量。该模式仅在排位赛和测试赛中可用；在外圈和暖胎圈应先使用 No Deploy 设置，以确保电池充满后再切换到 Qual 模式。 | 当电池电量较低，或需要在切换到 Attack 模式前补充电量时，Build 模式会尝试尽快建立电池电量。请注意，与 Balanced 相比，该模式会显著牺牲圈速；电池充电完成后应切回 Balanced，以免损失已回收的能量并避免不必要的速度损失。该模式仅在练习、比赛和测试赛中可用。 |
-      | Attack 模式会降低荷电状态目标，在比赛中使用更多功率以帮助超车。通常，该模式带来的圈速收益不足以抵消使用 Attack 模式后重新充电和恢复电量造成的速度损失，因此只有在完成超车确有必要时才应使用。由于最后一圈之后不再需要电池，该模式也可用于最后一圈的速度爆发。该模式仅在练习、比赛和测试赛中可用。 | 燃油量是车辆驶离车库时油箱中的燃油量。 |
-      
-      #### 排位（QUAL）
-      
-      #### 建立电量（BUILD）
-      
-      #### 攻击（ATTACK）
-      
-      #### 燃油量（FUEL LEVEL）
 
+      BMW M Hybrid V8 的混合动力系统可以设置为五种模式之一，以改变每圈结束时电池荷电状态（SoC）的目标。每种模式都会在一圈中使用不同程度的能量来达到目标，因此有些模式会在电池放电的代价下，在一圈中产生更多功率并带来更快圈速。
+
+      #### 不释放（NO DEPLOY）
+
+      在“No Deploy”模式下，混合动力系统不会使用电池中储存的能量。这实际上会禁用混合动力驱动系统，只在一圈行驶过程中为电池充电。该模式仅在排位赛和测试赛中可用，用于在切换到 Qual 模式前将电池充满。
+
+      #### 排位（QUAL）
+
+      该模式用于排位赛中的飞驰圈，并会尝试在一圈内使用全部电池电量。该模式仅在排位赛和测试赛中可用；在外圈和暖胎圈应先使用 No Deploy 设置，以确保电池充满后再切换到 Qual 模式。
+
+      #### 攻击（ATTACK）
+
+      Attack 模式会降低荷电状态目标，在比赛中使用更多功率以帮助超车。通常，该模式带来的圈速收益不足以抵消使用 Attack 模式后重新充电和恢复电量造成的速度损失，因此只有在完成超车确有必要时才应使用。由于最后一圈之后不再需要电池，该模式也可用于最后一圈的速度爆发。该模式仅在练习、比赛和测试赛中可用。
+
+      #### 平衡（BALANCED）
+
+      Balanced 模式是混合动力系统的主要比赛模式。它会尝试释放电能，尽可能缩短圈速，同时在一圈内维持合理的荷电状态。会话开始时，混合动力系统需要几圈飞驰圈来学习赛道，并优化释放策略以获得最佳圈速；该模式仅在练习、比赛和测试赛中可用。
+
+      #### 建立电量（BUILD）
+
+      当电池电量较低，或需要在切换到 Attack 模式前补充电量时，Build 模式会尝试尽快建立电池电量。请注意，与 Balanced 相比，该模式会显著牺牲圈速；电池充电完成后应切回 Balanced，以免损失已回收的能量并避免不必要的速度损失。该模式仅在练习、比赛和测试赛中可用。
+
+      #### 燃油量
+
+      燃油量是车辆驶离车库时油箱中的燃油量。
     bodyEn: |+
       ![Image](./assets/bmw-m-hybrid-v8/hybrid-fuel.png)
-      
+
       The Hybrid power system on the BMW LMDh can be set to one of five modes to change the target battery State of Charge (SoC) after each lap. Each of these modes will use varying levels of energy throughout a lap to reach a target, and thus some will produce more power over the course of a lap and faster lap times at the cost of discharging the battery.
-      
-      #### BALANCED
-      
-      | NO DEPLOY | Value |
-      | --- | --- |
-      | In the “No Deploy” mode, the Hybrid system will not use any energy stored in the battery. This essentially disables the Hybrid drive system and will only charge the battery throughout a lap. This is only available in Qualifying and Test sessions and is used to fully charge the battery before switching to Qual mode. | The Balanced mode is the primary Race mode for the Hybrid system. This mode will attempt to deploy electrical charge to reduce lap times as much as possible while still maintaining a reasonable State of Charge over the duration of a lap. At the start of a session, it will take a few flying laps for the Hybrid system to learn the track and optimize deployment for the best lap times, and this mode is only available in Practice, Race, and Test sessions. |
-      | This mode is intended to be used on flying laps during qualifying sessions and will attempt to use all of the battery charge during a lap. This is only available during Qualifying and Test sessions and should be preceded by the No Deploy setting on outlaps and warmup laps to ensure the battery is fully charged before switching to the Qual mode. | The Build mode will attempt to build battery charge as quickly as possible in the event of a low battery charge or if it is needed prior to switching to Attack mode. Note that this will compromise lap times significantly compared to Balanced, and it’s important to switch back to Balanced mode once the battery has charged to avoid losing harvested energy and to prevent unnecessary loss in pace. This mode is only available in Practice, Race, and Test sessions. |
-      | Attack mode reduces the target State of Charge to use more power during race sessions to help with overtaking. Generally the laptime gain from this mode is not enough to offset the loss in pace from having to recharge and recover from using Attack mode, so it should be used only when it is absolutely necessary to complete an overtake. This mode can also be used on the final lap for a burst of speed since the battery is no longer needed. This mode is only available for Practice, Race, and Test sessions. | Fuel level is the amount of fuel in the fuel tank when the car leaves the garage. |
-      
+
+      #### NO DEPLOY
+
+      In the “No Deploy” mode, the Hybrid system will not use any energy stored in the battery. This essentially disables the Hybrid drive system and will only charge the battery throughout a lap. This is only available in Qualifying and Test sessions and is used to fully charge the battery before switching to Qual mode.
+
       #### QUAL
-      
-      #### BUILD
-      
+
+      This mode is intended to be used on flying laps during qualifying sessions and will attempt to use all of the battery charge during a lap. This is only available during Qualifying and Test sessions and should be preceded by the No Deploy setting on outlaps and warmup laps to ensure the battery is fully charged before switching to the Qual mode.
+
       #### ATTACK
-      
+
+      Attack mode reduces the target State of Charge to use more power during race sessions to help with overtaking. Generally the laptime gain from this mode is not enough to offset the loss in pace from having to recharge and recover from using Attack mode, so it should be used only when it is absolutely necessary to complete an overtake. This mode can also be used on the final lap for a burst of speed since the battery is no longer needed. This mode is only available for Practice, Race, and Test sessions.
+
+      #### BALANCED
+
+      The Balanced mode is the primary Race mode for the Hybrid system. This mode will attempt to deploy electrical charge to reduce lap times as much as possible while still maintaining a reasonable State of Charge over the duration of a lap. At the start of a session, it will take a few flying laps for the Hybrid system to learn the track and optimize deployment for the best lap times, and this mode is only available in Practice, Race, and Test sessions.
+
+      #### BUILD
+
+      The Build mode will attempt to build battery charge as quickly as possible in the event of a low battery charge or if it is needed prior to switching to Attack mode. Note that this will compromise lap times significantly compared to Balanced, and it’s important to switch back to Balanced mode once the battery has charged to avoid losing harvested energy and to prevent unnecessary loss in pace. This mode is only available in Practice, Race, and Test sessions.
+
       #### FUEL LEVEL
+
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
 
   - id: traction-control-gear-ratios-and-rear-diff-spec
     level: 3
@@ -885,7 +975,7 @@ sections:
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-2
-    level: 2
+    level: 3
     titleZh: 设置技巧
     titleEn: SETUP TIPS
   - id: provided-setups
@@ -894,135 +984,160 @@ sections:
     titleEn: PROVIDED SETUPS
     bodyZh: |+
       BMW M Hybrid V8 随附 12 个 iRacing 设置：
-      
-      #### 基准
-      
-      比高下压力设置略稳定的版本，适合第一次驾驶本车的车手，或希望获得比高下压力设置更高稳定性的车手。
-      
-      #### 高下压力
-      
-      适用于大多数赛道。该设置效率相当高并能产生最大下压力，但同时也会产生最大阻力。
-      
-      #### 中下压力
-      
-      适用于 Spa 等拥有长直道的赛道。牺牲更多下压力和效率，以换取更高的直线速度。
-      
-      #### 低下压力
-      
-      适用于勒芒。最低阻力和下压力配置。
-      
-      #### Daytona
-      
-      低下压力设置的变体，适用于 Daytona，并进行了改动以避免在椭圆赛道倾斜弯道上触底。
-      
-      #### Daytona 24H
-      
-      Daytona 设置的变体，专门考虑了一年中的时间、预期天气以及 24 小时比赛设置的要求。
-      
-      除固定 IMSA 设置外，所有设置的燃油量均设为 89 L，这是本车油箱的最大容量。
-      
-      #### 固定设置
-      
-      为官方 IMSA 固定赛制提供的高下压力设置，燃油量受限。
-      
-      #### 固定排位设置
-      
-      带有排位赛燃油量和混合动力释放的固定赛制设置。
-      
-      #### 固定 Le Mans 设置
-      
-      为官方 IMSA 固定赛制提供的低下压力设置，燃油量受限。
-      
-      #### 固定 Le Mans 排位设置
-      
-      带有排位赛燃油量和混合动力释放的固定低下压力赛制设置。
-      
-      #### 固定 Daytona 设置
-      
-      为官方 IMSA 固定赛制提供的 Daytona 设置，燃油量受限。
-      
-      #### 固定 Daytona 排位设置
-      
-      带有排位赛燃油量和混合动力释放的 Daytona 赛制设置。
-      
-      | 底盘高度 | 数值 |
-      | --- | --- |
-      | BMW M Hybrid V8 LMDh 在平均后车高为 50 mm、平均前车高尽可能低时产生最大下压力，且通常效率最高。需要注意的是，在不触底的前提下，车身前后两端都尽可能低时阻力最小。 | 通常应尽可能使用较软的前升沉弹簧，使车头在不过度触底、且制动或入弯时不产生不良空气动力平衡偏移的前提下尽量降低。 |
-      | 更大的俯仰角（后部车高高于前部车高）会使空气动力学平衡向前移动（转向过度），更小的俯仰角会使其向后移动（转向不足）。 | 较软的后部第三弹簧会让车辆后部在空气动力学负荷下下沉，但由于后车高会明显低于最佳效率所需的目标车高（50 mm），车辆会在弯中损失部分下压力和效率。因此需要在阻力／下压力和动态空气动力学平衡之间作出妥协。 |
-      
-      在不改变侧倾刚度的情况下，可以通过调整前部 Heave 弹簧和后部第三弹簧的刚度来影响赛道上的动态车高。
-      
-      | 空气动力学调整 | 数值 |
-      | --- | --- |
-      | 如果要调整设置，改变空气动力学平衡最容易的方法是调整后翼角度。一般来说，如果发现需要将翼面位置向任一方向调整超过一格，建议从其他下压力配置（高、中或低）之一开始。 | 如果希望在不改变下压力 / 阻力配置的情况下改变空气动力学平衡，可以增大或减小后部推杆长度偏移来调整后部车高。由于下压力很大，这会影响所有情况下的平衡，但在中高速弯中尤其明显。 |
-      | 降低翼角 = 更多转向过度、更少下压力和更高直线速度。 | 后推杆长度差值更低 = 更低后车高、更小俯仰角，以及更靠后的空气动力学平衡（转向不足）。 |
-      | 提高翼角 = 更多转向不足、更多下压力和更低直线速度。 | 后推杆长度差值更高 = 更高后车高、更大俯仰角，以及更靠前的空气动力学平衡（转向过度）。 |
 
+      #### 基准
+
+      比高下压力设置略稳定的版本，适合第一次驾驶本车的车手，或希望获得比高下压力设置更高稳定性的车手。
+
+      #### 高下压力
+
+      适用于大多数赛道。该设置效率相当高并能产生最大下压力，但同时也会产生最大阻力。
+
+      #### 中下压力
+
+      适用于 Spa 等拥有长直道的赛道。牺牲更多下压力和效率，以换取更高的直线速度。
+
+      #### 低下压力
+
+      适用于勒芒。最低阻力和下压力配置。
+
+      #### Daytona
+
+      低下压力设置的变体，适用于 Daytona，并进行了改动以避免在椭圆赛道倾斜弯道上触底。
+
+      #### Daytona 24H
+
+      Daytona 设置的变体，专门考虑了一年中的时间、预期天气以及 24 小时比赛设置的要求。
+
+      除固定 IMSA 设置外，所有设置的燃油量均设为 89 L，这是本车油箱的最大容量。
+
+      #### 固定设置
+
+      为官方 IMSA 固定赛制提供的高下压力设置，燃油量受限。
+
+      #### 固定排位设置
+
+      带有排位赛燃油量和混合动力释放的固定赛制设置。
+
+      #### 固定 Le Mans 设置
+
+      为官方 IMSA 固定赛制提供的低下压力设置，燃油量受限。
+
+      #### 固定 Le Mans 排位设置
+
+      带有排位赛燃油量和混合动力释放的固定低下压力赛制设置。
+
+      #### 固定 Daytona 设置
+
+      为官方 IMSA 固定赛制提供的 Daytona 设置，燃油量受限。
+
+      #### 固定 Daytona 排位设置
+
+      带有排位赛燃油量和混合动力释放的 Daytona 赛制设置。
+
+      #### 底盘高度
+
+      BMW M Hybrid V8 LMDh 在平均后车高为 50 mm、平均前车高尽可能低时产生最大下压力，且通常效率最高。需要注意的是，在不触底的前提下，车身前后两端都尽可能低时阻力最小。
+
+      更大的俯仰角（后部车高高于前部车高）会使空气动力学平衡向前移动（转向过度），更小的俯仰角会使其向后移动（转向不足）。
+
+      在不改变侧倾刚度的情况下，可以通过调整前部 Heave 弹簧和后部第三弹簧的刚度来影响赛道上的动态车高。
+
+      通常应尽可能使用较软的前升沉弹簧，使车头在不过度触底、且制动或入弯时不产生不良空气动力平衡偏移的前提下尽量降低。
+
+      较软的后部第三弹簧会让车辆后部在空气动力学负荷下下沉，但由于后车高会明显低于最佳效率所需的目标车高（50 mm），车辆会在弯中损失部分下压力和效率。因此需要在阻力／下压力和动态空气动力学平衡之间作出妥协。
+
+      #### 空气动力学调整
+
+      如果要调整设置，改变空气动力学平衡最容易的方法是调整后翼角度。一般来说，如果发现需要将翼面位置向任一方向调整超过一格，建议从其他下压力配置（高、中或低）之一开始。
+
+      降低翼角 = 更多转向过度、更少下压力和更高直线速度。
+
+      提高翼角 = 更多转向不足、更多下压力和更低直线速度。
+
+      如果希望在不改变下压力 / 阻力配置的情况下改变空气动力学平衡，可以增大或减小后部推杆长度偏移来调整后部车高。由于下压力很大，这会影响所有情况下的平衡，但在中高速弯中尤其明显。
+
+      后推杆长度差值更低 = 更低后车高、更小俯仰角，以及更靠后的空气动力学平衡（转向不足）。
+
+      后推杆长度差值更高 = 更高后车高、更大俯仰角，以及更靠前的空气动力学平衡（转向过度）。
     bodyEn: |+
       There are 12 iRacing setups provided for the BMW M Hybrid V8 LMDh:
-      
+
       #### BASELINE
-      
+
       A slightly more stable version of the high downforce setup for a driver’s first time in the car or for those wanting more stability than the high downforce setup provides.
-      
+
       #### HIGH DOWNFORCE
-      
+
       For use at most tracks. Although quite efficient and creating the most downforce, this setup also makes the most drag.
-      
+
       #### MEDIUM DOWNFORCE
-      
+
       For use at track with long straights like Spa. Sacrificing more downforce and efficiency for more straight line speed.
-      
+
       #### LOW DOWNFORCE
-      
+
       For use at Le Mans. Lowest drag and downforce trim.
-      
+
       #### DAYTONA
-      
+
       A variation of the Low Downforce setup for use at Daytona with changes to avoid bottoming on the oval banking.
-      
+
       #### DAYTONA 24H
-      
+
       A variation on the Daytona setup made specifically with time of year, expected weather, and the demands of a 24 hour race setup in mind.
-      
+
       The fuel level in all setups (except the fixed IMSA setups) are set to 89 L, which is the maximum tank capacity for this car.
-      
+
       #### FIXED
-      
+
       The high downforce setup with limited fuel for the official IMSA fixed series.
-      
+
       #### FIXED QUAL
-      
+
       The fixed series setup with qualifying fuel and hybrid deployment.
-      
+
       #### FIXED LEMANS
-      
+
       The low downforce setup with limited fuel for the official IMSA fixed series.
-      
+
       #### FIXED LEMANS QUAL
-      
+
       The fixed LDF series setup with qualifying fuel and hybrid deployment.
-      
+
       #### FIXED DAYTONA
-      
+
       The Daytona setup with limited fuel for the official IMSA fixed series.
-      
+
       #### FIXED DAYTONA QUAL
-      
+
       The Daytona series setup with qualifying fuel and hybrid deployment.
-      
-      | CHASSIS HEIGHTS | Value |
-      | --- | --- |
-      | The BMW M Hybrid V8 LMDh generates the most downforce (and is generally the most efficient) with an average rear ride height of 50mm and an average front ride height as low as possible. It’s important to note that the least amount of drag is generated when both ends of the car are as low as possible (without bottoming). | In general the front heave spring should be as soft as possible to allow the nose of the car to be as low as possible without excessive bottoming or an undesirable aero balance shift under braking/turn in. |
-      | More rake (high rear ride heights compared to front ride heights) will move aero balance forward (oversteer) and less rake will move it rearwards (understeer). | A soft rear third spring will allow the rear of the car to drop under aero load reducing drag but you will lose some amount of downforce and efficiency mid corner as the rear ride heights will be well under the target rear heights for maximum efficiency (50mm). Some compromises will need to be made regarding drag/downforce and dynamic aero balance. |
-      
+
+      #### CHASSIS HEIGHTS
+
+      The BMW M Hybrid V8 LMDh generates the most downforce (and is generally the most efficient) with an average rear ride height of 50mm and an average front ride height as low as possible. It’s important to note that the least amount of drag is generated when both ends of the car are as low as possible (without bottoming).
+
+      More rake (high rear ride heights compared to front ride heights) will move aero balance forward (oversteer) and less rake will move it rearwards (understeer).
+
       You can affect the dynamic ride heights (without changing the roll stiffness) on track by adjusting the front heave spring and the rear third spring stiffnesses.
-      
-      | AERODYNAMIC ADJUSTMENTS | Value |
-      | --- | --- |
-      | Should you choose to make adjustments to the setup, the easiest way to change the aerodynamic balance of the setup is through adjustment of the rear wing angle. Generally speaking, if you find you want to adjust wing position in more than a click in either direction it is recommended you start from one of the other downforce trim setups (high, medium, or low). | If you would like to change the aero balance without changing the downforce/drag trim adjust the rear ride height by increasing or decreasing the rear pushrod length offset. This will affect balance in all situations due to the high amount of downforce but this will be particularly noticeable in mid and high speed corners. |
-      | Lower wing angle = More oversteer, less downforce, and higher straight line speed. | Lower pushrod length delta = Lower rear ride height, less rake, and a more rearward aero balance (understeer). |
-      | Higher wing angle = More understeer, more downforce, and lower straight line speed. | Higher pushrod length delta = Higher rear ride height, more rake, and a more forward aero balance (oversteer). |
+
+      In general the front heave spring should be as soft as possible to allow the nose of the car to be as low as possible without excessive bottoming or an undesirable aero balance shift under braking/turn in.
+
+      A soft rear third spring will allow the rear of the car to drop under aero load reducing drag but you will lose some amount of downforce and efficiency mid corner as the rear ride heights will be well under the target rear heights for maximum efficiency (50mm). Some compromises will need to be made regarding drag/downforce and dynamic aero balance.
+
+      #### AERODYNAMIC ADJUSTMENTS
+
+      Should you choose to make adjustments to the setup, the easiest way to change the aerodynamic balance of the setup is through adjustment of the rear wing angle. Generally speaking, if you find you want to adjust wing position in more than a click in either direction it is recommended you start from one of the other downforce trim setups (high, medium, or low).
+
+      Lower wing angle = More oversteer, less downforce, and higher straight line speed.
+
+      Higher wing angle = More understeer, more downforce, and lower straight line speed.
+
+      If you would like to change the aero balance without changing the downforce/drag trim adjust the rear ride height by increasing or decreasing the rear pushrod length offset. This will affect balance in all situations due to the high amount of downforce but this will be particularly noticeable in mid and high speed corners.
+
+      Lower pushrod length delta = Lower rear ride height, less rake, and a more rearward aero balance (understeer).
+
+      Higher pushrod length delta = Higher rear ride height, more rake, and a more forward aero balance (oversteer).
 
   - id: mechanical-adjustments
     level: 3
@@ -1055,10 +1170,8 @@ sections:
     titleZh: 差速器调整
     titleEn: DIFFERENTIAL ADJUSTMENTS
     bodyZh: |+
-      后差速器是 Cadillac 中一个强大的工具，最简单的调整方法是增加或减少预载。调整预载会影响油门开启时的表现，但您可能会更明显地感受到它对入弯和初始转向的影响。
+      后差速器是 BMW M Hybrid V8 LMDh 中一个强大的调校工具，最简单的调整方法是增加或减少预载。调整预载会影响油门开启时的表现，但您可能会更明显地感受到它对入弯和初始转向的影响。
       
-      - 更多预载 = 松油门时旋转更少，入弯时稳定性更高。
-      - 更少预载 = 松油门时旋转更多，入弯时稳定性更低。
       - 更多预载 = 松油门时旋转更少，入弯时稳定性更高。
       - 更少预载 = 松油门时旋转更多，入弯时稳定性更低。
 

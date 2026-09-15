@@ -51,10 +51,10 @@ sections:
     titleZh: 底盘
     titleEn: CHASSIS
     bodyZh: |+
-      #### 推杆驱动内置弹簧的双叉臂悬架
-      
       ![图示](./assets/ligier-js-p320/chassis-specifications.png)
-      
+
+      #### 推杆驱动内置弹簧的双叉臂悬架
+
       | 规格 | 数值 |
       | --- | --- |
       | 车长 | 4605 mm / 181 in |
@@ -62,12 +62,11 @@ sections:
       | 轴距 | 2860 mm / 112 in |
       | 干重 | 950 kg / 2094 lbs |
       | 含车手湿重 | 1115 kg / 2458 lbs |
-
     bodyEn: |+
-      #### DOUBLE WISHBONE WITH PUSHROD-ACTUATED INBOARD SPRINGS
-      
       ![Image](./assets/ligier-js-p320/chassis-specifications.png)
-      
+
+      #### DOUBLE WISHBONE WITH PUSHROD-ACTUATED INBOARD SPRINGS
+
       | Specification | Value |
       | --- | --- |
       | Length | 4605 mm / 181 in |
@@ -81,31 +80,30 @@ sections:
     titleZh: 动力单元
     titleEn: POWER UNIT
     bodyZh: |+
-      自然吸气 Nissan V8
-      
       ![图示](./assets/ligier-js-p320/power-unit.png)
-      
+
+      自然吸气 Nissan V8
+
       | 规格 | 数值 |
       | --- | --- |
       | 排量 | 5.6 Liters / 341 CID |
       | 转速上限 | 7000 RPM |
       | 扭矩 | 402 lb-ft / 545 Nm |
       | 功率 | 460 bhp / 343 kW |
-      
-      ![图示](./assets/ligier-js-p320/vehicle-profile.png)
 
+      ![图示](./assets/ligier-js-p320/vehicle-profile.png)
     bodyEn: |+
-      NATURALLY ASPIRATED NISSAN V8
-      
       ![Image](./assets/ligier-js-p320/power-unit.png)
-      
+
+      NATURALLY ASPIRATED NISSAN V8
+
       | Specification | Value |
       | --- | --- |
       | Displacement | 5.6 Liters / 341 CID |
       | RPM Limit | 7000 |
       | Torque | 402 lb-ft / 545 Nm |
       | Power | 460 bhp / 343 kW |
-      
+
       ![Image](./assets/ligier-js-p320/vehicle-profile.png)
 
   - id: introduction
@@ -364,31 +362,40 @@ sections:
     titleEn: AERO SETTINGS
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/aero-settings.png)
-      
-      | 前俯冲翼 | 数值 |
-      | --- | --- |
-      | 前俯冲翼安装在前翼子板的前灯下方，可显著增加车头下压力并使空气动力平衡前移，但也会略微增加阻力。共有三种配置：High Downforce（HDF）安装完整俯冲翼，大幅增加下压力和阻力；Medium Downforce（MDF）安装部分俯冲翼，相比 HDF 阻力更小、下压力也更低；Low Downforce（LDF）完全拆除俯冲翼，适用于极速对最佳性能至关重要的场合。 | 更改尾翼设置会改变尾翼总成的攻角。较大角度会增加下压力、使空气动力学平衡后移，但也会增加阻力；较小角度会减少阻力和下压力，同时使空气动力学平衡前移。为获得最佳性能，必须根据赛道特性调整尾翼角度：高速赛道通常受益于较小尾翼角度带来的低阻力；速度较慢、弯角较多的赛道则通常使用较大尾翼角度和更多下压力时表现更好。底盘页面中的此项设置与空气动力学计算器中的尾翼设置联动，更改其中一项会同步更改另一项。 |
-      | 车身格尼襟翼是安装在车尾的小型翼片，用于提高总下压力。启用后会增加后轴及全车下压力，但也会增加阻力。 | 尾翼带有可独立于主翼面调整的第二翼片，用于微调车尾下压力。与尾翼角度调整相同，较大角度会增加车尾下压力和阻力，较小角度则会降低二者。此数值是相对参考角度的偏移量，可以设为负值；负角度仍会产生下压力。 |
-      
-      #### 后翼角度（REAR WING ANGLE）
-      
-      #### 尾翼襟翼角度
-      
+
+      #### 前俯冲翼
+
+      前俯冲翼安装在前翼子板的前灯下方，可显著增加车头下压力并使空气动力平衡前移，但也会略微增加阻力。共有三种配置：High Downforce（HDF）安装完整俯冲翼，大幅增加下压力和阻力；Medium Downforce（MDF）安装部分俯冲翼，相比 HDF 阻力更小、下压力也更低；Low Downforce（LDF）完全拆除俯冲翼，适用于极速对最佳性能至关重要的场合。
+
       #### 车身格尼襟翼设置
 
+      车身格尼襟翼是安装在车尾的小型翼片，用于提高总下压力。启用后会增加后轴及全车下压力，但也会增加阻力。
+
+      #### 后翼角度
+
+      更改尾翼设置会改变尾翼总成的攻角。较大角度会增加下压力、使空气动力学平衡后移，但也会增加阻力；较小角度会减少阻力和下压力，同时使空气动力学平衡前移。为获得最佳性能，必须根据赛道特性调整尾翼角度：高速赛道通常受益于较小尾翼角度带来的低阻力；速度较慢、弯角较多的赛道则通常使用较大尾翼角度和更多下压力时表现更好。底盘页面中的此项设置与空气动力学计算器中的尾翼设置联动，更改其中一项会同步更改另一项。
+
+      #### 后翼襟翼角度
+
+      尾翼带有可独立于主翼面调整的第二翼片，用于微调车尾下压力。与尾翼角度调整相同，较大角度会增加车尾下压力和阻力，较小角度则会降低二者。此数值是相对参考角度的偏移量，可以设为负值；负角度仍会产生下压力。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/aero-settings.png)
-      
-      | FRONT DIVE PLANES | Value |
-      | --- | --- |
-      | The Front Dive Planes are aerodynamic surfaces attached to the front fenders beneath the headlights. These can dramatically increase the downforce produced at the front of the car while shifting the aero balance forward but will increase drag slightly. Three variations are available: The High Downforce (HDF) option will install a full dive plane and greatly increase downforce and drag. The Medium Downforce (MDF) will install a partial dive plane, reducing drag over the HDF option but with less downforce. The Low Downforce (LDF) option will remove the dive planes completely, an option for when top speed is absolutely crucial for best performance. | Changing the Rear Wing Angle will alter the angle of attack of the entire rear wing assembly. Higher angles will increase downforce and shift aero balance rearward but will also increase drag. Lower angles will reduce drag and downforce while shifting aero balance forward. It’s very important to tune the Rear Wing angle to suit the track characteristics for optimum performance: Higher-speed tracks will usually benefit from the reduced drag of a lower wing angle while slower, twisty tracks will see better performance with a high wing angle and increased downforce. |
-      | The Deck Gurney is a small flap installed at the rear of the car to increase overall downforce. Using this aerodynamic device will increase rear downforce as well as total downforce, but will also increase drag. | The rear wing features a second element that can be adjusted independently of the rear wing mainplane to fine-tune the downforce level at the rear of the car. Just like the Rear Wing Angle adjustment, higher angles will increase downforce and drag at the rear of the car and lower angles will reduce downforce and drag. This adjustment value is an offset to a reference angle and can be set to a negative angle value, with these negative values still producing downforce. |
-      
-      #### REAR WING ANGLE
-      
-      #### REAR WING FLAP ANGLE
-      
+
+      #### FRONT DIVE PLANES
+
+      The Front Dive Planes are aerodynamic surfaces attached to the front fenders beneath the headlights. These can dramatically increase the downforce produced at the front of the car while shifting the aero balance forward but will increase drag slightly. Three variations are available: The High Downforce (HDF) option will install a full dive plane and greatly increase downforce and drag. The Medium Downforce (MDF) will install a partial dive plane, reducing drag over the HDF option but with less downforce. The Low Downforce (LDF) option will remove the dive planes completely, an option for when top speed is absolutely crucial for best performance.
+
       #### DECK GURNEY SETTING
+
+      The Deck Gurney is a small flap installed at the rear of the car to increase overall downforce. Using this aerodynamic device will increase rear downforce as well as total downforce, but will also increase drag.
+
+      #### REAR WING ANGLE
+
+      Changing the Rear Wing Angle will alter the angle of attack of the entire rear wing assembly. Higher angles will increase downforce and shift aero balance rearward but will also increase drag. Lower angles will reduce drag and downforce while shifting aero balance forward. It’s very important to tune the Rear Wing angle to suit the track characteristics for optimum performance: Higher-speed tracks will usually benefit from the reduced drag of a lower wing angle while slower, twisty tracks will see better performance with a high wing angle and increased downforce.
+
+      #### REAR WING FLAP ANGLE
+
+      The rear wing features a second element that can be adjusted independently of the rear wing mainplane to fine-tune the downforce level at the rear of the car. Just like the Rear Wing Angle adjustment, higher angles will increase downforce and drag at the rear of the car and lower angles will reduce downforce and drag. This adjustment value is an offset to a reference angle and can be set to a negative angle value, with these negative values still producing downforce.
 
   - id: aero-balance-calculator
     level: 3
@@ -446,57 +453,72 @@ sections:
     titleEn: FRONT
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/front-chassis.png)
-      
-      #### 垂向弹簧（HEAVE SPRING）
-      
-      前部 Heave 弹簧是处理纯垂向外部载荷的悬架元件，不会控制转弯时会导致车身侧倾的载荷。这些载荷通常来自高速时不断增加的下压力、赛道上的凹陷和隆起，或重刹车。较高的刚度值会使悬架在 Heave 方向变硬，有助于控制车高、维持良好的空气动力学平台，但在颠簸路面可能产生弹跳。较低的刚度更容易吸收颠簸和载荷，但过度的车身运动会损害空气动力学平台。
-      
-      #### 推杆长度调整
-      
-      该设置会同时调整两根前悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整前部车高的好方法，无须改变 Heave 弹簧或任一前部扭杆的预载。
-      
-      #### 防倾杆尺寸（ARB SIZE）
-      
-      | 垂向弹簧座偏移（HEAVE PERCH OFFSET） | 数值 |
-      | --- | --- |
-      | Heave 座高偏移用于调整 Heave 弹簧的预载。这是通过前部 Heave 元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高前部车高；相反，较高数值会释放弹簧载荷、降低前部车高。 | 防倾杆（ARB）尺寸会改变前悬架的侧倾刚度。增大防倾杆尺寸会提高前悬架侧倾刚度，减少车身侧倾，但增加机械转向不足。在某些情况下，这也会让车手感觉转向响应更快。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向不足；这可能使转向感觉响应变慢，但前轴整体抓地力会增加。 |
-      | 垂向弹簧间隙是垂向弹簧总成开始承载任何负荷前所需的压缩量。该数值可以直接设置，但也会随其他能够改变车高、进而改变悬架静态形变量的底盘设置而变化。正值表示车辆静止时垂向弹簧未承载，需要悬架先压缩才会加载；负值则表示垂向弹簧在静态条件下已预载。数值越低，弹簧会在悬架行程中越早介入；数值越高，介入越晚。 | 防倾杆设置用于微调前防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向过度；Hard 提供最大侧倾阻力，使机械平衡偏向转向不足；Medium 的侧倾刚度与操控平衡介于两者之间。 |
-      | 滑块挠度表示 Heave 弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。 | 从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。 |
-      
-      #### 防倾杆设置
-      
-      #### 垂向弹簧挠度（HEAVE SPRING DEFLECTION）
-      
-      #### 前束（TOE-IN）
-      
-      #### 升沉滑块挠度
 
+      #### 垂向弹簧
+
+      前部 Heave 弹簧是处理纯垂向外部载荷的悬架元件，不会控制转弯时会导致车身侧倾的载荷。这些载荷通常来自高速时不断增加的下压力、赛道上的凹陷和隆起，或重刹车。较高的刚度值会使悬架在 Heave 方向变硬，有助于控制车高、维持良好的空气动力学平台，但在颠簸路面可能产生弹跳。较低的刚度更容易吸收颠簸和载荷，但过度的车身运动会损害空气动力学平台。
+
+      #### 垂向弹簧座偏移
+
+      Heave 座高偏移用于调整 Heave 弹簧的预载。这是通过前部 Heave 元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高前部车高；相反，较高数值会释放弹簧载荷、降低前部车高。
+
+      #### 垂向弹簧挠度
+
+      垂向弹簧间隙是垂向弹簧总成开始承载任何负荷前所需的压缩量。该数值可以直接设置，但也会随其他能够改变车高、进而改变悬架静态形变量的底盘设置而变化。正值表示车辆静止时垂向弹簧未承载，需要悬架先压缩才会加载；负值则表示垂向弹簧在静态条件下已预载。数值越低，弹簧会在悬架行程中越早介入；数值越高，介入越晚。
+
+      #### 垂向滑块挠度
+
+      滑块挠度表示 Heave 弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+
+      #### 推杆长度调整
+
+      该设置会同时调整两根前悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整前部车高的好方法，无须改变 Heave 弹簧或任一前部扭杆的预载。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会改变前悬架的侧倾刚度。增大防倾杆尺寸会提高前悬架侧倾刚度，减少车身侧倾，但增加机械转向不足。在某些情况下，这也会让车手感觉转向响应更快。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向不足；这可能使转向感觉响应变慢，但前轴整体抓地力会增加。
+
+      #### 防倾杆设置
+
+      防倾杆设置用于微调前防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向过度；Hard 提供最大侧倾阻力，使机械平衡偏向转向不足；Medium 的侧倾刚度与操控平衡介于两者之间。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/front-chassis.png)
-      
+
       #### HEAVE SPRING
-      
+
       The front Heave Spring is a suspension element that handles external loads from purely vertical loads and doesn’t control loads that would induce chassis roll when cornering. Generally these loads are present for increasing downforce loads at higher speeds, dips and crests in the track, or under heavy braking. Higher rate values will stiffen the suspension in heave, which is good for controlling ride heights to maintain a good aerodynamic platform, but can produce a bouncing effect on rough surfaces. Lower rates will absorb bumps and loads easier, but will hurt the aerodynamic platform due to excessive chassis movement.
-      
-      #### PUSHROD LENGTH ADJUSTMENT
-      
-      This adjusts the length of both front suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust front ride height without altering the preload on the Heave Spring or either front Torsion Bars.
-      
-      #### ARB SIZE
-      
-      | HEAVE PERCH OFFSET | Value |
-      | --- | --- |
-      | The Heave Perch Offset is used to adjust preload on the Heave Spring. This is one of two methods to adjust ride height through the front Heave element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and reduce front ride heights. | The ARB (Anti-Roll Bar) size alters the stiffness of the front suspension in roll. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. |
-      | Heave Spring Deflection represents the amount the Heave Spring is compressed under static conditions, essentially a display of the preload on the Heave Spring. This can change as a result of adjusting almost everything else on the chassis, so special attention should be paid to ensure the deflection, and thus the spring preload, remains the same after making setup changes. This setting is directly adjustable through the Heave Perch Offset setting, with higher deflection values indicating more static compression and higher spring preload. | The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the front ARB assembly. The Soft setting will provide the least roll resistance and induce some oversteer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards understeer. The Medium option falls between the two settings in both roll stiffness and handling balance. |
-      | The Heave Slider is a mechanism that keeps the Heave Spring assembly moving in a linear fashion without producing the forces that a damper would produce. The Slider Deflection is how far this slider mechanism is mounted on has compressed from fully extended. This has no influence on the chassis handling, but is a way to see how much travel is available before the slider bottoms out. | Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish. |
-      
-      #### ARB SETTING
-      
+
+      #### HEAVE PERCH OFFSET
+
+      The Heave Perch Offset is used to adjust preload on the Heave Spring. This is one of two methods to adjust ride height through the front Heave element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and reduce front ride heights.
+
       #### HEAVE SPRING DEFLECTION
-      
-      #### TOE-IN
-      
+
+      Heave Spring Deflection represents the amount the Heave Spring is compressed under static conditions, essentially a display of the preload on the Heave Spring. This can change as a result of adjusting almost everything else on the chassis, so special attention should be paid to ensure the deflection, and thus the spring preload, remains the same after making setup changes. This setting is directly adjustable through the Heave Perch Offset setting, with higher deflection values indicating more static compression and higher spring preload.
+
       #### HEAVE SLIDER DEFLECTION
+
+      The Heave Slider is a mechanism that keeps the Heave Spring assembly moving in a linear fashion without producing the forces that a damper would produce. The Slider Deflection is how far this slider mechanism is mounted on has compressed from fully extended. This has no influence on the chassis handling, but is a way to see how much travel is available before the slider bottoms out.
+
+      #### PUSHROD LENGTH ADJUSTMENT
+
+      This adjusts the length of both front suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust front ride height without altering the preload on the Heave Spring or either front Torsion Bars.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size alters the stiffness of the front suspension in roll. Increasing the ARB size will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel from the driver. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+
+      #### ARB SETTING
+
+      The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the front ARB assembly. The Soft setting will provide the least roll resistance and induce some oversteer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards understeer. The Medium option falls between the two settings in both roll stiffness and handling balance.
+
+      #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
 
   - id: brakes-in-car-misc
     level: 3
@@ -578,54 +600,55 @@ sections:
     titleEn: FRONT CORNERS
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/front-corners.png)
-      
-      #### 弹簧座高偏移
-      
-      | 角重（CORNER WEIGHT） | 数值 |
-      | --- | --- |
-      | 车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过弹簧座偏移量设置进行调整。 | 通过改变弹簧上座的安装位置来调整车辆此轮的车高。增大弹簧座偏移量会降低弹簧预载，从而降低此轮车高；减小偏移量会提高弹簧预载，并抬高此轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且对角配重不变。 |
-      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。 | 弹簧刚度表示控制各车轮的悬架弹簧硬度，即将弹簧压缩特定距离所需的力（lb 或 N）。弹簧既用于防止底盘在载荷下触地，也用于控制底盘空气动力学姿态，同时会显著影响操控。前部较硬的弹簧可减少空气动力载荷增加时前翼的移动，但会降低机械抓地力，在慢弯造成转向不足；较软弹簧会带来更多前端运动，可能不利于空气动力学，却能提高前轴机械抓地力、减轻转向不足，极端时也可能造成转向过度。 |
-      
-      #### 车高（RIDE HEIGHT）
-      
-      #### 弹簧刚度
-      
-      #### 弹簧刚度
-      
-      弹簧刚度表示控制各车轮的悬架弹簧硬度，即将弹簧压缩特定距离所需的力（lb 或 N）。弹簧既用于防止底盘在载荷下触地，也用于控制底盘空气动力学姿态，同时会显著影响操控。前部较硬的弹簧可减少空气动力载荷增加时前翼的移动，但会降低机械抓地力，在慢弯造成转向不足；较软弹簧会带来更多前端运动，可能不利于空气动力学，却能提高前轴机械抓地力、减轻转向不足，极端时也可能造成转向过度。
-      
-      #### 减振器挠度
-      
-      减振器形变量表示减振器在车库静态条件下从完全伸长度起的压缩量。这有助于判断在减振器弹簧和垫片接触减振器筒身之前还有多少减振器行程可用。
-      
-      #### 外倾角（CAMBER）
-      
-      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。
 
+      #### 角重
+
+      车辆在车库中静止时，各车轮承受的载荷。合理分配各轮载荷，对于针对特定赛道和条件优化车辆至关重要。单轮载荷和对角配重均通过弹簧座偏移量设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高前部车高会降低总下压力并将空气动力学平衡向后移动，同时略微降低阻力。相反，降低前部车高会增加下压力并将空气动力学平衡向前移动，同时略微增加总阻力。
+
+      #### 弹簧座偏移
+
+      通过改变弹簧上座的安装位置来调整车辆此轮的车高。增大弹簧座偏移量会降低弹簧预载，从而降低此轮车高；减小偏移量会提高弹簧预载，并抬高此轮车高。此类调整应在同一车轴左右对称进行，以确保左右车高一致且对角配重不变。
+
+      #### 弹簧刚度
+
+      弹簧刚度表示控制各车轮的悬架弹簧硬度，即将弹簧压缩特定距离所需的力（lb 或 N）。弹簧既用于防止底盘在载荷下触地，也用于控制底盘空气动力学姿态，同时会显著影响操控。前部较硬的弹簧可减少空气动力载荷增加时前翼的移动，但会降低机械抓地力，在慢弯造成转向不足；较软弹簧会带来更多前端运动，可能不利于空气动力学，却能提高前轴机械抓地力、减轻转向不足，极端时也可能造成转向过度。
+
+      #### 减振器挠度
+
+      减振器形变量表示减振器在车库静态条件下从完全伸长度起的压缩量。这有助于判断在减振器弹簧和垫片接触减振器筒身之前还有多少减振器行程可用。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/front-corners.png)
-      
-      #### SPRING PERCH OFFSET
-      
-      | CORNER WEIGHT | Value |
-      | --- | --- |
-      | The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset settings. | Used to adjust the ride height at a corner of the car by changing the installed position of the spring’s upper perch. Increasing the spring perch offset will reduce spring preload, lowering the corner of the car. Reducing the spring perch offset will increase spring preload and raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight. |
-      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag. | Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front splitter from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Due to homologation rules, front spring rates must be symmetrical across the rear axle and can only be changed in pairs. |
-      
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset settings.
+
       #### RIDE HEIGHT
-      
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing the front ride height will decrease overall downforce and shift the aerodynamic balance rearward, but will decrease drag slightly. Conversely, reducing front ride height will increase downforce and shift aero balance forward while slightly increasing overall drag.
+
+      #### SPRING PERCH OFFSET
+
+      Used to adjust the ride height at a corner of the car by changing the installed position of the spring’s upper perch. Increasing the spring perch offset will reduce spring preload, lowering the corner of the car. Reducing the spring perch offset will increase spring preload and raise the corner of the car. These changes should be kept symmetrical across the axle (left to right) to ensure the same corner ride heights and no change in cross weight.
+
       #### SPRING RATE
-      
-      #### SPRING RATE
-      
+
       Spring Rate is the stiffness of the suspension’s corner springs controlling each wheel. The value is a representation of how much force (Pounds or Newtons) is required to compress the spring a specific distance. Springs are used to keep the chassis from contacting the track under the loads seen on track and to manage the chassis’ aerodynamic attitude, but their stiffness also has a major influence on the car’s handling characteristics. On the front end, stiffer springs can keep the front splitter from moving too much under increasing aerodynamic loads but will decrease mechanical grip and can cause understeer in slower corners. Softer springs will result in more front end movement, which can hurt aero, but will increase mechanical grip in the front axle and reduce understeer (or cause oversteer, in extreme cases). Due to homologation rules, front spring rates must be symmetrical across the rear axle and can only be changed in pairs.
-      
+
       #### SHOCK DEFLECTION
-      
+
       Similar to Spring Deflection, Shock Deflection is how much the shock is compressed from its fully-extended length. While this is not a representation of any kind of loading on the shock, it is a way to see how much travel is available in the suspension before the shock runs out of available travel and contacts any travel-limiting devices. Be careful to pay attention to how much deflection is available for suspension extension, as the tire will become unloaded when shock deflection reaches zero.
-      
+
       #### CAMBER
-      
+
       Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of longitudinal grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance.
 
   - id: rear-corners
@@ -634,57 +657,72 @@ sections:
     titleEn: REAR CORNERS
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/rear-corners.png)
-      
-      #### 角重（CORNER WEIGHT）
-      
-      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
-      
-      #### 弹簧挠度
-      
-      弹簧挠度表示弹簧相对无载长度的压缩量，可用于判断各弹簧的预载程度，以及底盘设置是否存在可能导致操控不一致的不对称。
-      
-      #### 减振器挠度
-      
-      | 车高（RIDE HEIGHT） | 数值 |
-      | --- | --- |
-      | 从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。 | 与弹簧挠度类似，减振器挠度表示减振器相对完全伸展长度的压缩量。它并不代表减振器承受的载荷，而是用于判断悬架在耗尽可用行程、接触限位装置之前还剩多少行程。应特别关注悬架伸展方向的可用挠度，因为减振器挠度降至零时轮胎会失去载荷。这对制动时的车尾以及大俯仰角配置尤其重要，减振器行程耗尽可能引发突然的转向过度。 |
-      | 用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。 | 外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大后轮负外倾角可提高过弯稳定性，但会降低制动时的直线稳定性；减小后轮负外倾角通常可以提高低抓地力弯角出口的牵引力。 |
-      | 弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。 | 从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。 |
-      
-      #### 外倾角（CAMBER）
-      
-      #### 弹簧座高偏移
-      
-      #### 弹簧刚度
-      
-      #### 前束（TOE-IN）
 
+      #### 角重
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
+
+      #### 车高
+
+      从地面到车身参考点的距离。由于这些数值是测量车辆上的特定参考点，因此不一定代表车辆的离地间隙，而是在静态条件下可靠地表示车辆离赛道的高度。调整车高是获得最佳性能的关键，因为它会直接影响车辆的空气动力学性能和机械抓地力。提高后部车高会增加总下压力并将空气动力学平衡向车头移动，但会增加阻力。降低后部车高则相反，空气动力学平衡向后移动，且总下压力和阻力都会降低。
+
+      #### 弹簧座偏移
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 弹簧刚度
+
+      弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。
+
+      #### 弹簧挠度
+
+      弹簧挠度表示弹簧相对无载长度的压缩量，可用于判断各弹簧的预载程度，以及底盘设置是否存在可能导致操控不一致的不对称。
+
+      #### 减振器挠度
+
+      与弹簧挠度类似，减振器挠度表示减振器相对完全伸展长度的压缩量。它并不代表减振器承受的载荷，而是用于判断悬架在耗尽可用行程、接触限位装置之前还剩多少行程。应特别关注悬架伸展方向的可用挠度，因为减振器挠度降至零时轮胎会失去载荷。这对制动时的车尾以及大俯仰角配置尤其重要，减振器行程耗尽可能引发突然的转向过度。
+
+      #### 外倾角
+
+      外倾角是车轮相对于底盘中心的垂直夹角。车轮顶部比底部更靠近底盘中心线称为负外倾，轮胎顶部比底部更向外则称为正外倾。受悬架几何和过弯负荷影响，四个车轮通常都需要负外倾。增大负外倾角的绝对值可提高轮胎产生的横向力，但会降低制动时的抓地力。外倾角过大虽然可能产生很强的过弯力，也会显著缩短轮胎寿命，因此需要在耐久性与性能之间取得平衡。增大后轮负外倾角可提高过弯稳定性，但会降低制动时的直线稳定性；减小后轮负外倾角通常可以提高低抓地力弯角出口的牵引力。
+
+      #### 前束
+
+      从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/rear-corners.png)
-      
+
       #### CORNER WEIGHT
-      
+
       The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
-      
-      #### SPRING DEFLECTION
-      
-      The Spring Deflection value is how far the spring has compressed from its length when unloaded. This is a way to see how much each spring is preloaded and whether or not the chassis setup has any kind of asymmetry that could lead to inconsistent handling characteristics.
-      
-      #### SHOCK DEFLECTION
-      
-      | RIDE HEIGHT | Value |
-      | --- | --- |
-      | Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing. | Similar to Spring Deflection, Shock Deflection is how much the shock is compressed from its fully-extended length. While this is not a representation of any kind of loading on the shock, it is a way to see how much travel is available in the suspension before the shock runs out of available travel and contacts any travel-limiting devices. Be careful to pay attention to how much deflection is available for suspension extension, as the tire will become unloaded when shock deflection reaches zero. This is especially important for the rear of the car during braking and high-rake configurations, since running out of shock travel could cause sudden oversteer. |
-      | Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height. | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce straight-line stability under braking, while lower rear camber values can often increase traction out of low-grip corners. |
-      | Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs. | Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction. |
-      
-      #### CAMBER
-      
+
+      #### RIDE HEIGHT
+
+      Distance from ground to a reference point on the chassis. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Raising the rear ride height will increase overall downforce and shift aero to the front of the car but will increase drag. Decreasing rear ride height will do the opposite, with aero shifting rearward and overall downforce and drag decreasing.
+
       #### SPRING PERCH OFFSET
-      
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to its corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
       #### SPRING RATE
-      
+
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+
+      #### SPRING DEFLECTION
+
+      The Spring Deflection value is how far the spring has compressed from its length when unloaded. This is a way to see how much each spring is preloaded and whether or not the chassis setup has any kind of asymmetry that could lead to inconsistent handling characteristics.
+
+      #### SHOCK DEFLECTION
+
+      Similar to Spring Deflection, Shock Deflection is how much the shock is compressed from its fully-extended length. While this is not a representation of any kind of loading on the shock, it is a way to see how much travel is available in the suspension before the shock runs out of available travel and contacts any travel-limiting devices. Be careful to pay attention to how much deflection is available for suspension extension, as the tire will become unloaded when shock deflection reaches zero. This is especially important for the rear of the car during braking and high-rake configurations, since running out of shock travel could cause sudden oversteer.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce straight-line stability under braking, while lower rear camber values can often increase traction out of low-grip corners.
+
       #### TOE-IN
+
+      Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
 
   - id: rear
     level: 3
@@ -692,71 +730,80 @@ sections:
     titleEn: REAR
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/rear-chassis.png)
-      
-      #### 防倾杆尺寸（ARB SIZE）
-      
-      | 第三弹簧 | 数值 |
-      | --- | --- |
-      | 第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。 | 防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。 |
-      | 第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。 | 防倾杆设置用于微调后防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向不足；Hard 提供最大侧倾阻力，使机械平衡偏向转向过度；Medium 的侧倾刚度与操控平衡介于两者之间。 |
-      
-      #### 第三弹簧挠度
-      
-      第三弹簧挠度表示后部第三弹簧在静态条件下被压缩的量。该数值不能直接调整，但会随第三弹簧座高偏移和后部弹簧设置的调整而变化。
-      
-      #### 第三滑块挠度
-      
-      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
-      
-      #### 推杆长度调整
-      
-      该设置会同时调整两根后悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整后部车高的好方法，无须改变第三弹簧或任一后部弹簧的预载。
-      
-      #### 燃油量（FUEL LEVEL）
-      
-      燃油量是车辆驶离车库时油箱中的燃油量。
-      
-      #### 差速器预载
-      
-      可以为差速器设置静态载荷。数值越高，差速器在所有条件下产生的锁止力越大，从而在加速和减速时带来更多转向不足。该数值也会影响弯心表现；数值越高，差速器越不容易解锁，弯心转向不足越明显。
-      
-      #### 防倾杆设置
-      
-      #### 第三弹簧座高偏移
 
+      #### 第三弹簧
+
+      第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。
+
+      #### 第三弹簧座偏移
+
+      第三弹簧座高偏移用于调整后部第三弹簧的预载。这是通过后部第三弹簧元件调整车高的两种方法之一：较低数值会使弹簧预载更大、抬高后部车高；相反，较高数值会释放弹簧载荷、降低后部车高。
+
+      #### 第三弹簧挠度
+
+      第三弹簧挠度表示后部第三弹簧在静态条件下被压缩的量。该数值不能直接调整，但会随第三弹簧座高偏移和后部弹簧设置的调整而变化。
+
+      #### 第三滑块挠度
+
+      滑块挠度表示第三弹簧所安装的滑块机构从完全伸展状态压缩了多远。它类似减震器，但不会产生任何阻尼力，因此不会影响悬架行为。
+
+      #### 防倾杆尺寸
+
+      防倾杆（ARB）尺寸会改变后悬架的侧倾刚度。增大防倾杆尺寸会提高后悬架侧倾刚度，减少车身侧倾，但增加机械转向过度。相反，减小防倾杆尺寸会使悬架侧倾方向变软，增加车身侧倾但减少机械转向过度；这可能使转向感觉响应变慢，但后轴整体抓地力会增加。
+
+      #### 防倾杆设置
+
+      防倾杆设置用于微调后防倾杆总成的整体刚度。Soft 提供最小侧倾阻力，并在过弯时带来一些转向不足；Hard 提供最大侧倾阻力，使机械平衡偏向转向过度；Medium 的侧倾刚度与操控平衡介于两者之间。
+
+      #### 推杆长度调整
+
+      该设置会同时调整两根后悬架推杆的长度，以相对于基准长度的偏移量显示。这是调整后部车高的好方法，无须改变第三弹簧或任一后部弹簧的预载。
+
+      #### 燃油量
+
+      燃油量是车辆驶离车库时油箱中的燃油量。
+
+      #### 差速器预载
+
+      可以为差速器设置静态载荷。数值越高，差速器在所有条件下产生的锁止力越大，从而在加速和减速时带来更多转向不足。该数值也会影响弯心表现；数值越高，差速器越不容易解锁，弯心转向不足越明显。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/rear-chassis.png)
-      
-      #### ARB SIZE
-      
-      | THIRD SPRING | Value |
-      | --- | --- |
-      | The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork. | The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase. |
-      | The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights. | The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the rear ARB assembly. The Soft setting will provide the least roll resistance and induce some understeer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards oversteer. The Medium option falls between the two settings in both roll stiffness and handling balance. |
-      
-      #### THIRD SPRING DEFLECTION
-      
-      Third Spring Deflection represents the amount the rear Third Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Third Perch Offset and rear Spring settings.
-      
-      #### THIRD SLIDER DEFLECTION
-      
-      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
-      
-      #### PUSHROD LENGTH ADJUSTMENT
-      
-      This adjusts the length of both rear suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust rear ride height without altering the preload on the Heave Spring or either of the rear corner springs.
-      
-      #### FUEL LEVEL
-      
-      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
-      
-      #### DIFF PRELOAD
-      
-      The differential can be set with a static load applied. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer.
-      
-      #### ARB SETTING
-      
+
+      #### THIRD SPRING
+
+      The Third Spring, similar to the front Heave Spring, is a spring element configured to provide resistance only in vertical suspension movement without affecting roll stiffness. This spring element is helpful with controlling increasing aerodynamic loads and maintaining the proper aerodynamic attitude around a circuit. The rear end’s third spring is crucial in maintaining and controlling the rear ride height around a circuit to maximize the downforce produced by the rear bodywork.
+
       #### THIRD PERCH OFFSET
+
+      The Third Perch Offset is used to adjust preload on the rear Third Spring. This is one of two methods to adjust ride height through the rear Third Spring element, with lower values preloading the spring more and raising front ride heights. Conversely, higher values will unload the spring and lower front ride heights.
+
+      #### THIRD SPRING DEFLECTION
+
+      Third Spring Deflection represents the amount the rear Third Spring is compressed under static conditions. This is not directly adjustable but will change with adjustments to the Third Perch Offset and rear Spring settings.
+
+      #### THIRD SLIDER DEFLECTION
+
+      The Slider Deflection is how far the slider mechanism the Third Spring is mounted on has compressed from fully extended. Similar to a shock but without any damping forces produced, this doesn’t influence the suspension’s behavior.
+
+      #### ARB SIZE
+
+      The ARB (Anti-Roll Bar) size alters the stiffness of the rear suspension in roll. Increasing the ARB size will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. Conversely, reducing the ARB size will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel from the steering, but grip across the rear axle will increase.
+
+      #### ARB SETTING
+
+      The ARB Setting is a fine-tuning adjustment that alters the overall stiffness of the rear ARB assembly. The Soft setting will provide the least roll resistance and induce some understeer while cornering, while the Hard setting will provide the most roll resistance and shift the mechanical balance towards oversteer. The Medium option falls between the two settings in both roll stiffness and handling balance.
+
+      #### PUSHROD LENGTH ADJUSTMENT
+
+      This adjusts the length of both rear suspension pushrods together, shown as an offset from a baseline length figure. This is a great way to adjust rear ride height without altering the preload on the Heave Spring or either of the rear corner springs.
+
+      #### FUEL LEVEL
+
+      Fuel level is the amount of fuel in the fuel tank when the car leaves the garage.
+
+      #### DIFF PRELOAD
+
+      The differential can be set with a static load applied. Higher values produce more locking force in the differential in all conditions, producing more understeer under acceleration and deceleration. This value will also affect mid-corner performance, with higher values not allowing the differential to unlock as much, increasing mid-corner understeer.
 
   - id: dampers
     level: 2
@@ -764,31 +811,40 @@ sections:
     titleEn: DAMPERS
     bodyZh: |+
       ![图示](./assets/ligier-js-p320/dampers.png)
-      
-      #### 低速回弹阻尼（LS REBOUND DAMPING）
-      
-      | 低速压缩阻尼（LS COMPRESSION DAMPING） | 数值 |
-      | --- | --- |
-      | 低速压缩阻尼决定减振器活塞杆以较低速度运动并压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及常规过弯力引起的车身运动。本车调节数值越低，压缩阻力越大，低速状态下载荷也会更快地转移到相应轮胎上。 | 回弹阻尼控制减振器在较低速度下伸张时的刚度，通常发生在车手操作引起的车体运动过程中。回弹数值越高，越能抵抗减振器伸长；数值越低，减振器伸张越快。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸长以保持与赛道良好接触时，可能导致车轮卸载。过大的回弹可能导致车轮在赛道上弹跳而非保持接触，从而引发不必要的振荡。 |
-      | 高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 | 高速回弹阻尼调整减振器在经过大型颠簸和路肩后伸长时的表现。较低调节数值会降低减振器伸长速度，较高数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。 |
-      
-      #### 高速压缩阻尼（HS COMPRESSION DAMPING）
-      
-      #### 高速回弹阻尼（HS REBOUND DAMPING）
 
+      #### 低速压缩阻尼
+
+      低速压缩阻尼决定减振器活塞杆以较低速度运动并压缩（长度缩短）时的阻力，通常对应转向、制动、油门等车手输入以及常规过弯力引起的车身运动。本车调节数值越低，压缩阻力越大，低速状态下载荷也会更快地转移到相应轮胎上。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减震器在高速行程中的表现，通常与驶过路肩和赛道路面颠簸有关。较高的压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 低速回弹阻尼
+
+      回弹阻尼控制减振器在较低速度下伸张时的刚度，通常发生在车手操作引起的车体运动过程中。回弹数值越高，越能抵抗减振器伸长；数值越低，减振器伸张越快。较高的回弹数值能更好地控制空气动力学姿态，但当悬架无法充分伸长以保持与赛道良好接触时，可能导致车轮卸载。过大的回弹可能导致车轮在赛道上弹跳而非保持接触，从而引发不必要的振荡。
+
+      #### 高速回弹阻尼
+
+      高速回弹阻尼调整减振器在经过大型颠簸和路肩后伸长时的表现。较低调节数值会降低减振器伸长速度，较高数值则允许减振器更容易伸长。尽管高速回弹阻尼对车手输入所引起操控变化的影响较小，但若设置不当，在空气动力学控制和失控振荡方面也可能产生类似后果。
     bodyEn: |+
       ![Image](./assets/ligier-js-p320/dampers.png)
-      
-      #### LS REBOUND DAMPING
-      
-      | LS COMPRESSION DAMPING | Value |
-      | --- | --- |
-      | Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock shaft is moving at relatively low speeds, usually during movement caused by driver input (steering, braking, & throttle) and typical cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly. | Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand fast enough to maintain proper contact with the track. Excessive rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact. |
-      | High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track and risk the bottom of the chassis coming into contact with the track surface. | High-speed rebound adjusts the shock in extension following large bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly. |
-      
+
+      #### LS COMPRESSION DAMPING
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock shaft is moving at relatively low speeds, usually during movement caused by driver input (steering, braking, & throttle) and typical cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly.
+
       #### HS COMPRESSION DAMPING
-      
+
+      High Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track and risk the bottom of the chassis coming into contact with the track surface.
+
+      #### LS REBOUND DAMPING
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand fast enough to maintain proper contact with the track. Excessive rebound can lead to unwanted oscillations due to the wheel bouncing off of the track surface instead of staying in contact.
+
       #### HS REBOUND DAMPING
+
+      High-speed rebound adjusts the shock in extension following large bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
 
   - id: setup-tips
     level: 2
@@ -801,28 +857,37 @@ sections:
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-2
-    level: 2
+    level: 3
     titleZh: 设置技巧
     titleEn: SETUP TIPS
     bodyZh: |+
       本车配有第三弹簧和垂向弹簧，可让您在不影响侧倾刚度的情况下调整俯仰运动（以及动态车高）。这些弹簧会对俯仰运动产生重大影响。请将它们与前扭杆和后弹簧配合使用，以设定车辆的动态车高。
-      
-      随附基准设置的车高与弹簧已针对车辆空气动力特性进行配置。建议继续尝试和优化，但请注意：若设置导致动态车高明显偏离现有范围，通常会产生更少的下压力。
-      
-      | 调整 iRacing 基准设置 | 数值 |
-      | --- | --- |
-      | 本设置及其他随附设置既可直接用于比赛，也适合作为自行调校的起点。以下说明将提供一个起始框架，帮助您作出合适的设置选择。 | 在高速弯中，空气动力平衡的影响远大于机械平衡，因此可利用高速弯调整空气动力平衡，建立一个可靠的粗略基准，再继续调校其他部分。 |
-      | 开始调整时，可先判断每项改动影响车辆的空气动力平衡还是机械平衡，并尽量让二者都达到中性状态（既不转向过度，也不转向不足）。 | 起步阶段，先设定空气动力平衡，再细调机械平衡最为容易。 |
 
+      随附基准设置的车高与弹簧已针对车辆空气动力特性进行配置。建议继续尝试和优化，但请注意：若设置导致动态车高明显偏离现有范围，通常会产生更少的下压力。
+
+      #### 调整 iRacing 基准设置
+
+      本设置及其他随附设置既可直接用于比赛，也适合作为自行调校的起点。以下说明将提供一个起始框架，帮助您作出合适的设置选择。
+
+      开始调整时，可先判断每项改动影响车辆的空气动力平衡还是机械平衡，并尽量让二者都达到中性状态（既不转向过度，也不转向不足）。
+
+      在高速弯中，空气动力平衡的影响远大于机械平衡，因此可利用高速弯调整空气动力平衡，建立一个可靠的粗略基准，再继续调校其他部分。
+
+      起步阶段，先设定空气动力平衡，再细调机械平衡最为容易。
     bodyEn: |+
       This car has third and heave springs, allowing you to adjust pitch motion (and dynamic ride heights) without affecting roll stiffness. Use these in conjunction with the corner springs to set the dynamic ride heights of the car.
-      
+
       The provided baseline setups have their ride heights and springs set to take advantage of the aerodynamic properties of the car. You are encouraged to experiment and optimize them further, but keep in mind that settings which stray far from the existing dynamic ride heights are likely to generate less downforce.
-      
-      | ADJUSTING THE IRACING BASELINE SETUPS | Value |
-      | --- | --- |
-      | This setup and other setups that have been provided are intended to be raceable setups as well as a good place to start while making your own adjustments. These notes will give you a starting point to help you make appropriate setup choices. | In high speed corners, aero balance has a large effect compared to mechanical balance, so we can use high speed corners to tweak our aero balance for a rough baseline which we can trust while tweaking other parts of the setup. |
-      | A framework you can use to start making adjustments is to understand whether a tweak affects aerodynamic balance or mechanical balance characteristics of the car, and to try to achieve a neutral (no oversteer or understeer) balance on both. | Starting out, it’s easiest to set aero balance first before dialing in mechanical balance. |
+
+      #### ADJUSTING THE IRACING BASELINE SETUPS
+
+      This setup and other setups that have been provided are intended to be raceable setups as well as a good place to start while making your own adjustments. These notes will give you a starting point to help you make appropriate setup choices.
+
+      A framework you can use to start making adjustments is to understand whether a tweak affects aerodynamic balance or mechanical balance characteristics of the car, and to try to achieve a neutral (no oversteer or understeer) balance on both.
+
+      In high speed corners, aero balance has a large effect compared to mechanical balance, so we can use high speed corners to tweak our aero balance for a rough baseline which we can trust while tweaking other parts of the setup.
+
+      Starting out, it’s easiest to set aero balance first before dialing in mechanical balance.
 
   - id: aerodynamic-balance
     level: 3

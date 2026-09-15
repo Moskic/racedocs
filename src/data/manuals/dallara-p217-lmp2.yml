@@ -59,10 +59,10 @@ sections:
     titleZh: 底盘
     titleEn: CHASSIS
     bodyZh: |+
-      #### 双叉臂独立推杆悬架
-      
       ![图示](./assets/dallara-p217-lmp2/chassis-specifications.png)
-      
+
+      #### 双叉臂独立推杆悬架
+
       | 规格 | 数值 |
       | --- | --- |
       | 车长 | 4745 mm / 186.8 in |
@@ -70,12 +70,11 @@ sections:
       | 轴距 | 3010 mm / 118.5 in |
       | 干重 | 950 kg / 2094 lbs |
       | 含车手湿重 | 1081 kg / 2384 lbs |
-
     bodyEn: |+
-      #### DOUBLE WISHBONE INDEPENDENT PUSHROD SUSPENSION
-      
       ![Image](./assets/dallara-p217-lmp2/chassis-specifications.png)
-      
+
+      #### DOUBLE WISHBONE INDEPENDENT PUSHROD SUSPENSION
+
       | Specification | Value |
       | --- | --- |
       | Length | 4745 mm / 186.8 in |
@@ -89,31 +88,30 @@ sections:
     titleZh: 动力单元
     titleEn: POWER UNIT
     bodyZh: |+
-      自然吸气 Gibson GK-428 V8
-      
       ![图示](./assets/dallara-p217-lmp2/power-unit.png)
-      
+
+      自然吸气 Gibson GK-428 V8
+
       | 规格 | 数值 |
       | --- | --- |
       | 排量 | 4.2 Liters / 256 CID |
       | 转速上限 | 8500 / 8000 in 1st-5th |
       | 扭矩 | 355 lb-ft / 482 Nm |
       | 功率 | 540 bhp / 403 kW |
-      
-      ![图示](./assets/dallara-p217-lmp2/vehicle-profile.png)
 
+      ![图示](./assets/dallara-p217-lmp2/vehicle-profile.png)
     bodyEn: |+
-      NATURALLY ASPIRATED GIBSON GK-428 V8
-      
       ![Image](./assets/dallara-p217-lmp2/power-unit.png)
-      
+
+      NATURALLY ASPIRATED GIBSON GK-428 V8
+
       | Specification | Value |
       | --- | --- |
       | Displacement | 4.2 Liters / 256 CID |
       | RPM Limit | 8500 / 8000 in 1st-5th |
       | Torque | 355 lb-ft / 482 Nm |
       | Power | 540 bhp / 403 kW |
-      
+
       ![Image](./assets/dallara-p217-lmp2/vehicle-profile.png)
 
   - id: introduction
@@ -466,39 +464,48 @@ sections:
     titleEn: TIRE DATA
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/tire-data.png)
-      
-      #### 最后温度（LAST TEMPS）
-      
-      | 轮胎类型（TIRE TYPE） | 数值 |
-      | --- | --- |
-      | 选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。 | 车辆返回车库后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断各条轮胎在赛道上承受的工作量或负荷。内、外侧温差可用于调整单轮定位；中央温度与外侧温度的对比则有助于调整胎压。 |
-      | 车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力，升温也更快。较高胎压的响应感略强、滚动阻力更小，但抓地力会降低。通常，高速赛道更适合较高胎压；在更强调机械抓地力的低速赛道上，较低胎压表现更好。 | 胎温下方以新胎百分比显示剩余胎面厚度。这些数值适合判断一套轮胎还能行驶多远才需要更换，但不像胎温那样能够直接反映轮胎工作不足或过度工作的状态。 |
-      
-      车辆完成一个赛道行驶阶段并返回车库后，轮胎气压会显示为热态胎压。冷、热态胎压的差值有助于判断各条轮胎在赛道上的负荷与工作强度。工作量更大的轮胎会产生更大的胎压升幅；留意哪些轮胎升压更多，并通过调整冷态胎压进行补偿，对于优化轮胎性能至关重要。
-      
-      #### 冷胎压 / 起始胎压
-      
-      #### 剩余胎纹（TREAD REMAINING）
-      
-      #### 最后热胎压（LAST HOT PRESSURE）
 
+      #### 轮胎类型
+
+      选择车辆载入赛道时安装的轮胎类型。干地胎（即光头胎）用于干燥比赛条件，湿地胎则用于降雨和湿滑赛道条件。
+
+      #### 冷态胎压／初始胎压
+
+      车辆载入赛道时的轮胎气压。较低胎压可提供更多抓地力，但会产生更大的滚动阻力，升温也更快。较高胎压的响应感略强、滚动阻力更小，但抓地力会降低。通常，高速赛道更适合较高胎压；在更强调机械抓地力的低速赛道上，较低胎压表现更好。
+
+      #### 最后热胎压
+
+      车辆完成一个赛道行驶阶段并返回车库后，轮胎气压会显示为热态胎压。冷、热态胎压的差值有助于判断各条轮胎在赛道上的负荷与工作强度。工作量更大的轮胎会产生更大的胎压升幅；留意哪些轮胎升压更多，并通过调整冷态胎压进行补偿，对于优化轮胎性能至关重要。
+
+      #### 最后温度
+
+      车辆返回车库后，会显示轮胎胎体温度（在胎面内部测量）。这些温度可以有效判断各条轮胎在赛道上承受的工作量或负荷。内、外侧温差可用于调整单轮定位；中央温度与外侧温度的对比则有助于调整胎压。
+
+      #### 剩余胎纹
+
+      胎温下方以新胎百分比显示剩余胎面厚度。这些数值适合判断一套轮胎还能行驶多远才需要更换，但不像胎温那样能够直接反映轮胎工作不足或过度工作的状态。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/tire-data.png)
-      
-      #### LAST TEMPS
-      
-      | TIRE TYPE | Value |
-      | --- | --- |
-      | Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions. | The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure. |
-      | The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important. | The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will. |
-      
-      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
-      
+
+      #### TIRE TYPE
+
+      Selects which type of tire is installed on the car when loaded into the world. Dry, or slick, tires are used for dry racing conditions while Wet tires are intended for raining and wet track conditions.
+
       #### COLD PRESSURE / STARTING PRESSURE
-      
-      #### TREAD REMAINING
-      
+
+      The air pressure in the tires when the car is loaded into the world. Lower pressures will provide more grip but will produce more rolling drag and build temperature faster. Higher pressures will feel slightly more responsive and produce less rolling drag, but will result in less grip. Generally, higher pressures are preferred at tracks where speeds are higher while lower pressures work better at slower tracks where mechanical grip is important.
+
       #### LAST HOT PRESSURE
+
+      When the car returns to the garage after an on-track stint, the tire pressure will be displayed as Hot Pressure. The difference between cold and hot pressure is a good way to see how tires are being loaded and worked while on track. Tires seeing more work will build more pressure, and paying attention to which tires are building more pressure and adjusting cold pressure to compensate can be crucial for optimizing tire performance.
+
+      #### LAST TEMPS
+
+      The tire carcass temperatures (measured within the tread) are displayed after the car returns from the track. These temperatures are an effective way to determine how much work or load a given tire is experiencing while on track. Differences between the inner and outer temperatures can be used to tune individual wheel alignment and the center temperatures can be compared to the outer temperatures to help tune tire pressure.
+
+      #### TREAD REMAINING
+
+      The amount of tread on the tire, displayed as a percentage of a new tire, is shown below the tire temperatures. These values are good for determining how far a set of tires can go before needing to be replaced, but don’t necessarily indicate an under- or over-worked tire in the same way temperatures will.
 
   - id: aero-spec
     level: 3
@@ -626,37 +633,52 @@ sections:
     titleEn: FRONT
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/front-chassis.png)
-      
-      #### 防倾杆刚度
-      
-      | 升沉弹簧刚度 | 数值 |
-      | --- | --- |
-      | 第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。 | 防倾杆（ARB）的尺寸会影响前悬架的侧倾刚度，例如车辆过弯时的侧倾刚度。增大防倾杆尺寸会提高前悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会降低悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。 |
-      | 升沉弹簧可设为渐进式或线性。Soft、Medium 和 Hard 均为非线性缓冲橡胶，压缩越多刚度越高；线性弹簧则以刚度数值表示。更硬的升沉弹簧能更好地控制底盘姿态，提高空气动力稳定性和性能，但会损害颠簸路面上的机械抓地力。 | 可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高前悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低前悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。 |
-      | 升沉弹簧间隙表示升沉元件在弹簧开始工作前必须压缩的距离。正间隙可让悬架在弹簧介入前拥有更多行程，有助于车辆在空气动力载荷增加时快速下沉。较小数值能更好地控制空气动力姿态，但弹簧过早介入会损害机械抓地力。不允许对升沉弹簧施加预载（负值）。 | 从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。 |
-      
-      #### 防倾杆叶片位置
-      
-      #### 升沉弹簧间隙
-      
-      #### 前束（TOE-IN）
 
+      #### 垂向弹簧刚度
+
+      第三弹簧与前部 Heave 弹簧类似，是一种只对垂向悬架运动提供阻力、不影响侧倾刚度的弹簧元件。该弹簧元件有助于控制不断增加的空气动力学载荷，并在整个赛道上维持正确的空气动力学姿态。后端第三弹簧对于维持和控制整圈的后部车高、最大化后部车身产生的下压力至关重要。
+
+      升沉弹簧可设为渐进式或线性。Soft、Medium 和 Hard 均为非线性缓冲橡胶，压缩越多刚度越高；线性弹簧则以刚度数值表示。更硬的升沉弹簧能更好地控制底盘姿态，提高空气动力稳定性和性能，但会损害颠簸路面上的机械抓地力。
+
+      #### 垂向弹簧间隙
+
+      升沉弹簧间隙表示升沉元件在弹簧开始工作前必须压缩的距离。正间隙可让悬架在弹簧介入前拥有更多行程，有助于车辆在空气动力载荷增加时快速下沉。较小数值能更好地控制空气动力姿态，但弹簧过早介入会损害机械抓地力。不允许对升沉弹簧施加预载（负值）。
+
+      #### 防倾杆刚度
+
+      防倾杆（ARB）的尺寸会影响前悬架的侧倾刚度，例如车辆过弯时的侧倾刚度。增大防倾杆尺寸会提高前悬架的侧倾刚度，从而减少车身侧倾，但增加机械性转向不足；在某些情况下，也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会降低悬架侧倾刚度，增加车身侧倾但减少机械性转向不足。此时转向响应感可能减弱，但前轴抓地力会提高。
+
+      #### 防倾杆刀片位置
+
+      可以改变防倾杆臂或“叶片”的配置，以调整防倾杆总成的整体刚度。较高数值会让更多力通过臂传递到防倾杆本体，提高前悬架侧倾刚度，并产生与增大防倾杆直径相同但程度较小的效果。相反，较低数值会降低前悬架侧倾刚度，产生与减小防倾杆直径相同的效果。这些叶片调整可以看作防倾杆直径设置之间的微调。
+
+      #### 前束
+
+      从上方观察时，前束角是车轮相对于底盘中心线的夹角。车轮前缘比后缘更靠近中心线称为正前束，车轮前缘比后缘更远离中心线则称为负前束。在前轴，前束会改变轮胎对转向输入的响应速度，并影响车辆的直线稳定性。负前束设置（车库中显示为负值）会提高初始转向响应，但降低直线稳定性；正前束（车库中显示为正值）会提高直线稳定性，但使初始转向响应变得迟缓。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/front-chassis.png)
-      
-      #### ARB STIFFNESS
-      
-      | HEAVE SPRING RATE | Value |
-      | --- | --- |
-      | The Heave Spring is a suspension element configured to provide resistance only in vertical suspension movement without affecting roll stiffness, used to control increasing aerodynamic loads and maintain the proper aerodynamic attitude around a circuit without sacrificing the grip caused by stiffer corner springs. The front end’s heave spring is crucial in maintaining and controlling splitter height around a circuit to maximize the downforce produced by the front bodywork. | The ARB (Anti-Roll Bar) stiffness influences the behavior of the front suspension in roll, such as when navigating a corner. Increasing the ARB stiffness will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel for the driver. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase. |
-      | The Heave Spring can be set to either a progressive or linear setting. The Soft, Medium, and Hard settings are all non-linear bump rubbers, becoming stiffer in rate as they compress. Linear springs are represented by a rate value. Stiffer Heave Spring rates will control the chassis attitude better and increase aerodynamic stability and performance, but can hurt mechanical grip over bumpy surfaces. | The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and producing the same effects, albeit on a smaller scale, as increasing the ARB Stiffness. Conversely, lower values reduce the roll stiffness of the front suspension and produce the same effects as decreasing the ARB stiffness. These blade adjustments can be thought of as fine-tuning adjustments between ARB stiffness settings. |
-      | The Heave Spring Gap displays how much the Heave element must compress before the spring is engaged. Having a positive gap will allow the suspension to travel more before engaging the spring, useful to help the car drop quickly under building aerodynamic loads. Lower values will control the aerodynamic attitude better, but can hurt mechanical grip if the spring is engaged too early. Preloading the Heave Spring (negative value) is not allowed. | Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish. |
-      
-      #### ARB BLADE POSITION
-      
+
+      #### HEAVE SPRING RATE
+
+      The Heave Spring is a suspension element configured to provide resistance only in vertical suspension movement without affecting roll stiffness, used to control increasing aerodynamic loads and maintain the proper aerodynamic attitude around a circuit without sacrificing the grip caused by stiffer corner springs. The front end’s heave spring is crucial in maintaining and controlling splitter height around a circuit to maximize the downforce produced by the front bodywork.
+
+      The Heave Spring can be set to either a progressive or linear setting. The Soft, Medium, and Hard settings are all non-linear bump rubbers, becoming stiffer in rate as they compress. Linear springs are represented by a rate value. Stiffer Heave Spring rates will control the chassis attitude better and increase aerodynamic stability and performance, but can hurt mechanical grip over bumpy surfaces.
+
       #### HEAVE SPRING GAP
-      
+
+      The Heave Spring Gap displays how much the Heave element must compress before the spring is engaged. Having a positive gap will allow the suspension to travel more before engaging the spring, useful to help the car drop quickly under building aerodynamic loads. Lower values will control the aerodynamic attitude better, but can hurt mechanical grip if the spring is engaged too early. Preloading the Heave Spring (negative value) is not allowed.
+
+      #### ARB STIFFNESS
+
+      The ARB (Anti-Roll Bar) stiffness influences the behavior of the front suspension in roll, such as when navigating a corner. Increasing the ARB stiffness will increase the roll stiffness of the front suspension, resulting in less body roll but increasing mechanical understeer. This can also, in some cases, lead to a more responsive steering feel for the driver. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical understeer. This can result in a less-responsive feel from the steering, but grip across the front axle will increase.
+
+      #### ARB BLADE POSITION
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the front suspension and producing the same effects, albeit on a smaller scale, as increasing the ARB Stiffness. Conversely, lower values reduce the roll stiffness of the front suspension and produce the same effects as decreasing the ARB stiffness. These blade adjustments can be thought of as fine-tuning adjustments between ARB stiffness settings.
+
       #### TOE-IN
+
+      Toe is the angle of the wheel, looking from vertical, relative to the chassis centerline. Toe-in is when the front of the wheels are closer to the centerline while Toe-out is when the front of the wheels are farther from the centerline than the rear of the tires. On the front end, Toe will alter how quickly the tires respond to steering inputs and influence how stable the car is in a straight line. Toe-out settings (negative garage value) will increase turn-in response and make the car less stable in a straight line, while Toe-in (positive garage value) will increase straight-line stability while making initial steering response more sluggish.
 
   - id: front-corners
     level: 3
@@ -714,41 +736,56 @@ sections:
     titleEn: REAR CORNERS
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/rear-corners.png)
-      
-      #### 弹簧刚度
-      
-      | 角重（CORNER WEIGHT） | 数值 |
-      | --- | --- |
-      | 车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。 | 弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。 |
-      | 地面到车身底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测得，因此不一定代表车辆实际离地间隙，而是为车辆静止时相对于赛道表面的高度提供可靠基准。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少前轴下压力和总下压力，但过弯时允许前轴发生更多横向载荷转移。相反，降低车高会增加前轴及整车下压力，但减少前轴横向载荷转移。 | 外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。较大的后轮外倾角可以提高过弯稳定性，但会降低制动时的稳定性。 |
-      | 用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。 | 从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。 |
-      
-      #### 车高（RIDE HEIGHT）
-      
-      #### 外倾角（CAMBER）
-      
-      #### 弹簧座高偏移
-      
-      #### 前束（TOE-IN）
 
+      #### 角重
+
+      车库静态条件下每条轮胎下方承受的重量。正确安排车辆周围的重量，对于针对特定赛道和条件优化车辆至关重要。单个车轮重量和横向配重通过弹簧座高偏移设置进行调整。
+
+      #### 车高
+
+      地面到车身底盘参考点的距离。由于这些数值是相对于车辆上的特定参考点测得，因此不一定代表车辆实际离地间隙，而是为车辆静止时相对于赛道表面的高度提供可靠基准。车高可直接影响车辆的空气动力学性能和机械抓地力，因此是获得最佳表现的关键设置。提高前车高会减少前轴下压力和总下压力，但过弯时允许前轴发生更多横向载荷转移。相反，降低车高会增加前轴及整车下压力，但减少前轴横向载荷转移。
+
+      #### 弹簧座偏移
+
+      用于调整车高和车轮载荷。调整该设置会在静态条件下对弹簧施加预载。减小数值会增加弹簧预载，为该车轮增加重量并提高该处车高；增大数值则相反，会降低相应车轮的车高和重量。调整车高时，应成对调整（例如左、右两侧），或同时调整车辆上的四个弹簧预载，以避免改变横向配重。
+
+      #### 弹簧刚度
+
+      弹簧刚度改变弹簧的硬度，以单位位移所需的力表示。弹簧主要负责在车轮载荷变化时维持车高和空气动力学姿态；较硬的弹簧能更好地维持车辆空气动力学平台，但会牺牲机械抓地力。较软的弹簧能更好地处理颠簸并提高机械抓地力，但会使车辆的空气动力学平台恶化。由于认证规则，后部弹簧刚度必须在后轴两侧对称，只能成对调整。
+
+      #### 外倾角
+
+      外倾角是车轮相对于车身中心的垂直角度。当车轮顶部比底部更靠近车身中心线时为负外倾角；当轮胎顶部比底部更向外时为正外倾角。由于悬架几何和弯道载荷，四个车轮都需要负外倾角。较大的负外倾角会增加轮胎产生的过弯力，但会减少轮胎在制动时可提供的纵向抓地力。过大的外倾角可能带来很高的过弯力，也会显著缩短轮胎寿命，因此需要在寿命与性能之间找到平衡。较大的后轮外倾角可以提高过弯稳定性，但会降低制动时的稳定性。
+
+      #### 前束
+
+      从上方观察，前束是车轮相对于车身中心线的角度。车轮前端比后端更靠近中心线时为前束，反之则为后束。在后部，增加前束会提高直线稳定性，但可能损害车辆改变方向的能力。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/rear-corners.png)
-      
-      #### SPRING RATE
-      
-      | CORNER WEIGHT | Value |
-      | --- | --- |
-      | The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting. | Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs. |
-      | Distance from ground to the bottom of the rear skid blocks projected outward to the edges of the reference surface. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing rear ride height will increase front downforce as well as slightly decreasing overall downforce, but will allow for more weight transfer across the rear axle when cornering resulting in an increase in rear mechanical grip. Conversely, reducing ride height will reduce front and overall downforce, but reduce the weight transfer across the rear axle, resulting in a decrease in mechanical grip. | Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking. |
-      | Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to the corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height. | Camber Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction. |
-      
+
+      #### CORNER WEIGHT
+
+      The weight underneath each tire under static conditions in the garage. Correct weight arrangement around the car is crucial for optimizing a car for a given track and conditions. Individual wheel weight adjustments and crossweight adjustments are made via the Spring Perch Offset setting.
+
       #### RIDE HEIGHT
-      
-      #### CAMBER
-      
+
+      Distance from ground to the bottom of the rear skid blocks projected outward to the edges of the reference surface. Since these values are measured to a specific reference point on the car, these values may not necessarily reflect the vehicle’s ground clearance, but instead provide a reliable value for the height of the car off of the race track at static values. Adjusting Ride Heights is key for optimum performance, as they can directly influence the vehicle’s aerodynamic performance as well as mechanical grip. Increasing rear ride height will increase front downforce as well as slightly decreasing overall downforce, but will allow for more weight transfer across the rear axle when cornering resulting in an increase in rear mechanical grip. Conversely, reducing ride height will reduce front and overall downforce, but reduce the weight transfer across the rear axle, resulting in a decrease in mechanical grip.
+
       #### SPRING PERCH OFFSET
-      
+
+      Used to adjust ride height and corner weight, adjusting this setting applies a preload to the spring under static conditions. Decreasing the value increases preload on the spring, adding weight to the corner and increasing the ride height at that corner. Increasing the value does the opposite, reducing height and weight on a given corner. These should be adjusted in pairs (left and right, for example) or with all four spring preload adjustments in the car to prevent crossweight changes while adjusting ride height.
+
+      #### SPRING RATE
+
+      Spring Rate changes how stiff the spring is, represented in a force per unit of displacement. Primarily responsible for maintaining ride height and aerodynamic attitude under changing wheel loads, stiffer springs will maintain the car’s aero platform better while sacrificing mechanical grip. Softer springs will deal with bumps better and increase mechanical grip, but will cause the car’s aerodynamic platform to suffer. Due to homologation rules, rear spring rates must be symmetrical across the rear axle and can only be changed in pairs.
+
+      #### CAMBER
+
+      Camber is the vertical angle of the wheel relative to the center of the chassis. Negative camber is when the top of the wheel is closer to the chassis centerline than the bottom of the wheel, positive camber is when the top of the tire is farther out than the bottom. Due to suspension geometry and corner loads, negative camber is desired on all four wheels. Higher negative camber values will increase the cornering force generated by the tire, but will reduce the amount of grip the tire will have under braking. Excessive camber values can produce very high cornering forces but will also significantly reduce tire life, so it is important to find a balance between life and performance. Higher rear camber values can increase cornering stability but reduce stability under braking.
+
       #### TOE-IN
+
+      Camber Toe is the angle of the wheel, when viewed from above, relative to the centerline of the chassis. Toe-in is when the front of the wheel is closer to the centerline than the rear of the wheel, and Toe-out is the opposite. On the rear end, adding toe-in will increase straight-line stability but may hurt how well the car changes direction.
 
   - id: rear
     level: 3
@@ -756,37 +793,52 @@ sections:
     titleEn: REAR
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/rear-chassis.png)
-      
-      #### 防倾杆刚度
-      
-      | 第三弹簧刚度 | 数值 |
-      | --- | --- |
-      | 第三弹簧是一种弹簧元件，仅提供垂直悬架运动方向的阻力，而不影响侧倾刚度。该弹簧元件有助于控制不断增大的空气动力学负荷，并在赛道上维持适当的空气动力学姿态。车尾的第三弹簧对于在赛道全程维持和控制后车高、从而最大化车尾车身产生的下压力至关重要。 | 防倾杆（ARB）尺寸会影响后悬架在侧倾（例如过弯）时的刚度。增大防倾杆尺寸会提高后悬架的侧倾刚度，从而减少车身侧倾但增加机械性转向过度。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会使悬架在侧倾时变软，增加车身侧倾但减少机械性转向过度。此时转向响应感可能减弱，但后轴抓地力会提高。 |
-      | 与前升沉弹簧相同，后部第三弹簧可设为渐进式或线性。Soft、Medium 和 Hard 均为非线性缓冲橡胶，压缩越多刚度越高；线性弹簧则以刚度数值表示。更硬的第三弹簧能更好地控制底盘姿态，提高空气动力稳定性和性能，但会损害颠簸路面上的机械抓地力。 | 可改变防倾杆摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。数值越高，通过摆臂传递给防倾杆本体的力越大，从而提高后悬架的侧倾刚度；其效果与增大防倾杆直径相同，但幅度较小。相反，较低数值会降低后悬架侧倾刚度，效果与减小防倾杆直径相同。可以把刀片调整理解为不同防倾杆直径设置之间的精细调节。 |
-      | 第三弹簧间隙表示第三弹簧元件在弹簧开始工作前必须压缩的距离。正间隙可让悬架在弹簧介入前拥有更多行程，有助于车辆在空气动力载荷增加时快速下沉。较小数值能更好地控制空气动力姿态，但弹簧过早介入会损害机械抓地力。不允许对第三弹簧施加预载（负值）。 | 横向配重是车辆左后轮和右前轮承受的重量占整车重量的比例，以百分比显示。该数值通过车轮弹簧预载调整（前部扭杆圈数和后部弹簧座高偏移）进行调整。大多数赛道应将其保持在约 50%。 |
-      
-      #### 防倾杆叶片位置
-      
-      #### 第三弹簧间隙
-      
-      #### 交叉重量
 
+      #### 第三弹簧刚度
+
+      第三弹簧是一种弹簧元件，仅提供垂直悬架运动方向的阻力，而不影响侧倾刚度。该弹簧元件有助于控制不断增大的空气动力学负荷，并在赛道上维持适当的空气动力学姿态。车尾的第三弹簧对于在赛道全程维持和控制后车高、从而最大化车尾车身产生的下压力至关重要。
+
+      与前升沉弹簧相同，后部第三弹簧可设为渐进式或线性。Soft、Medium 和 Hard 均为非线性缓冲橡胶，压缩越多刚度越高；线性弹簧则以刚度数值表示。更硬的第三弹簧能更好地控制底盘姿态，提高空气动力稳定性和性能，但会损害颠簸路面上的机械抓地力。
+
+      #### 第三弹簧间隙
+
+      第三弹簧间隙表示第三弹簧元件在弹簧开始工作前必须压缩的距离。正间隙可让悬架在弹簧介入前拥有更多行程，有助于车辆在空气动力载荷增加时快速下沉。较小数值能更好地控制空气动力姿态，但弹簧过早介入会损害机械抓地力。不允许对第三弹簧施加预载（负值）。
+
+      #### 防倾杆刚度
+
+      防倾杆（ARB）尺寸会影响后悬架在侧倾（例如过弯）时的刚度。增大防倾杆尺寸会提高后悬架的侧倾刚度，从而减少车身侧倾但增加机械性转向过度。在某些情况下，这也会让车手感到转向响应更加灵敏。相反，减小防倾杆尺寸会使悬架在侧倾时变软，增加车身侧倾但减少机械性转向过度。此时转向响应感可能减弱，但后轴抓地力会提高。
+
+      #### 防倾杆刀片位置
+
+      可改变防倾杆摆臂（即“刀片”）的组合，以调整防倾杆总成的整体刚度。数值越高，通过摆臂传递给防倾杆本体的力越大，从而提高后悬架的侧倾刚度；其效果与增大防倾杆直径相同，但幅度较小。相反，较低数值会降低后悬架侧倾刚度，效果与减小防倾杆直径相同。可以把刀片调整理解为不同防倾杆直径设置之间的精细调节。
+
+      #### 对角配重
+
+      横向配重是车辆左后轮和右前轮承受的重量占整车重量的比例，以百分比显示。该数值通过车轮弹簧预载调整（前部扭杆圈数和后部弹簧座高偏移）进行调整。大多数赛道应将其保持在约 50%。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/rear-chassis.png)
-      
-      #### ARB STIFFNESS
-      
-      | THIRD SPRING RATE | Value |
-      | --- | --- |
-      | The rear Third Spring is a suspension element configured to provide resistance only in vertical suspension movement without affecting roll stiffness, used to control increasing aerodynamic loads and maintain the proper aerodynamic attitude around a circuit without sacrificing the grip caused by stiffer corner springs. The rear end’s third spring is crucial in maintaining and controlling splitter height around a circuit to maximize the downforce produced by the front bodywork. | The ARB (Anti-Roll Bar) stiffness influences the behavior of the rear suspension in roll, such as when navigating a corner. Increasing the ARB stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also, in some cases, lead to a more responsive steering feel for the driver. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel, but grip across the rear axle will increase. |
-      | Like the front Heave Spring, the rear Third Spring can be set to either a progressive or linear setting. The Soft, Medium, and Hard settings are all non-linear bump rubbers, becoming stiffer in rate as they compress. Linear springs are represented by a rate value. Stiffer Third Spring rates will control the chassis attitude better and increase aerodynamic stability and performance, but can hurt mechanical grip over bumpy surfaces. | The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the ARB stiffness. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the ARB stiffness. These blade adjustments can be thought of as fine-tuning adjustments between ARB stiffness settings. |
-      | The Third Spring Gap displays how much the Third Spring element must compress before the spring is engaged. Having a positive gap will allow the suspension to travel more before engaging the spring, useful to help the car drop quickly under building aerodynamic loads. Lower values will control the aerodynamic attitude better, but can hurt mechanical grip if the spring is engaged too early. Preloading the Third Spring (negative value) is not allowed. | Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the entire weight of the car, displayed in percent. This is adjusted via the corner spring preload adjustments (Front Torsion Bar Turns and Rear Spring Perch Offset). Typically this should be kept as close to 50% as possible to avoid asymmetrical handling issues. |
-      
-      #### ARB BLADE POSITION
-      
+
+      #### THIRD SPRING RATE
+
+      The rear Third Spring is a suspension element configured to provide resistance only in vertical suspension movement without affecting roll stiffness, used to control increasing aerodynamic loads and maintain the proper aerodynamic attitude around a circuit without sacrificing the grip caused by stiffer corner springs. The rear end’s third spring is crucial in maintaining and controlling splitter height around a circuit to maximize the downforce produced by the front bodywork.
+
+      Like the front Heave Spring, the rear Third Spring can be set to either a progressive or linear setting. The Soft, Medium, and Hard settings are all non-linear bump rubbers, becoming stiffer in rate as they compress. Linear springs are represented by a rate value. Stiffer Third Spring rates will control the chassis attitude better and increase aerodynamic stability and performance, but can hurt mechanical grip over bumpy surfaces.
+
       #### THIRD SPRING GAP
-      
+
+      The Third Spring Gap displays how much the Third Spring element must compress before the spring is engaged. Having a positive gap will allow the suspension to travel more before engaging the spring, useful to help the car drop quickly under building aerodynamic loads. Lower values will control the aerodynamic attitude better, but can hurt mechanical grip if the spring is engaged too early. Preloading the Third Spring (negative value) is not allowed.
+
+      #### ARB STIFFNESS
+
+      The ARB (Anti-Roll Bar) stiffness influences the behavior of the rear suspension in roll, such as when navigating a corner. Increasing the ARB stiffness will increase the roll stiffness of the rear suspension, resulting in less body roll but increasing mechanical oversteer. This can also, in some cases, lead to a more responsive steering feel for the driver. Conversely, reducing the ARB stiffness will soften the suspension in roll, increasing body roll but decreasing mechanical oversteer. This can result in a less-responsive feel, but grip across the rear axle will increase.
+
+      #### ARB BLADE POSITION
+
+      The configuration of the Anti-Roll Bar arms, or “blades”, can be changed to alter the overall stiffness of the ARB assembly. Higher values transfer more force through the arms to the ARB itself, increasing roll stiffness in the rear suspension and producing the same effects, albeit on a smaller scale, as increasing the ARB stiffness. Conversely, lower values reduce the roll stiffness of the rear suspension and produce the same effects as decreasing the ARB stiffness. These blade adjustments can be thought of as fine-tuning adjustments between ARB stiffness settings.
+
       #### CROSS WEIGHT
+
+      Cross weight is the amount of weight on the car’s Left-Rear and Right-Front tires relative to the entire weight of the car, displayed in percent. This is adjusted via the corner spring preload adjustments (Front Torsion Bar Turns and Rear Spring Perch Offset). Typically this should be kept as close to 50% as possible to avoid asymmetrical handling issues.
 
   - id: dampers
     level: 2
@@ -794,47 +846,56 @@ sections:
     titleEn: DAMPERS
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/dampers.png)
-      
-      #### 高速压缩斜率（泄压）
-      
-      | 低速压缩阻尼 | 数值 |
-      | --- | --- |
-      | 低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而在施加油门时造成转向不足。 | 高速压缩阻尼斜率设置控制减振器高速压缩侧的整体曲线形状。较低斜率值会产生更平坦、更渐退的曲线；较高数值则会产生更线性、更激进的压缩曲线。斜率数值对于控制减振器高速运动时的颠簸吸收能力和空气动力学平台非常重要。较低斜率有助于在颠簸赛道上吸收颠簸和路肩等尖锐冲击；较高斜率会使悬架保持更硬，有助于抵抗压缩并让车身越过路面凸起。需要注意的是，这些设置会影响高速压缩阻尼的作用范围，较高斜率会产生更高的高速压缩总力。 |
-      | 高速压缩阻尼影响减振器在高速行程中的行为，通常对应路肩冲击和路面颠簸。更高压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。 | 低速回弹阻尼控制减振器在低速伸展时的刚度，通常对应车手输入导致的车身运动。较高回弹数值会抵抗减振器伸长，较低数值会让减振器更快伸展。较高回弹数值可以更好地控制空气动力学姿态，但如果悬架无法充分伸展以维持车轮与赛道的适当接触，可能导致车轮卸载。 |
-      
-      在车辆前部，较高的低速回弹阻尼可能在施加油门时引起转向不足；在车辆后部，较高设置可能在制动时引起转向不足。
-      
-      #### 高速回弹
-      
-      高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。
-      
-      对于车辆前部，增加低速压缩阻尼会在制动和入弯时引起转向不足，降低该值则会减少转向不足。增加车辆后部的低速压缩阻尼会提高初始施加油门时的牵引力，降低该值则可以减少加油时的转向不足。
-      
-      #### 高速压缩阻尼
-      
-      #### 低速回弹
 
+      #### 低速压缩阻尼
+
+      低速压缩阻尼影响减震器在相对低速运动时抵抗压缩（长度缩短）的程度，通常涉及由车手输入（转向、制动和油门）以及过弯载荷引起的车身运动。较高数值会增加压缩阻力，使载荷更快转移到相应轮胎，从而在施加油门时造成转向不足。
+
+      对于车辆前部，增加低速压缩阻尼会在制动和入弯时引起转向不足，降低该值则会减少转向不足。增加车辆后部的低速压缩阻尼会提高初始施加油门时的牵引力，降低该值则可以减少加油时的转向不足。
+
+      #### 高速压缩阻尼
+
+      高速压缩阻尼影响减振器在高速行程中的行为，通常对应路肩冲击和路面颠簸。更高压缩数值会使悬架在这些情况下更硬；较低数值则允许悬架更好地吸收颠簸，但可能损害车辆在赛道上的空气动力学平台。
+
+      #### 高速压缩斜率（泄压）
+
+      高速压缩阻尼斜率设置控制减振器高速压缩侧的整体曲线形状。较低斜率值会产生更平坦、更渐退的曲线；较高数值则会产生更线性、更激进的压缩曲线。斜率数值对于控制减振器高速运动时的颠簸吸收能力和空气动力学平台非常重要。较低斜率有助于在颠簸赛道上吸收颠簸和路肩等尖锐冲击；较高斜率会使悬架保持更硬，有助于抵抗压缩并让车身越过路面凸起。需要注意的是，这些设置会影响高速压缩阻尼的作用范围，较高斜率会产生更高的高速压缩总力。
+
+      #### 低速回弹阻尼
+
+      低速回弹阻尼控制减振器在低速伸展时的刚度，通常对应车手输入导致的车身运动。较高回弹数值会抵抗减振器伸长，较低数值会让减振器更快伸展。较高回弹数值可以更好地控制空气动力学姿态，但如果悬架无法充分伸展以维持车轮与赛道的适当接触，可能导致车轮卸载。
+
+      在车辆前部，较高的低速回弹阻尼可能在施加油门时引起转向不足；在车辆后部，较高设置可能在制动时引起转向不足。
+
+      #### 高速回弹阻尼
+
+      高速回弹调节减震器在颠簸和路肩冲击中的伸展。较高数值会降低减震器伸长的速度，较低数值会让减震器更容易伸展。尽管高速回弹对车手输入产生的操控影响没有那么大，但如果设置不当，它在空气动力学控制和不受控振荡方面可能产生类似结果。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/dampers.png)
-      
-      #### HS COMPRESSION SLOPE (BLOW OFF)
-      
-      | LOW SPEED COMPRESSION | Value |
-      | --- | --- |
-      | Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application. | The High-Speed Compression Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid, which can be helpful in resisting compression and raising the chassis above a bump in the track surface. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression. |
-      | High-Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track. | Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track. |
-      
-      On the front of the car, higher Low-Speed Rebound can induce understeer on throttle application while higher settings on the rear of the car can induce understeer under braking.
-      
-      #### HS REBOUND
-      
-      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
-      
+
+      #### LOW SPEED COMPRESSION
+
+      Low Speed Compression affects how resistant the shock is to compression (reduction in length) when the shock is moving at relatively low speeds, usually in chassis movements as a result of driver input (steering, braking, & throttle) and cornering forces. Higher values will increase compression resistance and transfer load onto a given tire under these low-speed conditions more quickly, inducing understeer on throttle application.
+
       For shocks on the front end, increasing Low-Speed Compression can induce understeer under braking and at turn-in, reducing it will reduce understeer. Increasing Low-Speed Compression on the rear of the car will increase traction on initial throttle application, while reducing it can reduce on-throttle understeer.
-      
+
       #### HIGH SPEED COMPRESSION DAMPING
-      
+
+      High-Speed Compression affects the shock’s behavior in high-speed travel, usually attributed to curb strikes and bumps in the track’s surface. Higher compression values will cause the suspension to be stiffer in these situations, while lower values will allow the suspension to absorb these bumps better but may hurt the aerodynamic platform around the track.
+
+      #### HS COMPRESSION SLOPE (BLOW OFF)
+
+      The High-Speed Compression Slope setting controls the overall shape of the high-speed compression side of the shock. Lower slope values produce a flatter, more digressive curve while higher values result in a more linear and aggressive compression graph. The value of the slope setting is very important in controlling bump absorption at high shock velocities and controlling the aerodynamic platform. A lower slope will be helpful for rougher tracks in absorbing bumps and sharp impacts such as curbs, while a higher slope will keep the suspension more rigid, which can be helpful in resisting compression and raising the chassis above a bump in the track surface. It’s important to understand that these settings will affect the range the High-Speed Compression will have, with higher slope values producing a higher overall force for high-speed compression.
+
       #### LS REBOUND
+
+      Low-speed Rebound damping controls the stiffness of the shock while extending at lower speeds, typically during body movement as a result of driver inputs. Higher rebound values will resist expansion of the shock, lower values will allow the shock to extend faster. Higher rebound values can better control aerodynamic attitude but can result in the wheel being unloaded when the suspension can’t expand enough to maintain proper contact with the track.
+
+      On the front of the car, higher Low-Speed Rebound can induce understeer on throttle application while higher settings on the rear of the car can induce understeer under braking.
+
+      #### HS REBOUND
+
+      High-speed rebound adjusts the shock in extension over bumps and curb strikes. Higher values will reduce how quickly the shock will expand, while lower values will allow the shock to extend more easily. Despite not having as much of an effect on handling in response to driver inputs, High-speed rebound can produce similar results in terms of aerodynamic control and uncontrolled oscillations if set improperly.
 
   - id: in-car-systems
     level: 2
@@ -846,47 +907,56 @@ sections:
     titleEn: IN-CAR DIALS
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/in-car-dials.png)
-      
-      #### 牵引力控制滑移（TRACTION CONTROL SLIP）
-      
-      | 转向比 | 数值 |
-      | --- | --- |
-      | 转向比是表示转向机响应速度的数值，可理解为使转向机输出轴转动一度所需的方向盘输入角度。可选 10.5 和 11.6：10.5 的转向响应更快，11.6 则稍慢。这通常取决于车手偏好，对底盘平衡没有实际影响。 | 滑移是牵引力控制系统对车轮空转的敏感度。更高数值会在更少的车轮空转下激活牵引力控制；较低数值则会允许更多车轮空转后才激活系统。该数值可在驾驶时通过 F8 黑盒调整。 |
-      | 改变动力转向系统的辅助等级。较高数值会提高辅助，使转向感觉更轻；较低数值会降低辅助，使转向更沉重。 | 油门形状设置会根据油门踏板位置调整扭矩输出的线性程度。设置“1”是完全线性的，给定百分比的油门会输出相近百分比的最大扭矩（25% 油门 = 25% 扭矩）。随着设置值升高，扭矩输出会变得更加非线性，类似蝶阀式油门：在极低和极高油门百分比时扭矩增幅更小，在油门中段的扭矩增幅更大。这会改变初次施加油门时的车辆感觉，是适应不同驾驶风格的有效工具。 |
-      
-      #### 显示页面
-      
-      设置车辆载入时方向盘上的默认显示页面。
-      
-      #### 油门曲线
-      
-      #### 助力转向辅助
-      
-      #### 牵引力控制增益（TRACTION CONTROL GAIN）
-      
+
+      #### 转向比
+
+      转向比是表示转向机响应速度的数值，可理解为使转向机输出轴转动一度所需的方向盘输入角度。可选 10.5 和 11.6：10.5 的转向响应更快，11.6 则稍慢。这通常取决于车手偏好，对底盘平衡没有实际影响。
+
+      #### 动力转向助力
+
+      改变动力转向系统的辅助等级。较高数值会提高辅助，使转向感觉更轻；较低数值会降低辅助，使转向更沉重。
+
+      #### 牵引力控制增益
+
       增益是检测到车轮打滑时牵引力控制系统施加的介入程度。数值越高，为控制车轮空转而进行的油门切断越激进。该数值可在驾驶时通过 F8 黑框调整。
 
+      #### 牵引力控制滑移
+
+      滑移是牵引力控制系统对车轮空转的敏感度。更高数值会在更少的车轮空转下激活牵引力控制；较低数值则会允许更多车轮空转后才激活系统。该数值可在驾驶时通过 F8 黑盒调整。
+
+      #### 油门曲线
+
+      油门形状设置会根据油门踏板位置调整扭矩输出的线性程度。设置“1”是完全线性的，给定百分比的油门会输出相近百分比的最大扭矩（25% 油门 = 25% 扭矩）。随着设置值升高，扭矩输出会变得更加非线性，类似蝶阀式油门：在极低和极高油门百分比时扭矩增幅更小，在油门中段的扭矩增幅更大。这会改变初次施加油门时的车辆感觉，是适应不同驾驶风格的有效工具。
+
+      #### 显示页面
+
+      设置车辆载入时方向盘上的默认显示页面。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/in-car-dials.png)
-      
-      #### TRACTION CONTROL SLIP
-      
-      | STEERING RATIO | Value |
-      | --- | --- |
-      | The Steering Ratio is a numerical value for how fast the steering response is in the vehicle’s steering box. This ratio can be thought of as the degrees of steering input needed to produce one degree of turn on the steering box output shaft. Two options are available: 10.5 and 11.6. The 10.5 steering ratio will provide a faster steering response while the 11.6 will be slightly slower to respond. This is often a driver preference and has no real impact on chassis balance. | Slip is how sensitive the Traction Control system will be to wheelspin. Higher values will activate the Traction Control system with smaller amounts of wheelspin, while lower values will allow slightly more wheelspin prior to activating the system. This value can be changed in the F8 black box while driving. |
-      | Changes the assist level of the power steering system. Higher values will increase the assist and make the steering feel lighter, lower values will reduce assist and make the steering heavier. | The Throttle Shape setting will adjust how linear the torque delivery is based on the throttle pedal position. Setting “1” is purely linear, with a given percent of throttle delivering a similar percentage of max torque (25% throttle = 25% torque). As settings are increased the torque delivery becomes more non-linear, similar to a butterfly-style throttle: less torque increase at very low and very high throttle percentage and more torque increase in the throttle’s mid-range. This will change the feel of the car when throttle is initially applied and is a good tool for drivers with various driving styles. |
-      
-      #### DISPLAY PAGE
-      
-      Sets the default display page on the steering wheel display when the car is loaded into the world.
-      
-      #### THROTTLE SHAPE
-      
+
+      #### STEERING RATIO
+
+      The Steering Ratio is a numerical value for how fast the steering response is in the vehicle’s steering box. This ratio can be thought of as the degrees of steering input needed to produce one degree of turn on the steering box output shaft. Two options are available: 10.5 and 11.6. The 10.5 steering ratio will provide a faster steering response while the 11.6 will be slightly slower to respond. This is often a driver preference and has no real impact on chassis balance.
+
       #### POWER STEERING ASSIST
-      
+
+      Changes the assist level of the power steering system. Higher values will increase the assist and make the steering feel lighter, lower values will reduce assist and make the steering heavier.
+
       #### TRACTION CONTROL GAIN
-      
+
       Gain is the amount of intervention the Traction Control will exert when wheel spin is detected. Higher values result in a more aggressive throttle cut to control wheelspin. This value can be changed in the F8 black box while driving.
+
+      #### TRACTION CONTROL SLIP
+
+      Slip is how sensitive the Traction Control system will be to wheelspin. Higher values will activate the Traction Control system with smaller amounts of wheelspin, while lower values will allow slightly more wheelspin prior to activating the system. This value can be changed in the F8 black box while driving.
+
+      #### THROTTLE SHAPE
+
+      The Throttle Shape setting will adjust how linear the torque delivery is based on the throttle pedal position. Setting “1” is purely linear, with a given percent of throttle delivering a similar percentage of max torque (25% throttle = 25% torque). As settings are increased the torque delivery becomes more non-linear, similar to a butterfly-style throttle: less torque increase at very low and very high throttle percentage and more torque increase in the throttle’s mid-range. This will change the feel of the car when throttle is initially applied and is a good tool for drivers with various driving styles.
+
+      #### DISPLAY PAGE
+
+      Sets the default display page on the steering wheel display when the car is loaded into the world.
 
   - id: brakes
     level: 3
@@ -894,33 +964,46 @@ sections:
     titleEn: BRAKES
     bodyZh: |+
       ![图示](./assets/dallara-p217-lmp2/brakes.png)
-      
-      #### 后主缸（REAR MASTER CYLINDER）
-      
-      | 制动片 | 数值 |
-      | --- | --- |
-      | 可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能；“中”和“高”设置提供更高摩擦力、增强制动效能，但也会增加制动抱死的风险。 | 改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。 |
-      | 改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。 | 制动力分配是传递至前制动器的制动力百分比。高于 50% 的数值会将更多压力传向前制动器，低于 50% 的数值则会将更多制动力传向后制动器。应根据车手偏好和赛道条件进行调校，以获得特定情况下的最佳制动性能。 |
 
+      #### 制动片
+
+      可通过制动片配方改变车辆的制动表现。“低”设置摩擦力最低，会降低制动效能；“中”和“高”设置提供更高摩擦力、增强制动效能，但也会增加制动抱死的风险。
+
+      #### 前制动主缸
+
+      改变前制动主缸尺寸可以调整前制动卡钳的管路压力。较大的主缸会降低前制动管路压力，使制动力分配向后移动，并增加锁死前轮所需的踏板力；较小的主缸会提高前制动管路压力，使制动力分配向前移动，并减少锁死前轮所需的踏板力。
+
+      #### 后制动主缸
+
+      改变后制动主缸尺寸可以调整后制动卡钳的管路压力。较大的主缸会降低后制动管路压力，使制动力分配向前移动，并增加锁死后轮所需的踏板力；较小的主缸会提高后制动管路压力，使制动力分配向后移动，并减少锁死后轮所需的踏板力。
+
+      #### 制动压力分配
+
+      制动力分配是传递至前制动器的制动力百分比。高于 50% 的数值会将更多压力传向前制动器，低于 50% 的数值则会将更多制动力传向后制动器。应根据车手偏好和赛道条件进行调校，以获得特定情况下的最佳制动性能。
     bodyEn: |+
       ![Image](./assets/dallara-p217-lmp2/brakes.png)
-      
+
+      #### BRAKE PADS
+
+      Braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup.
+
+      #### FRONT MASTER CYLINDER
+
+      The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels.
+
       #### REAR MASTER CYLINDER
-      
-      | BRAKE PADS | Value |
-      | --- | --- |
-      | Braking performance can be altered via the Brake Pad Compound. The “Low” setting provides the least friction, reducing the effectiveness of the brakes, while “Medium” and “High” provide more friction and increase the effectiveness of the brakes while increasing the risk of a brake lockup. | The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels. |
-      | The Front Brake Master Cylinder size can be changed to alter the line pressure to the front brake calipers. A larger master cylinder will reduce the line pressure to the front brakes, which will shift the brake bias rearwards and increase the pedal effort required to lock the front wheels. A smaller master cylinder will increase brake line pressure to the front brakes, shifting brake bias forward and reducing required pedal effort to lock the front wheels. | Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation. |
+
+      The Rear Brake Master Cylinder size can be changed to alter the line pressure to the rear brake calipers. A larger master cylinder will reduce the line pressure to the rear brakes, which will shift the brake bias forwards and increase the pedal effort required to lock the rear wheels. A smaller master cylinder will increase brake line pressure to the rear brakes, shifting brake bias rearward and reducing required pedal effort to lock the rear wheels.
+
+      #### BRAKE PRESSURE BIAS
+
+      Brake Bias is the percentage of braking force that is being sent to the front brakes. Values above 50% result in more pressure being sent to the front, while values less than 50% send more force to the rear. This should be tuned for both driver preference and track conditions to get the optimum braking performance for a given situation.
 
   - id: fuel-and-gear-ratios
     level: 3
     titleZh: 燃油与齿比
     titleEn: FUEL & GEAR RATIOS
     bodyZh: |+
-      #### 前主缸（FRONT MASTER CYLINDER）
-      
-      #### 制动压力分配（BRAKE PRESSURE BIAS）
-      
       ![图示](./assets/dallara-p217-lmp2/fuel-gear-ratios.png)
       
       #### 燃油量（FUEL LEVEL）
@@ -936,10 +1019,6 @@ sections:
       变速箱的七个前进挡都会显示发动机达到最大转速时的大致地面速度。这些数值会根据选择的齿轮组而变化，但由于赛道上的实际条件，真实最高速度可能略有不同。
 
     bodyEn: |+
-      #### FRONT MASTER CYLINDER
-      
-      #### BRAKE PRESSURE BIAS
-      
       ![Image](./assets/dallara-p217-lmp2/fuel-gear-ratios.png)
       
       #### FUEL LEVEL
@@ -1007,7 +1086,7 @@ sections:
       > This section is aimed toward helping users who want to dive deeper into the different aspects of the vehicle’s setup.
 
   - id: setup-tips-2
-    level: 2
+    level: 3
     titleZh: 设置技巧
     titleEn: SETUP TIPS
     bodyZh: |+
@@ -1087,102 +1166,163 @@ sections:
     titleZh: 随附设置
     titleEn: PROVIDED SETUPS
     bodyZh: |+
-      | 空气动力学目标与调整 | 数值 |
-      | --- | --- |
-      | GT217 赛车对前后轴车高的微小变化都非常敏感，因此调整静态车高、各轮弹簧刚度和尾翼角度等设置时，必须将这一点纳入考虑。 | 调整尾翼角度时，应在起始尾翼角度为 15 degrees、前车高 15.0 mm、后车高 25.0 mm 的前提下进行以下配套调整，以维持空气动力平衡： |
-      | 最大总下压力的最佳配置如下：尾翼角度：+17 deg；俯冲翼：2；尾翼格尼襟翼：On；车身格尼襟翼：On；动态前车高：5.0 mm；动态后车高：50.0 mm | - 尾翼角度：+1
-      - 前车高：-3.0 mm
-      - 或
-      - 后车高：+3.5 mm |
-      | 车高高于或低于上述目标后，总下压力都会开始下降。以最大下压力为目标时，必须考虑赛道各处的实际状态。例如，如果制动时后车高超过目标值，空气动力学平衡会向前移动，同时总下压力也会降低，形成不稳定状态。在实际驾驶中，正是这些制动阶段的因素决定了车辆能够多接近理论最大下压力目标。 | 必要时也可以组合调整前后车高（例如后车高难以继续降低时）。这样在减小尾翼角度的同时，可以保留更多总下压力且不破坏平衡，但代价是空气阻力略微增加。 |
-      | 最小总阻力的最佳配置如下：尾翼角度：+12 degrees；俯冲翼：0；尾翼格尼襟翼：Off；车身格尼襟翼：Off；动态前车高：5.00 mm；动态后车高：5.00 mm | 这些参考值只是建议目标，车辆整体平衡仍应放在首位。在某些情境下，车辆可能无法在这些目标值上获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。 |
-      
-      在大多数赛道上，车高很难降至足以达到这些低阻力目标，不过在代托纳等赛道上有可能做到。请记住，绝对最低车高受路面状况限制。随着车高接近上述目标，空气阻力会下降；但如果车辆开始触地，总阻力反而可能增加。还需说明的是，这套低阻力设置无论对总下压力还是操控平衡而言都不是最佳方案。
-      
-      提高翼角 = 更多转向不足、更多下压力和更低直线速度。
-      - 尾翼角度：-1
-      - 前车高：+2.0 mm
-      - 或
-      - 后车高：-5.0 mm
-      降低翼角 = 更多转向过度、更少下压力、更少阻力、更低弯速和更高直线速度。
-      
-      | 关于升沉弹簧与第三弹簧的特别说明 | 数值 |
-      | --- | --- |
-      | 非线性选项可在预期速度范围内提供更好的车高控制（最大与最小车高差更小），但调校难度可能更高。 | 在不改变侧倾刚度的情况下，可以在赛道上通过调整前部垂向弹簧和后部第三弹簧来影响动态车高。 |
-      | 线性刚度可像传统弹簧一样使用，但可能导致底盘在速度范围中段高于最佳高度。 | 不允许对前升沉弹簧和后第三弹簧施加预载。 |
-      
-      较小的升沉 / 第三弹簧间隙会让弹簧更早承载，可用于避免底盘触地。这对车头尤其重要：为获得最大性能需要尽量降低车头，但不能低到使底板气流失速。
-      
-      | 底盘调整 | 数值 |
-      | --- | --- |
-      | 如果希望调整车辆的基础平衡，又不想显著改变空气动力学平台的俯仰与升沉控制，也不想调整差速器，可以使用前后可调防倾杆。 | - 更硬的前防倾杆 -&gt; 更多转向不足
-      - 更软的前防倾杆 -&gt; 更多转向过度
-      - 更硬的后防倾杆 -&gt; 更多转向过度
-      - 更软的后防倾杆 -&gt; 更多转向不足
-      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢。
-      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强。 |
-      | 更硬的前防倾杆 -&gt; 更多转向不足 | - 更硬的前防倾杆 -&gt; 更多转向不足
-      - 更软的前防倾杆 -&gt; 更多转向过度
-      - 更硬的后防倾杆 -&gt; 更多转向过度
-      - 更软的后防倾杆 -&gt; 更多转向不足
-      - 同时调软前、后防倾杆 -&gt; 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢。
-      - 同时调硬前、后防倾杆 -&gt; 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强。 |
-      | 更软的前防倾杆 -&gt; 更多转向过度 | 当弹簧一次改变超过一个档位时，可能无法仅靠防倾杆重新恢复平衡。 |
-      
-      - 更软的后防倾杆 -&gt; 更多转向不足
-      
-      | 差速器调整 | 数值 |
-      | --- | --- |
-      | 差速器提供三项调整。 | 更小斜坡角 -&gt; 锁止更强，效果类似增加摩擦面。 |
-      | - 更多摩擦面 -&gt; 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转。
-      - 更少摩擦面 -&gt; 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转。通常更适合斯帕等路面平整且路肩较平的赛道。 | 更大斜坡角 -&gt; 锁止更弱，效果类似减少摩擦面。 |
-      | - 更多摩擦面 -&gt; 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转。
-      - 更少摩擦面 -&gt; 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转。通常更适合斯帕等路面平整且路肩较平的赛道。 | 预载会叠加到差速器总锁止扭矩上，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不会消失。因此，在差速器输入扭矩接近零的过渡状态下，例如松开油门和／或刚开始拖刹时，预载的影响更为显著。 |
-      | 在全油门、持续制动或纯滑行等输入扭矩较高的情况下，摩擦面数量的影响占主导地位。 | - 更高预载 -&gt; 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
-      - 更低预载 -&gt; 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度。 |
-      | 差速器斜坡角的作用与摩擦面类似，但调整步进更细；本车的驱动与滑行斜坡角成对调整，因此可能需要在驱动或滑行特性之间作出取舍。 | - 更高预载 -&gt; 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度。
-      - 更低预载 -&gt; 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度。 |
-      
-      - 更硬的后防倾杆 -&gt; 更多转向过度
+      #### 空气动力学目标与调整
 
+      P217 对前后轴车高的细微变化非常敏感，因此调整静态车高、各轮弹簧刚度和后翼角度等设置时，必须将这一点纳入考虑。
+
+      最大总下压力的最佳配置如下：
+
+      - 后翼角度：+17 deg
+      - 俯冲翼：2
+      - 尾翼格尼襟翼：On
+      - 车身格尼襟翼：On
+      - 动态前车高：5.0 mm
+      - 动态后车高：50.0 mm
+
+      车高高于或低于上述目标后，总下压力都会开始下降。以最大下压力为目标时，必须考虑赛道各处的实际状态。例如，如果制动时后车高超过目标值，空气动力学平衡会向前移动，同时总下压力也会降低，形成不稳定状态。在实际驾驶中，正是这些制动阶段的因素决定了车辆能够多接近理论最大下压力目标。
+
+      最小总阻力的最佳配置如下：
+
+      - 后翼角度：+12 degrees
+      - 俯冲翼：0
+      - 尾翼格尼襟翼：Off
+      - 车身格尼襟翼：Off
+      - 动态前车高：5.00 mm
+      - 动态后车高：5.00 mm
+
+      在大多数赛道上，车高很难降至足以达到这些低阻力目标，不过在代托纳等赛道上有可能做到。请记住，绝对最低车高受路面状况限制。随着车高接近上述目标，空气阻力会下降；但如果车辆开始触地，总阻力反而可能增加。还需说明的是，这套低阻力设置无论对总下压力还是操控平衡而言都不是最佳方案。
+
+      调整后翼角度时，应在起始后翼角度为 15 degrees、前车高 15.0 mm、后车高 25.0 mm 的前提下进行以下配套调整，以维持空气动力平衡：
+
+      - 后翼角度：+1
+      - 前车高：-3.0 mm
+      - 或后车高：+3.5 mm
+
+      反向调整时：
+
+      - 后翼角度：-1
+      - 前车高：+2.0 mm
+      - 或后车高：-5.0 mm
+
+      必要时也可以组合调整前后车高（例如后车高难以继续降低时）。这样在减小后翼角度的同时，可以保留更多总下压力且不破坏平衡，但代价是空气阻力略微增加。
+
+      这些参考值只是建议目标，车辆整体平衡仍应放在首位。在某些情境下，车辆可能无法在这些目标值上获得良好平衡，此时应牺牲少量绝对性能，以换取更好的操控平衡。
+
+      - 降低后翼角度 = 更多转向过度、更少下压力、更少阻力、更低弯速和更高直线速度
+      - 提高后翼角度 = 更多转向不足、更多下压力、更多阻力、更高弯速和更低直线速度
+
+      #### 关于垂向弹簧与第三弹簧的特别说明
+
+      非线性选项可在预期速度范围内提供更好的车高控制（最大与最小车高差更小），但调校难度可能更高。
+
+      线性刚度可像传统弹簧一样使用，但可能导致底盘在速度范围中段高于最佳高度。
+
+      较小的垂向／第三弹簧间隙会让弹簧更早承载，可用于避免底盘触地。这对车头尤其重要：为获得最大性能需要尽量降低车头，但不能低到使底板气流失速。
+
+      通过在车库中调整扭杆圈数和弹簧座偏移来改变车高，可以推断垂向／第三弹簧在何种赛道动态车高下开始承载。
+
+      不允许对前垂向弹簧和后第三弹簧施加预载。
+
+      #### 底盘调整
+
+      如果希望调整车辆的基础平衡，又不想显著改变空气动力学平台的俯仰与垂向运动，也不想调整差速器，可以使用前后可调防倾杆。
+
+      - 更硬的前防倾杆 → 更多转向不足
+      - 更软的前防倾杆 → 更多转向过度
+      - 更硬的后防倾杆 → 更多转向过度
+      - 更软的后防倾杆 → 更多转向不足
+      - 同时调软前、后防倾杆 → 空气动力学性能下降、机械抓地力增加（适合颠簸路面）、对操作输入的响应变慢
+      - 同时调硬前、后防倾杆 → 空气动力学性能提升（适合高速长弯）、机械抓地力减少、对操作输入的响应增强
+
+      当弹簧一次改变超过一个档位时，可能无法仅靠防倾杆重新恢复平衡。
+
+      #### 差速器调整
+
+      差速器提供三项调整。
+
+      - 更多摩擦面 → 收油时更多转向不足、加油时更多转向过度，颠簸路面和压路肩时内侧车轮更不易空转
+      - 更少摩擦面 → 收油时更少转向不足、加油时更少转向过度，颠簸路面和压路肩时内侧车轮更容易空转；通常更适合斯帕等路面平整且路肩较平的赛道
+
+      在全油门、持续制动或纯滑行等输入扭矩较高的情况下，摩擦面数量的影响占主导地位。
+
+      差速器斜坡角的作用与摩擦面类似，但调整步进更细；本车的驱动与滑行斜坡角成对调整，因此可能需要在驱动或滑行特性之间作出取舍。
+
+      - 更小斜坡角 → 锁止更强，效果类似增加摩擦面
+      - 更大斜坡角 → 锁止更弱，效果类似减少摩擦面
+
+      预载会叠加到差速器总锁止扭矩上，相当于一个始终存在的偏置扭矩，即使输入扭矩为零也不会消失。因此，在差速器输入扭矩接近零的过渡状态下，例如松开油门和／或刚开始拖刹时，预载的影响更为显著。
+
+      - 更高预载 → 更少收油转向过度、更高入弯稳定性、收油时更多转向不足、加油时更多转向过度
+      - 更低预载 → 更多收油转向过度、更低入弯稳定性、收油时更少转向不足、加油时更少转向过度
     bodyEn: |+
-      | AERODYNAMIC TARGETS AND ADJUSTMENTS | Value |
-      | --- | --- |
-      | The P217 is very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle. | When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance assuming a starting wing position of 15 degrees and 15.0 mm front, 25.0 mm rear ride heights: |
-      | The optimal configuration for most total downforce is as follows: Rear Wing Angle: +17 deg Dive Planes: 2 Wing Gurney: On Deck Gurney:On Dynamic Front Ride Height: 5.0 mm Dynamic Rear Ride Height: 50.0 mm | Rear Wing Angle: +1 Front Ride Height: -3.0 mm OR Rear Ride Height: +3.5 mm |
-      | Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation. | It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag. |
-      | The optimal configuration for the least total drag is as follows: Rear Wing Angle: +12 degrees Dive Planes: 0 Wing Gurney: Off Deck Gurney: Off Dynamic Front Ride Height: 5.00 mm Dynamic Rear Ride Height: 5.00 mm | These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance. |
-      
+      #### AERODYNAMIC TARGETS AND ADJUSTMENTS
+
+      The P217 is very sensitive to small variations in ride heights at both the front and rear axle and this must be kept in mind when making setup adjustments such as static ride heights, corner spring rates and rear wing angle.
+
+      The optimal configuration for most total downforce is as follows: Rear Wing Angle: +17 deg Dive Planes: 2 Wing Gurney: On Deck Gurney:On Dynamic Front Ride Height: 5.0 mm Dynamic Rear Ride Height: 50.0 mm
+
+      Should you go over or under the ride height targets stated above you will begin to lose overall downforce. It is very important to consider all aspects of the track when aiming for this maximum downforce target. Consider that if the rear ride height increases beyond the target during braking, you will experience both a balance shift forwards and a loss in overall downforce resulting in a destabilizing situation. It is these braking considerations that will govern how closely you can approach this maximum in a real world situation.
+
+      The optimal configuration for the least total drag is as follows: Rear Wing Angle: +12 degrees Dive Planes: 0 Wing Gurney: Off Deck Gurney: Off Dynamic Front Ride Height: 5.00 mm Dynamic Rear Ride Height: 5.00 mm
+
+      When adjusting the rear wing angle, the following adjustments should be made to retain aerodynamic balance assuming a starting wing position of 15 degrees and 15.0 mm front, 25.0 mm rear ride heights:
+
+      Rear Wing Angle: +1 Front Ride Height: -3.0 mm OR Rear Ride Height: +3.5 mm
+
+      It is also possible to combine adjustments of front and rear ride height together if necessary (such as when lower rear heights cannot be easily achieved), this can result in more overall downforce being retained when reducing wing angle without detrimentally impacting the balance but at the cost of slightly increased aerodynamic drag.
+
+      These reference values are provided as targets to aim for, however, overall car balance should remain the priority. It may not be possible to achieve a good balance at these targets in certain situations and as such, you should elect to sacrifice some raw performance for a better balance.
+
       For the majority of tracks, it will be difficult to achieve ride heights low enough to hit these drag targets; however, it is possible at a track such as Daytona. Please keep in mind that your absolute minimums are governed by the road surface and that while aerodynamic drag will decrease as you approach these targets, overall drag may increase if the car starts to make ground contact. It should also be stated that this low drag trim is neither optimal for total downforce nor handling balance.
-      
+
       - Higher Rear Wing Angle = More understeer, more downforce, more drag, higher cornering speed, lower straight line speed.
       - Rear Wing Angle: -1
       - Front Ride Height: +2.0 mm
       - OR
       - Rear Ride Height: -5.0 mm
       - Lower Rear Wing Angle = More oversteer, less downforce, less drag, lower cornering speed, higher straight line speed.
-      
-      | A SPECIAL NOTE ON HEAVE & THIRD SPRINGS | Value |
-      | --- | --- |
-      | Non-linear options can provide better ride height control (less variation in min-max heights) over the expected speed range but can be more difficult to work with. | By varying the ride heights in the garage through adjusting the torsion bar turns and spring perch offset, you may infer at the on-track ride height at which the heave/third spring will be loaded. |
-      | Linear rates may be used in the same way as a conventional spring but may result in the chassis sitting higher than is optimal in the middle of the speed range. | It is not permitted to preload the front heave and rear third springs. |
-      
+
+      #### A SPECIAL NOTE ON HEAVE & THIRD SPRINGS
+
+      Non-linear options can provide better ride height control (less variation in min-max heights) over the expected speed range but can be more difficult to work with.
+
+      Linear rates may be used in the same way as a conventional spring but may result in the chassis sitting higher than is optimal in the middle of the speed range.
+
+      By varying the ride heights in the garage through adjusting the torsion bar turns and spring perch offset, you may infer at the on-track ride height at which the heave/third spring will be loaded.
+
+      It is not permitted to preload the front heave and rear third springs.
+
       A smaller heave/third spring gap loads the spring earlier and can be used to keep the chassis off the ground. This is particularly relevant for the front of the car where it is vital to run low for maximum performance but not so low that the floor is stalled.
-      
-      | CHASSIS ADJUSTMENTS | Value |
-      | --- | --- |
-      | Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available. | Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs. |
-      | Stiffer front ARB -&gt; More Understeer | Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs. |
-      | Softer front ARB -&gt; More Oversteer | When changing springs in more than one increment, it may not be possible to rebalance with ARB’s alone. |
-      
-      - Softer rear ARB -&gt; More Understeer
-      
-      | DIFFERENTIAL ADJUSTMENTS | Value |
-      | --- | --- |
-      | Three adjustment options are available for the differential. | Lower ramp angle -&gt; More locking, similar effects to more friction faces. |
-      | More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes. | Higher ramp angle -&gt; Less locking, similar effects to less friction faces. |
-      | Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing. | Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking. |
-      | Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown. | More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer. |
-      | Differential ramp angles act similarly to friction faces but in finer increments and are adjusted as a set pair on this car, thus, some trade off in either coast or drive may be required. | Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer. |
-      
+
+      #### CHASSIS ADJUSTMENTS
+
+      Should you wish to adjust the underpinning balance of the car without impacting the aero platform significantly in pitch and heave, or adjusting the differential then front and rear adjustable anti-roll bars are available.
+
+      - Stiffer front ARB -&gt; More Understeer
+      - Softer front ARB -&gt; More Oversteer
       - Stiffer rear ARB -&gt; More Oversteer
+      - Softer rear ARB -&gt; More Understeer
+
+      - Softer front AND rear ARB -&gt; Reduced aerodynamic performance, more mechanical grip (good for rough surfaces) and slower response to inputs.
+      - Stiffer front AND rear ARB -&gt; Increased aerodynamic performance (good for fast sweeping corners), less mechanical grip and increased response to inputs.
+
+      When changing springs in more than one increment, it may not be possible to rebalance with ARB’s alone.
+
+      #### DIFFERENTIAL ADJUSTMENTS
+
+      Three adjustment options are available for the differential.
+
+      - More friction faces -&gt; More off throttle understeer, more on throttle oversteer, less inside wheelspin-up on rough surfaces and kerb strikes.
+      - Less friction faces -&gt; Less off throttle understeer, less on throttle oversteer, more inside wheelspin-up on rough surfaces and kerb strikes. Typically better at tracks like Spa or those with smooth surfaces and flat kerbing.
+
+      Friction faces are dominant at high input torques such as full throttle, sustained braking or pure coastdown.
+
+      Differential ramp angles act similarly to friction faces but in finer increments and are adjusted as a set pair on this car, thus, some trade off in either coast or drive may be required.
+
+      - Lower ramp angle -&gt; More locking, similar effects to more friction faces.
+      - Higher ramp angle -&gt; Less locking, similar effects to less friction faces.
+
+      Preload is additive to the total locking torque of the differential and acts as an offset torque which is always present, even at zero input torque. This means that it is more dominant during transition behavior where the differential input torque is near zero, such as at throttle lift and/or during initial trail braking.
+
+      - More preload -&gt; Less liftoff oversteer, more corner entry stability, more off throttle understeer, more on throttle oversteer.
+      - Less preload -&gt; More liftoff oversteer, less corner entry stability, less off throttle understeer, less on throttle oversteer.
